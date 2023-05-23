@@ -1,0 +1,103 @@
+[
+    {
+      "content": "26. ... time do we have?",
+      "options": ["How much", "What quantity of", "What", "How many"]
+    },
+    {
+      "content": "27. Have you ... the new James Bond movie?",
+      "options": ["watched", "seen", "saw", "did see"]
+    },
+    {
+      "content": "28. Do you have ... tickets for the six o’clock show?",
+      "options": ["any", "some", "much", "a"]
+    },
+    {
+      "content": "29. John is more … than Ted.",
+      "options": ["intelligent", "smarter", "big", "often"]
+    },
+    {
+      "content": "30. John is ... at math than Ivan.",
+      "options": ["best", "bad", "good", "better"]
+    },
+    {
+      "content": "31. It ... when we left home.",
+      "options": ["rains", "was raining hard", "is raining", "much rain"]
+    },
+    {
+      "content": "32. I really needed ... hand.",
+      "options": ["a help", "helping", "a helping", "the help"]
+    },
+    {
+      "content": "33. I may ... a new coat.",
+      "options": ["buy myself", "to buy me", "to buy myself", "buy me"]
+    },
+    {
+      "content": "34. ... you pay for that; cash or credit card?",
+      "options": ["How will", "What will", "With what", "How"]
+    },
+    {
+      "content": "35. He works ... on the farm.",
+      "options": ["hard", "hardly", "busy", "usually"]
+    },
+    {
+      "content": "36. You will help me, ...?",
+      "options": ["no", "won’t you", "can you", "will you"]
+    },
+    {
+      "content": "37. ... I will take a taxi.",
+      "options": ["It will be raining", "It usually rains", "It rains", "If it rains"]
+    },
+    {
+      "content": "38. You should ... comfortable shoes to school.",
+      "options": ["wear", "to wear", "wears", "wearing"]
+    },
+    {
+      "content": "39. You don’t want to be late, ...?",
+      "options": ["no", "do you", "would you", "don’t you"]
+    },
+    {
+      "content": "40. This book ... Charles Dickens.",
+      "options": ["was written by", "he wrote it", "he writes it", "he writes it"]
+    },
+    {
+      "content": "41. When does the bus ... to Houston?",
+      "options": ["arrive", "leave", "depart", "go"]
+    },
+    {
+      "content": "42. After New York we are ... Washington.",
+      "options": ["visit", "seeing", "will be seeing", "going to visit"]
+    },
+    {
+      "content": "43. The coffee was ... hot to drink.",
+      "options": ["too", "enough", "very", "very much"]
+    },
+    {
+      "content": "44. Take the train. It is much ... than the bus.",
+      "options": ["rapid", "quickly", "faster", "more quickly"]
+    },
+    {
+      "content": "45. That’s a nice blouse. I ... very similar last week.",
+      "options": ["buy it", "was buying one", "have bought it", "bought one"]
+    },
+    {
+      "content": "46. Can you show me the white ... sweater please?",
+      "options": ["large", "and black expensive", "and blue woolen", "and red beautiful"]
+    },
+    {
+      "content": "47. I want ... a Broadway show before we leave New York.",
+      "options": ["to go", "seeing", "to see", "watching"]
+    },
+    {
+      "content": "48. Harry: I went to Spain on vacation. Daniel: … !",
+      "options": ["Me either", "Neither do I", "I too", "So did I"]
+    },
+    {
+      "content": "49. I prefer cats to dogs and ... does Henry.",
+      "options": ["either", "too", "so", "neither"]
+    },
+    {
+      "content": "50. James cut ... shaving this morning.",
+      "options": ["himself", "the face", "he", "him"]
+    }
+  ]
+  

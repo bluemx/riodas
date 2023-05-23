@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'nutmeg';
+  src: url('appassets/font/nutmeg-regular.woff2') format('woff2'),
+       url('appassets/font/nutmeg-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'nutmeg';
+  src: url('appassets/font/nutmeg-bold.woff2') format('woff2'),
+       url('appassets/font/nutmeg-bold.woff') format('woff');
+  font-weight: 700;
+
+}
+
+@font-face {
+  font-family: 'nutmeg';
+  src: url('appassets/font/nutmeg-ultrablack.woff2') format('woff2'),
+       url('appassets/font/nutmeg-ultrablack.woff') format('woff');
+  font-weight: 900;
+
+}
+
+:root {
+  font-family: nutmeg, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  //line-height: 1.5;
+  font-weight: normal;
+  color-scheme: light dark;
+  
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  @apply text-slate-600
+}
+
+
+html, #app{
+  @apply h-screen w-screen bg-rose-600;
+}
+#app{
+  @apply p-2 flex justify-center items-center flex-col;
+}
+
+.oda-screen{
+  @apply flex justify-center items-center flex-1 w-full h-full grow shrink bg-white rounded flex-col p-2;
+}
+
+.button{
+  @apply
+    transition-all
+    duration-500
+    ease-in-out
+    border-slate-500
+    bg-slate-100
+    py-1
+    px-2
+    rounded-lg
+    shadow-md shadow-slate-500/50
+    border-[1px]
+    border-b-4
+  ;
+}
+.button:hover{
+  @apply transition-all border-slate-400
+}
+.button:active{
+  @apply
+    transition-all
+    translate-y-1
+    border-b-2
+    shadow-none
+  ;
+}
+
+.btn{
+  text-transform: none;
+}
+
+
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: theme('colors.primary') #fff;
+}
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 8px;
+}
+*::-webkit-scrollbar-track {
+  background: #fff;
+  border-radius: 2px;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: theme('colors.primary');
+  border-radius: 4px;
+  border: 2px solid #fff;
+}
