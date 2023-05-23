@@ -47,6 +47,7 @@
                         "enumerate": true,
                         "class": "my-10 mx-auto max-w-2xl mx-auto bg-slate-100 p-5 rounded",
                         "content": [],
+                        "level": "A1",
                         "file": "preguntasA1.json"
                     },
                     {
@@ -77,6 +78,7 @@
                         "enumerate": true,
                         "class": "my-10 mx-auto max-w-2xl mx-auto bg-slate-100 p-5 rounded",
                         "content": [],
+                        "level": "A2",
                         "file": "preguntasA2.json"
                     },
                     {
@@ -107,6 +109,7 @@
                         "enumerate": true,
                         "class": "my-10 mx-auto max-w-2xl mx-auto bg-slate-100 p-5 rounded",
                         "content": [],
+                        "level": "B1",
                         "file": "preguntasB1.json"
                     },
                     {
@@ -137,6 +140,7 @@
                         "enumerate": true,
                         "class": "my-10 mx-auto max-w-2xl mx-auto bg-slate-100 p-5 rounded",
                         "content": [],
+                        "level": "B2",
                         "file": "preguntasB2.json"
                     },
                     {

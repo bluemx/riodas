@@ -46,7 +46,7 @@ if(hasinput){
     input.value = hasinput.v
     result.value = hasinput.r
 } else {
-    oda.setInput(props.blockindex, null, null)
+    oda.setInput(props.blockindex, null, null, props.data)
 }
 //AUTORESOLVE
 

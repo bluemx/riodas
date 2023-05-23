@@ -2,12 +2,12 @@
     <span :class="data.class || ''">
         {{ level() }}
     </span>
-    <!--
+<!--
     <div class="text-xs overflow-scroll h-96">
     <hr>
     {{ cleanresponse() }}
     </div>
-    -->
+-->
 
 </template>
 <script setup>
@@ -40,26 +40,33 @@ const level = () => {
 
 const cleanresponse = () => {
     const res = {
-        total: oda.getAllInputs.total,
+        total: 100,
+        totalLevel: oda.getAllInputs.total,
         responded: oda.getAllInputs.responded,
         positive: oda.getAllInputs.positive,
         level: level(),
-        inputs: {}
+        inputs: []
     }
     Object.keys(oda.getAllInputs.inputs).forEach((key)=>{
-        const id = oda.getAllInputs.inputs[key].data.id
-        const result = oda.getAllInputs.inputs[key].r
-        const value = oda.getAllInputs.inputs[key].v
-        res.inputs[id] = {
-            r:result,
-            v:value
-        }
+        const theitem = oda.getAllInputs.inputs[key]
+
+        res.inputs.push({
+            id: theitem.data.id,
+            r: theitem.r,
+            v: theitem.v,
+            questiontext: theitem.data.content,
+            lvl: theitem.data.level
+        })
 
     })
-
-    
-
     return res
 }
+
+
+const pMessage = () => {
+    const message = JSON.stringify(cleanresponse())
+    window.parent.postMessage(message, "*");
+}
+pMessage()
 
 </script>

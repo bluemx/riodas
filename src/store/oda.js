@@ -30,12 +30,12 @@ export const useOda = defineStore({
         },
         getSceneInputs(){
             return (scenenum) => {
-                if(this.user.inputs){
-                    let res = {}
-                    let responded = 0
-                    let positive = 0
-                    let total = 0
-                    
+
+                let res = {}
+                let responded = 0
+                let positive = 0
+                let total = 0
+                    if(this.user.inputs){
                         Object.keys(this.user.inputs).forEach(key=>{
                             if(key.split('-')[0]==scenenum){
                                 const bytes = CryptoJS.AES.decrypt(this.user.inputs[key], 'blue')
@@ -50,23 +50,25 @@ export const useOda = defineStore({
                                 total++
                             }
                         })
-                        return {
-                            inputs: res,
-                            responded: responded,
-                            positive: positive,
-                            total: total
-                        }
                     }
+
+                    return {
+                        inputs: res,
+                        responded: responded,
+                        positive: positive,
+                        total: total
+                    }
+
             }
         },
         getAllInputs(){
 
-            if(this.user.inputs){
-                let res = {}
-                let responded = 0
-                let positive = 0
-                let total = 0
-                
+
+            let res = {}
+            let responded = 0
+            let positive = 0
+            let total = 0
+                if(this.user.inputs){
                     Object.keys(this.user.inputs).forEach(key=>{
                             const bytes = CryptoJS.AES.decrypt(this.user.inputs[key], 'blue')
                             const item = JSON.parse(bytes.toString(CryptoJS.enc.Utf8))
@@ -79,13 +81,14 @@ export const useOda = defineStore({
                             }
                             total++
                     })
-                    return {
-                        inputs: res,
-                        responded: responded,
-                        positive: positive,
-                        total: total
-                    }
                 }
+                return {
+                    inputs: res,
+                    responded: responded,
+                    positive: positive,
+                    total: total
+                }
+
                 
         }
     },
