@@ -8,10 +8,11 @@
     {{ cleanresponse() }}
     </div>
     -->
-    
+
 </template>
 <script setup>
 import { useOda } from "../../store/oda.js"
+
 const oda = useOda()
 const props = defineProps({
     data: Object,
@@ -55,6 +56,9 @@ const cleanresponse = () => {
         }
 
     })
+
+    
+
     return res
 }
 
