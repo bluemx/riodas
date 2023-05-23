@@ -7,7 +7,7 @@
     <title>Ejemplo de obtención de datos</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/gradient-dark.min.css" integrity="sha512-9BPoD3EiW9STszfvG0c4C9aKPKVeS/b2JD6LTSGJ0MRB6SEn2GDn2mEPdj8QZBDHOStOpKRyUzkC8q31cyqy7A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/gradient-light.min.css" integrity="sha512-1GhzeBhtt0D/zt2tbRQV30B4+2/D5XKDDFwOT8oAlfFuipKTc1YvIaPA3MC1MfGYNVBdlIKmECqqWxNXOgS5gA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
     <style>
         pre, code {
@@ -17,8 +17,8 @@
 </head>
 <body>
 
-    <div>
-        <div class="bg-slate-100 text-slate-800 text-xs p-5">LEER DATOS DESDE PARENT:</div>
+    <div class="p-10">
+        <div class="bg-neutral-700 text-white font-bold text-xs p-5">LEER DATOS DESDE PARENT:</div>
         <pre><code class="language-javascript">
             window.addEventListener('message', function(event) {
                 var datosEnString = event.data;
@@ -29,20 +29,21 @@
 
     <div class="grid grid-cols-2 gap-1 p-1">
         <div class="w-full">
-            <div class="bg-slate-600 text-white text-xs p-5">IFRAME:</div>
-            <iframe src="http://localhost:5173/DIAGNOSTICO" frameborder="0" class="w-full h-[600px]"></iframe>
+            <div class="bg-slate-800 text-white font-bold text-xs p-5">IFRAME: https://odas.win/DIAGNOSTICO</div>
+            <iframe src="https://odas.win/DIAGNOSTICO" frameborder="0" class="w-full h-[500px]"></iframe>
         </div>
         <div>
-            <div class="bg-slate-800 text-white text-xs p-5">DATOS:</div>
-            <div class="overflow-auto h-[600px]">
+            <div class="bg-slate-900 text-white font-bold text-xs p-5">DATOS:</div>
+            <div class="overflow-auto h-[500px]">
                 <pre><code class="language-json" id="datos"></code></pre>
             </div>
 
         </div>
     </div>
     <script>
+        hljs.highlightAll();
         window.addEventListener('message', function(event) {
-            document.getElementById('datos').innerHTML =event.data
+            document.getElementById('datos').innerHTML =event.data.replaceAll(',"', ',\n"').replaceAll(',{', ',\n{')
             hljs.highlightAll();
         })
     </script>
