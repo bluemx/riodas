@@ -123,7 +123,7 @@ export const useOda = defineStore({
             }
             return responder
         },
-        setInput(blockindex, result, value){
+        setInput(blockindex, result, value, data){
             if(!this.user.inputs){
                 this.user.inputs = {}
             }
@@ -131,7 +131,8 @@ export const useOda = defineStore({
             this.user.inputs[blockindex] = CryptoJS.AES.encrypt(JSON.stringify(
                 {
                     r: result,
-                    v: value
+                    v: value,
+                    data: data
                 }
             ),'blue').toString()
         }

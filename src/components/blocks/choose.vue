@@ -1,7 +1,14 @@
 <template>
 
 <div :class="data.class || ''">
-    <div class="text-lg">{{ data.content }}</div>
+    <div class="text-lg">
+        <div v-if="data.id" class="inline-block">
+            <div class="bg-white mr-2 aspect-square h-8 rounded flex justify-center items-center text-neutral/50">
+                {{ data.id }}
+            </div>
+        </div>
+        {{ data.content }}
+    </div>
     <div class="w-full mt-4 text-center">
         <div class="flex justify-center items-center gap-2 flex-wrap">
             <template v-for="(item, index) in options" :key="index">
@@ -31,7 +38,7 @@ const result = ref()
 const choose = (item) => {
     input.value = item
     result.value = input.value == props.data.options[0]
-    oda.setInput(props.blockindex, result.value, input.value)
+    oda.setInput(props.blockindex, result.value, input.value, props.data)
 }
 //INIT
 const hasinput = oda.getInput(props.blockindex)

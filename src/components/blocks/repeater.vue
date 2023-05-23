@@ -21,7 +21,12 @@ const newData = []
 // READ PROPERTIES
 const newDataProperties = {}
 Object.keys(props.data).forEach(key => {
-   if(key!='block' && key!='repeat' && key!='content'){
+   if(
+        key!='block' &&
+        key!='repeat' && 
+        key!='content' &&
+        key!='indexstart'
+    ){
         newDataProperties[key] = props.data[key]
     }
     newDataProperties['block'] = props.data['repeat']
@@ -30,12 +35,18 @@ Object.keys(props.data).forEach(key => {
 
 // BUILD
 const buildData = () => {
+    let dataindex = 0
+    if(props.data.indexstart){
+        dataindex+=props.data.indexstart
+    }
     content.value.forEach(key => {
         newData.push(
-            {...key, ...newDataProperties}
+            {...key, ...newDataProperties, id:dataindex}
         )
+        dataindex++
     });
     dataloaded.value = true
+
 }
 
 // EXTERNAL FILE

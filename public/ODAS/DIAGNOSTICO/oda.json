@@ -43,8 +43,9 @@
                     {
                         "block": "repeater",
                         "repeat": "choose",
+                        "indexstart": 1,
                         "enumerate": true,
-                        "class": "my-10 mx-5 max-w-2xl mx-auto bg-slate-100 p-5 rounded",
+                        "class": "my-10 mx-auto max-w-2xl mx-auto bg-slate-100 p-5 rounded",
                         "content": [],
                         "file": "preguntasA1.json"
                     },
@@ -72,8 +73,9 @@
                     {
                         "block": "repeater",
                         "repeat": "choose",
+                        "indexstart": 25,
                         "enumerate": true,
-                        "class": "my-10 mx-5 max-w-2xl mx-auto bg-slate-100 p-5 rounded",
+                        "class": "my-10 mx-auto max-w-2xl mx-auto bg-slate-100 p-5 rounded",
                         "content": [],
                         "file": "preguntasA2.json"
                     },
@@ -101,8 +103,9 @@
                     {
                         "block": "repeater",
                         "repeat": "choose",
+                        "indexstart": 50,
                         "enumerate": true,
-                        "class": "my-10 mx-5 max-w-2xl mx-auto bg-slate-100 p-5 rounded",
+                        "class": "my-10 mx-auto max-w-2xl mx-auto bg-slate-100 p-5 rounded",
                         "content": [],
                         "file": "preguntasB1.json"
                     },
@@ -130,8 +133,9 @@
                     {
                         "block": "repeater",
                         "repeat": "choose",
+                        "indexstart": 75,
                         "enumerate": true,
-                        "class": "my-10 mx-5 max-w-2xl mx-auto bg-slate-100 p-5 rounded",
+                        "class": "my-10 mx-auto max-w-2xl mx-auto bg-slate-100 p-5 rounded",
                         "content": [],
                         "file": "preguntasB2.json"
                     },
