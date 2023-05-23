@@ -4,7 +4,7 @@
 </template>
 
 <script setup>
-const router = useRouter()
+//const router = useRouter()
 const route = useRoute()
 </script>
 
