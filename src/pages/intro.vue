@@ -8,7 +8,7 @@
 
         <Content  v-for="(item, index) in oda.oda.intro.content" :key="index" :data="item"></Content>
 
-        <router-link class="button text-3xl" to="/activity" tag="button">Comenzar</router-link>
+        <router-link class="button text-3xl" to="/activity" tag="button">Start</router-link>
         
         
 
