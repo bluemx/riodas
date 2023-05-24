@@ -97,6 +97,6 @@
     },
     {
     "content": "... lived here long",
-    "options": ["Do you", "You", "Did you", "Have you"]
+    "options": ["Have you", "Do you", "You", "Did you"]
     }
     ]

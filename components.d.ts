@@ -20,8 +20,10 @@ declare module '@vue/runtime-core' {
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     ScreenTransition: typeof import('./src/components/all/ScreenTransition.vue')['default']
+    Slides: typeof import('./src/components/blocks/slides.vue')['default']
     Text: typeof import('./src/components/blocks/text.vue')['default']
     TimerClock: typeof import('./src/components/all/TimerClock.vue')['default']
+    TimerCountdown: typeof import('./src/components/all/TimerCountdown.vue')['default']
     Variable: typeof import('./src/components/blocks/variable.vue')['default']
   }
 }

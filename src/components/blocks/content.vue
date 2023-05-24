@@ -6,6 +6,7 @@
 <Repeater v-else-if="data.block=='repeater'" :data="data" :blockindex="blockindex"></Repeater>
 <Button v-else-if="data.block=='button'" :data="data" :blockindex="blockindex"></Button>
 <Diagnostico v-else-if="data.block=='diagnostico'" :data="data" :blockindex="blockindex"></Diagnostico>
+<Slides v-else-if="data.block=='slides'" :data="data" :blockindex="blockindex"></Slides>
 
 </template>
 <script setup>

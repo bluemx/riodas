@@ -26,7 +26,7 @@ const play = () => {
     mojs.addShape('curl', Curl);
 
     const burst = new mojs.Burst({
-        radius: { 20: 140 },
+        radius: { 20: 100 },
         count: 10,
         duration: 1000,
         children: {

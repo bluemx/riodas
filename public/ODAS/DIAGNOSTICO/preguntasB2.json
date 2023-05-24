@@ -37,7 +37,7 @@
     },
     {
       "content": "You ... to take an aspirin if you have a headache.",
-      "options": ["will", "should", "would", "ought"]
+      "options": ["ought", "will", "should", "would"]
     },
     {
       "content": "Eat ... cookies if you’re hungry.",
@@ -49,7 +49,7 @@
     },
     {
       "content": "You look tired. You ... to get more sleep.",
-      "options": ["would", "ought", "can", "should"]
+      "options": ["ought", "would", "can", "should"]
     },
     {
       "content": "... the Harrison twins were at the party.",
@@ -69,7 +69,7 @@
     },
     {
       "content": "I like the circus but I ... go to the baseball game.",
-      "options": ["prefer", "should prefer", "rather", "would rather"]
+      "options": ["would rather", "prefer", "should prefer", "rather"]
     },
     {
       "content": "I would have bought the watch if I ... the money.",
@@ -81,7 +81,7 @@
     },
     {
       "content": "She finished her homework ... I was cleaning the kitchen.",
-      "options": ["after", "before", "while", "during"]
+      "options": ["while", "after", "before", "during"]
     },
     {
       "content": "He passed the exam ... he hadn’t studied.",

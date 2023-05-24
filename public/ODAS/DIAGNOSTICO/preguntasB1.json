@@ -37,7 +37,7 @@
     },
     {
       "content": "John: Is Mary ... to the party this evening?",
-      "options": ["going.", "was.", "isn't.", "will go."]
+      "options": ["going", "was", "isn't", "will go"]
     },
     {
       "content": "It was ... a cold day that I stayed in bed.",

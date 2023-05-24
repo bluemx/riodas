@@ -1,28 +1,75 @@
 {
     "title": "DIAGNOSTIC TEST",
-    "timer": 1000,
+    "time": 900,
     "intro": {
+        "buttons": {
+            "start": false
+        },
         "content": [
+            {
+                "block": "slides",
+                "class": "text-center m-5 text-xl rounded bg-slate-100 p-4",
+                "buttons": {
+                    "prev": "Regresar",
+                    "next": "Continuar"
+                },
+                "content": [
+                    {
+                        "block": "group",
+                        "class": "",
+                        "content": [
+                            {
+                                "block": "text",
+                                "class": "",
+                                "content": "Te damos la bienvenida a este examen diagnóstico del nivel de inglés, el cual tiene como objetivo medir tus conocimientos del idioma y posicionarte en alguno de los niveles que componen este programa."
+                            },
+                            {
+                                "block": "text",
+                                "class": "text-2xl block mt-5",
+                                "content": "Te deseamos mucho éxito."
+                            }
+                        ]
+                    },
+                    {
+                        "block": "group",
+                        "class": "",
+                        "content": [
+                            {
+                                "block": "text",
+                                "class": "",
+                                "content": "The objective of this exam is to place the student in the corresponding level according to the Common European Framework of Reference for Languages ​​(CEFR) A1+ to B2. Each section corresponds to each of the mentioned levels."
+                            },
+                            {
+                                "block": "text",
+                                "class": "text-neutral text-opacity-75 font-bold",
+                                "content": " Common European Framework of Reference for Languages ​​(CEFR) A1+ to B2. "
+                            },
+                            {
+                                "block": "text",
+                                "class": "",
+                                "content": "Each section corresponds to each of the mentioned levels."
+                            },
+                            {
+                                "block":"group",
+                                "class": "mt-5",
+                                "content": [
+                                    {
+                                        "block": "button",
+                                        "class":"button text-3xl",
+                                        "content": "Start",
+                                        "to": "/activity"
+                                    }
+                                ]
+                            }
+                            
+                        ]
+                    }
+                ]
+            },
             {
                 "block": "group",
                 "class": "text-center m-5 text-xl",
-                "content": [
-                    {
-                        "block": "text",
-                        "class": "",
-                        "content": "The objective of this exam is to place the student in the corresponding level according to the Common European Framework of Reference for Languages ​​(CEFR) A1+ to B2. Each section corresponds to each of the mentioned levels."
-                    },
-                    {
-                        "block": "text",
-                        "class": "text-neutral text-opacity-75 font-bold",
-                        "content": " Common European Framework of Reference for Languages ​​(CEFR) A1+ to B2. "
-                    },
-                    {
-                        "block": "text",
-                        "class": "",
-                        "content": "Each section corresponds to each of the mentioned levels."
-                    }
-                ]
+                "content": []
             }
         ]
     },
@@ -32,11 +79,21 @@
                 "content": [
                     {
                         "block": "group",
-                        "class": "bg-slate-100 p-5 rounded",
+                        "class": "bg-neutral  text-white p-5 rounded",
                         "content": [
                             {
                                 "block": "text",
                                 "content": "Please answer only when you DO know the answer. Do not guess. Leave the questions blank if you don't know what the correct answer is. The exams will take 15 minutes per section. The total amount of time in the exam is 60 minutes. "
+                            }
+                        ]
+                    },
+                    {
+                        "block": "group",
+                        "class": "bg-slate-200 px-5 py-2 text-sm rounded-b mx-4",
+                        "content": [
+                            {
+                                "block": "text",
+                                "content": "Por favor contesta solo las preguntas en las que SÍ sabes la respuesta. Trata de no adivinar. Puedes dejar sin resolver las preguntas que no sabes cuál es la respuesta correcta. Cada sección dura un tiempo aproximado de 15 minutos. El tiempo aproximado para resolver el examen en su totalidad es de 60 minutos"
                             }
                         ]
                     },
@@ -74,7 +131,7 @@
                     {
                         "block": "repeater",
                         "repeat": "choose",
-                        "indexstart": 25,
+                        "indexstart": 26,
                         "enumerate": true,
                         "class": "my-10 mx-auto max-w-2xl mx-auto bg-slate-100 p-5 rounded",
                         "content": [],
@@ -105,7 +162,7 @@
                     {
                         "block": "repeater",
                         "repeat": "choose",
-                        "indexstart": 50,
+                        "indexstart": 51,
                         "enumerate": true,
                         "class": "my-10 mx-auto max-w-2xl mx-auto bg-slate-100 p-5 rounded",
                         "content": [],
@@ -136,7 +193,7 @@
                     {
                         "block": "repeater",
                         "repeat": "choose",
-                        "indexstart": 75,
+                        "indexstart": 76,
                         "enumerate": true,
                         "class": "my-10 mx-auto max-w-2xl mx-auto bg-slate-100 p-5 rounded",
                         "content": [],

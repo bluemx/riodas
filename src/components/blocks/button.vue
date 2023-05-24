@@ -33,6 +33,9 @@ const clicked = () => {
     if(props.data.condition){
         hasCondition()
     }
+    if(props.data.to){
+        router.push(props.data.to)
+    }
 }
 
 </script>
