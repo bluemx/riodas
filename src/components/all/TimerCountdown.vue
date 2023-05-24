@@ -24,7 +24,7 @@ if(oda.user.time){
 }
 
 const setPercentagecolor = (percent) => {
-    console.log(percent<=10, percent)
+
     if(percent>75){
         percentagecolor.value = 'text-primary'
     } else if(percent<=75 && percent>50){
