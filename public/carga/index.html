@@ -21,7 +21,7 @@
         <div class="bg-neutral-700 text-white font-bold text-xs p-5">LEER DATOS DESDE PARENT:</div>
         <pre><code class="language-javascript">
             window.addEventListener('message', function(event) {
-                if(!event.data.total){ return false }
+                if(!JSON.parse(event.data).total){ return false }
                 var datosEnString = event.data;
                 var datosEnJSON = JSON.parse(event.data);
             })
@@ -44,7 +44,7 @@
     <script>
         hljs.highlightAll();
         window.addEventListener('message', function(event) {
-            if(!event.data.total){ return false }
+            if(!JSON.parse(event.data).total){ return false }
             document.getElementById('datos').innerHTML =event.data.replaceAll(',"', ',\n"').replaceAll(',{', ',\n{')
             hljs.highlightAll();
         })
