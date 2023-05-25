@@ -4,7 +4,9 @@
     
     <Content  v-for="(item, index) in oda.oda.end.content" :key="index" :data="item"></Content>
 
-    <button class="button" @click="restart()">Reiniciar</button>
+    <!--
+        <button class="button" @click="restart()">Reiniciar</button>
+    -->
 
 </div>
 </template>
