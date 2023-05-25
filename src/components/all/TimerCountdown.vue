@@ -9,19 +9,35 @@
 </div>
 </template>
 <script setup>
+
 import { useOda }  from '../../store/oda.js'
 const oda = useOda()
 const router = useRouter()
 const timestamp = useTimestamp()
 const percentagedown = ref(0)
 const percentagecolor = ref('text-neutral')
+const props = defineProps({
+    timecount: Number,
+    storeAs:String
+})
+
+
+
+// SET TIME
+const time = ref(0)
+time.value = props.timecount
+
+
+
 let initialTimestamp = timestamp.value;
 
-if(oda.user.time){
-    initialTimestamp -= (oda.user.time*1000)
+if(oda.user[props.storeAs]){
+    initialTimestamp -= (oda.user[props.storeAs]*1000)
 } else {
-    oda.user.time = 0
+    oda.user[props.storeAs] = 0
 }
+
+
 
 const setPercentagecolor = (percent) => {
 
@@ -39,15 +55,17 @@ const setPercentagecolor = (percent) => {
 
 }
 
+
+
 const elapseddown = computed(()=>{
     const elapsedtime = Math.floor((timestamp.value - initialTimestamp) / 1000);
-    if(elapsedtime >= oda.oda.time){
+    if(elapsedtime >= time.value){
         router.push('/end')
     }
-    oda.user.time = elapsedtime
-    percentagedown.value = (100/oda.oda.time) * elapsedtime
+    oda.user[props.storeAs] = elapsedtime
+    percentagedown.value = (100/time.value) * elapsedtime
     setPercentagecolor(percentagedown.value)
-    return secondsToTime(oda.oda.time - elapsedtime)
+    return secondsToTime(time.value - elapsedtime)
 })
 
 

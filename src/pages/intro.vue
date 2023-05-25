@@ -4,7 +4,7 @@
 
 <ScreenTransition></ScreenTransition>
 <div class="oda-screen">
-        <h1 class="text-4xl">{{ oda.oda.title }}</h1>
+        <h1 class="text-xl md:text-3xl">{{ oda.oda.title }}</h1>
 
         <Content  v-for="(item, index) in intro.content" :key="index" :data="item"></Content>
 

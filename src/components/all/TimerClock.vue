@@ -13,16 +13,16 @@ const oda = useOda()
 const timestamp = useTimestamp()
 let initialTimestamp = timestamp.value;
 
-if(oda.user.time){
-    initialTimestamp -= (oda.user.time*1000)
+if(oda.user.totaltime){
+    initialTimestamp -= (oda.user.totaltime*1000)
 } else {
-    oda.user.time = 0
+    oda.user.totaltime = 0
 }
 
 const elapsed = computed(()=>{
     const elapsedtime = Math.floor((timestamp.value - initialTimestamp) / 1000);
 
-    oda.user.time = elapsedtime;
+    oda.user.totaltime = elapsedtime;
     //return elapsedtime
     return secondsToTime(elapsedtime)
 })
@@ -43,7 +43,6 @@ const secondsToTime = (seconds) => {
 }
 
 const padZero = (value) => {
-  //return value
     return (value < 10) ? '0' + value : value;
 }
 

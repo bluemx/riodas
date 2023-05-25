@@ -39,8 +39,10 @@ const router = createRouter({
 router.beforeEach(async to => {
 
     const oda = useOda()
-    if(to.path!='/loading'){
+
+    if(to.path!='/loading' && to.path!='/error'){
         // ODA NOT LOADED ALREADY
+        
         if(!oda.loaded){
             router.push('/loading')
         }

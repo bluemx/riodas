@@ -14,6 +14,7 @@ const oda = useOda()
 const init = async () => {
     try{
         const odaloaded = await oda.init()
+
         if(!odaloaded){
             router.push('/error')
         } else {
