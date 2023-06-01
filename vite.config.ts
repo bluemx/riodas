@@ -9,6 +9,9 @@ import { resolve } from 'path';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  optimizeDeps: {
+    exclude: ['vue-demi']
+  },
   resolve: {
     alias: {
         vue: 'vue/dist/vue.esm-bundler.js'
@@ -41,7 +44,17 @@ export default defineConfig({
         'vue-router',
         {
           '@vueuse/core': ['useTimestamp', 'useDateFormat']
+        },
+        {
+          'howler': ['Howl', 'Howler']
+        },
+        {
+          'lodash': ['_']
+        },
+        {
+          'deepdash': ['deepdash-es']
         }
+
       ]
      }),
      Icons({

@@ -49,7 +49,6 @@ if(hasinput){
     oda.setInput(props.blockindex, null, null, props.data)
 }
 //AUTORESOLVE
-
 const currentInstance = getCurrentInstance()
 currentInstance.appContext.config.globalProperties.emitter.on('autosolve', e => {
     console.log('autosolve')

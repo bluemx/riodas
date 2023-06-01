@@ -1,6 +1,6 @@
 <template>
-<div class="oda-screen">
-    <ScreenTransition></ScreenTransition>
+<div class="text-white  hidden">
+
     <div>Cargando...</div>
 
 </div>
@@ -14,16 +14,15 @@ const oda = useOda()
 const init = async () => {
     try{
         const odaloaded = await oda.init()
-
         if(!odaloaded){
             router.push('/error')
         } else {
             if(oda.user == null || Object.keys(oda.user)==0){
-                router.push('/start')
+                router.push('/intro')
             } else if(oda.user.location) {
                     router.push(oda.user.location)
             } else {
-                router.push('/start')
+                router.push('/intro')
             }
         }
     } catch(err) {

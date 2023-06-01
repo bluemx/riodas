@@ -5,9 +5,14 @@
 export {}
 declare global {
   const EffectScope: typeof import('vue')['EffectScope']
+  const Howl: typeof import('howler')['Howl']
+  const Howler: typeof import('howler')['Howler']
+  const _: typeof import('lodash')['_']
   const computed: typeof import('vue')['computed']
   const createApp: typeof import('vue')['createApp']
   const customRef: typeof import('vue')['customRef']
+  const deepdash: typeof import('deepdash')['deepdash']
+  const deepdash-es: typeof import('deepdash')['deepdash-es']
   const defineAsyncComponent: typeof import('vue')['defineAsyncComponent']
   const defineComponent: typeof import('vue')['defineComponent']
   const effectScope: typeof import('vue')['effectScope']
@@ -57,6 +62,7 @@ declare global {
   const useRoute: typeof import('vue-router')['useRoute']
   const useRouter: typeof import('vue-router')['useRouter']
   const useSlots: typeof import('vue')['useSlots']
+  const useSound: typeof import('@vueuse/sound')['useSound']
   const useTimeAgo: typeof import('@vueuse/core')['useTimeAgo']
   const useTimestamp: typeof import('@vueuse/core')['useTimestamp']
   const watch: typeof import('vue')['watch']

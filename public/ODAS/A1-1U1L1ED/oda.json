@@ -1,0 +1,355 @@
+{
+    "title": "Exercise D. Myself",
+    "clock": false,
+    "countdown": 0,
+    "intro": {
+        "buttons": {
+            "start": "Start"
+        },
+        "content": []
+    },
+    "activity": {
+        "scenes": [
+            {
+                "countdown": 0,
+                "instructions": {
+                    "open": true,
+                    "content": [
+                        {
+                            "block": "group",
+                            "class": "flex gap-2 items-center",
+                            "content": [
+                                {
+                                    "block": "audio",
+                                    "class": "",
+                                    "file": "audio/instruction.mp3"
+                                },
+                                {
+                                    "block": "text",
+                                    "content": "Read the sentences and drag the best option."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "content": [
+                    {
+                        "block": "group",
+                        "class": "max-w-lg mx-auto my-10 text-2xl bg-slate-50 p-6 rounded",
+                        "content": [
+                            {
+                                "symbol": "pregunta",
+                                "content": [
+                                    {
+                                        "symbol": "numeral",
+                                        "text": "1."
+                                    },
+                                    {
+                                        "block": "text",
+                                        "text": "I "
+                                    },
+                                    {
+                                        "symbol": "dropzone",
+                                        "group": "uno",
+                                        "positive": [ 1 ]
+                                    },
+                                    {
+                                        "block": "text",
+                                        "text": " a woman."
+                                    }
+                                ]
+                            },
+                            {
+                                "symbol": "draglist",
+                                "group": "uno"
+                            }
+                        ]
+                    },
+                    {
+                        "block": "group",
+                        "class": "max-w-lg mx-auto my-10 text-2xl bg-slate-50 p-6 rounded",
+                        "content": [
+                            {
+                                "symbol": "pregunta",
+                                "content": [
+                                    {
+                                        "symbol": "numeral",
+                                        "text": "2."
+                                    },
+                                    {
+                                        "block": "text",
+                                        "text": "You "
+                                    },
+                                    {
+                                        "symbol": "dropzone",
+                                        "group": "dos",
+                                        "positive": [ 3 ]
+                                    },
+                                    {
+                                        "block": "text",
+                                        "text": " my friend."
+                                    }
+                                ]
+                            },
+                            {
+                                "symbol": "draglist",
+                                "group": "dos"
+                            }
+                        ]
+                    },
+                    {
+                        "block": "group",
+                        "class": "max-w-lg mx-auto my-10 text-2xl bg-slate-50 p-6 rounded",
+                        "content": [
+                            {
+                                "symbol": "pregunta",
+                                "content": [
+                                    {
+                                        "symbol": "numeral",
+                                        "text": "3."
+                                    },
+                                    {
+                                        "block": "text",
+                                        "text": "He "
+                                    },
+                                    {
+                                        "symbol": "dropzone",
+                                        "group": "tres",
+                                        "positive": [ 2 ]
+                                    },
+                                    {
+                                        "block": "text",
+                                        "text": " a man."
+                                    }
+                                ]
+                            },
+                            {
+                                "symbol": "draglist",
+                                "group": "tres"
+                            }
+                        ]
+                    },
+                    {
+                        "block": "group",
+                        "class": "max-w-lg mx-auto my-10 text-2xl bg-slate-50 p-6 rounded",
+                        "content": [
+                            {
+                                "symbol": "pregunta",
+                                "content": [
+                                    {
+                                        "symbol": "numeral",
+                                        "text": "4."
+                                    },
+                                    {
+                                        "block": "text",
+                                        "text": "She "
+                                    },
+                                    {
+                                        "symbol": "dropzone",
+                                        "group": "cuatro",
+                                        "positive": [ 2 ]
+                                    },
+                                    {
+                                        "block": "text",
+                                        "text": " a student."
+                                    }
+                                ]
+                            },
+                            {
+                                "symbol": "draglist",
+                                "group": "cuatro"
+                            }
+                        ]
+                    },
+                    {
+                        "block": "group",
+                        "class": "max-w-lg mx-auto my-10 text-2xl bg-slate-50 p-6 rounded",
+                        "content": [
+                            {
+                                "symbol": "pregunta",
+                                "content": [
+                                    {
+                                        "symbol": "numeral",
+                                        "text": "5."
+                                    },
+                                    {
+                                        "block": "text",
+                                        "text": "It "
+                                    },
+                                    {
+                                        "symbol": "dropzone",
+                                        "group": "cinco",
+                                        "positive": [ 2 ]
+                                    },
+                                    {
+                                        "block": "text",
+                                        "text": " a car."
+                                    }
+                                ]
+                            },
+                            {
+                                "symbol": "draglist",
+                                "group": "cinco"
+                            }
+                        ]
+                    },
+                    {
+                        "block": "group",
+                        "class": "max-w-lg mx-auto my-10 text-2xl bg-slate-50 p-6 rounded",
+                        "content": [
+                            {
+                                "symbol": "pregunta",
+                                "content": [
+                                    {
+                                        "symbol": "numeral",
+                                        "text": "6."
+                                    },
+                                    {
+                                        "block": "text",
+                                        "text": "We "
+                                    },
+                                    {
+                                        "symbol": "dropzone",
+                                        "group": "seis",
+                                        "positive": [ 3 ]
+                                    },
+                                    {
+                                        "block": "text",
+                                        "text": " friends."
+                                    }
+                                ]
+                            },
+                            {
+                                "symbol": "draglist",
+                                "group": "seis"
+                            }
+                        ]
+                    },
+                    {
+                        "block": "group",
+                        "class": "max-w-lg mx-auto my-10 text-2xl bg-slate-50 p-6 rounded",
+                        "content": [
+                            {
+                                "symbol": "pregunta",
+                                "content": [
+                                    {
+                                        "symbol": "numeral",
+                                        "text": "7."
+                                    },
+                                    {
+                                        "block": "text",
+                                        "text": "They "
+                                    },
+                                    {
+                                        "symbol": "dropzone",
+                                        "group": "siete",
+                                        "positive": [ 3 ]
+                                    },
+                                    {
+                                        "block": "text",
+                                        "text": " jumping."
+                                    }
+                                ]
+                            },
+                            {
+                                "symbol": "draglist",
+                                "group": "siete"
+                            }
+                        ]
+                    },
+                    {
+                        "block":"group",
+                        "class":"text-center my-10",
+                        "content":[
+                            {
+                                "block": "button",
+                                "class":"mx-auto",
+                                "content": "Finalizar",
+                                "to": "/end"
+                            }
+
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "end": {
+        "buttons": {
+            "restart": "Restart activity"
+        },
+        "content": [
+            {
+                "block": "group",
+                "class": "bg-slate-100 rounded p-5 text-center w-full",
+                "content": [
+                    {
+                        "block": "text",
+                        "content": "Congratulations, you finished the activity."
+                    }
+                ]
+            },
+            {
+                "block":"group",
+                "class": "text-center p-5",
+                "content":[
+                    {
+                        "block": "finished"
+                    }
+                ]
+            }
+        ]
+    },
+    "symbols": {
+        "numeral": {
+            "block": "text",
+            "tag": "div",
+            "class": "aspect-square w-8 flex justify-center items-center text-center rounded-full border-2 border-primary text-sm text-primary",
+            "text": "1."
+        },
+        "pregunta": {
+            "block": "group",
+            "class": "flex gap-2 justify-center items-center mb-10",
+            "content": []
+        },
+        "dropzone": {
+            "block": "draggable",
+            "class": "w-24",
+            "group": "one",
+            "pull": "false",
+            "put": false,
+            "sort": true,
+            "content": [],
+            "positive": [
+                1
+            ],
+            "showResult": true,
+            "attempts": 0
+        },
+        "draglist": {
+            "block": "draggable",
+            "class": " gap-2 my-2 text-lg mx-auto",
+            "group": "one",
+            "pull": "clone",
+            "put": false,
+            "sort": false,
+            "content": [
+                {
+                    "id": 1,
+                    "block": "text",
+                    "text": "am"
+                },
+                {
+                    "id": 2,
+                    "block": "text",
+                    "text": "is"
+                },
+                {
+                    "id": 3,
+                    "block": "text",
+                    "text": "are"
+                }
+            ]
+        }
+    }
+}

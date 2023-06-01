@@ -6,7 +6,13 @@
 <Repeater v-else-if="data.block=='repeater'" :data="data" :blockindex="blockindex"></Repeater>
 <Button v-else-if="data.block=='button'" :data="data" :blockindex="blockindex"></Button>
 <Diagnostico v-else-if="data.block=='diagnostico'" :data="data" :blockindex="blockindex"></Diagnostico>
+<Finished v-else-if="data.block=='finished'" :data="data" :blockindex="blockindex"></Finished>
 <Slides v-else-if="data.block=='slides'" :data="data" :blockindex="blockindex"></Slides>
+<Audio v-else-if="data.block=='audio'" :data="data" :blockindex="blockindex"></Audio>
+<Draggable v-else-if="data.block=='draggable'" :data="data" :blockindex="blockindex"></Draggable>
+
+
+<Symbol v-if="data.symbol" :data="data" :blockindex="blockindex"></Symbol>
 
 </template>
 <script setup>

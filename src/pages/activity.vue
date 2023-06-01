@@ -1,6 +1,6 @@
 <template>
-    <ScreenTransition></ScreenTransition>
     <div class="flex flex-col h-full w-full">
+        <ScreenTransition></ScreenTransition>
         <ActivityBar></ActivityBar>
         <div class="oda-screen overflow-auto">
             <div class="min-h-min m-auto overflow-auto max-h-full py-2 w-full">
@@ -8,6 +8,7 @@
                 <!--
                 <autosolve></autosolve>
                 -->
+                
             </div>
         </div>
     </div>

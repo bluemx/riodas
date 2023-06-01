@@ -35,7 +35,7 @@
 
 
 html{
-  @apply text-[10px] sm:text-[13px] md:text-base;
+  @apply text-[11px] sm:text-[13px] md:text-base;
 }
 
 :root {
@@ -48,19 +48,21 @@ html{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-  @apply text-slate-600
+  @apply text-slate-600 dark:text-slate-100
 }
 
 
 html, #app{
   @apply h-screen w-screen bg-rose-600;
+  max-height: -webkit-fill-available !important;
 }
 #app{
   @apply p-2 flex justify-center items-center flex-col;
 }
 
 .oda-screen{
-  @apply flex justify-center items-center flex-1 w-full h-full grow shrink bg-white rounded flex-col p-2;
+  @apply flex justify-center items-center flex-1 w-full h-full grow shrink bg-white dark:bg-neutral rounded flex-col p-2;
+  max-height: -webkit-fill-available !important;
 }
 
 .button{
@@ -76,6 +78,7 @@ html, #app{
     shadow-md shadow-slate-500/50
     border-[1px]
     border-b-4
+    text-slate-500
   ;
 }
 .button:hover{
@@ -113,4 +116,15 @@ html, #app{
   background-color: theme('colors.primary');
   border-radius: 4px;
   border: 2px solid #fff;
+}
+
+
+/* MODULES */
+.draggable .btn{
+  font-size: inherit !important;
+  height: auto !important;
+}
+
+[data-name="mojs-shape"]{
+  pointer-events: none;
 }

@@ -10,7 +10,7 @@ import ErrorPage from './pages/errorPage.vue'
 
 
 const routes = [
-    {path:'/start', component: Intro },
+    {path:'/intro', component: Intro },
     {path:'/activity', component: Activity },
     {path:'/activity/:scene', component: Activity },
     {path:'/end', component: End },

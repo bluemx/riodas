@@ -1,17 +1,17 @@
 <template>
-    <div id="bouncy" class="fixed inset-0 h-screen w-screen overflow-hidden z-50" v-if="visible"></div>
+    <div id="bouncy" ref="container" class="fixed inset-0 h-screen w-screen overflow-clip z-50 " v-if="visible"></div>
 </template>
 
 <script setup>
 import mojs from '@mojs/core'
 import ShapesAnimation from './ShapesAnimation.js'
 const visible = ref(true)
-
+const container = ref(null)
 
 
 onMounted(() => {
 
-    ShapesAnimation.play()
+    ShapesAnimation.play(container.value)
 
     const square = new mojs.Shape({
         parent: '#bouncy',
