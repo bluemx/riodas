@@ -3,7 +3,7 @@
 </template>
 <script setup>
 import { useOda } from "../../store/oda.js"
-
+import CryptoJS from 'crypto-js';
 const oda = useOda()
 const props = defineProps({
     data: Object,
@@ -15,12 +15,12 @@ const all = oda.getAllInputs
 
 const cleanresponse = () => {
     const res = {
-        total: oda.getAllInputs.total,
+        total: oda.getEvaluations.auto + oda.getEvaluations.manual,
+        evaluations: oda.getEvaluations,
         responded: oda.getAllInputs.responded,
         positive: oda.getAllInputs.positive,
-        inputs: oda.getAllInputs.inputs,
         seconds: oda.user.totaltime,
-        evaluations: oda.getEvaluations
+        inputs: CryptoJS.AES.encrypt(JSON.stringify(oda.getAllInputs.inputs),'blue').toString(),
     }
     return res
 }

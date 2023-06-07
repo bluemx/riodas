@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de obtención de datos ODA</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/hardcore.min.css" integrity="sha512-1GhzeBhtt0D/zt2tbRQV30B4+2/D5XKDDFwOT8oAlfFuipKTc1YvIaPA3MC1MfGYNVBdlIKmECqqWxNXOgS5gA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+    <style>
+        pre, code {
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="p-10">
+        <div class="bg-neutral-700 text-white font-bold text-xs p-5">LEER DATOS DESDE PARENT:</div>
+        <pre><code class="language-javascript">
+            window.addEventListener('message', function(event) {
+                if(!JSON.parse(event.data).total){ return false }
+                var datosEnString = event.data;
+                var datosEnJSON = JSON.parse(event.data);
+            })
+        </code></pre>
+    </div>
+
+    <div class="grid grid-cols-2 gap-1 p-1">
+        <div class="w-full">
+            <div class="bg-slate-800 text-white font-bold text-xs p-5">IFRAME: https://odas.win/A1-1U1L1ED</div>
+            <iframe src="http://localhost:5173/A1-1U1L1ED" frameborder="0" class="w-full h-[500px]"></iframe>
+        </div>
+        <div>
+            <div class="bg-slate-900 text-white font-bold text-xs p-5">DATOS:</div>
+            <div class="overflow-auto h-[500px]">
+                <pre><code class="language-json" id="datos"></code></pre>
+            </div>
+
+        </div>
+    </div>
+    <script>
+        hljs.highlightAll();
+        window.addEventListener('message', function(event) {
+            if(!JSON.parse(event.data).total){ return false }
+            document.getElementById('datos').innerHTML =event.data.replaceAll(',"', ',\n"').replaceAll(',{', ',\n{\n').replaceAll('{', '\n{\n').replaceAll('}', ',\n}')
+            hljs.highlightAll();
+        })
+    </script>
+</body>
+</html>
