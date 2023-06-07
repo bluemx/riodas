@@ -73,7 +73,8 @@
                                     1
                                 ],
                                 "showResult": true,
-                                "attempts": 0
+                                "attempts": 0,
+                                "evaluation": "auto"
                             },
                             {
                                 "block": "draggable",
@@ -94,7 +95,8 @@
                             },
                             {
                                 "block": "option",
-                                "attempts": 3,
+                                "attempts": 20,
+                                "showResult": true,
                                 "options": [
                                     {
                                         "block": "text",
@@ -106,7 +108,15 @@
                                         "class":"",
                                         "content": "NO"
                                     }
-                                ]
+                                ],
+                                "evaluation": "auto"
+                            },
+                            {
+                                "block": "textarea",
+                                "class":"",
+                                "tag": false,
+                                "content": "",
+                                "evaluation": "manual"
                             }
                         ]
                     },

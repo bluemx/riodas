@@ -51,7 +51,10 @@
                                     {
                                         "symbol": "dropzone",
                                         "group": "uno",
-                                        "positive": [ 1 ]
+                                        "positive": [
+                                            1
+                                        ],
+                                        "evaluation": "auto"
                                     },
                                     {
                                         "block": "text",
@@ -83,7 +86,10 @@
                                     {
                                         "symbol": "dropzone",
                                         "group": "dos",
-                                        "positive": [ 3 ]
+                                        "positive": [
+                                            3
+                                        ],
+                                        "evaluation": "auto"
                                     },
                                     {
                                         "block": "text",
@@ -115,7 +121,10 @@
                                     {
                                         "symbol": "dropzone",
                                         "group": "tres",
-                                        "positive": [ 2 ]
+                                        "positive": [
+                                            2
+                                        ],
+                                        "evaluation": "auto"
                                     },
                                     {
                                         "block": "text",
@@ -147,7 +156,10 @@
                                     {
                                         "symbol": "dropzone",
                                         "group": "cuatro",
-                                        "positive": [ 2 ]
+                                        "positive": [
+                                            2
+                                        ],
+                                        "evaluation": "auto"
                                     },
                                     {
                                         "block": "text",
@@ -179,7 +191,10 @@
                                     {
                                         "symbol": "dropzone",
                                         "group": "cinco",
-                                        "positive": [ 2 ]
+                                        "positive": [
+                                            2
+                                        ],
+                                        "evaluation": "auto"
                                     },
                                     {
                                         "block": "text",
@@ -211,7 +226,10 @@
                                     {
                                         "symbol": "dropzone",
                                         "group": "seis",
-                                        "positive": [ 3 ]
+                                        "positive": [
+                                            3
+                                        ],
+                                        "evaluation": "auto"
                                     },
                                     {
                                         "block": "text",
@@ -243,7 +261,10 @@
                                     {
                                         "symbol": "dropzone",
                                         "group": "siete",
-                                        "positive": [ 3 ]
+                                        "positive": [
+                                            3
+                                        ],
+                                        "evaluation": "auto"
                                     },
                                     {
                                         "block": "text",
@@ -258,16 +279,15 @@
                         ]
                     },
                     {
-                        "block":"group",
-                        "class":"text-center my-10",
-                        "content":[
+                        "block": "group",
+                        "class": "text-center my-10",
+                        "content": [
                             {
                                 "block": "button",
-                                "class":"mx-auto",
+                                "class": "mx-auto",
                                 "content": "Finalize",
                                 "to": "/end"
                             }
-
                         ]
                     }
                 ]
@@ -290,9 +310,9 @@
                 ]
             },
             {
-                "block":"group",
+                "block": "group",
                 "class": "text-center p-5",
-                "content":[
+                "content": [
                     {
                         "block": "finished"
                     }

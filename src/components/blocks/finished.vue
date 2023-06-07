@@ -18,7 +18,9 @@ const cleanresponse = () => {
         total: oda.getAllInputs.total,
         responded: oda.getAllInputs.responded,
         positive: oda.getAllInputs.positive,
-        inputs: oda.getAllInputs.inputs
+        inputs: oda.getAllInputs.inputs,
+        seconds: oda.user.totaltime,
+        evaluations: oda.getEvaluations
     }
     return res
 }

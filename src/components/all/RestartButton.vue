@@ -10,7 +10,7 @@ const props = defineProps({
 const router = useRouter()
 const oda = useOda()
 const restart = () => {
-    oda.user = {}
+    oda.restartUser()
     router.push('/'+oda.odaID)
 }
 </script>

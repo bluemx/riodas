@@ -1,8 +1,8 @@
 import { defineStore } from 'pinia'
 import { useStorage } from '@vueuse/core'
 import CryptoJS from 'crypto-js';
-
-
+import deepdash from 'deepdash-es';
+deepdash(_)
 
 export const useOda = defineStore({
     id: 'oda',
@@ -62,24 +62,22 @@ export const useOda = defineStore({
             }
         },
         getAllInputs(){
-
-
             let res = {}
             let responded = 0
             let positive = 0
             let total = 0
                 if(this.user.inputs){
                     Object.keys(this.user.inputs).forEach(key=>{
-                            const bytes = CryptoJS.AES.decrypt(this.user.inputs[key], 'blue')
-                            const item = JSON.parse(bytes.toString(CryptoJS.enc.Utf8))
-                            res[key] = item
-                            if(item.r != null){
-                                responded++
-                            }
-                            if(item.r){
-                                positive++
-                            }
-                            total++
+                        const bytes = CryptoJS.AES.decrypt(this.user.inputs[key], 'blue')
+                        const item = JSON.parse(bytes.toString(CryptoJS.enc.Utf8))
+                        res[key] = item
+                        if(item.r != null){
+                            responded++
+                        }
+                        if(item.r){
+                            positive++
+                        }
+                        total++
                     })
                 }
                 return {
@@ -90,6 +88,24 @@ export const useOda = defineStore({
                 }
 
                 
+        },
+        getEvaluations(){
+            const evaluations = {
+                auto: 0,
+                manual: 0
+            }
+            _.eachDeep(this.oda, (valueD, keyD, parentD, ctxD) => {
+                if(keyD=='evaluation'){
+                    if(valueD == 'auto'){
+                        evaluations.auto += 1;
+                    }
+                    if(valueD == 'manual'){
+                        evaluations.manual += 1;
+                    }
+                }
+            })
+
+            return evaluations
         }
     },
     actions: {
@@ -98,7 +114,6 @@ export const useOda = defineStore({
         },
         setUserLocation(path){
             this.user.location = path
-            console.log(this.user)
         },
         async init(){
             let responder = true
@@ -138,6 +153,9 @@ export const useOda = defineStore({
                     data: data
                 }
             ),'blue').toString()
+        },
+        restartUser(){
+            this.user = {}
         }
     }
 })

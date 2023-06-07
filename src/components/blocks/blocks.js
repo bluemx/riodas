@@ -1,58 +1,89 @@
 import success from '../../assets/uisound/notification_decorative-01.mp3'
 import nonsuccess from '../../assets/uisound/error_001.mp3'
-
-
-
+import ShapesAnimation from '../all/ShapesAnimation'
 
 const freeze = ref(false)
 const attempts = ref(0)
 const resultClass = ref('')
+const result = ref(null)
+// ---- 
+const oda = ref();
+const data = ref();
+const blockindex = ref();
+const blockref = ref();
 
-const evaluateFN = (oda, data, blockindex, input, result, mute) => {
-    // Freeze block if attempts limit
-    /*
-    if(props.data.attempts>0 && (attempts.value >= props.data.attempts)){
-        freeze.value = true
+const initFN = (BLOCKoda, BLOCKdata, BLOCKblockindex, BLOCKblockref) => {
+
+    oda.value = BLOCKoda;
+    data.value = BLOCKdata;
+    blockindex.value = BLOCKblockindex;
+    blockref.value = BLOCKblockref;
+    resultClass.value = ''
+    const stored = oda.value.getInput(blockindex.value)
+    if(stored) {
+        result.value = stored.r
+        attemptsFN(stored.data.attempts)
+        if(stored.v!=null){
+            console.log('evaluateAuto')
+            evaluateFN(stored.v, true)
+        }
+    } else {
+        result.value = null
+        attempts.value = 0
+        freeze.value = false
+        evaluateFN(null, true)
     }
-    */
-    /*
+    
+    return stored
+
+}
+
+const evaluateFN = (input, mute) => {
 
     //ShowResult
-    if(props.data.showResult && result.value!=null){
+    if(data.value.showResult && result.value!=null){
         //Class
-        showResultClass.value = result.value ? 'border-2 border-success' : 'border-2 border-primary'
+        resultClass.value = result.value ? 'border-2 border-success' : 'border-2 border-primary'
         //Sound
         if(!mute){
             if(result.value){
-                new Howl({ src: [sound3], rate: 1, volume: 0.8, autoplay:true })
+                new Howl({ src: [success], rate: 1, volume: 0.8, autoplay:true })
             } else {
-                new Howl({ src: [sound4], rate: 1, volume: 0.6, autoplay:true })
+                new Howl({ src: [nonsuccess], rate: 1, volume: 0.6, autoplay:true })
             }
         }
         //Freeze
         if(result.value){
-            ShapesAnimation.playkeep(block.value.targetDomElement, ['positive'])
+            ShapesAnimation.playkeep(blockref.value, ['positive'])
             freeze.value = true
         }
     }
-    */
-
 
     //#SAVE
-    //oda.setInput(props.blockindex, result.value, input.value, props.data)
+    oda.value.setInput(blockindex.value, result.value, input, {attempts: attempts.value})
+
 }
 
-const attemptsFN = (data) => {
-    
-    if(data?.attempts){
-        if(data.attempts>0 && (attempts.value >= data.attempts)){
-            freeze.value = true
-        } else {
-            attempts.value += 1
-        }
-    } else {
+
+
+const attemptsFN = (setAttempts) => {
+    attempts.value = setAttempts || attempts.value
+    if(freeze.value){
+        return false
+    }
+    if(!setAttempts){
         attempts.value += 1
     }
+
+    if(data.value?.attempts && data.value?.attempts>0){
+        if(attempts.value == data.value.attempts){
+            freeze.value = true
+        }
+    }
+
+
+
+
 }
 
-export default { freeze, attempts, resultClass, evaluateFN, attemptsFN }
+export default { freeze, attempts, resultClass, result, evaluateFN, attemptsFN, initFN }

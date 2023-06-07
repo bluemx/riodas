@@ -1,7 +1,7 @@
 <template>
 <div :class="data.class || ''" >
-    <template v-for="(item, index) in data.content" :key="index" >
-        <Content :data="item" :blockindex="blockindex+'-'+index" v-show="index==slide"></Content>
+    <template v-for="(item, index) in data.content" :key="index" v-show="index==slide">
+        <Content :data="item" :blockindex="blockindex+'-'+index"></Content>
     </template>
     <div class="flex justify-between items-center mt-5">
         <div>

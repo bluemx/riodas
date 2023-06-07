@@ -155,14 +155,12 @@ const playkeep = (parent, shapes) => {
   
     timeline.add(circle, circlebg,  symbol, burst);
     timeline.replay();
-  
+    
+    /*
     document.addEventListener("click", function (e) {
-      const coords = { x: e.pageX, y: e.pageY };
-      //burst.tune(coords);
-      //circle.tune(coords);
-      //symbol.tune(coords);
       timeline.replay();
     });
+    */
   
   };
 
