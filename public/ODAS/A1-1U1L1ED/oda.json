@@ -264,7 +264,7 @@
                             {
                                 "block": "button",
                                 "class":"mx-auto",
-                                "content": "Finalizar",
+                                "content": "Finalize",
                                 "to": "/end"
                             }
 
@@ -316,7 +316,7 @@
             "block": "draggable",
             "class": "w-24",
             "group": "one",
-            "pull": "false",
+            "pull": true,
             "put": false,
             "sort": true,
             "content": [],

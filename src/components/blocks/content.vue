@@ -2,7 +2,8 @@
 
 <Text v-if="data.block=='text'" :data="data" :data-blockindex="blockindex"></Text>
 <Group v-else-if="data.block=='group'" :data="data" :blockindex="blockindex" :data-blockindex="blockindex"></Group>
-<Choose v-else-if="data.block=='choose'" :data="data" :blockindex="blockindex" :data-blockindex="blockindex"></Choose>
+
+<Option v-else-if="data.block=='option'" :data="data" :blockindex="blockindex" :data-blockindex="blockindex"></Option>
 <Repeater v-else-if="data.block=='repeater'" :data="data" :blockindex="blockindex"></Repeater>
 <Button v-else-if="data.block=='button'" :data="data" :blockindex="blockindex"></Button>
 <Diagnostico v-else-if="data.block=='diagnostico'" :data="data" :blockindex="blockindex"></Diagnostico>
@@ -11,8 +12,11 @@
 <Audio v-else-if="data.block=='audio'" :data="data" :blockindex="blockindex"></Audio>
 <Draggable v-else-if="data.block=='draggable'" :data="data" :blockindex="blockindex"></Draggable>
 
-
+<!-- Diagnostico only-->
+<Choose v-else-if="data.block=='choose'" :data="data" :blockindex="blockindex" :data-blockindex="blockindex"></Choose>
+<!-- Symbol -->
 <Symbol v-if="data.symbol" :data="data" :blockindex="blockindex"></Symbol>
+
 
 </template>
 <script setup>

@@ -20,6 +20,7 @@ declare module '@vue/runtime-core' {
     Dropzone: typeof import('./src/components/blocks/dropzone.vue')['default']
     Finished: typeof import('./src/components/blocks/finished.vue')['default']
     Group: typeof import('./src/components/blocks/group.vue')['default']
+    Option: typeof import('./src/components/blocks/option.vue')['default']
     Repeater: typeof import('./src/components/blocks/repeater.vue')['default']
     RestartButton: typeof import('./src/components/all/RestartButton.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']

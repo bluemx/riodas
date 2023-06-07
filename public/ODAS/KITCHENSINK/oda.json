@@ -1,0 +1,156 @@
+{
+    "title": "Kitchen Sink",
+    "clock": true,
+    "countdown": 0,
+    "intro": {
+        "buttons": {
+            "start": "Start"
+        },
+        "content": [
+            {
+                "block": "text",
+                "class": "",
+                "tag": false,
+                "content": "Text at start"
+            }
+        ]
+    },
+    "activity": {
+        "scenes": [
+            {
+                "countdown": 0,
+                "instructions": {
+                    "open": true,
+                    "content": [
+                        {
+                            "block": "group",
+                            "class": "flex gap-2 items-center",
+                            "content": [
+                                {
+                                    "block": "audio",
+                                    "class": "",
+                                    "file": "audio/instruction.mp3"
+                                },
+                                {
+                                    "block": "text",
+                                    "content": "Instruction text"
+                                }
+                            ]
+                        },
+                        {
+                            "block": "button",
+                            "class": "mx-auto mt-2 text-xs",
+                            "content": "Return to intro",
+                            "to": "/intro"
+                        }
+                    ]
+                },
+                "content": [
+                    {
+                        "block": "group",
+                        "class": "grid grid-cols-2 gap-2",
+                        "content": [
+                            {
+                                "block": "text",
+                                "class": "block",
+                                "tag": false,
+                                "content": "Simple text"
+                            },
+                            {
+                                "block": "audio",
+                                "class": "",
+                                "file": "audio/instruction.mp3"
+                            },
+                            {
+                                "block": "draggable",
+                                "class": "",
+                                "group": "one",
+                                "pull": true,
+                                "put": true,
+                                "sort": true,
+                                "content": [],
+                                "positive": [
+                                    1
+                                ],
+                                "showResult": true,
+                                "attempts": 0
+                            },
+                            {
+                                "block": "draggable",
+                                "class": " p-10",
+                                "group": "one",
+                                "pull": true,
+                                "put": true,
+                                "sort": true,
+                                "content": [
+                                    {
+                                        "id": 1,
+                                        "block": "text",
+                                        "class": "",
+                                        "tag": false,
+                                        "content": "Item"
+                                    }
+                                ]
+                            },
+                            {
+                                "block": "option",
+                                "attempts": 3,
+                                "options": [
+                                    {
+                                        "block": "text",
+                                        "class":"",
+                                        "content": "OK"
+                                    },
+                                    {
+                                        "block": "text",
+                                        "class":"",
+                                        "content": "NO"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "block": "group",
+                        "class": "text-center mt-10",
+                        "content": [
+                            {
+                                "block": "button",
+                                "class": "mx-auto",
+                                "content": "Finalize",
+                                "to": "/end"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "end": {
+        "buttons": {
+            "restart": "Restart activity"
+        },
+        "content": [
+            {
+                "block": "group",
+                "class": "bg-slate-100 rounded p-5 text-center w-full",
+                "content": [
+                    {
+                        "block": "text",
+                        "content": "Congratulations, you finished the activity."
+                    }
+                ]
+            },
+            {
+                "block": "group",
+                "class": "text-center p-5",
+                "content": [
+                    {
+                        "block": "finished"
+                    }
+                ]
+            }
+        ]
+    },
+    "symbols": {}
+}

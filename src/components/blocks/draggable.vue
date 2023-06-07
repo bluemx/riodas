@@ -43,7 +43,7 @@ const props = defineProps({
     data: Object,
     blockindex: String
 })
-const block= ref(null)
+const block = ref(null)
 const result = ref()
 const attempts = ref(0)
 const items = ref(JSON.parse(JSON.stringify(props.data.content)))
@@ -57,7 +57,9 @@ const onstart = () => {
 }
 const onchange = (e) => {
     attempts.value += 1
-    items.value.push( items.value.splice(e.added.newIndex, 1)[0] )
+    if(items.value.length>1){
+        items.value.push( items.value.splice(e.added.newIndex, 1)[0] )
+    }
     if(e.added && props.data.positive){
         if(items.value.length > props.data.positive.length){
             items.value.splice(items.value.length-2,1)
@@ -73,7 +75,6 @@ const onend = (e) => {
 }
 
 const evaluate = (mute) => {
-    console.log('evaluate!')
     // Freeze block if attempts limit
     if(props.data.attempts>0 && (attempts.value >= props.data.attempts)){
         freeze.value = true

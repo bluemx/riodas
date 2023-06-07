@@ -29,6 +29,7 @@ const props = defineProps({
     data: Object,
     blockindex: String
 })
+
 //OPTIONS sort
 const options = [...props.data.options].sort(() => Math.random() - 0.5);
 //INPUT
