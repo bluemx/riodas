@@ -128,3 +128,13 @@ html, #app{
 [data-name="mojs-shape"]{
   pointer-events: none;
 }
+
+
+
+
+.vjs-big-play-button{
+  @apply  !btn-primary ;
+}
+.vjs-control-bar{
+  @apply !bg-primary/50;
+}

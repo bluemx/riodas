@@ -2,7 +2,7 @@
 <div :class="data.class || ''">
     <div class="w-full mt-4 text-center">
         <div ref="block" :class="['relative flex justify-center items-center gap-2 flex-wrap rounded', blocks.resultClass.value]" >
-            <template v-for="(item, index) in options" :key="index">
+            <template v-for="(item, index) in options" :key="'op'+index">
                 <button :class="['btn', item.index==input?'btn-accent ':'btn-neutral btn-outline']" @click="onChange(item.index)">
                     <Content :data="item" ></Content>
                 </button>
@@ -16,7 +16,8 @@
 
 
 import { useOda } from "../../store/oda.js"
-import blocks from './blocks.js'
+import {useBlocks} from './blocks.js'
+const blocks = useBlocks()
 const oda = useOda()
 const block = ref()
 
@@ -38,7 +39,7 @@ if(props.data.options){
 }
 //INPUT
 const input = ref()
-const result = ref()
+
 
 //ACTION
 const onChange = (itemindex) => {
@@ -53,7 +54,6 @@ const onChange = (itemindex) => {
 const evaluate = (itemindex) => {
     input.value = itemindex
     blocks.result.value = input.value == 0
-    
     blocks.evaluateFN(input.value)
 }
 
@@ -66,8 +66,6 @@ onMounted(() => {
     }
 })
 // INIT
-
-
 
 
 /*

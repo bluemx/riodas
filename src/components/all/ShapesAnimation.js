@@ -86,6 +86,32 @@ const playcircle = (parent, shapes) => {
 
 
 
+const working = (parent) => {
+  const theparent = parent || document.body;
+  const theshapes = ["donut", "cross", "slice", "box", "curl"];
+  const RADIUS = 28;
+  const burst = new mojs.Burst({
+    parent: theparent,
+    left:'50%',
+    top:'50%',
+    radius:   { 30 : RADIUS - 20 },
+    count: 5,
+    children: {
+      shape: theshapes,
+      fill: ['transparent'],
+      radius: { 10 : RADIUS*2},
+      duration: 700,
+      delay: 200,
+      easing: "quad.out"
+    }
+  });
+  //burst.play()
+  const timeline = new mojs.Timeline({ repeat:10, parent: theparent });
+  timeline.add(burst);
+  timeline.replay();
+}
+
+
 const playkeep = (parent, shapes) => {
     const theparent = parent || document.body;
     const theshapes = shapes || ["donut", "cross", "slice", "box", "curl"];
@@ -165,4 +191,4 @@ const playkeep = (parent, shapes) => {
   };
 
 
-export default { play, playkeep }
+export default { play, playkeep, working }

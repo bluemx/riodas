@@ -14,6 +14,7 @@
 </template>
 <script setup>
 const props = defineProps({
-    data: Object
+    data: Object,
+    blockindex: String
 })
 </script>

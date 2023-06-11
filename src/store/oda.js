@@ -10,7 +10,10 @@ export const useOda = defineStore({
         odaID: useStorage('rioda_ID', null),
         oda: null,
         user: null,
-        odaloaded: false
+        odaloaded: false,
+        //FIXME: create a function to getfiles
+        //FIXME: call this baseurl on webhistory
+        //baseurl: '/riodas'
     }),
     getters: {
         getOda(){

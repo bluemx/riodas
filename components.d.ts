@@ -9,17 +9,19 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    '<templateImage': typeof import('./src/components/blocks/<templateImage.vue')['default']
     ActivityBar: typeof import('./src/components/all/ActivityBar.vue')['default']
     Audio: typeof import('./src/components/blocks/audio.vue')['default']
+    Audiorecord: typeof import('./src/components/blocks/audiorecord.vue')['default']
     Autosolve: typeof import('./src/components/blocks/autosolve.vue')['default']
     Button: typeof import('./src/components/blocks/button.vue')['default']
     Choose: typeof import('./src/components/blocks/choose.vue')['default']
     Content: typeof import('./src/components/blocks/content.vue')['default']
     Diagnostico: typeof import('./src/components/blocks/diagnostico.vue')['default']
     Draggable: typeof import('./src/components/blocks/draggable.vue')['default']
-    Dropzone: typeof import('./src/components/blocks/dropzone.vue')['default']
     Finished: typeof import('./src/components/blocks/finished.vue')['default']
     Group: typeof import('./src/components/blocks/group.vue')['default']
+    Image: typeof import('./src/components/blocks/Image.vue')['default']
     Option: typeof import('./src/components/blocks/option.vue')['default']
     Repeater: typeof import('./src/components/blocks/repeater.vue')['default']
     RestartButton: typeof import('./src/components/all/RestartButton.vue')['default']
@@ -28,10 +30,13 @@ declare module '@vue/runtime-core' {
     SceneInstructions: typeof import('./src/components/all/SceneInstructions.vue')['default']
     ScreenTransition: typeof import('./src/components/all/ScreenTransition.vue')['default']
     Slides: typeof import('./src/components/blocks/slides.vue')['default']
+    Switch: typeof import('./src/components/blocks/switch.vue')['default']
     Symbol: typeof import('./src/components/blocks/symbol.vue')['default']
     Text: typeof import('./src/components/blocks/text.vue')['default']
+    Textarea: typeof import('./src/components/blocks/textarea.vue')['default']
     TimerClock: typeof import('./src/components/all/TimerClock.vue')['default']
     TimerCountdown: typeof import('./src/components/all/TimerCountdown.vue')['default']
     Variable: typeof import('./src/components/blocks/variable.vue')['default']
+    Video: typeof import('./src/components/blocks/video.vue')['default']
   }
 }

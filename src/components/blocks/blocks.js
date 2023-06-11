@@ -2,6 +2,9 @@ import success from '../../assets/uisound/notification_decorative-01.mp3'
 import nonsuccess from '../../assets/uisound/error_001.mp3'
 import ShapesAnimation from '../all/ShapesAnimation'
 
+export function useBlocks () {
+
+
 const freeze = ref(false)
 const attempts = ref(0)
 const resultClass = ref('')
@@ -12,8 +15,9 @@ const data = ref();
 const blockindex = ref();
 const blockref = ref();
 
-const initFN = (BLOCKoda, BLOCKdata, BLOCKblockindex, BLOCKblockref) => {
+//const myid = Math.random()*1000
 
+const initFN = (BLOCKoda, BLOCKdata, BLOCKblockindex, BLOCKblockref) => {
     oda.value = BLOCKoda;
     data.value = BLOCKdata;
     blockindex.value = BLOCKblockindex;
@@ -24,7 +28,6 @@ const initFN = (BLOCKoda, BLOCKdata, BLOCKblockindex, BLOCKblockref) => {
         result.value = stored.r
         attemptsFN(stored.data.attempts)
         if(stored.v!=null){
-            console.log('evaluateAuto')
             evaluateFN(stored.v, true)
         }
     } else {
@@ -39,7 +42,6 @@ const initFN = (BLOCKoda, BLOCKdata, BLOCKblockindex, BLOCKblockref) => {
 }
 
 const evaluateFN = (input, mute) => {
-
     //ShowResult
     if(data.value.showResult && result.value!=null){
         //Class
@@ -86,4 +88,8 @@ const attemptsFN = (setAttempts) => {
 
 }
 
-export default { freeze, attempts, resultClass, result, evaluateFN, attemptsFN, initFN }
+return { freeze, attempts, resultClass, result, evaluateFN, attemptsFN, initFN }
+//export default { freeze, attempts, resultClass, result, evaluateFN, attemptsFN, initFN }
+
+
+}

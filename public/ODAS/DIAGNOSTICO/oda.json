@@ -9,7 +9,7 @@
         "content": [
             {
                 "block": "slides",
-                "class": "text-center m-5 text-xl rounded bg-slate-100 p-4",
+                "class": "text-center m-5 text-xl rounded bg-slate-100 p-4 dark:text-neutral",
                 "buttons": {
                     "prev": "Regresar",
                     "next": "Continuar"
@@ -234,6 +234,7 @@
                 "content": [
                     {
                         "block": "text",
+                        "class":"dark:text-neutral",
                         "content": "Congratulations, you have been placed at: "
                     },
                     {
@@ -242,6 +243,7 @@
                     },
                     {
                         "block": "text",
+                        "class":"dark:text-neutral",
                         "content": " level!"
                     }
                 ]

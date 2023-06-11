@@ -1,4 +1,4 @@
-import{ createRouter, createWebHistory, createMemoryHistory } from 'vue-router'
+import{ createRouter, createWebHistory, createMemoryHistory, createWebHashHistory } from 'vue-router'
 import { useOda } from "./store/oda.js"
 
 // Pages
@@ -15,9 +15,7 @@ const routes = [
     {path:'/activity/:scene', component: Activity },
     {path:'/end', component: End },
     {path: '/error', component: ErrorPage },
-    {path: '/loading', component: Loading },
-    {path: '/', redirect:'/error' },
-    
+    {path: '/loading', component: Loading },    
     {path: '/:odaID', redirect: to => {
         // SET ODA ID
         const oda = useOda()
@@ -27,12 +25,17 @@ const routes = [
         } else {
             return {path: '/error'}
         }
-    }}
+    }},
+    {path: '/', redirect: to => {
+        return {path: '/error'}
+    } },
 
 ]
 const router = createRouter({
     //history: createMemoryHistory(),
-    history: createWebHistory(),
+    //history: createWebHistory('/riodas'),
+    history: createWebHashHistory(),
+
     routes
 })
 
