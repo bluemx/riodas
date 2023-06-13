@@ -135,8 +135,9 @@ export const useOda = defineStore({
                 if(oda){
                     this.oda = oda
                 }
-                this.user = useStorage('rioda_'+this.odaID+'_USER', {})
-                
+                //Disable localstorage
+                //this.user = useStorage('rioda_'+this.odaID+'_USER', {})
+                this.user = {}
                 responder = true
             } catch (err){
                 console.log(err)

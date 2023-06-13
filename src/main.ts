@@ -5,7 +5,7 @@ import { createPinia } from 'pinia'
 import router from './router.js'
 import VueVideoPlayer from '@videojs-player/vue'
 import 'video.js/dist/video-js.css'
-
+import 'animate.css';
 import { emitter } from './bus.js'
 
 declare module '@vue/runtime-core' {

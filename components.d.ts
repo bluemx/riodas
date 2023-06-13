@@ -21,7 +21,7 @@ declare module '@vue/runtime-core' {
     Draggable: typeof import('./src/components/blocks/draggable.vue')['default']
     Finished: typeof import('./src/components/blocks/finished.vue')['default']
     Group: typeof import('./src/components/blocks/group.vue')['default']
-    Image: typeof import('./src/components/blocks/Image.vue')['default']
+    Image: typeof import('./src/components/blocks/image.vue')['default']
     Option: typeof import('./src/components/blocks/option.vue')['default']
     Repeater: typeof import('./src/components/blocks/repeater.vue')['default']
     RestartButton: typeof import('./src/components/all/RestartButton.vue')['default']

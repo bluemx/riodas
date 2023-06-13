@@ -1,0 +1,137 @@
+{
+    "title": "Exercise E  Myself",
+    "clock": true,
+    "countdown": 0,
+    "intro": {
+        "buttons": {
+            "start": "Start"
+        },
+        "content": []
+    },
+    "activity": {
+        "scenes": [
+            {
+                "countdown": 0,
+                "instructions": {
+                    "open": true,
+                    "content": [
+                        {
+                            "block": "group",
+                            "class": "flex gap-2 items-center",
+                            "content": [
+                                {
+                                    "block": "audio",
+                                    "file": "instruccion.mp3"
+                                },
+                                {
+                                    "block": "text",
+                                    "content": "See the examples below"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "content": [
+                    {
+                        "block": "group",
+                        "class": "flex justify-center text-center",
+                        "content": [
+                            {
+                                "block": "text",
+                                "class": "text-4xl font-bold",
+                                "content": "Use verb TO BE to talk about you and your friends"
+                            }
+                        ]
+                    },
+                    {
+                        "block": "group",
+                        "class": "grid grid-cols-1 md:grid-cols-2 gap-10 mt-10 items-center justify-center flex-wrap bg-amber-50 p-5 rounded m-5 text-center",
+                        "content": [
+                            {
+                                "block": "text",
+                                "class":"animate__animated animate__bounce animate__delay-2s  p-5 bg-gradient-to-r from-primary to-secondary text-white rounded text-xl",
+                                "text": "Susan is my friend"
+                            },
+                            {
+                                "block": "text",
+                                "class": "animate__animated animate__bounce  animate__delay-3s  p-5 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded text-xl",
+                                "text": "She's my friend"
+                            },
+                            {
+                                "block": "text",
+                                "class": "animate__animated animate__bounce  animate__delay-2s  p-5 bg-gradient-to-r from-green-500 to-yellow-500 text-white rounded text-xl",
+                                "text": "They're my family"
+                            },
+                            {
+                                "block": "text",
+                                "class": "animate__animated animate__bounce  animate__delay-3s  p-5 bg-gradient-to-r from-red-500 to-yellow-500 text-white rounded text-xl",
+                                "text": "It's a pretty flower"
+                            },
+                            {
+                                "block": "text",
+                                "class": "animate__animated animate__bounce animate__delay-2s  p-5 bg-gradient-to-r from-blue-400 to-indigo-400 text-white rounded text-xl",
+                                "text": "I'm a brilliant student"
+                            },
+                            {
+                                "block": "text",
+                                "class": "animate__animated animate__bounce animate__delay-3s  p-5 bg-gradient-to-r from-primary to-green-400 text-white rounded text-xl",
+                                "text": "We're very happy"
+                            },
+                            {
+                                "block": "text",
+                                "class": "animate__animated animate__bounce animate__delay-2s  p-5 bg-gradient-to-r from-red-400 to-yellow-400 text-white rounded text-xl",
+                                "text": "He is my brother"
+                            },
+                            {
+                                "block": "text",
+                                "class": "animate__animated animate__bounce animate__delay-3s  p-5 bg-gradient-to-r from-pink-400 to-purple-400 text-white rounded text-xl",
+                                "text": "You're playing"
+                            }
+                            
+                            
+                        ]
+                    },
+                    {
+                        "block": "group",
+                        "class": "text-center mt-10",
+                        "content": [
+                            {
+                                "block": "button",
+                                "class": "mx-auto",
+                                "content": "Finalize",
+                                "to": "/end"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "end": {
+        "buttons": {
+            "restart": false
+        },
+        "content": [
+            {
+                "block": "group",
+                "class": "bg-slate-100 rounded p-5 text-center w-full",
+                "content": [
+                    {
+                        "block": "text",
+                        "content": "Congratulations, you finished the activity."
+                    }
+                ]
+            },
+            {
+                "block": "group",
+                "class": "text-center p-5",
+                "content": [
+                    {
+                        "block": "finished"
+                    }
+                ]
+            }
+        ]
+    },
+    "symbols": {}
+}
