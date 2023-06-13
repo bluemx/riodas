@@ -20,8 +20,8 @@ export default {
     ],
   },
   plugins: [
-    require("tailwindcss-animate"),
-    require("daisyui")
+    require("daisyui"),
+    require("tailwindcss-animate")
   ]
 }
 

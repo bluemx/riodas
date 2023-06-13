@@ -7,7 +7,7 @@ import VueVideoPlayer from '@videojs-player/vue'
 import 'video.js/dist/video-js.css'
 import 'animate.css';
 import { emitter } from './bus.js'
-
+import 'daisyui/dist/styled.css'
 declare module '@vue/runtime-core' {
   export interface ComponentCustomProperties {
     emitter: typeof emitter

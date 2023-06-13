@@ -1,7 +1,12 @@
 <template>
-    <template v-if="all.total">
-    <div class="text-xl">You answered <strong class="text-success">{{ all.positive }} question correctly</strong> out of a total of <span class="text-neutral/50">{{ all.total }} questions</span>.</div>
+    <template v-if="oda.getEvaluations.auto">
+        <div class="text-xl">You answered <strong class="text-success">{{ all.positive }} question correctly</strong> out of a total of <span class="text-neutral/50">{{ oda.getEvaluations.auto }} questions</span>.</div>
     </template>
+    <template v-if="oda.getEvaluations.manual>0"> 
+    
+        <div class="text-xl"><span class="text-neutral/50">{{oda.getEvaluations.manual}} answer(s)</span> require teacher's evaluation.</div>
+    </template>
+
 </template>
 <script setup>
 import { useOda } from "../../store/oda.js"

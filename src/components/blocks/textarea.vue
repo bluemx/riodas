@@ -52,6 +52,10 @@ onMounted(() => {
     const blockdata = blocks.initFN(oda, props.data, props.blockindex, block.value)
     if(blockdata && blockdata?.v!=null){
         input.value = blockdata.v
+        setTimeout(()=>{
+            resize()
+
+        }, 500)
     } else {
         blocks.evaluateFN(input.value)
     }

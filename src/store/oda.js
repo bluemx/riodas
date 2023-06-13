@@ -99,12 +99,32 @@ export const useOda = defineStore({
             }
             _.eachDeep(this.oda, (valueD, keyD, parentD, ctxD) => {
                 if(keyD=='evaluation'){
-                    if(valueD == 'auto'){
-                        evaluations.auto += 1;
+                    if(ctxD._item.path.includes('symbols')){
+                        
+                        _.eachDeep(this.oda, (valueD2, keyD2, parentD2, ctxD2) => {
+
+                            if(keyD2=='symbol' && valueD2 == ctxD._item.path[1]){
+                                if(valueD == 'auto'){
+                                    evaluations.auto += 1;
+                                }
+                                if(valueD == 'manual'){
+                                    evaluations.manual += 1;
+                                }
+                            }
+                        })
+                        
+                    } else {
+                        if(valueD == 'auto'){
+                            evaluations.auto += 1;
+                        }
+                        if(valueD == 'manual'){
+                            evaluations.manual += 1;
+                        }
                     }
-                    if(valueD == 'manual'){
-                        evaluations.manual += 1;
-                    }
+
+
+
+                   
                 }
             })
 
@@ -135,9 +155,12 @@ export const useOda = defineStore({
                 if(oda){
                     this.oda = oda
                 }
-                //Disable localstorage
-                //this.user = useStorage('rioda_'+this.odaID+'_USER', {})
-                this.user = {}
+                //Disable localstorage when not in localhost
+                if(window.location.href.includes('localhost')){
+                    this.user = useStorage('rioda_'+this.odaID+'_USER', {})
+                } else {
+                    this.user = {}
+                }
                 responder = true
             } catch (err){
                 console.log(err)

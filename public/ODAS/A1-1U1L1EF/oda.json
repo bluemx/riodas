@@ -1,0 +1,167 @@
+{
+    "title": "Exercise F. Myself",
+    "clock": true,
+    "countdown": 0,
+    "intro": {
+        "buttons": {
+            "start": "Start"
+        },
+        "content": []
+    },
+    "activity": {
+        "scenes": [
+            {
+                "countdown": 0,
+                "instructions": {
+                    "open": true,
+                    "content": [
+                        {
+                            "block": "group",
+                            "class": "flex gap-2 items-center",
+                            "content": [
+                                {
+                                    "block": "audio",
+                                    "class": "",
+                                    "file": "instruccion.mp3"
+                                },
+                                {
+                                    "block": "text",
+                                    "class": "",
+                                    "text": "Type 6 sentences describing the pictures."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "content": [
+                    {
+                        "symbol": "writeimage",
+                        "class": "grid grid-cols-1 md:grid-cols-2 gap-4 p-5 items-center justify-center bg-primary/10 my-1 rounded p-5 text-center",
+                        "byname": {
+                            "theimage": {
+                                "class": "rounded-xl w-80 max-w-[90%] mx-auto mask mask-squircle",
+                                "file": "img/1.jpeg"
+                            }
+                        }
+                    },
+                    {
+                        "symbol": "writeimage",
+                        "class": "grid grid-cols-1 md:grid-cols-2 gap-4 p-5 items-center justify-center bg-secondary/10 my-1 rounded p-5 text-center",
+                        "byname": {
+                            "theimage": {
+                                "class": "rounded-xl w-80 max-w-[90%] mx-auto mask mask-squircle",
+                                "file": "img/2.jpeg"
+                            }
+                        }
+                    },
+                    {
+                        "symbol": "writeimage",
+                        "class": "grid grid-cols-1 md:grid-cols-2 gap-4 p-5 items-center justify-center bg-accent/10 my-1 rounded p-5 text-center",
+                        "byname": {
+                            "theimage": {
+                                "class": "rounded-xl w-80 max-w-[90%] mx-auto mask mask-squircle",
+                                "file": "img/3.jpeg"
+                            }
+                        }
+                    },
+                    {
+                        "symbol": "writeimage",
+                        "class": "grid grid-cols-1 md:grid-cols-2 gap-4 p-5 items-center justify-center bg-primary/10 my-1 rounded p-5 text-center",
+                        "byname": {
+                            "theimage": {
+                                "class": "rounded-xl w-80 max-w-[90%] mx-auto mask mask-squircle",
+                                "file": "img/4.jpeg"
+                            }
+                        }
+                    },
+                    {
+                        "symbol": "writeimage",
+                        "class": "grid grid-cols-1 md:grid-cols-2 gap-4 p-5 items-center justify-center bg-secondary/10 my-1 rounded p-5 text-center",
+                        "byname": {
+                            "theimage": {
+                                "class": "rounded-xl w-80 max-w-[90%] mx-auto mask mask-squircle",
+                                "file": "img/5.jpeg"
+                            }
+                        }
+                    },
+                    {
+                        "symbol": "writeimage",
+                        "class": "grid grid-cols-1 md:grid-cols-2 gap-4 p-5 items-center justify-center bg-accent/10 my-1 rounded p-5 text-center",
+                        "byname": {
+                            "theimage": {
+                                "class": "rounded-xl w-80 max-w-[90%] mx-auto mask mask-squircle",
+                                "file": "img/6.jpeg"
+                            }
+                        }
+                    },
+                    {
+                        "block": "group",
+                        "class": "text-center mt-10",
+                        "content": [
+                            {
+                                "block": "button",
+                                "class": "mx-auto",
+                                "content": "Finalize",
+                                "to": "/end"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "end": {
+        "buttons": {
+            "restart": false
+        },
+        "content": [
+            {
+                "block": "group",
+                "class": "bg-slate-100 rounded p-5 text-center w-full",
+                "content": [
+                    {
+                        "block": "text",
+                        "content": "Congratulations, you finished the activity."
+                    }
+                ]
+            },
+            {
+                "block": "group",
+                "class": "text-center p-5",
+                "content": [
+                    {
+                        "block": "finished"
+                    }
+                ]
+            }
+        ]
+    },
+    "symbols": {
+        "writeimage": {
+            "block": "group",
+            "class": "grid grid-cols-1 md:grid-cols-2 gap-4 p-5 items-center justify-center bg-primary/10 rounded p-5 text-center",
+            "content": [
+                {
+                    "name": "theimage",
+                    "block": "image",
+                    "class": "rounded-xl w-80 max-w-[90%] mx-auto mask mask-squircle",
+                    "file": "img/1.jpeg"
+                },
+                {
+                    "block": "group",
+                    "content": [
+                        {
+                            "block": "textarea",
+                            "class": "mx-auto",
+                            "positive": false,
+                            "showResult": 0,
+                            "multiline": 1,
+                            "evaluation": "manual",
+                            "placeholder": "Describe the picture here..."
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
