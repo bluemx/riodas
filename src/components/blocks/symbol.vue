@@ -1,6 +1,6 @@
 <template>
 
-<Content :data="item" :blockindex="blockindex"></Content>
+<Content :data="item" :blockindex="blockindex" :key="Math.random()"></Content>
 
 </template>
 <script setup>
@@ -14,17 +14,16 @@ const props = defineProps({
 })
 deepdash(_)
 
-const item = {...oda.oda.symbols[props.data.symbol]}
+const item = JSON.parse(JSON.stringify(oda.oda.symbols[props.data.symbol]))
 
 
 const replaceitemkeys = (itemtoreplace, fromObj, key) => {
-    
     if(
         key!='symbol' &&
         key!='byname' &&
         key!='name'
     ){
-        //console.log(itemtoreplace[key], key)
+
         if(itemtoreplace[key]){
             itemtoreplace[key] = fromObj[key]
         }
@@ -42,8 +41,9 @@ Object.keys(props.data).forEach(key => {
                 if(keyD=='name' && valueD==keybyname){
                     
                     Object.keys(props.data[key][keybyname]).forEach(deepkeys => {
-                        console.log(keyD, valueD, parentD, deepkeys)
-                        //console.log(parent)
+                        //Replacing $1 by $2
+                        //console.log('%c'+keybyname +' - '+  props.data[key][keybyname][deepkeys],  'background:#ffdd00;')
+
                         replaceitemkeys(parentD, props.data[key][keybyname], deepkeys)
                     })
                 }

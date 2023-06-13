@@ -323,7 +323,6 @@
     "symbols": {
         "numeral": {
             "block": "text",
-            "tag": "div",
             "class": "aspect-square w-8 flex justify-center items-center text-center rounded-full border-2 border-primary text-sm text-primary",
             "text": "1."
         },

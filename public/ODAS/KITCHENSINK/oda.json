@@ -155,7 +155,9 @@
                                 "block": "audiorecord",
                                 "class": "",
                                 "evaluation": "manual",
-                                "timelimit": 5
+                                "timelimit": 5,
+                                "attempts":3,
+                                "positive": "Hello, Grandmother"
                             },
                             {
                                 "block": "group",
