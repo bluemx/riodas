@@ -93,6 +93,16 @@
                     },
                     {
                         "block": "group",
+                        "class": "text-center",
+                        "content": [
+                            {
+                                "block": "image",
+                                "file": "fam.jpeg"
+                            }
+                        ]
+                    },
+                    {
+                        "block": "group",
                         "class": "text-center mt-10",
                         "content": [
                             {
