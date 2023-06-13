@@ -27,7 +27,7 @@
                                 {
                                     "block": "text",
                                     "class":"",
-                                    "text": "Watch the following video of a virtual teacher in order to receive and overview of the topics wich are planed for this unit."
+                                    "text": "Watch the following video of a virtual teacher in order to receive an overview of the topics wich are planed for this unit."
                                 }
                             ]
                         }
@@ -257,7 +257,7 @@
     },
     "end": {
         "buttons": {
-            "restart": false
+            "restart": true
         },
         "content": [
             {
