@@ -1,0 +1,191 @@
+{
+    "title": "Exercise A: Me and my friends",
+    "clock": true,
+    "countdown": 0,
+    "intro": {
+        "buttons": {
+            "start": "Start"
+        },
+        "content": []
+    },
+    "activity": {
+        "scenes": [
+            {
+                "countdown": 0,
+                "instructions": false,
+                "content": [
+                    {
+                        "symbol": "imgtext",
+                        "class": "text-center bg-gradient-to-b from-primary to-secondary text-white rounded p-5 my-2"
+                    },
+                    {
+                        "symbol": "imgtext",
+                        "class": "text-center bg-gradient-to-b from-secondary to-accent text-white rounded p-5 my-2",
+                        "byname": {
+                            "theimage": {
+                                "file": "img/2.jpeg"
+                            },
+                            "thetext": {
+                                "text": "They're very happy"
+                            }
+                        }
+                    },
+                    {
+                        "symbol": "imgtext",
+                        "class": "text-center bg-gradient-to-b from-accent to-success text-white rounded p-5 my-2",
+                        "byname": {
+                            "theimage": {
+                                "file": "img/3.jpeg"
+                            },
+                            "thetext": {
+                                "text": "I'm scared"
+                            }
+                        }
+                    },
+                    {
+                        "symbol": "imgtext",
+                        "class": "text-center bg-gradient-to-b from-success to-neutral text-white rounded p-5 my-2",
+                        "byname": {
+                            "theimage": {
+                                "file": "img/4.jpeg"
+                            },
+                            "thetext": {
+                                "text": "Samuel is old"
+                            }
+                        }
+                    },
+                    {
+                        "symbol": "imgtext",
+                        "class": "text-center bg-gradient-to-b from-neutral to-primary text-white rounded p-5 my-2",
+                        "byname": {
+                            "theimage": {
+                                "file": "img/5.jpeg"
+                            },
+                            "thetext": {
+                                "text": "They are Brazilian"
+                            }
+                        }
+                    },
+                    {
+                        "symbol": "imgtext",
+                        "class": "text-center bg-gradient-to-b from-primary to-secondary text-white rounded p-5 my-2",
+                        "byname": {
+                            "theimage": {
+                                "file": "img/6.jpeg"
+                            },
+                            "thetext": {
+                                "text": "He is American"
+                            }
+                        }
+                    },
+                    {
+                        "symbol": "imgtext",
+                        "class": "text-center bg-gradient-to-b from-secondary to-accent text-white rounded p-5 my-2",
+                        "byname": {
+                            "theimage": {
+                                "file": "img/7.jpeg"
+                            },
+                            "thetext": {
+                                "text": "José is a boy"
+                            }
+                        }
+                    },
+                    {
+                        "symbol": "imgtext",
+                        "class": "text-center bg-gradient-to-b from-accent to-success text-white rounded p-5 my-2",
+                        "byname": {
+                            "theimage": {
+                                "file": "img/8.jpeg"
+                            },
+                            "thetext": {
+                                "text": "The baby is lovely"
+                            }
+                        }
+                    },
+                    {
+                        "symbol": "imgtext",
+                        "class": "text-center bg-gradient-to-b from-success to-neutral text-white rounded p-5 my-2",
+                        "byname": {
+                            "theimage": {
+                                "file": "img/9.jpeg"
+                            },
+                            "thetext": {
+                                "text": "We are clever"
+                            }
+                        }
+                    },
+                    {
+                        "symbol": "imgtext",
+                        "class": "text-center bg-gradient-to-b from-neutral to-primary text-white rounded p-5 my-2",
+                        "byname": {
+                            "theimage": {
+                                "file": "img/10.jpeg"
+                            },
+                            "thetext": {
+                                "text": "The horse is brown"
+                            }
+                        }
+                    },
+                    {
+                        "block": "group",
+                        "class": "text-center mt-10",
+                        "content": [
+                            {
+                                "block": "button",
+                                "class": "mx-auto",
+                                "content": "Finalize",
+                                "to": "/end"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "end": {
+        "buttons": {
+            "restart": false
+        },
+        "content": [
+            {
+                "block": "group",
+                "class": "bg-slate-100 rounded p-5 text-center w-full",
+                "content": [
+                    {
+                        "block": "text",
+                        "content": "Congratulations, you finished the activity."
+                    }
+                ]
+            },
+            {
+                "block": "group",
+                "class": "text-center p-5",
+                "content": [
+                    {
+                        "block": "finished"
+                    }
+                ]
+            }
+        ]
+    },
+    "symbols": {
+        "imgtext": {
+            "block": "group",
+            "class": "text-center bg-gradient-to-b from-primary to-secondary text-white rounded p-5",
+            "content": [
+                {
+                    "name": "theimage",
+                    "block": "image",
+                    "class": "mx-auto w-80 max-w-full mask mask-squircle animate__animated animate__bounceIn animate__delay-1s",
+                    "file": "img/1.jpeg"
+                },
+                {
+                    "name": "thetext",
+                    "block": "text",
+                    "class": "text-4xl  mt-5 block font-extrabold animate__animated animate__bounce animate__delay-2s",
+                    "text": "She is tall"
+                }
+            ]
+        }
+    }
+}
