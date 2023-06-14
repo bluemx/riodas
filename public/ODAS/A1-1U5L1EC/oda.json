@@ -1,0 +1,226 @@
+{
+    "title": "My every day life",
+    "clock": true,
+    "countdown": 0,
+    "intro": {
+        "buttons": {
+            "start": "Start"
+        },
+        "content": []
+    },
+    "activity": {
+        "scenes": [
+            {
+                "countdown": 0,
+                "instructions": {
+                    "open": true,
+                    "content": [
+                        {
+                            "block": "group",
+                            "class": "flex gap-2 items-center",
+                            "content": [
+                                {
+                                    "block": "audio",
+                                    "class": "",
+                                    "file": "instruccion.mp3"
+                                },
+                                {
+                                    "block": "text",
+                                    "class": "",
+                                    "text": "Drag the correct answer to each gap."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "content": [
+                    {
+                        "block": "group",
+                        "class": "grid grid-cols-1 md:grid-cols-2 gap-2",
+                        "content": [
+                            {
+                                "block": "group",
+                                "class": "",
+                                "content": [
+                                    {
+                                        "symbol": "preg",
+                                        "t1.text": "1. My Mom ",
+                                        "d1.positive": [1],
+                                        "t2.text": " to school every day."
+                                    },
+                                    {
+                                        "symbol": "preg",
+                                        "t1.text": "2. Dad ",
+                                        "d1.positive": [2],
+                                        "t2.text": " breakfast for me and my sibblings."
+                                    },
+                                    {
+                                        "symbol": "preg",
+                                        "t1.text": "3. I ",
+                                        "d1.positive": [3],
+                                        "t2.text": " basketball three times a week."
+                                    },
+                                    {
+                                        "symbol": "preg",
+                                        "t1.text": "4. My friends ",
+                                        "d1.positive": [4],
+                                        "t2.text": " one week before each test."
+                                    },
+                                    {
+                                        "symbol": "preg",
+                                        "t1.text": "5. Grandma ",
+                                        "d1.positive": [5],
+                                        "t2.text": " cakes once a month."
+                                    },
+                                    {
+                                        "symbol": "preg",
+                                        "t1.text": "6. My sister ",
+                                        "d1.positive": [6],
+                                        "t2.text": " at 6:00 a.m. every morning."
+                                    }
+                                ]
+                            },
+                            {
+                                "block": "group",
+                                "class": "",
+                                "content": [
+                                    {
+                                        "name": "d2",
+                                        "block": "draggable",
+                                        "class": "h-full flex-col gap-3",
+                                        "group": "one",
+                                        "pull": "clone",
+                                        "put": false,
+                                        "sort": false,
+                                        "content": [
+                                            {
+                                                "id":1,
+                                                "block": "text",
+                                                "text": "drives"
+                                            },
+                                            {
+                                                "id":2,
+                                                "block": "text",
+                                                "text": "makes"
+                                            },
+                                            {
+                                                "id":3,
+                                                "block": "text",
+                                                "text": "play"
+                                            },
+                                            {
+                                                "id":4,
+                                                "block": "text",
+                                                "text": "study"
+                                            },
+                                            {
+                                                "id":5,
+                                                "block": "text",
+                                                "text": "bakes"
+                                            },
+                                            {
+                                                "id":6,
+                                                "block": "text",
+                                                "text": "wakes up"
+                                            }
+                                        ]
+                                      }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "block": "group",
+                        "class": "text-center w-100",
+                        "content": [
+                            {
+                                "block":"image", "class":"w-full max-w-4xl mx-auto",
+                                "file": "img.jpeg"
+                            }
+
+                        ]
+                    },
+                    {
+                        "block": "group",
+                        "class": "text-center mt-10",
+                        "content": [
+                            {
+                                "block": "button",
+                                "class": "mx-auto",
+                                "content": "Finalize",
+                                "to": "/end"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "end": {
+        "buttons": {
+            "restart": false
+        },
+        "content": [
+            {
+                "block": "group",
+                "class": "bg-slate-100 rounded p-5 text-center w-full",
+                "content": [
+                    {
+                        "block": "text",
+                        "content": "Congratulations, you finished the activity."
+                    }
+                ]
+            },
+            {
+                "block": "group",
+                "class": "text-center p-5",
+                "content": [
+                    {
+                        "block": "finished"
+                    }
+                ]
+            }
+        ]
+    },
+    "symbols": {
+        "preg": {
+            "block": "group",
+            "content": [
+              {
+                "block": "group",
+                "class":" flex flex-wrap gap-1 items-center bg-slate-300 p-2 m-2 rounded",
+                "content": [
+                  {
+                    "name": "t1", 
+                    "block": "text",
+                    "class":"text-lg",
+                    "text": "Texto 1"
+                  },
+                  {
+                    "name": "d1",
+                    "block": "draggable",
+                    "class": "w-40 !h-12",
+                    "group": "one",
+                    "pull": true,
+                    "put": true,
+                    "sort": false,
+                    "evaluation": "auto",
+                    "content": [],
+                    "positive": [
+                        1
+                    ],
+                    "showResult": true,
+                    "attempts": 0
+                  },
+                  {
+                    "name": "t2",
+                    "block": "text",
+                    "class":"text-lg",
+                    "text": "Texto 2"
+                  }
+                ]
+              }
+            ]
+          }
+    }
+}

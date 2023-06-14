@@ -5,7 +5,7 @@
 -->
 <draggable
     :list="items"
-    :group="{ name: data.group, pull: data.pull, put: [data.group] }"
+    :group="{ name: data.group, pull: data.pull, put: data.put }"
     :sort="data.sort"
     @start ="onstart"
     @end ="onend"
