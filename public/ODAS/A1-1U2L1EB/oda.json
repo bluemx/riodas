@@ -1,0 +1,275 @@
+{
+    "title": "Are you at home?",
+    "clock": true,
+    "countdown": 0,
+    "intro": {
+        "buttons": {
+            "start": "Start"
+        },
+        "content": []
+    },
+    "activity": {
+        "scenes": [
+            {
+                "countdown": 0,
+                "instructions": false,
+                "content": [
+                    {
+                        "block": "group",
+                        "class": "text-center m-5 mx-auto max-w-4xl",
+                        "content": [
+                            {
+                                "block": "image",
+                                "class": "mx-auto w-2xl max-w-full rounded",
+                                "file": "diag.png"
+                            }
+                        ]
+                    },
+                    {
+                        "block": "group",
+                        "class": "grid  grid-cols-1 sm:grid-cols-3",
+                        "content": [
+                            
+                            {
+                                "block": "group",
+                                
+                                "content": [
+                                  {
+                                    "block": "group",
+                                    "class": "rounded bg-slate-100 p-1 m-1",
+                                    "content": [
+                                      {
+                                        "block": "text",
+                                        "text": "I "
+                                      },
+                                      {
+                                        "block": "text",
+                                        "class": "text-primary",
+                                        "text": "am"
+                                      },
+                                      {
+                                        "block": "text",
+                                        "text": " in the kitchen."
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "block": "group",
+                                    "class": "rounded bg-slate-100 p-1 m-1",
+                                    "content": [
+                                      {
+                                        "block": "text",
+                                        "text": "My sister "
+                                      },
+                                      {
+                                        "block": "text",
+                                        "class": "text-primary",
+                                        "text": "is"
+                                      },
+                                      {
+                                        "block": "text",
+                                        "text": " in the bedroom."
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "block": "group",
+                                    "class": "rounded bg-slate-100 p-1 m-1",
+                                    "content": [
+                                      {
+                                        "block": "text",
+                                        "text": "My dog "
+                                      },
+                                      {
+                                        "block": "text",
+                                        "class": "text-primary",
+                                        "text": "is"
+                                      },
+                                      {
+                                        "block": "text",
+                                        "text": " in the house."
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "block": "group",
+                                    "class": "rounded bg-slate-100 p-1 m-1",
+                                    "content": [
+                                      {
+                                        "block": "text",
+                                        "text": "My brothers "
+                                      },
+                                      {
+                                        "block": "text",
+                                        "class": "text-primary",
+                                        "text": "are"
+                                      },
+                                      {
+                                        "block": "text",
+                                        "text": " in the living room."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "block": "group",
+                                "content": [
+                                  {
+                                    "block": "group",
+                                    "class": "rounded bg-slate-100 p-1 m-1",
+                                    "content": [
+                                      {
+                                        "block": "text",
+                                        "text": "My parents "
+                                      },
+                                      {
+                                        "block": "text",
+                                        "class": "text-primary",
+                                        "text": "aren't"
+                                      },
+                                      {
+                                        "block": "text",
+                                        "text": " at home."
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "block": "group",
+                                    "class": "rounded bg-slate-100 p-1 m-1",
+                                    "content": [
+                                      {
+                                        "block": "text",
+                                        "text": "My sister "
+                                      },
+                                      {
+                                        "block": "text",
+                                        "class": "text-primary",
+                                        "text": "isn't"
+                                      },
+                                      {
+                                        "block": "text",
+                                        "text": " upstairs."
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "block": "group",
+                                    "class": "rounded bg-slate-100 p-1 m-1",
+                                    "content": [
+                                      {
+                                        "block": "text",
+                                        "text": "I "
+                                      },
+                                      {
+                                        "block": "text",
+                                        "class": "text-primary",
+                                        "text": "am not"
+                                      },
+                                      {
+                                        "block": "text",
+                                        "text": " in my bedroom."
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "block": "group",
+                                "content": [
+                                  {
+                                    "block": "group",
+                                    "class": "rounded bg-slate-100 p-1 m-1",
+                                    "content": [
+                                      {
+                                        "block": "text",
+                                        "class": "text-primary",
+                                        "text": "Is"
+                                      },
+                                      {
+                                        "block": "text",
+                                        "text": " your father an actor?"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "block": "group",
+                                    "class": "rounded bg-slate-100 p-1 m-1",
+                                    "content": [
+                                      {
+                                        "block": "text",
+                                        "class": "text-primary",
+                                        "text": "Is"
+                                      },
+                                      {
+                                        "block": "text",
+                                        "text": " the baby on the sofa?"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "block": "group",
+                                    "class": "rounded bg-slate-100 p-1 m-1",
+                                    "content": [
+                                      {
+                                        "block": "text",
+                                        "class": "text-primary",
+                                        "text": "Are"
+                                      },
+                                      {
+                                        "block": "text",
+                                        "text": " your grandparents at home?"
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                              
+                              
+                              
+                        ]
+                    },
+                    {
+                        "block": "group",
+                        "class": "text-center my-5",
+                        "content": [
+                            {
+                                "block": "button",
+                                "class": "mx-auto",
+                                "content": "Finalize",
+                                "to": "/end"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "end": {
+        "buttons": {
+            "restart": false
+        },
+        "content": [
+            {
+                "block": "group",
+                "class": "bg-slate-100 rounded p-5 text-center w-full",
+                "content": [
+                    {
+                        "block": "text",
+                        "content": "Congratulations, you finished the activity."
+                    }
+                ]
+            },
+            {
+                "block": "group",
+                "class": "text-center p-5",
+                "content": [
+                    {
+                        "block": "finished"
+                    }
+                ]
+            }
+        ]
+    },
+    "symbols": {}
+}
