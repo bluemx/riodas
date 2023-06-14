@@ -19,8 +19,9 @@ const init = async () => {
         } else {
             if(oda.user == null || Object.keys(oda.user)==0){
                 router.push('/intro')
-            } else if(oda.user.location) {
-                    router.push(oda.user.location)
+            } else if(oda.user?.location) {
+                console.log(oda.user.location)    
+                router.push(oda.user.location)
             } else {
                 router.push('/intro')
             }

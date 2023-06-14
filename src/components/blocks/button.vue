@@ -1,5 +1,14 @@
 <template>
-<button :class="['button', data.class || '']" @click="clicked">{{ data.content }}</button>
+
+
+<template v-if="!replaced">
+    <button :class="['button', data.class || '']" @click="clicked">{{ data.content }}</button>
+</template>
+<template v-if="replaced">
+    <Content v-for="(item, index) in data.replace" :key="index" :data="item" :blockindex="blockindex"></Content>
+</template>
+
+<Content v-if="append.length" v-for="(item, index) in append" :key="index" :data="item" :blockindex="blockindex"></Content>
 
 </template>
 <script setup>
@@ -8,6 +17,9 @@ import { useOda } from "../../store/oda.js"
 const oda = useOda()
 const router = useRouter()
 const route = useRoute()
+
+const replaced = ref(false)
+const append = ref(false)
 //PROPS
 const props = defineProps({
     data: Object,
@@ -36,6 +48,36 @@ const clicked = () => {
     if(props.data.to){
         router.push(props.data.to)
     }
+    if(props.data.replace){
+        replaced.value = true
+    }
+    if(props.data.append){
+        append.value = false
+        setTimeout(()=>{
+            append.value = props.data.append
+        },100)
+        if(props.data.appendRemoveTime){
+            setTimeout(()=>{
+                append.value = false
+            }, props.data.appendRemoveTime)
+        }
+    }
 }
+
+
+/*
+REPLACE PROPERTY
+"replace": [
+    {
+        "block": "audio",
+        "class": "invisible",
+        "file": "tryagain.mp3",
+        "autoplay": true
+    }
+]
+"append":[
+
+]
+*/
 
 </script>

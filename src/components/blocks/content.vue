@@ -16,6 +16,7 @@
 <Draggable v-else-if="data.block=='draggable'" :data="data" :blockindex="blockindex"></Draggable>
 <Textarea v-else-if="data.block=='textarea'" :data="data" :blockindex="blockindex"></Textarea>
 <Switch v-else-if="data.block=='switch'" :data="data" :blockindex="blockindex"></Switch>
+<Condition v-else-if="data.block=='condition'" :data="data" :blockindex="blockindex"></Condition>
 
 <!-- Diagnostico only-->
 <Choose v-else-if="data.block=='choose'" :data="data" :blockindex="blockindex" :data-blockindex="blockindex"></Choose>

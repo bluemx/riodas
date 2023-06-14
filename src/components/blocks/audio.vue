@@ -32,7 +32,6 @@ const init = async () => {
     if(props.data.wave){
         wavesurfer.value = WaveSurfer.create({
             container: blockwave.value,
-            
             waveColor: '#00a8e1',
             progressColor: '#e7004c',
             barWidth: 8,
@@ -57,11 +56,13 @@ const init = async () => {
         })
     } else {
         sound.value = new Howl({
-            src: [filepath], volume: 1, autoplay:false,
+            src: [filepath], volume: 1, autoplay:props.data.autoplay || false,
             onplay: () => { playing.value = true },
             onend: () => { playing.value = false },
             onstop: () => { playing.value = false },
         })
+
+
 
     }
 

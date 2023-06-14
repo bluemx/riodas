@@ -11,6 +11,8 @@
     @end ="onend"
     @change="onchange"
     :disabled="freeze"
+    :scroll="true"
+    :bubbleScroll="true"
     item-key="id"
     ref="block"
     :class="['draggable relative outline-dashed outline-1 outline-slate-200 bg-slate-100 rounded py-2 px-1 min-w-[60px] min-h-[24px] flex justify-center items-center', showResultClass, data.class || '']"
@@ -114,7 +116,6 @@ const evaluate = (mute) => {
 
 //## INIT
 const initload = () => {
-
     const hasinput = oda.getInput(props.blockindex)
     if(hasinput){
         items.value = hasinput.v || []
