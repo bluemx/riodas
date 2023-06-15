@@ -1,0 +1,134 @@
+{
+    "title": "Exercise D. My everyday life",
+    "clock": true,
+    "countdown": 0,
+    "intro": {
+        "buttons": {
+            "start": "Start"
+        },
+        "content": []
+    },
+    "activity": {
+        "scenes": [
+            {
+                "countdown": 0,
+                "instructions": {
+                    "open": true,
+                    "content": [
+                        {
+                            "block": "group",
+                            "class": "flex items-center gap-2",
+                            "content": [
+                                {
+                                    "block": "audio",
+                                    "file": "instruccion.mp3"
+                                },
+                                {
+                                    "block": "text",
+                                    "content": "Type the sentences in the correct order."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "content": [
+                    {
+                        "symbol": "text-input-group",
+                        "textInput.text": "wake up/ at 5:00 a.m./ I/",
+                        "textareaInput.positive": "I wake up at 5 a.m."
+                    },
+                    {
+                        "symbol": "text-input-group",
+                        "textInput.text": "breakfast/ I/ at 7:00 a.m./ have",
+                        "textareaInput.positive": "I have breakfast at 7:00 a.m."
+                    },
+                    {
+                        "symbol": "text-input-group",
+                        "textInput.text": "finish/ I/ school/ at 3:00 p.m.",
+                        "textareaInput.positive": "I finish school at 3:00 p.m."
+                    },
+                    {
+                        "symbol": "text-input-group",
+                        "textInput.text": "my teeth/ three times a day/ I/ brush/.",
+                        "textareaInput.positive": "I brush my teeth three times a day."
+                    },
+                    {
+                        "symbol": "text-input-group",
+                        "textInput.text": "eat dinner/ We/ at 8:00 p.m.",
+                        "textareaInput.positive": "We eat dinner at 8:00 p.m."
+                    },
+                    {
+                        "symbol": "text-input-group",
+                        "textInput.text": "On the weekends,/ change/ our routines/.",
+                        "textareaInput.positive": "On the weekends, our routines change."
+                    },
+                    {
+                        "block": "group",
+                        "class": "text-center p-5",
+                        "content": [
+                            {
+                                "block": "button",
+                                "content": "Finalize",
+                                "to": "/end"
+
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "end": {
+        "buttons": {
+            "restart": false
+        },
+        "content": [
+            {
+                "block": "group",
+                "class": "bg-slate-100 rounded p-5 text-center w-full",
+                "content": [
+                    {
+                        "block": "text",
+                        "content": "Congratulations, you finished the activity."
+                    }
+                ]
+            },
+            {
+                "block": "group",
+                "class": "text-center p-5",
+                "content": [
+                    {
+                        "block": "finished"
+                    }
+                ]
+            },
+            {
+                "block": "audio",
+                "class": "invisible",
+                "file": "aplausos.mp3",
+                "autoplay": true
+            }
+        ]
+    },
+    "symbols": {
+        "text-input-group": {
+            "block": "group",
+            "class": "m-5 max-w-xl mx-auto bg-slate-100 rounded p-4",
+            "content": [
+                {
+                    "block": "text",
+                    "name": "textInput",
+                    "class": "text-center mb-3 text-lg"
+                },
+                {
+                    "block": "textarea",
+                    "name": "textareaInput",
+                    "class": "w-full p-2 border border-slate-300 rounded",
+                    "placeholder": "Type here...",
+                    "evaluation": "auto",
+                    "showResult": true
+                }
+            ]
+        }
+    }
+}
