@@ -53,6 +53,10 @@ const drag = ref(false)
 
 const freeze = ref(false)
 
+if(oda.freeze){
+    freeze.value =true
+}
+
 const onstart = () => {
     drag.value = true
     new Howl({ src: [sound2], rate: 1, volume: 1, autoplay:true })

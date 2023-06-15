@@ -1,5 +1,6 @@
 
 import sound1 from '../../assets/uisound/maximize_007.mp3'
+import soundSave from '../../assets/uisound/confirmation_002.mp3'
 
 import mojs from '@mojs/core'
 class Cross extends mojs.CustomShape {
@@ -112,15 +113,15 @@ const working = (parent) => {
 }
 
 
-const playkeep = (parent, shapes) => {
+const playkeep = (parent, shapes, centered) => {
     const theparent = parent || document.body;
     const theshapes = shapes || ["donut", "cross", "slice", "box", "curl"];
     const RADIUS = 28;
   
     const circle = new mojs.Shape({
       parent: theparent,
-      left: '100%',
-      top: '0%',
+      left: centered ? '50%':'100%',
+      top: centered ? '50%':'0%',
       stroke:   '#94C73D',
       strokeWidth: { [2*RADIUS] : 2 },
       fill:     'none',
@@ -133,8 +134,8 @@ const playkeep = (parent, shapes) => {
   
     const burst = new mojs.Burst({
       parent: theparent,
-      left:'100%',
-      top:'0%',
+      left: centered ? '50%':'100%',
+      top: centered ? '50%':'0%',
       radius:   { 30 : RADIUS - 20 },
       count: 5,
       children: {
@@ -149,8 +150,8 @@ const playkeep = (parent, shapes) => {
 
     const circlebg = new mojs.Shape({
         parent: theparent,
-        left: '100%',
-        top: '0%',
+        left: centered ? '50%':'100%',
+      top: centered ? '50%':'0%',
         fill:     '#fff',
         opacity: {0:0.8},
         scale:    { 0: 1, easing: 'quad.out' },
@@ -160,8 +161,8 @@ const playkeep = (parent, shapes) => {
   
     const symbol = new mojs.Shape({
       parent: theparent,
-      left:'100%',
-      top:'0%',
+      left: centered ? '50%':'100%',
+      top: centered ? '50%':'0%',
       shape: theshapes,
       fill: "#94C73D",
       scale: { 0: 0.4 },
@@ -191,4 +192,28 @@ const playkeep = (parent, shapes) => {
   };
 
 
-export default { play, playkeep, working }
+const playsave = (parent, shapes) => {
+  const theparent = parent || document.body 
+  const theshapes = shapes || ['donut', 'cross', 'slice', 'box', 'curl']
+  const RADIUS = 28;
+  const burst = new mojs.Burst({
+      parent: theparent,
+      radius: { 20: 300 },
+      count: 20,
+      duration: 500,
+      children: {
+          shape: theshapes,
+          fill: ['transparent'],
+          degreeShift: 'rand(-0, 60)',
+          delay: 'stagger(0, 100)',
+          radius: {20:300}
+      }
+  })
+      const raterandom = (Math.random()*0.5)+0.5
+      new Howl({ src: [soundSave], rate: raterandom, volume: 0.7, autoplay:true })
+
+
+  burst.play();
+}
+
+export default { play, playkeep, working, playsave }

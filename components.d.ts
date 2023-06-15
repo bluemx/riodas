@@ -9,7 +9,6 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
-    '<templateImage': typeof import('./src/components/blocks/<templateImage.vue')['default']
     ActivityBar: typeof import('./src/components/all/ActivityBar.vue')['default']
     Audio: typeof import('./src/components/blocks/audio.vue')['default']
     Audiorecord: typeof import('./src/components/blocks/audiorecord.vue')['default']
@@ -33,6 +32,8 @@ declare module '@vue/runtime-core' {
     Slides: typeof import('./src/components/blocks/slides.vue')['default']
     Switch: typeof import('./src/components/blocks/switch.vue')['default']
     Symbol: typeof import('./src/components/blocks/symbol.vue')['default']
+    Teacherbar: typeof import('./src/components/all/teacherbar.vue')['default']
+    Teachereval: typeof import('./src/components/blocks/teachereval.vue')['default']
     Text: typeof import('./src/components/blocks/text.vue')['default']
     Textarea: typeof import('./src/components/blocks/textarea.vue')['default']
     TimerClock: typeof import('./src/components/all/TimerClock.vue')['default']

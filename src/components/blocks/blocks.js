@@ -36,6 +36,10 @@ const initFN = (BLOCKoda, BLOCKdata, BLOCKblockindex, BLOCKblockref) => {
         freeze.value = false
         evaluateFN(null, true)
     }
+
+    if(BLOCKoda.freeze){
+        freeze.value = true
+    }
     
     return stored
 

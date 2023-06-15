@@ -1,6 +1,6 @@
 <template>
 
-
+<div>
 <template v-if="!replaced">
     <button :class="['button', data.class || '']" @click="clicked">{{ data.content }}</button>
 </template>
@@ -9,7 +9,7 @@
 </template>
 
 <Content v-if="append.length" v-for="(item, index) in append" :key="index" :data="item" :blockindex="blockindex"></Content>
-
+</div>
 </template>
 <script setup>
 import sound1 from '../../assets/uisound/click_004.mp3'

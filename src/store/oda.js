@@ -11,6 +11,10 @@ export const useOda = defineStore({
         oda: null,
         user: null,
         odaloaded: false,
+        freeze: false,
+        userWaiting: null,
+        teacher: null,
+        
         //FIXME: create a function to getfiles
         //FIXME: call this baseurl on webhistory
         //baseurl: '/riodas'
@@ -89,8 +93,30 @@ export const useOda = defineStore({
                     positive: positive,
                     total: total
                 }
-
-                
+        },
+        getTeacherInputs () {
+            let res = this.teacher.inputs
+            let positive = 0
+            let total = 0
+            let comments = 0
+            if(this.teacher.inputs){
+            Object.keys(this.teacher.inputs).forEach(key=>{
+                total++
+                if(this.teacher.inputs[key].r == true){
+                    positive++
+                }
+                if(this.teacher.inputs[key].v != ""){
+                    comments++
+                }
+            })
+        }
+            const fullres = {
+                inputs: res,
+                positive: positive,
+                comments: comments,
+                total: total
+            }
+            return fullres
         },
         getEvaluations(){
             const evaluations = {
@@ -135,6 +161,21 @@ export const useOda = defineStore({
         setOdaID (id){
             this.odaID = id
         },
+        setUserData (data){
+            const decodeData = JSON.parse(window.atob(data))
+            this.user = decodeData
+            this.userWaiting = decodeData
+        },
+        setTeacherData (data){
+            const decodeData = JSON.parse(window.atob(data))
+            this.teacher = decodeData
+            console.log('teacherData:', decodeData)
+        },
+        setFreeze(){
+            this.freeze = true
+            this.user.location = '/freeze'
+        },
+
         setUserLocation(path){
             this.user.location = path
         },
@@ -142,7 +183,6 @@ export const useOda = defineStore({
             let responder = true
             if(!this.odaID){
                 // ERROR
-                console.log('isErrro')
                 responder = false
                 return false
             }
@@ -155,11 +195,17 @@ export const useOda = defineStore({
                 if(oda){
                     this.oda = oda
                 }
+
+                let userData = {}
+                if(this.userWaiting!=null && this.user == this.userWaiting){
+                    userData = this.userWaiting
+                }
+
                 //Disable localstorage when not in localhost
                 if(window.location.href.includes('localhost')){
-                    this.user = useStorage('rioda_'+this.odaID+'_USER', {})
+                    this.user = useStorage('rioda_'+this.odaID+'_USER', userData)
                 } else {
-                    this.user = {}
+                    this.user = userData
                 }
                 responder = true
             } catch (err){
@@ -172,7 +218,6 @@ export const useOda = defineStore({
             if(!this.user.inputs){
                 this.user.inputs = {}
             }
-
             this.user.inputs[blockindex] = CryptoJS.AES.encrypt(JSON.stringify(
                 {
                     r: result,
@@ -180,6 +225,15 @@ export const useOda = defineStore({
                     data: data
                 }
             ),'blue').toString()
+        },
+        setTeacherInput(blockindex, result, value){
+            if(!this.teacher.inputs){
+                this.teacher.inputs = {}
+            }
+            this.teacher.inputs[blockindex] = {
+                r: result,
+                v: value
+            }
         },
         restartUser(){
             this.user = {}

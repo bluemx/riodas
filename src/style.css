@@ -36,6 +36,7 @@
 
 html{
   @apply text-[11px] sm:text-[13px] md:text-base;
+  max-width: 100%;
 }
 
 :root {
@@ -137,4 +138,23 @@ html, #app{
 }
 .vjs-control-bar{
   @apply !bg-primary/50;
+}
+
+
+
+
+.freeze #app{
+  @apply block max-w-[94vw] mx-auto h-auto !my-1 rounded bg-info;
+}
+.freeze .button{
+  display: none;
+}
+
+.freeze .oda-screen{
+  min-height: 400px;
+}
+
+
+.teacher [data-eval="manual"]{
+  @apply ring-4 ring-info;
 }

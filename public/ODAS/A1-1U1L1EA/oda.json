@@ -262,7 +262,7 @@
         "content": [
             {
                 "block": "group",
-                "class": "bg-slate-100 rounded p-5 text-center w-full",
+                "class": "bg-slate-100 rounded p-5 text-center w-full text-neutral",
                 "content": [
                     {
                         "block": "text",

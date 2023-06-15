@@ -10,8 +10,16 @@
 import { useOda }  from '../../store/oda.js'
 const oda = useOda()
 
-const timestamp = useTimestamp()
+
+
+const { timestamp, pause, resume } = useTimestamp({ controls: true })
+//const timestamp = useTimestamp()
 let initialTimestamp = timestamp.value;
+
+
+if(oda.freeze){
+    pause()
+}
 
 if(oda.user.totaltime){
     initialTimestamp -= (oda.user.totaltime*1000)

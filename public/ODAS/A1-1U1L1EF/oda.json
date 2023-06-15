@@ -36,7 +36,7 @@
                 "content": [
                     {
                         "symbol": "writeimage",
-                        "class": "grid grid-cols-1 md:grid-cols-2 gap-4 p-5 items-center justify-center bg-primary/10 my-1 rounded p-5 text-center",
+                        "class": "grid grid-cols-1 md:grid-cols-2 gap-4 p-5 items-center justify-center bg-primary/10 my-1 rounded p-5 text-center  max-w-4xl mx-auto",
                         "byname": {
                             "theimage": {
                                 "class": "rounded-xl w-80 max-w-[90%] mx-auto mask mask-squircle",
@@ -46,7 +46,7 @@
                     },
                     {
                         "symbol": "writeimage",
-                        "class": "grid grid-cols-1 md:grid-cols-2 gap-4 p-5 items-center justify-center bg-secondary/10 my-1 rounded p-5 text-center",
+                        "class": "grid grid-cols-1 md:grid-cols-2 gap-4 p-5 items-center justify-center bg-secondary/10 my-1 rounded p-5 text-center  max-w-4xl mx-auto",
                         "byname": {
                             "theimage": {
                                 "class": "rounded-xl w-80 max-w-[90%] mx-auto mask mask-squircle",
@@ -56,7 +56,7 @@
                     },
                     {
                         "symbol": "writeimage",
-                        "class": "grid grid-cols-1 md:grid-cols-2 gap-4 p-5 items-center justify-center bg-accent/10 my-1 rounded p-5 text-center",
+                        "class": "grid grid-cols-1 md:grid-cols-2 gap-4 p-5 items-center justify-center bg-accent/10 my-1 rounded p-5 text-center  max-w-4xl mx-auto",
                         "byname": {
                             "theimage": {
                                 "class": "rounded-xl w-80 max-w-[90%] mx-auto mask mask-squircle",
@@ -66,7 +66,7 @@
                     },
                     {
                         "symbol": "writeimage",
-                        "class": "grid grid-cols-1 md:grid-cols-2 gap-4 p-5 items-center justify-center bg-primary/10 my-1 rounded p-5 text-center",
+                        "class": "grid grid-cols-1 md:grid-cols-2 gap-4 p-5 items-center justify-center bg-primary/10 my-1 rounded p-5 text-center  max-w-4xl mx-auto",
                         "byname": {
                             "theimage": {
                                 "class": "rounded-xl w-80 max-w-[90%] mx-auto mask mask-squircle",
@@ -76,7 +76,7 @@
                     },
                     {
                         "symbol": "writeimage",
-                        "class": "grid grid-cols-1 md:grid-cols-2 gap-4 p-5 items-center justify-center bg-secondary/10 my-1 rounded p-5 text-center",
+                        "class": "grid grid-cols-1 md:grid-cols-2 gap-4 p-5 items-center justify-center bg-secondary/10 my-1 rounded p-5 text-center  max-w-4xl mx-auto",
                         "byname": {
                             "theimage": {
                                 "class": "rounded-xl w-80 max-w-[90%] mx-auto mask mask-squircle",
@@ -86,7 +86,7 @@
                     },
                     {
                         "symbol": "writeimage",
-                        "class": "grid grid-cols-1 md:grid-cols-2 gap-4 p-5 items-center justify-center bg-accent/10 my-1 rounded p-5 text-center",
+                        "class": "grid grid-cols-1 md:grid-cols-2 gap-4 p-5 items-center justify-center bg-accent/10 my-1 rounded p-5 text-center  max-w-4xl mx-auto",
                         "byname": {
                             "theimage": {
                                 "class": "rounded-xl w-80 max-w-[90%] mx-auto mask mask-squircle",
@@ -117,7 +117,7 @@
         "content": [
             {
                 "block": "group",
-                "class": "bg-slate-100 rounded p-5 text-center w-full",
+                "class": "bg-slate-100 rounded p-5 text-center w-full text-neutral",
                 "content": [
                     {
                         "block": "text",

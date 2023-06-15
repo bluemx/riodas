@@ -1,10 +1,10 @@
 <template>
-    <button class="button" @click="restart()">{{data || 'Restart'}}</button>
+<button class="button" @click="restart()">{{data || 'Restart'}}</button>
 </template>
 <script setup>
 import { useOda } from "../../store/oda.js"
 const props = defineProps({
-    data: String
+    data: [Object, Boolean]
 })
 
 const router = useRouter()
