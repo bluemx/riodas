@@ -53,8 +53,8 @@
                                         "group": "uno",
                                         "positive": [
                                             1
-                                        ],
-                                        "evaluation": "auto"
+                                        ]
+                                        
                                     },
                                     {
                                         "block": "text",
@@ -88,8 +88,8 @@
                                         "group": "dos",
                                         "positive": [
                                             3
-                                        ],
-                                        "evaluation": "auto"
+                                        ]
+                                        
                                     },
                                     {
                                         "block": "text",
@@ -123,8 +123,8 @@
                                         "group": "tres",
                                         "positive": [
                                             2
-                                        ],
-                                        "evaluation": "auto"
+                                        ]
+                                        
                                     },
                                     {
                                         "block": "text",
@@ -158,8 +158,8 @@
                                         "group": "cuatro",
                                         "positive": [
                                             2
-                                        ],
-                                        "evaluation": "auto"
+                                        ]
+                                        
                                     },
                                     {
                                         "block": "text",
@@ -193,8 +193,8 @@
                                         "group": "cinco",
                                         "positive": [
                                             2
-                                        ],
-                                        "evaluation": "auto"
+                                        ]
+                                        
                                     },
                                     {
                                         "block": "text",
@@ -228,8 +228,8 @@
                                         "group": "seis",
                                         "positive": [
                                             3
-                                        ],
-                                        "evaluation": "auto"
+                                        ]
+                                        
                                     },
                                     {
                                         "block": "text",
@@ -263,8 +263,8 @@
                                         "group": "siete",
                                         "positive": [
                                             3
-                                        ],
-                                        "evaluation": "auto"
+                                        ]
+                                        
                                     },
                                     {
                                         "block": "text",
@@ -334,21 +334,22 @@
         "dropzone": {
             "block": "draggable",
             "class": "w-24",
-            "group": "one",
+            "group": "uno",
             "pull": true,
-            "put": false,
+            "put": true,
             "sort": true,
             "content": [],
+            "evaluation": "auto",
             "positive": [
                 1
             ],
-            "showResult": true,
+            "showResult": false,
             "attempts": 0
         },
         "draglist": {
             "block": "draggable",
             "class": " gap-2 my-2 text-lg mx-auto",
-            "group": "one",
+            "group": "uno",
             "pull": "clone",
             "put": false,
             "sort": false,

@@ -54,7 +54,7 @@ const drag = ref(false)
 const freeze = ref(false)
 
 if(oda.freeze){
-    freeze.value =true
+    freeze.value = true
 }
 
 const onstart = () => {

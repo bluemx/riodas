@@ -1,0 +1,162 @@
+{
+    "title": "My family",
+    "clock": true,
+    "countdown": 0,
+    "intro": {
+        "buttons": {
+            "start": "Start"
+        },
+        "content": [
+            
+        ]
+    },
+    "activity": {
+        "scenes": [
+            {
+                "countdown": 0,
+                "instructions": {
+                    "open": true,
+                    "content": [
+                        {
+                            "block": "group",
+                            "class": "flex gap-2 items-center",
+                            "content": [
+                                {
+                                    "block": "audio",
+                                    "class": "",
+                                    "file": "assets/instruction.mp3"
+                                },
+                                {
+                                    "block": "text",
+                                    "content": "Record your voice saying the words."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "content": [
+                    {
+                        "block": "group",
+                        "class": "text-center rounded p-2 bg-slate-100 max-w-xl mx-auto my-2",
+                        "content": [
+                            {
+                                "block": "text",
+                                "class":"text-4xl",
+                                "tag": false,
+                                "text": "Grandmother"
+                            },
+                            {
+                                "block": "audiorecord",
+                                "class": "",
+                                "evaluation": "auto",
+                                "timelimit": 5,
+                                "attempts":3,
+                                "positive": "Grandmother"
+                            }
+                        ]
+                    },
+                    {
+                        "block": "group",
+                        "class": "text-center rounded p-2 bg-slate-100 max-w-xl mx-auto my-2",
+                        "content": [
+                            {
+                                "block": "text",
+                                "class":"text-4xl",
+                                "tag": false,
+                                "text": "Grandfather"
+                            },
+                            {
+                                "block": "audiorecord",
+                                "class": "",
+                                "evaluation": "auto",
+                                "timelimit": 5,
+                                "attempts":3,
+                                "positive": "Grandfather"
+                            }
+                        ]
+                    },
+                    {
+                        "block": "group",
+                        "class": "text-center rounded p-2 bg-slate-100 max-w-xl mx-auto my-2",
+                        "content": [
+                            {
+                                "block": "text",
+                                "class":"text-4xl",
+                                "tag": false,
+                                "text": "Children"
+                            },
+                            {
+                                "block": "audiorecord",
+                                "class": "",
+                                "evaluation": "auto",
+                                "timelimit": 5,
+                                "attempts":3,
+                                "positive": "Children"
+                            }
+                        ]
+                    },
+                    {
+                        "block": "group",
+                        "class": "text-center rounded p-2 bg-slate-100 max-w-xl mx-auto my-2",
+                        "content": [
+                            {
+                                "block": "text",
+                                "class":"text-4xl",
+                                "tag": false,
+                                "text": "Nephew"
+                            },
+                            {
+                                "block": "audiorecord",
+                                "class": "",
+                                "evaluation": "auto",
+                                "timelimit": 5,
+                                "attempts":3,
+                                "positive": "Nephew"
+                            }
+                        ]
+                    },
+                    
+                    {
+                        "block": "group",
+                        "class": "text-center mt-10",
+                        "content": [
+                            {
+                                "block": "button",
+                                "class": "mx-auto",
+                                "content": "Finalize",
+                                "to": "/end"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "end": {
+        "buttons": {
+            "restart": "Restart activity"
+        },
+        "content": [
+            {
+                "block": "group",
+                "class": "bg-slate-100 rounded p-5 text-center w-full text-neutral",
+                "content": [
+                    {
+                        "block": "text",
+                        "content": "Congratulations, you finished the activity."
+                    }
+                ]
+            },
+            {
+                "block": "group",
+                "class": "text-center p-5",
+                "content": [
+                    {
+                        "block": "finished"
+                    }
+                ]
+            }
+        ]
+    },
+    "symbols": {}
+}

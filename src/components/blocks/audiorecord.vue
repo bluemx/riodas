@@ -1,24 +1,58 @@
 <template>
-<div ref="block" :class="['flex flex-wrap gap-0.5 items-center justify-center bg-slate-50 p-0.5 rounded relative']">
-    <button ref="blockRecordBtn" :class="['btn relative  text-3xl p-0.5 flex-grow-0 m-2', (isRecording?'btn-primary':'aspect-square btn-secondary'), data.class || '']" @click="startRecord" :disabled="!wavesurfer" >
-        <iconify-icon icon="solar:record-bold-duotone"></iconify-icon>
-        <div v-if="isRecording" class="text-xs">
-            Now Recording
-        </div>
-    </button>
-    <progress v-if="isRecording" class="progress progress-primary w-full" :value="recordingProgress" :max="recordingTimelimit"></progress>
-    <div v-show="audiorecordedB64" class="flex-grow flex gap-0.5 items-center bg-slate-50 p-0.5 rounded">
-        <div ref="blockwave" class=" bg-white rounded p-2 flex-grow ml-2"></div>
-        <button :class="['btn relative aspect-square text-3xl p-0.5 flex-grow-0 m-2', (playing?'btn-primary':'btn-secondary'), data.class || '']" @click="clicked" :disabled="!readyToPlay" >
-            <template v-if="readyToPlay">
-                <iconify-icon icon="solar:headphones-square-sound-bold" :class="['absolute', !playing?'animate-in zoom-in':'animate-out fade-out fill-mode-forwards']"></iconify-icon>
-                <iconify-icon icon="solar:soundwave-broken" :class="['absolute', playing?'repeat-infinite animate-pulse duration-500 ease-in-out':'animate-out fade-out fill-mode-forwards']"></iconify-icon>
-            </template>
-            <template v-else>
-                <iconify-icon icon="solar:upload-track-2-linear" class="absolute animate-spin text-neutral"></iconify-icon>
-            </template>
+<div ref="block" :class="[' bg-slate-50 p-0.5 rounded relative']">
+    <div class="flex flex-wrap gap-0.5 items-center justify-center">
+        <button ref="blockRecordBtn" :class="['btn relative  text-3xl p-0.5 flex-grow-0 m-2', (isRecording?'btn-primary':'btn-secondary'), data.class || '']" @click="startRecord" :disabled="!wavesurfer" >
+            <iconify-icon icon="solar:record-bold-duotone"></iconify-icon>
+            <div v-if="isRecording" class="text-xs">
+                Now Recording
+            </div>
+            <div v-if="!isRecording && firstclick">Click to record</div>
         </button>
+        <progress v-if="isRecording" class="progress progress-primary w-full" :value="recordingProgress" :max="recordingTimelimit"></progress>
+        <div v-show="audiorecordedB64" class="flex-grow flex gap-0.5 items-center bg-slate-50 p-0.5 rounded">
+
+            <div v-if="!readyToPlay" class="absolute left-0 top-0 bottom-0 right-0 flex justify-center items-center text-center bg-info/70 z-40 rounded text-white">PROCESSING</div>
+
+
+            <div ref="blockwave" class=" bg-white rounded p-2 flex-grow ml-2"></div>
+            <button :class="['btn relative aspect-square text-3xl p-0.5 flex-grow-0 m-2', (playing?'btn-primary':'btn-secondary'), data.class || '']" @click="clicked" :disabled="!readyToPlay" >
+                <template v-if="readyToPlay">
+                    <iconify-icon icon="solar:headphones-square-sound-bold" :class="['absolute', !playing?'animate-in zoom-in':'animate-out fade-out fill-mode-forwards']"></iconify-icon>
+                    <iconify-icon icon="solar:soundwave-broken" :class="['absolute', playing?'repeat-infinite animate-pulse duration-500 ease-in-out':'animate-out fade-out fill-mode-forwards']"></iconify-icon>
+                </template>
+                <template v-else>
+                    <iconify-icon icon="solar:upload-track-2-linear" class="absolute animate-spin text-neutral"></iconify-icon>
+                </template>
+            </button>
+        </div>
     </div>
+    <template v-if="audiorecordedB64 && readyToPlay">
+        <div class="flex justify-center items-center mt-2 animate-in slide-in-from-top">
+            <div class="flex p-1" v-if="!evaluatedText">
+                <div class="text-sm">
+                    Listen to your recording <iconify-icon icon="solar:headphones-square-sound-bold"></iconify-icon> . You can record it many times as you need. When ready, click on <span class="text-success">Verify</span>.
+                </div>
+                <button class="btn btn-success" @click="verify" :class="loading?'!btn-neutral':''">
+                    <template v-if="!loading">
+                        <iconify-icon icon="solar:user-speak-bold-duotone"></iconify-icon>
+                        Verify
+                        <iconify-icon icon="solar:chat-round-check-bold-duotone"></iconify-icon>
+                    </template>
+                    <template v-else>
+                        <div>
+                            <iconify-icon class="animate-spin" icon="solar:volume-knob-line-duotone"></iconify-icon>
+                            Analyzing
+                        </div>
+                    </template>
+                </button>
+            </div>
+            <div v-else class="text-center p-1">
+                <div class="text-xs text-slate-400">Your answer:</div>
+                <div v-html="evaluatedText" class="text-lg bg-success rounded text-white"></div>
+            </div>
+        </div> 
+    </template>
+    <div class="bg-info text-sm text-white text-center rounded" v-if="errorVerification">{{ errorVerification }}</div>
     
 </div>
 </template>
@@ -27,6 +61,12 @@ import WaveSurfer from 'wavesurfer.js'
 
 import { useOda } from "../../store/oda.js"
 import ShapesAnimation from '../all/ShapesAnimation';
+import axios from 'axios';
+
+import {useBlocks} from './blocks.js'
+const blocks = useBlocks()
+
+
 const oda = useOda()
 const playing = ref(false)
 const block = ref()
@@ -43,6 +83,12 @@ const audiorecordedB64 = ref(null)
 //Record vars
 const recorder = ref()
 const recorderStream = ref()
+const loading = ref(false)
+const firstclick = ref(true)
+
+const evaluatedText = ref(null)
+const errorVerification = ref()
+
 
 //PROPS
 const props = defineProps({
@@ -86,6 +132,12 @@ const init = async () => {
 }
 
 const startRecord = async () => {
+    evaluatedText.value = null
+    errorVerification.value = null
+    if(blocks.freeze.value){
+        return false
+    }
+    firstclick.value = false
     if(!isRecording.value){
         //::START RECORDING
         playing.value = false
@@ -154,6 +206,40 @@ onMounted(() => {
 const clicked = async () => {
     wavesurfer.value.play()
     
+}
+
+
+const verify = async () => {
+    if(loading.value){return false}
+    loading.value = true
+    errorVerification.value = null
+    try{
+        const res = await axios.post('https://bluetest.mx/reCreaIngles/gateway/api/Audio', {
+            "text": props.data.positive,
+            "recording": audiorecordedB64.value
+        }, {
+            headers: {"X-API-KEYA": "UikgoDyBKWrhsWF7y2qa4wLSbDFLPeSqYBYX0rTPTEzjCGZWUy17BHLI7956HLASOGAEVPEQWEWesI3tEshNcbyB4pyCPgZU0dC9UWhwwANF2h0NIwdmKei5L6RHqTM4HXPfK3MI"}
+        })
+        const data = res.data
+
+        if(data?.data){
+            loading.value = false
+            blocks.result.value = data.data.score > 90
+            evaluatedText.value = data.data.evaluatedtext
+        } else {
+            audiorecordedB64.value = null
+            readyToPlay.value = false
+
+            loading.value = false
+            errorVerification.value = "There's been an error. Record your audio it again."
+        }
+        } catch(err) {
+        console.log(err)
+        loading.value = false
+    }
+
+
+
 }
 
 </script>

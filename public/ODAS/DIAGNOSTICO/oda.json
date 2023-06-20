@@ -2,6 +2,7 @@
     "title": "DIAGNOSTIC TEST",
     "clock": false,
     "countdown": 0,
+    "hideattempts": true,
     "intro": {
         "buttons": {
             "start": false
