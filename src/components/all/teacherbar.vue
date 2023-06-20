@@ -33,7 +33,8 @@ const saveEv = () => {
     saving.value = true
 
     const response = JSON.parse(JSON.stringify(getTeacherInputs.value))
-    response.inputs =window.btoa(JSON.stringify(response))
+    response.inputs = window.btoa(JSON.stringify(response))
+    response.datatype = 'teacher'
     const message = JSON.stringify(response)
     ShapesAnimation.playsave(block.value)
     window.parent.postMessage(message, "*");

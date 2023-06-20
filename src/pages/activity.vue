@@ -5,15 +5,18 @@
         <div class="oda-screen overflow-auto">
             <div class="min-h-min m-auto overflow-auto max-h-full py-2 w-full">
                 <Content v-for="(item, index) in oda.oda.activity.scenes[scenenum].content" :key="index" :data="item" :blockindex="scenenum+'-'+index"></Content>
-                <!--
-                <autosolve></autosolve>
-                -->
+                
+                <Teacherbar v-if="oda.teacher !=null && oda.teacher!={} && oda.teacherFreeze==null"></Teacherbar>
             </div>
         </div>
     </div>
+
 </template>
+
 <script setup>
 import { useOda } from "../store/oda.js"
+import Teacherbar from "../components/all/teacherbar.vue";
+
 const oda = useOda()
 const router = useRouter()
 const route = useRoute()

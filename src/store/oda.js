@@ -14,6 +14,9 @@ export const useOda = defineStore({
         freeze: false,
         userWaiting: null,
         teacher: null,
+        teacherFreeze: null,
+        odaAttempts: 0,
+        odaAttemptsLimit: 3
         
         //FIXME: create a function to getfiles
         //FIXME: call this baseurl on webhistory
@@ -167,13 +170,17 @@ export const useOda = defineStore({
             this.userWaiting = decodeData
         },
         setTeacherData (data){
+            document.body.classList.add('teacher')
             const decodeData = JSON.parse(window.atob(data))
             this.teacher = decodeData
-            console.log('teacherData:', decodeData)
         },
         setFreeze(){
             this.freeze = true
-            this.user.location = '/freeze'
+            document.body.classList.add('freeze')
+
+            if(this.user?.location){
+                this.user.location = '/freeze'
+            }
         },
 
         setUserLocation(path){
@@ -201,12 +208,15 @@ export const useOda = defineStore({
                     userData = this.userWaiting
                 }
 
+
                 //Disable localstorage when not in localhost
-                if(window.location.href.includes('localhost')){
+                //if(window.location.href.includes('localhost')){
+                if(false){
                     this.user = useStorage('rioda_'+this.odaID+'_USER', userData)
                 } else {
                     this.user = userData
                 }
+                
                 responder = true
             } catch (err){
                 console.log(err)
@@ -240,3 +250,36 @@ export const useOda = defineStore({
         }
     }
 })
+
+
+
+window.addEventListener('message', function(event) {
+
+    const oda = useOda()
+    let data = null
+    try{
+        data = JSON.parse(event.data)
+    } catch {
+        data = null
+    }
+    if(!data){
+        return false
+    }
+    if(data.type == 'student-inputs'){
+        const inputs = JSON.parse(atob(data.inputs))
+        const decodeData = JSON.parse(window.atob(data.inputs))
+        oda.user = decodeData
+        oda.userWaiting = decodeData
+    }
+    if(data.type == 'teacher-inputs'){
+        const inputs = JSON.parse(atob(data.inputs))
+        const decodeData = JSON.parse(window.atob(data.inputs))
+        oda.teacher = decodeData
+    }
+    if(data.type == 'attempts'){
+        oda.odaAttempts = data.times
+    }
+  });
+
+
+

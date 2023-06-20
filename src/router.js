@@ -23,31 +23,27 @@ const odaID = (to) => {
 const FreezeStudent = (to) => {
     const oda = useOda()
     oda.setOdaID(to.params.odaID)
-    oda.setUserData(to.params.studentData)
-    return {path:'/freeze'}
+    oda.setUserData("e30=")
+    oda.setFreeze()
+    return {path:'/loading'}
 }
 const FreezeStudentTeacher = (to) => {
     const oda = useOda()
     oda.setOdaID(to.params.odaID)
-    oda.setUserData(to.params.studentData)
-    if(to.params.teacherData){
-        oda.setTeacherData(to.params.teacherData)
-    } else {
-        oda.setTeacherData("e30=")
-    }
-    return {path:'/freeze'}
+    oda.setUserData("e30=")
+    oda.setTeacherData("e30=")
+    oda.setFreeze()
+    return {path:'/loading'}
 }
 const FreezeStudentFreezeTeacher = (to) => {
+    
     const oda = useOda()
     oda.setOdaID(to.params.odaID)
-    oda.setUserData(to.params.studentData)
-    if(to.params.teacherData){
-        oda.setTeacherData(to.params.teacherData)
-    } else {
-        oda.setTeacherData("e30=")
-    }
+    oda.setUserData("e30=")
+    oda.setTeacherData("e30=")
+    oda.setFreeze()
     oda.teacherFreeze = true
-    return {path:'/freeze'}
+    return {path:'/loading'}
 }
 
 
@@ -65,10 +61,9 @@ const routes = [
     {path: '/:odaID', redirect: odaID },
     {path: '/:odaID/:studentData', redirect: odaID },
     //freeze
-    {path: '/:odaID/freeze/:studentData', redirect: FreezeStudent },
-    {path: '/:odaID/freeze/:studentData/teacher', redirect: FreezeStudentTeacher },
-    {path: '/:odaID/freeze/:studentData/teacher/:teacherData', redirect: FreezeStudentTeacher },
-    {path: '/:odaID/freeze/:studentData/teacher/freeze/:teacherData', redirect: FreezeStudentFreezeTeacher },
+    {path: '/:odaID/freeze', redirect: FreezeStudent },
+    {path: '/:odaID/freeze/teacher', redirect: FreezeStudentTeacher },
+    {path: '/:odaID/freeze/teacher/freeze', redirect: FreezeStudentFreezeTeacher },
 ];
 
 
@@ -83,7 +78,7 @@ const router = createRouter({
 
 router.beforeEach(async to => {
 
-    
+
     const oda = useOda()
 
     if(to.path!='/loading' && to.path!='/error'){
