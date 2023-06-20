@@ -1,5 +1,5 @@
 <template>
-<button class="button" @click="restart()">{{data || 'Restart'}}</button>
+<button class="button" @click="endattempts()">Save my results</button>
 </template>
 <script setup>
 import { useOda } from "../../store/oda.js"
@@ -9,7 +9,7 @@ const props = defineProps({
 
 const router = useRouter()
 const oda = useOda()
-const restart = () => {
+const endattempts = () => {
     oda.restartUser()
     router.push('/'+oda.odaID)
 }

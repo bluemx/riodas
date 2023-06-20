@@ -1,5 +1,5 @@
 <template>
-    <div id="bouncy" ref="container" class="fixed inset-0 h-screen w-screen overflow-clip z-50 " v-if="visible"></div>
+    <div id="bouncy" ref="container" class="fixed inset-0 h-screen w-screen overflow-clip z-50 pointer-events-none" v-if="visible"></div>
 </template>
 
 <script setup>

@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de obtención de datos ODA</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/gradient-light.min.css" integrity="sha512-1GhzeBhtt0D/zt2tbRQV30B4+2/D5XKDDFwOT8oAlfFuipKTc1YvIaPA3MC1MfGYNVBdlIKmECqqWxNXOgS5gA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+    <style>
+        pre, code {
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="text-center p-5 font-extrabold text-xl">Vistas de odas Recrea</h1>
+    <ul class="text-white m-5">
+        <li class="bg-slate-800 p-2 my-1">
+            <div class="font-extrabold">OBTENER DATOS DE ESTUDIANTE AL FINALIZAR</div>
+            <div class="text-xs">Vista normal. Al finalizar se reciben los datos del estudiante.</div>
+        </li>
+        <li class="bg-stone-500 p-2 my-1">
+            <div class="font-extrabold">ASIGNAR NÚMERO DE INTENTOS</div>
+            <div class="text-xs">Se manda el número de intentos que lleva el estudiante.</div>
+        </li>
+        <li class="bg-blue-900 p-2 my-1">
+            <div class="font-extrabold">CARGAR DATOS DE ESTUDIANTE</div>
+            <div class="text-xs">Carga los datos previamente ingresados por el estudiante. Los datos pueden ser modificados y de nuevo guardados con "Finalize"</div>
+        </li>
+        <li class="bg-teal-700 p-2 my-1">
+            <div class="font-extrabold">CARGAR DATOS DE ESTUDIANTE : CONGELADO ❄️</div>
+            <div class="text-xs">Carga los datos previamente ingresados por el estudiante. Es únicamente de consulta. El botón "finalize" NO envía datos para guardar. Cuando los datos del estudiante estan congelados se vuelve morado el contorno de la oda.</div>
+        </li>
+        <li class="bg-purple-700 p-2 my-1">
+            <div class="font-extrabold">VISTA DE MAESTRO (+ CARGAR DATOS DE ESTUDIANTE: CONGELADO ❄️)</div>
+            <div class="text-xs">La vista del maestro requiere que también se carguen los datos del estudiante. Se presenta el botón "Save evaluation and comments" que manda los datos ingresados por el maestro para ser guardados.</div>
+        </li>
+        <li class="bg-yellow-800 p-2 my-1">
+            <div class="font-extrabold">CARGAR DATOS DE MAESTRO (+ CARGAR DATOS DE ESTUDIANTE: CONGELADO ❄️ + VISTA DE MAESTRO)</div>
+            <div class="text-xs">Se puede cargar la información previamente ingresada por el maestro para modificarla. Al presionar el botón (Save evaluation and comments) se vuelven a enviar los datos.  Opcional*</div>
+        </li>
+        <li class="bg-rose-700 p-2 my-1">
+            <div class="font-extrabold"> CARGAR DATOS DE MAESTRO : CONGELADO (+ CARGAR DATOS DE ESTUDIANTE: CONGELADO ❄️ + VISTA DE MAESTRO)</div>
+            <div class="text-xs">Sería la vista que se le presenta al estudiante una vez que fue evaluado por el maestro. Se congelan los datos del usuario y los del maestro.</div>
+        </li>
+    </ul>
+
+
+
+<!-- ################################### ################################### -->
+<!-- ################################### ################################### -->
+<!-- ################################### ################################### -->
+
+<!-- IFRAME 1 ############ #################################### -->
+
+    <div class="text-center text-white p-5 bg-slate-800 mt-1 mx-1 font-extrabold text-3xl">OBTENER DATOS DE ESTUDIANTE AL FINALIZAR</div>
+    <div class="grid grid-cols-2 gap-1 p-1">
+        <div class="w-full">
+            <div class="bg-slate-800 text-white font-bold text-xs p-5">https://odas.win<span class="text-green-400">/#A1-1U1L1EF</span> </div>
+            <iframe src="https://odas.win/#A1-1U1L1EF" frameborder="0" class="w-full h-[500px]"></iframe>
+        </div>
+        <div>
+            <div class="bg-slate-800 text-white font-bold text-xs p-5">Código JS:</div>
+            <div class="overflow-auto text-xs">
+                <pre><code class="language-json">
+//Reibir datos del estudiante
+window.addEventListener('message', function(event) {
+    if(JSON.parse(event.data).datatype == 'student'){
+        // DATOS
+        const datos = event.data
+        console.log(datos)
+    }
+})
+                </code></pre>
+            </div>
+            <div class="bg-slate-800 text-white font-bold text-xs p-5">Datos:</div>
+            <div class="overflow-auto  text-xs">
+                <pre><code class="language-json" id="datos1">//"Finalize" para recibir datos</code></pre>
+            </div>
+
+        </div>
+    </div>
+
+<!-- ################################### ################################### -->
+<!-- ################################### ################################### -->
+<!-- ################################### ################################### -->
+
+<!-- IFRAME 1.b ############ #################################### -->
+
+    <div class="text-center text-white p-5 bg-stone-500 mt-1 mx-1 font-extrabold text-3xl">ASIGNAR NÚMERO DE INTENTOS</div>
+    <div class="grid grid-cols-2 gap-1 p-1">
+        <div class="w-full">
+            <div class="bg-stone-500 text-white font-bold text-xs p-5">https://odas.win<span class="text-green-400">/#A1-1U1L1EF</span> </div>
+            <iframe  onload="setAttempts(this)" src="https://odas.win/#A1-1U1L1EF" frameborder="0" class="w-full h-[500px]"></iframe>
+        </div>
+        <div>
+            <div class="bg-stone-500 text-white font-bold text-xs p-5">Código HTML:</div>
+            <div class="overflow-auto text-xs">
+                <pre><code class="language-html">
+&lt;!-- Llamar función desde iframe onload --&gt;
+&lt;iframe onload="iframeLoaded(this)" /&gt;
+                </code></pre>
+            <div class="bg-stone-500 text-white font-bold text-xs p-5">Código JS:</div>
+            <div class="overflow-auto text-xs">
+                <pre><code class="language-json">
+// ### Mandar dato con intentos
+function iframeLoaded(iframe){
+    const datos = {
+        "type": "attempts",
+        "times": 1
+    }
+// Enviar datos al iframe
+iframe.contentWindow.postMessage(JSON.stringify(datos) , '*')
+}
+                </code></pre>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+<!-- ################################### ################################### -->
+<!-- ################################### ################################### -->
+<!-- ################################### ################################### -->
+
+<!-- IFRAME 2 ############ #################################### -->
+
+<div class="text-center text-white p-5 bg-blue-900 mt-1 mx-1 font-extrabold text-3xl">CARGAR DATOS DE ESTUDIANTE</div>
+<div class="grid grid-cols-2 gap-1 p-1">
+    <div class="w-full">
+        <div class="bg-blue-900 text-white font-bold text-xs p-5">https://odas.win<span class="text-lime-300">/#A1-1U1L1EF</span> </div>
+        <iframe onload="iframe2Loaded(this)" src="https://odas.win/#A1-1U1L1EF" frameborder="0" class="w-full h-[500px]"></iframe>
+    </div>
+    <div>
+        <div class="bg-blue-900 text-white font-bold text-xs p-5">Código HTML:</div>
+        <div class="overflow-auto text-xs">
+            <pre><code class="language-html">
+&lt;!-- Llamar función desde iframe onload --&gt;
+&lt;iframe onload="iframeLoaded(this)" /&gt;
+            </code></pre>
+            <div class="bg-blue-900 text-white font-bold text-xs p-5">Código JS:</div>
+            <pre><code class="language-json">
+// ### Cargar datos de estudiante
+function iframeLoaded(iframe){
+    // studentInputs es la variable "inputs"
+    const studentInputs = "eyJsb2NhdGlvbiI6Ii9lbmQiLCJ0b3RhbHRpbWUiOjM2LCJpbnB1dHMiOnsiMC0wLTEtMCI6IlUyRnNkR1ZrWDE4aGFidlkycVBPSTN0ck1ubWpkWTlacHprQ05WbTErQ0k0SUM3bkdkRGo1bHpSanFxendVL2FEZTNuaDJySm9NWVZPSmFTMHlEVWlBPT0iLCIwLTEtMS0wIjoiVTJGc2RHVmtYMS8zQi9WVXBrYjU5UUtlUEpwakk5L1E2NzVKYitHTjM5NDJ6Q1BSMi82MkFMK0Fxck5nVEIxcmtsVzcydFVVdDE4WG9RSWJIWU5UZElISVhMdlp0b05mU0huQjh2SXk0OEE9IiwiMC0yLTEtMCI6IlUyRnNkR1ZrWDErcnkzd28rTzVRS3kwKy81eVdFWjk3UXNJQ0dpRERESkx5aXg1RUxUWTNIQndKc3ltUnRSWEZ4Z2JRcFZkeThIVDZUdGQ5NzduMlVBPT0iLCIwLTMtMS0wIjoiVTJGc2RHVmtYMTlyelc4b01idWQ0aGFXWWx0cjZNNktHTVZxMVNzV2tiUEdMR1VrVklVZTBkWXhKeVYwOVdENEVLNFRmREpScDJQNnRBem1vZUY5ZHc9PSIsIjAtNC0xLTAiOiJVMkZzZEdWa1gxL0VkSE5tNC9xOTUxejBhQnFSZGRYLzF5NC8rM203OWd1b25OL1VlbC9oTWlOalpIVFRpbnZja0cwOEFNL2twTG0xN0h1MFo0d2U0UT09IiwiMC01LTEtMCI6IlUyRnNkR1ZrWDE4THUxcjhwckF1aGlaMjhrQkJmRlg2bFB3Rk9OTk1OWHN4VFZMU2ROT3hSeUZjd0lOV1dGZ0twRG9NaVdGUVU4YjFDVk83NnhCc3VRPT0ifX0="
+    // Datos a enviar al iframe
+    const datos = {
+        "type": "student-inputs",
+        "inputs": studentInputs
+    }
+    // Enviar datos del estudiante al iframe
+    iframe.contentWindow.postMessage(JSON.stringify(datos) , '*')
+}
+            </code></pre>
+        </div>
+        
+
+    </div>
+</div>
+
+
+
+
+
+
+
+<!-- ################################### ################################### -->
+<!-- ################################### ################################### -->
+<!-- ################################### ################################### -->
+
+<!-- IFRAME 3 ############ #################################### -->
+
+<div class="text-center text-white p-5 bg-teal-700 bg- mt-1 mx-1 font-extrabold text-3xl">CARGAR DATOS DE ESTUDIANTE : CONGELADO ❄️</div>
+<div class="grid grid-cols-2 gap-1 p-1">
+    <div class="w-full">
+        <div class="bg-teal-700 text-white font-bold text-xs p-5">https://odas.win<span class="text-lime-300">/#A1-1U1L1EF</span><span class="text-yellow-300 text-xl">/freeze</span><span class="text-5xl">👈</span></div>
+        <iframe onload="iframe2Loaded(this)" src="https://odas.win/#A1-1U1L1EF/freeze" frameborder="0" class="w-full h-[500px]"></iframe>
+    </div>
+    <div>
+        <div class="bg-teal-700 text-white font-bold text-xs p-5">Código HTML:</div>
+        <div class="overflow-auto text-xs">
+            <pre><code class="language-html">
+&lt;!-- Llamar función desde iframe onload --&gt;
+&lt;iframe onload="iframeLoaded(this)" /&gt;
+            </code></pre>
+            <div class="bg-teal-700 text-white font-bold text-xs p-5">Código JS:</div>
+            <pre><code class="language-json">
+// ### Cargar datos de estudiante
+function iframeLoaded(iframe){
+    // studentInputs es la variable "inputs"
+    const studentInputs = "eyJsb2NhdGlvbiI6Ii9lbmQiLCJ0b3RhbHRpbWUiOjM2LCJpbnB1dHMiOnsiMC0wLTEtMCI6IlUyRnNkR1ZrWDE4aGFidlkycVBPSTN0ck1ubWpkWTlacHprQ05WbTErQ0k0SUM3bkdkRGo1bHpSanFxendVL2FEZTNuaDJySm9NWVZPSmFTMHlEVWlBPT0iLCIwLTEtMS0wIjoiVTJGc2RHVmtYMS8zQi9WVXBrYjU5UUtlUEpwakk5L1E2NzVKYitHTjM5NDJ6Q1BSMi82MkFMK0Fxck5nVEIxcmtsVzcydFVVdDE4WG9RSWJIWU5UZElISVhMdlp0b05mU0huQjh2SXk0OEE9IiwiMC0yLTEtMCI6IlUyRnNkR1ZrWDErcnkzd28rTzVRS3kwKy81eVdFWjk3UXNJQ0dpRERESkx5aXg1RUxUWTNIQndKc3ltUnRSWEZ4Z2JRcFZkeThIVDZUdGQ5NzduMlVBPT0iLCIwLTMtMS0wIjoiVTJGc2RHVmtYMTlyelc4b01idWQ0aGFXWWx0cjZNNktHTVZxMVNzV2tiUEdMR1VrVklVZTBkWXhKeVYwOVdENEVLNFRmREpScDJQNnRBem1vZUY5ZHc9PSIsIjAtNC0xLTAiOiJVMkZzZEdWa1gxL0VkSE5tNC9xOTUxejBhQnFSZGRYLzF5NC8rM203OWd1b25OL1VlbC9oTWlOalpIVFRpbnZja0cwOEFNL2twTG0xN0h1MFo0d2U0UT09IiwiMC01LTEtMCI6IlUyRnNkR1ZrWDE4THUxcjhwckF1aGlaMjhrQkJmRlg2bFB3Rk9OTk1OWHN4VFZMU2ROT3hSeUZjd0lOV1dGZ0twRG9NaVdGUVU4YjFDVk83NnhCc3VRPT0ifX0="
+    // Datos a enviar al iframe
+    const datos = {
+        "type": "student-inputs",
+        "inputs": studentInputs
+    }
+    // Enviar datos del estudiante al iframe
+    iframe.contentWindow.postMessage(JSON.stringify(datos) , '*')
+}
+            </code></pre>
+        </div>
+        
+
+    </div>
+</div>
+
+
+
+<!-- ################################### ################################### -->
+<!-- ################################### ################################### -->
+<!-- ################################### ################################### -->
+
+<!-- IFRAME 4 ############ #################################### -->
+
+<div class="text-center text-white p-5 bg-purple-700 bg- mt-1 mx-1 font-extrabold text-3xl"><div class="text-xl">CARGAR DATOS DE ESTUDIANTE: CONGELADO ❄️ </div> + VISTA DE MAESTRO </div>
+<div class="grid grid-cols-2 gap-1 p-1">
+    <div class="w-full">
+        <div class="bg-purple-700 text-white font-bold text-xs p-5">https://odas.win<span class="text-lime-300">/#A1-1U1L1EF</span><span class="text-yellow-300">/freeze</span><span class="text-cyan-200 text-xl">/teacher</span> <span class="text-5xl">👈</span></div>
+        <iframe onload="iframe2Loaded(this)" src="https://odas.win/#A1-1U1L1EF/freeze/teacher" frameborder="0" class="w-full h-[500px]"></iframe>
+    </div>
+    <div>
+        <div class="bg-purple-700 text-white font-bold text-xs p-5">Código HTML:</div>
+        <div class="overflow-auto text-xs">
+            <pre><code class="language-html">
+&lt;!-- Llamar función desde iframe onload --&gt;
+&lt;iframe onload="iframeLoaded(this)" /&gt;
+            </code></pre>
+            <div class="bg-purple-700 text-white font-bold text-xs p-5">Código JS:</div>
+            <pre><code class="language-json">
+// ### Cargar datos de estudiante
+function iframeLoaded(iframe){
+    // studentInputs es la variable "inputs"
+    const studentInputs = "eyJsb2NhdGlvbiI6Ii9lbmQiLCJ0b3RhbHRpbWUiOjM2LCJpbnB1dHMiOnsiMC0wLTEtMCI6IlUyRnNkR1ZrWDE4aGFidlkycVBPSTN0ck1ubWpkWTlacHprQ05WbTErQ0k0SUM3bkdkRGo1bHpSanFxendVL2FEZTNuaDJySm9NWVZPSmFTMHlEVWlBPT0iLCIwLTEtMS0wIjoiVTJGc2RHVmtYMS8zQi9WVXBrYjU5UUtlUEpwakk5L1E2NzVKYitHTjM5NDJ6Q1BSMi82MkFMK0Fxck5nVEIxcmtsVzcydFVVdDE4WG9RSWJIWU5UZElISVhMdlp0b05mU0huQjh2SXk0OEE9IiwiMC0yLTEtMCI6IlUyRnNkR1ZrWDErcnkzd28rTzVRS3kwKy81eVdFWjk3UXNJQ0dpRERESkx5aXg1RUxUWTNIQndKc3ltUnRSWEZ4Z2JRcFZkeThIVDZUdGQ5NzduMlVBPT0iLCIwLTMtMS0wIjoiVTJGc2RHVmtYMTlyelc4b01idWQ0aGFXWWx0cjZNNktHTVZxMVNzV2tiUEdMR1VrVklVZTBkWXhKeVYwOVdENEVLNFRmREpScDJQNnRBem1vZUY5ZHc9PSIsIjAtNC0xLTAiOiJVMkZzZEdWa1gxL0VkSE5tNC9xOTUxejBhQnFSZGRYLzF5NC8rM203OWd1b25OL1VlbC9oTWlOalpIVFRpbnZja0cwOEFNL2twTG0xN0h1MFo0d2U0UT09IiwiMC01LTEtMCI6IlUyRnNkR1ZrWDE4THUxcjhwckF1aGlaMjhrQkJmRlg2bFB3Rk9OTk1OWHN4VFZMU2ROT3hSeUZjd0lOV1dGZ0twRG9NaVdGUVU4YjFDVk83NnhCc3VRPT0ifX0="
+    // Datos a enviar al iframe
+    const datos = {
+        "type": "student-inputs",
+        "inputs": studentInputs
+    }
+    // Enviar datos del estudiante al iframe
+    iframe.contentWindow.postMessage(JSON.stringify(datos) , '*')
+}
+
+// ### Recibir datos del maestro
+window.addEventListener('message', function(event) {
+    if(JSON.parse(event.data).datatype == 'teacher'){ 
+        // DATOS
+        const datos = event.data
+        console.log(datos)
+    }
+})
+            </code></pre>
+        </div>
+        <div class="bg-purple-700 text-white font-bold text-xs p-5">Datos:</div>
+        <div class="overflow-auto  text-xs">
+            <pre><code class="language-json" id="datos4">//"Save evaluation and comments" para recibir datos</code></pre>
+        </div>
+
+    </div>
+</div>
+
+
+
+<!-- ################################### ################################### -->
+<!-- ################################### ################################### -->
+<!-- ################################### ################################### -->
+
+<!-- IFRAME 5 ############ #################################### -->
+
+<div class="text-center text-white p-5  bg-yellow-800 mt-1 mx-1 font-extrabold text-3xl"><div class="text-xl">CARGAR DATOS DE ESTUDIANTE: CONGELADO ❄️ </div> <div class="text-xl"> + VISTA DE MAESTRO</div> + CARGAR DATOS DE MAESTRO </div>
+<div class="grid grid-cols-2 gap-1 p-1">
+    <div class="w-full">
+        <div class="bg-yellow-800 text-white font-bold text-xs p-5">https://odas.win<span class="text-lime-300">/#A1-1U1L1EF</span><span class="text-yellow-300">/freeze</span><span class="text-cyan-200 text-xl">/teacher</span> <span class="text-5xl">👈</span></div>
+        <iframe onload="iframe5Loaded(this)" src="https://odas.win/#A1-1U1L1EF/freeze/teacher" frameborder="0" class="w-full h-[500px]"></iframe>
+    </div>
+    <div>
+        <div class="bg-yellow-800 text-white font-bold text-xs p-5">Código HTML:</div>
+        <div class="overflow-auto text-xs">
+            <pre><code class="language-html">
+&lt;!-- Llamar función desde iframe onload --&gt;
+&lt;iframe onload="iframeLoaded(this)" /&gt;
+            </code></pre>
+            <div class="bg-yellow-800 text-white font-bold text-xs p-5">Código JS:</div>
+            <pre><code class="language-json">
+// ### Cargar datos de estudiante ### y de maestro
+function iframeLoaded(iframe){
+    // studentInputs es la variable "inputs del estudiante"
+    const studentInputs = "eyJsb2NhdGlvbiI6Ii9lbmQiLCJ0b3RhbHRpbWUiOjM2LCJpbnB1dHMiOnsiMC0wLTEtMCI6IlUyRnNkR1ZrWDE4aGFidlkycVBPSTN0ck1ubWpkWTlacHprQ05WbTErQ0k0SUM3bkdkRGo1bHpSanFxendVL2FEZTNuaDJySm9NWVZPSmFTMHlEVWlBPT0iLCIwLTEtMS0wIjoiVTJGc2RHVmtYMS8zQi9WVXBrYjU5UUtlUEpwakk5L1E2NzVKYitHTjM5NDJ6Q1BSMi82MkFMK0Fxck5nVEIxcmtsVzcydFVVdDE4WG9RSWJIWU5UZElISVhMdlp0b05mU0huQjh2SXk0OEE9IiwiMC0yLTEtMCI6IlUyRnNkR1ZrWDErcnkzd28rTzVRS3kwKy81eVdFWjk3UXNJQ0dpRERESkx5aXg1RUxUWTNIQndKc3ltUnRSWEZ4Z2JRcFZkeThIVDZUdGQ5NzduMlVBPT0iLCIwLTMtMS0wIjoiVTJGc2RHVmtYMTlyelc4b01idWQ0aGFXWWx0cjZNNktHTVZxMVNzV2tiUEdMR1VrVklVZTBkWXhKeVYwOVdENEVLNFRmREpScDJQNnRBem1vZUY5ZHc9PSIsIjAtNC0xLTAiOiJVMkZzZEdWa1gxL0VkSE5tNC9xOTUxejBhQnFSZGRYLzF5NC8rM203OWd1b25OL1VlbC9oTWlOalpIVFRpbnZja0cwOEFNL2twTG0xN0h1MFo0d2U0UT09IiwiMC01LTEtMCI6IlUyRnNkR1ZrWDE4THUxcjhwckF1aGlaMjhrQkJmRlg2bFB3Rk9OTk1OWHN4VFZMU2ROT3hSeUZjd0lOV1dGZ0twRG9NaVdGUVU4YjFDVk83NnhCc3VRPT0ifX0="
+    // Datos a enviar al iframe
+    const datos = {
+        "type": "student-inputs",
+        "inputs": studentInputs
+    }
+    // Enviar datos del estudiante al iframe
+    iframe.contentWindow.postMessage(JSON.stringify(datos) , '*')
+
+    // teacherInputs es la variable "inputs del maestro"
+    const teacherInputs = "eyJpbnB1dHMiOnsiMC0wLTEtMCI6eyJyIjp0cnVlLCJ2IjoiQ29tZW50YXJpbyAxIHNvYnJlIHJlc3B1ZXN0YSJ9LCIwLTEtMS0wIjp7InIiOnRydWUsInYiOiJDb21lbnRhcmlvIDIgc29icmUgcmVzcHVlc3RhIn0sIjAtMi0xLTAiOnsiciI6ZmFsc2UsInYiOiJDb21lbnRhcmlvIDMgc29icmUgcmVzcHVlc3RhIn0sIjAtMy0xLTAiOnsiciI6ZmFsc2UsInYiOiJDb21lbnRhcmlvIDQgc29icmUgcmVzcHVlc3RhIn0sIjAtNC0xLTAiOnsiciI6dHJ1ZSwidiI6IkNvbWVudGFyaW8gNSBzb2JyZSByZXNwdWVzdGEifSwiMC01LTEtMCI6eyJyIjpmYWxzZSwidiI6IiJ9fSwicG9zaXRpdmUiOjMsImNvbW1lbnRzIjo1LCJ0b3RhbCI6Nn0="
+    const datosTeacher = {
+        "type": "teacher-inputs",
+        "inputs": teacherInputs
+    }
+    // Enviar datos del maestro al iframe
+    iframe.contentWindow.postMessage(JSON.stringify(datosTeacher) , '*')
+}
+
+
+            </code></pre>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<!-- ################################### ################################### -->
+<!-- ################################### ################################### -->
+<!-- ################################### ################################### -->
+
+<!-- IFRAME 6 ############ #################################### -->
+
+<div class="text-center text-white p-5  bg-rose-700 mt-1 mx-1 font-extrabold text-3xl"><div class="text-xl">CARGAR DATOS DE ESTUDIANTE: CONGELADO ❄️ </div> <div class="text-xl"> + VISTA DE MAESTRO</div> + CARGAR DATOS DE MAESTRO : CONGELADO ❄️</div>
+<div class="grid grid-cols-2 gap-1 p-1">
+    <div class="w-full">
+        <div class="bg-rose-700 text-white font-bold text-xs p-5">https://odas.win<span class="text-lime-300">/#A1-1U1L1EF</span><span class="text-yellow-300">/freeze</span><span class="text-cyan-200">/teacher</span><span class="text-yellow-300 text-xl">/freeze</span> <span class="text-5xl">👈</span></div>
+        <iframe onload="iframe5Loaded(this)" src="https://odas.win/#A1-1U1L1EF/freeze/teacher/freeze" frameborder="0" class="w-full h-[500px]"></iframe>
+    </div>
+    <div>
+        <div class="bg-rose-700 text-white font-bold text-xs p-5">Código HTML:</div>
+        <div class="overflow-auto text-xs">
+            <pre><code class="language-html">
+&lt;!-- Llamar función desde iframe onload --&gt;
+&lt;iframe onload="iframeLoaded(this)" /&gt;
+            </code></pre>
+            <div class="bg-rose-700 text-white font-bold text-xs p-5">Código JS:</div>
+            <pre><code class="language-json">
+// ### Cargar datos de estudiante ### y de maestro
+function iframeLoaded(iframe){
+    // studentInputs es la variable "inputs del estudiante"
+    const studentInputs = "eyJsb2NhdGlvbiI6Ii9lbmQiLCJ0b3RhbHRpbWUiOjM2LCJpbnB1dHMiOnsiMC0wLTEtMCI6IlUyRnNkR1ZrWDE4aGFidlkycVBPSTN0ck1ubWpkWTlacHprQ05WbTErQ0k0SUM3bkdkRGo1bHpSanFxendVL2FEZTNuaDJySm9NWVZPSmFTMHlEVWlBPT0iLCIwLTEtMS0wIjoiVTJGc2RHVmtYMS8zQi9WVXBrYjU5UUtlUEpwakk5L1E2NzVKYitHTjM5NDJ6Q1BSMi82MkFMK0Fxck5nVEIxcmtsVzcydFVVdDE4WG9RSWJIWU5UZElISVhMdlp0b05mU0huQjh2SXk0OEE9IiwiMC0yLTEtMCI6IlUyRnNkR1ZrWDErcnkzd28rTzVRS3kwKy81eVdFWjk3UXNJQ0dpRERESkx5aXg1RUxUWTNIQndKc3ltUnRSWEZ4Z2JRcFZkeThIVDZUdGQ5NzduMlVBPT0iLCIwLTMtMS0wIjoiVTJGc2RHVmtYMTlyelc4b01idWQ0aGFXWWx0cjZNNktHTVZxMVNzV2tiUEdMR1VrVklVZTBkWXhKeVYwOVdENEVLNFRmREpScDJQNnRBem1vZUY5ZHc9PSIsIjAtNC0xLTAiOiJVMkZzZEdWa1gxL0VkSE5tNC9xOTUxejBhQnFSZGRYLzF5NC8rM203OWd1b25OL1VlbC9oTWlOalpIVFRpbnZja0cwOEFNL2twTG0xN0h1MFo0d2U0UT09IiwiMC01LTEtMCI6IlUyRnNkR1ZrWDE4THUxcjhwckF1aGlaMjhrQkJmRlg2bFB3Rk9OTk1OWHN4VFZMU2ROT3hSeUZjd0lOV1dGZ0twRG9NaVdGUVU4YjFDVk83NnhCc3VRPT0ifX0="
+    // Datos a enviar al iframe
+    const datos = {
+        "type": "student-inputs",
+        "inputs": studentInputs
+    }
+    // Enviar datos del estudiante al iframe
+    iframe.contentWindow.postMessage(JSON.stringify(datos) , '*')
+
+    // teacherInputs es la variable "inputs del maestro"
+    const teacherInputs = "eyJpbnB1dHMiOnsiMC0wLTEtMCI6eyJyIjp0cnVlLCJ2IjoiQ29tZW50YXJpbyAxIHNvYnJlIHJlc3B1ZXN0YSJ9LCIwLTEtMS0wIjp7InIiOnRydWUsInYiOiJDb21lbnRhcmlvIDIgc29icmUgcmVzcHVlc3RhIn0sIjAtMi0xLTAiOnsiciI6ZmFsc2UsInYiOiJDb21lbnRhcmlvIDMgc29icmUgcmVzcHVlc3RhIn0sIjAtMy0xLTAiOnsiciI6ZmFsc2UsInYiOiJDb21lbnRhcmlvIDQgc29icmUgcmVzcHVlc3RhIn0sIjAtNC0xLTAiOnsiciI6dHJ1ZSwidiI6IkNvbWVudGFyaW8gNSBzb2JyZSByZXNwdWVzdGEifSwiMC01LTEtMCI6eyJyIjpmYWxzZSwidiI6IiJ9fSwicG9zaXRpdmUiOjMsImNvbW1lbnRzIjo1LCJ0b3RhbCI6Nn0="
+    const datosTeacher = {
+        "type": "teacher-inputs",
+        "inputs": teacherInputs
+    }
+    // Enviar datos del maestro al iframe
+    iframe.contentWindow.postMessage(JSON.stringify(datosTeacher) , '*')
+}
+
+
+            </code></pre>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<script>
+
+    hljs.highlightAll();
+    window.addEventListener('message', function(event) {
+        if(JSON.parse(event.data).datatype == 'student'){ 
+            document.getElementById('datos1').innerHTML =event.data.replaceAll(',"', ',\n"').replaceAll(',{', ',\n{\n').replaceAll('{', '\n{\n').replaceAll('}', ',\n}')
+            hljs.highlightAll();
+        }
+    })
+
+
+    const studentInputs = "eyJsb2NhdGlvbiI6Ii9lbmQiLCJ0b3RhbHRpbWUiOjM2LCJpbnB1dHMiOnsiMC0wLTEtMCI6IlUyRnNkR1ZrWDE4aGFidlkycVBPSTN0ck1ubWpkWTlacHprQ05WbTErQ0k0SUM3bkdkRGo1bHpSanFxendVL2FEZTNuaDJySm9NWVZPSmFTMHlEVWlBPT0iLCIwLTEtMS0wIjoiVTJGc2RHVmtYMS8zQi9WVXBrYjU5UUtlUEpwakk5L1E2NzVKYitHTjM5NDJ6Q1BSMi82MkFMK0Fxck5nVEIxcmtsVzcydFVVdDE4WG9RSWJIWU5UZElISVhMdlp0b05mU0huQjh2SXk0OEE9IiwiMC0yLTEtMCI6IlUyRnNkR1ZrWDErcnkzd28rTzVRS3kwKy81eVdFWjk3UXNJQ0dpRERESkx5aXg1RUxUWTNIQndKc3ltUnRSWEZ4Z2JRcFZkeThIVDZUdGQ5NzduMlVBPT0iLCIwLTMtMS0wIjoiVTJGc2RHVmtYMTlyelc4b01idWQ0aGFXWWx0cjZNNktHTVZxMVNzV2tiUEdMR1VrVklVZTBkWXhKeVYwOVdENEVLNFRmREpScDJQNnRBem1vZUY5ZHc9PSIsIjAtNC0xLTAiOiJVMkZzZEdWa1gxL0VkSE5tNC9xOTUxejBhQnFSZGRYLzF5NC8rM203OWd1b25OL1VlbC9oTWlOalpIVFRpbnZja0cwOEFNL2twTG0xN0h1MFo0d2U0UT09IiwiMC01LTEtMCI6IlUyRnNkR1ZrWDE4THUxcjhwckF1aGlaMjhrQkJmRlg2bFB3Rk9OTk1OWHN4VFZMU2ROT3hSeUZjd0lOV1dGZ0twRG9NaVdGUVU4YjFDVk83NnhCc3VRPT0ifX0="
+    const teacherInputs = "eyJpbnB1dHMiOnsiMC0wLTEtMCI6eyJyIjp0cnVlLCJ2IjoiQ29tZW50YXJpbyAxIn0sIjAtMS0xLTAiOnsiciI6ZmFsc2UsInYiOiJDb21lbnRhcmlvIDIifSwiMC0yLTEtMCI6eyJyIjpmYWxzZSwidiI6IkNvbWVudGFyaW8gMyJ9LCIwLTMtMS0wIjp7InIiOnRydWUsInYiOiIifSwiMC00LTEtMCI6eyJyIjp0cnVlLCJ2IjoiIn0sIjAtNS0xLTAiOnsiciI6ZmFsc2UsInYiOiIifX0sInBvc2l0aXZlIjozLCJjb21tZW50cyI6MywidG90YWwiOjZ9"
+
+    function iframe2Loaded(iframe){
+        const datos = {
+            "type": "student-inputs",
+            "inputs": studentInputs
+        }
+        iframe.contentWindow.postMessage(JSON.stringify(datos) , '*')
+    }
+
+    function iframe3Loaded(iframe){
+        const datos = {
+            "type": "student-inputs",
+            "inputs": studentInputs
+        }
+        iframe.contentWindow.postMessage(JSON.stringify(datos) , '*')
+    }
+    
+    function setAttempts(iframe){
+        const datos = {
+            "type": "attempts",
+            "times": 1
+        }
+        iframe.contentWindow.postMessage(JSON.stringify(datos) , '*')
+    }
+    
+    function iframe5Loaded(iframe){
+        const datos = {
+            "type": "student-inputs",
+            "inputs": studentInputs
+        }
+        iframe.contentWindow.postMessage(JSON.stringify(datos) , '*')
+        
+        const datosTeacher = {
+            "type": "teacher-inputs",
+            "inputs": teacherInputs
+        }
+        iframe.contentWindow.postMessage(JSON.stringify(datosTeacher) , '*')
+    }
+
+
+
+    window.addEventListener('message', function(event) {
+        if(JSON.parse(event.data).datatype == 'teacher'){ 
+            document.getElementById('datos4').innerHTML =event.data.replaceAll(',"', ',\n"').replaceAll(',{', ',\n{\n').replaceAll('{', '\n{\n').replaceAll('}', ',\n}')
+            hljs.highlightAll();
+        }
+    })
+
+
+
+
+</script>
+
+
+
+</body>
+</html>

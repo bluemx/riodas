@@ -142,10 +142,10 @@ html, #app{
 
 
 
-
 .freeze #app{
-  @apply block max-w-[94vw] mx-auto h-auto !my-1 rounded bg-info;
+  @apply bg-info;
 }
+/*
 .freeze .button{
   display: none;
 }
@@ -154,7 +154,7 @@ html, #app{
   min-height: 400px;
 }
 
-
+*/
 .teacher [data-eval="manual"]{
   @apply ring-4 ring-info;
 }
