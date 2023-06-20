@@ -1,0 +1,92 @@
+{
+    "title": "Exercise A. Welcome!",
+    "clock": true,
+    "countdown": 0,
+    "intro": {
+        "buttons": {
+            "start": "Start"
+        },
+        "content": []
+    },
+    "activity": {
+        "scenes": [
+            {
+                "countdown": 0,
+                "instructions": {
+                    "open": true,
+                    "content": [
+                        {
+                            "block": "group",
+                            "class": "flex gap-2 items-center",
+                            "content": [
+                                {
+                                    "block": "audio",
+                                    "class": "",
+                                    "file": "instruccion.mp3"
+                                },
+                                {
+                                    "block": "text",
+                                    "class": "",
+                                    "text": "Watch the following video, identify what will you learn in this unit and share with the group in class. You can take some notes in your notebook."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "content": [
+                    {
+                        "block": "group",
+                        "class": "flex justify-center",
+                        "content": [
+                            {
+                                "block": "video",
+                                "class": "w-3/4 max-w-xl",
+                                "file": "video.mp4",
+                                "poster": "video.jpg"
+                            }
+                        ]
+                    },
+                    {
+                        "block": "group",
+                        "class": "text-center mt-10",
+                        "content": [
+                            {
+                                "block": "button",
+                                "class": "mx-auto",
+                                "content": "Finalize",
+                                "to": "/end"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "end": {
+        "buttons": {
+            "restart": false
+        },
+        "content": [
+            {
+                "block": "group",
+                "class": "bg-slate-100 rounded p-5 text-center w-full text-neutral",
+                "content": [
+                    {
+                        "block": "text",
+                        "content": "Congratulations, you finished the activity."
+                    }
+                ]
+            },
+            {
+                "block": "group",
+                "class": "text-center p-5",
+                "content": [
+                    {
+                        "block": "finished"
+                    }
+                ]
+            }
+        ]
+    },
+    "symbols": {}
+}
