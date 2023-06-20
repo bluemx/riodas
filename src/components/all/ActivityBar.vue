@@ -5,7 +5,7 @@
     <SceneInstructions v-if="sceneInstructions" :data="sceneInstructions"></SceneInstructions>
 
     <div class="flex gap-2 ">
-        <TimerClock v-if="oda.oda.clock"></TimerClock>
+        <TimerClock v-show="oda.oda.clock"></TimerClock>
         <TimerCountdown v-if="oda.oda.countdown > 0"  :timecount="oda.oda.countdown" store-as="totaltime" ></TimerCountdown>
         <TimerCountdown v-if="sceneCountdown>0" :timecount="sceneCountdown" :store-as="sceneName"></TimerCountdown>
     </div>

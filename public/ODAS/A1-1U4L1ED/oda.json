@@ -1,0 +1,118 @@
+{
+  "title": "Semicontrolled Practice",
+  "clock": true,
+  "countdown": 0,
+  "intro": {
+    "buttons": {
+      "start": "Start"
+    },
+    "content": []
+  },
+  "activity": {
+    "scenes": [
+      {
+        "countdown": 0,
+        "instructions": {
+          "open": true,
+          "content": [
+            {
+              "block": "group",
+              "class": "flex gap-2 items-center",
+              "content": [
+                {
+                  "block": "audio",
+                  "class": "",
+                  "file": "instruccion.mp3"
+                },
+                {
+                  "block": "text",
+                  "class": "",
+                  "text": "Look at the map carefully. Complete each sentence with the correct form of verb to be and the correct preposition from the two options. Check the example: "
+                },
+                {
+                  "block": "group",
+                  "class": "flex justify-center gap-2 bg-primary/10 p-2 rounded",
+                  "content": [
+                    {
+                      "block": "text",
+                      "class": "text-accent",
+                      "text": "between"
+                    },
+                    {
+                      "block": "text",
+                      "class": "text-accent",
+                      "text": "behind"
+                    }
+                  ]
+                },
+                {
+                    "block": "group",
+                    "class": "flex",
+                    "content": [
+                        {
+                            "block": "text",
+                            "class": "",
+                            "text": "The casino"
+                          },
+                          {
+                            "block": "text",
+                            "class": "text-accent",
+                            "text": "is behind"
+                          },
+                          {
+                            "block": "text",
+                            "class": "",
+                            "text": "the gas station."
+                          }
+                    ]
+                }
+              ]
+            }
+          ]
+        },
+        "content": [
+          
+          {
+            "block": "group",
+            "class": "text-center mt-10",
+            "content": [
+              {
+                "block": "button",
+                "class": "mx-auto",
+                "content": "Finalize",
+                "to": "/end"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "end": {
+    "buttons": {
+      "restart": false
+    },
+    "content": [
+      {
+        "block": "group",
+        "class": "bg-slate-100 rounded p-5 text-center w-full text-neutral",
+        "content": [
+          {
+            "block": "text",
+            "content": "Congratulations, you finished the activity."
+          }
+        ]
+      },
+      {
+        "block": "group",
+        "class": "text-center p-5",
+        "content": [
+          {
+            "block": "finished"
+          }
+        ]
+      }
+    ]
+  },
+  "symbols": {}
+}
