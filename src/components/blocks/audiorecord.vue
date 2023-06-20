@@ -48,7 +48,8 @@
             </div>
             <div v-else class="text-center p-1">
                 <div class="text-xs text-slate-400">Your answer:</div>
-                <div v-html="evaluatedText" class="text-lg bg-success rounded text-white"></div>
+                <div v-html="evaluatedText" class="text-lg border-2 border-slate-200 px-2 py-1 rounded"></div>
+
             </div>
         </div> 
     </template>
@@ -99,6 +100,8 @@ const props = defineProps({
 recordingTimelimit.value = props.data.timelimit || 5
 
 const init = async () => {
+        const blockdata = blocks.initFN(oda, props.data, props.blockindex, block.value)
+
         wavesurfer.value = WaveSurfer.create({
             container: blockwave.value,
             waveColor: '#00a8e1',
@@ -226,6 +229,7 @@ const verify = async () => {
             loading.value = false
             blocks.result.value = data.data.score > 90
             evaluatedText.value = data.data.evaluatedtext
+            blocks.evaluateFN(evaluatedText.value)
         } else {
             audiorecordedB64.value = null
             readyToPlay.value = false
@@ -237,9 +241,8 @@ const verify = async () => {
         console.log(err)
         loading.value = false
     }
-
-
-
 }
+
+
 
 </script>

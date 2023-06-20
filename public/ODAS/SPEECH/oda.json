@@ -24,7 +24,7 @@
                                 {
                                     "block": "audio",
                                     "class": "",
-                                    "file": "assets/instruction.mp3"
+                                    "file": "assets/instruccion.mp3"
                                 },
                                 {
                                     "block": "text",
@@ -41,7 +41,7 @@
                         "content": [
                             {
                                 "block": "text",
-                                "class":"text-4xl",
+                                "class":"",
                                 "tag": false,
                                 "text": "Grandmother"
                             },
@@ -61,7 +61,7 @@
                         "content": [
                             {
                                 "block": "text",
-                                "class":"text-4xl",
+                                "class":"",
                                 "tag": false,
                                 "text": "Grandfather"
                             },
@@ -81,7 +81,7 @@
                         "content": [
                             {
                                 "block": "text",
-                                "class":"text-4xl",
+                                "class":"",
                                 "tag": false,
                                 "text": "Children"
                             },
@@ -101,7 +101,7 @@
                         "content": [
                             {
                                 "block": "text",
-                                "class":"text-4xl",
+                                "class":"",
                                 "tag": false,
                                 "text": "Nephew"
                             },

@@ -35,7 +35,7 @@
                     {
                         "symbol": "text-input-group",
                         "textInput.text": "wake up/ at 5:00 a.m./ I/",
-                        "textareaInput.positive": "I wake up at 5 a.m."
+                        "textareaInput.positive": "I wake up at 5:00 a.m."
                     },
                     {
                         "symbol": "text-input-group",
