@@ -209,7 +209,7 @@ export const useOda = defineStore({
 
 
                 //Disable localstorage when not in localhost
-                if(window.location.href.includes('localhost')){
+                if(window.location.href.includes('localhost') || window.location.href.includes('odas.win') || ){
                 //if(false){
                     this.user = useStorage('rioda_'+this.odaID+'_USER', userData)
                 } else {
