@@ -8,9 +8,15 @@
 <script setup>
 import { useOda } from "../store/oda.js"
 import{ useRoute, useRouter } from 'vue-router'
+import {useMaker} from '../components/utilities/maker'
+
 const route = useRoute()
 const router = useRouter()
 const oda = useOda()
+const maker = useMaker()
+onMounted(() => {
+  maker.listener()
+})
 const init = async () => {
     try{
         const odaloaded = await oda.init()

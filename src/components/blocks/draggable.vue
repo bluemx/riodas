@@ -41,6 +41,9 @@ import sound2 from '../../assets/uisound/navigation_unavailable-selection.mp3'
 import sound3 from '../../assets/uisound/notification_decorative-01.mp3'
 import sound4 from '../../assets/uisound/error_001.mp3'
 import ShapesAnimation from "../all/ShapesAnimation";
+
+
+
 const props = defineProps({
     data: Object,
     blockindex: String

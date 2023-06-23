@@ -2,6 +2,9 @@ import { defineStore } from 'pinia'
 import { useStorage } from '@vueuse/core'
 import CryptoJS from 'crypto-js';
 import deepdash from 'deepdash-es';
+import { useRoute, useRouter } from 'vue-router';
+import { getCurrentInstance } from 'vue';
+
 deepdash(_)
 
 export const useOda = defineStore({
@@ -17,10 +20,6 @@ export const useOda = defineStore({
         teacherFreeze: null,
         odaAttempts: 0,
         odaAttemptsLimit: 3
-        
-        //FIXME: create a function to getfiles
-        //FIXME: call this baseurl on webhistory
-        //baseurl: '/riodas'
     }),
     getters: {
         getOda(){
@@ -28,7 +27,7 @@ export const useOda = defineStore({
         },
         getInput(){
             return (blockindex) => {
-                if(this.user.inputs){
+                if(this.user?.inputs){
                     if(this.user.inputs[blockindex]){
                         const bytes = CryptoJS.AES.decrypt(this.user.inputs[blockindex], 'blue')
                         return JSON.parse(bytes.toString(CryptoJS.enc.Utf8))
@@ -45,7 +44,7 @@ export const useOda = defineStore({
                 let responded = 0
                 let positive = 0
                 let total = 0
-                    if(this.user.inputs){
+                    if(this.user?.inputs){
                         Object.keys(this.user.inputs).forEach(key=>{
                             if(key.split('-')[0]==scenenum){
                                 const bytes = CryptoJS.AES.decrypt(this.user.inputs[key], 'blue')
@@ -76,7 +75,7 @@ export const useOda = defineStore({
             let responded = 0
             let positive = 0
             let total = 0
-                if(this.user.inputs){
+                if(this.user?.inputs){
                     Object.keys(this.user.inputs).forEach(key=>{
                         const bytes = CryptoJS.AES.decrypt(this.user.inputs[key], 'blue')
                         const item = JSON.parse(bytes.toString(CryptoJS.enc.Utf8))
@@ -98,11 +97,11 @@ export const useOda = defineStore({
                 }
         },
         getTeacherInputs () {
-            let res = this.teacher.inputs
+            let res = this.teacher?.inputs
             let positive = 0
             let total = 0
             let comments = 0
-            if(this.teacher.inputs){
+            if(this.teacher?.inputs){
             Object.keys(this.teacher.inputs).forEach(key=>{
                 total++
                 if(this.teacher.inputs[key].r == true){
@@ -252,7 +251,7 @@ export const useOda = defineStore({
 })
 
 
-
+/*
 window.addEventListener('message', function(event) {
 
     const oda = useOda()
@@ -277,9 +276,19 @@ window.addEventListener('message', function(event) {
         oda.teacher = decodeData
     }
     if(data.type == 'attempts'){
-        oda.odaAttempts = data.times
+        oda.odaAttempts = data.time
     }
+
+    if(data.type == 'oda'){
+        oda.oda = data.oda
+    }
+
+    if(data.type=='restartoda'){
+        oda.restartUser()
+        console.log(oda.user)
+    }
+
   });
 
 
-
+*/
