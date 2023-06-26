@@ -18,17 +18,28 @@ const playing = ref(false)
 const block = ref()
 const blockwave = ref()
 const wavesurfer = ref(null)
+
 //PROPS
 const props = defineProps({
     data: Object,
     blockindex: String
 })
+const filepath = ref()
+
+watch((props), () => {
+    init()
+}, {deep:true})
 
 
+const setFilePath = () => {
+    filepath.value = props.data.file.includes('http') ? props.data.file : '/ODAS/'+oda.odaID+'/'+props.data.file
+}
 
 const init = async () => {
-    const filepath = '/ODAS/'+oda.odaID+'/'+props.data.file
-    
+    setFilePath()
+    if(!filepath.value){
+        return false
+    }
     if(props.data.wave){
         wavesurfer.value = WaveSurfer.create({
             container: blockwave.value,
@@ -43,7 +54,7 @@ const init = async () => {
             normalize: true
         })
 
-        wavesurfer.value.load(filepath)
+        wavesurfer.value.load(filepath.value)
 
         wavesurfer.value.on('interaction', () => {
             wavesurfer.value.play()
@@ -56,7 +67,7 @@ const init = async () => {
         })
     } else {
         sound.value = new Howl({
-            src: [filepath], volume: 1, autoplay:props.data.autoplay || false,
+            src: [filepath.value], volume: 1, autoplay:props.data.autoplay || false,
             onplay: () => { playing.value = true },
             onend: () => { playing.value = false },
             onstop: () => { playing.value = false },
@@ -75,6 +86,7 @@ onMounted(() => {
 })
 
 const clicked = async () => {
+
     if(props.data.wave){
         wavesurfer.value.play()
     } else {

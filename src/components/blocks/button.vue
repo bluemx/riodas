@@ -2,7 +2,7 @@
 
 <div>
 <template v-if="!replaced">
-    <button :class="['button', data.class || '']" @click="clicked">{{ data.content }}</button>
+    <button :class="['button', data.class || '']" @click="clicked">{{ data.text || data.content }}</button>
 </template>
 <template v-if="replaced">
     <Content v-for="(item, index) in data.replace" :key="index" :data="item" :blockindex="blockindex"></Content>

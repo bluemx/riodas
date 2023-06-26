@@ -1,5 +1,5 @@
 <template>
-<div :class="['mockup-window border bg-slate-100 px-2 pb-2', data.class || '']">
+<div v-if="filepath" :class="['mockup-window border bg-slate-100 px-2 pb-2', data.class || '']">
     <video-player
     class="rounded-2xl overflow-clip "
     :src="filepath"
@@ -17,6 +17,7 @@
     @seeking="vseeking"
   />
 </div>
+
 </template>
 <script setup>
 import { useOda } from "../../store/oda.js"
@@ -26,7 +27,20 @@ const props = defineProps({
     blockindex: String
 })
 
-const filepath = '/ODAS/'+oda.odaID+'/'+props.data.file
+const filepath = ref()
+
+
+watch((props), () => {
+  if(props.data.file){
+    filepath.value = '/ODAS/'+oda.odaID+'/'+props.data.file
+  }
+  if(props.data.file.includes('http')){
+    filepath.value = props.data.file
+  }
+}, {deep:true})
+
+/*
+
 const posterpath = '/ODAS/'+oda.odaID+'/'+props.data.poster
 
 
