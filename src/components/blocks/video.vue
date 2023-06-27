@@ -4,7 +4,7 @@
     crossorigin="anonymous"
     class="rounded-2xl overflow-clip "
     :src="filepath"
-    poster
+    
     aspect-ratio="1:1"
     :fluid="true"
     controls
@@ -18,6 +18,7 @@
     @seeking="vseeking"
     ref="video"
   />
+
 </div>
 
 </template>
@@ -29,33 +30,25 @@ const props = defineProps({
     blockindex: String
 })
 const video = ref()
-const filepath = ref()
-const posterpath = ref()
 
 
-watch((props), () => {
-  if(props.data.file){
-    filepath.value = '/ODAS/'+oda.odaID+'/'+props.data.file  
-  }
-  if(props.data.poster){
-    posterpath.value = '/ODAS/'+oda.odaID+'/'+props.data.poster
-  }
-
-  if(props.data.file.includes('http')){
-    filepath.value = props.data.file
-  }
-  if(props.data.poster.includes('http')){
-    posterpath.value = props.data.poster
-  }
-  video.poster = posterpath.value
-}, {deep:true})
+const filepath = computed(()=>{
+  return props.data.file.includes('http')? props.data.file : '/ODAS/'+oda.odaID+'/'+props.data.file
+})
 
 
+const posterpath = computed(()=>{
+  const post = props.data.poster.includes('http')? props.data.poster : '/ODAS/'+oda.odaID+'/'+props.data.poster  
+  return post
+})
 
 
 
 const vmounted = () => {}
-const vready = () => {}
+const vready = (itm) => {
+  itm.target.player.crossOrigin = "anonymous"
+  itm.target.player.posterImage = posterpath
+}
 const vplay = () => {}
 const vpause = () => {}
 const vended = () => {}

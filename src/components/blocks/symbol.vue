@@ -16,8 +16,6 @@ const item = ref()
 
 
 
-
-
 const replaceitemkeys = (itemtoreplace, fromObj, key) => {
     if(
         key!='symbol' &&
@@ -71,9 +69,11 @@ const init = () => {
 }
 init()
 
-watch(props, (nv)=>{
-    console.log(nv)
-    init()
+watch(()=>props, (nv)=>{
+    item.value = {}
+    setTimeout(()=>{
+        init()
+    }, 100)
 }, {deep:true})
 
 

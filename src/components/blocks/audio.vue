@@ -24,19 +24,20 @@ const props = defineProps({
     data: Object,
     blockindex: String
 })
-const filepath = ref()
 
-watch((props), () => {
+
+const filepath = computed(()=>{
+  return props.data.file.includes('http')? props.data.file : '/ODAS/'+oda.odaID+'/'+props.data.file
+})
+
+
+watch(()=>filepath, () => {
     init()
 }, {deep:true})
 
 
-const setFilePath = () => {
-    filepath.value = props.data.file.includes('http') ? props.data.file : '/ODAS/'+oda.odaID+'/'+props.data.file
-}
-
 const init = async () => {
-    setFilePath()
+
     if(!filepath.value){
         return false
     }

@@ -1,5 +1,7 @@
 <template>
+  <div>
   <img crossorigin="anonymous" :src="filepath" :class="[data.class || '']" alt="Image">
+</div>
 </template>
 <script setup>
 import { useOda } from "../../store/oda.js"
@@ -9,19 +11,10 @@ const props = defineProps({
     blockindex: String
 })
 
-const filepath = ref('/ODAS/'+oda.odaID+'/'+props.data.file)
 
-watch((props), () => {
-  if(props.data.file.includes('http')){
-    filepath.value = props.data.file
-  }
-}, {deep:true})
-
-/*
-const dialog = ref()
-onMounted(() => {
-  dialog.value.show()  
+const filepath = computed(()=>{
+  return props.data.file.includes('http')? props.data.file : '/ODAS/'+oda.odaID+'/'+props.data.file
 })
-*/
+
 
 </script>
