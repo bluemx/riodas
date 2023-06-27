@@ -1,8 +1,8 @@
 <template>
  <div :class="['w-full p-1 rounded flex justify-center items-center !h-auto relative border-solid', blocks.resultClass.value ]"  ref="block">
-    <textarea ref="blockarea" :readonly="blocks.freeze.value" v-if="data.multiline" v-model="input" :class="['block border-2 border-secondary rounded w-full min-h-[32px] resize-none  max-h-40', data.class || '']" @input="onChange"  :placeholder="placeholder">
+    <textarea ref="blockarea" :readonly="blocks.freeze.value" v-if="data.multiline" v-model="input" :class="['block border-2 border-secondary rounded w-full min-h-[32px] resize-none  max-h-40', data.class || '']" @input="onChange"  :placeholder="data?.placeholder || 'Write here...'">
     </textarea>
-    <input :readonly="blocks.freeze.value" v-else v-model="input" :class="['block border-2 border-secondary rounded w-full min-h-[32px] resize-none  max-h-40', data.class || '']" @input="onChange"  :placeholder="placeholder">
+    <input :readonly="blocks.freeze.value" v-else v-model="input" :class="['block border-2 border-secondary rounded w-full min-h-[32px] resize-none  max-h-40', data.class || '']" @input="onChange"  :placeholder="data?.placeholder || 'Write here...'">
 </div>
 
 </template>
