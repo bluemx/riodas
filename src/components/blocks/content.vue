@@ -1,5 +1,5 @@
 <template>
-
+<template v-if="!data.hidden">
 <Text v-if="data.block=='text'" :data="data" :data-blockindex="blockindex"  :data-eval="evaltype(data)"></Text>
 <Group v-else-if="data.block=='group'" :data="data" :blockindex="blockindex" :data-blockindex="blockindex"  :data-eval="evaltype(data)"></Group>
 <Option v-else-if="data.block=='option'" :data="data" :blockindex="blockindex" :data-blockindex="blockindex"  :data-eval="evaltype(data)"></Option>
@@ -21,6 +21,8 @@
 <Choose v-else-if="data.block=='choose'" :data="data" :blockindex="blockindex" :data-blockindex="blockindex"></Choose>
 <!-- Symbol -->
 <Symbol v-if="data.symbol" :data="data" :blockindex="blockindex"></Symbol>
+
+</template>
 
 <div v-if="evaltype(data)=='manual'">
     <Teachereval :data="data" :blockindex="blockindex"></Teachereval>
