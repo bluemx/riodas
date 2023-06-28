@@ -33,7 +33,14 @@ export function useMaker () {
         
             if(data.type == 'oda'){
                 console.log('PM: oda')
-                oda.oda = data.oda
+                /* remove hidden */
+                const odaDoc = ref(data.oda)
+                odaDoc.value = _.cloneDeepWith(odaDoc.value, (value) => {
+                    if (_.isObject(value) && value.hidden === true) {
+                        return {}
+                    }
+                });
+                oda.oda = odaDoc
             }
 
             if(data.type=='restartoda'){
