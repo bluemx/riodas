@@ -14,25 +14,30 @@ export function useMaker () {
             if(!data){ return false }
             
             if(data.type == 'student-inputs'){
+                console.log('PM: student-inputs')
                 const inputs = JSON.parse(atob(data.inputs))
                 const decodeData = JSON.parse(window.atob(data.inputs))
                 oda.user = decodeData
                 oda.userWaiting = decodeData
             }
             if(data.type == 'teacher-inputs'){
+                console.log('PM: teacher-inputs')
                 const inputs = JSON.parse(atob(data.inputs))
                 const decodeData = JSON.parse(window.atob(data.inputs))
                 oda.teacher = decodeData
             }
             if(data.type == 'attempts'){
+                console.log('PM: attempts')
                 oda.odaAttempts = data.time
             }
         
             if(data.type == 'oda'){
+                console.log('PM: oda')
                 oda.oda = data.oda
             }
 
             if(data.type=='restartoda'){
+                console.log('PM: restartoda')
                 oda.restartUser()
                 router.push('/'+oda.odaID)
             }
