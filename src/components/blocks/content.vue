@@ -1,6 +1,7 @@
 <template>
 <!--<template v-if="!data.hidden">-->
 <Text v-if="data.block=='text'" :data="data" :data-blockindex="blockindex"  :data-eval="evaltype(data)"></Text>
+<Icon v-if="data.block=='icon'" :data="data" :data-blockindex="blockindex"  :data-eval="evaltype(data)"></Icon>
 <Group v-else-if="data.block=='group'" :data="data" :blockindex="blockindex" :data-blockindex="blockindex"  :data-eval="evaltype(data)"></Group>
 <Option v-else-if="data.block=='option'" :data="data" :blockindex="blockindex" :data-blockindex="blockindex"  :data-eval="evaltype(data)"></Option>
 <Repeater v-else-if="data.block=='repeater'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)"></Repeater>

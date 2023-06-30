@@ -21,6 +21,7 @@ declare module '@vue/runtime-core' {
     Draggable: typeof import('./src/components/blocks/draggable.vue')['default']
     Finished: typeof import('./src/components/blocks/finished.vue')['default']
     Group: typeof import('./src/components/blocks/group.vue')['default']
+    Icon: typeof import('./src/components/blocks/icon.vue')['default']
     Image: typeof import('./src/components/blocks/image.vue')['default']
     Imageupload: typeof import('./src/components/blocks/imageupload.vue')['default']
     LockActivityButton: typeof import('./src/components/all/LockActivityButton.vue')['default']
