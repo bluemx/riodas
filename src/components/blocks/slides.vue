@@ -7,10 +7,10 @@
     </template>
     <div class="flex justify-between items-center mt-5">
         <div>
-            <button class="btn btn-xs btn-accent" v-if="slide>0 && data.buttons.prev" @click="slide--">{{ data.buttons.prev }}</button>
+            <button class="btn btn-xs btn-accent" v-if="slide>0 && btnPrev" @click="slide--">{{ btnPrev }}</button>
         </div>
         <div>
-            <button class="btn btn-xs btn-accent" v-if="slide<data.content.length-1 && data.buttons.next"  @click="slide++">{{ data.buttons.next }}</button>
+            <button class="btn btn-xs btn-accent" v-if="slide<data.content.length-1 && btnNext"  @click="slide++">{{ btnNext }}</button>
         </div>
     </div>
 </div>
@@ -22,4 +22,8 @@ const props = defineProps({
     blockindex: String
 })
 const slide = ref(0)
+
+const btnNext = props.data.buttons?.next || props.data.next
+const btnPrev = props.data.buttons?.prev || props.data.prev
+
 </script>

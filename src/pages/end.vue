@@ -1,6 +1,6 @@
 <template>
 <ScreenTransition></ScreenTransition>
-<div class="oda-screen">
+<div class="oda-screen text-neutral">
     
     
     <Content  v-for="(item, index) in oda.oda.end.content" :key="index" :data="item"></Content>
