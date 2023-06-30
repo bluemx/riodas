@@ -21,6 +21,7 @@ const compareFN = (val1, compare, val2) => {
             return val1 != val2
             break 
         case ">=":
+
             return val1 >= val2
             break 
         case "<=":
@@ -37,6 +38,8 @@ const fullfiled = computed(()=>{
             var compare = rule[2]
             var val2 = rule[3]
             rulesResult.push(compareFN(val1, compare, val2))
+            console.log(rulesResult)
+            console.log()
         }
         if(rule[0] == 'oda'){
             
@@ -50,8 +53,11 @@ const fullfiled = computed(()=>{
 
 </script>
 <template>
+<div>
     <Content v-if="fullfiled && data['content-true']" v-for="(item, index) in data['content-true']" :key="index" :data="item" :blockindex="blockindex"></Content>
     <Content v-if="!fullfiled && data['content-false']" v-for="(item, index) in data['content-false']" :key="index" :data="item" :blockindex="blockindex"></Content>
+    ::{{ oda.getSceneInputs(scenenum) }}
+</div>
 
 </template>
 

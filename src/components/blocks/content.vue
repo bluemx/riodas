@@ -17,6 +17,7 @@
 <Textarea v-else-if="data.block=='textarea'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)"></Textarea>
 <Switch v-else-if="data.block=='switch'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)"></Switch>
 <Condition v-else-if="data.block=='condition'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)"></Condition>
+<Show v-else-if="data.block=='show'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)"></Show>
 <Imageupload v-else-if="data.block=='imageupload'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)"></Imageupload>
 
 <!-- Diagnostico only-->

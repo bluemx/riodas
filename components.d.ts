@@ -32,6 +32,7 @@ declare module '@vue/runtime-core' {
     RouterView: typeof import('vue-router')['RouterView']
     SceneInstructions: typeof import('./src/components/all/SceneInstructions.vue')['default']
     ScreenTransition: typeof import('./src/components/all/ScreenTransition.vue')['default']
+    Show: typeof import('./src/components/blocks/show.vue')['default']
     Slides: typeof import('./src/components/blocks/slides.vue')['default']
     Switch: typeof import('./src/components/blocks/switch.vue')['default']
     Symbol: typeof import('./src/components/blocks/symbol.vue')['default']
