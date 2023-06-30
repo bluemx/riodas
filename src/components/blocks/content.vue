@@ -13,6 +13,7 @@
 <Image v-else-if="data.block=='image'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)"></Image>
 <Video v-else-if="data.block=='video'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)"></Video>
 <Audiorecord v-else-if="data.block=='audiorecord'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)"></Audiorecord>
+<Record v-else-if="data.block=='record'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)"></Record>
 <Draggable v-else-if="data.block=='draggable'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)"></Draggable>
 <Textarea v-else-if="data.block=='textarea'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)"></Textarea>
 <Switch v-else-if="data.block=='switch'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)"></Switch>

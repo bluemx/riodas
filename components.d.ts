@@ -26,6 +26,7 @@ declare module '@vue/runtime-core' {
     Imageupload: typeof import('./src/components/blocks/imageupload.vue')['default']
     LockActivityButton: typeof import('./src/components/all/LockActivityButton.vue')['default']
     Option: typeof import('./src/components/blocks/option.vue')['default']
+    Record: typeof import('./src/components/blocks/record.vue')['default']
     Repeater: typeof import('./src/components/blocks/repeater.vue')['default']
     RestartButton: typeof import('./src/components/all/RestartButton.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
