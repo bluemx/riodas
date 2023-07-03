@@ -87,7 +87,8 @@ const onChange = (e) => {
     } else {
         blocks.result.value = positive.sort().toString() == itemsorder.sort().toString()
     }
-        blocks.evaluateFN(items.value)
+
+    blocks.evaluateFN(items.value)
 
 
 }
@@ -105,5 +106,7 @@ onMounted(() => {
             items.value = blockdata.v
         }
     }
+    
+    onChange()
 })
 </script>
