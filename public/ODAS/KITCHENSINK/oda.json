@@ -310,6 +310,15 @@
                         ]
                     },
                     {
+                        "block": "option",
+                        "dropdown": true,
+                        "options":[
+                            {"block":"text", "text":"op1"},
+                            {"block":"text", "text":"op2"},
+                            {"block":"text", "text":"op3"}
+                        ]
+                    },
+                    {
                         "block": "group",
                         "class": "text-center mt-10",
                         "content": [

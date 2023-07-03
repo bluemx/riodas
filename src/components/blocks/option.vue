@@ -1,22 +1,41 @@
 <template>
-<div :class="data.class || ''">
-    <div class="w-full mt-4 text-center">
-        <div ref="block" :class="['relative flex justify-center items-center gap-2 flex-wrap rounded', blocks.resultClass.value]" >
-            <template v-for="(item, index) in options" :key="'op'+index">
-                <button :class="['btn', item.index==input?'btn-accent ':'btn-neutral']" @click="onChange(item.index)">
-                    <Content :data="item" ></Content>
-                </button>
-            </template>
+    <div :class="data.class || ''">
+        <div class="w-full mt-4 text-center">
+
+            <div v-if="!data?.dropdown" ref="block"
+                :class="['relative flex justify-center items-center gap-2 flex-wrap rounded', blocks.resultClass.value]">
+                <template v-for="(item, index) in options" :key="'op'+index">
+                    <button :class="['btn', item.index == input ? 'btn-accent ' : 'btn-neutral']" @click="onChange(item.index)">
+                        <Content :data="item"></Content>
+                    </button>
+                </template>
+            </div>
+
+            <details v-else ref="block" class="dropdown dropdown-top">
+                <summary tabindex="0" :class="input===null? 'btn':'btn btn-accent'  ">
+                    <template v-if="input == null">
+                        Select
+                    </template>
+                    <template v-else>
+                        <Content v-if="initOptions[input]" :data="initOptions[input]"></Content>
+                    </template>                    
+                </summary>
+                <ul tabindex="0" class="dropdown-content z-[1] menu   shadow bg-base-content rounded">
+                    <template v-for="(item, index) in options" :key="'opm'+index">
+                        <li class="hover:bg-neutral rounded " @click="onChange(item.index)"><Content :data="item" ></Content></li>
+                        <hr class="my-0.5">
+                    </template>
+                </ul>
+            </details>
+
         </div>
     </div>
-</div>
-
 </template>
 <script setup>
 
 
 import { useOda } from "../../store/oda.js"
-import {useBlocks} from './blocks.js'
+import { useBlocks } from './blocks.js'
 const blocks = useBlocks()
 const oda = useOda()
 const block = ref()
@@ -31,21 +50,26 @@ const props = defineProps({
 })
 
 //OPTIONS sort
-if(props.data.options){
+if (props.data.options) {
     props.data.options.forEach((element, index) => {
-        initOptions.value.push({...element, index:index})
+        initOptions.value.push({ ...element, index: index })
     });
     options.value = [...initOptions.value].sort(() => Math.random() - 0.5)
 }
 //INPUT
-const input = ref()
+const input = ref(null)
 
 
 //ACTION
 const onChange = (itemindex) => {
-    if(blocks.freeze.value){
+    if (blocks.freeze.value) {
         return false
     }
+
+    if(props.data?.dropdown){
+        block.value.removeAttribute('open')
+    }
+
     blocks.attemptsFN()
     evaluate(itemindex)
 }
@@ -61,7 +85,7 @@ const evaluate = (itemindex) => {
 onMounted(() => {
 
     const blockdata = blocks.initFN(oda, props.data, props.blockindex, block.value)
-    if(blockdata && blockdata?.v!=null){
+    if (blockdata && blockdata?.v != null) {
         input.value = blockdata.v
     }
 })
