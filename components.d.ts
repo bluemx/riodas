@@ -14,6 +14,7 @@ declare module '@vue/runtime-core' {
     Audiorecord: typeof import('./src/components/blocks/audiorecord.vue')['default']
     Autosolve: typeof import('./src/components/blocks/autosolve.vue')['default']
     Button: typeof import('./src/components/blocks/button.vue')['default']
+    Choices: typeof import('./src/components/builder/choices.vue')['default']
     Choose: typeof import('./src/components/blocks/choose.vue')['default']
     Condition: typeof import('./src/components/blocks/condition.vue')['default']
     Content: typeof import('./src/components/blocks/content.vue')['default']
@@ -45,5 +46,6 @@ declare module '@vue/runtime-core' {
     TimerCountdown: typeof import('./src/components/all/TimerCountdown.vue')['default']
     Variable: typeof import('./src/components/blocks/variable.vue')['default']
     Video: typeof import('./src/components/blocks/video.vue')['default']
+    Words: typeof import('./src/components/builder/words.vue')['default']
   }
 }

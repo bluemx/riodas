@@ -9,6 +9,7 @@ import Loading from './pages/loading.vue'
 import ErrorPage from './pages/errorPage.vue'
 import NoOda from './pages/noOda.vue'
 import Freeze from './pages/freeze.vue'
+import Builder from './pages/builder.vue'
 
 const odaID = (to) => {
     const oda = useOda()
@@ -64,6 +65,8 @@ const routes = [
     {path: '/:odaID/freeze', redirect: FreezeStudent },
     {path: '/:odaID/freeze/teacher', redirect: FreezeStudentTeacher },
     {path: '/:odaID/freeze/teacher/freeze', redirect: FreezeStudentFreezeTeacher },
+    //builder
+    {path: '/builder', component: Builder },
 ];
 
 
@@ -81,7 +84,7 @@ router.beforeEach(async to => {
 
     const oda = useOda()
 
-    if(to.path!='/loading' && to.path!='/error'){
+    if(to.path!='/loading' && to.path!='/error' && to.path!='/builder'){
         // ODA NOT LOADED ALREADY
         
         if(!oda.loaded){

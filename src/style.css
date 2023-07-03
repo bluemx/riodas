@@ -141,20 +141,26 @@ html, #app{
 }
 
 
-
+.builder #app{
+  @apply bg-secondary;
+}
 .freeze #app{
   @apply bg-info;
 }
-/*
-.freeze .button{
-  display: none;
-}
 
-.freeze .oda-screen{
-  min-height: 400px;
-}
 
-*/
 .teacher [data-eval="manual"]{
   @apply ring-4 ring-info;
+}
+
+
+
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.v-enter-from,
+.v-leave-to {  
+  opacity: 0;
 }

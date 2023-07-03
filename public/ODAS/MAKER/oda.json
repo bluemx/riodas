@@ -1,44 +1,20 @@
 {
-  "title": "Maker",
-  "clock": true,
+  "title": "Loading...",
+  "clock": 0,
   "countdown": 0,
+  "hideattempts": true,
   "intro": {
     "buttons": {
-      "start": "Start"
+      "start": false
     },
     "content": [
-      {
-        "block": "text",
-        "class": "",
-        "text": "Introduction text goes here..."
-      }
     ]
   },
   "activity": {
     "scenes": [
       {
         "countdown": 0,
-        "instructions": {
-          "open": true,
-          "content": [
-            {
-              "block": "group",
-              "class": "flex gap-2 items-center",
-              "content": [
-                {
-                  "block": "audio",
-                  "class": "",
-                  "file": ""
-                },
-                {
-                  "block": "text",
-                  "class": "",
-                  "text": "Instructions text goes here..."
-                }
-              ]
-            }
-          ]
-        },
+        "instructions": false,
         "content": [
           {
             "block": "group",
@@ -47,7 +23,7 @@
               {
                 "block": "text",
                 "class": "",
-                "text": "MAKER"
+                "text": "Loading..."
               }
             ]
           }

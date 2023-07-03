@@ -22,7 +22,6 @@
                 </template>
                 <template v-else>
                         <div  v-if="!oda.freeze" class="text-sm mt-5 text-slate-500 dark:text-slate-300 dark:bg-slate-700 bg-slate-100 rounded p-1">Completed activity</div>
-                        <!-- <div  v-if="!oda.freeze" class="text-sm mt-5 text-slate-500 dark:text-slate-300 dark:bg-slate-700 bg-slate-100 rounded p-1">You have used your {{ oda.odaAttempts }} attempts to complete this activity.</div> -->
                 </template>
         </template>
 
@@ -35,6 +34,8 @@ import { useRouter } from "vue-router";
 import { useOda } from "../store/oda.js"
 const oda = useOda()
 const router = useRouter()
+
+window.parent.postMessage(JSON.stringify({datatype: 'intro'}), '*')
 
 
 </script>

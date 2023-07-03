@@ -30,7 +30,7 @@ export function useMaker () {
                 console.log('PM: attempts')
                 oda.odaAttempts = data.time
             }
-        
+
             if(data.type == 'oda'){
                 console.log('PM: oda')
                 /* remove hidden */

@@ -3,7 +3,7 @@
     <div class="w-full mt-4 text-center">
         <div ref="block" :class="['relative flex justify-center items-center gap-2 flex-wrap rounded', blocks.resultClass.value]" >
             <template v-for="(item, index) in options" :key="'op'+index">
-                <button :class="['btn', item.index==input?'btn-accent ':'btn-neutral btn-outline']" @click="onChange(item.index)">
+                <button :class="['btn', item.index==input?'btn-accent ':'btn-neutral']" @click="onChange(item.index)">
                     <Content :data="item" ></Content>
                 </button>
             </template>
