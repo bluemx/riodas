@@ -101,7 +101,7 @@ const onEnd = (e) => {
 onMounted(() => {
     if(props.data.evaluation){
         const blockdata =  blocks.initFN(oda, props.data, props.blockindex, items.value)
-        if(blockdata.v){
+        if(blockdata?.v){
             items.value = blockdata.v
         }
     }
