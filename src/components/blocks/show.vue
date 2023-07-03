@@ -16,7 +16,6 @@ const scenenum = route.params.scene || 0
 
 const thecondition = computed(()=>{
     const positives = oda.getSceneInputs(scenenum).positive
-    console.log()
     let positivesEq = false
     if(positives == props.data.positives){
         positivesEq = true

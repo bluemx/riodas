@@ -273,7 +273,39 @@
                             {
                                 "block": "imageupload",
                                 "class": "w-40",
-                                "evaluation": "auto"
+                                "evaluation": "auto",
+                                "hidden": true
+                            },
+                            {
+                                "block": "dragdrop",
+                                "class": "",
+                                "evaluation": "",
+                                "group":"g1",
+                                "content": [
+                                    {
+                                        "block": "text",
+                                        "text": "One",
+                                        "name": "d1"
+                                    },
+                                    {
+                                        "block": "text",
+                                        "text": "Two",
+                                        "name": "d2"
+                                    }
+                                ]
+                            },
+                            {
+                                "block": "dragdrop",
+                                "class": "",
+                                "group":"g1",
+                                "evaluation": "auto",
+                                "showResult": false,
+                                "content": [],
+                                "positive": "d1,d2",
+                                "order": true
+                            },
+                            {
+                                "block": "debugger"
                             }
                         ]
                     },

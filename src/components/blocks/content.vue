@@ -15,11 +15,15 @@
 <Audiorecord v-else-if="data.block=='audiorecord'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)"></Audiorecord>
 <Record v-else-if="data.block=='record'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)"></Record>
 <Draggable v-else-if="data.block=='draggable'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)"></Draggable>
+<Dragdrop v-else-if="data.block=='dragdrop'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)"></Dragdrop>
+
 <Textarea v-else-if="data.block=='textarea'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)"></Textarea>
 <Switch v-else-if="data.block=='switch'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)"></Switch>
 <Condition v-else-if="data.block=='condition'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)"></Condition>
 <Show v-else-if="data.block=='show'" :data="data" :blockindex="blockindex"></Show>
 <Imageupload v-else-if="data.block=='imageupload'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)"></Imageupload>
+<Debugger v-else-if="data.block=='debugger'" ></Debugger>
+
 
 <!-- Diagnostico only-->
 <Choose v-else-if="data.block=='choose'" :data="data" :blockindex="blockindex" :data-blockindex="blockindex"></Choose>
