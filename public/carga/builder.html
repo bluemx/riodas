@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de BUILDER</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/gradient-light.min.css"
+        integrity="sha512-1GhzeBhtt0D/zt2tbRQV30B4+2/D5XKDDFwOT8oAlfFuipKTc1YvIaPA3MC1MfGYNVBdlIKmECqqWxNXOgS5gA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+    <style>
+        pre,
+        code {
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 class="text-center p-5 font-extrabold text-xl">Vistas BUILDER</h1>
+    <ul class="text-white m-5">
+        <li class="bg-slate-800 p-2 my-1">
+            <div class="font-extrabold">OBTENER CONFIGURACIÓN DE ODA</div>
+            <div class="text-xs">Cuando el maestro guarda da click en "Save" se generan los datos de la oda</div>
+        </li>
+
+    </ul>
+
+
+
+    <!-- ################################### ################################### -->
+    <!-- ################################### ################################### -->
+    <!-- ################################### ################################### -->
+
+    <!-- IFRAME 1 ############ #################################### -->
+
+    <div class="text-center text-white p-5 bg-slate-800 mt-1 mx-1 font-extrabold text-3xl">OBTENER CONFIGURACIÓN DE ODA</div>
+    <div class="grid grid-cols-2 gap-1 p-1">
+        <div class="w-full">
+            <div class="bg-slate-800 text-white font-bold text-xs p-5">https://odas.win<span
+                    class="text-green-400">/#/builder</span> </div>
+            <iframe src="https://odas.win/#/builder" frameborder="0" class="w-full h-[500px]"></iframe>
+        </div>
+        <div>
+            <div class="bg-slate-800 text-white font-bold text-xs p-5">Código JS:</div>
+            <div class="overflow-auto text-xs">
+                <pre><code class="language-json">
+//Reibir datos del estudiante
+window.addEventListener('message', function(event) {
+    if(JSON.parse(event.data).datatype == 'student'){
+        // DATOS
+        const datos = event.data
+        console.log(datos)
+    }
+})
+                </code></pre>
+            </div>
+            <div class="bg-slate-800 text-white font-bold text-xs p-5">Datos:</div>
+            <div class="overflow-auto  text-xs">
+                <pre><code class="language-json" id="datos1">//"Finalize" para recibir datos</code></pre>
+            </div>
+
+        </div>
+    </div>
+
+   
+
+
+
+
+
+
+    <script>
+
+        hljs.highlightAll();
+        window.addEventListener('message', function (event) {
+            if (JSON.parse(event.data).datatype == 'student') {
+                document.getElementById('datos1').innerHTML = event.data.replaceAll(',"', ',\n"').replaceAll(',{', ',\n{\n').replaceAll('{', '\n{\n').replaceAll('}', ',\n}')
+                hljs.highlightAll();
+            }
+        })
+
+
+        const studentInputs = "eyJsb2NhdGlvbiI6Ii9lbmQiLCJ0b3RhbHRpbWUiOjM2LCJpbnB1dHMiOnsiMC0wLTEtMCI6IlUyRnNkR1ZrWDE4aGFidlkycVBPSTN0ck1ubWpkWTlacHprQ05WbTErQ0k0SUM3bkdkRGo1bHpSanFxendVL2FEZTNuaDJySm9NWVZPSmFTMHlEVWlBPT0iLCIwLTEtMS0wIjoiVTJGc2RHVmtYMS8zQi9WVXBrYjU5UUtlUEpwakk5L1E2NzVKYitHTjM5NDJ6Q1BSMi82MkFMK0Fxck5nVEIxcmtsVzcydFVVdDE4WG9RSWJIWU5UZElISVhMdlp0b05mU0huQjh2SXk0OEE9IiwiMC0yLTEtMCI6IlUyRnNkR1ZrWDErcnkzd28rTzVRS3kwKy81eVdFWjk3UXNJQ0dpRERESkx5aXg1RUxUWTNIQndKc3ltUnRSWEZ4Z2JRcFZkeThIVDZUdGQ5NzduMlVBPT0iLCIwLTMtMS0wIjoiVTJGc2RHVmtYMTlyelc4b01idWQ0aGFXWWx0cjZNNktHTVZxMVNzV2tiUEdMR1VrVklVZTBkWXhKeVYwOVdENEVLNFRmREpScDJQNnRBem1vZUY5ZHc9PSIsIjAtNC0xLTAiOiJVMkZzZEdWa1gxL0VkSE5tNC9xOTUxejBhQnFSZGRYLzF5NC8rM203OWd1b25OL1VlbC9oTWlOalpIVFRpbnZja0cwOEFNL2twTG0xN0h1MFo0d2U0UT09IiwiMC01LTEtMCI6IlUyRnNkR1ZrWDE4THUxcjhwckF1aGlaMjhrQkJmRlg2bFB3Rk9OTk1OWHN4VFZMU2ROT3hSeUZjd0lOV1dGZ0twRG9NaVdGUVU4YjFDVk83NnhCc3VRPT0ifX0="
+        const teacherInputs = "eyJpbnB1dHMiOnsiMC0wLTEtMCI6eyJyIjp0cnVlLCJ2IjoiQ29tZW50YXJpbyAxIn0sIjAtMS0xLTAiOnsiciI6ZmFsc2UsInYiOiJDb21lbnRhcmlvIDIifSwiMC0yLTEtMCI6eyJyIjpmYWxzZSwidiI6IkNvbWVudGFyaW8gMyJ9LCIwLTMtMS0wIjp7InIiOnRydWUsInYiOiIifSwiMC00LTEtMCI6eyJyIjp0cnVlLCJ2IjoiIn0sIjAtNS0xLTAiOnsiciI6ZmFsc2UsInYiOiIifX0sInBvc2l0aXZlIjozLCJjb21tZW50cyI6MywidG90YWwiOjZ9"
+
+        function iframe2Loaded(iframe) {
+            const datos = {
+                "type": "student-inputs",
+                "inputs": studentInputs
+            }
+            iframe.contentWindow.postMessage(JSON.stringify(datos), '*')
+        }
+
+        function iframe3Loaded(iframe) {
+            const datos = {
+                "type": "student-inputs",
+                "inputs": studentInputs
+            }
+            iframe.contentWindow.postMessage(JSON.stringify(datos), '*')
+        }
+
+        function setAttempts(iframe) {
+            const datos = {
+                "type": "attempts",
+                "times": 1
+            }
+            iframe.contentWindow.postMessage(JSON.stringify(datos), '*')
+        }
+
+        function iframe5Loaded(iframe) {
+            const datos = {
+                "type": "student-inputs",
+                "inputs": studentInputs
+            }
+            iframe.contentWindow.postMessage(JSON.stringify(datos), '*')
+
+            const datosTeacher = {
+                "type": "teacher-inputs",
+                "inputs": teacherInputs
+            }
+            iframe.contentWindow.postMessage(JSON.stringify(datosTeacher), '*')
+        }
+
+
+
+        window.addEventListener('message', function (event) {
+            if (JSON.parse(event.data).datatype == 'teacher') {
+                document.getElementById('datos4').innerHTML = event.data.replaceAll(',"', ',\n"').replaceAll(',{', ',\n{\n').replaceAll('{', '\n{\n').replaceAll('}', ',\n}')
+                hljs.highlightAll();
+            }
+        })
+
+
+
+
+    </script>
+
+
+
+</body>
+
+</html>

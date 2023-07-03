@@ -1,9 +1,9 @@
 <template>
-<div class="overflow-y-auto text-neutral">
+<div class="overflow-y-auto text-neutral text-center">
     <div class="font-bold text-white mb-2 text-2xl">ACTIVITY BUILDER</div>
     <template v-if="!currentbuild">
         <div class="text-slate-100">What type of activity would you like to build?</div>
-        <div class="grid grid-cols-4 gap-2 max-w-2xl my-4">
+        <div class="flex flex-wrap justify-center gap-2 max-w-2xl my-4">
             <div @click="currentbuild = item" class="aspect-square bg-slate-100 rounded flex flex-col justify-center items-center cursor-pointer hover:bg-slate-100 hover:shadow-xl p-2 text-center" v-for="(item, index) in types" :key="index">
                 <iconify-icon :icon="item.icon" class="text-6xl"></iconify-icon>
                 {{ item.name }}
@@ -42,8 +42,8 @@ const oda = useOda()
 const types = [
     {id:'choice', name: 'Multiple choice', icon:'solar:menu-dots-line-duotone'},
     {id:'words', name: 'Fill in the words', icon:'solar:text-field-line-duotone'},
-    {id:'rearrange', name: 'Rearrange words', icon:'solar:list-arrow-up-bold-duotone'},
-    {id:'column', name: 'Column matching', icon: 'solar:slider-vertical-minimalistic-line-duotone'}
+    //{id:'rearrange', name: 'Rearrange words', icon:'solar:list-arrow-up-bold-duotone'},
+    //{id:'column', name: 'Column matching', icon: 'solar:slider-vertical-minimalistic-line-duotone'}
 ]
 
 document.body.classList.add('builder')
