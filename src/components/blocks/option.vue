@@ -10,11 +10,11 @@
                     </button>
                 </template>
             </div>
-
-            <details v-else ref="block" class="dropdown dropdown-top">
+            
+            <details v-else ref="block" :class="['dropdown', dropdownpos()] ">
                 <summary tabindex="0" :class="input===null? 'btn':'btn btn-accent'  ">
                     <template v-if="input == null">
-                        Select
+                        Select {{dropdownpos()}}
                     </template>
                     <template v-else>
                         <Content v-if="initOptions[input]" :data="initOptions[input]"></Content>
@@ -48,6 +48,17 @@ const props = defineProps({
     data: Object,
     blockindex: String
 })
+
+const dropdownpos = () => {
+    let pos = 'dropdown-top'
+    if(props.data?.dropdownpos){
+        if(props.data?.dropdownpos == 'bottom'){ pos = 'dropdown-bottom' }
+        if(props.data?.dropdownpos == 'left'){ pos = 'dropdown-left' }
+        if(props.data?.dropdownpos == 'right'){ pos = 'dropdown-right' }
+        if(props.data?.dropdownpos == 'top'){ pos = 'dropdown-top' }
+    }
+    return pos
+}
 
 //OPTIONS sort
 if (props.data.options) {

@@ -277,6 +277,54 @@
                                 "hidden": true
                             },
                             {
+                                "block": "option",
+                                "dropdown": true,
+                                "dropdownpos": "bottom",
+                                "options":[
+                                    {"block":"text", "text":"op1"},
+                                    {"block":"text", "text":"op2"},
+                                    {"block":"text", "text":"op3"}
+                                ]
+                            },
+                            {
+                                "block": "option",
+                                "dropdown": true,
+                                "dropdownpos": "left",
+                                "options":[
+                                    {"block":"text", "text":"op1"},
+                                    {"block":"text", "text":"op2"},
+                                    {"block":"text", "text":"op3"}
+                                ]
+                            },
+                            {
+                                "block": "option",
+                                "dropdown": true,
+                                "dropdownpos": "right",
+                                "options":[
+                                    {"block":"text", "text":"op1"},
+                                    {"block":"text", "text":"op2"},
+                                    {"block":"text", "text":"op3"}
+                                ]
+                            },
+                            {
+                                "block": "option",
+                                "dropdown": true,
+                                "options":[
+                                    {"block":"text", "text":"op1"},
+                                    {"block":"text", "text":"op2"},
+                                    {"block":"text", "text":"op3"}
+                                ]
+                            },
+                            {
+                                "block": "option",
+                                "dropdown": true,
+                                "options":[
+                                    {"block":"text", "text":"op1"},
+                                    {"block":"text", "text":"op2"},
+                                    {"block":"text", "text":"op3"}
+                                ]
+                            },
+                            {
                                 "block": "dragdrop",
                                 "class": "",
                                 "evaluation": "",
@@ -309,15 +357,7 @@
                             }
                         ]
                     },
-                    {
-                        "block": "option",
-                        "dropdown": true,
-                        "options":[
-                            {"block":"text", "text":"op1"},
-                            {"block":"text", "text":"op2"},
-                            {"block":"text", "text":"op3"}
-                        ]
-                    },
+                    
                     {
                         "block": "group",
                         "class": "text-center mt-10",
