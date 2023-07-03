@@ -52,11 +52,11 @@ const drag = ref()
 const showResultClass = ref()
 
 
-
+const ddgroupname = props.data.group || 'basegroup'
 const ddgroup = {
-    name: props.data.group || 'basegroup',
-    pull: true,
-    put: true
+    name: ddgroupname,
+    pull: [ddgroupname],
+    put: [ddgroupname]
 }
 const onStart = () => {
     drag.value = true
