@@ -2,7 +2,6 @@ var json = {
     "title": "Title",
     "clock": true,
     "countdown": 0,
-    "noattempts": true,
     "intro": {
         "buttons": {
             "start": "Start"

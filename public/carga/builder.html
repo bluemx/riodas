@@ -7,11 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejemplo de BUILDER</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/gradient-light.min.css"
-        integrity="sha512-1GhzeBhtt0D/zt2tbRQV30B4+2/D5XKDDFwOT8oAlfFuipKTc1YvIaPA3MC1MfGYNVBdlIKmECqqWxNXOgS5gA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/gradient-dark.min.css" integrity="sha512-9BPoD3EiW9STszfvG0c4C9aKPKVeS/b2JD6LTSGJ0MRB6SEn2GDn2mEPdj8QZBDHOStOpKRyUzkC8q31cyqy7A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/javascript.min.js" integrity="sha512-ZFn1l/cmJ8LLHH5TWJhNnV1PCQiNqBD+TFitO1ECtYJuQvn8zhhrzvQyYXLrb5cR7gzmLTkgka8DDR7fIAO9MQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <style>
         pre,
         code {
@@ -23,10 +21,15 @@
 <body>
 
     <h1 class="text-center p-5 font-extrabold text-xl">Vistas BUILDER</h1>
+    
     <ul class="text-white m-5">
         <li class="bg-slate-800 p-2 my-1">
             <div class="font-extrabold">OBTENER CONFIGURACIÓN DE ODA</div>
             <div class="text-xs">Cuando el maestro guarda da click en "Save" se generan los datos de la oda</div>
+        </li>
+        <li class="bg-rose-800 p-2 my-1">
+            <div class="font-extrabold">CARGAR ODA</div>
+            <div class="text-xs">Cargar los datos de configuración de la oda</div>
         </li>
 
     </ul>
@@ -40,19 +43,19 @@
     <!-- IFRAME 1 ############ #################################### -->
 
     <div class="text-center text-white p-5 bg-slate-800 mt-1 mx-1 font-extrabold text-3xl">OBTENER CONFIGURACIÓN DE ODA</div>
-    <div class="grid grid-cols-2 gap-1 p-1">
-        <div class="w-full">
+    <div class="grid grid-cols-5 gap-1 p-1">
+        <div class="w-full col-span-3">
             <div class="bg-slate-800 text-white font-bold text-xs p-5">https://odas.win<span
                     class="text-green-400">/#/builder</span> </div>
             <iframe src="https://odas.win/#/builder" frameborder="0" class="w-full h-[500px]"></iframe>
         </div>
-        <div>
+        <div class="col-span-2">
             <div class="bg-slate-800 text-white font-bold text-xs p-5">Código JS:</div>
             <div class="overflow-auto text-xs">
-                <pre><code class="language-json">
-//Reibir datos del estudiante
+                <pre><code class="language-javascript">
+//Reibir datos de ODA
 window.addEventListener('message', function(event) {
-    if(JSON.parse(event.data).datatype == 'student'){
+    if(JSON.parse(event.data).datatype == 'builder'){
         // DATOS
         const datos = event.data
         console.log(datos)
@@ -60,16 +63,58 @@ window.addEventListener('message', function(event) {
 })
                 </code></pre>
             </div>
-            <div class="bg-slate-800 text-white font-bold text-xs p-5">Datos:</div>
+            <div class="bg-slate-800 text-white text-xs p-5">
+                <strong>Datos:</strong>
+                <div>{ <i class="text-amber-300">datatype</i>:'builder', <i class="text-amber-300">title</i>: '', <i class="text-amber-300">description</i>: '', <i class="text-amber-300">inputs</i>: '', <i class="text-lime-400 font-bold underline">oda</i>: '' } </div>
+            </div>
             <div class="overflow-auto  text-xs">
-                <pre><code class="language-json" id="datos1">//"Finalize" para recibir datos</code></pre>
+                <pre><code class="language-json max-h-56" id="datos1"></code></pre>
             </div>
 
         </div>
     </div>
 
-   
 
+
+
+    <!-- IFRAME 2 ############ #################################### -->
+
+    <div class="text-center text-white p-5 bg-rose-800 mt-1 mx-1 font-extrabold text-3xl">CARGAR ODA</div>
+    <div class="grid grid-cols-5 gap-1 p-1">
+        <div class="w-full col-span-3">
+            <div class="bg-rose-800 text-white font-bold text-xs p-5">https://odas.win<span
+                    class="text-green-400">/#/MAKER</span> </div>
+            <iframe onload="iframeLoaded(this)" src="https://localhost:5173/#/MAKER" frameborder="0" class="w-full h-[500px]"></iframe>
+        </div>
+        <div class="col-span-2">
+            <div class="bg-rose-800 text-white font-bold text-xs p-5">Código HTML:</div>
+            <div class="overflow-auto text-xs">
+                <pre><code class="language-html">
+&lt;!-- Llamar función desde iframe onload --&gt;
+&lt;iframe onload="iframeLoaded(this)" /&gt;
+                </code></pre>
+            </div>
+            <div class="bg-rose-800 text-white font-bold text-xs p-5">Código JS: Se regresa objeto <i class="text-lime-400 font-bold underline">oda</i></div>
+            <div class="overflow-auto text-xs">
+                <pre><code class="language-javascript">
+// ### Mandar configuracion de oda
+
+// key "oda" del estado anterior 
+const dataODA = {"title":"...", "clock":true, "countdown": 0, "intro": "" ... }
+
+function iframeLoaded(iframe){
+    const datos = {
+        type: 'oda',
+        oda: dataODA
+    }
+
+// Enviar datos al iframe
+iframe.contentWindow.postMessage(JSON.stringify(datos) , '*')
+}
+                </code></pre>
+            </div>
+        </div>
+    </div>
 
 
 
@@ -79,24 +124,26 @@ window.addEventListener('message', function(event) {
 
         hljs.highlightAll();
         window.addEventListener('message', function (event) {
-            if (JSON.parse(event.data).datatype == 'student') {
-                document.getElementById('datos1').innerHTML = event.data.replaceAll(',"', ',\n"').replaceAll(',{', ',\n{\n').replaceAll('{', '\n{\n').replaceAll('}', ',\n}')
+            if (JSON.parse(event.data).datatype == 'builder') {
+                //document.getElementById('datos1').innerHTML = event.data.replaceAll(',"', ',\n"').replaceAll(',{', ',\n{\n').replaceAll('{', '\n{\n').replaceAll('}', ',\n}')
+                document.getElementById('datos1').innerHTML = JSON.stringify(JSON.parse(event.data), null, '\t')
                 hljs.highlightAll();
             }
         })
 
 
-        const studentInputs = "eyJsb2NhdGlvbiI6Ii9lbmQiLCJ0b3RhbHRpbWUiOjM2LCJpbnB1dHMiOnsiMC0wLTEtMCI6IlUyRnNkR1ZrWDE4aGFidlkycVBPSTN0ck1ubWpkWTlacHprQ05WbTErQ0k0SUM3bkdkRGo1bHpSanFxendVL2FEZTNuaDJySm9NWVZPSmFTMHlEVWlBPT0iLCIwLTEtMS0wIjoiVTJGc2RHVmtYMS8zQi9WVXBrYjU5UUtlUEpwakk5L1E2NzVKYitHTjM5NDJ6Q1BSMi82MkFMK0Fxck5nVEIxcmtsVzcydFVVdDE4WG9RSWJIWU5UZElISVhMdlp0b05mU0huQjh2SXk0OEE9IiwiMC0yLTEtMCI6IlUyRnNkR1ZrWDErcnkzd28rTzVRS3kwKy81eVdFWjk3UXNJQ0dpRERESkx5aXg1RUxUWTNIQndKc3ltUnRSWEZ4Z2JRcFZkeThIVDZUdGQ5NzduMlVBPT0iLCIwLTMtMS0wIjoiVTJGc2RHVmtYMTlyelc4b01idWQ0aGFXWWx0cjZNNktHTVZxMVNzV2tiUEdMR1VrVklVZTBkWXhKeVYwOVdENEVLNFRmREpScDJQNnRBem1vZUY5ZHc9PSIsIjAtNC0xLTAiOiJVMkZzZEdWa1gxL0VkSE5tNC9xOTUxejBhQnFSZGRYLzF5NC8rM203OWd1b25OL1VlbC9oTWlOalpIVFRpbnZja0cwOEFNL2twTG0xN0h1MFo0d2U0UT09IiwiMC01LTEtMCI6IlUyRnNkR1ZrWDE4THUxcjhwckF1aGlaMjhrQkJmRlg2bFB3Rk9OTk1OWHN4VFZMU2ROT3hSeUZjd0lOV1dGZ0twRG9NaVdGUVU4YjFDVk83NnhCc3VRPT0ifX0="
-        const teacherInputs = "eyJpbnB1dHMiOnsiMC0wLTEtMCI6eyJyIjp0cnVlLCJ2IjoiQ29tZW50YXJpbyAxIn0sIjAtMS0xLTAiOnsiciI6ZmFsc2UsInYiOiJDb21lbnRhcmlvIDIifSwiMC0yLTEtMCI6eyJyIjpmYWxzZSwidiI6IkNvbWVudGFyaW8gMyJ9LCIwLTMtMS0wIjp7InIiOnRydWUsInYiOiIifSwiMC00LTEtMCI6eyJyIjp0cnVlLCJ2IjoiIn0sIjAtNS0xLTAiOnsiciI6ZmFsc2UsInYiOiIifX0sInBvc2l0aXZlIjozLCJjb21tZW50cyI6MywidG90YWwiOjZ9"
+        const dataODA = {"title":"Multiple choice test","clock":true,"countdown":0,"noattempts":true,"intro":{"buttons":{"start":"Start"},"content":[]},"activity":{"scenes":[{"block":"scene","name":"SC1","countdown":0,"instructions":{"open":true,"content":[{"block":"group","class":"flex gap-2 items-center","content":[{"block":"text","class":"","text":"Read the questions and choose the right answer.","name":"xIwU"}],"background":"","name":"lgeG"}]},"content":[{"class":"flex flex-col gap-10 my-10 max-w-3xl mx-auto","content":[{"block":"group","class":"bg-slate-100 rounded p-5 text-center","content":[{"block":"text","class":"text-neutral text-xl","text":"Test Question"},{"options":[{"text":"Right answer","block":"text"},{"text":"Incorrect answer","block":"text"},{"text":"Second incorrect answer","block":"text"}],"evaluation":"auto","showResult":false,"block":"option","attempts":0}]}],"block":"group","name":"questions"},{"symbol":"FinalizeGroup"}]}]},"end":{"buttons":{"restart":false},"content":[{"symbol":"finishedAll"}]},"symbols":{"finishedAll":{"class":"w-full","content":[{"block":"group","class":"bg-slate-100 rounded p-5 text-center w-full","content":[{"block":"text","text":"Congratulations, you finished the activity.","class":"","name":"Congra"}],"background":"","name":"CongraGroup"},{"block":"group","class":"text-center p-5","content":[{"block":"finished","name":"finishedBlock"}],"background":"","name":"finishedGroup"}],"background":"","block":"group"},"FinalizeGroup":{"block":"group","class":"text-center mt-10","content":[{"block":"button","class":"mx-auto","to":"/end","text":"Finalize","name":"FinalizeBTN"}],"background":""}}}
 
-        function iframe2Loaded(iframe) {
+
+        function iframeLoaded(iframe) {
+
             const datos = {
-                "type": "student-inputs",
-                "inputs": studentInputs
+                type: "oda",
+                oda: dataODA
             }
-            iframe.contentWindow.postMessage(JSON.stringify(datos), '*')
+            iframe.contentWindow.postMessage(JSON.stringify(datos) , '*')
         }
-
+/*
         function iframe3Loaded(iframe) {
             const datos = {
                 "type": "student-inputs",
@@ -104,38 +151,7 @@ window.addEventListener('message', function(event) {
             }
             iframe.contentWindow.postMessage(JSON.stringify(datos), '*')
         }
-
-        function setAttempts(iframe) {
-            const datos = {
-                "type": "attempts",
-                "times": 1
-            }
-            iframe.contentWindow.postMessage(JSON.stringify(datos), '*')
-        }
-
-        function iframe5Loaded(iframe) {
-            const datos = {
-                "type": "student-inputs",
-                "inputs": studentInputs
-            }
-            iframe.contentWindow.postMessage(JSON.stringify(datos), '*')
-
-            const datosTeacher = {
-                "type": "teacher-inputs",
-                "inputs": teacherInputs
-            }
-            iframe.contentWindow.postMessage(JSON.stringify(datosTeacher), '*')
-        }
-
-
-
-        window.addEventListener('message', function (event) {
-            if (JSON.parse(event.data).datatype == 'teacher') {
-                document.getElementById('datos4').innerHTML = event.data.replaceAll(',"', ',\n"').replaceAll(',{', ',\n{\n').replaceAll('{', '\n{\n').replaceAll('}', ',\n}')
-                hljs.highlightAll();
-            }
-        })
-
+*/
 
 
 

@@ -34,13 +34,17 @@ export function useMaker () {
             if(data.type == 'oda'){
                 console.log('PM: oda')
                 /* remove hidden */
+                
                 const odaDoc = ref(data.oda)
                 odaDoc.value = _.cloneDeepWith(odaDoc.value, (value) => {
                     if (_.isObject(value) && value.hidden === true) {
                         return {}
                     }
                 });
-                oda.oda = odaDoc
+                const tout = window.location.href.includes('localhost') ? 0 : 500
+                setTimeout(()=>{
+                    oda.oda = odaDoc
+                }, tout)
             }
 
             if(data.type=='restartoda'){
