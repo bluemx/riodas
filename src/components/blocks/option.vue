@@ -14,7 +14,7 @@
             <details v-else ref="block" :class="['dropdown', dropdownpos()] ">
                 <summary tabindex="0" :class="input===null? 'btn':'btn btn-accent'  ">
                     <template v-if="input == null">
-                        Select {{dropdownpos()}}
+                        Select
                     </template>
                     <template v-else>
                         <Content v-if="initOptions[input]" :data="initOptions[input]"></Content>
