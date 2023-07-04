@@ -19,8 +19,8 @@
     </template>
     <template #item="{element}">
         <div class="btn btn-accent text-neutral shadow-md shadow-slate-500/50 cursor-move border-double border-b-4 border-neutral/50 relative flex justify-center items-center">
-                <iconify-icon icon="solar:menu-dots-outline" class="absolute bottom-full text-slate-400"></iconify-icon>
-                <Content :data="element" ></Content>
+            <iconify-icon icon="solar:menu-dots-outline" class="absolute bottom-full text-slate-400"></iconify-icon>
+            <Content :data="element" ></Content>
         </div>
     </template>
 </draggable>

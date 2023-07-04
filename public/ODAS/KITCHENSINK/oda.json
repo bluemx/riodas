@@ -158,7 +158,7 @@
                                 "class": "",
                                 "evaluation": "auto",
                                 "timelimit": 5,
-                                "attempts":3,
+                                "attempts": 3,
                                 "positive": "Hello, Grandmother"
                             },
                             {
@@ -280,84 +280,66 @@
                                 "block": "option",
                                 "dropdown": true,
                                 "dropdownpos": "bottom",
-                                "options":[
-                                    {"block":"text", "text":"op1"},
-                                    {"block":"text", "text":"op2"},
-                                    {"block":"text", "text":"op3"}
-                                ]
-                            },
-                            {
-                                "block": "option",
-                                "dropdown": true,
-                                "dropdownpos": "left",
-                                "options":[
-                                    {"block":"text", "text":"op1"},
-                                    {"block":"text", "text":"op2"},
-                                    {"block":"text", "text":"op3"}
-                                ]
-                            },
-                            {
-                                "block": "option",
-                                "dropdown": true,
-                                "dropdownpos": "right",
-                                "options":[
-                                    {"block":"text", "text":"op1"},
-                                    {"block":"text", "text":"op2"},
-                                    {"block":"text", "text":"op3"}
-                                ]
-                            },
-                            {
-                                "block": "option",
-                                "dropdown": true,
-                                "options":[
-                                    {"block":"text", "text":"op1"},
-                                    {"block":"text", "text":"op2"},
-                                    {"block":"text", "text":"op3"}
-                                ]
-                            },
-                            {
-                                "block": "option",
-                                "dropdown": true,
-                                "options":[
-                                    {"block":"text", "text":"op1"},
-                                    {"block":"text", "text":"op2"},
-                                    {"block":"text", "text":"op3"}
-                                ]
-                            },
-                            {
-                                "block": "dragdrop",
-                                "class": "",
-                                "evaluation": "",
-                                "group":"g1",
-                                "content": [
+                                "name": "opt1",
+                                "options": [
                                     {
                                         "block": "text",
-                                        "text": "One",
-                                        "name": "d1"
+                                        "text": "op1"
                                     },
                                     {
                                         "block": "text",
-                                        "text": "Two",
-                                        "name": "d2"
+                                        "text": "op2"
+                                    },
+                                    {
+                                        "block": "text",
+                                        "text": "op3"
                                     }
                                 ]
                             },
                             {
-                                "block": "dragdrop",
-                                "class": "",
-                                "group":"g1",
-                                "evaluation": "auto",
-                                "showResult": false,
-                                "content": [],
-                                "positive": "d1,d2",
-                                "order": true
+                                "block": "line",
+                                "from": "d1",
+                                "to": "opt1"
+                            },
+                            {
+                                "block": "group",
+                                "class": "grid xs:grid-cols-1 sm:grid-cols-2 gap-10",
+                                "content": [
+                                    {
+                                        "block": "dragdrop",
+                                        "class": "!bg-transparent w-80",
+                                        "evaluation": "",
+                                        "group": "g1",
+                                        "content": [
+                                            {
+                                                "block": "text",
+                                                "text": "One",
+                                                "name": "d1"
+                                            },
+                                            {
+                                                "block": "text",
+                                                "text": "Two",
+                                                "name": "d2"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "block": "dragdrop",
+                                        "class": "w-80",
+                                        "group": "g1",
+                                        "evaluation": "auto",
+                                        "showResult": false,
+                                        "content": [],
+                                        "positive": "d1,d2",
+                                        "order": true
+                                    }
+                                ]
                             },
                             {
                                 "block": "debugger"
                             }
                         ]
                     },
-                    
                     {
                         "block": "group",
                         "class": "text-center mt-10",

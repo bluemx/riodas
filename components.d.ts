@@ -27,6 +27,7 @@ declare module '@vue/runtime-core' {
     Icon: typeof import('./src/components/blocks/icon.vue')['default']
     Image: typeof import('./src/components/blocks/image.vue')['default']
     Imageupload: typeof import('./src/components/blocks/imageupload.vue')['default']
+    Line: typeof import('./src/components/blocks/line.vue')['default']
     LockActivityButton: typeof import('./src/components/all/LockActivityButton.vue')['default']
     Option: typeof import('./src/components/blocks/option.vue')['default']
     Record: typeof import('./src/components/blocks/record.vue')['default']
