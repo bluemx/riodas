@@ -23,8 +23,8 @@ const props = defineProps({
 })
 
 const line = ref()
-const selector1 = '[name='+props.data.from+']'
-const selector2 = '[name='+props.data.to+']'
+const selector1 = '[name="'+props.data.from+'"]'
+const selector2 = '[name="'+props.data.to+'"]'
 
 function updateLine() {
     var element1 = document.querySelector(selector1);
