@@ -24,7 +24,6 @@
         </div>
     </template>
 </draggable>
-
 </template>
 
 <script setup>
@@ -82,11 +81,14 @@ const onChange = (e) => {
     const positive = props.data.positive.split(',')
     const itemsorder = items.value.map(itm => itm.name)
 
+
     if(props.data?.order){
         blocks.result.value = positive.toString() == itemsorder.toString()
     } else {
         blocks.result.value = positive.sort().toString() == itemsorder.sort().toString()
     }
+
+    //console.log(positive.toString(), itemsorder.toString())
 
     blocks.evaluateFN(items.value)
 

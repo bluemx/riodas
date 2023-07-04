@@ -47,7 +47,7 @@ const initFN = (BLOCKoda, BLOCKdata, BLOCKblockindex, BLOCKblockref) => {
 
 const evaluateFN = (input, mute) => {
     //ShowResult
-    if(data.value.showResult && result.value!=null){
+    if(data.value?.showResult && result.value!=null){
         //Class
         resultClass.value = result.value ? 'border-2 border-success' : 'border-2 border-primary'
         //Sound
