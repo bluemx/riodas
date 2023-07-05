@@ -1,6 +1,6 @@
 <template>
 
-<svg class="z-50 pointer-events-none" :id="blockindex+'-line'" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;">
+<svg :class="data.class ||  '' " class=" pointer-events-none" :id="blockindex+'-line'" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;">
     <defs>
         <linearGradient :id="blockindex+'-line-gradient'" x1="0%" y1="0%" x2="100%" y2="0%">
             <stop offset="0%" :style="'stop-color:'+linecolor+';stop-opacity:0.5'" />
@@ -37,7 +37,7 @@ const selectorTo = ref()
 const init = () => {
     selectorFrom.value = '[name="'+props.data.from+'"]'
     selectorTo.value = '[name="'+props.data.to+'"]'
-    linecolor.value = props.data.color
+    linecolor.value = props.data.color || '#ffdd00'
     updateLine();
 }
 
