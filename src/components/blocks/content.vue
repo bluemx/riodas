@@ -16,7 +16,7 @@
 <Record v-else-if="data.block=='record'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)" :name="data.name"></Record>
 <Draggable v-else-if="data.block=='draggable'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)" :name="data.name"></Draggable>
 <Dragdrop v-else-if="data.block=='dragdrop'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)" :name="data.name"></Dragdrop>
-<Line v-else-if="data.block=='line'" :data="data" :name="data.name"></Line>
+<Line v-else-if="data.block=='line'" :data="data" :blockindex="blockindex" :name="data.name"></Line>
 
 <Textarea v-else-if="data.block=='textarea'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)" :name="data.name"></Textarea>
 <Switch v-else-if="data.block=='switch'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)" :name="data.name"></Switch>
