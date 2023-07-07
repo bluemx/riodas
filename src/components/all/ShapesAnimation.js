@@ -59,7 +59,8 @@ const play = (parent, shapes) => {
     })
         const raterandom = (Math.random()*0.5)+0.5
         new Howl({ src: [sound1], rate: raterandom, volume: 0.3, autoplay:true })
-        new Howl({ src: [sound1], rate: raterandom+0.5, volume: 0.5, autoplay:true })
+        new Howl({ src: [sound1], rate: raterandom+0.2, volume: 0.2, autoplay:true })
+
 
     burst.play();
 }
