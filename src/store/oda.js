@@ -51,6 +51,7 @@ export const useOda = defineStore({
                                 const item = JSON.parse(bytes.toString(CryptoJS.enc.Utf8))
                                 res[key] = item
                                 if(item.r != null){
+                                    console.log(item.r)
                                     responded++
                                 }
                                 if(item.r){
