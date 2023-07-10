@@ -12,6 +12,7 @@
     "@ffmpeg/core": "^0.11.0",
     "@ffmpeg/ffmpeg": "^0.11.6",
     "@mojs/core": "^1.5.1",
+    "@shopify/draggable": "^1.0.0-beta.8",
     "@videojs-player/vue": "^1.0.0",
     "@vueuse/core": "^10.1.2",
     "animate.css": "^4.1.1",

@@ -1,1 +1,137 @@
-{"title":"Title 2","clock":true,"countdown":0,"intro":{"buttons":{"start":"Start"},"content":[{"class":"p-10 ring-1 rounded-xl","content":[{"file":"files/video.mp4","class":"w-80","poster":"files/img-they.png","block":"video","name":"heoZ"}],"background":"files/__zz.png","block":"group","name":"ZTpk"},{"file":"files/__zz.png","class":"w-20","block":"image","name":"n8aZ"},{"text":"Texto inicial","class":"","block":"text","name":"xE40"}]},"activity":{"scenes":[{"block":"scene","name":"sc1","countdown":0,"instructions":{"open":true,"content":[{"block":"group","class":"flex gap-2 items-center","content":[{"block":"audio","class":"","file":"files/quiet.mp3"},{"block":"text","class":"","text":"Instructions text goes here..."}]}]},"content":[{"class":"flex","content":[{"text":"texto 1 ...","class":"bg-primary","block":"text","name":"7ydd"},{"class":"","content":[{"case":false,"evaluation":"auto","class":"","positive":"","multiline":false,"placeholder":"","showResult":false,"block":"textarea","name":"ZvWd"}],"background":"","block":"group","name":"AN5I"},{"text":"... texto 2","class":"bg-primary","block":"text","name":"y7Aa"}],"background":"","block":"group","name":"Ctcg"},{"file":"files/video.mp4","class":"w-60","poster":"files/img-they.png","block":"video","name":"wXXj"},{"symbol":"5b08"},{"block":"group","class":"text-center mt-10","content":[{"block":"button","class":"mx-auto","content":"Finalize","to":"/end"}]}]}]},"end":{"buttons":{"restart":false},"content":[{"block":"group","class":"bg-slate-100 rounded p-5 text-center w-full","content":[{"block":"text","content":"Congratulations, you finished the activity."}]},{"block":"group","class":"text-center p-5","content":[{"block":"finished"}]}]},"symbols":{"5b08":{"block":"group","class":"","content":[{"file":"files/__zz.png","class":"w-40","block":"image","name":"FRIe"}]}},"metadata":{"sync":0.16924031691767127}}
+{
+    "title": "Title 2",
+    "clock": true,
+    "countdown": 0,
+    "intro": {
+      "buttons": {
+        "start": "Start"
+      },
+      "content": [
+        {
+          "class": "p-10 ring-1 rounded-xl",
+          "content": [
+            {
+              "file": "files/video.mp4",
+              "class": "w-80",
+              "poster": "files/img-they.png",
+              "block": "video",
+              "name": "heoZ"
+            }
+          ],
+          "background": "files/__zz.png",
+          "block": "group",
+          "name": "ZTpk"
+        },
+        {
+          "file": "files/__zz.png",
+          "class": "w-20",
+          "block": "image",
+          "name": "n8aZ"
+        },
+        {
+          "text": "Texto inicial",
+          "class": "",
+          "block": "text",
+          "name": "xE40"
+        }
+      ]
+    },
+    "activity": {
+      "scenes": [
+        {
+          "content": [
+            {
+              "block": "dragitem",
+              "evaluation": "auto",
+              "positiveid": "drop1",
+              "name": "aeio",
+              "dropzones": ".dropzone",
+              "id":"dragitemcountainer",
+              "class": "",
+              "content": [
+                {
+                  "class": "",
+                  "to": "",
+                  "from": "",
+                  "posTo": "m",
+                  "posFrom": "m",
+                  "color": "#e11d48",
+                  "id": "",
+                  "block": "line",
+                  "name": "o0dJ"
+                },
+                {
+                  "block": "text",
+                  "text": "dragme"
+                }
+              ]
+            },
+            {
+              "block": "group",
+              "class": "dropzone m-5 bg-primary p-5 h-40",
+              "name": "abc",
+              "id": "drop1",
+              "content": []
+            },
+            {
+              "block": "group",
+              "class": "dropzone m-5 bg-secondary p-5 h-40 rounded-xl",
+              "name": "abc",
+              "id": "drop2",
+              "content": []
+            }
+          ],
+          "instructions": {
+            "open": true,
+            "content": []
+          },
+          "id": "",
+          "block": "scene",
+          "name": "bBiU"
+        }
+      ]
+    },
+    "end": {
+      "buttons": {
+        "restart": false
+      },
+      "content": [
+        {
+          "block": "group",
+          "class": "bg-slate-100 rounded p-5 text-center w-full",
+          "content": [
+            {
+              "block": "text",
+              "content": "Congratulations, you finished the activity."
+            }
+          ]
+        },
+        {
+          "block": "group",
+          "class": "text-center p-5",
+          "content": [
+            {
+              "block": "finished"
+            }
+          ]
+        }
+      ]
+    },
+    "symbols": {
+      "5b08": {
+        "block": "group",
+        "class": "",
+        "content": [
+          {
+            "file": "files/__zz.png",
+            "class": "w-40",
+            "block": "image",
+            "name": "FRIe"
+          }
+        ]
+      }
+    },
+    "metadata": {
+      "sync": 0.16924031691767127
+    }
+  }
