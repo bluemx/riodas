@@ -24,8 +24,12 @@
     
     <ul class="text-white m-5">
         <li class="bg-slate-800 p-2 my-1">
-            <div class="font-extrabold">OBTENER CONFIGURACIÓN DE ODA</div>
+            <div class="font-extrabold">NUEVO BUILDER</div>
             <div class="text-xs">Cuando el maestro guarda da click en "Save" se generan los datos de la oda</div>
+        </li>
+        <li class="bg-blue-800 p-2 my-1">
+            <div class="font-extrabold">ACTUALIZAR BUILDER</div>
+            <div class="text-xs">Cargar datos guardados al crear el BUILDER. Sirve para actualizar o crear uno nuevo a partir de otro.</div>
         </li>
         <li class="bg-rose-800 p-2 my-1">
             <div class="font-extrabold">CARGAR ODA</div>
@@ -42,7 +46,7 @@
 
     <!-- IFRAME 1 ############ #################################### -->
 
-    <div class="text-center text-white p-5 bg-slate-800 mt-1 mx-1 font-extrabold text-3xl">OBTENER CONFIGURACIÓN DE ODA</div>
+    <div class="text-center text-white p-5 bg-slate-800 mt-1 mx-1 font-extrabold text-3xl">NUEVO BUILDER</div>
     <div class="grid grid-cols-5 gap-1 p-1">
         <div class="w-full col-span-3">
             <div class="bg-slate-800 text-white font-bold text-xs p-5">https://odas.win<span
@@ -65,7 +69,17 @@ window.addEventListener('message', function(event) {
             </div>
             <div class="bg-slate-800 text-white text-xs p-5">
                 <strong>Datos:</strong>
-                <div>{ <i class="text-amber-300">datatype</i>:'builder', <i class="text-amber-300">title</i>: '', <i class="text-amber-300">description</i>: '', <i class="text-amber-300">inputs</i>: '', <i class="text-lime-400 font-bold underline">oda</i>: '' } </div>
+                <div>{ 
+                    <br><i class="text-amber-300">datatype</i>:'Builder: [Tipo]', 
+                    <br><i class="text-amber-300">title</i>: '', 
+                    <br><i class="text-amber-300">instructions</i>: '', 
+                    <br><i class="text-amber-300">attempts</i>: '', 
+                    <br><i class="text-amber-300">grade</i>: '', 
+                    <br><i class="text-amber-300">startDate</i>: '', 
+                    <br><i class="text-amber-300">endDate</i>: '', 
+                    <br><i class="text-sky-400 font-bold underline">inputs</i>: '{}' 
+                    <br><i class="text-lime-400 font-bold underline">oda</i>: '{}'
+                    <br>} </div>
             </div>
             <div class="overflow-auto  text-xs">
                 <pre><code class="language-json max-h-56" id="datos1"></code></pre>
@@ -79,22 +93,22 @@ window.addEventListener('message', function(event) {
 
     <!-- IFRAME 2 ############ #################################### -->
 
-    <div class="text-center text-white p-5 bg-rose-800 mt-1 mx-1 font-extrabold text-3xl">CARGAR ODA</div>
+    <div class="text-center text-white p-5 bg-blue-800 mt-1 mx-1 font-extrabold text-3xl">ACTUALIZAR BUILDER</div>
     <div class="grid grid-cols-5 gap-1 p-1">
         <div class="w-full col-span-3">
-            <div class="bg-rose-800 text-white font-bold text-xs p-5">https://odas.win<span
-                    class="text-green-400">/#/MAKER</span> </div>
-            <iframe onload="iframeLoaded(this)" src="https://odas.win/#/MAKER" frameborder="0" class="w-full h-[500px]"></iframe>
+            <div class="bg-blue-800 text-white font-bold text-xs p-5">https://odas.win<span
+                    class="text-green-400">/#/builder</span> </div>
+            <iframe onload="iframeLoaded2(this)" src="https://odas.win/#/builder" frameborder="0" class="w-full h-[500px]"></iframe>
         </div>
         <div class="col-span-2">
-            <div class="bg-rose-800 text-white font-bold text-xs p-5">Código HTML:</div>
+            <div class="bg-blue-800 text-white font-bold text-xs p-5">Código HTML:</div>
             <div class="overflow-auto text-xs">
                 <pre><code class="language-html">
 &lt;!-- Llamar función desde iframe onload --&gt;
-&lt;iframe onload="iframeLoaded(this)" /&gt;
+&lt;iframe onload="iframeLoaded2(this)" /&gt;
                 </code></pre>
             </div>
-            <div class="bg-rose-800 text-white font-bold text-xs p-5">Código JS: Se regresa objeto <i class="text-lime-400 font-bold underline">oda</i></div>
+            <div class="bg-blue-800 text-white font-bold text-xs p-5">Código JS: Se envía objeto <i class="text-sky-400 font-bold underline">inputs</i></div>
             <div class="overflow-auto text-xs">
                 <pre><code class="language-javascript">
 // ### Mandar configuracion de oda
@@ -102,7 +116,49 @@ window.addEventListener('message', function(event) {
 // key "oda" del estado anterior 
 const dataODA = {"title":"...", "clock":true, "countdown": 0, "intro": "" ... }
 
-function iframeLoaded(iframe){
+function iframeLoaded2(iframe){
+    const datos = {
+        type: 'oda',
+        oda: dataODA
+    }
+
+// Enviar datos al iframe
+iframe.contentWindow.postMessage(JSON.stringify(datos) , '*')
+}
+                </code></pre>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- IFRAME 3 ############ #################################### -->
+
+    <div class="text-center text-white p-5 bg-rose-800 mt-1 mx-1 font-extrabold text-3xl">CARGAR ODA</div>
+    <div class="grid grid-cols-5 gap-1 p-1">
+        <div class="w-full col-span-3">
+            <div class="bg-rose-800 text-white font-bold text-xs p-5">https://odas.win<span
+                    class="text-green-400">/#/MAKER</span> </div>
+            <iframe onload="iframeLoaded3(this)" src="https://odas.win/#/MAKER" frameborder="0" class="w-full h-[500px]"></iframe>
+        </div>
+        <div class="col-span-2">
+            <div class="bg-rose-800 text-white font-bold text-xs p-5">Código HTML:</div>
+            <div class="overflow-auto text-xs">
+                <pre><code class="language-html">
+&lt;!-- Llamar función desde iframe onload --&gt;
+&lt;iframe onload="iframeLoaded3(this)" /&gt;
+                </code></pre>
+            </div>
+            <div class="bg-rose-800 text-white font-bold text-xs p-5">Código JS: Se envía objeto <i class="text-lime-400 font-bold underline">oda</i></div>
+            <div class="overflow-auto text-xs">
+                <pre><code class="language-javascript">
+// ### Mandar configuracion de oda
+
+// key "oda" del estado anterior 
+const dataODA = {"title":"...", "clock":true, "countdown": 0, "intro": "" ... }
+
+function iframeLoaded3(iframe){
     const datos = {
         type: 'oda',
         oda: dataODA
@@ -132,10 +188,21 @@ iframe.contentWindow.postMessage(JSON.stringify(datos) , '*')
         })
 
 
-        const dataODA = {"title":"Multiple choices test","clock":true,"countdown":0,"noattempts":true,"intro":{"buttons":{"start":"Start"},"content":[]},"activity":{"scenes":[{"block":"scene","name":"SC1","countdown":0,"instructions":{"open":true,"content":[{"block":"group","class":"flex gap-2 items-center","content":[{"block":"text","class":"","text":"Read the questions and choose the right answer.","name":"xIwU"}],"background":"","name":"lgeG"}]},"content":[{"class":"flex flex-col gap-10 my-10 max-w-3xl mx-auto","content":[{"block":"group","class":"bg-slate-100 rounded p-5 text-center","content":[{"block":"text","class":"text-neutral text-xl","text":"Test Question"},{"options":[{"text":"Right answer","block":"text"},{"text":"Incorrect answer","block":"text"},{"text":"Second incorrect answer","block":"text"}],"evaluation":"auto","showResult":false,"block":"option","attempts":0}]}],"block":"group","name":"questions"},{"symbol":"FinalizeGroup"}]}]},"end":{"buttons":{"restart":false},"content":[{"symbol":"finishedAll"}]},"symbols":{"finishedAll":{"class":"w-full","content":[{"block":"group","class":"bg-slate-100 rounded p-5 text-center w-full","content":[{"block":"text","text":"Congratulations, you finished the activity.","class":"","name":"Congra"}],"background":"","name":"CongraGroup"},{"block":"group","class":"text-center p-5","content":[{"block":"finished","name":"finishedBlock"}],"background":"","name":"finishedGroup"}],"background":"","block":"group"},"FinalizeGroup":{"block":"group","class":"text-center mt-10","content":[{"block":"button","class":"mx-auto","to":"/end","text":"Finalize","name":"FinalizeBTN"}],"background":""}}}
+        const dataINPUTS = {"config":{"datatype":"Builder: Multiple choices","title":"About you","instructions":"Read the question and choose.","oda":{"title":"About you","clock":true,"countdown":0,"attempts":10,"intro":{"buttons":{"start":"Start"},"content":[]},"activity":{"scenes":[{"block":"scene","name":"SC1","countdown":0,"instructions":{"open":true,"content":[{"block":"group","class":"flex gap-2 items-center","content":[{"block":"text","class":"","text":"Read the question and choose.","name":"xIwU"}],"background":"","name":"lgeG"}]},"content":[{"class":"flex flex-col gap-10 my-10 max-w-3xl mx-auto","content":[{"block":"group","class":"bg-slate-100 rounded p-5 text-center","content":[{"block":"text","class":"text-neutral text-xl","text":"How old are you?"},{"options":[{"text":"I'm 15 years old","block":"text"},{"text":"Hi, i'm fine","block":"text"},{"text":"Who? Me?","block":"text"}],"evaluation":"auto","showResult":false,"block":"option","attempts":0}]}],"block":"group","name":"questions"},{"symbol":"FinalizeGroup"}]}]},"end":{"buttons":{"restart":false},"content":[{"symbol":"finishedAll"}]},"symbols":{"finishedAll":{"class":"w-full","content":[{"block":"group","class":"bg-slate-100 rounded p-5 text-center w-full","content":[{"block":"text","text":"Congratulations, you finished the activity.","class":"","name":"Congra"}],"background":"","name":"CongraGroup"},{"block":"group","class":"text-center p-5","content":[{"block":"finished","name":"finishedBlock"}],"background":"","name":"finishedGroup"}],"background":"","block":"group"},"FinalizeGroup":{"block":"group","class":"text-center mt-10","content":[{"block":"button","class":"mx-auto","to":"/end","text":"Finalize","name":"FinalizeBTN"}],"background":""}}},"grade":6,"attempts":10,"startDate":"2023-07-11 18:18:00","endDate":"2023-07-18 18:18:00"},"questions":[{"question":"How old are you?","options":["I'm 15 years old","Hi, i'm fine","Who? Me?"]}]}
+        const dataODA = {"title":"Multiple choices test", "attempts": 5, "clock":true,"countdown":0,"noattempts":true,"intro":{"buttons":{"start":"Start"},"content":[]},"activity":{"scenes":[{"block":"scene","name":"SC1","countdown":0,"instructions":{"open":true,"content":[{"block":"group","class":"flex gap-2 items-center","content":[{"block":"text","class":"","text":"Read the questions and choose the right answer.","name":"xIwU"}],"background":"","name":"lgeG"}]},"content":[{"class":"flex flex-col gap-10 my-10 max-w-3xl mx-auto","content":[{"block":"group","class":"bg-slate-100 rounded p-5 text-center","content":[{"block":"text","class":"text-neutral text-xl","text":"Test Question"},{"options":[{"text":"Right answer","block":"text"},{"text":"Incorrect answer","block":"text"},{"text":"Second incorrect answer","block":"text"}],"evaluation":"auto","showResult":false,"block":"option","attempts":0}]}],"block":"group","name":"questions"},{"symbol":"FinalizeGroup"}]}]},"end":{"buttons":{"restart":false},"content":[{"symbol":"finishedAll"}]},"symbols":{"finishedAll":{"class":"w-full","content":[{"block":"group","class":"bg-slate-100 rounded p-5 text-center w-full","content":[{"block":"text","text":"Congratulations, you finished the activity.","class":"","name":"Congra"}],"background":"","name":"CongraGroup"},{"block":"group","class":"text-center p-5","content":[{"block":"finished","name":"finishedBlock"}],"background":"","name":"finishedGroup"}],"background":"","block":"group"},"FinalizeGroup":{"block":"group","class":"text-center mt-10","content":[{"block":"button","class":"mx-auto","to":"/end","text":"Finalize","name":"FinalizeBTN"}],"background":""}}}
 
 
-        function iframeLoaded(iframe) {
+        function iframeLoaded2(iframe) {
+
+            const datos = {
+                type: "oda",
+                oda: dataODA
+            }
+            iframe.contentWindow.postMessage(JSON.stringify(datos) , '*')
+            iframe.contentWindow.postMessage(JSON.stringify({type:'builder', inputs:dataINPUTS}), '*')
+        }
+
+        function iframeLoaded3(iframe) {
 
             const datos = {
                 type: "oda",
@@ -143,7 +210,8 @@ iframe.contentWindow.postMessage(JSON.stringify(datos) , '*')
             }
             iframe.contentWindow.postMessage(JSON.stringify(datos) , '*')
         }
-/*
+
+        /*
         function iframe3Loaded(iframe) {
             const datos = {
                 "type": "student-inputs",
@@ -151,7 +219,7 @@ iframe.contentWindow.postMessage(JSON.stringify(datos) , '*')
             }
             iframe.contentWindow.postMessage(JSON.stringify(datos), '*')
         }
-*/
+    */
 
 
 
