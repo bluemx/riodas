@@ -209,10 +209,13 @@ export const useOda = defineStore({
                 this.loaded = true
                 
                 this.oda = useStorage('rioda_'+this.odaID+'_ODA', odaDoc.value)
+                
                 if(odaDoc.value){
                     this.oda = odaDoc.value
                 }
-
+                //ATTEMPTS
+                if(this.oda?.attempts){ this.odaAttemptsLimit = this.oda.attempts }
+                
                 let userData = {}
                 if(this.userWaiting!=null && this.user == this.userWaiting){
                     userData = this.userWaiting

@@ -18,29 +18,28 @@
                 {{ currentbuild.name }}
             </div>
             
-            <div v-if="currentbuild.id=='choice'" class="p-5">
-                <Choices @cancel="currentbuild = null" />
+            <div v-if="currentbuild.id=='choices'" class="p-5">
+                <Choices @cancel="currentbuild = null" :data="hasdata" :name="currentbuild.name" />
             </div>
             <div v-if="currentbuild.id=='words'" class="p-5">
-                <Words @cancel="currentbuild = null" />
+                <Words @cancel="currentbuild = null" :data="hasdata"  :name="currentbuild.name" />
             </div>
 
-            
-            
         </div>
     </template>
 </div>
 </template>
 <script setup>
-
+import {useMaker} from '../components/utilities/maker'
 import { useOda } from "../store/oda.js"
 import Intro from './intro.vue'
 import Activity from "./activity.vue";
 import End from './end.vue'
 const oda = useOda()
+const maker = useMaker()
 
 const types = [
-    {id:'choice', name: 'Multiple choice', icon:'solar:menu-dots-line-duotone'},
+    {id:'choices', name: 'Multiple choices', icon:'solar:menu-dots-line-duotone'},
     {id:'words', name: 'Fill in the words', icon:'solar:text-field-line-duotone'},
     //{id:'rearrange', name: 'Rearrange words', icon:'solar:list-arrow-up-bold-duotone'},
     //{id:'column', name: 'Column matching', icon: 'solar:slider-vertical-minimalistic-line-duotone'}
@@ -49,6 +48,29 @@ const types = [
 document.body.classList.add('builder')
 
 
+const hasdata = ref(null)
+const loadInputs = (data) => {
+    hasdata.value = data
+
+    if(data?.config?.datatype && data?.config?.datatype.includes('choices')){
+        currentbuild.value = types[0]
+    }
+    if(data?.config?.datatype && data?.config?.datatype.includes('words')){
+        currentbuild.value = types[1]
+    }
+}
+
 const currentbuild = ref(null)
+
+onMounted(() => {
+  maker.listener()
+  watch(()=>maker.builderdata, (nv)=>{
+    if(nv.value.config){
+        loadInputs(nv.value)
+    }
+  }, {deep:true})
+})
+
+
 
 </script>

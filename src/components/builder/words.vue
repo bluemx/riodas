@@ -1,11 +1,10 @@
 <template>
     <div v-show="!previewing">
-        <label class="block w-fit py-1 px-5 rounded-t bg-sky-700 text-white mx-auto">Activity title</label>
-        <input v-model="title" class="block border-2 text-2xl p-2 bg-white font-bold border-secondary rounded w-full min-h-[32px] resize-none  max-h-40" placeholder="Activity title" />
-        <label class="block w-fit py-1 px-5 rounded-t bg-sky-500 text-white mx-auto mt-5">Activity instructions</label>
-        <input v-model="instructions" class="block border-2 text-lg p-2 bg-white font-bold border-secondary rounded w-full min-h-[32px] resize-none  max-h-40 mb-5" placeholder="Activity instructions" />
+        <builder-configs :data="initialConfiguration" @updated="configReady"></builder-configs>
+
+       
         <Transition>
-            <div  v-if="title && instructions">
+            <div  v-if="configurationData">
 
                 <div v-for="(item, index) in questions" :key="index" class="border-4 my-2 border-secondary/50 shadow-xl rounded p-4">
                     
@@ -51,6 +50,7 @@
         <iframe @load="FNUpdateOda()" ref="iframe" src="/#MAKER" class="w-[320px] md:w-[600px] lg:w-[800px] h-[600px]" frameborder="0"></iframe>
         <div class="text-center mt-4"><button @click="previewing = false" class="p-1 rounded bg-slate-200">Return</button></div>
     </div>
+
 </template>
 
 <script setup>
@@ -58,19 +58,44 @@ import defaultdoc from './builderobj.js'
 
 import deepdash from 'deepdash-es';
 deepdash(_)
+
+const props = defineProps({
+    data: Object,
+    name: String
+})
+
 const emits = defineEmits(['cancel', 'preview', 'save'])
 
 const previewing = ref(false)
 const iframe = ref()
-const title = ref(null)
-const instructions = ref('Fill in the missing words.')
+
+const initialConfiguration = ref(
+    {instructions:'Fill in the missing words.'}
+)
+const configurationData = ref(null)
+
+
 const questions = ref([])
+
+
+
 
 const base = {
     start: '',
     word: '',
     end: ''
 }
+
+
+
+const configReady = ($event) => {
+    if($event.ready){
+        configurationData.value = $event.data
+    } else {
+        configurationData.value = null
+    }
+}
+
 
 
 const addNew = () => {
@@ -96,19 +121,29 @@ const FNPreview = () => {
     buildODA()
     previewing.value = true
  }
-const FNSave = () => {
+ const FNSave = () => {
     emits('save')
     buildODA()
+    console.log(props.data)
     const message = {
-        datatype: 'builder',
-        title: odaObject.value.title,
-        instructions: odaObject.value.instructions,
-        inputs: questions.value,
-        oda: odaObject.value
+        datatype: 'Builder: '+props.name,
+        title: configurationData.value.title,
+        instructions: configurationData.value.instructions,
+        oda: odaObject.value,
+        grade: configurationData.value.grade,
+        attempts: configurationData.value.attempts,
+        startDate: configurationData.value.startDate,
+        endDate: configurationData.value.endDate,
     }
-    window.parent.postMessage(JSON.stringify(message), "*");
+    const inps = {
+        config: JSON.parse(JSON.stringify(message)),
+        questions: questions.value
+    }
+    message['inputs'] = inps
+    const publishData = JSON.stringify(message)
+    console.log('inputs::::', JSON.stringify(inps))
+    window.parent.postMessage(publishData, "*");
 }
-
 
 
 
@@ -137,8 +172,9 @@ const questionObject = {
 const odaObject = ref()
 const buildODA = () => {
     const defdoc = JSON.parse(JSON.stringify(defaultdoc.json))
-    defdoc.title = title.value
-    defdoc.activity.scenes[0].instructions.content[0].content[0].text = instructions.value
+    defdoc.title = configurationData.value.title
+    defdoc.attempts = configurationData.value.attempts
+    defdoc.activity.scenes[0].instructions.content[0].content[0].text = configurationData.value.instructions
     for(var q of questions.value){
         let qo = questionObject
         qo.content[0].text = q.start
@@ -168,13 +204,25 @@ const FNUpdateOda = () => {
 }
 
 
+if(props.data){
+    const configobj = JSON.parse(JSON.stringify(props.data.config))
+    delete configobj['datatype']
+    delete configobj['oda']
+    initialConfiguration.value = configobj
+    configurationData.value = configobj
+    questions.value = JSON.parse(JSON.stringify(props.data.questions))
+}
+
 onMounted(() => {
   //DEBUG
-  
   //title.value = "Debug title"
   //questions.value[0]= {start: 'Beginning ', word: 'missing', end: 'End.' }
 
-  addNew()  
+  if(!props.data) {
+        // Is new
+        addNew()  
+        
+    }
 })
 
 </script>

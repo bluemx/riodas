@@ -1,11 +1,11 @@
 <template>
     <div v-show="!previewing">
-        <label class="block w-fit py-1 px-5 rounded-t bg-sky-700 text-white mx-auto">Activity title</label>
-        <input v-model="title" class="block border-2 text-2xl p-2 bg-white font-bold border-secondary rounded w-full min-h-[32px] resize-none  max-h-40" placeholder="Activity title" />
-        <label class="block w-fit py-1 px-5 rounded-t bg-sky-500 text-white mx-auto mt-5">Activity instructions</label>
-        <input v-model="instructions" class="block border-2 text-lg p-2 bg-white font-bold border-secondary rounded w-full min-h-[32px] resize-none  max-h-40 mb-5" placeholder="Activity instructions" />
+
+        <builder-configs :data="initialConfiguration" @updated="configReady"></builder-configs>
+
+
         <Transition>
-            <div  v-if="title && instructions">
+            <div  v-if="configurationData">
 
                 <div v-for="(item, index) in questions" :key="index" class="border-4 my-2 border-secondary/50 shadow-xl rounded p-4">
                     <label class="block w-fit py-1 px-5 rounded-t bg-slate-200 mx-auto">Question</label>
@@ -49,18 +49,44 @@ import defaultdoc from './builderobj.js'
 
 import deepdash from 'deepdash-es';
 deepdash(_)
+
+
+const props = defineProps({
+    data: Object,
+    name: String
+})
 const emits = defineEmits(['cancel', 'preview', 'save'])
 
 const previewing = ref(false)
 const iframe = ref()
-const title = ref(null)
-const instructions = ref('Read the questions and choose the right answer.')
+
 const questions = ref([])
+
+const initialConfiguration = ref(
+    {instructions:'Read the questions and choose the right answer.'}
+)
+const configurationData = ref(null)
+
 
 const base = {
     question: '',
     options: ['','','']
 }
+
+
+
+
+
+
+
+const configReady = ($event) => {
+    if($event.ready){
+        configurationData.value = $event.data
+    } else {
+        configurationData.value = null
+    }
+}
+
 
 
 const addNew = () => {
@@ -90,13 +116,23 @@ const FNSave = () => {
     emits('save')
     buildODA()
     const message = {
-        datatype: 'builder',
-        title: odaObject.value.title,
-        instructions: odaObject.value.instructions,
-        inputs: questions.value,
-        oda: odaObject.value
+        datatype: 'Builder: '+props.name,
+        title: configurationData.value.title,
+        instructions: configurationData.value.instructions,
+        oda: odaObject.value,
+        grade: configurationData.value.grade,
+        attempts: configurationData.value.attempts,
+        startDate: configurationData.value.startDate,
+        endDate: configurationData.value.endDate,
     }
-    window.parent.postMessage(JSON.stringify(message), "*");
+    const inps = {
+        config: JSON.parse(JSON.stringify(message)),
+        questions: questions.value
+    }
+    message['inputs'] = inps
+    const publishData = JSON.stringify(message)
+    console.log('inputs::::', JSON.stringify(inps))
+    window.parent.postMessage(publishData, "*");
 }
 
 
@@ -126,8 +162,9 @@ const questionObject = {
 const odaObject = ref()
 const buildODA = () => {
     const defdoc = JSON.parse(JSON.stringify(defaultdoc.json))
-    defdoc.title = title.value
-    defdoc.activity.scenes[0].instructions.content[0].content[0].text = instructions.value
+    defdoc.title = configurationData.value.title
+    defdoc.attempts = configurationData.value.attempts
+    defdoc.activity.scenes[0].instructions.content[0].content[0].text = configurationData.value.instructions
     for(var q of questions.value){
         let qo = questionObject
         qo.content[0].text = q.question
@@ -158,13 +195,25 @@ const FNUpdateOda = () => {
 }
 
 
+if(props.data){
+    const configobj = JSON.parse(JSON.stringify(props.data.config))
+    delete configobj['datatype']
+    delete configobj['oda']
+    initialConfiguration.value = configobj
+    configurationData.value = configobj
+    questions.value = JSON.parse(JSON.stringify(props.data.questions))
+}
+
 onMounted(() => {
-  //DEBUG
-  /*
-  title.value = "Debug title"
-  questions.value[0]= {question: 'Pregunta1', options: ['Uno','Dos','Tres']  }
-*/
-  addNew()  
+
+
+    if(!props.data) {
+        // Is new
+        addNew()  
+        
+    }
+
+
 })
 
 </script>

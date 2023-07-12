@@ -1,40 +1,36 @@
 import { onMounted } from "vue"
 import { useOda } from "../..//store/oda.js"
-import { useRouter } from "vue-router"
+import { useRouter, useRoute } from "vue-router"
 
 
 export function useMaker () {
     const router = useRouter()
+    const route = useRoute()
     const oda = useOda()
-
+    const builderdata = ref()
     const listener = () => {
         window.addEventListener('message', function(event) {
             let data = null
             try{ data = JSON.parse(event.data) } catch { data = null }
             if(!data){ return false }
-            
+            console.log('PM: '+ data?.type)
             if(data.type == 'student-inputs'){
-                console.log('PM: student-inputs')
                 const inputs = JSON.parse(atob(data.inputs))
                 const decodeData = JSON.parse(window.atob(data.inputs))
                 oda.user = decodeData
                 oda.userWaiting = decodeData
             }
             if(data.type == 'teacher-inputs'){
-                console.log('PM: teacher-inputs')
                 const inputs = JSON.parse(atob(data.inputs))
                 const decodeData = JSON.parse(window.atob(data.inputs))
                 oda.teacher = decodeData
             }
             if(data.type == 'attempts'){
-                console.log('PM: attempts')
                 oda.odaAttempts = data.time
             }
 
             if(data.type == 'oda'){
-                console.log('PM: oda')
                 /* remove hidden */
-                
                 const odaDoc = ref(data.oda)
                 odaDoc.value = _.cloneDeepWith(odaDoc.value, (value) => {
                     if (_.isObject(value) && value.hidden === true) {
@@ -44,17 +40,27 @@ export function useMaker () {
                 const tout = window.location.href.includes('localhost') ? 0 : 500
                 setTimeout(()=>{
                     oda.oda = odaDoc
+                    if(oda.oda?.attempts){ oda.odaAttemptsLimit = oda.oda.attempts }
                 }, tout)
             }
 
             if(data.type=='restartoda'){
-                console.log('PM: restartoda')
                 oda.restartUser()
                 router.push('/'+oda.odaID)
             }
+            //Builder
+            if(data.type == 'builder'){
+                if(route.path == '/builder'){
+                    //data.inputs
+                    builderdata.value = data.inputs
+                }
+
+
+            }
+
         })
     }
     
-return { listener }
+return { listener, builderdata }
 
 }

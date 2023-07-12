@@ -13,6 +13,7 @@ declare module '@vue/runtime-core' {
     Audio: typeof import('./src/components/blocks/audio.vue')['default']
     Audiorecord: typeof import('./src/components/blocks/audiorecord.vue')['default']
     Autosolve: typeof import('./src/components/blocks/autosolve.vue')['default']
+    BuilderConfigs: typeof import('./src/components/builder/builderConfigs.vue')['default']
     Button: typeof import('./src/components/blocks/button.vue')['default']
     Choices: typeof import('./src/components/builder/choices.vue')['default']
     Choose: typeof import('./src/components/blocks/choose.vue')['default']
