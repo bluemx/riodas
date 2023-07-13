@@ -94,6 +94,9 @@ const dropzonesFN = () => {
     });
 }
 
+watch(()=>props.data,()=>{
+    init()
+})
 
 const init = () => {
   lineFN()
