@@ -54,8 +54,18 @@ export function useMaker () {
                     //data.inputs
                     builderdata.value = data.inputs
                 }
+            }
+            //Highlight on hover
+            if(data.type == 'hover'){
+                const item = document.getElementsByName(data.name)[0]
+                if(item){
 
-
+                    item.classList.add('ring-4', 'ring-amber-500')
+                    item.scrollIntoView({ behavior: "smooth", block: "nearest" });
+                    setTimeout(()=>{
+                        item.classList.remove('ring-4', 'ring-amber-500')
+                    }, 200)
+                }
             }
 
         })
