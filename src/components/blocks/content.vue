@@ -18,6 +18,7 @@
 <Dragdrop v-else-if="data.block=='dragdrop'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)" :name="data.name" :id="data.id || ''"></Dragdrop>
 <Line v-else-if="data.block=='line'" :data="data" :blockindex="blockindex" :name="data.name" :id="data.id || ''"></Line>
 <Dragitem v-else-if="data.block=='dragitem'" :data="data" :blockindex="blockindex" :name="data.name" :id="data.id || ''"></Dragitem>
+<Dragzone v-else-if="data.block=='dragzone'" :data="data" :blockindex="blockindex" :name="data.name" :id="data.id || ''"></Dragzone>
 <Memory v-else-if="data.block=='memory'" :data="data" :blockindex="blockindex" :name="data.name" :id="data.id || ''"></Memory>
 
 <Textarea v-else-if="data.block=='textarea'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)" :name="data.name" :id="data.id || ''"></Textarea>

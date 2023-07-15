@@ -27,6 +27,7 @@
                             "class": "flex gap-2 items-center",
                             "content": [
                                 {
+                                    "hidden": true,
                                     "block": "audio",
                                     "class": "",
                                     "file": "assets/instruction.mp3"
@@ -343,14 +344,33 @@
                             },
                             {
                                 "block": "memory",
-                                "class": "max-w-[500px]",
+                                "class": "w-full max-w-[500px] mx-auto",
+                                "evaluation": "auto",
                                 "content": [
-                                    {"block":"icon", "class":"text-9xl", "icon":"emojione-v1:bear-face"},
+                                    {"block":"icon", "class":"text-4xl", "icon":"emojione-v1:bear-face"},
                                     {"block":"icon", "class":"text-9xl", "icon":"emojione-v1:alien-monster"},
                                     {"block":"icon", "class":"text-9xl", "icon":"emojione-v1:video-game"}
 
                                 ]
-                            }
+                            },
+                            {
+                                "evaluation": "auto",
+                                "positiveid": "",
+                                "dropzones": ".dropzone",
+                                "id": "TFVT",
+                                "class": "flex items-center justify-center p-2",
+                                "content": [
+                                  {
+                                    "text": "I",
+                                    "class": "",
+                                    "id": "drag1",
+                                    "block": "text",
+                                    "name": "lzeP"
+                                  }
+                                ],
+                                "block": "dragitem",
+                                "name": "LhOV"
+                              }
                         ]
                     },
                     {

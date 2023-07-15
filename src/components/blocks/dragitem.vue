@@ -1,6 +1,7 @@
 <template>
-<div ref="block" :blockindex="blockindex" class=" min-w-[20px] min-h-[20px] bg-slate-100 rounded" :class="[ data.dropzones.replace('.',''), data.class || '' ]">
-    <div :name="dragitemname" ref="dragitem" draggable="true" class="btn btn-accent text-neutral shadow-md shadow-slate-500/50 cursor-grab active:cursor-grabbing border-double border-b-4 border-neutral/50 relative flex justify-center items-center">
+
+<div ref="block" :blockindex="blockindex" class=" min-w-[20px] min-h-[20px] bg-slate-100 rounded" :class="[ /*data.dropzones.replace('.',''),*/ data.class || '' ]">
+    <div :name="dragitemname" ref="dragitem" class="btn btn-accent !transition-none text-neutral shadow-md shadow-slate-500/50 cursor-grab active:cursor-grabbing border-double border-b-4 border-neutral/50 relative flex justify-center items-center">
         <iconify-icon icon="solar:menu-dots-outline" class="absolute bottom-full text-slate-400"></iconify-icon>
         <Content :data="item" v-for="(item, index) in datacontent" :key="index" :blockindex="blockindex+'-'+index"></Content>
     </div>
@@ -8,9 +9,14 @@
     <template v-if="lineattrs">
         <Line :data="{...lineattrs, to:dragitemname}" :blockindex="blockindex+'-dragdropline'"></Line>
     </template>
-</div>
+
+  </div>
+
+<!--<div class="itemable w-fit h-fit p-2 bg-primary text-white">Moveme</div>-->
 </template>
 <script setup>
+import interact from 'interactjs'
+
 import {useBlocks} from './blocks.js'
 import { useOda } from "../../store/oda.js"
 const props = defineProps({
@@ -28,41 +34,8 @@ const hasline = ref(false)
 const lineattrs = ref(null)
 const blocks = useBlocks()
 
-
-
-
-
-const dragstart = ($event) => {
-  if(blocks.freeze.value){
-      return false
-  }
-  dropzones.value.forEach(dropzone => {
-        const classes = ['outline-2', 'outline-offset-2', 'outline-dashed', 'outline-slate-500']
-        dropzone.classList.add(...classes)
-        setTimeout(()=>{
-            dropzone.classList.remove(...classes)
-        }, 1000)
-    })
-};
-
-
 const getRandomCharacters=_=>"xxxx".replace(/x/g,_=>"0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"[Math.random()*62|0]);
 
-const dragover = ($event) => {
-    $event.preventDefault();
-};
-
-const drag = ($event) => { /*console.log('drag', $event); */ };
-
-const drop = ($event) => {
-    if(blocks.freeze.value){
-      return false
-    }
-    $event.preventDefault();
-    //console.log('drop', $event);
-    $event.target.appendChild(dragitem.value)
-    onChange()
-};
 
 const onChange = () => {
   if(props.data.positiveid){
@@ -73,50 +46,89 @@ const onChange = () => {
   }
 }
 
-
-
-
 const lineFN = () => {
   hasline.value = datacontent.value.findIndex(i=>i.block=='line')
-  console.log(hasline)
   if(hasline.value == -1){ return false }
+  console.log('hasline')
   lineattrs.value = {...datacontent.value[hasline]}
   lineattrs.value.from = props.data.name
   datacontent.value.splice(hasline, 1)
 }
 
-const dropzonesFN = () => {
-  dragitemname.value = getRandomCharacters()
-    dropzones.value = document.querySelectorAll(props.data.dropzones)
-    dropzones.value.forEach(dropzone => {
-        dropzone.addEventListener('drop', drop)
-        dropzone.addEventListener('dragover', dragover)
-    });
-}
-
-watch(()=>props.data,()=>{
+watch(()=>props.data,(nuv)=>{
     init()
-})
+}, {deep:true})
+
+
 
 const init = () => {
-  lineFN()
-  dropzonesFN()
-  // Blocks init
-  dragitem.value.addEventListener('dragstart', dragstart);
+  datacontent.value = props.data.content
   
-  const blockdata = blocks.initFN(oda, props.data, props.blockindex, dragitem.value)
-  if(blockdata){
-    if(blockdata.v != props.data.id){
-      const newParent = document.getElementById(blockdata.v)
-      newParent.appendChild(dragitem.value)
+    const draginteract = interact(dragitem.value)
+    
+    draginteract.draggable({
+      autoScroll: true,
+      listeners: { 
+        move: dragMoveListener,
+        end: (event) => {
+          var target = event.target
+          target.style.transform = 'translate(0px, 0px)'
+          target.setAttribute('data-x', 0)
+          target.setAttribute('data-y', 0)
+          onChange()
+        }
+      }
+    })
+
+ 
+
+    const dragzone = interact(block.value)
+    dragzone.dropzone({
+        accept: dragitem.value,
+        ondrop: function (event) {
+            block.value.appendChild(event.relatedTarget)
+        }
+    })
+
+
+    lineFN()
+
+
+    const blockdata = blocks.initFN(oda, props.data, props.blockindex, dragitem.value)
+    if(blockdata){
+      if(blockdata.v != props.data.id){
+        const newParent = document.getElementById(blockdata.v)
+        if(newParent){
+          newParent.appendChild(dragitem.value)
+        }
+      }
     }
+
+
+}
+  
+
+
+const dragMoveListener = (event) => {
+  if(blocks.freeze.value){
+      return false
   }
-  //dragitem.value.addEventListener('dragover', dragover);
-  //dragitem.value.addEventListener('drag', drag);
+  var target = event.target
+  // keep the dragged position in the data-x/data-y attributes
+  var x = (parseFloat(target.getAttribute('data-x')) || 0) + event.dx
+  var y = (parseFloat(target.getAttribute('data-y')) || 0) + event.dy
+  // translate the element
+  target.style.transform = 'translate(' + x + 'px, ' + y + 'px)'
+  // update the posiion attributes
+  target.setAttribute('data-x', x)
+  target.setAttribute('data-y', y)
+  
 }
 
 onMounted(() => {
     init()
+    
+
 });
 
 </script>

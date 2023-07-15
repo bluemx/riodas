@@ -13,7 +13,7 @@ export function useMaker () {
             let data = null
             try{ data = JSON.parse(event.data) } catch { data = null }
             if(!data){ return false }
-            console.log('PM: '+ data?.type)
+            if(data?.type){ console.log('PM: '+ data?.type) }
             if(data.type == 'student-inputs'){
                 const inputs = JSON.parse(atob(data.inputs))
                 const decodeData = JSON.parse(window.atob(data.inputs))
