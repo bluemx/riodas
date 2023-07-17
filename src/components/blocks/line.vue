@@ -34,16 +34,19 @@ watch(()=>props, (nv)=>{
 
 const selectorFrom = ref()
 const selectorTo = ref()
+
 const init = () => {
     selectorFrom.value = '[name="'+props.data.from+'"]'
     selectorTo.value = '[name="'+props.data.to+'"]'
     linecolor.value = props.data.color || '#ffdd00'
+    
     updateLine();
 }
 
 function updateLine() {
     var elementFrom = document.querySelector(selectorFrom.value);
     var elementTo = document.querySelector(selectorTo.value);
+    
 
     if (!elementFrom || !elementTo) {
         return;
@@ -51,6 +54,7 @@ function updateLine() {
 
     var rectFrom = elementFrom.getBoundingClientRect();
     var rectTo = elementTo.getBoundingClientRect();
+
 
     var midpointY = (rectTo.top + rectFrom.top) / 2;
 
@@ -67,6 +71,9 @@ function updateLine() {
     if(props.data.posFrom == 'r'){ posFrom = `${rectTo.left + rectTo.width} ${rectTo.top + rectTo.height / 2}` }
     if(props.data.posTo == 'r'){ posTo = `${rectFrom.left + rectFrom.width} ${rectFrom.top + rectFrom.height / 2}`}
 
+
+
+
     var pathData = `M  ${posFrom} 
                     Q ${rectTo.left + rectTo.width / 2} ${midpointY}, ${posTo}`;
 
@@ -74,7 +81,6 @@ function updateLine() {
 
     requestAnimationFrame(updateLine);
 }
-
 
 
 onMounted(() => {

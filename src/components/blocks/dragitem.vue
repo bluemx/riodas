@@ -1,13 +1,13 @@
 <template>
 
 <div ref="block" :blockindex="blockindex" class=" min-w-[20px] min-h-[20px] bg-slate-100 rounded" :class="[ /*data.dropzones.replace('.',''),*/ data.class || '' ]">
-    <div :name="dragitemname" ref="dragitem" class="btn btn-accent !transition-none text-neutral shadow-md shadow-slate-500/50 cursor-grab active:cursor-grabbing border-double border-b-4 border-neutral/50 relative flex justify-center items-center">
-        <iconify-icon icon="solar:menu-dots-outline" class="absolute bottom-full text-slate-400"></iconify-icon>
+    <div :name="dragitemname" ref="dragitem" :class="data.classitem||'btn btn-accent !transition-none text-neutral shadow-md shadow-slate-500/50 cursor-grab active:cursor-grabbing border-double border-b-4 border-neutral/50 relative flex justify-center items-center'" >
+        <iconify-icon v-if="!data.classitem" icon="solar:menu-dots-outline" class="absolute bottom-full text-slate-400"></iconify-icon>
         <Content :data="item" v-for="(item, index) in datacontent" :key="index" :blockindex="blockindex+'-'+index"></Content>
     </div>
     
     <template v-if="lineattrs">
-        <Line :data="{...lineattrs, to:dragitemname}" :blockindex="blockindex+'-dragdropline'"></Line>
+        <Line :data="lineattrs" :blockindex="blockindex+'-dragdropline'"></Line>
     </template>
 
   </div>
@@ -28,7 +28,7 @@ const oda = useOda()
 const block = ref()
 const dragitem = ref()
 const dropzones = ref([])
-const datacontent = ref(props.data.content)
+const datacontent = ref()
 const dragitemname = ref()
 const hasline = ref(false)
 const lineattrs = ref(null)
@@ -47,11 +47,13 @@ const onChange = () => {
 }
 
 const lineFN = () => {
+
   hasline.value = datacontent.value.findIndex(i=>i.block=='line')
   if(hasline.value == -1){ return false }
-  console.log('hasline')
-  lineattrs.value = {...datacontent.value[hasline]}
+
+  lineattrs.value = {...datacontent.value[hasline.value]}
   lineattrs.value.from = props.data.name
+  lineattrs.value.to = dragitemname.value
   datacontent.value.splice(hasline, 1)
 }
 
@@ -62,8 +64,11 @@ watch(()=>props.data,(nuv)=>{
 
 
 const init = () => {
-  datacontent.value = props.data.content
+  datacontent.value = JSON.parse(JSON.stringify(props.data.content))
+  dragitemname.value = getRandomCharacters()
+  lineFN(dragitemname.value)
   
+
     const draginteract = interact(dragitem.value)
     
     draginteract.draggable({
@@ -91,7 +96,7 @@ const init = () => {
     })
 
 
-    lineFN()
+    
 
 
     const blockdata = blocks.initFN(oda, props.data, props.blockindex, dragitem.value)

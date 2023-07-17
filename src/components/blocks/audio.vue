@@ -42,6 +42,8 @@ const init = async () => {
         return false
     }
     if(props.data.wave){
+
+        blockwave.value.innerHTML = ""
         wavesurfer.value = WaveSurfer.create({
             container: blockwave.value,
             waveColor: '#00a8e1',
