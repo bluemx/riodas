@@ -87,29 +87,51 @@ const flip = (item, index) => {
 }
 
 const evaluate = () => {
-    const positives = (cards.value.filter(object => object.status === 'found').length)/2;
-    console.log(positives)
-    blocks.result.value = positives == props.data.content.length
+    const positives = (cards.value.filter(object => object.status === 'found').length);
+    const totalpositives = props.data.content.length
+    if(props.data.duplicatecards){
+        blocks.result.value = (positives/2) == totalpositives
+    } else {
+        blocks.result.value = positives == totalpositives
+    }
     blocks.evaluateFN(cards.value)
 }
 
 
 const createcards = () => {
     let fullcards = []
-    props.data.content.forEach((element, index) => {
-        fullcards.push({...element, tag:'tag_'+index, status: 'idle'})
-        fullcards.push({...element, tag:'tag_'+index, status: 'idle'})
-    });
-    cards.value = shuffle(fullcards)
+    /* Card settings */
+    if(props.data.duplicatecards){
+        /* Duplicate cards */
+        props.data.content.forEach((element, index) => {
+            fullcards.push({...element, tag:'tag_'+index, status: 'idle'})
+            fullcards.push({...element, tag:'tag_'+index, status: 'idle'})
+        });
+    } else {
+        /* Normal */
 
-    classColumns.value = 'grid-cols-'+calculateColumns(fullcards.length)
+        let countertag = 0
+        props.data.content.forEach((element, index) => {
+            let offset = 0
+            if(index%2==0){
+                countertag++
+            }
+            fullcards.push({...element, tag:'tag_'+(countertag), status: 'idle'})
+        });
+    }
+    cards.value = shuffle(fullcards)
+    let columns = calculateColumns(fullcards.length)
+    if(columns>12){
+        columns = Math.round(columns/2)
+    }
+    classColumns.value = 'grid-cols-'+columns
 }
 
 const init = () => {
     createcards()
 
     const blockdata = blocks.initFN(oda, props.data, props.blockindex, cards.value)
-    if(blockdata.v){
+    if(blockdata?.v){
         cards.value = blockdata.v
     }
 
