@@ -69,7 +69,7 @@ export function useMaker () {
                 }, 200)
             }
         }
-    }, 250)
+    }, 100)
 
 
     const listener = () => {

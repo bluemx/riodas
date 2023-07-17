@@ -11,7 +11,6 @@
     </defs>
     <path ref="line" id="line" :stroke="'url(#'+blockindex+'-line-gradient)'" stroke-width="4" stroke-linecap="round" fill="none"/>
 </svg>
-
 </template>
 <script setup>
 import mojs from '@mojs/core'
@@ -43,43 +42,43 @@ const init = () => {
     updateLine();
 }
 
+// Update line function
 function updateLine() {
-    var elementFrom = document.querySelector(selectorFrom.value);
-    var elementTo = document.querySelector(selectorTo.value);
-    
+  const elementFrom = document.querySelector(selectorFrom.value)
+  const elementTo = document.querySelector(selectorTo.value)
+  if (!elementFrom || !elementTo) return
 
-    if (!elementFrom || !elementTo) {
-        return;
-    }
+  const rectFrom = elementFrom.getBoundingClientRect()
+  const rectTo = elementTo.getBoundingClientRect()
+  const posFrom = getPosition(rectFrom, props.data.posFrom, props.data.postFromPLeft, props.data.postFromPTop)
+  const posTo = getPosition(rectTo, props.data.posTo, props.data.postToPLeft, props.data.postToPTop)
 
-    var rectFrom = elementFrom.getBoundingClientRect();
-    var rectTo = elementTo.getBoundingClientRect();
+  const pathData = `M  ${posFrom} L ${posTo}`
+  
+  line.value.setAttribute('d', pathData)
+  requestAnimationFrame(updateLine)
+}
 
+// Get position function
+function getPosition(rect, pos, pLeft, pTop) {
+  let position = `${rect.left + rect.width / 2} ${rect.top + rect.height / 2}`
+  if (!props.data.posPercentage) {
+    position = getFromToPosition(rect, pos)
+  } else {
+    position = `${rect.left + rect.width * (pLeft/100) } ${rect.top + rect.height * (pTop/100) }`
+  }
+  return position
+}
 
-    var midpointY = (rectTo.top + rectFrom.top) / 2;
-
-    
-    let posFrom = `${rectTo.left + rectTo.width / 2} ${rectTo.top + rectTo.height / 2}`
-    let posTo = `${rectFrom.left + rectFrom.width / 2} ${rectFrom.top + rectFrom.height / 2}`
-
-    if(props.data.posFrom == 'b'){ posFrom = `${rectTo.left + rectTo.width / 2} ${rectTo.top + rectTo.height}` }
-    if(props.data.posTo == 'b'){ posTo = `${rectFrom.left + rectFrom.width / 2} ${rectFrom.top + rectFrom.height}`}
-    if(props.data.posFrom == 't'){ posFrom = `${rectTo.left + rectTo.width / 2} ${rectTo.top}` }
-    if(props.data.posTo == 't'){ posTo = `${rectFrom.left + rectFrom.width / 2} ${rectFrom.top}`}
-    if(props.data.posFrom == 'l'){ posFrom = `${rectTo.left} ${rectTo.top + rectTo.height / 2}` }
-    if(props.data.posTo == 'l'){ posTo = `${rectFrom.left} ${rectFrom.top + rectFrom.height / 2}`}
-    if(props.data.posFrom == 'r'){ posFrom = `${rectTo.left + rectTo.width} ${rectTo.top + rectTo.height / 2}` }
-    if(props.data.posTo == 'r'){ posTo = `${rectFrom.left + rectFrom.width} ${rectFrom.top + rectFrom.height / 2}`}
-
-
-
-
-    var pathData = `M  ${posFrom} 
-                    Q ${rectTo.left + rectTo.width / 2} ${midpointY}, ${posTo}`;
-
-    line.value.setAttribute('d', pathData);
-
-    requestAnimationFrame(updateLine);
+// Get from to position function
+function getFromToPosition(rect, pos) {
+  switch(pos) {
+    case 'b': return `${rect.left + rect.width / 2} ${rect.top + rect.height}`
+    case 't': return `${rect.left + rect.width / 2} ${rect.top}`
+    case 'l': return `${rect.left} ${rect.top + rect.height / 2}`
+    case 'r': return `${rect.left + rect.width} ${rect.top + rect.height / 2}`
+    default: return `${rect.left + rect.width / 2} ${rect.top + rect.height / 2}`
+  }
 }
 
 

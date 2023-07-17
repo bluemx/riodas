@@ -26,7 +26,7 @@
             </button>
         </div>
     </div>
-    <template v-if="audiorecordedB64 && readyToPlay">
+    <template v-if="audiorecordedB64 && readyToPlay && data.evaluation!=='manual'">
         <div class="flex justify-center items-center mt-2 animate-in slide-in-from-top">
             <div class="flex p-1" v-if="!evaluatedText">
                 <div class="text-sm">
