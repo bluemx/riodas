@@ -1,6 +1,6 @@
 <template>
     <div :class="data.class || ''">
-        <div class="w-full mt-4 text-center">
+        <div class="w-full text-center">
 
             <div v-if="!data?.dropdown" ref="block"
                 :class="['relative flex justify-center items-center gap-2 flex-wrap rounded', blocks.resultClass.value]">
