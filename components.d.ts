@@ -20,6 +20,8 @@ declare module '@vue/runtime-core' {
     Condition: typeof import('./src/components/blocks/condition.vue')['default']
     Content: typeof import('./src/components/blocks/content.vue')['default']
     copy: typeof import('./src/components/blocks/dragitem copy.vue')['default']
+    Crossword: typeof import('./src/components/blocks/crossword.vue')['default']
+    Cword: typeof import('./src/components/blocks/cword.vue')['default']
     Debugger: typeof import('./src/components/blocks/debugger.vue')['default']
     Diagnostico: typeof import('./src/components/blocks/diagnostico.vue')['default']
     Dragdrop: typeof import('./src/components/blocks/dragdrop.vue')['default']
