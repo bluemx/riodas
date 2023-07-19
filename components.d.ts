@@ -24,6 +24,7 @@ declare module '@vue/runtime-core' {
     Cword: typeof import('./src/components/blocks/cword.vue')['default']
     Debugger: typeof import('./src/components/blocks/debugger.vue')['default']
     Diagnostico: typeof import('./src/components/blocks/diagnostico.vue')['default']
+    Downloadfile: typeof import('./src/components/blocks/downloadfile.vue')['default']
     Dragdrop: typeof import('./src/components/blocks/dragdrop.vue')['default']
     Draggable: typeof import('./src/components/blocks/draggable.vue')['default']
     Dragitem: typeof import('./src/components/blocks/dragitem.vue')['default']
