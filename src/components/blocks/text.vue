@@ -1,7 +1,5 @@
 <template>
-    <span :class="data.class || ''">
-        {{ data.content || data.text }}
-    </span>
+    <span :class="data.class || ''" v-html="data.content || data.text"></span>
 
 </template>
 <script setup>
