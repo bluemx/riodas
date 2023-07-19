@@ -32,11 +32,17 @@
                 </div>
                 <div class="grid grid-cols-2 text-center py-6 bg-slate-100 mt-10 rounded">
                     <div><button :disabled="isready>0" @click="FNPreview" class="p-1 rounded bg-secondary text-white disabled:opacity-20">Preview</button></div>
-                    <div><button :disabled="isready>0"  @click="FNSave" class="p-1 rounded bg-success text-white disabled:opacity-20">Publish</button></div>
+                    <div>
+                        <button :disabled="isready>0"  @click="FNSave" class="p-1 rounded bg-success text-white disabled:opacity-20">
+                            <span v-if="status=='new'">Publish</span>
+                            <span v-if="status=='publishing'">Saving and publishing...</span>
+                            <span v-if="status=='save'">Save changes</span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </Transition>
-        <div class="text-center mt-4"><button @click="FNCancel" class="p-1 rounded bg-slate-200">Cancel</button></div>
+        <div class="text-center mt-4"><button @click="FNCancel" class="p-1 rounded bg-slate-200">Close</button></div>
     </div>
     <div v-if="previewing">
         <iframe @load="FNUpdateOda()" ref="iframe" src="/#MAKER" class="w-[320px] md:w-[600px] lg:w-[800px] h-[600px]" frameborder="0"></iframe>
@@ -56,7 +62,7 @@ const props = defineProps({
     name: String
 })
 const emits = defineEmits(['cancel', 'preview', 'save'])
-
+const status = ref('new')
 const previewing = ref(false)
 const iframe = ref()
 
@@ -113,6 +119,9 @@ const FNPreview = () => {
     previewing.value = true
  }
 const FNSave = () => {
+
+    status.value = 'publishing'
+
     emits('save')
     buildODA()
     const message = {
@@ -131,8 +140,12 @@ const FNSave = () => {
     }
     message['inputs'] = inps
     const publishData = JSON.stringify(message)
-    console.log('inputs::::', JSON.stringify(inps))
+    console.log(JSON.stringify(inps))
     window.parent.postMessage(publishData, "*");
+
+    setTimeout(()=>{
+        status.value = 'save'
+    },500)
 }
 
 
