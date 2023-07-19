@@ -51,7 +51,7 @@
         <div class="w-full col-span-3">
             <div class="bg-slate-800 text-white font-bold text-xs p-5">https://odas.win<span
                     class="text-green-400">/#/builder</span> </div>
-            <iframe src="https://odas.win/#/builder" frameborder="0" class="w-full h-[500px]"></iframe>
+            <iframe  src="https://odas.win/#/builder" frameborder="0" class="w-full h-[500px]"></iframe>
         </div>
         <div class="col-span-2">
             <div class="bg-slate-800 text-white font-bold text-xs p-5">Código JS:</div>
@@ -59,7 +59,7 @@
                 <pre><code class="language-javascript">
 //Reibir datos de ODA
 window.addEventListener('message', function(event) {
-    if(JSON.parse(event.data).datatype == 'builder'){
+    if(JSON.parse(event.data).datatype.includes('Builder')){
         // DATOS
         const datos = event.data
         console.log(datos)
@@ -118,12 +118,10 @@ const dataODA = {"title":"...", "clock":true, "countdown": 0, "intro": "" ... }
 
 function iframeLoaded2(iframe){
     const datos = {
-        type: 'oda',
-        oda: dataODA
+        type: "oda",
+        oda: dataINPUTS
     }
-
-// Enviar datos al iframe
-iframe.contentWindow.postMessage(JSON.stringify(datos) , '*')
+    iframe.contentWindow.postMessage(JSON.stringify({type:'builder', inputs:dataINPUTS}), '*')
 }
                 </code></pre>
             </div>
@@ -180,7 +178,9 @@ iframe.contentWindow.postMessage(JSON.stringify(datos) , '*')
 
         hljs.highlightAll();
         window.addEventListener('message', function (event) {
-            if (JSON.parse(event.data).datatype == 'builder') {
+            console.log('waiting...', event.data)
+
+            if (JSON.parse(event.data).datatype.includes('Builder')) {
                 //document.getElementById('datos1').innerHTML = event.data.replaceAll(',"', ',\n"').replaceAll(',{', ',\n{\n').replaceAll('{', '\n{\n').replaceAll('}', ',\n}')
                 document.getElementById('datos1').innerHTML = JSON.stringify(JSON.parse(event.data), null, '\t')
                 hljs.highlightAll();
@@ -196,9 +196,8 @@ iframe.contentWindow.postMessage(JSON.stringify(datos) , '*')
 
             const datos = {
                 type: "oda",
-                oda: dataODA
+                oda: dataINPUTS
             }
-            iframe.contentWindow.postMessage(JSON.stringify(datos) , '*')
             iframe.contentWindow.postMessage(JSON.stringify({type:'builder', inputs:dataINPUTS}), '*')
         }
 
