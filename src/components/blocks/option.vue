@@ -48,6 +48,8 @@ const props = defineProps({
     data: Object,
     blockindex: String
 })
+//INPUT
+const input = ref(null)
 
 const dropdownpos = () => {
     let pos = 'dropdown-top'
@@ -60,15 +62,24 @@ const dropdownpos = () => {
     return pos
 }
 
-//OPTIONS sort
-if (props.data.options) {
-    props.data.options.forEach((element, index) => {
-        initOptions.value.push({ ...element, index: index })
-    });
-    options.value = [...initOptions.value].sort(() => Math.random() - 0.5)
+
+const init = () => {
+    //OPTIONS sort
+    
+    initOptions.value = []
+    options.value = []
+    if (props.data.options) {
+
+        props.data.options.forEach((element, index) => {
+            initOptions.value.push({ ...element, index: index })
+        });
+        options.value = [...initOptions.value].sort(() => Math.random() - 0.5)
+    }
 }
-//INPUT
-const input = ref(null)
+
+
+
+
 
 
 //ACTION
@@ -99,7 +110,10 @@ onMounted(() => {
     if (blockdata && blockdata?.v != null) {
         input.value = blockdata.v
     }
+    init()
 })
+
+watch(()=>props.data, ()=>{ init() }, {deep: true})
 // INIT
 
 
