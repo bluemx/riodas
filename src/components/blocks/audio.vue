@@ -90,15 +90,21 @@ onMounted(() => {
 
 const clicked = async () => {
 
-    if(props.data.wave){
-        wavesurfer.value.play()
-    } else {
-        if(playing.value){
+    if(playing.value){
+        if(props.data.wave){
+            wavesurfer.value.stop()
+        } else {
             sound.value.stop()
-            return false
         }
-        sound.value.play()
+    } else {
+        if(props.data.wave){
+            wavesurfer.value.play()
+        } else {
+            sound.value.play()
+        }
     }
+
+
     
 }
 

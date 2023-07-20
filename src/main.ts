@@ -17,7 +17,7 @@ declare module '@vue/runtime-core' {
 }
 
 
-
+localStorage.theme = 'light'
 
 const app = createApp(App)
 const pinia = createPinia()
