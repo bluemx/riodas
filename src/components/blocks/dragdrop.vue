@@ -44,7 +44,7 @@ import deepdash from 'deepdash-es';
 deepdash(_)
 
 const blocks = useBlocks()
-const items = ref(JSON.parse(JSON.stringify(props.data.content)))
+const items = ref()
 const oda = useOda()
 const props = defineProps({
     data: Object,
@@ -55,22 +55,33 @@ const input = ref("")
 const drag = ref()
 const showResultClass = ref()
 
-// #### LINE
-const hasline = items.value.findIndex(i=>i.block=='line')
+
 const lineattrs = ref(false)
-if(hasline>-1) {
-    lineattrs.value = {...items.value[hasline]}
-    lineattrs.value.from = props.data.name
-    items.value.splice(hasline, 1)
+const initialItems = ref()
+const ddgroup = ref()
+
+
+
+
+const lineFN = () => {
+    // #### LINE
+    const hasline = items.value.findIndex(i=>i.block=='line')
+    if(hasline>-1) {
+        lineattrs.value = {...items.value[hasline]}
+        lineattrs.value.from = props.data.name
+        items.value.splice(hasline, 1)
+    }
+    
+    // #### LINE
+    const ddgroupname = props.data.group || 'basegroup'
+    ddgroup.value = {
+        name: ddgroupname,
+        pull: [ddgroupname],
+        put: [ddgroupname]
+    }
 }
-const initialItems = ref( JSON.parse(JSON.stringify(items.value)) )
-// #### LINE
-const ddgroupname = props.data.group || 'basegroup'
-const ddgroup = {
-    name: ddgroupname,
-    pull: [ddgroupname],
-    put: [ddgroupname]
-}
+
+
 const onStart = () => {
     if(props.data?.line){
         leavesLine.value = true
@@ -95,15 +106,37 @@ const onChange = (e) => {
     
 
     // RESULT : COMPARE
-    const positive = props.data.positive.split(',')
+    const positiveAND = props.data.positive.split(',')
+    const positiveOR = props.data.positive.split('-')
+    const positiveORclass = props.data.positive.replace('.','')
     const itemsorder = items.value.map(itm => itm.name)
 
 
-    if(props.data?.order){
-        blocks.result.value = positive.toString() == itemsorder.toString()
+    //POSITIVE  OR
+
+    if(props.data.positive.includes('-')){
+        if(itemsorder.length==1){
+            blocks.result.value = positiveOR.includes(itemsorder[0])
+        } else {
+            blocks.result.value = false
+        }
+    } else if(props.data.positive.includes('.')){
+        const itemsorderclass = items.value.map(itm => itm.class).toString().split(' ')
+
+        if(itemsorder.length==1){
+            blocks.result.value = itemsorderclass.includes(positiveORclass)
+        } else {
+            blocks.result.value = false
+        }
     } else {
-        blocks.result.value = positive.sort().toString() == itemsorder.sort().toString()
+        //POSITIVE AND
+        if(props.data?.order){
+            blocks.result.value = positiveAND.toString() == itemsorder.toString()
+        } else {
+            blocks.result.value = positiveAND.sort().toString() == itemsorder.sort().toString()
+        }
     }
+
 
     //console.log(positive.toString(), itemsorder.toString())
 
@@ -118,6 +151,14 @@ const onEnd = (e) => {
 }
 
 
+
+const init = () => {
+    items.value = JSON.parse(JSON.stringify(props.data.content))
+    initialItems.value = ref( JSON.parse(JSON.stringify(items.value)) )
+    lineFN()
+    onChange()
+}
+
 onMounted(() => {
 
     if(props.data.evaluation){
@@ -127,6 +168,8 @@ onMounted(() => {
         }
     }
     
-    onChange()
+    init()
 })
+
+watch(()=>props.data, ()=>{ init() }, {deep: true})
 </script>
