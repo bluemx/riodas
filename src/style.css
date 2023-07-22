@@ -9,7 +9,7 @@
   font-family: 'Nutmeg Ultra';
   src: url('../appassets/font/Nutmeg-UltraBlack.woff2') format('woff2'),
       url('../appassets/font/Nutmeg-UltraBlack.woff') format('woff');
-  font-weight: 900;
+  font-weight: bolder;
   font-style: normal;
   font-display: swap;
 }
@@ -32,6 +32,9 @@
   font-display: swap;
 }
 
+b, strong, .font-black, .font-extrabold, .font-bold{
+  font-family: 'Nutmeg Ultra';
+}
 
 
 html{
