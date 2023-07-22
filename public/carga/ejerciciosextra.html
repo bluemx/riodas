@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios extra</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="p-5 bg-slate-200">
+        <div class="text-xl p-1 font-extrabold bg-cyan-300 border-8 border-amber-500 w-fit ">1. Recibir datos:</div>
+        <div class="bg-slate-800 text-white"><code>https://odas.win/#/builder</code></div>
+        <iframe  src="https://odas.win/#/builder" frameborder="0" class="w-full h-[500px]"></iframe>
+        <div class="grid grid-cols-2 gap-5">
+            <div>
+                <div class="p-1 font-extrabold bg-cyan-300 border-8 border-amber-500 w-fit "><div class="bg-rose-300 inline">A)</div> javascript</div>
+                <script src="https://gist.github.com/ealbinu/567f4dd9c71c83bb84e2d993885b4f59.js?file=recibirdatos.js"></script>
+            </div>
+            <div>
+                <div class="p-1 font-extrabold bg-cyan-300 border-8 border-amber-500 w-fit "><div class="bg-rose-300 inline">B)</div> const datos = event.data</div>
+                <div class="p-1 bg-amber-500 w-fit text-white"><b>Publish</b> para recibir datos</div>
+                <pre class="text-white p-2 bg-slate-600 max-h-[220px] overflow-y-auto"><code id="datos1" class="text-xs"></code></pre>
+            </div>
+        </div>
+    </div>
+    <script>
+    window.addEventListener('message', function(event) {
+        console.log('ev::::',event)
+            if(JSON.parse(event.data).datatype.includes('Builder')){
+                console.log(event.data)
+                document.getElementById('datos1').innerHTML = 'const <font color="#ffdd00">datos</font> = '+JSON.stringify(JSON.parse(event.data), null, '\t')
+        }
+    })
+    </script>
+
+    <!-- ############################################## -->
+    <div class="p-5 bg-slate-200">
+        <div class="text-xl p-1 font-extrabold bg-lime-300 border-8 border-amber-500 w-fit ">2. Cargar datos de oda y recibir resultado de estudiante:</div>
+        <div class="bg-slate-800 text-white"><code>https://odas.win/#/MAKER</code></div>
+        <iframe id="iframe2"  src="https://odas.win/#/MAKER" frameborder="0" class="w-full h-[500px]"></iframe>
+        <div class="grid grid-cols-2 gap-5">
+            <div>
+                <div class="p-1 font-extrabold bg-cyan-300 border-8 border-amber-500 w-fit "><div class="bg-rose-300 inline">C)</div> Mandar datos recibidos en B) datos.<b>oda</b></div>
+                <div class="text-center"><button class="bg-red-400 mx-auto my-5 rounded border-b-4 border-red-700 p-5 active:border-b-0 active:translate-y-2 " onclick="cargarODA()">Click para ejecutar función cargarODA()</button></div>
+                <script src="https://gist.github.com/ealbinu/567f4dd9c71c83bb84e2d993885b4f59.js?file=cargarOda-recibirEstudiante.js"></script>
+
+            </div>
+            <div>
+                <div class="p-1 font-extrabold bg-cyan-300 border-8 border-amber-500 w-fit "><div class="bg-rose-300 inline">D)</div> Recibir datos del estudiante</div>
+                <div class="p-1 bg-amber-500 w-fit text-white"><b>Finalize</b> para recibir datos</div>
+                <pre class="text-white p-2 bg-slate-600 max-h-[220px] overflow-y-auto"><code id="datos2" class="text-xs"></code></pre>
+            </div>
+        </div>
+    </div>
+    <script>
+        // Contenido de la variable definida en el paso anterior: "datos". Se manda el valor del campo "oda":
+        const dataODA = {"title":"Ejemplo Fill in the words","clock":true,"countdown":0,"attempts":3,"intro":{"buttons":{"start":"Start"},"content":[]},"activity":{"scenes":[{"block":"scene","name":"SC1","countdown":0,"instructions":{"open":true,"content":[{"block":"group","class":"flex gap-2 items-center","content":[{"block":"text","class":"","text":"Fill in the missing words.","name":"xIwU"}],"background":"","name":"lgeG"}]},"content":[{"class":"flex flex-col gap-10 my-10 max-w-3xl mx-auto","content":[{"class":"flex flex-wrap gap-2 py-6 items-center mx-auto bg-slate-100 dark:bg-slate-700 p-2 rounded w-full text-xl","block":"group","content":[{"text":"Start of paragraph","block":"text"},{"block":"group","content":[{"case":false,"evaluation":"auto","class":"text-center","multiline":false,"showResult":false,"block":"textarea","maxlength":0,"attempts":0,"placeholder":"","positive":"WORD"}]},{"text":"end of paragraph","block":"text"}]}],"block":"group","name":"questions"},{"symbol":"FinalizeGroup"}]}]},"end":{"buttons":{"restart":false},"content":[{"symbol":"finishedAll"}]},"symbols":{"finishedAll":{"class":"w-full","content":[{"block":"group","class":"bg-slate-100 rounded p-5 text-center w-full","content":[{"block":"text","text":"Congratulations, you finished the activity.","class":"","name":"Congra"}],"background":"","name":"CongraGroup"},{"block":"group","class":"text-center p-5","content":[{"block":"finished","name":"finishedBlock"}],"background":"","name":"finishedGroup"}],"background":"","block":"group"},"FinalizeGroup":{"block":"group","class":"text-center mt-10","content":[{"block":"button","class":"mx-auto","to":"/end","text":"Finalize","name":"FinalizeBTN"}],"background":""}}}
+        // Cargar oda 
+        function cargarODA () {
+            const iframe = document.getElementById('iframe2')
+            const datos = {
+                type: 'oda',
+                oda: dataODA
+            }
+            iframe.contentWindow.postMessage(JSON.stringify(datos) , '*')
+        }
+        // Recibir datos al finalizar de contestar
+        window.addEventListener('message', function(event) {
+            if(JSON.parse(event.data).datatype == 'student'){
+                document.getElementById('datos2').innerHTML = JSON.stringify(JSON.parse(event.data), null, '\t')
+            }
+        })
+        
+
+    </script>
+
+    <div class="p-5">Las odas generadas por docente (ejercicios extra) funcionan igual que las odas comunes, la única diferencia es que los datos de la actividad en vez de ser cargados a través del ID en la url, son enviados mediante postMessage, como en la función: <strong class="text-fuchsia-300">cargarODA()</strong></div>
+    <div class="bg-fuchsia-600 text-white p-5"> Los diferentes estados de vistas estan en: <a href="https://odas.win/carga/odastates.html" class="text-amber-300" target="_blank">https://odas.win/carga/odastates.html</a></div>
+
+</body>
+</html>
