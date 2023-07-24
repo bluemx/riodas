@@ -1,7 +1,7 @@
 <template>
 <div>
     <template v-if="oda.getEvaluations.auto">
-        <div class="text-xl dark:text-white">You answered <strong class="text-success">{{ all.positive }} question correctly</strong> out of a total of <span class="text-neutral/50 dark:text-white/50">{{ oda.getEvaluations.auto }} questions</span>.</div>
+        <div class="text-xl ">You answered <strong class="text-success">{{ all.positive }} question correctly</strong> out of a total of <span class="text-neutral/50 dark:text-white/50">{{ oda.getEvaluations.auto }} questions</span>.</div>
     </template>
     <template v-if="oda.getEvaluations.manual>0"> 
         <div class="text-xl"><span class="text-neutral/50 dark:text-white/50">{{oda.getEvaluations.manual}} answer(s)</span> require teacher's evaluation.</div>
