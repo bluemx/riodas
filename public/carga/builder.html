@@ -113,14 +113,11 @@ window.addEventListener('message', function(event) {
                 <pre><code class="language-javascript">
 // ### Mandar configuracion de oda
 
-// key "oda" del estado anterior 
-const dataODA = {"title":"...", "clock":true, "countdown": 0, "intro": "" ... }
+// key "INPUTS" del estado anterior 
+const dataINPUTS = { ... }
 
 function iframeLoaded2(iframe){
-    const datos = {
-        type: "oda",
-        oda: dataINPUTS
-    }
+    
     iframe.contentWindow.postMessage(JSON.stringify({type:'builder', inputs:dataINPUTS}), '*')
 }
                 </code></pre>
