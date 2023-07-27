@@ -110,7 +110,7 @@ window.addEventListener('message', function(event) {
 function iframeLoaded(iframe){
     const datos = {
         "type": "attempts",
-        "times": 1
+        "time": 1
     }
 // Enviar datos al iframe
 iframe.contentWindow.postMessage(JSON.stringify(datos) , '*')
@@ -408,7 +408,7 @@ function iframeLoaded(iframe){
     function setAttempts(iframe){
         const datos = {
             "type": "attempts",
-            "times": 1
+            "time": 1
         }
         iframe.contentWindow.postMessage(JSON.stringify(datos) , '*')
     }
