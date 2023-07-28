@@ -5,6 +5,7 @@
         <iconify-icon icon="solar:soundwave-broken" :class="['absolute', playing?'repeat-infinite animate-pulse duration-500 ease-in-out':'animate-out fade-out fill-mode-forwards']"></iconify-icon>
     </button>
     <div v-if="data.wave" ref="blockwave" class="flex-grow bg-white rounded p-2"></div>
+
 </div>
 </template>
 <script setup>
@@ -41,9 +42,13 @@ const init = async () => {
     if(!filepath.value){
         return false
     }
-    if(props.data.wave){
+    if(props.data.wave ){
+        if(!blockwave.value){
+            return false
+        }
 
         blockwave.value.innerHTML = ""
+        
         wavesurfer.value = WaveSurfer.create({
             container: blockwave.value,
             waveColor: '#00a8e1',
@@ -56,6 +61,7 @@ const init = async () => {
             splitChannels: false,
             normalize: true
         })
+
 
         wavesurfer.value.load(filepath.value)
 
