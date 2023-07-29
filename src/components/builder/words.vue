@@ -187,7 +187,7 @@ const buildODA = () => {
     defdoc.attempts = configurationData.value.attempts
     defdoc.activity.scenes[0].instructions.content[0].content[0].text = configurationData.value.instructions
     for(var q of questions.value){
-        let qo = questionObject
+        let qo = JSON.parse(JSON.stringify(questionObject))
         qo.content[0].text = q.start
         qo.content[1].content[0].positive = q.word
         qo.content[2].text = q.end
