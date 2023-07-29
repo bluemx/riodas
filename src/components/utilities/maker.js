@@ -28,7 +28,7 @@ export function useMaker () {
             oda.teacher = decodeData
         }
         if(data.type == 'attempts'){
-            oda.odaAttempts = data.time
+            oda.odaAttempts = data?.time || data?.times
         }
 
         if(data.type == 'oda'){
