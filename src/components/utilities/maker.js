@@ -16,20 +16,7 @@ export function useMaker () {
         try{ data = JSON.parse(event.data) } catch { data = null }
         if(!data){ return false }
         //if(data?.type){ console.count('PM: '+ data?.type) }
-        if(data.type == 'student-inputs'){
-            const inputs = JSON.parse(atob(data.inputs))
-            const decodeData = JSON.parse(window.atob(data.inputs))
-            oda.user = decodeData
-            oda.userWaiting = decodeData
-        }
-        if(data.type == 'teacher-inputs'){
-            const inputs = JSON.parse(atob(data.inputs))
-            const decodeData = JSON.parse(window.atob(data.inputs))
-            oda.teacher = decodeData
-        }
-        if(data.type == 'attempts'){
-            oda.odaAttempts = data?.time || data?.times
-        }
+        
 
         if(data.type == 'oda'){
             /* remove hidden */
@@ -46,17 +33,40 @@ export function useMaker () {
             }, tout)
         }
 
+
+        // WAIT 500 FOR ODA TO SET
+        setTimeout(()=>{
+
+            if(data.type == 'attempts'){
+                oda.odaAttempts = data?.time || data?.times
+            }
+
+            if(data.type == 'student-inputs'){
+                const inputs = JSON.parse(atob(data.inputs))
+                const decodeData = JSON.parse(window.atob(data.inputs))
+                oda.user = decodeData
+                oda.userWaiting = decodeData
+            }
+            if(data.type == 'teacher-inputs'){
+                const inputs = JSON.parse(atob(data.inputs))
+                const decodeData = JSON.parse(window.atob(data.inputs))
+                oda.teacher = decodeData
+            }
+            //Builder
+            if(data.type == 'builder'){
+                if(route.path == '/builder'){
+                    //data.inputs
+                    builderdata.value = data.inputs
+                }
+            }
+        }, 500)
+
+
         if(data.type=='restartoda'){
             oda.restartUser()
             router.push('/'+oda.odaID)
         }
-        //Builder
-        if(data.type == 'builder'){
-            if(route.path == '/builder'){
-                //data.inputs
-                builderdata.value = data.inputs
-            }
-        }
+
         //Highlight on hover
         if(data.type == 'hover'){
             const item = document.getElementsByName(data.name)[0]
