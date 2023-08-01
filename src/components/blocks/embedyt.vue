@@ -20,8 +20,7 @@ watch (()=>props.data, ()=>{init()}, {deep:true})
 
 const videoId = ref()
 
-const init = () => {
-  
+const init = () => { 
     videoId.value = getId(props.data.url);
 }
 
@@ -33,5 +32,8 @@ function getId(url) {
       : null;
 }
   
+onMounted(() => {
+  init()  
+})
 
 </script>
