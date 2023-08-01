@@ -29,6 +29,7 @@ declare module '@vue/runtime-core' {
     Dragitem: typeof import('./src/components/blocks/dragitem.vue')['default']
     Dragitem_v1: typeof import('./src/components/blocks/dragitem_v1.vue')['default']
     Dragzone: typeof import('./src/components/blocks/dragzone.vue')['default']
+    Embedyt: typeof import('./src/components/blocks/embedyt.vue')['default']
     Finished: typeof import('./src/components/blocks/finished.vue')['default']
     Group: typeof import('./src/components/blocks/group.vue')['default']
     Icon: typeof import('./src/components/blocks/icon.vue')['default']
@@ -38,6 +39,7 @@ declare module '@vue/runtime-core' {
     LockActivityButton: typeof import('./src/components/all/LockActivityButton.vue')['default']
     Memory: typeof import('./src/components/blocks/memory.vue')['default']
     Option: typeof import('./src/components/blocks/option.vue')['default']
+    Reading: typeof import('./src/components/builder/reading.vue')['default']
     Record: typeof import('./src/components/blocks/record.vue')['default']
     Repeater: typeof import('./src/components/blocks/repeater.vue')['default']
     RestartButton: typeof import('./src/components/all/RestartButton.vue')['default']
@@ -58,5 +60,6 @@ declare module '@vue/runtime-core' {
     Variable: typeof import('./src/components/blocks/variable.vue')['default']
     Video: typeof import('./src/components/blocks/video.vue')['default']
     Words: typeof import('./src/components/builder/words.vue')['default']
+    Writing: typeof import('./src/components/builder/writing.vue')['default']
   }
 }

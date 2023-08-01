@@ -3,7 +3,7 @@
     <div class="font-bold text-white mb-2 text-2xl">ACTIVITY BUILDER</div>
     <template v-if="!currentbuild">
         <div class="text-slate-100">What type of activity would you like to build?</div>
-        <div class="flex flex-wrap justify-center gap-2 max-w-2xl my-4">
+        <div class="grid grid-cols-4 justify-center gap-2 max-w-2xl my-4 ">
             <div @click="currentbuild = item" class="aspect-square bg-slate-100 rounded flex flex-col justify-center items-center cursor-pointer hover:bg-slate-100 hover:shadow-xl p-2 text-center" v-for="(item, index) in types" :key="index">
                 <iconify-icon :icon="item.icon" class="text-6xl"></iconify-icon>
                 {{ item.name }}
@@ -24,6 +24,12 @@
             <div v-if="currentbuild.id=='words'" class="p-5">
                 <Words @cancel="currentbuild = null" :data="hasdata"  :name="currentbuild.name" />
             </div>
+            <div v-if="currentbuild.id=='writing'" class="p-5">
+                <Writing @cancel="currentbuild = null" :data="hasdata"  :name="currentbuild.name" />
+            </div>
+            <div v-if="currentbuild.id=='reading'" class="p-5">
+                <Reading @cancel="currentbuild = null" :data="hasdata"  :name="currentbuild.name" />
+            </div>
 
         </div>
     </template>
@@ -41,6 +47,8 @@ const maker = useMaker()
 const types = [
     {id:'choices', name: 'Multiple choices', icon:'solar:menu-dots-line-duotone'},
     {id:'words', name: 'Fill in the words', icon:'solar:text-field-line-duotone'},
+    {id:'writing', name: 'Writing', icon:'solar:document-add-line-duotone'},
+    {id:'reading', name: 'Reading', icon:'solar:document-text-line-duotone'},
     //{id:'rearrange', name: 'Rearrange words', icon:'solar:list-arrow-up-bold-duotone'},
     //{id:'column', name: 'Column matching', icon: 'solar:slider-vertical-minimalistic-line-duotone'}
 ]

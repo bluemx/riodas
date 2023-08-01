@@ -22,6 +22,7 @@
 <Memory v-else-if="data.block=='memory'" :data="data" :blockindex="blockindex" :name="data.name" :id="data.id || ''"></Memory>
 <Crossword v-else-if="data.block=='crossword'" :data="data" :blockindex="blockindex" :name="data.name" :id="data.id || ''"></Crossword>
 <Downloadfile v-else-if="data.block=='downloadfile'" :data="data" :blockindex="blockindex" :name="data.name" :id="data.id || ''"></Downloadfile>
+<Embedyt v-else-if="data.block=='embedyt'" :data="data" :blockindex="blockindex" :name="data.name" :id="data.id || ''"></Embedyt>
 
 <Textarea v-else-if="data.block=='textarea'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)" :name="data.name" :id="data.id || ''"></Textarea>
 <Switch v-else-if="data.block=='switch'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)" :name="data.name" :id="data.id || ''"></Switch>
