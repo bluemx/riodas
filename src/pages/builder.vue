@@ -30,6 +30,18 @@
             <div v-if="currentbuild.id=='reading'" class="p-5">
                 <Reading @cancel="currentbuild = null" :data="hasdata"  :name="currentbuild.name" />
             </div>
+            <div v-if="currentbuild.id=='listening'" class="p-5">
+                <Listening @cancel="currentbuild = null" :data="hasdata"  :name="currentbuild.name" />
+            </div>
+            <div v-if="currentbuild.id=='speaking'" class="p-5">
+                <Speaking @cancel="currentbuild = null" :data="hasdata"  :name="currentbuild.name" />
+            </div>
+            <div v-if="currentbuild.id=='rearrange'" class="p-5">
+                <Speaking @cancel="currentbuild = null" :data="hasdata"  :name="currentbuild.name" />
+            </div>
+            <div v-if="currentbuild.id=='columnmatching'" class="p-5">
+                <Columnmatching @cancel="currentbuild = null" :data="hasdata"  :name="currentbuild.name" />
+            </div>
 
         </div>
     </template>
@@ -49,8 +61,10 @@ const types = [
     {id:'words', name: 'Fill in the words', icon:'solar:text-field-line-duotone'},
     {id:'writing', name: 'Writing', icon:'solar:document-add-line-duotone'},
     {id:'reading', name: 'Reading', icon:'solar:document-text-line-duotone'},
-    //{id:'rearrange', name: 'Rearrange words', icon:'solar:list-arrow-up-bold-duotone'},
-    //{id:'column', name: 'Column matching', icon: 'solar:slider-vertical-minimalistic-line-duotone'}
+    {id:'listening', name: 'Listening', icon:'solar:headphones-square-sound-linear'},
+    {id:'speaking', name: 'Speaking', icon:'solar:dialog-line-duotone'},
+    {id:'rearrange', name: 'Rearrange words', icon:'solar:list-arrow-up-bold-duotone'},
+    {id:'columnmatching', name: 'Column matching', icon: 'solar:slider-vertical-minimalistic-line-duotone'}
 ]
 
 document.body.classList.add('builder')

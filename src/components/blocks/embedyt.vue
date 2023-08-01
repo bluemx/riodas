@@ -1,13 +1,13 @@
 <template>
 
-    <div :class="['mockup-window border bg-slate-100 px-2 pb-2', data.class || '']">
+    <div :class="['mockup-window border mx-auto w-fit h-fit bg-slate-100 px-2 pb-2', data.class || '']">
         <iframe v-if="videoId"
-        width="560" height="315"
+        class="w-[600px] max-w-full aspect-video"
         :src=" 'https://www.youtube.com/embed/' + videoId"
         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-        ID: https://www.youtube.com/embed/{{videoId}}
+        <div v-else>Wrong video url</div>
     </div>
+
 </template>
 
 <script setup>

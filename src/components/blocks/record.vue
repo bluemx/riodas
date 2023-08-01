@@ -1,5 +1,5 @@
 <template>
-<div ref="block" :class="[' bg-slate-50 p-0.5 rounded relative']">
+<div ref="block" :class="[' bg-slate-50 p-0.5 rounded relative   min-w-[280px]']">
     <div class="flex flex-wrap gap-0.5 items-center justify-center">
         <button ref="blockRecordBtn" :class="['btn relative  p-0.5 flex-grow-0 m-2', (isRecording?'btn-primary':'btn-secondary'), data.class || '']" @click="startRecord" :disabled="!wavesurfer" >
             <iconify-icon icon="solar:record-bold-duotone"></iconify-icon>
