@@ -6,7 +6,6 @@
         
         <h1 class="text-xl md:text-3xl my-5">{{ oda.oda.title }}</h1>
         
-        
 
         <Content  v-for="(item, index) in oda?.oda?.intro?.content" :key="index" :data="item"></Content>
         
@@ -40,7 +39,6 @@ const oda = useOda()
 const router = useRouter()
 
 window.parent.postMessage(JSON.stringify({datatype: 'intro'}), '*')
-
 
 
 const odapath = () => {

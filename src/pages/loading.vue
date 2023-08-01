@@ -23,6 +23,7 @@ const init = async () => {
         if(!odaloaded){
             router.push('/error')
         } else {
+
             if(oda.user == null || Object.keys(oda.user)==0){
                 router.push('/intro')
             } else if(oda.user?.location) {

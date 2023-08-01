@@ -19,7 +19,8 @@ export const useOda = defineStore({
         teacher: null,
         teacherFreeze: null,
         odaAttempts: 0,
-        odaAttemptsLimit: 3
+        odaAttemptsLimit: 3,
+        dynamicOdaData: null
     }),
     getters: {
         getOda(){
@@ -223,8 +224,8 @@ export const useOda = defineStore({
 
 
                 //Disable localstorage when not in localhost
-                if(window.location.href.includes('localhost') || window.location.href.includes('odas.win') ){
-                //if(false){
+                //if(window.location.href.includes('localhost') || window.location.href.includes('odas.win') ){
+                if(false){
                     this.user = useStorage('rioda_'+this.odaID+'_USER', userData)
                 } else {
                     this.user = userData
@@ -258,8 +259,31 @@ export const useOda = defineStore({
                 v: value
             }
         },
+        dynamicOda (data) {
+
+
+            if(data){
+                this.dynamicOdaData = data.oda
+            }
+            const odadocument = ref(this.dynamicOdaData)
+
+            odadocument.value = _.cloneDeepWith(odadocument.value, (value) => {
+                if (_.isObject(value) && value.hidden === true) {
+                    return {}
+                }
+            });
+
+            const tout = window.location.href.includes('localhost') ? 0 : 500
+            setTimeout(()=>{
+                    this.oda = odadocument.value
+                    if(this.oda?.attempts){ this.odaAttemptsLimit = this.oda.attempts }
+            }, 200)
+        },
         restartUser(){
             this.user = {}
+            setTimeout(()=>{
+                if(this.dynamicOdaData){this.dynamicOda()}
+            }, 100)
         }
     }
 })
