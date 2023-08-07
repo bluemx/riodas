@@ -16,7 +16,7 @@ export function useMaker () {
         try{ data = JSON.parse(event.data) } catch { data = null }
         if(!data){ return false }
         
-        if(data?.type){ console.count('PM: '+ data?.type) }
+        //if(data?.type){ console.count('PM: '+ data?.type) }
         
 
         
