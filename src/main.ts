@@ -10,6 +10,7 @@ import { emitter } from './bus.js'
 import 'daisyui/dist/styled.css'
 
 
+
 declare module '@vue/runtime-core' {
   export interface ComponentCustomProperties {
     emitter: typeof emitter
@@ -17,7 +18,8 @@ declare module '@vue/runtime-core' {
 }
 
 
-localStorage.theme = 'light'
+localStorage.theme = 'recrea'
+document.getElementsByTagName('html')[0].setAttribute('class', 'recrea')
 
 const app = createApp(App)
 const pinia = createPinia()
