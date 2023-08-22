@@ -15,6 +15,7 @@ declare module '@vue/runtime-core' {
     Autosolve: typeof import('./src/components/blocks/autosolve.vue')['default']
     BuilderConfigs: typeof import('./src/components/builder/builderConfigs.vue')['default']
     Button: typeof import('./src/components/blocks/button.vue')['default']
+    Changer: typeof import('./src/components/blocks/changer.vue')['default']
     Choices: typeof import('./src/components/builder/choices.vue')['default']
     Choose: typeof import('./src/components/blocks/choose.vue')['default']
     Columnmatching: typeof import('./src/components/builder/columnmatching.vue')['default']
