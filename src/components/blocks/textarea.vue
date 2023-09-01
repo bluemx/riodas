@@ -36,17 +36,29 @@ const resize = () => {
 }
 
 
+
+function evaluatePositiveAndInput(caseSensitive, rightAnswer, userInput) {
+  const possibleAnswers = rightAnswer.split("|");
+  if (caseSensitive) {
+    return possibleAnswers.some(answer => answer.trim() === userInput);
+  } else {
+    return possibleAnswers.some(answer => answer.trim().toLowerCase() === userInput.toLowerCase());
+  }
+}
+
+
 const onChange = (itemindex) => {
     if(blocks.freeze.value){
         return false
     }
     resize()
+
     if(props.data.positive){
-        if(props.data.case){
-            blocks.result.value = input.value == props.data.positive
-        } else {
-            blocks.result.value = input.value.toLowerCase() == props.data.positive.toLowerCase()
-        }
+
+        const caseSensitive = props.data.case
+        const rightAnswer = props.data.positive
+        const userInput = input.value
+        blocks.result.value = evaluatePositiveAndInput(caseSensitive, rightAnswer, userInput);
     }
 
     blocks.evaluateFN(input.value)
