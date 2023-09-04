@@ -3,6 +3,7 @@
 <ScreenTransition></ScreenTransition>
 <div class="oda-screen">
         <div class="text-center opacity-60">{{odapath()}}</div>
+        <div class="text-xs opacity-40">{{ oda.odaID }}</div>
         
         <h1 class="text-xl md:text-3xl my-5">{{ oda.oda.title }}</h1>
         

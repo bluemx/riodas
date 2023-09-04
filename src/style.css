@@ -168,3 +168,13 @@ html, #app{
 .v-leave-to {  
   opacity: 0;
 }
+
+
+
+.v-toast__item .v-toast__icon{
+	display: none !important;
+}
+.v-toast__item .v-toast__text{
+	padding: .5em !important;
+}
+.v-toast__item{ min-height:2em !important; }
