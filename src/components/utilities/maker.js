@@ -18,7 +18,7 @@ export function useMaker () {
         let data = null
         try{ data = JSON.parse(event.data) } catch { data = null }
         if(!data){ return false }
-        if(data?.type){ console.count('PM: '+ data?.type) }
+        //if(data?.type){ console.count('PM: '+ data?.type) }
         
         
         
@@ -30,7 +30,8 @@ export function useMaker () {
 
         if(data.type == 'oda'){
             oda.dynamicOda(data)
-            $toast.open({message:'Loading ODA', type:'info', duration:600});
+
+            //$toast.open({message:'Loading ODA', type:'info', duration:600});
             /* remove hidden */
             /*
             const odaDoc = ref(data.oda)
@@ -119,7 +120,7 @@ export function useMaker () {
     const listener = () => {
         window.addEventListener('message', function(event) {
             listenerActions(event)
-        }, { once: true })
+        })
     }
     
 return { listener, builderdata }
