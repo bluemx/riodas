@@ -24,5 +24,4 @@ const oda = useOda()
 const router = useRouter()
 const route = useRoute()
 const scenenum = route.params.scene || 0
-
 </script>

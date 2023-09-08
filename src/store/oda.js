@@ -261,7 +261,6 @@ export const useOda = defineStore({
         },
         dynamicOda (data) {
 
-            console.log('dynamiccc')
             if(data){
                 this.dynamicOdaData = data.oda
             }

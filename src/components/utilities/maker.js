@@ -14,7 +14,6 @@ export function useMaker () {
     const $toast = useToast();
 
     const listenerActions = (event) => {
-        console.log('listenerActions...')
         let data = null
         try{ data = JSON.parse(event.data) } catch { data = null }
         if(!data){ return false }
@@ -121,6 +120,7 @@ export function useMaker () {
         window.addEventListener('message', function(event) {
             listenerActions(event)
         })
+        //}, { once: true })
     }
     
 return { listener, builderdata }
