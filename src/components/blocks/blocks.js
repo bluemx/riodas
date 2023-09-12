@@ -66,7 +66,11 @@ const evaluateFN = (input, mute) => {
     }
 
     //#SAVE
-    oda.value.setInput(blockindex.value, result.value, input, {attempts: attempts.value})
+
+    if(blockindex.value){
+        //console.log('stored', blockindex.value, result.value, input, {attempts: attempts.value})
+        oda.value.setInput(blockindex.value, result.value, input, {attempts: attempts.value})
+    }
 
 }
 

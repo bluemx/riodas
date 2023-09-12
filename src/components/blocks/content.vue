@@ -1,7 +1,13 @@
 <template>
+
+<Worddrop v-if="data.block=='worddrop'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)" :name="data.name" :id="data.id || ''"></Worddrop>
+
+
 <!--<template v-if="!data.hidden">-->
+
 <Text v-if="data.block=='text'" :data="data" :data-blockindex="blockindex"  :data-eval="evaltype(data)" :name="data.name" :id="data.id || ''"></Text>
 <Icon v-if="data.block=='icon'" :data="data" :data-blockindex="blockindex"  :data-eval="evaltype(data)" :name="data.name" :id="data.id || ''"></Icon>
+
 <Group v-else-if="data.block=='group'" :data="data" :blockindex="blockindex" :data-blockindex="blockindex"  :data-eval="evaltype(data)" :name="data.name" :id="data.id || ''"></Group>
 <Option v-else-if="data.block=='option'" :data="data" :blockindex="blockindex" :data-blockindex="blockindex"  :data-eval="evaltype(data)" :name="data.name" :id="data.id || ''"></Option>
 <Repeater v-else-if="data.block=='repeater'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)" :name="data.name" :id="data.id || ''"></Repeater>
@@ -31,6 +37,7 @@
 <Show v-else-if="data.block=='show'" :data="data" :blockindex="blockindex"></Show>
 <Imageupload v-else-if="data.block=='imageupload'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)" :name="data.name" :id="data.id || ''"></Imageupload>
 <Debugger v-else-if="data.block=='debugger'" :name="data.name" :id="data.id || ''"></Debugger>
+
 
 
 <!-- Diagnostico only-->

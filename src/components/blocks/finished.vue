@@ -13,8 +13,6 @@
         <RestartButton :data="'Try again'" class="mt-4"></RestartButton>
     </template>
 
-
-
     
 </div>
 </template>

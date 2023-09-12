@@ -42,6 +42,9 @@ declare module '@vue/runtime-core' {
     LockActivityButton: typeof import('./src/components/all/LockActivityButton.vue')['default']
     Memory: typeof import('./src/components/blocks/memory.vue')['default']
     Option: typeof import('./src/components/blocks/option.vue')['default']
+    Predd: typeof import('./src/components/blocks/predd.vue')['default']
+    Preddwords: typeof import('./src/components/blocks/preddwords.vue')['default']
+    PreDDWords: typeof import('./src/components/blocks/preDDWords.vue')['default']
     Reading: typeof import('./src/components/builder/reading.vue')['default']
     Record: typeof import('./src/components/blocks/record.vue')['default']
     Repeater: typeof import('./src/components/blocks/repeater.vue')['default']
@@ -63,6 +66,7 @@ declare module '@vue/runtime-core' {
     TimerCountdown: typeof import('./src/components/all/TimerCountdown.vue')['default']
     Variable: typeof import('./src/components/blocks/variable.vue')['default']
     Video: typeof import('./src/components/blocks/video.vue')['default']
+    Worddrop: typeof import('./src/components/blocks/worddrop.vue')['default']
     Words: typeof import('./src/components/builder/words.vue')['default']
     Writing: typeof import('./src/components/builder/writing.vue')['default']
   }
