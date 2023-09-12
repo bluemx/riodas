@@ -41,7 +41,8 @@ const genItems = () => {
     showResult: false,
     id: getRandomCharacters(), name: getRandomCharacters(),
     block: "dragdrop",
-    attempts: 0
+    attempts: 0,
+    shuffle: true
   };
   group.content = items.value.map((item)=>{
     return {

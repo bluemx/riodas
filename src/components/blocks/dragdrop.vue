@@ -154,6 +154,10 @@ const onEnd = (e) => {
 
 const init = () => {
     items.value = JSON.parse(JSON.stringify(props.data.content))
+    //Desorder
+    if(props.data.shuffle){
+        items.value = _.shuffle(items.value)
+    }
     initialItems.value = ref( JSON.parse(JSON.stringify(items.value)) )
     lineFN()
     onChange()
