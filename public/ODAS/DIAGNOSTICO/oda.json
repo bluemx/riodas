@@ -78,7 +78,7 @@
     "activity": {
         "scenes": [
             {
-                "countdown": 60,
+                "countdown": 900,
                 "content": [
                     {
                         "block": "group",
