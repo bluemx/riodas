@@ -11,37 +11,63 @@
                 </template>
             </div>
             
-            <details v-else ref="block" :class="['dropdown', dropdownpos()] ">
-                <summary tabindex="0" :class="input===null? 'btn':'btn btn-accent'  ">
-                    <template v-if="input == null">
-                        Select
+            <template  v-else>
+                <VDropdown>
+                    <div :class="['btn', input===null? '':'btn-accent']">
+                        <div v-if="input == null">Select</div>
+                        <template v-else>
+                            <Content v-if="initOptions[input]" :data="initOptions[input]"></Content>
+                        </template>
+                    </div>
+                    <template #popper="{hide}">
+                        <div class="flex flex-col gap-1 p-1">
+                            <template v-for="(item, index) in options" :key="'opm'+index">
+                                <div class="bg-slate-200 hover:bg-neutral hover:text-white rounded cursor-pointer px-2" @click="hide(); onChange(item.index)">
+                                    <Content :data="item" ></Content>
+                                </div>
+                            </template>
+                        </div>
                     </template>
-                    <template v-else>
-                        <Content v-if="initOptions[input]" :data="initOptions[input]"></Content>
-                    </template>                    
-                </summary>
-                <ul tabindex="0" class="dropdown-content z-[1] menu   shadow bg-base-content rounded">
-                    <template v-for="(item, index) in options" :key="'opm'+index">
-                        <li class="hover:bg-neutral rounded " @click="onChange(item.index)"><Content :data="item" ></Content></li>
-                        <hr class="my-0.5">
-                    </template>
-                </ul>
-            </details>
+                </VDropdown>
+               
+                <!--
+                <details ref="block" :class="['dropdown', dropdownpos()] ">
+                    <summary tabindex="0" :class="input===null? 'btn':'btn btn-accent'  ">
+                        <template v-if="input == null">
+                            Select
+                        </template>
+                        <template v-else>
+                            <Content v-if="initOptions[input]" :data="initOptions[input]"></Content>
+                        </template>                    
+                    </summary>
+                    <ul tabindex="0" class="dropdown-content z-[1] menu   shadow bg-base-content rounded">
+                        <template v-for="(item, index) in options" :key="'opm'+index">
+                            <li class="hover:bg-neutral rounded " @click="onChange(item.index)"><Content :data="item" ></Content></li>
+                            <hr class="my-0.5">
+                        </template>
+                    </ul>
+                </details>
+                -->
+            </template>
 
         </div>
     </div>
 </template>
 <script setup>
 
-
+import sound2 from '../../assets/uisound/navigation_unavailable-selection.mp3'
 import { useOda } from "../../store/oda.js"
 import { useBlocks } from './blocks.js'
 const blocks = useBlocks()
 const oda = useOda()
 const block = ref()
-
+const dialog = ref(false)
 const initOptions = ref([])
 const options = ref([]);
+
+
+
+
 
 //PROPS
 const props = defineProps({
@@ -75,6 +101,12 @@ const init = () => {
         });
         options.value = [...initOptions.value].sort(() => Math.random() - 0.5)
     }
+
+    //DROPDOWN
+    if(props.data.dropdown){
+        
+    }
+
 }
 
 
@@ -87,11 +119,7 @@ const onChange = (itemindex) => {
     if (blocks.freeze.value) {
         return false
     }
-
-    if(props.data?.dropdown){
-        block.value.removeAttribute('open')
-    }
-
+    new Howl({ src: [sound2], rate: 1, volume: 1, autoplay:true })
     blocks.attemptsFN()
     evaluate(itemindex)
 }

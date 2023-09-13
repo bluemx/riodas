@@ -1,6 +1,7 @@
 <template>
 
 <Worddrop v-if="data.block=='worddrop'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)" :name="data.name" :id="data.id || ''"></Worddrop>
+<Wordoptions v-if="data.block=='wordoptions'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)" :name="data.name" :id="data.id || ''"></Wordoptions>
 
 
 <!--<template v-if="!data.hidden">-->

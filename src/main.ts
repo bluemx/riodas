@@ -8,6 +8,9 @@ import 'video.js/dist/video-js.css'
 import 'animate.css';
 import { emitter } from './bus.js'
 import 'daisyui/dist/styled.css'
+import FloatingVue from 'floating-vue'
+import 'floating-vue/dist/style.css'
+
 
 
 
@@ -24,7 +27,7 @@ document.getElementsByTagName('html')[0].setAttribute('class', 'recrea')
 const app = createApp(App)
 const pinia = createPinia()
 app.use(VueVideoPlayer)
-
+app.use(FloatingVue)
 app.use(pinia)
 app.use(router)
 app.config.globalProperties.emitter = emitter

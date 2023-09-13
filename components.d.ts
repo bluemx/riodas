@@ -67,7 +67,9 @@ declare module '@vue/runtime-core' {
     Variable: typeof import('./src/components/blocks/variable.vue')['default']
     Video: typeof import('./src/components/blocks/video.vue')['default']
     Worddrop: typeof import('./src/components/blocks/worddrop.vue')['default']
+    Wordoptions: typeof import('./src/components/blocks/wordoptions.vue')['default']
     Words: typeof import('./src/components/builder/words.vue')['default']
+    Wordselect: typeof import('./src/components/blocks/wordselect.vue')['default']
     Writing: typeof import('./src/components/builder/writing.vue')['default']
   }
 }
