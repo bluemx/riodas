@@ -215,7 +215,7 @@ export const useOda = defineStore({
                     this.oda = odaDoc.value
                 }
                 //ATTEMPTS
-                if(this.oda?.attempts){ this.odaAttemptsLimit = this.oda.attempts }
+                if(this.oda?.attempts && this.oda?.attempts>0){ this.odaAttemptsLimit = this.oda.attempts }
                 
                 let userData = {}
                 if(this.userWaiting!=null && this.user == this.userWaiting){

@@ -8,10 +8,19 @@
     </template>
 
 
-    <template v-if="(oda.odaAttempts < oda.odaAttemptsLimit) && !oda.freeze">
-        <div class="text-sm mt-5 text-slate-500  bg-slate-100 rounded p-1">You still have {{ oda.odaAttemptsLimit - oda.odaAttempts }} {{oda.odaAttemptsLimit-oda.odaAttempts>1?'attempts' : 'attempt'  }} to complete this activity.</div>
+    <!--attempts-->
+    <template v-if="oda.odaAttemptsLimit<99">
+        
+        <template v-if="(oda.odaAttempts < oda.odaAttemptsLimit) && !oda.freeze">
+            <div class="text-sm mt-5 text-slate-500  bg-slate-100 rounded p-1">You still have {{ oda.odaAttemptsLimit - oda.odaAttempts }} {{oda.odaAttemptsLimit-oda.odaAttempts>1?'attempts' : 'attempt'  }} to complete this activity.</div>
+            <RestartButton :data="'Try again'" class="mt-4"></RestartButton>
+        </template>
+
+    </template>
+    <template v-else>
         <RestartButton :data="'Try again'" class="mt-4"></RestartButton>
     </template>
+
 
     
 </div>
