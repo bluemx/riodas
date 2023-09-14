@@ -1,8 +1,8 @@
 <template>
 <div ref="block" :class="['flex gap-0.5 items-center']">
-    <button :class="['btn relative aspect-square text-3xl p-0.5 flex-grow-0 m-2', (playing?'btn-primary':'btn-secondary'), data.class || '']" @click="clicked" :disabled="!sound && !wavesurfer" >
-        <iconify-icon icon="solar:headphones-square-sound-bold" :class="['absolute', !playing?'animate-in zoom-in':'animate-out fade-out fill-mode-forwards']"></iconify-icon>
-        <iconify-icon icon="solar:soundwave-broken" :class="['absolute', playing?'repeat-infinite animate-pulse duration-500 ease-in-out':'animate-out fade-out fill-mode-forwards']"></iconify-icon>
+    <button :class="['btn relative aspect-square  p-0.5 flex-grow-0 m-2', (playing?'btn-primary':'btn-secondary'), data.class || '']" @click="clicked" :disabled="!sound && !wavesurfer" >
+        <iconify-icon icon="solar:play-stream-bold-duotone" :class="['absolute text-4xl', !playing?'animate-in zoom-in':'animate-out fade-out fill-mode-forwards']"></iconify-icon>
+        <iconify-icon icon="solar:stop-circle-line-duotone" :class="['absolute text-4xl', playing?'repeat-infinite animate-pulse duration-500 ease-in-out':'animate-out fade-out fill-mode-forwards']"></iconify-icon>
     </button>
     <div v-if="data.wave" ref="blockwave" class="flex-grow bg-white rounded p-2"></div>
 

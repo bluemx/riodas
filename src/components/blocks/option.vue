@@ -100,6 +100,10 @@ const init = () => {
             initOptions.value.push({ ...element, index: index })
         });
         options.value = [...initOptions.value].sort(() => Math.random() - 0.5)
+        /*
+        if(!props.data?.noshuffle){
+        }
+        */
     }
 
     //DROPDOWN
