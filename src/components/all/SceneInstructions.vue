@@ -6,12 +6,12 @@
     </div>
     <!--backdrop:backdrop-blur-sm open:backdrop:animate-in open:backdrop:fade-in open:backdrop:duration-500-->
     
-    <dialog id="instructions" ref="dialog" class=" z-50 shadow-xl rounded p-0 animate-in slide-in-from-top spin-in focus:outline-none border-2 border-accent m-0 mt-2 absolute top-full right-0 left-auto min-w-[180px] md:min-w-[420px] ">
+    <dialog id="instructions" ref="dialog" class="bg-white text-neutral z-50 shadow-xl rounded p-0 animate-in slide-in-from-top spin-in focus:outline-none border-2 border-accent m-0 mt-2 absolute top-full right-0 left-auto min-w-[180px] md:min-w-[420px]  ">
         <div class="p-2 flex items-center justify-between bg-accent text-white gap-5">
             <div>Instrucciones</div>
             <div @click="close" class="cursor-pointer text-white  flex justify-center"><iconify-icon icon="solar:close-square-outline"></iconify-icon></div>
         </div>
-        <div class="p-2 text-sm">
+        <div class="p-2 text-sm bg-white !text-dark">
             <Content :data="item" v-for="(item, index) in data.content" :key="index" :blockindex="'instructions-'+index"></Content>
         </div>
     </dialog>
