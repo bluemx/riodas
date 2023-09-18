@@ -25,9 +25,12 @@
             </div>
         </template>
     </draggable>
+
+    
     <template v-if="lineattrs" v-for="(item, index) in initialItems" :key="index">
-        <Line :data="{...lineattrs, to:item.name}" :blockindex="blockindex+'-dragdropline-'+index"></Line>
+        <Line  :data="{...lineattrs, to:item?.name}" :blockindex="blockindex+'-dragdropline-'+index"></Line>
     </template>
+
 </div>
 </template>
 
@@ -72,13 +75,14 @@ const lineFN = () => {
         items.value.splice(hasline, 1)
     }
     
-    // #### LINE
+    // #### GROUP
     const ddgroupname = props.data.group || 'basegroup'
     ddgroup.value = {
         name: ddgroupname,
         pull: [ddgroupname],
         put: [ddgroupname]
     }
+
 }
 
 
@@ -158,7 +162,9 @@ const init = () => {
     if(props.data.shuffle){
         items.value = _.shuffle(items.value)
     }
-    initialItems.value = ref( JSON.parse(JSON.stringify(items.value)) )
+
+    initialItems.value = JSON.parse(JSON.stringify(items.value))
+
     lineFN()
     onChange()
 }
@@ -175,5 +181,7 @@ onMounted(() => {
     init()
 })
 
-watch(()=>props.data, ()=>{ init() }, {deep: true})
+setTimeout(()=>{
+    watch(()=>props.data, ()=>{ init() }, {deep: true})
+}, 1000)
 </script>

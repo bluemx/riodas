@@ -240,12 +240,7 @@
                     },
                     {
                         "block": "diagnostico",
-                        "class": "text-primary font-bold"
-                    },
-                    {
-                        "block": "text",
-                        "class":"dark:text-neutral",
-                        "content": " level!"
+                        "class": ""
                     }
                 ]
             },

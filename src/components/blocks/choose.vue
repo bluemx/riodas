@@ -12,7 +12,7 @@
     <div class="w-full mt-4 text-center">
         <div class="flex justify-center items-center gap-2 flex-wrap">
             <template v-for="(item, index) in options" :key="index">
-                <button :class="['btn', item==input?'btn-success':'']" @click="choose(item)">{{ item }}</button>                    
+                <button :class="['btn', item==input?'btn-warning':'']" @click="choose(item)">{{ item }}</button>                    
             </template>
         </div>
     </div>

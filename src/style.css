@@ -106,21 +106,20 @@ html, #app{
 
 /* Firefox */
 * {
-  scrollbar-width: thin;
   scrollbar-color: theme('colors.primary') #fff;
 }
 /* Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
-  width: 8px;
+  width: 12px;
 }
 *::-webkit-scrollbar-track {
-  background: #fff;
+  background: #f5f5f5;
   border-radius: 2px;
 }
 *::-webkit-scrollbar-thumb {
   background-color: theme('colors.primary');
   border-radius: 4px;
-  border: 2px solid #fff;
+  border: 0px solid #fff;
 }
 
 

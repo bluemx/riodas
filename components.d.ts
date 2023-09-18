@@ -38,13 +38,12 @@ declare module '@vue/runtime-core' {
     Image: typeof import('./src/components/blocks/image.vue')['default']
     Imageupload: typeof import('./src/components/blocks/imageupload.vue')['default']
     Line: typeof import('./src/components/blocks/line.vue')['default']
+    Linebackup: typeof import('./src/components/blocks/linebackup.vue')['default']
+    LineJsplumb: typeof import('./src/components/blocks/line-jsplumb.vue')['default']
     Listening: typeof import('./src/components/builder/listening.vue')['default']
     LockActivityButton: typeof import('./src/components/all/LockActivityButton.vue')['default']
     Memory: typeof import('./src/components/blocks/memory.vue')['default']
     Option: typeof import('./src/components/blocks/option.vue')['default']
-    Predd: typeof import('./src/components/blocks/predd.vue')['default']
-    Preddwords: typeof import('./src/components/blocks/preddwords.vue')['default']
-    PreDDWords: typeof import('./src/components/blocks/preDDWords.vue')['default']
     Reading: typeof import('./src/components/builder/reading.vue')['default']
     Record: typeof import('./src/components/blocks/record.vue')['default']
     Repeater: typeof import('./src/components/blocks/repeater.vue')['default']
@@ -69,7 +68,6 @@ declare module '@vue/runtime-core' {
     Worddrop: typeof import('./src/components/blocks/worddrop.vue')['default']
     Wordoptions: typeof import('./src/components/blocks/wordoptions.vue')['default']
     Words: typeof import('./src/components/builder/words.vue')['default']
-    Wordselect: typeof import('./src/components/blocks/wordselect.vue')['default']
     Writing: typeof import('./src/components/builder/writing.vue')['default']
   }
 }

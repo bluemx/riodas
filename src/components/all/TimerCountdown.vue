@@ -1,9 +1,7 @@
 <template>
-<div class="bg-neutral/50 px-1 py-0.5 rounded flex justify-center items-center">
-
-    <div :class="['radial-progress bg-white border-2 border-white', percentagecolor]" :style="'--value:'+percentagedown+'; --size:10px; --thickness: 3px;'"></div>
-
-    <div class="ml-1 text-xs">
+<div class="bg-neutral/50 px-1 py-0.5 rounded flex justify-center items-center ">
+    <div :class="['radial-progress bg-white border-2 border-opacity-10 border-white', percentagecolor]" :style="'--value:'+percentagedown+'; --size:24px; --thickness: 6px;'"></div>
+    <div class="ml-1 text-md">
         {{ elapseddown }}
     </div>
 </div>

@@ -1,7 +1,11 @@
 <template>
-    <span :class="data.class || ''">
-        {{ level() }}
-    </span>
+<div :class="[data.class || '']">
+    <div class="text-3xl mt-2 mb-5 font-bold">
+        <span class="bg-primary text-white py-1 px-2 rounded">{{ level() }} level</span> !
+    </div>
+    <div class="text-xl text-zinc-400">You answered <strong class="text-success">{{ cleanresponse().positive }} question correctly</strong> out of a total of <span class="text-primary/50">{{ cleanresponse().responded }} questions</span>.</div>
+</div>
+   
 <!--
     <div class="text-xs overflow-scroll h-96">
     <hr>
