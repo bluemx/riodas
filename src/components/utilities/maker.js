@@ -79,7 +79,8 @@ export function useMaker () {
                 decodeData.location = '/intro'
                 oda.user = decodeData
                 oda.userWaiting = decodeData
-                router.push('/loading')
+                //router.push('/intro')
+                console.log(oda.userWaiting)
             }, 700)
         }
         if(data.type == 'teacher-inputs'){

@@ -30,6 +30,12 @@ const initFN = (BLOCKoda, BLOCKdata, BLOCKblockindex, BLOCKblockref) => {
         if(stored.v!=null){
             evaluateFN(stored.v, true)
         }
+        if(BLOCKoda.freeze){
+            // IF FREEZE - SHOW RESULTS
+            if(!result.value){
+                ShapesAnimation.playkeep(blockref.value, ['positive'])
+            }
+        }
     } else {
         result.value = null
         attempts.value = 0
@@ -39,6 +45,10 @@ const initFN = (BLOCKoda, BLOCKdata, BLOCKblockindex, BLOCKblockref) => {
 
     if(BLOCKoda.freeze){
         freeze.value = true
+        // IF FREEZE - SHOW RESULTS
+        if(result.value){
+            ShapesAnimation.playkeep(blockref.value, ['positive'])
+        }
     }
     
     return stored
@@ -64,6 +74,8 @@ const evaluateFN = (input, mute) => {
             freeze.value = true
         }
     }
+
+
 
     //#SAVE
 
