@@ -20,7 +20,7 @@
                                         View activity
                                 </template>
                                 <template v-else>
-                                        {{ oda.oda.intro.buttons.start }}
+                                        {{ oda.oda.intro?.buttons.start }}
                                 </template>
                         </router-link>
 

@@ -1,5 +1,4 @@
 <template>
-
 <div :class="data.class || ''">
     <div class="text-lg">
         <div v-if="data.id" class="inline-block">
@@ -12,7 +11,7 @@
     <div class="w-full mt-4 text-center">
         <div class="flex justify-center items-center gap-2 flex-wrap">
             <template v-for="(item, index) in options" :key="index">
-                <button :class="['btn', item==input?'btn-warning':'']" @click="choose(item)">{{ item }}</button>                    
+                <button :class="['btn', item==input?'btn-warning':'']" @click="choose(item)">{{ item }}</button>
             </template>
         </div>
     </div>
@@ -55,6 +54,11 @@ currentInstance.appContext.config.globalProperties.emitter.on('autosolve', e => 
     console.log('autosolve')
     choose(props.data.options[0])
 } )
+
+
+onMounted(() => {
+    //choose(props.data.options[0])
+})
 
 
 

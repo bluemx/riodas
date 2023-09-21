@@ -25,7 +25,7 @@
     },
     {
     "content": "Jane ... painting.",
-    "options": ["don’t like", "doesn’t like", "like", "paints"]
+    "options": ["doesn’t like", "don’t like", "like", "paints"]
     },
     {
     "content": ".... soccer?",
@@ -57,7 +57,7 @@
     },
     {
     "content": "Was the bus on time?",
-    "options": ["No, they weren’t.", "No, he wasn’t.", "Yes, they were.", "Yes, it was."]
+    "options": ["No, he wasn’t.", "No, they weren’t.", "Yes, they were.", "Yes, it was."]
     },
     {
     "content": "Did you see Dani?",
@@ -73,7 +73,7 @@
     },
     {
     "content": "We ... to Las Vegas tomorrow.",
-    "options": ["are going flying", "is going to go", "going", "are going to fly"]
+    "options": ["are going to fly", "are going flying", "is going to go", "going"]
     },
     {
     "content": "Where ... tomorrow?",
@@ -85,7 +85,7 @@
     },
     {
     "content": "I wake ... six thirty every morning.",
-    "options": ["to", "up at", "up to", "in"]
+    "options": ["up at", "to", "up to", "in"]
     },
     {
     "content": "There were ... people at the concert.",
@@ -96,7 +96,7 @@
     "options": ["much", "very many", "many", "too much"]
     },
     {
-    "content": "... lived here long",
+    "content": "... lived here long?",
     "options": ["Have you", "Do you", "You", "Did you"]
     }
     ]

@@ -65,7 +65,9 @@ export function useMaker () {
         
 
         if(data.type == 'attempts'){
-            oda.odaAttempts = data?.time || data?.times
+            const setattempts = data?.time || data?.times
+            if(!setattempts){return false}
+            oda.odaAttempts = setattempts
             $toast.open({message:'Loading attempts', type:'info', duration:600});
         }
 
@@ -88,7 +90,6 @@ export function useMaker () {
         }
         //Builder
         if(data.type == 'builder'){
-
             if(route.path == '/builder'){
                 //data.inputs
                 builderdata.value = data.inputs

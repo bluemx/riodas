@@ -1,7 +1,7 @@
 <template>
-
-<Content v-if="dataloaded" :data="item" v-for="(item, index) in newData" :key="index" :blockindex="blockindex+'-'+index"></Content>
-
+<div>
+<Content v-for="(item, index) in newData" v-if="dataloaded" :data="item"  :key="index" :blockindex="blockindex+'-'+index"></Content>
+</div>
 </template>
 <script setup>
 import { useOda } from "../../store/oda.js"
