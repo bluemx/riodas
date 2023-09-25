@@ -217,7 +217,7 @@ const verify = async () => {
     loading.value = true
     errorVerification.value = null
     try{
-        const res = await axios.post('https://bluetest.mx/reCreaIngles/gateway/api/Audio', {
+        const res = await axios.post('https://recreaingles.org/gateway/api/Audio', {
             "text": props.data.positive,
             "recording": audiorecordedB64.value
         }, {
