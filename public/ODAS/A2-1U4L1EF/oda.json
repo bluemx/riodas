@@ -1,1 +1,168 @@
-{"title":"Friends and school","clock":false,"countdown":0,"intro":{"buttons":{"start":"Start"},"content":[]},"activity":{"scenes":[{"block":"scene","name":"SC1","countdown":0,"instructions":{"open":true,"content":[{"block":"group","class":"flex gap-2 items-center","content":[{"block":"audio","class":"","file":"files/A2-1U4L1EF-INS.mp3"},{"block":"text","class":"","text":"Type a paragrah talking about your school environment, don't forget to use \"may,\" \"might,\" \"can,\" or \"could\" (affirmative, negative, or interrogative form). Write 150 words minimun and 200 words maximum"}]}]},"content":[{"marker":"📒","class":"bg-slate-100 rounded p-2 max-w-4xl text-center mx-auto","content":[{"marker":"","class":" m-20 bg-orange-500 pr-2 rounded-lg h-screen","content":[{"marker":"","class":"bg-yellow-50 pr-2 rounded-lg h-screen","content":[{"marker":"","class":"text-2xl  bg-orange-500 pr-2 rounded-lg h-screen","content":[{"marker":"","class":"bg-yellow-50 pr-2 rounded-lg h-screen","content":[{"case":false,"evaluation":"manual","class":"bg-transparent text-center ","positive":"","multiline":true,"placeholder":"-","showResult":false,"id":"yJ66","block":"textarea","name":"EVyZ"}],"background":"","id":"L7CGlqba","block":"group","name":"uXXJ"}],"background":"","id":"38y0","block":"group","name":"lado"}],"background":"","id":"GRdQVHJl","block":"group","name":"mnXO"}],"background":"","id":"Emva","block":"group","name":"KHIl"}],"background":"","id":"gpo1","block":"group","name":"gpo1"},{"symbol":"FinalizeGroup"}]}]},"end":{"buttons":{"restart":false},"content":[{"symbol":"finishedAll"}]},"symbols":{"finishedAll":{"class":"w-full","content":[{"block":"group","class":"bg-slate-100 rounded p-5 text-center w-full","content":[{"block":"text","text":"Congratulations, you finished the activity.","class":"","name":"Congra"}],"background":"","name":"CongraGroup"},{"block":"group","class":"text-center p-5","content":[{"block":"finished","name":"finishedBlock"}],"background":"","name":"finishedGroup"}],"background":"","block":"group"},"FinalizeGroup":{"block":"group","class":"text-center mt-10","content":[{"block":"button","class":"mx-auto","to":"/end","text":"Finalize","name":"FinalizeBTN"}],"background":""}},"attempts":0}
+{
+  "title": "Friends and school",
+  "clock": false,
+  "countdown": 0,
+  "intro": {
+    "buttons": {
+      "start": "Start"
+    },
+    "content": []
+  },
+  "activity": {
+    "scenes": [
+      {
+        "block": "scene",
+        "name": "SC1",
+        "countdown": 0,
+        "instructions": {
+          "open": true,
+          "content": [
+            {
+              "block": "group",
+              "class": "flex gap-2 items-center",
+              "content": [
+                {
+                  "block": "audio",
+                  "class": "",
+                  "file": "https://mtvmbpemhwbrljhzdrci.supabase.co/storage/v1/object/public/riodas/A2-1U4L1EF/A2-1U4L1EF-INS.mp3"
+                },
+                {
+                  "block": "text",
+                  "class": "",
+                  "text": "Type a paragrah talking about your school environment, don't forget to use \"may,\" \"might,\" \"can,\" or \"could\" (affirmative, negative, or interrogative form). Write 150 words minimun and 200 words maximum"
+                }
+              ]
+            }
+          ]
+        },
+        "content": [
+          {
+            "marker": "📒",
+            "class": "bg-slate-100 rounded p-2 max-w-4xl text-center mx-auto",
+            "content": [
+              {
+                "marker": "",
+                "class": " m-20 bg-orange-500 pr-2 rounded-lg h-screen",
+                "content": [
+                  {
+                    "marker": "",
+                    "class": "bg-yellow-50 pr-2 rounded-lg h-screen",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "text-2xl  bg-orange-500 pr-2 rounded-lg h-screen",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": "bg-yellow-50 pr-2 rounded-lg h-screen",
+                            "content": [
+                              {
+                                "case": false,
+                                "evaluation": "manual",
+                                "class": "bg-transparent text-center ",
+                                "positive": "",
+                                "multiline": true,
+                                "placeholder": "-",
+                                "showResult": false,
+                                "id": "yJ66",
+                                "block": "textarea",
+                                "name": "EVyZ"
+                              }
+                            ],
+                            "background": "",
+                            "id": "L7CGlqba",
+                            "block": "group",
+                            "name": "uXXJ"
+                          }
+                        ],
+                        "background": "",
+                        "id": "38y0",
+                        "block": "group",
+                        "name": "lado"
+                      }
+                    ],
+                    "background": "",
+                    "id": "GRdQVHJl",
+                    "block": "group",
+                    "name": "mnXO"
+                  }
+                ],
+                "background": "",
+                "id": "Emva",
+                "block": "group",
+                "name": "KHIl"
+              }
+            ],
+            "background": "",
+            "id": "gpo1",
+            "block": "group",
+            "name": "gpo1"
+          },
+          {
+            "symbol": "FinalizeGroup"
+          }
+        ]
+      }
+    ]
+  },
+  "end": {
+    "buttons": {
+      "restart": false
+    },
+    "content": [
+      {
+        "symbol": "finishedAll"
+      }
+    ]
+  },
+  "symbols": {
+    "finishedAll": {
+      "class": "w-full",
+      "content": [
+        {
+          "block": "group",
+          "class": "bg-slate-100 rounded p-5 text-center w-full",
+          "content": [
+            {
+              "block": "text",
+              "text": "Congratulations, you finished the activity.",
+              "class": "",
+              "name": "Congra"
+            }
+          ],
+          "background": "",
+          "name": "CongraGroup"
+        },
+        {
+          "block": "group",
+          "class": "text-center p-5",
+          "content": [
+            {
+              "block": "finished",
+              "name": "finishedBlock"
+            }
+          ],
+          "background": "",
+          "name": "finishedGroup"
+        }
+      ],
+      "background": "",
+      "block": "group"
+    },
+    "FinalizeGroup": {
+      "block": "group",
+      "class": "text-center mt-10",
+      "content": [
+        {
+          "block": "button",
+          "class": "mx-auto",
+          "to": "/end",
+          "text": "Finalize",
+          "name": "FinalizeBTN"
+        }
+      ],
+      "background": ""
+    }
+  },
+  "attempts": 0
+}
