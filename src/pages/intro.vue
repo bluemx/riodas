@@ -1,13 +1,13 @@
 <template>
 
 <ScreenTransition></ScreenTransition>
-<div class="oda-screen">
+<div class="oda-screen  intro-oda-screen">
         <div class="text-center opacity-60">{{odapath()}}</div>
         <!--
         <div class="text-xs opacity-40">{{ oda.odaID }}</div>
         -->
-        
-        <h1 class="text-xl md:text-3xl my-5">{{ oda.oda.title }}</h1>
+        <div class="max-w-[10rem]"><img :src="recreaingles" class="w-full"></div>
+        <h1 class="text-xl md:text-3xl my-5 ri-title">{{ oda.oda.title }}</h1>
         
 
         <Content  v-for="(item, index) in oda?.oda?.intro?.content" :key="index" :data="item"></Content>
@@ -25,10 +25,10 @@
                         </router-link>
 
 
-                        <div v-if="oda.odaAttemptsLimit<99 && !oda.freeze" class="text-sm mt-5 text-slate-500 dark:text-slate-300 dark:bg-slate-700 bg-slate-100 rounded p-1">This is your attempt {{ oda.odaAttempts+1 }} of {{ oda.odaAttemptsLimit }} to complete the activity.</div>
+                        <div v-if="oda.odaAttemptsLimit<99 && !oda.freeze" class="text-md mt-5 text-center">This is your attempt <strong>{{ oda.odaAttempts+1 }} of {{ oda.odaAttemptsLimit }}</strong> to complete the activity.</div>
                 </template>
                 <template v-else>
-                        <div  v-if="!oda.freeze" class="text-sm mt-5 text-slate-500 dark:text-slate-300 dark:bg-slate-700 bg-slate-100 rounded p-1">Completed activity</div>
+                        <div  v-if="!oda.freeze" class="text-md mt-5 rounded text-center">Completed activity</div>
                 </template>
         </template>
 
@@ -41,6 +41,8 @@ import { useRouter } from "vue-router";
 import { useOda } from "../store/oda.js"
 const oda = useOda()
 const router = useRouter()
+
+import recreaingles from '../assets/recreaingles.svg'
 
 window.parent.postMessage(JSON.stringify({datatype: 'intro'}), '*')
 

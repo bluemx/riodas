@@ -7,6 +7,7 @@ import IconsResolver from 'unplugin-icons/resolver'
 import { resolve } from 'path';
 import mkcert from 'vite-plugin-mkcert'
 import crossOriginIsolation from 'vite-plugin-cross-origin-isolation'
+import postcssImport from 'postcss-import';
 
 
 // https://vitejs.dev/config/
@@ -24,6 +25,7 @@ export default defineConfig({
     }
   },
   plugins: [
+    postcssImport(),
     mkcert(),
     crossOriginIsolation(),
     vue({

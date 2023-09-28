@@ -1,6 +1,6 @@
 <template>
 <div ref="wrapper" class="relative">
-    <div :class="['flex justify-center items-center gap-1 cursor-pointer text-primary p-1 rounded bg-white', buttonColor]" @click="toggle">
+    <div :class="['flex justify-center items-center gap-1 cursor-pointer text-white p-1 rounded ri-btn ri-secondary', buttonColor]" @click="toggle">
         <iconify-icon icon="solar:info-square-outline"></iconify-icon>
         <div class="text-xs">Instrucciones</div>
     </div>

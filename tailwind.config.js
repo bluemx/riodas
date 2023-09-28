@@ -12,12 +12,12 @@ export default {
       {
         recrea: {
           "primary": "#e7004c",
-          "secondary": "#00a8e1",
+          "secondary": "#05a8e2",
           "accent": "#ffc600",
           "success": "#95c63d",
-          "neutral": "#475569",
-          "base-100": "#475569",
-          "info": "#9779D3",
+          "neutral": "#004a98",
+          "base-100": "#7b868d",
+          "info": "#a4ede2",
           "warning": "#FBBD23",
           "error": "#F87272",
         },

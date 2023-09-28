@@ -1,3 +1,5 @@
+@import './recreaingles.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -52,12 +54,12 @@ html{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-  @apply text-slate-600 dark:text-slate-100
+  @apply text-sky-800
 }
 
 
 html, #app{
-  @apply h-screen w-screen bg-rose-600;
+  @apply h-screen w-screen bg-sky-500;
   max-height: -webkit-fill-available !important;
 }
 #app{
@@ -65,11 +67,16 @@ html, #app{
 }
 
 .oda-screen{
-  @apply flex justify-center items-center flex-1 w-full h-full grow shrink bg-white dark:bg-neutral rounded flex-col p-2;
+  @apply flex justify-center items-center flex-1 w-full h-full grow shrink bg-white dark:bg-neutral rounded-lg flex-col p-2;
   max-height: -webkit-fill-available !important;
+}
+.oda-screen.intro-oda-screen{
+  @apply ri-bg-main;
 }
 
 .button{
+  @apply ri-btn ri-dark;
+  /*
   @apply
     transition-all
     duration-500
@@ -84,7 +91,9 @@ html, #app{
     border-b-4
     text-slate-500
   ;
+  */
 }
+/*
 .button:hover{
   @apply transition-all border-slate-400
 }
@@ -96,7 +105,7 @@ html, #app{
     shadow-none
   ;
 }
-
+*/
 .btn{
   text-transform: none;
   height: auto;
@@ -106,7 +115,7 @@ html, #app{
 
 /* Firefox */
 * {
-  scrollbar-color: theme('colors.primary') #fff;
+  scrollbar-color: theme('colors.neutral') #fff;
 }
 /* Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
@@ -117,7 +126,7 @@ html, #app{
   border-radius: 2px;
 }
 *::-webkit-scrollbar-thumb {
-  background-color: theme('colors.primary');
+  background-color: theme('colors.neutral');
   border-radius: 4px;
   border: 0px solid #fff;
 }

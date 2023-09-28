@@ -1,5 +1,5 @@
 <template>
-<div class="text-white w-full rounded px-2 py-1 bg-neutral/20 mb-1 flex items-center gap-2">
+<div class="text-sky-800 w-full rounded-lg px-2 py-1 bg-white mb-1 flex items-center gap-2">
     <!--<RestartButton></RestartButton>-->
     <div class="mr-auto">
         {{ oda.oda.title }}

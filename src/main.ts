@@ -1,4 +1,5 @@
 import { createApp } from 'vue'
+import './recreaingles.css'
 import './style.css'
 import App from './App.vue'
 import { createPinia } from 'pinia'

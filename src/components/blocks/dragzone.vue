@@ -17,7 +17,13 @@ watch(()=>props.data,(nuv)=>{
 }, {deep:true})
 
 const init = () => {
+    if(!block.value){
+        return false
+    }
     const dragzone = interact(block.value)
+    if(!dragzone){
+        return false
+    }
     dragzone.dropzone({
         ondropactivate: function (event) {
             event.target.classList.add('border-rose-500')

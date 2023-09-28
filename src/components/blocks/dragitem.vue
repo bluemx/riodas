@@ -64,6 +64,9 @@ watch(()=>props.data,(nuv)=>{
 
 
 const init = () => {
+  if(!dragitem.value){
+    return false
+  }
   datacontent.value = JSON.parse(JSON.stringify(props.data.content))
   dragitemname.value = getRandomCharacters()
   lineFN(dragitemname.value)
