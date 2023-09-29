@@ -2,11 +2,13 @@
 
 <ScreenTransition></ScreenTransition>
 <div class="oda-screen  intro-oda-screen">
+        
+        <div class="max-w-[10rem] mb-10"><img :src="recreaingles" class="w-full"></div>
+
         <div class="text-center opacity-60">{{odapath()}}</div>
         <!--
         <div class="text-xs opacity-40">{{ oda.odaID }}</div>
         -->
-        <div class="max-w-[10rem]"><img :src="recreaingles" class="w-full"></div>
         <h1 class="text-xl md:text-3xl my-5 ri-title">{{ oda.oda.title }}</h1>
         
 
