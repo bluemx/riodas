@@ -73,6 +73,9 @@ html, #app{
 .oda-screen.intro-oda-screen{
   @apply ri-bg-main;
 }
+.oda-screen.end-oda-screen{
+  @apply ri-bg-main;
+}
 
 .button{
   @apply ri-btn ri-dark;
@@ -115,7 +118,7 @@ html, #app{
 
 /* Firefox */
 * {
-  scrollbar-color: theme('colors.neutral') #fff;
+  scrollbar-color: #8ee7dc #fff;
 }
 /* Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
@@ -126,7 +129,7 @@ html, #app{
   border-radius: 2px;
 }
 *::-webkit-scrollbar-thumb {
-  background-color: theme('colors.neutral');
+  background-color: #8ee7dc;
   border-radius: 4px;
   border: 0px solid #fff;
 }
