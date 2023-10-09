@@ -78,150 +78,147 @@
     "activity": {
         "scenes": [
             {
-                "countdown": 900,
+                "countdown": 0,
                 "content": [
                     {
-                        "block": "group",
-                        "class": "bg-neutral  text-white p-5 rounded",
-                        "content": [
-                            {
-                                "block": "text",
-                                "content": "Please answer only when you DO know the answer. Do not guess. Leave the questions blank if you don't know what the correct answer is. The exams will take 15 minutes per section. The total amount of time in the exam is 60 minutes. "
-                            }
-                        ]
+                        "symbol": "startinginstructions"
                     },
                     {
-                        "block": "group",
-                        "class": "bg-slate-200 px-5 py-2 text-sm rounded-b mx-4",
-                        "content": [
-                            {
-                                "block": "text",
-                                "content": "Por favor contesta solo las preguntas en las que SÍ sabes la respuesta. Trata de no adivinar. Puedes dejar sin resolver las preguntas que no sabes cuál es la respuesta correcta. Cada sección dura un tiempo aproximado de 15 minutos. El tiempo aproximado para resolver el examen en su totalidad es de 60 minutos"
-                            }
-                        ]
-                    },
-                    {
-                        "block": "repeater",
-                        "repeat": "choose",
-                        "indexstart": 1,
-                        "enumerate": true,
+                        "comment": "🚨🚨🚨🚨🚨🚨🚨 Question 1-12",
+                        "block": "preguntasdiagnostico",
+                        "file": "preguntas.json",
                         "class": "my-10 mx-auto max-w-2xl mx-auto bg-slate-100 p-5 rounded",
-                        "content": [],
-                        "level": "A1",
-                        "file": "preguntasA1.json"
-                    },
-                    {
-                        "block": "group",
-                        "class": "text-center",
-                        "content": [
-                            {
-                                "block": "button",
-                                "class": "mx-auto",
-                                "content": "Continuar",
-                                "condition": {
-                                    "positive": {
-                                        ">20": "/activity/1",
-                                        "<21": "/end"
-                                    }
-                                }
-                            }
-                        ]
+                        "level": "A1.1",
+                        "startQ": 1,
+                        "totalQ": 12,
+                        "minoks": 10
                     }
                 ]
             },
             {
-                "countdown": 900,
+                "countdown": 0,
                 "content": [
                     {
-                        "block": "repeater",
-                        "repeat": "choose",
-                        "indexstart": 26,
-                        "enumerate": true,
-                        "class": "my-10 mx-auto max-w-2xl mx-auto bg-slate-100 p-5 rounded",
-                        "content": [],
-                        "level": "A2",
-                        "file": "preguntasA2.json"
+                        "symbol": "startinginstructions"
                     },
                     {
-                        "block": "group",
-                        "class": "text-center",
-                        "content": [
-                            {
-                                "block": "button",
-                                "class": "mx-auto",
-                                "content": "Continuar",
-                                "condition": {
-                                    "positive": {
-                                        ">20": "/activity/2",
-                                        "<21": "/end"
-                                    }
-                                }
-                            }
-                        ]
+                        "comment": "🚨🚨🚨🚨🚨🚨🚨 Question 13-24",
+                        "block": "preguntasdiagnostico",
+                        "file": "preguntas.json",
+                        "class": "my-10 mx-auto max-w-2xl mx-auto bg-slate-100 p-5 rounded",
+                        "level": "A1.2",
+                        "startQ": 13,
+                        "totalQ": 12,
+                        "minoks": 10
                     }
                 ]
             },
             {
-                "countdown": 900,
+                "countdown": 0,
                 "content": [
                     {
-                        "block": "repeater",
-                        "repeat": "choose",
-                        "indexstart": 51,
-                        "enumerate": true,
-                        "class": "my-10 mx-auto max-w-2xl mx-auto bg-slate-100 p-5 rounded",
-                        "content": [],
-                        "level": "B1",
-                        "file": "preguntasB1.json"
+                        "symbol": "startinginstructions"
                     },
                     {
-                        "block": "group",
-                        "class": "text-center",
-                        "content": [
-                            {
-                                "block": "button",
-                                "class": "mx-auto",
-                                "content": "Continuar",
-                                "condition": {
-                                    "positive": {
-                                        ">20": "/activity/3",
-                                        "<21": "/end"
-                                    }
-                                }
-                            }
-                        ]
+                        "comment": "🚨🚨🚨🚨🚨🚨🚨 Question 25-36",
+                        "block": "preguntasdiagnostico",
+                        "file": "preguntas.json",
+                        "class": "my-10 mx-auto max-w-2xl mx-auto bg-slate-100 p-5 rounded",
+                        "level": "A2.1",
+                        "startQ": 25,
+                        "totalQ": 12,
+                        "minoks": 10
                     }
                 ]
             },
             {
-                "countdown": 900,
+                "countdown": 0,
                 "content": [
                     {
-                        "block": "repeater",
-                        "repeat": "choose",
-                        "indexstart": 76,
-                        "enumerate": true,
-                        "class": "my-10 mx-auto max-w-2xl mx-auto bg-slate-100 p-5 rounded",
-                        "content": [],
-                        "level": "B2",
-                        "file": "preguntasB2.json"
+                        "symbol": "startinginstructions"
                     },
                     {
-                        "block": "group",
-                        "class": "text-center",
-                        "content": [
-                            {
-                                "block": "button",
-                                "class": "mx-auto",
-                                "content": "Continuar",
-                                "condition": {
-                                    "positive": {
-                                        ">20": "/end",
-                                        "<21": "/end"
-                                    }
-                                }
-                            }
-                        ]
+                        "comment": "🚨🚨🚨🚨🚨🚨🚨 Question 37-48",
+                        "block": "preguntasdiagnostico",
+                        "file": "preguntas.json",
+                        "class": "my-10 mx-auto max-w-2xl mx-auto bg-slate-100 p-5 rounded",
+                        "level": "A2.2",
+                        "startQ": 37,
+                        "totalQ": 12,
+                        "minoks": 10
+                    }
+                ]
+            },
+            {
+                "countdown": 0,
+                "content": [
+                    {
+                        "symbol": "startinginstructions"
+                    },
+                    {
+                        "comment": "🚨🚨🚨🚨🚨🚨🚨 Question 49-60",
+                        "block": "preguntasdiagnostico",
+                        "file": "preguntas.json",
+                        "class": "my-10 mx-auto max-w-2xl mx-auto bg-slate-100 p-5 rounded",
+                        "level": "B1.1",
+                        "startQ": 49,
+                        "totalQ": 12,
+                        "minoks": 10
+                    }
+                ]
+            },
+            {
+                "countdown": 0,
+                "content": [
+                    {
+                        "symbol": "startinginstructions"
+                    },
+                    {
+                        "comment": "🚨🚨🚨🚨🚨🚨🚨 Question 61-72",
+                        "block": "preguntasdiagnostico",
+                        "file": "preguntas.json",
+                        "class": "my-10 mx-auto max-w-2xl mx-auto bg-slate-100 p-5 rounded",
+                        "level": "B1.2",
+                        "startQ": 61,
+                        "totalQ": 12,
+                        "minoks": 10
+                    }
+                ]
+            },
+            {
+                "countdown": 0,
+                "content": [
+                    {
+                        "symbol": "startinginstructions"
+                    },
+                    {
+                        "comment": "🚨🚨🚨🚨🚨🚨🚨 Question 73-84",
+                        "block": "preguntasdiagnostico",
+                        "file": "preguntas.json",
+                        "class": "my-10 mx-auto max-w-2xl mx-auto bg-slate-100 p-5 rounded",
+                        "level": "B2.1",
+                        "startQ": 73,
+                        "totalQ": 12,
+                        "minoks": 10
+                    }
+                ]
+            },
+            {
+                "countdown": 0,
+                "content": [
+                    {
+                        "symbol": "startinginstructions"
+                    },
+                    {
+                        "comment": "🚨🚨🚨🚨🚨🚨🚨 Question 85--96-100",
+                        "block": "preguntasdiagnostico",
+                        "file": "preguntas.json",
+                        "class": "my-10 mx-auto max-w-2xl mx-auto bg-slate-100 p-5 rounded",
+                        "level": "B2.2",
+                        "startQ": 85,
+                        "totalQ": 16,
+                        "minoks": 10,
+                        "last": true
                     }
                 ]
             }
@@ -255,5 +252,32 @@
                 ]
             }
         ]
+    },
+    "symbols": {
+        "startinginstructions": {
+            "block": "group",
+            "content": [
+                {
+                    "block": "group",
+                    "class": "bg-neutral  text-white p-5 rounded",
+                    "content": [
+                        {
+                            "block": "text",
+                            "content": "Please answer only when you DO know the answer. Do not guess. Leave the questions blank if you don't know what the correct answer is. The exams will take 8 minutes per section. The total amount of time in the exam is 60 minutes. "
+                        }
+                    ]
+                },
+                {
+                    "block": "group",
+                    "class": "bg-slate-200 px-5 py-2 text-sm rounded-b mx-4",
+                    "content": [
+                        {
+                            "block": "text",
+                            "content": "Por favor contesta solo las preguntas en las que SÍ sabes la respuesta. Trata de no adivinar. Puedes dejar sin resolver las preguntas que no sabes cuál es la respuesta correcta. Cada sección dura un tiempo aproximado de 8 minutos. El tiempo aproximado para resolver el examen en su totalidad es de 60 minutos."
+                        }
+                    ]
+                }
+            ]
+        }
     }
 }

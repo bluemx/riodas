@@ -15,8 +15,12 @@
 </div>
 </template>
 <script setup>
+import { useRoute, useRouter } from 'vue-router';
 import { useOda } from "../store/oda.js"
 const oda = useOda()
+
+
+
 const isLocalhost = window.location.href.includes('localhost')
 
 

@@ -1,5 +1,5 @@
 <template>
-<div class=" flex justify-center items-center">
+<div class=" flex justify-center items-center px-2">
     <iconify-icon icon="solar:clock-square-outline"></iconify-icon>
     <div class="ml-1 text-xs">
         {{ elapsed }}

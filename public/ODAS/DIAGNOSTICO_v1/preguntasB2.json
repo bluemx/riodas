@@ -1,0 +1,103 @@
+[
+    {
+      "content": "We ... the house painted while we were on vacation.",
+      "options": ["had", "hired", "ordered", "liked"]
+    },
+    {
+      "content": "I talked to the man ... us the tickets.",
+      "options": ["who sold", "which sold", "what sold", "that sell"]
+    },
+    {
+      "content": "I bought the watch … I couldn’t really afford it.",
+      "options": ["although", "because", "for", "why"]
+    },
+    {
+      "content": "Do not climb the walls ... they are dangerous.",
+      "options": ["as", "why", "that", "so"]
+    },
+    {
+      "content": "You can’t stop me ... to my music.",
+      "options": ["listening", "to listen", "to hear", "hearing"]
+    },
+    {
+      "content": "Where have you been? I ... two hours.",
+      "options": ["have been waiting for", "have waited since", "wait for", "have been waiting since"]
+    },
+    {
+      "content": "Everybody ... to see you.",
+      "options": ["wants", "want", "are wanting", "have wanted"]
+    },
+    {
+      "content": "I went to the store to buy some cheese but they didn’t have...",
+      "options": ["one.", "some.", "a piece.", "any."]
+    },
+    {
+      "content": "The police ... the theft.",
+      "options": ["are investigating", "investigates", "is investigating", "investigate"]
+    },
+    {
+      "content": "You ... to take an aspirin if you have a headache.",
+      "options": ["ought", "will", "should", "would"]
+    },
+    {
+      "content": "Eat ... cookies if you’re hungry.",
+      "options": ["many", "a little", "few", "a few"]
+    },
+    {
+      "content": "Is that ... gave you the book?",
+      "options": ["the girl which", "a girl that", "the girl that", "a girl who"]
+    },
+    {
+      "content": "You look tired. You ... to get more sleep.",
+      "options": ["ought", "would", "can", "should"]
+    },
+    {
+      "content": "... the Harrison twins were at the party.",
+      "options": ["Any of", "All", "Both of", "None"]
+    },
+    {
+      "content": "... seen such a good show!",
+      "options": ["I never have", "Never have I", "Have I never", "I have always"]
+    },
+    {
+      "content": "If you ... the car serviced, it wouldn’t have broken down.",
+      "options": ["have done", "had had", "got", "had"]
+    },
+    {
+      "content": "Can you lend ... your eraser?",
+      "options": ["me", "to me", "I", "that to me"]
+    },
+    {
+      "content": "I like the circus but I ... go to the baseball game.",
+      "options": ["would rather", "prefer", "should prefer", "rather"]
+    },
+    {
+      "content": "I would have bought the watch if I ... the money.",
+      "options": ["had had", "would have", "could have", "had"]
+    },
+    {
+      "content": "Why don’t you do it ... you are an expert?",
+      "options": ["since", "for", "so", "that"]
+    },
+    {
+      "content": "She finished her homework ... I was cleaning the kitchen.",
+      "options": ["while", "after", "before", "during"]
+    },
+    {
+      "content": "He passed the exam ... he hadn’t studied.",
+      "options": ["although", "in spite of", "even", "despite"]
+    },
+    {
+      "content": "Harry: Did you see ... John and Sally at the dance?",
+      "options": ["either", "none", "neither", "any"]
+    },
+    {
+      "content": "If ... I had stayed in bed, this wouldn’t have happened.",
+      "options": ["only", "not", "what", "rather"]
+    },
+    {
+      "content": "... did they raise the prices but they also reduced the quantity.",
+      "options": ["Not only", "Why", "Rarely", "They"]
+    }
+  ]
+  

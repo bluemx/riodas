@@ -44,6 +44,7 @@ declare module '@vue/runtime-core' {
     LockActivityButton: typeof import('./src/components/all/LockActivityButton.vue')['default']
     Memory: typeof import('./src/components/blocks/memory.vue')['default']
     Option: typeof import('./src/components/blocks/option.vue')['default']
+    Preguntasdiagnostico: typeof import('./src/components/blocks/preguntasdiagnostico.vue')['default']
     Reading: typeof import('./src/components/builder/reading.vue')['default']
     Record: typeof import('./src/components/blocks/record.vue')['default']
     Repeater: typeof import('./src/components/blocks/repeater.vue')['default']

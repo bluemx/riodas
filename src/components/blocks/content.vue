@@ -12,6 +12,8 @@
 <Group v-else-if="data.block=='group'" :data="data" :blockindex="blockindex" :data-blockindex="blockindex"  :data-eval="evaltype(data)" :name="data.name" :id="data.id || ''"></Group>
 <Option v-else-if="data.block=='option'" :data="data" :blockindex="blockindex" :data-blockindex="blockindex"  :data-eval="evaltype(data)" :name="data.name" :id="data.id || ''"></Option>
 <Repeater v-else-if="data.block=='repeater'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)" :name="data.name" :id="data.id || ''"></Repeater>
+
+<Preguntasdiagnostico v-else-if="data.block=='preguntasdiagnostico'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)" :name="data.name" :id="data.id || ''"></Preguntasdiagnostico>
 <Button v-else-if="data.block=='button'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)" :name="data.name" :id="data.id || ''"></Button>
 <Diagnostico v-else-if="data.block=='diagnostico'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)" :name="data.name" :id="data.id || ''"></Diagnostico>
 <Finished v-else-if="data.block=='finished'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)" :name="data.name" :id="data.id || ''"></Finished>

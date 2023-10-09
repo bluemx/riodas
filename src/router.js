@@ -54,7 +54,7 @@ const routes = [
     {path:'/intro', component: Intro },
     {path:'/activity', component: Activity },
     {path:'/activity/:scene', component: Activity },
-    {path:'/end', component: End },
+    {path:'/end', component: End, name:'end' },
     {path: '/error', component: ErrorPage },
     {path: '/loading', component: Loading },
     {path: '/', component: NoOda }, 

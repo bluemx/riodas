@@ -1,14 +1,13 @@
 <template>
 <div :class="[data.class || '']">
     <div class="text-3xl mt-2 mb-5 font-bold">
-        <span class="bg-primary text-white py-1 px-2 rounded">{{ level() }} level</span> !
+        <span class="bg-primary text-white py-1 px-2 rounded">{{ oda.leveltemp }} level</span> !
     </div>
     <div class="text-xl text-zinc-400">You answered <strong class="text-success">{{ cleanresponse().positive }} question correctly</strong> out of a total of <span class="text-primary/50">{{ cleanresponse().responded }} questions</span>.</div>
 </div>
    
 <!--
     <div class="text-xs overflow-scroll h-96">
-    <hr>
     {{ cleanresponse() }}
     </div>
 -->
@@ -22,6 +21,8 @@ const props = defineProps({
     data: Object,
     blockindex: String
 })
+
+console.log('::LEVEL', oda.leveltemp)
 
 const pos = oda.getAllInputs.positive
 
@@ -48,7 +49,7 @@ const cleanresponse = () => {
         totalLevel: oda.getAllInputs.total,
         responded: oda.getAllInputs.responded,
         positive: oda.getAllInputs.positive,
-        level: level(),
+        level: oda.leveltemp,
         inputs: []
     }
     Object.keys(oda.getAllInputs.inputs).forEach((key)=>{

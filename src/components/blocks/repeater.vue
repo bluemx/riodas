@@ -1,6 +1,6 @@
 <template>
 <div>
-<Content v-for="(item, index) in newData" v-if="dataloaded" :data="item"  :key="index" :blockindex="blockindex+'-'+index"></Content>
+    <Content v-for="(item, index) in newData" v-if="dataloaded" :data="item"  :key="index" :blockindex="blockindex+'-'+index"></Content>
 </div>
 </template>
 <script setup>
@@ -46,12 +46,10 @@ const buildData = () => {
         dataindex++
     });
     dataloaded.value = true
-
 }
 
 // EXTERNAL FILE
 const loadFile = async () => {
-
     const response = await fetch('/ODAS/'+oda.odaID+'/'+props.data.file)
     const file = await response.json()
     content.value = file

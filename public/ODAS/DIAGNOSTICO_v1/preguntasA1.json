@@ -1,0 +1,102 @@
+[
+    {
+    "content": "How old are you?",
+    "options": ["I’m thirteen years.", "Fine, thanks.", "No, I’m not old.", "I’m fifteen."]
+    },
+    {
+    "content": "I ... at six thirty every morning.",
+    "options": ["am getting up", "gets up", "get up", "gets down"]
+    },
+    {
+    "content": "Whose jacket is that?",
+    "options": ["It’s Janet.", "It’s mine.", "They are hers.", "Me."]
+    },
+    {
+    "content": "Can you ..., please?",
+    "options": ["tell me the time", "give me the hour", "tell the time", "what’s the hour"]
+    },
+    {
+    "content": "We ... dance classes every Saturday.",
+    "options": ["are having", "has", "have", "is having"]
+    },
+    {
+    "content": "Simon and I ... English.",
+    "options": ["are studying", "is studying", "studies", "is study"]
+    },
+    {
+    "content": "Jane ... painting.",
+    "options": ["doesn’t like", "don’t like", "like", "paints"]
+    },
+    {
+    "content": ".... soccer?",
+    "options": ["Does she like", "She likes", "She does like", "She doesn’t like"]
+    },
+    {
+    "content": "Can I have...with that?",
+    "options": ["fries", "order of fries", "a fry", "frys"]
+    },
+    {
+    "content": "I would like ... please.",
+    "options": ["onions soup", "onion soups", "soup of onion", "onion soup"]
+    },
+    {
+    "content": "... oranges would you like?",
+    "options": ["How many", "What quantity of", "What number of", "How much"]
+    },
+    {
+    "content": "... butter.",
+    "options": ["There isn’t any", "There aren’t", "There isn’t some", "Isn’t some"]
+    },
+    {
+    "content": "John can run ... Robert.",
+    "options": ["faster than", "faster", "fast", "as faster"]
+    },
+    {
+    "content": "... a return ticket to Houston?",
+    "options": ["May I have", "I may have", "I may", "I want"]
+    },
+    {
+    "content": "Was the bus on time?",
+    "options": ["No, he wasn’t.", "No, they weren’t.", "Yes, they were.", "Yes, it was."]
+    },
+    {
+    "content": "Did you see Dani?",
+    "options": ["Yes, I did.", "No, I saw him.", "No, I don’t see him.", "Yes, I see him."]
+    },
+    {
+    "content": "Where were you?",
+    "options": ["I was in the bathroom.", "They were in the bathroom.", "I am not in the bathroom.", "You weren’t here."]
+    },
+    {
+    "content": "John didn’t ... to school yesterday.",
+    "options": ["go", "not go", "goes", "went"]
+    },
+    {
+    "content": "We ... to Las Vegas tomorrow.",
+    "options": ["are going to fly", "are going flying", "is going to go", "going"]
+    },
+    {
+    "content": "Where ... tomorrow?",
+    "options": ["will you go", "you will go", "you went", "you go"]
+    },
+    {
+    "content": "John usually ... school at seven thirty.",
+    "options": ["go to", "goes to", "go", "is going to"]
+    },
+    {
+    "content": "I wake ... six thirty every morning.",
+    "options": ["up at", "to", "up to", "in"]
+    },
+    {
+    "content": "There were ... people at the concert.",
+    "options": ["many", "much", "a lot of", "too much"]
+    },
+    {
+    "content": "I have … homework. I will never ﬁnish!",
+    "options": ["much", "very many", "many", "too much"]
+    },
+    {
+    "content": "... lived here long?",
+    "options": ["Have you", "Do you", "You", "Did you"]
+    }
+    ]

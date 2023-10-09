@@ -20,7 +20,8 @@ export const useOda = defineStore({
         teacherFreeze: null,
         odaAttempts: 0,
         odaAttemptsLimit: 3,
-        dynamicOdaData: null
+        dynamicOdaData: null,
+        leveltemp:null
     }),
     getters: {
         getOda(){
