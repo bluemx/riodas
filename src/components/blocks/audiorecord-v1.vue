@@ -1,27 +1,32 @@
 <template>
-
-
-
-
-<div ref="block" :class="[' bg-slate-50 p-0.5 rounded relative  text-center min-w-[280px]']">
-    <AudiorecordRecBtn class="mx-auto" :isrecording="FNS.isrecording.value" @start="startRecord" @stop="stopRecord"></AudiorecordRecBtn>
-
-    
-
-    <div class="flex flex-wrap gap-0.5 items-center justify-center" ref="blockAnimationContainer">
-        
-
-        <progress v-if="FNS.isrecording.value" class="progress progress-primary w-full" :value="recordingProgress" :max="recordingTimelimit"></progress>
-        
+<div ref="block" :class="[' bg-slate-50 p-0.5 rounded relative']">
+    <div class="flex flex-wrap gap-0.5 items-center justify-center">
+        <button ref="blockRecordBtn" :class="['btn relative  text-3xl p-0.5 flex-grow-0 m-2', (isRecording?'btn-primary':'btn-secondary'), data.class || '']" @click="startRecord" :disabled="!wavesurfer" >
+            <iconify-icon icon="solar:record-bold-duotone"></iconify-icon>
+            <div v-if="isRecording" class="text-xs">
+                Now Recording
+            </div>
+            <div v-if="!isRecording && firstclick">Click to record</div>
+        </button>
+        <progress v-if="isRecording" class="progress progress-primary w-full" :value="recordingProgress" :max="recordingTimelimit"></progress>
         <div v-show="audiorecordedB64" class="flex-grow flex gap-0.5 items-center bg-slate-50 p-0.5 rounded">
-            <button :class="['btn relative aspect-square text-3xl p-0.5 flex-grow-0 m-2', (playing?'btn-primary':'btn-secondary'), data.class || '']" @click="clicked"  >
-                <iconify-icon icon="solar:play-stream-bold-duotone" :class="['absolute text-4xl', !playing?'animate-in zoom-in':'animate-out fade-out fill-mode-forwards']"></iconify-icon>
-                <iconify-icon icon="solar:stop-circle-line-duotone" :class="['absolute text-4xl', playing?'repeat-infinite animate-pulse duration-500 ease-in-out':'animate-out fade-out fill-mode-forwards']"></iconify-icon>
-            </button>
+
+            <div v-if="!readyToPlay" class="absolute left-0 top-0 bottom-0 right-0 flex justify-center items-center text-center bg-info/70 z-40 rounded text-white">PROCESSING</div>
+
+
             <div ref="blockwave" class=" bg-white rounded p-2 flex-grow ml-2"></div>
+            <button :class="['btn relative aspect-square text-3xl p-0.5 flex-grow-0 m-2', (playing?'btn-primary':'btn-secondary'), data.class || '']" @click="clicked" :disabled="!readyToPlay" >
+                <template v-if="readyToPlay">
+                    <iconify-icon icon="solar:headphones-square-sound-bold" :class="['absolute', !playing?'animate-in zoom-in':'animate-out fade-out fill-mode-forwards']"></iconify-icon>
+                    <iconify-icon icon="solar:soundwave-broken" :class="['absolute', playing?'repeat-infinite animate-pulse duration-500 ease-in-out':'animate-out fade-out fill-mode-forwards']"></iconify-icon>
+                </template>
+                <template v-else>
+                    <iconify-icon icon="solar:upload-track-2-linear" class="absolute animate-spin text-neutral"></iconify-icon>
+                </template>
+            </button>
         </div>
     </div>
-    <template v-if="audiorecordedB64 && data.evaluation!=='manual'">
+    <template v-if="audiorecordedB64 && readyToPlay">
         <div class="flex justify-center items-center mt-2 animate-in slide-in-from-top">
             <div class="flex p-1" v-if="!evaluatedText">
                 <div class="text-sm">
@@ -58,7 +63,6 @@ import WaveSurfer from 'wavesurfer.js'
 import { useOda } from "../../store/oda.js"
 import ShapesAnimation from '../all/ShapesAnimation';
 import axios from 'axios';
-import FNS from './audiorecordFN.js'
 
 import {useBlocks} from './blocks.js'
 const blocks = useBlocks()
@@ -67,7 +71,7 @@ const blocks = useBlocks()
 const oda = useOda()
 const playing = ref(false)
 const block = ref()
-const blockAnimationContainer = ref()
+const blockRecordBtn = ref()
 const blockwave = ref()
 
 const readyToPlay = ref(false)
@@ -77,7 +81,6 @@ const recordingTimelimit = ref(5)
 const recordingProgress = ref(0)
 const recordingTimer = ref()
 const audiorecordedB64 = ref(null)
-const audiorecordedWav = ref(null)
 //Record vars
 const recorder = ref()
 const recorderStream = ref()
@@ -95,13 +98,6 @@ const props = defineProps({
 })
 
 recordingTimelimit.value = props.data.timelimit || 5
-
-
-
-
-
-
-
 
 const init = async () => {
         const blockdata = blocks.initFN(oda, props.data, props.blockindex, block.value)
@@ -121,6 +117,8 @@ const init = async () => {
         })
 
         wavesurfer.value.on('interaction', () => {
+            wavesurfer.value.stop()
+            playing.value = false
         })
         wavesurfer.value.on('play', () => {
            playing.value = true
@@ -131,70 +129,85 @@ const init = async () => {
         wavesurfer.value.on('load', () => {
         })
         wavesurfer.value.on('ready', () => {
-
+            setTimeout(()=>{readyToPlay.value=true},3000)
         })
 
 }
 
-
-
-
-
-
-const startRecord = () => {
+const startRecord = async () => {
     evaluatedText.value = null
     errorVerification.value = null
-    audiorecordedB64.value = null
-    playing.value = false
-    recordingProgress.value = 0
-    wavesurfer.value.stop()
-    ShapesAnimation.working(blockAnimationContainer.value)
-    FNS.startRecord()
-    recordingTimer.value = setInterval(()=>{
-        recordingProgress.value+=0.25
-        if(!audiorecordedB64.value && (recordingProgress.value >= recordingTimelimit.value)){
-            stopRecord()
-            clearInterval(recordingTimer.value)
-        }
-    },250)
+    if(blocks.freeze.value){
+        return false
+    }
+    firstclick.value = false
+    if(!isRecording.value){
+        //::START RECORDING
+        playing.value = false
+        wavesurfer.value.stop()
+        readyToPlay.value=false
+        audiorecordedB64.value = null
+        isRecording.value = true
+        ShapesAnimation.working(blockRecordBtn.value)
+        recordingProgress.value = 0
+        recordingTimer.value = setInterval(()=>{
+            recordingProgress.value+=0.25
+            if(recordingProgress.value >= recordingTimelimit.value){
+                stopRecord()
+                clearInterval(recordingTimer.value)
+            }
+        },250)
+    
+        const URL = window.URL || window.webkitURL;
+        var AudioContext = window.AudioContext || window.webkitAudioContext;
+        var audioContext //audio context to help us record
+        var constraints = { audio: true, video:false }
+        navigator.mediaDevices.getUserMedia(constraints).then(function(stream) {
+            audioContext = new AudioContext();
+            recorderStream.value = stream;
+            var input = audioContext.createMediaStreamSource(stream);
+            recorder.value = new Recorder(input,{numChannels:1})
+            recorder.value.record()
+        }).catch(function(err) {
+            //if getUserMedia() fails
+            isRecording.value = false
+            blockRecordBtn.value.querySelectorAll('[data-name="mojs-shape"]').forEach((item)=>{
+                item.remove()
+            })
+        });
+    } else {
+        stopRecord()
+    }
 }
-
 const stopRecord = async () => {
-    FNS.stopRecord().then(thedata => {
-        const file = thedata.file
-        const blob = thedata.blob
-        wavesurfer.value.loadBlob(blob)
-        audioto64(blob)
-    }).catch(error => {
-        console.log('Error:', error);
-    });
-    blockAnimationContainer.value.querySelectorAll('[data-name="mojs-shape"]').forEach((item)=>{
+    //:: STOP RECORDING
+    isRecording.value = false
+    blockRecordBtn.value.querySelectorAll('[data-name="mojs-shape"]').forEach((item)=>{
         item.remove()
     })
+    recorder.value.stop()
+    recorderStream.value.getAudioTracks()[0].stop();
+    recorder.value.exportWAV(audioRecorded)
 }
-
-const audioto64 = async (blob) => {
-    audiorecordedB64.value = await FNS.tob64(blob)
-
-    audiorecordedWav.value = await FNS.toWAV(blob)
-
+const audioRecorded = async (blob) => {
+    var url = URL.createObjectURL(blob);
+    wavesurfer.value.load(url)
+    // TO BASE 64
+    audiorecordedB64.value = await new Promise((resolve, _) => {
+        const reader = new FileReader();
+        reader.onloadend = () => resolve(reader.result);
+        reader.readAsDataURL(blob);
+    })
+    
 }
-
-
-
 
 
 onMounted(() => {
     init()
-    FNS.checkPermission()
 })
 
 const clicked = async () => {
-    if(playing.value){
-        wavesurfer.value.stop()
-    } else {
-        wavesurfer.value.play()
-    }
+    wavesurfer.value.play()
     
 }
 
@@ -204,9 +217,9 @@ const verify = async () => {
     loading.value = true
     errorVerification.value = null
     try{
-        const res = await axios.post('https://bluetest.mx/reCreaIngles/gateway/api/Audio', {
+        const res = await axios.post('https://recreaingles.org/gateway/api/Audio', {
             "text": props.data.positive,
-            "recording": audiorecordedWav.value
+            "recording": audiorecordedB64.value
         }, {
             headers: {"X-API-KEYA": "UikgoDyBKWrhsWF7y2qa4wLSbDFLPeSqYBYX0rTPTEzjCGZWUy17BHLI7956HLASOGAEVPEQWEWesI3tEshNcbyB4pyCPgZU0dC9UWhwwANF2h0NIwdmKei5L6RHqTM4HXPfK3MI"}
         })
@@ -229,6 +242,7 @@ const verify = async () => {
         loading.value = false
     }
 }
+
 
 
 </script>

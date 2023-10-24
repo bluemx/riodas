@@ -33,7 +33,7 @@ const contentBlocks = ref([])
 const loading = ref(true)
 
 const gotoNext = () => {
-    oda.leveltemp = props.data.level
+    
     if(scenePositives.value < props.data.minoks || props.data.last){
         const routecall = {name:'end', params: { gotlevel: props.data.level }}
 
@@ -66,6 +66,7 @@ const loadFile = async () => {
     buildData()
 }
 onMounted(() => {
+    oda.leveltemp = props.data.level
   loadFile()  
 })
 </script>

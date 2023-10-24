@@ -1,7 +1,9 @@
 <template>
-<div class=" flex justify-center items-center px-2">
-    <div :class="['radial-progress bg-white border-2 border-opacity-10 border-white', percentagecolor]" :style="'--value:'+percentagedown+'; --size:24px; --thickness: 6px;'"></div>
-    <div class="ml-1 text-md">
+<div class=" flex justify-center items-center px-1">
+    <div class="bg-white rounded-full aspect-square">
+        <div :class="['radial-progress  border-2 border-opacity-0 border-slate-800', percentagecolor]" :style="'--value:'+percentagedown+'; --size:24px; --thickness: 6px;'"></div>
+    </div>
+    <div class="ml-1 text-md min-w-[56px] text-center">
         {{ elapseddown }}
     </div>
 </div>

@@ -5,7 +5,7 @@
         
         <div class="max-w-[10rem] mb-10"><img :src="recreaingles" class="w-full"></div>
 
-        <div class="text-center opacity-60">{{odapath()}}</div>
+        <div class="text-center  text-white">{{odapath()}}</div>
         <!--
         <div class="text-xs opacity-40">{{ oda.odaID }}</div>
         -->

@@ -30,7 +30,6 @@
     <template v-if="lineattrs" v-for="(item, index) in initialItems" :key="index">
         <Line  :data="{...lineattrs, to:item?.name}" :blockindex="blockindex+'-dragdropline-'+index"></Line>
     </template>
-
 </div>
 </template>
 
@@ -140,16 +139,12 @@ const onChange = (e) => {
             blocks.result.value = positiveAND.sort().toString() == itemsorder.sort().toString()
         }
     }
-
-
     //console.log(positive.toString(), itemsorder.toString())
-
     blocks.evaluateFN(items.value)
 
 
 }
 const onEnd = (e) => {
-
     drag.value = false
     new Howl({ src: [sound1], rate: 1, volume: 1, autoplay:true })
 }
@@ -162,22 +157,18 @@ const init = () => {
     if(props.data.shuffle){
         items.value = _.shuffle(items.value)
     }
-
     initialItems.value = JSON.parse(JSON.stringify(items.value))
-
     lineFN()
     onChange()
 }
 
 onMounted(() => {
-
     if(props.data.evaluation){
         const blockdata =  blocks.initFN(oda, props.data, props.blockindex, items.value)
         if(blockdata?.v){
             items.value = blockdata.v
         }
     }
-    
     init()
 })
 

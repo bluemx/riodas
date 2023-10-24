@@ -243,6 +243,9 @@ export const useOda = defineStore({
             if(!this.user.inputs){
                 this.user.inputs = {}
             }
+            if(!this.user.inputsNC){
+                this.user.inputsNC = {}
+            }
             this.user.inputs[blockindex] = CryptoJS.AES.encrypt(JSON.stringify(
                 {
                     r: result,
@@ -250,6 +253,14 @@ export const useOda = defineStore({
                     data: data
                 }
             ),'blue').toString()
+
+
+            this.user.inputsNC[blockindex] = {
+                r: result,
+                v: value,
+                data: data
+            }
+
         },
         setTeacherInput(blockindex, result, value){
             if(!this.teacher.inputs){

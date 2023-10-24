@@ -57,7 +57,8 @@ currentInstance.appContext.config.globalProperties.emitter.on('autosolve', e => 
 
 
 onMounted(() => {
-    choose(props.data.options[0])
+    //AUTOSOLVE
+    //choose(props.data.options[0])
 })
 
 

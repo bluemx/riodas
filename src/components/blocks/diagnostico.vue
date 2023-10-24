@@ -60,7 +60,7 @@ const cleanresponse = () => {
             r: theitem.r,
             v: theitem.v,
             questiontext: theitem.data.content,
-            lvl: theitem.data.level
+            lvl: oda.leveltemp
         })
 
     })

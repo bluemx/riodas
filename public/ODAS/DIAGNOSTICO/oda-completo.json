@@ -78,7 +78,7 @@
     "activity": {
         "scenes": [
             {
-                "countdown": 450,
+                "countdown": 0,
                 "content": [
                     {
                         "symbol": "startinginstructions"
@@ -96,7 +96,7 @@
                 ]
             },
             {
-                "countdown": 450,
+                "countdown": 0,
                 "content": [
                     {
                         "symbol": "startinginstructions"
@@ -114,7 +114,7 @@
                 ]
             },
             {
-                "countdown": 450,
+                "countdown": 0,
                 "content": [
                     {
                         "symbol": "startinginstructions"
@@ -132,7 +132,7 @@
                 ]
             },
             {
-                "countdown": 450,
+                "countdown": 0,
                 "content": [
                     {
                         "symbol": "startinginstructions"
@@ -150,7 +150,7 @@
                 ]
             },
             {
-                "countdown": 450,
+                "countdown": 0,
                 "content": [
                     {
                         "symbol": "startinginstructions"
@@ -168,7 +168,7 @@
                 ]
             },
             {
-                "countdown": 450,
+                "countdown": 0,
                 "content": [
                     {
                         "symbol": "startinginstructions"
@@ -186,7 +186,7 @@
                 ]
             },
             {
-                "countdown": 450,
+                "countdown": 0,
                 "content": [
                     {
                         "symbol": "startinginstructions"
@@ -196,7 +196,7 @@
                         "block": "preguntasdiagnostico",
                         "file": "odadata.json",
                         "class": "my-10 mx-auto max-w-2xl mx-auto bg-slate-100 p-5 rounded",
-                        "level": "B1.2",
+                        "level": "B2.1",
                         "startQ": 73,
                         "totalQ": 12,
                         "minoks": 10
@@ -204,7 +204,7 @@
                 ]
             },
             {
-                "countdown": 450,
+                "countdown": 0,
                 "content": [
                     {
                         "symbol": "startinginstructions"
@@ -214,7 +214,7 @@
                         "block": "preguntasdiagnostico",
                         "file": "odadata.json",
                         "class": "my-10 mx-auto max-w-2xl mx-auto bg-slate-100 p-5 rounded",
-                        "level": "B1.2",
+                        "level": "B2.2",
                         "startQ": 85,
                         "totalQ": 16,
                         "minoks": 10,
@@ -263,7 +263,7 @@
                     "content": [
                         {
                             "block": "text",
-                            "content": "Please answer only when you DO know the answer. Do not guess. Leave the questions blank if you don't know what the correct answer is. The exams will take 7.5 minutes per section. The total amount of time in the exam is 60 minutes. "
+                            "content": "Please answer only when you DO know the answer. Do not guess. Leave the questions blank if you don't know what the correct answer is. The exams will take 8 minutes per section. The total amount of time in the exam is 60 minutes. "
                         }
                     ]
                 },
@@ -273,7 +273,7 @@
                     "content": [
                         {
                             "block": "text",
-                            "content": "Por favor contesta solo las preguntas en las que SÍ sabes la respuesta. Trata de no adivinar. Puedes dejar sin resolver las preguntas que no sabes cuál es la respuesta correcta. Cada sección dura un tiempo aproximado de 7.5 minutos. El tiempo aproximado para resolver el examen en su totalidad es de 60 minutos."
+                            "content": "Por favor contesta solo las preguntas en las que SÍ sabes la respuesta. Trata de no adivinar. Puedes dejar sin resolver las preguntas que no sabes cuál es la respuesta correcta. Cada sección dura un tiempo aproximado de 8 minutos. El tiempo aproximado para resolver el examen en su totalidad es de 60 minutos."
                         }
                     ]
                 }
