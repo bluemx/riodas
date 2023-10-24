@@ -1,10 +1,7 @@
 <template>
 
-
-
-
-<div ref="block" :class="[' bg-slate-50 p-0.5 rounded relative  text-center min-w-[280px]']">
-    <AudiorecordRecBtn v-if="verifyTimes>0" class="mx-auto" :isrecording="FNS.isrecording.value" @start="startRecord" @stop="stopRecord"></AudiorecordRecBtn>
+<div ref="block" :blockindex="blockindex" :class="[' bg-slate-50 p-0.5 rounded relative  text-center min-w-[280px]']">
+    <AudiorecordRecBtn :key="blockindex+'-audiorecordbtn'" v-if="verifyTimes>0" class="mx-auto" :isrecording="FNS.isrecording.value" @start="startRecord" @stop="stopRecord"></AudiorecordRecBtn>
 
     
 
@@ -61,9 +58,13 @@ import WaveSurfer from 'wavesurfer.js'
 import { useOda } from "../../store/oda.js"
 import ShapesAnimation from '../all/ShapesAnimation';
 import axios from 'axios';
-import FNS from './audiorecordFN.js'
+//import FNS from './audiorecordFN.js'
+import {useFN} from './audiorecordFN.js'
 
 import {useBlocks} from './blocks.js'
+
+
+const FNS = useFN()
 const blocks = useBlocks()
 
 

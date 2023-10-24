@@ -3,6 +3,7 @@ import {ref} from 'vue'
 import toWav from 'audiobuffer-to-wav';
 import { decode } from "base64-arraybuffer";
 
+export function useFN() {
 
 
 const isrecording = ref(false)
@@ -102,7 +103,6 @@ const b64toBlob = async (b64) => {
     const buffer = await decode(b64)
     //return buffer
 
-
     let base64Audio = b64
     let binary = atob(base64Audio.split(',')[1]); // remove the base64 header
     let array = [];
@@ -114,7 +114,8 @@ const b64toBlob = async (b64) => {
     return blob
 }
 
-export default {
+return {
     startRecord, stopRecord, checkPermission, tob64, toWAV, b64toBlob,
     haspermission, isrecording, 
+}
 }
