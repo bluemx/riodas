@@ -4,7 +4,7 @@
 
 
 <div ref="block" :class="[' bg-slate-50 p-0.5 rounded relative  text-center min-w-[280px]']">
-    <AudiorecordRecBtn class="mx-auto" :isrecording="FNS.isrecording.value" @start="startRecord" @stop="stopRecord"></AudiorecordRecBtn>
+    <AudiorecordRecBtn v-if="verifyTimes>0" class="mx-auto" :isrecording="FNS.isrecording.value" @start="startRecord" @stop="stopRecord"></AudiorecordRecBtn>
 
     
 
@@ -22,16 +22,17 @@
         </div>
     </div>
     <template v-if="audiorecordedB64 && data.evaluation!=='manual'">
-        <div class="flex justify-center items-center mt-2 animate-in slide-in-from-top">
-            <div class="flex p-1" v-if="!evaluatedText">
-                <div class="text-sm">
-                    Listen to your recording <iconify-icon icon="solar:headphones-square-sound-bold"></iconify-icon> . You can record it many times as you need. When ready, click on <span class="text-success">Verify</span>.
+        <div class="flex justify-center items-center my-2 animate-in slide-in-from-top">
+            <div class="flex py-1 px-4 gap-4 bg-white rounded-md" v-if="!evaluatedText">
+                <div class="text-sm text-left">
+                    Listen <iconify-icon icon="solar:play-stream-bold-duotone" class="align-middle text-2xl"></iconify-icon> and record as many times as you need.
+                    <br> 
+                    You have  <strong :class="verifyClass">{{ verifyTimes }} </strong> <strong class="text-success">VERIFY</strong> <iconify-icon icon="solar:chat-round-check-bold-duotone" class="text-success  text-lg"></iconify-icon> attempt<template v-if="verifyTimes!==1">s left</template>.
                 </div>
                 <button class="btn btn-success" @click="verify" :class="loading?'!btn-neutral':''">
                     <template v-if="!loading">
-                        <iconify-icon icon="solar:user-speak-bold-duotone"></iconify-icon>
                         Verify
-                        <iconify-icon icon="solar:chat-round-check-bold-duotone"></iconify-icon>
+                        <div><iconify-icon icon="solar:chat-round-check-bold-duotone" class="align-super text-2xl"></iconify-icon></div>
                     </template>
                     <template v-else>
                         <div>
@@ -44,7 +45,9 @@
             <div v-else class="text-center p-1">
                 <div class="text-xs text-slate-400">Your answer:</div>
                 <div v-html="evaluatedText" class="text-lg border-2 border-slate-200 px-2 py-1 rounded"></div>
-
+                <div v-if="verifyTimes==0" class="my-1 text-xs">
+                    You have  <strong :class="verifyClass">{{ verifyTimes }} </strong> <strong class="text-success">VERIFY</strong> <iconify-icon icon="solar:chat-round-check-bold-duotone" class="text-success  text-lg"></iconify-icon> attempt<template v-if="verifyTimes!==1">s left</template>.
+                </div>
             </div>
         </div> 
     </template>
@@ -69,24 +72,42 @@ const playing = ref(false)
 const block = ref()
 const blockAnimationContainer = ref()
 const blockwave = ref()
-
-const readyToPlay = ref(false)
+//WAVE
 const wavesurfer = ref(null)
 const isRecording = ref(false)
+
+//TIMER
 const recordingTimelimit = ref(5)
 const recordingProgress = ref(0)
 const recordingTimer = ref()
+
+// RECORD
+const audiorecordedBlob = ref(null)
 const audiorecordedB64 = ref(null)
 const audiorecordedWav = ref(null)
-//Record vars
-const recorder = ref()
-const recorderStream = ref()
-const loading = ref(false)
-const firstclick = ref(true)
 
+//Verify vars 
 const evaluatedText = ref(null)
 const errorVerification = ref()
 
+const loading = ref(false)
+
+
+const verifyTimes = ref(3)
+
+const verifyClass = computed(()=>{
+    let classy = 'bg-secondary'
+    let commons = ' text-white px-1 rounded'
+    switch(verifyTimes.value){
+        case 2:
+            classy = 'bg-accent'
+            break;
+        case 1:
+            classy = 'bg-primary'
+            break;
+    }
+    return classy+commons
+})
 
 //PROPS
 const props = defineProps({
@@ -161,10 +182,8 @@ const startRecord = () => {
 
 const stopRecord = async () => {
     FNS.stopRecord().then(thedata => {
-        const file = thedata.file
-        const blob = thedata.blob
-        wavesurfer.value.loadBlob(blob)
-        audioto64(blob)
+        audiorecordedBlob.value = thedata.blob
+        audioPlayerStart()
     }).catch(error => {
         console.log('Error:', error);
     });
@@ -173,21 +192,20 @@ const stopRecord = async () => {
     })
 }
 
+
+const audioPlayerStart = () => {
+    wavesurfer.value.loadBlob(audiorecordedBlob.value)
+    audioto64(audiorecordedBlob.value)
+}
+
 const audioto64 = async (blob) => {
     audiorecordedB64.value = await FNS.tob64(blob)
-
     audiorecordedWav.value = await FNS.toWAV(blob)
-
+    blocks.evaluateFN({blob:audiorecordedB64.value, text: evaluatedText.value, verifyTimes: verifyTimes.value})
 }
 
 
 
-
-
-onMounted(() => {
-    init()
-    FNS.checkPermission()
-})
 
 const clicked = async () => {
     if(playing.value){
@@ -201,6 +219,7 @@ const clicked = async () => {
 
 const verify = async () => {
     if(loading.value){return false}
+    if(verifyTimes.value<=0){ return false }
     loading.value = true
     errorVerification.value = null
     try{
@@ -216,11 +235,10 @@ const verify = async () => {
             loading.value = false
             blocks.result.value = data.data.score > 90
             evaluatedText.value = data.data.evaluatedtext
-            blocks.evaluateFN(evaluatedText.value)
+            verifyTimes.value -= 1
+            blocks.evaluateFN({blob:audiorecordedB64.value, text: evaluatedText.value, verifyTimes: verifyTimes.value})
         } else {
             audiorecordedB64.value = null
-            readyToPlay.value = false
-
             loading.value = false
             errorVerification.value = "There's been an error. Record your audio it again."
         }
@@ -230,5 +248,31 @@ const verify = async () => {
     }
 }
 
+
+const reloadAudio = async (b64) => {
+    FNS.b64toBlob(b64).then((theblob)=>{
+        audiorecordedBlob.value = theblob
+        audioPlayerStart()
+    })
+}
+
+
+onMounted(() => {
+    init()
+    FNS.checkPermission()
+
+    const blockdata = blocks.initFN(oda, props.data, props.blockindex, block.value)
+    if(blockdata && blockdata?.v!=null){
+
+        //input.value = blockdata.v
+        audiorecordedB64.value = blockdata.v.blob
+        evaluatedText.value = blockdata.v.text
+        verifyTimes.value = blockdata.v.verifyTimes
+        reloadAudio(audiorecordedB64.value)
+
+    } else {
+        blocks.evaluateFN(null)
+    }
+})
 
 </script>

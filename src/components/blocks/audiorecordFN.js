@@ -1,6 +1,7 @@
 import MicRecorder from 'mic-recorder-to-mp3'
 import {ref} from 'vue'
 import toWav from 'audiobuffer-to-wav';
+import { decode } from "base64-arraybuffer";
 
 
 
@@ -97,7 +98,23 @@ const toWAV = async (mp3Blob) => {
   }
 
 
+const b64toBlob = async (b64) => {
+    const buffer = await decode(b64)
+    //return buffer
+
+
+    let base64Audio = b64
+    let binary = atob(base64Audio.split(',')[1]); // remove the base64 header
+    let array = [];
+    for(let i = 0; i < binary.length; i++) {
+        array.push(binary.charCodeAt(i));
+    }
+    let arrayBuffer = new Uint8Array(array).buffer; // create an ArrayBuffer from the byte array
+    let blob = new Blob([arrayBuffer], {type: 'audio/mpeg'}); // create a blob from the ArrayBuffer
+    return blob
+}
+
 export default {
-    startRecord, stopRecord, checkPermission, tob64, toWAV,
+    startRecord, stopRecord, checkPermission, tob64, toWAV, b64toBlob,
     haspermission, isrecording, 
 }
