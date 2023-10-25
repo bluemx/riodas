@@ -14,7 +14,6 @@ declare module '@vue/runtime-core' {
     Audiorecord: typeof import('./src/components/blocks/audiorecord.vue')['default']
     AudiorecordRecBtn: typeof import('./src/components/blocks/audiorecordRecBtn.vue')['default']
     AudiorecordV1: typeof import('./src/components/blocks/audiorecord-v1.vue')['default']
-    AudiorecordV2: typeof import('./src/components/blocks/audiorecord-v2.vue')['default']
     Autosolve: typeof import('./src/components/blocks/autosolve.vue')['default']
     BuilderConfigs: typeof import('./src/components/builder/builderConfigs.vue')['default']
     Button: typeof import('./src/components/blocks/button.vue')['default']

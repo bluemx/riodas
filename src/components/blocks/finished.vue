@@ -4,7 +4,7 @@
         <div class="text-xl bg-slate-100 py-3 rounded">You answered <strong class="text-success">{{ all.positive }} question correctly</strong> out of a total of <span class="text-neutral/50">{{ oda.getEvaluations.auto }} questions</span>.</div>
     </template>
     <template v-if="oda.getEvaluations.manual>0"> 
-        <div class="text-xl"><span class="text-neutral/50">{{oda.getEvaluations.manual}} answer(s)</span> require teacher's evaluation.</div>
+        <div class="text-xl bg-white p-1 rounded"><span class="text-neutral/50">{{oda.getEvaluations.manual}} answer(s)</span> require teacher's evaluation.</div>
     </template>
 
 
