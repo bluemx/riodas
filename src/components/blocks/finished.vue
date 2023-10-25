@@ -1,7 +1,7 @@
 <template>
 <div>
     <template v-if="oda.getEvaluations.auto">
-        <div class="text-xl ">You answered <strong class="text-success">{{ all.positive }} question correctly</strong> out of a total of <span class="text-neutral/50">{{ oda.getEvaluations.auto }} questions</span>.</div>
+        <div class="text-xl bg-slate-100 py-3 rounded">You answered <strong class="text-success">{{ all.positive }} question correctly</strong> out of a total of <span class="text-neutral/50">{{ oda.getEvaluations.auto }} questions</span>.</div>
     </template>
     <template v-if="oda.getEvaluations.manual>0"> 
         <div class="text-xl"><span class="text-neutral/50">{{oda.getEvaluations.manual}} answer(s)</span> require teacher's evaluation.</div>
@@ -12,7 +12,7 @@
     <template v-if="oda.odaAttemptsLimit<99">
         
         <template v-if="(oda.odaAttempts < oda.odaAttemptsLimit) && !oda.freeze">
-            <div class="text-sky-800 mt-5 text-lg p-1">You still have {{ oda.odaAttemptsLimit - oda.odaAttempts }} {{oda.odaAttemptsLimit-oda.odaAttempts>1?'attempts' : 'attempt'  }} to complete this activity.</div>
+            <div class="text-sky-50 mt-5 text-lg p-1">You still have {{ oda.odaAttemptsLimit - oda.odaAttempts }} {{oda.odaAttemptsLimit-oda.odaAttempts>1?'attempts' : 'attempt'  }} to complete this activity.</div>
             <RestartButton :data="'Try again'" class="mt-4"></RestartButton>
         </template>
 
