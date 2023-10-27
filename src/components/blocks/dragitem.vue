@@ -73,9 +73,16 @@ const init = () => {
   
 
     const draginteract = interact(dragitem.value)
-    
+
     draginteract.draggable({
       autoScroll: true,
+      // keep the element within the area of it's parent
+    modifiers: [
+      interact.modifiers.restrictRect({
+        restriction: 'parent',
+        endOnly: true
+      })
+    ],
       listeners: { 
         move: dragMoveListener,
         end: (event) => {

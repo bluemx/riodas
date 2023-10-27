@@ -44,6 +44,10 @@ html{
   max-width: 100%;
 }
 
+body{
+  overflow-y: auto;
+}
+
 :root {
   font-family: nutmeg, system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-weight: normal;
@@ -73,6 +77,11 @@ html, #app{
 .oda-screen.intro-oda-screen{
   @apply ri-bg-main;
 }
+
+.oda-screen.activity-oda-screen{
+  @apply !block ri-bg-main;
+}
+
 .oda-screen.end-oda-screen{
   @apply ri-bg-main;
 }

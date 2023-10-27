@@ -4,6 +4,9 @@
         <span class="bg-primary text-white py-1 px-2 rounded">{{ oda.leveltemp }} level</span> !
     </div>
     <div class="text-xl text-zinc-400">You answered <strong class="text-success">{{ cleanresponse().positive }} question correctly</strong> out of a total of <span class="text-primary/50">{{ cleanresponse().responded }} questions</span>.</div>
+    <div class="text-lg text-secondary mt-6 p-5 border-2 border-secondary bg-white rounded shadow-lg ">
+        {{ oda.leveldescriptiontemp }}
+    </div>
 </div>
    
 <!--
@@ -22,10 +25,10 @@ const props = defineProps({
     blockindex: String
 })
 
-console.log('::LEVEL', oda.leveltemp)
+
 
 const pos = oda.getAllInputs.positive
-
+/*
 const level = () => {
     let lev = "A1"
     if(pos<=20){
@@ -42,7 +45,7 @@ const level = () => {
     }
     return lev
 }
-
+*/
 const cleanresponse = () => {
     const res = {
         total: 100,

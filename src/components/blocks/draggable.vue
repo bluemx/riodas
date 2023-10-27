@@ -12,9 +12,12 @@
     @change="onchange"
     :disabled="freeze"
     :scroll="true"
+    :scroll-sensitivity="200"
+    :force-fallback="true"
     :bubbleScroll="true"
     item-key="id"
     ref="block"
+    :scroll-fn="watchScroll"
     :class="['draggable relative outline-dashed outline-1 outline-slate-200 bg-slate-100 rounded py-2 px-1 min-w-[60px] min-h-[24px] flex justify-center items-center', showResultClass, data.class || '']"
 >   
     <template #header v-if="data.positive">
@@ -42,7 +45,9 @@ import sound3 from '../../assets/uisound/notification_decorative-01.mp3'
 import sound4 from '../../assets/uisound/error_001.mp3'
 import ShapesAnimation from "../all/ShapesAnimation";
 
-
+const watchScroll = (offsetX, offsetY, originalEvent, touchEvt, hoverTargetEl) => {
+     console.log('offsetY', offsetY)
+    }
 
 const props = defineProps({
     data: Object,
