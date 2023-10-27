@@ -79,7 +79,7 @@ const init = () => {
       listeners: { 
         move: dragMoveListener,
         end: (event) => {
-          if(blocks.value.freeze){
+          if(blocks.freeze.value){
             return false
           }
           var target = event.target
