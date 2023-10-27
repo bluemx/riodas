@@ -117,6 +117,8 @@ const FNCancel = () => { emits('cancel') }
 const FNPreview = () => { 
     buildODA()
     previewing.value = true
+    //console.log(iframe.value)
+    //iframe.value.contentWindow.postMessage(JSON.stringify({type: 'attempts',time: 99,}), '*')
  }
 const FNSave = () => {
 
@@ -198,13 +200,16 @@ const FNUpdateOda = () => {
         type: 'oda',
         oda: odaObject.value
     }
+    datos.oda.attempts = 99
     setTimeout(()=>{
         iframe.value.contentWindow.postMessage(JSON.stringify(datos) , '*')
+
         window.addEventListener('message', function(event) {
             if(JSON.parse(event.data).datatype == 'intro'){
                 FNUpdateOda()
             }
         })
+
     }, 500)
 
 }

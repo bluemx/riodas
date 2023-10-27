@@ -127,6 +127,7 @@ const FNCancel = () => { emits('cancel') }
 const FNPreview = () => { 
     buildODA()
     previewing.value = true
+
  }
  const FNSave = () => {
     status.value = 'publishing'
@@ -183,6 +184,7 @@ const questionObject = {
 const odaObject = ref()
 const buildODA = () => {
     const defdoc = JSON.parse(JSON.stringify(defaultdoc.json))
+
     defdoc.title = configurationData.value.title
     defdoc.attempts = configurationData.value.attempts
     defdoc.activity.scenes[0].instructions.content[0].content[0].text = configurationData.value.instructions
@@ -203,6 +205,7 @@ const FNUpdateOda = () => {
         type: 'oda',
         oda: odaObject.value
     }
+    datos.oda.attempts = 99
     setTimeout(()=>{
         iframe.value.contentWindow.postMessage(JSON.stringify(datos) , '*')
         window.addEventListener('message', function(event) {

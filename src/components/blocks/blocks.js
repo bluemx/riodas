@@ -33,7 +33,9 @@ const initFN = (BLOCKoda, BLOCKdata, BLOCKblockindex, BLOCKblockref) => {
         if(BLOCKoda.freeze){
             // IF FREEZE - SHOW RESULTS
             if(!result.value){
-                ShapesAnimation.playkeep(blockref.value, ['positive'])
+                if(blockref.value){
+                    ShapesAnimation.playkeep(blockref.value, ['positive'])
+                }
             }
         }
     } else {
@@ -47,7 +49,9 @@ const initFN = (BLOCKoda, BLOCKdata, BLOCKblockindex, BLOCKblockref) => {
         freeze.value = true
         // IF FREEZE - SHOW RESULTS
         if(result.value){
-            ShapesAnimation.playkeep(blockref.value, ['positive'])
+            if(blockref.value){
+                ShapesAnimation.playkeep(blockref.value, ['positive'])
+            }
         }
     }
     
@@ -70,7 +74,9 @@ const evaluateFN = (input, mute) => {
         }
         //Freeze
         if(result.value){
-            ShapesAnimation.playkeep(blockref.value, ['positive'])
+            if(blockref.value){
+                ShapesAnimation.playkeep(blockref.value, ['positive'])
+            }
             freeze.value = true
         }
     }
@@ -80,7 +86,6 @@ const evaluateFN = (input, mute) => {
     //#SAVE
 
     if(blockindex.value){
-        //console.log('stored', blockindex.value, result.value, input, {attempts: attempts.value})
         oda.value.setInput(blockindex.value, result.value, input, {attempts: attempts.value})
     }
 

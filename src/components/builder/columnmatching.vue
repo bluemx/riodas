@@ -237,6 +237,7 @@ const FNUpdateOda = () => {
         type: 'oda',
         oda: odaObject.value
     }
+    datos.oda.attempts = 99
     setTimeout(()=>{
         iframe.value.contentWindow.postMessage(JSON.stringify(datos) , '*')
         window.addEventListener('message', function(event) {

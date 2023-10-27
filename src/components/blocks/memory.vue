@@ -1,5 +1,5 @@
 <template>
-    <div ref="block" :class="[data.class || '', classColumns]" class="grid gap-4">
+    <div ref="block" :class="[data.class || '', classColumns]" class="grid gap-4 relative">
         <template v-for="(item, index) in cards" :key="index">
             <div @click="flip(item, index)" class="aspect-square justify-center items-center cursor-pointer">
                 <template v-if="item.status=='idle'">
@@ -130,7 +130,7 @@ const createcards = () => {
 const init = () => {
     createcards()
 
-    const blockdata = blocks.initFN(oda, props.data, props.blockindex, cards.value)
+    const blockdata = blocks.initFN(oda, props.data, props.blockindex, block.value)
     if(blockdata?.v){
         cards.value = blockdata.v
     }

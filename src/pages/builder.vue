@@ -37,12 +37,11 @@
                 <Speaking @cancel="currentbuild = null" :data="hasdata"  :name="currentbuild.name" />
             </div>
             <div v-if="currentbuild.id=='rearrange'" class="p-5">
-                <Speaking @cancel="currentbuild = null" :data="hasdata"  :name="currentbuild.name" />
+                <Columnmatching @cancel="currentbuild = null" :data="hasdata"  :name="currentbuild.name" />
             </div>
             <div v-if="currentbuild.id=='columnmatching'" class="p-5">
                 <Columnmatching @cancel="currentbuild = null" :data="hasdata"  :name="currentbuild.name" />
             </div>
-
         </div>
     </template>
 </div>

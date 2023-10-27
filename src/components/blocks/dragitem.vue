@@ -1,6 +1,6 @@
 <template>
 
-<div ref="block" :blockindex="blockindex" class=" min-w-[20px] min-h-[20px] bg-slate-100 rounded" :class="[ /*data.dropzones.replace('.',''),*/ data.class || '' ]">
+<div ref="block" data="dragitem" :blockindex="blockindex" class=" min-w-[20px] min-h-[20px] bg-slate-100 rounded" :class="[ /*data.dropzones.replace('.',''),*/ data.class || '' ]">
     <div :name="dragitemname" ref="dragitem" :class="data.classitem||'btn btn-accent !transition-none text-neutral shadow-md shadow-slate-500/50 cursor-grab active:cursor-grabbing border-double border-b-4 border-neutral/50 relative flex justify-center items-center'" >
         <iconify-icon v-if="!data.classitem" icon="solar:menu-dots-outline" class="absolute bottom-full text-slate-400"></iconify-icon>
         <Content :data="item" v-for="(item, index) in datacontent" :key="index" :blockindex="blockindex+'-'+index"></Content>
@@ -73,19 +73,15 @@ const init = () => {
   
 
     const draginteract = interact(dragitem.value)
-
+    
     draginteract.draggable({
       autoScroll: true,
-      // keep the element within the area of it's parent
-    modifiers: [
-      interact.modifiers.restrictRect({
-        restriction: 'parent',
-        endOnly: true
-      })
-    ],
       listeners: { 
         move: dragMoveListener,
         end: (event) => {
+          if(blocks.value.freeze){
+            return false
+          }
           var target = event.target
           target.style.transform = 'translate(0px, 0px)'
           target.setAttribute('data-x', 0)
@@ -109,7 +105,7 @@ const init = () => {
     
 
 
-    const blockdata = blocks.initFN(oda, props.data, props.blockindex, dragitem.value)
+    const blockdata = blocks.initFN(oda, props.data, props.blockindex, block.value)
     if(blockdata){
       if(blockdata.v != props.data.id){
         const newParent = document.getElementById(blockdata.v)

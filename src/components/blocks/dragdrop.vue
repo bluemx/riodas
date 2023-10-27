@@ -1,6 +1,6 @@
 <template>
 
-<div>
+<div class="relative" ref="block" data="dragdrop">
     <draggable
             :list="items"
             :group="ddgroup"
@@ -12,9 +12,9 @@
             :fallback-override-scale-x="0.5"
             :fallback-override-scale-y="0.5"
             item-key="name"
-            ref="block"
             
-            :class="[data.class || '', showResultClass, 'draggable  outline-dashed outline-1 outline-slate-200 bg-slate-100 rounded py-2 px-1 min-w-[60px] min-h-[24px] flex justify-center items-center flex-wrap gap-1']"
+            
+            :class="[data.class || '', showResultClass, 'draggable relative outline-dashed outline-1 outline-slate-200 bg-slate-100 rounded py-2 px-1 min-w-[60px] min-h-[24px] flex justify-center items-center flex-wrap gap-1']"
         >
         <template #header v-if="data.positive">
             <iconify-icon icon="solar:square-double-alt-arrow-down-line-duotone" class="text-neutral absolute opacity-25 pointer-events-none"></iconify-icon>
@@ -68,7 +68,7 @@ const initialItems = ref()
 const ddgroup = ref()
 
 const mouseDownEvent = () => {
-    console.log('movingo')
+
 }
 
 
@@ -173,7 +173,8 @@ const init = () => {
 
 onMounted(() => {
     if(props.data.evaluation){
-        const blockdata =  blocks.initFN(oda, props.data, props.blockindex, items.value)
+        console.log(block.value)
+        const blockdata =  blocks.initFN(oda, props.data, props.blockindex, block.value)
         if(blockdata?.v){
             items.value = blockdata.v
         }
