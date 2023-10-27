@@ -21,7 +21,8 @@ export const useOda = defineStore({
         odaAttempts: 0,
         odaAttemptsLimit: 3,
         dynamicOdaData: null,
-        leveltemp:null
+        leveltemp:null,
+        leveldescriptiontemp:null
     }),
     getters: {
         getOda(){

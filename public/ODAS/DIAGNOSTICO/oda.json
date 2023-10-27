@@ -89,6 +89,7 @@
                         "file": "odadata.json",
                         "class": "my-10 mx-auto max-w-2xl mx-auto bg-slate-100 p-5 rounded",
                         "level": "A1.1",
+                        "leveldescription": "Can understand everyday expressions aimed at the satisfaction of simple needs of a concrete type, delivered directly to you in clear, slow, and repeated speech by a sympathetic speaker.",
                         "startQ": 1,
                         "totalQ": 12,
                         "minoks": 10
@@ -107,6 +108,7 @@
                         "file": "odadata.json",
                         "class": "my-10 mx-auto max-w-2xl mx-auto bg-slate-100 p-5 rounded",
                         "level": "A1.2",
+                        "leveldescription":"Can understand and use very common everyday expressions and simple phrases for immediate needs. Can introduce yourself and other people and can ask and answer questions about personal details. Can communicate in a simple way if the other person talks slowly and clearly.",
                         "startQ": 13,
                         "totalQ": 12,
                         "minoks": 10
@@ -125,6 +127,7 @@
                         "file": "odadata.json",
                         "class": "my-10 mx-auto max-w-2xl mx-auto bg-slate-100 p-5 rounded",
                         "level": "A2.1",
+                        "leveldescription":"Can understand sentences and frequently used expressions related to the areas of experience most immediately relevant to you.",
                         "startQ": 25,
                         "totalQ": 12,
                         "minoks": 10
@@ -143,6 +146,7 @@
                         "file": "odadata.json",
                         "class": "my-10 mx-auto max-w-2xl mx-auto bg-slate-100 p-5 rounded",
                         "level": "A2.2",
+                        "leveldescription":"Can understand sentences and frequently used expressions related to the areas of experience most immediately relevant to you.",
                         "startQ": 37,
                         "totalQ": 12,
                         "minoks": 10
@@ -161,6 +165,7 @@
                         "file": "odadata.json",
                         "class": "my-10 mx-auto max-w-2xl mx-auto bg-slate-100 p-5 rounded",
                         "level": "B1.1",
+                        "leveldescription":"Can interact with English speakers on familiar topics. you are able to read simple reports on familiar topics and write simple e-mails on subjects in a specific field.",
                         "startQ": 49,
                         "totalQ": 12,
                         "minoks": 10
@@ -179,6 +184,7 @@
                         "file": "odadata.json",
                         "class": "my-10 mx-auto max-w-2xl mx-auto bg-slate-100 p-5 rounded",
                         "level": "B1.2",
+                        "leveldescription":"Can communicate with some confidence on familiar routine and non-routine matters related to your interests and professional field. Exchange, check and confirm information, deal with less routine situations, and explain why something is a problem.",
                         "startQ": 61,
                         "totalQ": 12,
                         "minoks": 10
@@ -197,6 +203,7 @@
                         "file": "odadata.json",
                         "class": "my-10 mx-auto max-w-2xl mx-auto bg-slate-100 p-5 rounded",
                         "level": "B1.2",
+                        "leveldescription":"Can express himself naturally, easily and effectively and take the initiative to speak. But he is also able to understand and correct his own mistakes, foresee what he will say and how he will say it.",
                         "startQ": 73,
                         "totalQ": 12,
                         "minoks": 10
@@ -215,6 +222,7 @@
                         "file": "odadata.json",
                         "class": "my-10 mx-auto max-w-2xl mx-auto bg-slate-100 p-5 rounded",
                         "level": "B1.2",
+                        "leveldescription":"Can understand the main ideas of complex speech on concrete and abstract topics. You are able to interact with a degree of fluency and spontaneity. You can produce clear, detailed text on a wide range of subjects.",
                         "startQ": 85,
                         "totalQ": 16,
                         "minoks": 10,
@@ -247,7 +255,7 @@
                 "content": [
                     {
                         "block": "text",
-                        "content": "Thank you for taking the exam."
+                        "content": "Thank you for taking the diagnostic test."
                     }
                 ]
             }

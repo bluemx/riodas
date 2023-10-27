@@ -1,6 +1,12 @@
 <template>
-
-<div>
+<div ref="block">
+    <template v-for="(element, index) in items" :key="index">
+        <div class="btn btn-accent max-w-full text-neutral shadow-md shadow-slate-500/50 cursor-move border-double border-b-4 border-neutral/50 relative flex justify-center items-center">
+                <iconify-icon icon="solar:menu-dots-outline" class="absolute bottom-full text-slate-400"></iconify-icon>
+                <Content :data="element" ></Content>
+            </div>
+    </template>
+    <!--
     <draggable
             :list="items"
             :group="ddgroup"
@@ -14,7 +20,7 @@
             item-key="name"
             ref="block"
             
-            :class="[data.class || '', showResultClass, 'draggable  outline-dashed outline-1 outline-slate-200 bg-slate-100 rounded py-2 px-1 min-w-[60px] min-h-[24px] flex justify-center items-center flex-wrap gap-1']"
+            :class="[data.class || '', showResultClass, 'draggable relative outline-dashed outline-1 outline-slate-200 bg-slate-100 rounded py-2 px-1 min-w-[60px] min-h-[24px] flex justify-center items-center']"
         >
         <template #header v-if="data.positive">
             <iconify-icon icon="solar:square-double-alt-arrow-down-line-duotone" class="text-neutral absolute opacity-25 pointer-events-none"></iconify-icon>
@@ -32,10 +38,13 @@
     <template v-if="lineattrs" v-for="(item, index) in initialItems" :key="index">
         <Line  :data="{...lineattrs, to:item?.name}" :blockindex="blockindex+'-dragdropline-'+index"></Line>
     </template>
+-->
 </div>
 </template>
 
 <script setup>
+
+import Sortable from 'sortablejs/modular/sortable.complete.esm.js';
 
 import { useOda } from "../../store/oda.js"
 import {useBlocks} from './blocks.js'
@@ -47,8 +56,8 @@ import sound4 from '../../assets/uisound/error_001.mp3'
 import ShapesAnimation from "../all/ShapesAnimation";
 import deepdash from 'deepdash-es';
 import {useScroll} from '../utilities/scrollintoview.js'
-
 deepdash(_)
+
 const scroll = useScroll()
 const blocks = useBlocks()
 const items = ref()
@@ -158,9 +167,18 @@ const onEnd = (e) => {
     new Howl({ src: [sound1], rate: 1, volume: 1, autoplay:true })
 }
 
-
+const sortable = ref()
 
 const init = () => {
+
+    sortable.value = Sortable.create(block.value, {
+        autoScroll: true,
+        scrollFn: () => {
+            console.log('scrolling!')
+        }
+    })
+
+
     items.value = JSON.parse(JSON.stringify(props.data.content))
     //Desorder
     if(props.data.shuffle){

@@ -67,6 +67,7 @@ const loadFile = async () => {
 }
 onMounted(() => {
     oda.leveltemp = props.data.level
+    oda.leveldescriptiontemp = props.data.leveldescription
   loadFile()  
 })
 </script>

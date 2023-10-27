@@ -29,6 +29,7 @@ declare module '@vue/runtime-core' {
     Diagnostico: typeof import('./src/components/blocks/diagnostico.vue')['default']
     Downloadfile: typeof import('./src/components/blocks/downloadfile.vue')['default']
     Dragdrop: typeof import('./src/components/blocks/dragdrop.vue')['default']
+    Dragdropv2sortable: typeof import('./src/components/blocks/dragdropv2sortable.vue')['default']
     Draggable: typeof import('./src/components/blocks/draggable.vue')['default']
     Dragitem: typeof import('./src/components/blocks/dragitem.vue')['default']
     Dragitem_v1: typeof import('./src/components/blocks/dragitem_v1.vue')['default']

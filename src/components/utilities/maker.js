@@ -1,7 +1,7 @@
 import { onMounted } from "vue"
 import { useOda } from "../..//store/oda.js"
 import { useRouter, useRoute } from "vue-router"
-import { useThrottleFn } from '@vueuse/core'
+import { set, useThrottleFn } from '@vueuse/core'
 import {useToast} from 'vue-toast-notification';
 import 'vue-toast-notification/dist/theme-bootstrap.css';
 export function useMaker () {
@@ -67,7 +67,12 @@ export function useMaker () {
         if(data.type == 'attempts'){
             const setattempts = data?.time || data?.times
             if(!setattempts){return false}
-            oda.odaAttempts = setattempts
+            if(setattempts == 99){
+                oda.odaAttemptsLimit = 99
+                console.log('att', oda.odaAttemptsLimit)
+            } else {
+                oda.odaAttempts = setattempts
+            }
             $toast.open({message:'Loading attempts', type:'info', duration:600});
         }
 
