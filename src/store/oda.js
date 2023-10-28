@@ -186,7 +186,7 @@ export const useOda = defineStore({
         },
 
         setUserLocation(path){
-            this.user.location = path
+            this.user.location = '/activity'
         },
         async init(){
             let responder = true
@@ -226,12 +226,15 @@ export const useOda = defineStore({
 
 
                 //Disable localstorage when not in localhost
-                if(window.location.href.includes('localhost') || window.location.href.includes('odas.win') ){
-                //if(false){
+
+                
+                if( window.location.href.includes('odas.win') || window.location.href.includes(':5173') ){
                     this.user = useStorage('rioda_'+this.odaID+'_USER', userData)
                 } else {
                     this.user = userData
                 }
+
+
                 
                 responder = true
             } catch (err){

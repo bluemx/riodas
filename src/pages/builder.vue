@@ -72,13 +72,21 @@ document.body.classList.add('builder')
 const hasdata = ref(null)
 const loadInputs = (data) => {
     hasdata.value = data
+    const datatypeslist = ['choices', 'words', 'Writing', 'Reading', 'Listening', 'Speaking', 'Rearrange', 'Column']
+    if(data?.config?.datatype){
+        datatypeslist.forEach((item, index)=>{
+            if(data?.config?.datatype.includes(item)){
+                currentbuild.value = types[index]
+            }
+        })
+    }
+
+    /*
 
     if(data?.config?.datatype && data?.config?.datatype.includes('choices')){
         currentbuild.value = types[0]
     }
-    if(data?.config?.datatype && data?.config?.datatype.includes('words')){
-        currentbuild.value = types[1]
-    }
+    */
 }
 
 const currentbuild = ref(null)

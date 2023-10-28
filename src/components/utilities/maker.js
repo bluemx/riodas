@@ -29,23 +29,8 @@ export function useMaker () {
 
         if(data.type == 'oda'){
             oda.dynamicOda(data)
-
-            //$toast.open({message:'Loading ODA', type:'info', duration:600});
-            /* remove hidden */
-            /*
-            const odaDoc = ref(data.oda)
-            odaDoc.value = _.cloneDeepWith(odaDoc.value, (value) => {
-                if (_.isObject(value) && value.hidden === true) {
-                    return {}
-                }
-            });
-            const tout = window.location.href.includes('localhost') ? 0 : 500
-            setTimeout(()=>{
-                oda.oda = odaDoc
-                if(oda.oda?.attempts){ oda.odaAttemptsLimit = oda.oda.attempts }
-            }, tout)
-            */
         }
+
 
 
 
@@ -96,6 +81,7 @@ export function useMaker () {
         }
         //Builder
         if(data.type == 'builder'){
+            $toast.open({message:'Loading activity builder', type:'info', duration:600});
             if(route.path == '/builder'){
                 //data.inputs
                 builderdata.value = data.inputs

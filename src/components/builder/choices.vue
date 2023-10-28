@@ -205,8 +205,14 @@ const FNUpdateOda = () => {
         iframe.value.contentWindow.postMessage(JSON.stringify(datos) , '*')
 
         window.addEventListener('message', function(event) {
-            if(JSON.parse(event.data).datatype == 'intro'){
-                FNUpdateOda()
+
+            try {
+                let parsedData = JSON.parse(event.data);
+                if (parsedData.datatype == 'intro') {
+                    FNUpdateOda();
+                }
+            } catch (error) {
+                //console.error('Invalid JSON:', event.data);
             }
         })
 

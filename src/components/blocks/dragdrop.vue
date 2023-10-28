@@ -12,8 +12,6 @@
             :fallback-override-scale-x="0.5"
             :fallback-override-scale-y="0.5"
             item-key="name"
-            
-            
             :class="[data.class || '', showResultClass, 'draggable relative outline-dashed outline-1 outline-slate-200 bg-slate-100 rounded py-2 px-1 min-w-[60px] min-h-[24px] flex justify-center items-center flex-wrap gap-1']"
         >
         <template #header v-if="data.positive">
@@ -51,7 +49,7 @@ import {useScroll} from '../utilities/scrollintoview.js'
 deepdash(_)
 const scroll = useScroll()
 const blocks = useBlocks()
-const items = ref()
+const items = ref(null)
 const oda = useOda()
 const props = defineProps({
     data: Object,
@@ -65,6 +63,7 @@ const showResultClass = ref()
 
 const lineattrs = ref(false)
 const initialItems = ref()
+
 const ddgroup = ref()
 
 const mouseDownEvent = () => {
@@ -161,7 +160,10 @@ const onEnd = (e) => {
 
 
 const init = () => {
-    items.value = JSON.parse(JSON.stringify(props.data.content))
+    if(items.value===null){
+        items.value = []
+        items.value = JSON.parse(JSON.stringify(props.data.content))
+    }
     //Desorder
     if(props.data.shuffle){
         items.value = _.shuffle(items.value)
@@ -171,16 +173,23 @@ const init = () => {
     onChange()
 }
 
+
+
 onMounted(() => {
     if(props.data.evaluation){
-        console.log(block.value)
         const blockdata =  blocks.initFN(oda, props.data, props.blockindex, block.value)
+        console.log(blockdata)
         if(blockdata?.v){
+            items.value = []
             items.value = blockdata.v
         }
     }
     init()
+
 })
+
+
+
 
 setTimeout(()=>{
     watch(()=>props.data, ()=>{ init() }, {deep: true})
