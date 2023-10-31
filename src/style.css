@@ -78,9 +78,7 @@ html, #app{
   @apply ri-bg-main;
 }
 
-.oda-screen.activity-oda-screen{
-  @apply !block ri-bg-main;
-}
+
 
 .oda-screen.end-oda-screen{
   @apply ri-bg-main;

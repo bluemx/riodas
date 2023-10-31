@@ -1,5 +1,5 @@
 <template>
-    <div ref="block" :class="data.class || ''">
+    <div ref="block" :class="[data.class || '', 'relative']">
         <div v-for="(rows, indexY) in grid" :key="indexY" class="flex">
             <template v-for="(word, indexX) in rows" :key="indexX">
                 <cword @result="resultFN" :word="word" :theid="getId(indexX, indexY)" :blockindex="blockindex+'-'+indexX+'-'+indexY"></cword>

@@ -1,5 +1,5 @@
 <template>
-<div :class="['cursor-pointer', data.class || '']" @click="onChange">
+<div :class="['cursor-pointer', data.class || '', 'relative']" @click="onChange">
     <template v-for="(item, index) in data.content" :key="index" >
         <Content :data="item" v-if="input==index"></Content>
     </template>

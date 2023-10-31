@@ -1,7 +1,7 @@
 <template>
 
 <div ref="block" :blockindex="blockindex" :class="[' bg-slate-50 p-0.5 rounded relative  text-center min-w-[280px]']">
-    <AudiorecordRecBtn :key="blockindex+'-audiorecordbtn'" v-if="verifyTimes>0" class="mx-auto" :isrecording="FNS.isrecording.value" @start="startRecord" @stop="stopRecord"></AudiorecordRecBtn>
+    <AudiorecordRecBtn :key="blockindex+'-audiorecordbtn'" v-if="!blocks.freeze.value && verifyTimes>0" class="mx-auto" :isrecording="FNS.isrecording.value" @start="startRecord" @stop="stopRecord"></AudiorecordRecBtn>
 
     
 
@@ -18,36 +18,39 @@
             <div ref="blockwave" class=" bg-white rounded p-2 flex-grow ml-2"></div>
         </div>
     </div>
-    <template v-if="audiorecordedB64 && data.evaluation!=='manual'">
-        <div class="flex justify-center items-center my-2 animate-in slide-in-from-top">
-            <div class="flex py-1 px-4 gap-4 bg-white rounded-md" v-if="!evaluatedText">
-                <div class="text-sm text-left">
-                    Listen <iconify-icon icon="solar:play-stream-bold-duotone" class="align-middle text-2xl"></iconify-icon> and record as many times as you need.
-                    <br> 
-                    You have  <strong :class="verifyClass">{{ verifyTimes }} </strong> <strong class="text-success">VERIFY</strong> <iconify-icon icon="solar:chat-round-check-bold-duotone" class="text-success  text-lg"></iconify-icon> attempt<template v-if="verifyTimes!==1">s left</template>.
+    <template v-if="!blocks.freeze.value">
+        <template v-if="audiorecordedB64 && data.evaluation!=='manual'">
+            <div class="flex justify-center items-center my-2 animate-in slide-in-from-top">
+                <div class="flex py-1 px-4 gap-4 bg-white rounded-md" v-if="!evaluatedText">
+                    <div class="text-sm text-left">
+                        Listen <iconify-icon icon="solar:play-stream-bold-duotone" class="align-middle text-2xl"></iconify-icon> and record as many times as you need.
+                        <br> 
+                        You have  <strong :class="verifyClass">{{ verifyTimes }} </strong> <strong class="text-success">VERIFY</strong> <iconify-icon icon="solar:chat-round-check-bold-duotone" class="text-success  text-lg"></iconify-icon> attempt<template v-if="verifyTimes!==1">s left</template>.
+                    </div>
+                    <button class="btn btn-success" @click="verify" :class="loading?'!btn-neutral':''">
+                        <template v-if="!loading">
+                            Verify
+                            <div><iconify-icon icon="solar:chat-round-check-bold-duotone" class="align-super text-2xl"></iconify-icon></div>
+                        </template>
+                        <template v-else>
+                            <div>
+                                <iconify-icon class="animate-spin" icon="solar:volume-knob-line-duotone"></iconify-icon>
+                                Analyzing
+                            </div>
+                        </template>
+                    </button>
                 </div>
-                <button class="btn btn-success" @click="verify" :class="loading?'!btn-neutral':''">
-                    <template v-if="!loading">
-                        Verify
-                        <div><iconify-icon icon="solar:chat-round-check-bold-duotone" class="align-super text-2xl"></iconify-icon></div>
-                    </template>
-                    <template v-else>
-                        <div>
-                            <iconify-icon class="animate-spin" icon="solar:volume-knob-line-duotone"></iconify-icon>
-                            Analyzing
-                        </div>
-                    </template>
-                </button>
-            </div>
-            <div v-else class="text-center p-1">
-                <div class="text-xs text-slate-400">Your answer:</div>
-                <div v-html="evaluatedText" class="text-lg border-2 border-slate-200 px-2 py-1 rounded"></div>
-                <div v-if="verifyTimes==0" class="my-1 text-xs">
-                    You have  <strong :class="verifyClass">{{ verifyTimes }} </strong> <strong class="text-success">VERIFY</strong> <iconify-icon icon="solar:chat-round-check-bold-duotone" class="text-success  text-lg"></iconify-icon> attempt<template v-if="verifyTimes!==1">s left</template>.
+                <div v-else class="text-center p-1">
+                    <div class="text-xs text-slate-400">Your answer:</div>
+                    <div v-html="evaluatedText" class="text-lg border-2 border-slate-200 px-2 py-1 rounded"></div>
+                    <div v-if="verifyTimes==0" class="my-1 text-xs">
+                        You have  <strong :class="verifyClass">{{ verifyTimes }} </strong> <strong class="text-success">VERIFY</strong> <iconify-icon icon="solar:chat-round-check-bold-duotone" class="text-success  text-lg"></iconify-icon> attempt<template v-if="verifyTimes!==1">s left</template>.
+                    </div>
                 </div>
-            </div>
-        </div> 
+            </div> 
+        </template>
     </template>
+
     <div class="bg-info text-sm text-white text-center rounded" v-if="errorVerification">{{ errorVerification }}</div>
     
 </div>
@@ -224,7 +227,8 @@ const verify = async () => {
     loading.value = true
     errorVerification.value = null
     try{
-        const res = await axios.post('https://bluetest.mx/reCreaIngles/gateway/api/Audio', {
+        //const res = await axios.post('https://bluetest.mx/reCreaIngles/gateway/api/Audio', {
+        const res = await axios.post('https://recreaingles.jalisco.gob.mx/gateway/api/Audio', {
             "text": props.data.positive,
             "recording": audiorecordedWav.value
         }, {

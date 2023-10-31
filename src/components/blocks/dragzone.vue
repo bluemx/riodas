@@ -1,6 +1,6 @@
 <template>
 
-<div ref="block" :blockindex="blockindex" class=" rounded p-1 border-2 border-dashed border-slate-400 min-w-[80px] min-h-[60px]" :class="[ data.class || '' ]">  </div>
+<div ref="block" :blockindex="blockindex" class="relative rounded p-1 border-2 border-dashed border-slate-400 min-w-[80px] min-h-[60px]" :class="[ data.class || '' ]">  </div>
 
 </template>
 <script setup>

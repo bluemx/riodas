@@ -1,18 +1,13 @@
 <template>
-  <svg
-    data="lineblock"
-    :class="data.class || ''"
-    class="pointer-events-none"
-    :id="blockindex + '-line'"
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;"
-  >
+  <svg data="lineblock" :class="data.class || ''" class="pointer-events-none" :id="blockindex + '-line'"
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;">
     <defs>
-      <linearGradient :id="blockindex+'-line-gradient'" x1="0%" y1="0%" x2="100%" y2="0%">
-  <stop offset="0%" :style="'stop-color:'+linecolor+';stop-opacity:0.8'" />
-  <stop offset="20%" :style="'stop-color:'+linecolor+';stop-opacity:1'" />
-  <stop offset="80%" :style="'stop-color:'+linecolor+';stop-opacity:1'" />
-  <stop offset="100%" :style="'stop-color:'+linecolor+';stop-opacity:0.8'" />
-</linearGradient>
+      <linearGradient :id="blockindex + '-line-gradient'" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" :style="'stop-color:' + linecolor + ';stop-opacity:0.8'" />
+        <stop offset="20%" :style="'stop-color:' + linecolor + ';stop-opacity:1'" />
+        <stop offset="80%" :style="'stop-color:' + linecolor + ';stop-opacity:1'" />
+        <stop offset="100%" :style="'stop-color:' + linecolor + ';stop-opacity:0.8'" />
+      </linearGradient>
     </defs>
     <path ref="line" id="line" :stroke="linecolor" stroke-width="4" stroke-linecap="round" fill="none" />
   </svg>
@@ -54,6 +49,8 @@ const init = () => {
 function updateLine() {
   const elementFrom = document.querySelector(selectorFrom.value);
   const elementTo = document.querySelector(selectorTo.value);
+
+
   if (!elementFrom || !elementTo) return;
 
   const rectFrom = elementFrom.getBoundingClientRect();

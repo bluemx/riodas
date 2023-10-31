@@ -1,5 +1,5 @@
 <template>
-<div :class="[ data.class || 'flex gap-1 flex-wrap']">
+<div :class="[ data.class || 'flex gap-1 flex-wrap relative']">
     <template v-for="(item, index) in data.content" :key="index" >
         <div :class="['cursor-pointer', input[index]?data.classitem2:data.classitem1]"  @click="onChange(index)">
             <Content :data="item" ></Content>

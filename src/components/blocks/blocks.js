@@ -1,6 +1,7 @@
 import success from '../../assets/uisound/notification_decorative-01.mp3'
 import nonsuccess from '../../assets/uisound/error_001.mp3'
 import ShapesAnimation from '../all/ShapesAnimation'
+import { onMounted } from 'vue'
 
 export function useBlocks () {
 
@@ -17,7 +18,10 @@ const blockref = ref();
 
 //const myid = Math.random()*1000
 
+
+
 const initFN = (BLOCKoda, BLOCKdata, BLOCKblockindex, BLOCKblockref) => {
+
     oda.value = BLOCKoda;
     data.value = BLOCKdata;
     blockindex.value = BLOCKblockindex;
@@ -30,6 +34,7 @@ const initFN = (BLOCKoda, BLOCKdata, BLOCKblockindex, BLOCKblockref) => {
         if(stored.v!=null){
             evaluateFN(stored.v, true)
         }
+        /*
         if(BLOCKoda.freeze){
             // IF FREEZE - SHOW RESULTS
             if(!result.value){
@@ -38,19 +43,23 @@ const initFN = (BLOCKoda, BLOCKdata, BLOCKblockindex, BLOCKblockref) => {
                 }
             }
         }
+        */
     } else {
         result.value = null
         attempts.value = 0
         freeze.value = false
         evaluateFN(null, true)
     }
-
     if(BLOCKoda.freeze){
         freeze.value = true
         // IF FREEZE - SHOW RESULTS
-        if(result.value){
-            if(blockref.value){
+        console.log(blockref.value, result.value)
+        if(blockref.value){
+            if(result.value){
                 ShapesAnimation.playkeep(blockref.value, ['positive'])
+                console.log('POSI 1')
+            } else {
+                ShapesAnimation.playkeep(blockref.value, ['neutral'])
             }
         }
     }
@@ -73,12 +82,15 @@ const evaluateFN = (input, mute) => {
             }
         }
         //Freeze
-        if(result.value){
-            if(blockref.value){
+        if(blockref.value){
+            if(result.value){
                 ShapesAnimation.playkeep(blockref.value, ['positive'])
+                console.log('POSITIVE')
+            } else {
+                ShapesAnimation.playkeep(blockref.value, ['neutral'])
             }
-            freeze.value = true
         }
+        freeze.value = true
     }
 
 
@@ -108,10 +120,8 @@ const attemptsFN = (setAttempts) => {
         }
     }
 
-
-
-
 }
+
 
 return { freeze, attempts, resultClass, result, evaluateFN, attemptsFN, initFN }
 //export default { freeze, attempts, resultClass, result, evaluateFN, attemptsFN, initFN }
