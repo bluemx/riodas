@@ -21,6 +21,7 @@
 <Audio v-else-if="data.block=='audio'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)" :name="data.name" :id="data.id || ''"></Audio>
 <Image v-else-if="data.block=='image'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)" :name="data.name" :id="data.id || ''"></Image>
 <Video v-else-if="data.block=='video'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)" :name="data.name" :id="data.id || ''"></Video>
+
 <Audiorecord v-else-if="data.block=='audiorecord'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)" :name="data.name" :id="data.id || ''"></Audiorecord>
 <Record v-else-if="data.block=='record'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)" :name="data.name" :id="data.id || ''"></Record>
 <Draggable v-else-if="data.block=='draggable'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)" :name="data.name" :id="data.id || ''"></Draggable>

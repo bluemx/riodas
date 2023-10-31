@@ -68,6 +68,12 @@ class Positive extends mojs.CustomShape {
     }
   }
   mojs.addShape("positive", Positive);
+class Neutral extends mojs.CustomShape {
+    getShape() {
+      return '<path d="" fill="#71717a"/>';
+    }
+  }
+  mojs.addShape("neutral", Neutral);
 
 
 
@@ -174,15 +180,15 @@ const working = (parent) => {
 
 
 const playkeep = (parent, shapes, centered) => {
+  console.log('playkeep!')
     const theparent = parent || document.body;
     const theshapes = shapes || ['Outline1','Outline2','Outline3','Outline4','Outline5','Outline6', "donut", "cross", "slice"];
-    const RADIUS = 28;
-  
+    const RADIUS = 16;
     const circle = new mojs.Shape({
       parent: theparent,
       left: centered ? '50%':'100%',
       top: centered ? '50%':'0%',
-      stroke:   '#94C73D',
+      stroke: '#94C73D',
       strokeWidth: { [2*RADIUS] : 2 },
       fill:     'none',
       scale:    { 0: 1, easing: 'quad.out' },
@@ -239,8 +245,12 @@ const playkeep = (parent, shapes, centered) => {
     circle.el.style.zIndex=10;
     circlebg.el.style.zIndex=10;
     symbol.el.style.zIndex=10;
+    if(shapes[0]=='positive'){
+      timeline.add(circle, circlebg,  symbol, burst);
+    } else {
+      timeline.add(circle);
+    }
   
-    timeline.add(circle, circlebg,  symbol, burst);
     timeline.replay();
     
     /*

@@ -1,44 +1,32 @@
 <template>
 
-<div data="dragdrop" v-if="ready">
-    <div ref="block" :class="[blocks.freeze.value ? 'pointer-events-none':' ', 'relative']">
-    <Container
-        :orientation="data.class.includes('flex-col')?'vertical':'horizontal'"
-        :group-name="data.group || 'basegroup'"
-        @drop="onDrop"
-        :getChildPayload="index => items[index]"
-        tag="div"
-        :drop-placeholder="{ className: 
-            `bg-bg-slate-400 bg-opacity-20  border-dotted border-2 border-text-slate-600 rounded-lg mx-4`, 
-          animationDuration: '200'}"
-          drag-class="
-            transition duration-100 ease-in z-50
-            transform rotate-6 scale-75"
-          drop-class="transition duration-100 
-            ease-in z-50 transform -rotate-2 scale-90 "
-        :class="[
-            data.class || '', showResultClass, 
-            'relative outline-dashed outline-1 outline-slate-200 bg-slate-100 rounded py-2 px-1 !min-w-[80px] min-h-full !min-h-[24px] !flex justify-center items-center flex-wrap gap-1',
-            
-            ]"
-    >
-
-    
-      <Draggable v-for="(element, i) in items" :key="element.id" class="!overflow-visible">
-        <div class="relative">
-            <template v-if="data.positive">
-            </template>
-            <div class="scale- btn btn-accent max-w-full text-neutral shadow-md shadow-slate-500/50 cursor-move border-double border-b-4 border-neutral/50 relative flex justify-center items-center">
+<div class="relative" ref="block" data="dragdrop">
+    <draggable
+            :list="items"
+            :group="ddgroup"
+            :sort="true"
+            @start="onStart"
+            @end="onEnd"
+            @change="onChange"
+            :disabled="oda.freeze"
+            :fallback-override-scale-x="0.5"
+            :fallback-override-scale-y="0.5"
+            item-key="name"
+            :class="[data.class || '', showResultClass, 'draggable relative outline-dashed outline-1 outline-slate-200 bg-slate-100 rounded py-2 px-1 min-w-[60px] min-h-[24px] flex justify-center items-center flex-wrap gap-1']"
+        >
+        <template #header v-if="data.positive">
+            <iconify-icon icon="solar:square-double-alt-arrow-down-line-duotone" class="text-neutral absolute opacity-25 pointer-events-none"></iconify-icon>
+        </template>
+        <template #item="{element}">
+            <div @mousedown="mouseDownEvent" class="btn btn-accent max-w-full text-neutral shadow-md shadow-slate-500/50 cursor-move border-double border-b-4 border-neutral/50 relative flex justify-center items-center">
                 <iconify-icon icon="solar:menu-dots-outline" class="absolute bottom-full text-slate-400"></iconify-icon>
                 <Content :data="element" ></Content>
                 
             </div>
+        </template>
+    </draggable>
 
-        </div>
-      </Draggable>
-    </Container>
-    </div>
-
+    
     <template v-if="lineattrs" v-for="(item, index) in initialItems" :key="index">
         <Line  :data="{...lineattrs, to:item?.name}" :blockindex="blockindex+'-dragdropline-'+index"></Line>
     </template>
@@ -49,18 +37,17 @@
 
 import { useOda } from "../../store/oda.js"
 import {useBlocks} from './blocks.js'
-
-import { Container, Draggable } from "vue3-smooth-dnd";
-
+import draggable from 'vuedraggable'
 import sound1 from '../../assets/uisound/navigation_backward-selection-minimal.mp3'
 import sound2 from '../../assets/uisound/navigation_unavailable-selection.mp3'
 import sound3 from '../../assets/uisound/notification_decorative-01.mp3'
 import sound4 from '../../assets/uisound/error_001.mp3'
 import ShapesAnimation from "../all/ShapesAnimation";
 import deepdash from 'deepdash-es';
-
+import {useScroll} from '../utilities/scrollintoview.js'
 
 deepdash(_)
+const scroll = useScroll()
 const blocks = useBlocks()
 const items = ref(null)
 const oda = useOda()
@@ -68,36 +55,20 @@ const props = defineProps({
     data: Object,
     blockindex: String
 })
-const block = ref(null)
+const block = ref()
 const input = ref("")
+const drag = ref()
 const showResultClass = ref()
-const ready = ref(false)
+
 
 const lineattrs = ref(false)
 const initialItems = ref()
 
 const ddgroup = ref()
 
+const mouseDownEvent = () => {
 
-const onDragStart = (data) => {
-    //console.log('start', data)
 }
-const onDrop = (dropResult) => {
-    if(blocks.freeze.value){ return false }
-    
-    const { removedIndex, addedIndex, payload } = dropResult;
-    if (removedIndex !== null) {
-        items.value.splice(removedIndex, 1);
-    }
-    if (addedIndex !== null) {
-        items.value.splice(addedIndex, 0, payload);
-    }
-    new Howl({ src: [sound2], rate: 1, volume: 1, autoplay:true })
-
-    onChange()
-}
-
-
 
 
 const lineFN = () => {
@@ -108,15 +79,42 @@ const lineFN = () => {
         lineattrs.value.from = props.data.name
         items.value.splice(hasline, 1)
     }
+    
+    // #### GROUP
+    const ddgroupname = props.data.group || 'basegroup'
+    ddgroup.value = {
+        name: ddgroupname,
+        pull: [ddgroupname],
+        put: [ddgroupname]
+    }
+
+}
+
+
+const onStart = ($ev) => {
+    if(props.data?.line){
+        leavesLine.value = true
+    }
+    drag.value = true
+    scroll.start($ev.clone)
+    new Howl({ src: [sound2], rate: 1, volume: 1, autoplay:true })
 }
 
 
 
-
 const onChange = (e) => {
-    if(!props.data.evaluation){ return false }
+    if(blocks.freeze.value){
+        return false
+    }
+
+    if(!props.data.evaluation){
+        return false
+    }
+
     //Unique values
     items.value = [...new Map(items.value.map((m) => [m.name, m])).values()]
+    
+
     // RESULT : COMPARE
     const positiveAND = props.data.positive.split(',')
     const positiveOR = props.data.positive.split('-')
@@ -151,6 +149,7 @@ const onChange = (e) => {
     //console.log(positive.toString(), itemsorder.toString())
     blocks.evaluateFN(items.value)
 
+
 }
 const onEnd = (e) => {
     scroll.stop()
@@ -161,8 +160,6 @@ const onEnd = (e) => {
 
 
 const init = () => {
-    
-    ready.value = false
     if(items.value===null){
         items.value = []
         items.value = JSON.parse(JSON.stringify(props.data.content))
@@ -171,31 +168,30 @@ const init = () => {
     if(props.data.shuffle){
         items.value = _.shuffle(items.value)
     }
-    lineFN()
     initialItems.value = JSON.parse(JSON.stringify(items.value))
+    lineFN()
     onChange()
-    setTimeout(()=>{
-        ready.value = true
-    }, 100)
 }
 
 
 
 onMounted(() => {
-    init()
-    setTimeout(()=>{
-
-        if(props.data.evaluation){
-            const blockdata =  blocks.initFN(oda, props.data, props.blockindex, block.value)
-            if(blockdata?.v){
-                items.value = []
-                items.value = blockdata.v
-            }
+    if(props.data.evaluation){
+        const blockdata =  blocks.initFN(oda, props.data, props.blockindex, block.value)
+        console.log(blockdata)
+        if(blockdata?.v){
+            items.value = []
+            items.value = blockdata.v
         }
-        
-        watch(()=>props.data, ()=>{ init() }, {deep: true})
-    }, 1000)
+    }
+    init()
+
 })
 
 
+
+
+setTimeout(()=>{
+    watch(()=>props.data, ()=>{ init() }, {deep: true})
+}, 1000)
 </script>

@@ -1,8 +1,7 @@
 <template>
     <div :class="data.class || ''">
-        <div class="w-full text-center">
-
-            <div v-if="!data?.dropdown" ref="block"
+        <div class="w-full text-center relative" ref="block">
+            <div v-if="!data?.dropdown" 
                 :class="['relative flex justify-center items-center gap-2 flex-wrap rounded', blocks.resultClass.value]">
                 <template v-for="(item, index) in options" :key="'op'+index">
                     <button :class="['btn', item.index == input ? 'btn-accent ' : 'btn-neutral']" @click="onChange(item.index)">
@@ -29,25 +28,6 @@
                         </div>
                     </template>
                 </VDropdown>
-               
-                <!--
-                <details ref="block" :class="['dropdown', dropdownpos()] ">
-                    <summary tabindex="0" :class="input===null? 'btn':'btn btn-accent'  ">
-                        <template v-if="input == null">
-                            Select
-                        </template>
-                        <template v-else>
-                            <Content v-if="initOptions[input]" :data="initOptions[input]"></Content>
-                        </template>                    
-                    </summary>
-                    <ul tabindex="0" class="dropdown-content z-[1] menu   shadow bg-base-content rounded">
-                        <template v-for="(item, index) in options" :key="'opm'+index">
-                            <li class="hover:bg-neutral rounded " @click="onChange(item.index)"><Content :data="item" ></Content></li>
-                            <hr class="my-0.5">
-                        </template>
-                    </ul>
-                </details>
-                -->
             </template>
 
         </div>
@@ -100,10 +80,6 @@ const init = () => {
             initOptions.value.push({ ...element, index: index })
         });
         options.value = [...initOptions.value].sort(() => Math.random() - 0.5)
-        /*
-        if(!props.data?.noshuffle){
-        }
-        */
     }
 
     //DROPDOWN
@@ -137,15 +113,20 @@ const evaluate = (itemindex) => {
 
 
 onMounted(() => {
-
+    
     const blockdata = blocks.initFN(oda, props.data, props.blockindex, block.value)
     if (blockdata && blockdata?.v != null) {
         input.value = blockdata.v
     }
+
     init()
+
+    setTimeout(()=>{
+        console.log(block.value)
+        watch(()=>props.data, ()=>{ init() }, {deep: true})
+    }, 1000)
 })
 
-watch(()=>props.data, ()=>{ init() }, {deep: true})
 // INIT
 
 
