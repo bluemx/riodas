@@ -3,7 +3,7 @@
     <div class="bg-white rounded-full aspect-square">
         <div :class="['radial-progress  border-2 border-opacity-0 border-slate-800', percentagecolor]" :style="'--value:'+percentagedown+'; --size:24px; --thickness: 6px;'"></div>
     </div>
-    <div class="ml-1 text-md min-w-[56px] text-center">
+    <div class="ml-1 text-md min-w-[56px] text-center cursor-pointer" >
         {{ elapseddown }}
     </div>
 </div>
@@ -60,8 +60,8 @@ const setPercentagecolor = (percent) => {
 const elapseddown = computed(()=>{
     const elapsedtime = Math.floor((timestamp.value - initialTimestamp) / 1000);
     if(elapsedtime >= time.value){
-        router.push('/end')
-    }
+        endjump()
+    } 
     oda.user[props.storeAs] = elapsedtime
     percentagedown.value = (100/time.value) * elapsedtime
     setPercentagecolor(percentagedown.value)
@@ -69,7 +69,13 @@ const elapseddown = computed(()=>{
 })
 
 
-
+const endjump = () => {
+    if(oda.nextscene){
+        router.push(oda.nextscene)
+    } else {
+        router.push('/end')
+    }
+}
 
 const secondsToTime = (seconds) => {
     var hours = Math.floor(seconds / 3600);

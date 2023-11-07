@@ -5,3 +5,8 @@
     </div>
 </div>
 </template>
+
+<script>
+localStorage.clear();
+
+</script>

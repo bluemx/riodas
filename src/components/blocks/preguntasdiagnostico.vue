@@ -7,9 +7,7 @@
         </div>
     </div>
     <div v-else> Loading questions ... </div>
-    <div class="text-center p-10">
-
-    </div>
+    <div class="text-center p-10"></div>
 </div>
 </template>
 <script setup>
@@ -36,7 +34,6 @@ const gotoNext = () => {
     
     if(scenePositives.value < props.data.minoks || props.data.last){
         const routecall = {name:'end', params: { gotlevel: props.data.level }}
-
         router.push(routecall)
         // FINALIZE
     } else {
@@ -65,9 +62,19 @@ const loadFile = async () => {
     content.value = file
     buildData()
 }
+
 onMounted(() => {
     oda.leveltemp = props.data.level
     oda.leveldescriptiontemp = props.data.leveldescription
   loadFile()  
 })
+
+watch(()=>oda.getSceneInputs(scenenum), (res)=>{
+    if(res.positive>=10){
+        oda.nextscene = nextScene
+    } else {
+        oda.nextscene = null
+    }
+})
+
 </script>

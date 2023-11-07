@@ -40,14 +40,18 @@ const choose = (item) => {
     result.value = input.value == props.data.options[0]
     oda.setInput(props.blockindex, result.value, input.value, props.data)
 }
-//INIT
-const hasinput = oda.getInput(props.blockindex)
-if(hasinput){
-    input.value = hasinput.v
-    result.value = hasinput.r
-} else {
-    oda.setInput(props.blockindex, null, null, props.data)
+
+const init = () => {
+    //INIT
+    const hasinput = oda.getInput(props.blockindex)
+    if(hasinput){
+        input.value = hasinput.v
+        result.value = hasinput.r
+    } else {
+        oda.setInput(props.blockindex, null, null, props.data)
+    }
 }
+
 //AUTORESOLVE
 const currentInstance = getCurrentInstance()
 currentInstance.appContext.config.globalProperties.emitter.on('autosolve', e => {
@@ -59,6 +63,7 @@ currentInstance.appContext.config.globalProperties.emitter.on('autosolve', e => 
 onMounted(() => {
     //AUTOSOLVE
     //choose(props.data.options[0])
+    init()
 })
 
 
