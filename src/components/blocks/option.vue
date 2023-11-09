@@ -122,7 +122,6 @@ onMounted(() => {
     init()
 
     setTimeout(()=>{
-        console.log(block.value)
         watch(()=>props.data, ()=>{ init() }, {deep: true})
     }, 1000)
 })

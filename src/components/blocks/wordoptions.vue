@@ -1,5 +1,4 @@
-<template>
-</template>
+<template></template>
 <script setup>
 import { useOda } from '../../store/oda';
 import deepdash from 'deepdash-es';

@@ -4,7 +4,7 @@
     <div :name="dragitemname" ref="dragitem" :class="[data.classitem||'btn btn-accent !transition-none text-neutral shadow-md shadow-slate-500/50 cursor-grab active:cursor-grabbing border-double border-b-4 border-neutral/50 relative flex justify-center items-center', dragging?'!fixed':'']" >
         <iconify-icon v-if="!data.classitem" icon="solar:menu-dots-outline" class="absolute bottom-full text-slate-400"></iconify-icon>
         <Content :data="item" v-for="(item, index) in datacontent" :key="index" :blockindex="blockindex+'-'+index"></Content>
-        {{dragging?'!fixed':''}}
+
     </div>
 
     
@@ -134,7 +134,7 @@ const init = () => {
 
 }
   
-
+/*
 
 const dragMoveListener = (event) => {
   if(blocks.freeze.value){
@@ -151,6 +151,36 @@ const dragMoveListener = (event) => {
   target.setAttribute('data-y', y)
   
 }
+*/
+
+
+const dragMoveListener = (event) => {
+  if(blocks.freeze.value){
+      return false
+  }
+  var target = event.target;
+  var x = (parseFloat(target.getAttribute('data-x')) || 0) + event.dx;
+  var y = (parseFloat(target.getAttribute('data-y')) || 0) + event.dy;
+
+  // Get the scroll position of the specific element
+  var scrollElement = document.querySelector('[data="activity-scroll"]');
+  //var scrollX = scrollElement.scrollLeft;
+  var scrollY = scrollElement.scrollTop;
+
+  // Subtract the scroll position from the calculated x and y
+  //x -= scrollX;
+  y = Math.round(y);
+  console.log(y, ' - ', scrollY , ' = ', y-scrollY)
+
+  target.style.transform = 'translate(' + x + 'px, ' + (y-scrollY) + 'px)';
+  target.setAttribute('data-x', x);
+  target.setAttribute('data-y', y);
+}
+
+
+
+
+
 
 onMounted(() => {
     init()

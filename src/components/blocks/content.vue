@@ -2,6 +2,7 @@
 
 <Worddrop v-if="data.block=='worddrop'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)" :name="data.name" :id="data.id || ''"></Worddrop>
 <Wordoptions v-if="data.block=='wordoptions'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)" :name="data.name" :id="data.id || ''"></Wordoptions>
+<Elashq v-if="data.block=='elashq'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)" :name="data.name" :id="data.id || ''"></Elashq>
 
 
 <!--<template v-if="!data.hidden">-->

@@ -53,7 +53,8 @@ const cleanresponse = () => {
         responded: oda.getAllInputs.responded,
         positive: oda.getAllInputs.positive,
         level: oda.leveltemp,
-        inputs: []
+        inputs: [],
+        seconds: oda.user.totaltime,
     }
     Object.keys(oda.getAllInputs.inputs).forEach((key)=>{
         const theitem = oda.getAllInputs.inputs[key]
