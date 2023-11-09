@@ -34,10 +34,8 @@ const MGK = "-"+getRandomCharacters()+"-"
 
 
 const genItems = () => {
-
     items.value.forEach((item)=>{
         const itemarr = item.split(',')
-        
         const arraobjs = itemarr.map((i)=>{
             return {
                 text: i,
@@ -57,7 +55,7 @@ const groupText = {
     "block": "text", "class": "", "text": "texto"
 }
 const groupOptions = {
-    "block": "group", "class": "flex gap-3",
+    "block": "group", "class": "flex gap-3 my-4 [&>*:nth-child(odd)]:bg-white [&>*:nth-child(even)]:bg-slate-200 [&>*]:p-2 [&>*]:rounded",
     "content": [],
 }
 
@@ -150,7 +148,7 @@ const replaceobjectinoda = () => {
 
 }
 
-
+/*
 function textToJSON(text) {
   // Split the input into groups
   const groups = text.trim().split(/\n\s*\n/);
@@ -167,6 +165,35 @@ function textToJSON(text) {
   });
   return items;
 }
+*/
+function textToJSON(text) {
+  // Split the input into groups
+  const groups = text.trim().split(/\n\s*\n/);
+  const items = [];
+
+  // Process each group
+  groups.forEach(group => {
+    const lines = group.split('\n');
+    const item = {};
+
+    if (lines[0].startsWith('*')) {
+      item.information = lines[0].slice(1).trim(); // remove the * and trim
+      item.question = lines[1];
+      item.options = lines.slice(2, -1); // get all lines except first, second and last
+    } else {
+      item.question = lines[0];
+      item.options = lines.slice(1, -1); // get all lines except first and last
+    }
+
+    item.answer = lines[lines.length - 1]; // get the last line
+    items.push(item);
+  });
+
+  return items;
+}
+
+
+
 
 
 const indexToABC = (index) =>{
@@ -186,10 +213,39 @@ const createJSONS = () => {
     items.value.forEach((item,index)=>{
         let mainGroup = JSON.parse(JSON.stringify(groupJson))
         mainGroup.name = mainGroup.id = "mainGroup"+MGK+index
+        mainGroup.class = 'p-2 rounded shadow-xl my-2 border-2 border-white/50'
         
+        // #### introGroup
+        let introGroup = JSON.parse(JSON.stringify(groupJson))
+        introGroup.name = introGroup.id = "mainIntroGroup"+MGK+index
+        
+        // INFORMATION
+        if(item.information){
+            var iteminfo = item.information
+            iteminfo = iteminfo.replace(/\\n/g, '<br>');
+            console.log(iteminfo)
+            introGroup.content.push({
+                ...groupText,
+                text: iteminfo,
+                name: 'int'+MGK+index,
+                id: 'int'+MGK+index,
+                class: "block whitespace-pre-wrap rounded bg-sky-100 w-full p-2",
+            })
+        }
+
+        // Add intro to mainGroup
+        mainGroup.content.push(introGroup)
+        
+
+        // #### contentGroup
+        let contentGroup = JSON.parse(JSON.stringify(groupJson))
+        contentGroup.name = contentGroup.id = "mainContentGroup"+MGK+index
+        
+        
+
         //COUNTER
         if(props.data.counter>0){
-            mainGroup.content.push({
+            contentGroup.content.push({
                 ...groupCounter,
                 text: (index+props.data.counter)+'.',
                 name: 'counter'+MGK+index,
@@ -197,7 +253,7 @@ const createJSONS = () => {
             })
         }
         //QUESTION
-        mainGroup.content.push({
+        contentGroup.content.push({
             ...groupText,
             text: item.question,
             name: 'q'+MGK+index,
@@ -205,7 +261,7 @@ const createJSONS = () => {
             class: "text-xl"
         })
         //OPTIONS
-        mainGroup.content.push({
+        contentGroup.content.push({
             ...groupOptions,
             content: item.options.map((op,index)=>{
                 return {
@@ -219,6 +275,8 @@ const createJSONS = () => {
             id: 'ops'+MGK+index,
         })
 
+        // Add content to mainGroup
+        mainGroup.content.push(contentGroup)
 
         //Add to fullobject
         fullobject.value.content.push(mainGroup)
