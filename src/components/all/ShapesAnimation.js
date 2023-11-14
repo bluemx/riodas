@@ -294,4 +294,4 @@ function isAudioContextStarted() {
   return audioContext.state === 'running'
 }
 
-export default { play, playkeep, working, playsave }
+export default { play, playkeep, working, playsave, playcircle }

@@ -1,8 +1,12 @@
 <template>
+    <div v-for="(item, index) in items" :key="index">
+        <ElashqItem :information="item.information" :question="item.question" :options="item.options" :answer="item.answer" :counter="index+1" />
+    </div>
 </template>
 <script setup>
 import { useOda } from '../../store/oda';
 import deepdash from 'deepdash-es';
+import ElashqItem from './elashqItem.vue';
 deepdash(_)
 
 
@@ -177,7 +181,7 @@ function textToJSON(text) {
     const item = {};
 
     if (lines[0].startsWith('*')) {
-      item.information = lines[0].slice(1).trim(); // remove the * and trim
+      item.information = lines[0].slice(1).trim().replace(/\\n/g, '<br>'); // remove the * and trim
       item.question = lines[1];
       item.options = lines.slice(2, -1); // get all lines except first, second and last
     } else {
@@ -282,7 +286,7 @@ const createJSONS = () => {
         fullobject.value.content.push(mainGroup)
     })
 
-    replaceobjectinoda()
+    //replaceobjectinoda()
 }
 
 
@@ -298,35 +302,7 @@ const init = () => {
 
     createJSONS()
 
-    return false
-
-
-
-
     
-    /*
-    items.value = props.data.items.map((item, index)=>{
-        return {
-            index: index,
-            id: 'worddrop'+index,
-            content: item
-        }
-    })
-    */
-    genItems()
-    // TEXTS
-    texts.value = []
-    props.data.texts.forEach(element => {
-        const structure = splitStringWithUnderscore(element)
-        texts.value.push(structure)
-    });
-    genTexts()
-    replaceobjectinoda()
-    /*
-    setTimeout(()=>{
-        ready.value = true
-    }, 500)
-    */
 }
 
 
