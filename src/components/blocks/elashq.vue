@@ -65,18 +65,23 @@ function textToJSON(text) {
 
 const init = () => {
     items.value = textToJSON(props.data.textual)
-    if(props.data.audiofiles) {
+
+    if(props.data.audiofiles.trim()) {
         audiofileclean.value =  removeFileNameFromURL(props.data.audiofiles)
-        console.log('clean:::', audiofileclean.value)
     }
 }
 
 
 function removeFileNameFromURL(urlString) {
-  const parts = urlString.split('/');
-  const filename = parts.pop();
-  const urlWithoutFilename = parts.join('/');
-  return urlWithoutFilename.endsWith('/') ? urlWithoutFilename : urlWithoutFilename + '/';
+    console.log(urlString)
+    if(typeof urlString === 'string'){
+        const parts = urlString.split('/');
+        const filename = parts.pop();
+        const urlWithoutFilename = parts.join('/');
+        return urlWithoutFilename.endsWith('/') ? urlWithoutFilename : urlWithoutFilename + '/';
+    } else {
+        return '/'
+    }
 }
 
 
