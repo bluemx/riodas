@@ -5,7 +5,7 @@
             <div class="font-bold text-white">{{ counter }}</div>
         </div>
         <!-- 🔕🔕🔕🔕 NO AUDIO -->
-        <template v-if="audiofile===null">
+        <template v-if="!hidetext">
             <!--information-->
             <div v-if="information" class="w-5/6 mx-auto">
                 <div data="eqi-information" class="block whitespace-pre-wrap rounded-xl bg-info p-4 text-neutral " v-html="information"></div>
@@ -35,7 +35,7 @@
             </div>
         </template>
         <!-- 🔔🔔🔔🔔 WITH AUDIO -->
-        <template v-else>
+        <template v-if="audiofile!==null">
             <div v-if="audioblock">
                 <div class=" border-4 bg-slate-100/80 border-slate-300 p-2 rounded-lg">
                     <Content :data="audioblock" :blockindex="blockindex+'-'+counter+'-audio'"></Content>
@@ -77,7 +77,8 @@ const props = defineProps({
     question: String,
     options: Array,
     answer: String,
-    audiofile: String
+    audiofile: String,
+    hidetext: Boolean
 })
 const loading = ref(false)
 const input  = ref(null)

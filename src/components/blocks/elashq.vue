@@ -1,7 +1,7 @@
 <template>
 <div>
     <div v-for="(item, index) in items" :key="index">
-        <ElashqItem :blockindex="blockindex+'-'+'elashqitem'" :audiofile="audiofileclean" :information="item.information" :question="item.question" :options="item.options" :answer="item.answer" :counter="index+data.counter" />
+        <ElashqItem :hidetext="data.hidetext" :blockindex="blockindex+'-'+'elashqitem'" :audiofile="audiofileclean" :information="item.information" :question="item.question" :options="item.options" :answer="item.answer" :counter="index+data.counter" />
     </div>
 </div>
 </template>
