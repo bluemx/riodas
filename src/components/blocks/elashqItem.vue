@@ -1,6 +1,5 @@
 <template>
 <div>
-    {{ blockindex }}
     <div ref="block" data="elashqitem" class="p-5 my-10 mx-4 rounded-lg shadow-xl border-4   relative transition ease-out duration-200" :class="input!==null?'border-secondary bg-secondary text-white':'border-warning/20 bg-slate-50'">
         <div data="eqi-counter" class="rounded-full shadow-lg flex justify-center items-center aspect-square w-10 absolute -left-5 -top-5  transition-all" :class="input!==null?'bg-neutral':'bg-warning'">
             <div class="font-bold text-white">{{ counter }}</div>
@@ -13,19 +12,19 @@
                 <div class="w-6 ml-10 -mt-0.5">
                     <svg viewBox="0 0 156 157" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M155.999 156.961C135.513 156.961 115.227 152.926 96.3004 145.086C77.3735 137.246 60.1762 125.755 45.6903 111.269C31.2043 96.7835 19.7134 79.5862 11.8736 60.6594C4.03387 41.7326 -0.00119084 21.447 -0.00119019 0.960722C-0.00119019 0.960722 115.999 0.960657 155.999 0.960726C118 34 118.662 104.252 155.999 156.961Z" fill="#A6EDE2"/>
-                        </svg>
+                    </svg>
                 </div>
             </div>
             
             <!-- question -->
-            <div data="eqi-question" class="text-2xl py-10 text-center" v-if="question!=='-'">{{ question }}</div>
+            <div data="eqi-question" class="text-2xl py-10 text-center" v-if="question!=='-'" v-html="question"></div>
 
             <!-- options -->
             <div data="eqi-options" class="border-4 bg-slate-300/40 border-slate-300 p-2 rounded-lg flex flex-wrap flex-col gap-5  justify-center  [&>*]:p-2 [&>*]:rounded">
                 <template v-for="(item, index) in options" :key="index">
                     <div class="flex gap-1 items-center bg-white text-base-100">
                         <div class="font-bold opacity-75 text-sm w-6 aspect-square bg-slate-100 flex justify-center items-center rounded">{{indexToABC(index)}})</div>
-                        <div>{{ item }}</div>
+                        <div v-html="item"></div>
                     </div>
                 </template>
             </div>
