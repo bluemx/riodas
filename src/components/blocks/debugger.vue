@@ -1,8 +1,10 @@
 <template>
-<div class="flex text-xs gap-5 flex-wrap">
+<div class="flex text-xs gap-5 flex-wrap bg-purple-400 text-white">
+    
     <div>Positive: {{scenedebs.positive}}</div>
     <div>Responded: {{scenedebs.responded}}</div>
     <div>Total: {{scenedebs.total}}</div>
+    <div>Scene: {{ scenenum }}</div>
 </div>
 </template>
 <script setup>

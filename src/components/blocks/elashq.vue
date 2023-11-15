@@ -1,8 +1,8 @@
 <template>
 <div>
-    <div v-for="(item, index) in items" :key="index">
-        <ElashqItem :hidetext="data.hidetext" :blockindex="blockindex+'-'+'elashqitem'" :audiofile="audiofileclean" :information="item.information" :question="item.question" :options="item.options" :answer="item.answer" :counter="index+data.counter" />
-    </div>
+    <template v-for="(item, index) in items">
+        <ElashqItem :hidetext="data.hidetext" :blockindex="blockindex+'-'+'elashqitem-'+index" :audiofile="audiofileclean" :information="item.information" :question="item.question" :options="item.options" :answer="item.answer" :counter="index+data.counter" />
+    </template>
 </div>
 </template>
 <script setup>

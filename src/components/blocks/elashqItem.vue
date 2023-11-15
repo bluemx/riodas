@@ -1,10 +1,11 @@
 <template>
 <div>
-    <div v-if="!loading" data="elashqitem" class="p-5 my-10 mx-4 rounded-lg shadow-xl border-4   relative transition ease-out duration-200" :class="input!==null?'border-secondary bg-secondary text-white':'border-warning/20 bg-slate-50'">
+    {{ blockindex }}
+    <div ref="block" data="elashqitem" class="p-5 my-10 mx-4 rounded-lg shadow-xl border-4   relative transition ease-out duration-200" :class="input!==null?'border-secondary bg-secondary text-white':'border-warning/20 bg-slate-50'">
         <div data="eqi-counter" class="rounded-full shadow-lg flex justify-center items-center aspect-square w-10 absolute -left-5 -top-5  transition-all" :class="input!==null?'bg-neutral':'bg-warning'">
             <div class="font-bold text-white">{{ counter }}</div>
         </div>
-        <!-- 🔕🔕🔕🔕 NO AUDIO -->
+
         <template v-if="!hidetext">
             <!--information-->
             <div v-if="information" class="w-5/6 mx-auto">
@@ -51,7 +52,7 @@
         <!-- answers-->
         <div data="eqi-answers"  class="flex flex-wrap justify-center items-center gap-5 mt-5">
             <template v-for="(item, index) in options" :key="index">
-                <div :class="['w-16 rounded-full aspect-square flex justify-center items-center cursor-pointer  hover:shadow-sm hover:translate-y-0 transition-all border-2 box-content', input===index?'bg-neutral scale-125 ease-out':' border-white -translate-y-0.5 shadow-xl']" @click="onChange($event,index)">
+                <div :class="['w-16 rounded-full aspect-square flex justify-center items-center cursor-pointer  hover:shadow-sm hover:translate-y-0 transition-all border-2 box-content', input===index?'bg-neutral scale-125 ease-out':' border-white -translate-y-0.5 shadow-xl']" @click="onChange($event , index)">
                     <div class="font-bold text-2xl">{{ indexToABC(index) }}</div>
                 </div>
             </template>
@@ -66,8 +67,10 @@
 </template>
 
 <script setup>
+import { useOda } from '../../store/oda';
 import ShapesAnimation from '../all/ShapesAnimation';
 import Divider from '../utilities/divider.vue';
+import { useBlocks } from './blocks';
 import Content from './content.vue';
 
 const props = defineProps({
@@ -80,7 +83,16 @@ const props = defineProps({
     audiofile: String,
     hidetext: Boolean
 })
-const loading = ref(false)
+
+const data = ref({
+    attempts: 3,
+    showResult: false
+})
+
+const oda = useOda()
+const block = ref()
+const blocks = useBlocks()
+
 const input  = ref(null)
 
 const audioblock = ref(null)
@@ -97,6 +109,10 @@ const indexToABC = (index) =>{
 }
 
 const onChange = ($event, index) => {
+    if(blocks.freeze.value){
+        return false
+    }
+    /*
     if(input.value!==null){
         input.value = null
         setTimeout(()=>{
@@ -107,6 +123,13 @@ const onChange = ($event, index) => {
         input.value = index
         ShapesAnimation.playcircle($event.target)
     }
+    */
+    input.value = index
+    ShapesAnimation.playcircle($event.target)
+
+    // RIGHT OR WRONG 
+    blocks.result.value = indexToABC(input.value) == props.answer
+    blocks.evaluateFN(input.value)
 }
 
 
@@ -122,6 +145,10 @@ const init = () => {
 
 onMounted(() => {
     init()
+    const blockdata = blocks.initFN(oda, data.value, props.blockindex, block.value)
+    if(blockdata && blockdata?.v!=null){
+        input.value = blockdata.v
+    } 
 })
 watch(()=>props, ()=>{ init() }, {deep:true})
 

@@ -7,6 +7,24 @@
         <div class="text-xl bg-white p-1 rounded"><span class="text-neutral/50">{{oda.getEvaluations.manual}} answer(s)</span> require teacher's evaluation.</div>
     </template>
 
+    <!-- ELASH - DYNAMIC RESULTS -->
+    <template v-if="oda.getEvaluations.auto === 0 && oda.getEvaluations.manual === 0 && all.total>0">
+        
+        <div class="text-xl bg-slate-100 py-3 rounded p-5">
+            <div class="my-4">
+                De un total de <span class="text-neutral/50">{{ all.total }} reactivos</span> tuviste <strong class="text-success">{{ all.positive }} respuestas correctas.</strong>
+            </div>
+            <div class="bg-slate-200 rounded p-5">
+                <div class="text-success font-bold text-2xl">
+                    {{ (all.positive/all.total) * 100 }}%
+                </div>
+                <progress class="progress progress-success w-full mt-2" :value="all.positive+10" :max="all.total"></progress>
+            </div>
+        </div>
+
+    </template>
+
+
 
     <!--attempts-->
     <template v-if="oda.odaAttemptsLimit<99">
@@ -21,7 +39,6 @@
         <RestartButton :data="'Try again'" class="mt-4"></RestartButton>
     </template>
 
-
     
 </div>
 </template>
@@ -29,6 +46,7 @@
 import { useOda } from "../../store/oda.js"
 import CryptoJS from 'crypto-js';
 import { useEventBus } from '@vueuse/core'
+
 
 const bus = useEventBus()
 
@@ -41,6 +59,7 @@ const props = defineProps({
 })
 
 const all = oda.getAllInputs
+
 
 
 const cleanresponse = () => {
