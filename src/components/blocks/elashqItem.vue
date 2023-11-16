@@ -17,7 +17,7 @@
             </div>
             
             <!-- question -->
-            <div data="eqi-question" class="text-2xl py-10 text-center" v-if="question!=='-'" v-html="question"></div>
+            <div data="eqi-question" class="text-2xl py-10 text-center" v-if="question!=='-'" v-html="findSubs(question)"></div>
 
             <!-- options -->
             <div data="eqi-options" class="border-4 bg-slate-300/40 border-slate-300 p-2 rounded-lg flex flex-wrap flex-col gap-5  justify-center  [&>*]:p-2 [&>*]:rounded">
@@ -107,22 +107,21 @@ const indexToABC = (index) =>{
     return abc
 }
 
+const findSubs = (text) => {
+  // This regex will match any single uppercase letter followed by {some text}
+  const regex = /([A-Z])\{([^}]+)\}/g;
+
+  // Replace the matched groups with the corresponding <span> elements
+  return text.replace(regex, (match, p1, p2) => {
+    return `<span data-sub="${p1}">${p2}</span>`;
+  });
+}
+
 const onChange = ($event, index) => {
     if(blocks.freeze.value){
         return false
     }
-    /*
-    if(input.value!==null){
-        input.value = null
-        setTimeout(()=>{
-            input.value = index
-            ShapesAnimation.playcircle($event.target)
-        }, 200)
-    } else {
-        input.value = index
-        ShapesAnimation.playcircle($event.target)
-    }
-    */
+
     input.value = index
     ShapesAnimation.playcircle($event.target)
 
@@ -153,3 +152,24 @@ watch(()=>props, ()=>{ init() }, {deep:true})
 
 
 </script>
+
+
+<style>
+/* Style for the <span> elements with a data-sub attribute */
+span[data-sub] {
+opacity:0.8;
+  text-decoration: underline;
+  position: relative;
+  display: inline-block;
+}
+
+span[data-sub]::after {
+  content: attr(data-sub);
+  position: absolute;
+  left: 50%;
+  bottom: -60%;
+  transform: translateX(-50%);
+  font-size: 10px;
+  text-align: center;
+}
+</style>
