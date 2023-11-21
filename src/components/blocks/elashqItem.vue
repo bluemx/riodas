@@ -8,11 +8,9 @@
         <template v-if="!hidetext">
             <!--information-->
             <div v-if="information" class="w-5/6 mx-auto">
-                <div data="eqi-information" class="block whitespace-pre-wrap rounded-xl bg-info p-4 text-neutral " v-html="information"></div>
-                <div class="w-6 ml-10 -mt-0.5">
-                    <svg viewBox="0 0 156 157" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M155.999 156.961C135.513 156.961 115.227 152.926 96.3004 145.086C77.3735 137.246 60.1762 125.755 45.6903 111.269C31.2043 96.7835 19.7134 79.5862 11.8736 60.6594C4.03387 41.7326 -0.00119084 21.447 -0.00119019 0.960722C-0.00119019 0.960722 115.999 0.960657 155.999 0.960726C118 34 118.662 104.252 155.999 156.961Z" fill="#A6EDE2"/>
-                    </svg>
+                <div data="eqi-information" class="block whitespace-pre-wrap rounded-xl border-dashed border-4 border-info p-4 text-neutral leading-10 " v-html="information"></div>
+                <div class="w-6 mx-auto mt-3 text-center">
+                    <svg  viewBox="0 0 88 44" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M88 0L44 44L0 0H88Z" fill="#A6EDE2"/></svg>
                 </div>
             </div>
             
@@ -37,7 +35,7 @@
         <!-- 🔔🔔🔔🔔 WITH AUDIO -->
         <template v-if="audiofile!==null">
             <div v-if="audioblock">
-                <div class=" border-4 bg-slate-100/80 border-slate-300 p-2 rounded-lg">
+                <div class=" border-4 <bg>-slate-100/80 border-slate-300 p-2 rounded-lg">
                     <Content :data="audioblock" :blockindex="blockindex+'-'+counter+'-audio'"></Content>
                 </div>
                 <div>
