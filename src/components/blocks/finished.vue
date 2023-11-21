@@ -21,6 +21,14 @@
                 <progress class="progress progress-success w-full mt-2" :value="all.positive+10" :max="all.total"></progress>
             </div>
         </div>
+       
+        <template v-if="oda.oda.elashexam">
+            <div class="bg-neutral p-5 rounded mt-2 text-white">
+                You have completed Recrea ELASH practice test. <br>
+                Your raw score is <strong class="text-success">{{ all.positive }}</strong> / <strong>{{ all.total }}</strong>.<br>
+                It means you are a <strong class="text-success">{{ elashtable(all.positive) }}</strong> level according to the CEFR.
+            </div>
+        </template>
 
     </template>
 
@@ -100,5 +108,22 @@ const pMessage = () => {
     oda.odaAttempts++
 }
 pMessage()
+
+
+const elashtable = (value) => {
+    let thevalue = ''
+    if(value<=19){                      thevalue = 'A1- (True beginner)'}
+    if(value>=20 &&     value<=49){     thevalue = 'A1'     }
+    if(value>=50 &&     value<=69){     thevalue = 'A1+'    }
+    if(value>=70 &&     value<=79){     thevalue = 'A2'     }
+    if(value>=80 &&     value<=89){     thevalue = 'A2+'    }
+    if(value>=90 &&     value<=99){     thevalue = 'B1+'    }
+    if(value>=100 &&    value<=109){    thevalue = 'B1+'     }
+    if(value>=110 &&    value<=119){    thevalue = 'B2'      }
+    if(value>=120){                     thevalue = 'B2+'     }
+    
+    return thevalue
+    
+}
 
 </script>
