@@ -25,13 +25,17 @@ const init = () => {
         return false
     }
     dragzone.dropzone({
+        accetp: '.dragitem',
         ondropactivate: function (event) {
+            //console.log('🔔 🔔 🔔 🔔 activate')
             event.target.classList.add('border-rose-500')
         },
         ondropdeactivate: function (event) {
+            //console.log('🔔 🔔 🔔 🔔 DE - activate')
             event.target.classList.remove('border-rose-500')
         },
         ondrop: function (event) {
+            //console.log('🔔 🔔 🔔 🔔 DROP!')
             block.value.appendChild(event.relatedTarget)
         },
         /*
