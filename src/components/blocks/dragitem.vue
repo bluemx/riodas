@@ -1,10 +1,9 @@
 <template>
 <div>
-<div ref="block" data="dragitem" :blockindex="blockindex" class="dragitem relative min-w-[20px] min-h-[20px] bg-slate-100 rounded" :class="[ /*data.dropzones.replace('.',''),*/ data.class || '' ]">
+<div ref="block" data="dragitem" :blockindex="blockindex" class="dragitem relative min-w-[20px] min-h-[20px] bg-slate-100 rounded border-2 border-dashed text-center" :class="[ /*data.dropzones.replace('.',''),*/ data.class || '' ]">
     <div :name="dragitemname" ref="dragitem" :class="[data.classitem||'btn btn-accent !transition-none text-neutral shadow-md shadow-slate-500/50 cursor-grab active:cursor-grabbing border-double border-b-4 border-neutral/50 relative flex justify-center items-center', dragging?'!fixed z-10':'']" >
         <iconify-icon v-if="!data.classitem" icon="solar:menu-dots-outline" class="absolute bottom-full text-slate-400"></iconify-icon>
         <Content :data="item" v-for="(item, index) in datacontent" :key="index" :blockindex="blockindex+'-'+index"></Content>
-        {{ autoscrolled?'✅':'❌' }}
     </div>
 
     
@@ -16,8 +15,11 @@
 <!--<div class="itemable w-fit h-fit p-2 bg-primary text-white">Moveme</div>-->
 </template>
 <script setup>
+import { gsap } from "gsap";
+import { Draggable } from "gsap/Draggable";  
 import interact from 'interactjs'
 
+gsap.registerPlugin(Draggable);
 
 import {useBlocks} from './blocks.js'
 import { useOda } from "../../store/oda.js"
@@ -71,10 +73,45 @@ const init = () => {
   if(!dragitem.value){
     return false
   }
+
+  //FIX CONTAINER SIZE
+  const blockrect = block.value.getBoundingClientRect()
+  const blwidth = blockrect.width+'px !important'
+  const blheight = blockrect.height+'px !important'
+  block.value.style.width = blwidth
+  block.value.style.height = blheight
+  block.value.style.background = '#000000'
+  console.log(blwidth, blheight)
+
+  //
   datacontent.value = JSON.parse(JSON.stringify(props.data.content))
   dragitemname.value = getRandomCharacters()
   lineFN(dragitemname.value)
   
+  Draggable.create(dragitem.value, {
+    autoScroll: 1,
+    onDrag: (e)=>{
+      document.querySelectorAll('.dragzone').forEach((itm)=>{
+        itm.classList.add('border-accent', 'animate-pulse')
+      })
+
+    },
+    onDragEnd: (e) => {
+      let dropped = false
+      document.querySelectorAll('.dragzone').forEach((itm)=>{
+        itm.classList.remove('border-accent', 'animate-pulse')
+        const droparea = itm.getBoundingClientRect()
+          if(Draggable.hitTest(dragitem.value,itm)){
+            itm.appendChild(dragitem.value)
+            dropped = true
+          }
+      })
+      gsap.to(dragitem.value, {duration: dropped?0:0.5, x:0, y:0})
+    }
+  })
+
+    /*
+
 
     const draginteract = interact(dragitem.value)
     
@@ -115,7 +152,7 @@ const init = () => {
       dragging.value = false
     })
 
-
+    
  
 
     const dragzone = interact(block.value)
@@ -125,6 +162,8 @@ const init = () => {
             block.value.appendChild(event.relatedTarget)
         }
     })
+
+    */
 
 
     

@@ -124,7 +124,7 @@ const onChange = ($event, index) => {
     ShapesAnimation.playcircle($event.target)
 
     // RIGHT OR WRONG 
-    blocks.result.value = indexToABC(input.value) == props.answer
+    blocks.result.value = indexToABC(input.value).toLowerCase() == props.answer.toLowerCase()
     blocks.evaluateFN(input.value)
 }
 

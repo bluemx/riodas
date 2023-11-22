@@ -73,7 +73,6 @@ const init = () => {
 
 
 function removeFileNameFromURL(urlString) {
-    console.log(urlString)
     if(typeof urlString === 'string'){
         const parts = urlString.split('/');
         const filename = parts.pop();

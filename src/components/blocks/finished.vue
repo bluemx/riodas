@@ -16,7 +16,7 @@
             </div>
             <div class="bg-slate-200 rounded p-5">
                 <div class="text-success font-bold text-2xl">
-                    {{ (all.positive/all.total) * 100 }}%
+                    {{ Math.round((all.positive/all.total) * 100) }}%
                 </div>
                 <progress class="progress progress-success w-full mt-2" :value="all.positive+10" :max="all.total"></progress>
             </div>
@@ -26,7 +26,7 @@
             <div class="bg-neutral p-5 rounded mt-2 text-white">
                 You have completed Recrea ELASH practice test. <br>
                 Your raw score is <strong class="text-success">{{ all.positive }}</strong> / <strong>{{ all.total }}</strong>.<br>
-                It means you are a <strong class="text-success">{{ elashtable(all.positive) }}</strong> level according to the CEFR.
+                It means you are a <strong class="text-success">{{ elashCefrLevel }}</strong> level according to the CEFR.
             </div>
         </template>
 
@@ -58,7 +58,10 @@ import { useEventBus } from '@vueuse/core'
 
 const bus = useEventBus()
 
-
+// ELASH VALUES
+const elashCefrLevel = ref('')
+const elashLevel = ref('')
+const elashPracticeTest = ref('')
 
 const oda = useOda()
 const props = defineProps({
@@ -69,9 +72,26 @@ const props = defineProps({
 const all = oda.getAllInputs
 
 
+const elashtable = () => {
+    let value = all.positive
+    let thevalue = ''
+    let elevel = ''
+    if(value<=19){                      thevalue = 'A1- (True beginner)'; elevel = 'A1-1'; }
+    if(value>=20 &&     value<=49){     thevalue = 'A1';    elevel = 'A1-1';    }
+    if(value>=50 &&     value<=69){     thevalue = 'A1+';   elevel = 'A1-2';    }
+    if(value>=70 &&     value<=79){     thevalue = 'A2';    elevel = 'A2-1';    }
+    if(value>=80 &&     value<=89){     thevalue = 'A2+';   elevel = 'A2-2';    }
+    if(value>=90 &&     value<=99){     thevalue = 'B1+';   elevel = 'B1-1';    }
+    if(value>=100 &&    value<=109){    thevalue = 'B1+';   elevel = 'B1-2';    }
+    if(value>=110 &&    value<=119){    thevalue = 'B2';    elevel = 'B2-1';    }
+    if(value>=120){                     thevalue = 'B2+';   elevel = 'B2-2';    }
+    elashCefrLevel.value = thevalue;
+    elashLevel.value = elevel;
+    console.log(elashCefrLevel.value, elashLevel.value)
+}
 
 const cleanresponse = () => {
-
+    elashtable()
     const buildInputs = JSON.parse(JSON.stringify(oda.user))
 
     const res = {
@@ -84,6 +104,12 @@ const cleanresponse = () => {
         //inputs: CryptoJS.AES.encrypt(JSON.stringify(oda.getAllInputs.inputs),'blue').toString(),
         //inputs: window.btoa(JSON.stringify(oda.user))
         inputs: window.btoa(JSON.stringify(buildInputs))
+    }
+
+    if(oda.oda.elashexam){
+        res.levelCEFR  = elashCefrLevel.value
+        res.level = elashLevel.value
+        res.practiceTest = oda.oda.title.replace(/\D/g, '');
     }
 
     if(res.total === 0){
@@ -110,20 +136,6 @@ const pMessage = () => {
 pMessage()
 
 
-const elashtable = (value) => {
-    let thevalue = ''
-    if(value<=19){                      thevalue = 'A1- (True beginner)'}
-    if(value>=20 &&     value<=49){     thevalue = 'A1'     }
-    if(value>=50 &&     value<=69){     thevalue = 'A1+'    }
-    if(value>=70 &&     value<=79){     thevalue = 'A2'     }
-    if(value>=80 &&     value<=89){     thevalue = 'A2+'    }
-    if(value>=90 &&     value<=99){     thevalue = 'B1+'    }
-    if(value>=100 &&    value<=109){    thevalue = 'B1+'     }
-    if(value>=110 &&    value<=119){    thevalue = 'B2'      }
-    if(value>=120){                     thevalue = 'B2+'     }
-    
-    return thevalue
-    
-}
+
 
 </script>
