@@ -109,6 +109,7 @@ const cleanresponse = () => {
     if(res.total == 0){
         if(oda.getEvaluations.auto === 0 && oda.getEvaluations.manual === 0 && all.total>0){
             res.total = all.total
+            res.evaluations.auto = all.total
         }
     }
 
