@@ -1,5 +1,4 @@
 <template>
-
 <Worddrop v-if="data.block=='worddrop'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)" :name="data.name" :id="data.id || ''"></Worddrop>
 <Wordoptions v-if="data.block=='wordoptions'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)" :name="data.name" :id="data.id || ''"></Wordoptions>
 <Elashq v-if="data.block=='elashq'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)" :name="data.name" :id="data.id || ''"></Elashq>
@@ -26,6 +25,7 @@
 <Audiorecord v-else-if="data.block=='audiorecord'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)" :name="data.name" :id="data.id || ''"></Audiorecord>
 <Record v-else-if="data.block=='record'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)" :name="data.name" :id="data.id || ''"></Record>
 <Draggable v-else-if="data.block=='draggable'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)" :name="data.name" :id="data.id || ''"></Draggable>
+
 <Dragdrop v-else-if="data.block=='dragdrop'" :data="data" :blockindex="blockindex"  :data-eval="evaltype(data)" :name="data.name" :id="data.id || ''"></Dragdrop>
 <Line v-else-if="data.block=='line'" :data="data" :blockindex="blockindex" :name="data.name" :id="data.id || ''"></Line>
 <Dragitem v-else-if="data.block=='dragitem'" :data="data" :blockindex="blockindex" :name="data.name" :id="data.id || ''"></Dragitem>
