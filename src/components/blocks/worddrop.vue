@@ -74,7 +74,19 @@ const groupText = {
 const groupDrop = {
     "block": "group", "class": "inline-block align-middle mx-2 ",
     "content": [
-        { "order": false, "group": "worddrop", "content": [], "positive": "---", "evaluation": "auto", "showResult": false, "block": "dragdrop" }
+    {
+        "order": false,
+        "class": "",
+        "shuffle": false,
+        "group": "worddrop",
+        "content": [],
+        "positive": "",
+        "evaluation": "auto",
+        "showResult": false,
+        "id": "rMRz",
+        "block": "dragdrop",
+        "name": "EaGL"
+      },        
     ],
 }
 
