@@ -170,6 +170,7 @@ const init = () => {
     //Desorder
     if(props.data.shuffle){
         items.value = _.shuffle(items.value)
+        onChange()
     }
     lineFN()
     initialItems.value = JSON.parse(JSON.stringify(items.value))
