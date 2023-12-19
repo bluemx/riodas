@@ -118,8 +118,9 @@ html, #app{
 */
 .btn{
   text-transform: none;
-  height: auto !import;
+  height: auto !important;
 }
+
 
 
 
