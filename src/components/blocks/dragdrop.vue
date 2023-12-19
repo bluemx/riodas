@@ -195,6 +195,7 @@ onMounted(() => {
         }
         
         watch(()=>props.data, ()=>{ init() }, {deep: true})
+        onChange()
     }, 1000)
 })
 
