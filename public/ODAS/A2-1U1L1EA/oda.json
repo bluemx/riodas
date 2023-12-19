@@ -1,1 +1,145 @@
-{"title":"Grammar presentation and Unit aims","clock":true,"countdown":0,"intro":{"buttons":{"start":"Start"},"content":[]},"activity":{"scenes":[{"block":"scene","name":"SC1","countdown":0,"instructions":{"open":true,"content":[{"block":"group","class":"flex gap-2 items-center","content":[{"block":"audio","class":"","file":"files/instruccion.mp3","wave":false,"autoplay":false,"id":"","name":"tqUI"},{"block":"text","class":"","text":"The next video presents the content topics and objectives for this unit. Play it as many times as you need.","id":"","name":"GOCJ"}]}]},"content":[{"block":"group","class":"bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto","content":[{"file":"files/Video.mp4","class":"","poster":"","id":"rcsu","block":"video","name":"B8Lk"}],"background":"","name":"4Cs6","hidden":false},{"symbol":"FinalizeGroup"}],"id":""}]},"end":{"buttons":{"restart":false},"content":[{"symbol":"finishedAll"}]},"symbols":{"finishedAll":{"class":"w-full","content":[{"block":"group","class":"bg-slate-100 rounded p-5 text-center w-full","content":[{"block":"text","text":"Congratulations, you finished the activity.","class":"","name":"Congra"}],"background":"","name":"CongraGroup"},{"block":"group","class":"text-center p-5","content":[{"block":"finished","name":"finishedBlock"}],"background":"","name":"finishedGroup"}],"background":"","block":"group"},"FinalizeGroup":{"block":"group","class":"text-center mt-10","content":[{"block":"button","class":"mx-auto","to":"/end","text":"Finalize","name":"FinalizeBTN"}],"background":""}}}
+{
+    "title": "My Holidays",
+    "clock": true,
+    "countdown": 0,
+    "intro": {
+        "buttons": {
+            "start": "Start"
+        },
+        "content": [
+            {
+                "class": "h-80 w-full bg-center mb-4 rounded",
+                "content": [],
+                "background": "files/portada.jpg",
+                "id": "",
+                "block": "group",
+                "name": "UOXP"
+            }
+        ]
+    },
+    "activity": {
+        "scenes": [
+            {
+                "block": "scene",
+                "name": "SC1",
+                "countdown": 0,
+                "instructions": {
+                    "open": true,
+                    "content": [
+                        {
+                            "block": "group",
+                            "class": "flex gap-2 items-center",
+                            "content": [
+                                {
+                                    "block": "audio",
+                                    "class": "",
+                                    "file": "files/instruccion.mp3",
+                                    "wave": false,
+                                    "autoplay": false,
+                                    "id": "",
+                                    "name": "DsNm"
+                                },
+                                {
+                                    "block": "text",
+                                    "class": "",
+                                    "text": "The next video covers the content topics for this unit. Play it as many times as you need. Then listen carefully to the audio files below. The more you listen, the better you will do",
+                                    "id": "",
+                                    "name": "MWvk"
+                                }
+                            ],
+                            "background": "",
+                            "id": "",
+                            "name": "oaiu"
+                        }
+                    ]
+                },
+                "content": [
+                    {
+                        "block": "group",
+                        "class": "mx-auto max-w-xl",
+                        "content": [
+                            {
+                                "file": "files/video.mp4",
+                                "class": "",
+                                "poster": "files/poster.jpg",
+                                "id": "",
+                                "block": "video",
+                                "name": "Ubsy"
+                            }
+                        ],
+                        "background": "",
+                        "name": "xVGg",
+                        "hidden": false,
+                        "id": ""
+                    },
+                    {
+                        "symbol": "FinalizeGroup"
+                    }
+                ],
+                "id": ""
+            }
+        ]
+    },
+    "end": {
+        "buttons": {
+            "restart": false
+        },
+        "content": [
+            {
+                "symbol": "finishedAll"
+            }
+        ]
+    },
+    "symbols": {
+        "finishedAll": {
+            "class": "w-full",
+            "content": [
+                {
+                    "block": "group",
+                    "class": "bg-slate-100 rounded p-5 text-center w-full",
+                    "content": [
+                        {
+                            "block": "text",
+                            "text": "Congratulations, you finished the activity.",
+                            "class": "",
+                            "name": "Congra"
+                        }
+                    ],
+                    "background": "",
+                    "name": "CongraGroup"
+                },
+                {
+                    "block": "group",
+                    "class": "text-center p-5",
+                    "content": [
+                        {
+                            "block": "finished",
+                            "name": "finishedBlock"
+                        }
+                    ],
+                    "background": "",
+                    "name": "finishedGroup"
+                }
+            ],
+            "background": "",
+            "block": "group"
+        },
+        "FinalizeGroup": {
+            "block": "group",
+            "class": "text-center mt-10",
+            "content": [
+                {
+                    "block": "button",
+                    "class": "mx-auto",
+                    "to": "/end",
+                    "text": "Finalize",
+                    "name": "FinalizeBTN"
+                }
+            ],
+            "background": ""
+        }
+    },
+    "metadata": {
+        "sync": 0.3598507757122995
+    }
+}

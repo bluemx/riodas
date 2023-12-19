@@ -1,1 +1,226 @@
-{"title":"My holidays","clock":true,"countdown":0,"intro":{"buttons":{"start":"Start"},"content":[{"class":"h-80 w-full bg-center mb-4 rounded","content":[],"background":"files/portada.jpg","id":"","block":"group","name":"qESa"}]},"activity":{"scenes":[{"block":"scene","name":"SC1","countdown":0,"instructions":{"open":true,"content":[{"block":"group","class":"flex gap-2 items-center","content":[{"block":"audio","class":"","file":"files/A1-2U1L1EC-INS.mp3","wave":false,"autoplay":false,"id":"","name":"aKCb"},{"block":"text","class":"","text":"Match the following irregular verbs in base form to their pair in past form.","id":"","name":"RBJV"}]}]},"content":[{"block":"group","class":"","content":[{"class":"","content":[{"order":false,"class":"gap-3 p-5 max-w-xl mx-auto flex-wrap","group":"uno","content":[{"text":"Bought","class":"normal-case","id":"bought","block":"text","name":"tNlL"},{"text":"Came","class":"normal-case","id":"came","block":"text","name":"a64t"},{"text":"Cut","class":"normal-case","id":"cut","block":"text","name":"X40P"},{"text":"Did","class":"normal-case","id":"did","block":"text","name":"R0Xs"},{"text":"Drank","class":"normal-case","id":"drank","block":"text","name":"V77m"},{"text":"Drove","class":"normal-case","id":"drove","block":"text","name":"b8pU"},{"text":"Ate","class":"normal-case","id":"ate","block":"text","name":"RnQV"},{"text":"Got","class":"normal-case","id":"got","block":"text","name":"rBFz"},{"text":"Went","class":"normal-case","id":"went","block":"text","name":"cdK4"},{"text":"Had","class":"normal-case","id":"had","block":"text","name":"4Htj"},{"text":"Made","class":"normal-case","id":"made","block":"text","name":"NoVP"},{"text":"Put","class":"normal-case","id":"put","block":"text","name":"paqW"},{"text":"Read","class":"normal-case","id":"read","block":"text","name":"3JZt"},{"text":"Said","class":"normal-case","id":"said","block":"text","name":"hRpB"},{"text":"Saw","class":"normal-case","id":"saw","block":"text","name":"okR5"},{"text":"Took","class":"normal-case","id":"took","block":"text","name":"Z2ka"},{"text":"Thought","class":"normal-case","id":"thought","block":"text","name":"o9EO"},{"text":"Wrote","class":"normal-case","id":"wrote","block":"text","name":"YNre"}],"positive":"","evaluation":"","showResult":false,"id":"LP3z","block":"dragdrop","name":"68Bu","attempts":0}],"background":"","id":"cRRG","block":"group","name":"WPsx"},{"class":"grid grid-cols-3 md:grid-cols-6 text-center bg-gradient-to-r from-green-400 to-amber-400 p-2 rounded my-5","content":[{"symbol":"ze2P","texto.text":"Buy","ico.icon":"fxemoji:moneybag","drag.positive":"tNlL"},{"symbol":"ze2P","texto.text":"Come","ico.icon":"fxemoji:walking","drag.positive":"a64t"},{"symbol":"ze2P","texto.text":"Cut","ico.icon":"fxemoji:blackscissors","drag.positive":"X40P"},{"symbol":"ze2P","texto.text":"Do","ico.icon":"fxemoji:documenttextpicture","drag.positive":"R0Xs"},{"symbol":"ze2P","texto.text":"Drink","ico.icon":"fxemoji:cocktailglass","drag.positive":"V77m"},{"symbol":"ze2P","texto.text":"Drive","ico.icon":"fxemoji:recreationalvehicle","drag.positive":"b8pU"},{"symbol":"ze2P","texto.text":"Eat","ico.icon":"fxemoji:hamburger","drag.positive":"RnQV"},{"symbol":"ze2P","texto.text":"Get","ico.icon":"twemoji:wrapped-gift","drag.positive":"rBFz"},{"symbol":"ze2P","texto.text":"Go","ico.icon":"streamline-emojis:woman-walking-2","drag.positive":"cdK4"},{"symbol":"ze2P","texto.text":"Have","ico.icon":"icon-park:hold-interface","drag.positive":"4Htj"},{"symbol":"ze2P","texto.text":"Make","ico.icon":"fxemoji:birthdaycake","drag.positive":"NoVP"},{"symbol":"ze2P","texto.text":"Put","ico.icon":"fxemoji:down","drag.positive":"paqW"},{"symbol":"ze2P","texto.text":"Read","ico.icon":"fxemoji:document","drag.positive":"3JZt"},{"symbol":"ze2P","texto.text":"Say","ico.icon":"fxemoji:speakingheadinsilhouette","drag.positive":"hRpB"},{"symbol":"ze2P","texto.text":"See","ico.icon":"fxemoji:eyes","drag.positive":"okR5"},{"symbol":"ze2P","texto.text":"Take","ico.icon":"fxemoji:turnedokhand","drag.positive":"Z2ka"},{"symbol":"ze2P","texto.text":"Think","ico.icon":"twemoji:thinking-face","drag.positive":"o9EO"},{"symbol":"ze2P","texto.text":"Write","ico.icon":"fxemoji:leftwritinghand","drag.positive":"YNre"}],"background":"","id":"sAqf","block":"group","name":"OFEs"}],"background":"","name":"x6SL","hidden":false,"id":"qYKb"},{"symbol":"FinalizeGroup"}],"id":""}]},"end":{"buttons":{"restart":false},"content":[{"symbol":"finishedAll"}]},"symbols":{"finishedAll":{"class":"w-full","content":[{"block":"group","class":"bg-slate-100 rounded p-5 text-center w-full","content":[{"block":"text","text":"Congratulations, you finished the activity.","class":"","name":"Congra"}],"background":"","name":"CongraGroup"},{"block":"group","class":"text-center p-5","content":[{"block":"finished","name":"finishedBlock"}],"background":"","name":"finishedGroup"}],"background":"","block":"group"},"FinalizeGroup":{"block":"group","class":"text-center mt-10","content":[{"block":"button","class":"mx-auto","to":"/end","text":"Finalize","name":"FinalizeBTN"}],"background":""},"ze2P":{"class":"flex flex-col gap-1 flex-wrap items-center border-2 border-slate-100 my-2 p-2 rounded max-w-2xl mx-auto","content":[{"icon":"fxemoji:housewithgarden","class":"text-6xl","id":"ico","block":"icon","name":"eqNB"},{"text":"Buy","class":"","id":"texto","block":"text","name":"n2an"},{"order":false,"class":"","group":"uno","content":[],"positive":"OLPK","evaluation":"auto","showResult":false,"id":"drag","block":"dragdrop","name":"boQ2","attempts":0}],"background":"","id":"qoqGTyIL","block":"group"}},"attempts":0}
+{
+    "title": "My every day life",
+    "clock": true,
+    "countdown": 0,
+    "intro": {
+        "buttons": {
+            "start": "Start"
+        },
+        "content": []
+    },
+    "activity": {
+        "scenes": [
+            {
+                "countdown": 0,
+                "instructions": {
+                    "open": true,
+                    "content": [
+                        {
+                            "block": "group",
+                            "class": "flex gap-2 items-center",
+                            "content": [
+                                {
+                                    "block": "audio",
+                                    "class": "",
+                                    "file": "instruccion.mp3"
+                                },
+                                {
+                                    "block": "text",
+                                    "class": "",
+                                    "text": "Drag the correct answer to each gap."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "content": [
+                    {
+                        "block": "group",
+                        "class": "grid grid-cols-1 md:grid-cols-2 gap-2",
+                        "content": [
+                            {
+                                "block": "group",
+                                "class": "",
+                                "content": [
+                                    {
+                                        "symbol": "preg",
+                                        "t1.text": "1. My Mom ",
+                                        "d1.positive": [1],
+                                        "t2.text": " to school every day."
+                                    },
+                                    {
+                                        "symbol": "preg",
+                                        "t1.text": "2. Dad ",
+                                        "d1.positive": [2],
+                                        "t2.text": " breakfast for me and my sibblings."
+                                    },
+                                    {
+                                        "symbol": "preg",
+                                        "t1.text": "3. I ",
+                                        "d1.positive": [3],
+                                        "t2.text": " basketball three times a week."
+                                    },
+                                    {
+                                        "symbol": "preg",
+                                        "t1.text": "4. My friends ",
+                                        "d1.positive": [4],
+                                        "t2.text": " one week before each test."
+                                    },
+                                    {
+                                        "symbol": "preg",
+                                        "t1.text": "5. Grandma ",
+                                        "d1.positive": [5],
+                                        "t2.text": " cakes once a month."
+                                    },
+                                    {
+                                        "symbol": "preg",
+                                        "t1.text": "6. My sister ",
+                                        "d1.positive": [6],
+                                        "t2.text": " at 6:00 a.m. every morning."
+                                    }
+                                ]
+                            },
+                            {
+                                "block": "group",
+                                "class": "",
+                                "content": [
+                                    {
+                                        "name": "d2",
+                                        "block": "draggable",
+                                        "class": "h-full flex-col gap-3",
+                                        "group": "one",
+                                        "pull": "clone",
+                                        "put": false,
+                                        "sort": false,
+                                        "content": [
+                                            {
+                                                "id":1,
+                                                "block": "text",
+                                                "text": "drives"
+                                            },
+                                            {
+                                                "id":2,
+                                                "block": "text",
+                                                "text": "makes"
+                                            },
+                                            {
+                                                "id":3,
+                                                "block": "text",
+                                                "text": "play"
+                                            },
+                                            {
+                                                "id":4,
+                                                "block": "text",
+                                                "text": "study"
+                                            },
+                                            {
+                                                "id":5,
+                                                "block": "text",
+                                                "text": "bakes"
+                                            },
+                                            {
+                                                "id":6,
+                                                "block": "text",
+                                                "text": "wakes up"
+                                            }
+                                        ]
+                                      }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "block": "group",
+                        "class": "text-center w-100",
+                        "content": [
+                            {
+                                "block":"image", "class":"w-full max-w-4xl mx-auto",
+                                "file": "img.jpeg"
+                            }
+
+                        ]
+                    },
+                    {
+                        "block": "group",
+                        "class": "text-center mt-10",
+                        "content": [
+                            {
+                                "block": "button",
+                                "class": "mx-auto",
+                                "content": "Finalize",
+                                "to": "/end"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "end": {
+        "buttons": {
+            "restart": false
+        },
+        "content": [
+            {
+                "block": "group",
+                "class": "bg-slate-100 rounded p-5 text-center w-full text-neutral",
+                "content": [
+                    {
+                        "block": "text",
+                        "content": "Congratulations, you finished the activity."
+                    }
+                ]
+            },
+            {
+                "block": "group",
+                "class": "text-center p-5",
+                "content": [
+                    {
+                        "block": "finished"
+                    }
+                ]
+            }
+        ]
+    },
+    "symbols": {
+        "preg": {
+            "block": "group",
+            "content": [
+              {
+                "block": "group",
+                "class":" flex flex-wrap gap-1 items-center bg-slate-300 p-2 m-2 rounded",
+                "content": [
+                  {
+                    "name": "t1", 
+                    "block": "text",
+                    "class":"text-lg",
+                    "text": "Texto 1"
+                  },
+                  {
+                    "name": "d1",
+                    "block": "draggable",
+                    "class": "w-40 !h-12",
+                    "group": "one",
+                    "pull": true,
+                    "put": true,
+                    "sort": false,
+                    "evaluation": "auto",
+                    "content": [],
+                    "positive": [
+                        1
+                    ],
+                    "showResult": true,
+                    "attempts": 0
+                  },
+                  {
+                    "name": "t2",
+                    "block": "text",
+                    "class":"text-lg",
+                    "text": "Texto 2"
+                  }
+                ]
+              }
+            ]
+          }
+    }
+}
