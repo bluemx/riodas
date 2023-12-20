@@ -1,7 +1,7 @@
 <template>
 <div>
 <div ref="block" data="dragitem" :blockindex="blockindex" class="dragitem dragzone relative min-w-[20px] min-h-[20px]" :class="[ /*data.dropzones.replace('.',''),*/ data.class || '' ]">
-    <div :name="dragitemname" ref="dragitem" :class="[data.classitem||'btn btn-accent !transition-none text-neutral shadow-md shadow-slate-500/50 cursor-grab active:cursor-grabbing border-double border-b-4 border-neutral/50 relative flex justify-center items-center', dragging?'!fixed z-10':'']" >
+    <div :name="dragitemname" ref="dragitem" :class="[data.classitem||'btn btn-accent !transition-none text-neutral shadow-md shadow-slate-500/50 cursor-grab active:cursor-grabbing border-double border-b-4 border-neutral/50 relative flex justify-center items-center', dragging?'!fixed z-10':'', ' ring-white/80 ring-1']" >
         <iconify-icon v-if="!data.classitem" icon="solar:menu-dots-outline" class="absolute bottom-full text-slate-400"></iconify-icon>
         <Content :data="item" v-for="(item, index) in datacontent" :key="index" :blockindex="blockindex+'-'+index"></Content>
     </div>
