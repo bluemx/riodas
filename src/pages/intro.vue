@@ -51,13 +51,17 @@ window.parent.postMessage(JSON.stringify({datatype: 'intro'}), '*')
 
 const odapath = () => {
         const id = oda.odaID
-        const nivel = id.slice(0,4).replace('-','.')
-
-        if(nivel=='A1.1' || nivel=='A1.2' || nivel=='A2.1' || nivel=='A2.2' || nivel=='B1.1' || nivel=='B1.2' || nivel=='B2.1'  || nivel=='B2.2'){
-                const unidad = id.slice(5,6)
-                const leccion = id.slice(7,8)
-                const ejercicio = id.slice(9,10)
-                return 'Course ' + nivel + ' - Unit ' + unidad + ' - Lesson ' + leccion + ' - Exercise ' + ejercicio
+        if(id !== null){
+                const nivel = id.slice(0,4).replace('-','.')
+        
+                if(nivel=='A1.1' || nivel=='A1.2' || nivel=='A2.1' || nivel=='A2.2' || nivel=='B1.1' || nivel=='B1.2' || nivel=='B2.1'  || nivel=='B2.2'){
+                        const unidad = id.slice(5,6)
+                        const leccion = id.slice(7,8)
+                        const ejercicio = id.slice(9,10)
+                        return 'Course ' + nivel + ' - Unit ' + unidad + ' - Lesson ' + leccion + ' - Exercise ' + ejercicio
+                }
+        } else {
+                return ""
         }
 }
 
