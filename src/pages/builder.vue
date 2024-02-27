@@ -37,7 +37,7 @@
                 <Speaking @cancel="currentbuild = null" :data="hasdata"  :name="currentbuild.name" />
             </div>
             <div v-if="currentbuild.id=='rearrange'" class="p-5">
-                <Columnmatching @cancel="currentbuild = null" :data="hasdata"  :name="currentbuild.name" />
+                <Rearrangewords @cancel="currentbuild = null" :data="hasdata"  :name="currentbuild.name" />
             </div>
             <div v-if="currentbuild.id=='columnmatching'" class="p-5">
                 <Columnmatching @cancel="currentbuild = null" :data="hasdata"  :name="currentbuild.name" />
@@ -52,6 +52,7 @@ import { useOda } from "../store/oda.js"
 import Intro from './intro.vue'
 import Activity from "./activity.vue";
 import End from './end.vue'
+
 const oda = useOda()
 const maker = useMaker()
 

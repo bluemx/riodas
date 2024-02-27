@@ -1,37 +1,37 @@
 <template>
     <div v-show="!previewing">
-
         <builder-configs :data="initialConfiguration" @updated="configReady"></builder-configs>
 
-
+       
         <Transition>
             <div  v-if="configurationData">
-                <label class="block w-fit py-1 px-5 rounded-t bg-slate-200 mx-auto">Listening video from YouTube</label>
-                <div class="bg-slate-200 p-1 rounded bg-secondary">
-                    <input v-model="odablocks.url" class="block border-2 text-base bg-white p-2  border-secondary rounded w-full" placeholder="YouTube video url" />
-                </div>
-                
+
                 <div v-for="(item, index) in questions" :key="index" class="border-4 my-2 border-secondary/50 shadow-xl rounded p-4">
-                    <label class="block w-fit py-1 px-5 rounded-t bg-slate-200 mx-auto">Question</label>
-                    <div class="bg-slate-200 p-1 rounded bg-secondary">
-                        <input v-model="item.question" class="block border-2 text-xl bg-white p-2 font-bold border-secondary rounded w-full min-h-[32px] resize-none  max-h-40" placeholder="Write your question" />
+                    
+                    <label class="block w-fit py-1 px-5 rounded-t bg-slate-200 mx-auto">Row</label>
+                    <div class="bg-slate-200 p-1 rounded bg-secondary grid grid-cols-1 md:grid-cols-2 gap-2">
+                        <div class=" p-1 rounded bg-slate-200">
+                            <input v-model="item.definition" class="block border-2 border-info bg-white rounded w-full min-h-[32px] resize-none " placeholder="Definition" />
+                            <div class="text-xs text-neutral">Definition</div>
+                        </div>
+                        <div class=" p-1 rounded bg-success">
+                            <input v-model="item.matching" class="block border-2 border-info bg-white rounded w-full min-h-[32px] resize-none " placeholder="Text" />
+                            <div class="text-xs text-white">Matching text</div>
+                        </div>
                     </div>
-                    <label class="block w-fit py-1 px-5 rounded-t bg-slate-200 mx-auto mt-2">Choices</label>
-                    <div class="grid grid-cols-1 md:grid-cols-3 gap-2" :class="item.question.length>3 ? '': 'opacity-30'">
-                        <template v-for="(option, optionIndex) in item.options" :key="optionIndex">
-                            <div class=" p-1 rounded" :class="optionIndex==0?'bg-success':'bg-slate-200'">
-                                <input v-model="item.options[optionIndex]" class="block border-2 border-info bg-white rounded w-full min-h-[32px] resize-none " placeholder="Option" />
-                                <div v-if="optionIndex == 0" class="text-xs text-white">Write here the right answer</div>
-                            </div>
-                        </template>
-                    </div>
+                    <Transition>
+                        <div v-if="item.start && item.word && item.end">
+                            <div class="text-center my-2 text-3xl"><iconify-icon icon="solar:arrow-down-bold-duotone"></iconify-icon></div>
+                            <div class="bg-slate-300 mt-2 text-slate-500 text-center text-xl p-2 rounded">{{ item.start }} <strong class="underline underline-offset-4 text-primary">{{ item.word }}</strong> {{ item.end }}</div>
+                        </div>
+                        </Transition>
                     <div class="text-center" v-if="questions.length>1">
-                        <button @click="removeItem(index)" class="p-1 rounded bg-slate-100 text-rose-400 text-xs mt-2">Remove question</button>
+                        <button @click="removeItem(index)" class="p-1 rounded bg-slate-100 text-rose-400 text-xs mt-2">Remove row</button>
                     </div>    
                 </div>
 
                 <div class="text-center">
-                    <button @click="addNew" class="p-1 rounded bg-info text-white">Add question</button>
+                    <button @click="addNew" class="p-1 rounded bg-info text-white">Add row</button>
                     <div v-if="isready>0" class="text-xs mt-3 text-primary">{{isready}} field(s) remaining to be filled.</div>
                 </div>
                 <div class="grid grid-cols-2 text-center py-6 bg-slate-100 mt-10 rounded">
@@ -41,17 +41,19 @@
                             <span v-if="status=='new'">Publish</span>
                             <span v-if="status=='publishing'">Saving and publishing...</span>
                             <span v-if="status=='save'">Save changes</span>
-                        </button>
+                        </button>    
                     </div>
+                    
                 </div>
             </div>
         </Transition>
-        <div class="text-center mt-4"><button @click="FNCancel" class="p-1 rounded bg-slate-200">Close</button></div>
+        <div class="text-center mt-4"><button @click="FNCancel" class="p-1 rounded bg-slate-200">Cancel</button></div>
     </div>
     <div v-if="previewing">
         <iframe @load="FNUpdateOda()" ref="iframe" src="/#MAKER" class="w-[320px] md:w-[600px] lg:w-[800px] h-[600px]" frameborder="0"></iframe>
         <div class="text-center mt-4"><button @click="previewing = false" class="p-1 rounded bg-slate-200">Return</button></div>
     </div>
+
 </template>
 
 <script setup>
@@ -60,35 +62,31 @@ import defaultdoc from './builderobj.js'
 import deepdash from 'deepdash-es';
 deepdash(_)
 
-
 const props = defineProps({
     data: Object,
     name: String
 })
+
 const emits = defineEmits(['cancel', 'preview', 'save'])
 const status = ref('new')
 const previewing = ref(false)
 const iframe = ref()
 
-const questions = ref([])
-const odablocks = ref({
-    url: ''
-})
-
 const initialConfiguration = ref(
-    {instructions:'Watch the video and answer the questions.'}
+    {instructions:'Rearrange the words.'}
 )
 const configurationData = ref(null)
 
 
+const questions = ref([])
+
+
+
+
 const base = {
-    question: '',
-    options: ['','','']
+    definition: '',
+    matching: '',
 }
-
-
-
-
 
 
 
@@ -125,12 +123,11 @@ const FNPreview = () => {
     buildODA()
     previewing.value = true
  }
-const FNSave = () => {
-
+ const FNSave = () => {
     status.value = 'publishing'
-
     emits('save')
     buildODA()
+    console.log(props.data)
     const message = {
         datatype: 'Builder: '+props.name,
         title: configurationData.value.title,
@@ -144,14 +141,12 @@ const FNSave = () => {
     }
     const inps = {
         config: JSON.parse(JSON.stringify(message)),
-        odablocks: odablocks.value,
         questions: questions.value
     }
     message['inputs'] = inps
     const publishData = JSON.stringify(message)
     console.log(JSON.stringify(inps))
     window.parent.postMessage(publishData, "*");
-
     setTimeout(()=>{
         status.value = 'save'
     },500)
@@ -159,36 +154,53 @@ const FNSave = () => {
 
 
 
-
-
-const ytObject = {
-    "id": "r6Yv",
-    "url": "",
-    "class": "",
-    "block": "embedyt",
-    "name": "AR1g",
-    "hidden": false
-    }
+const definitionObject = {
+    "block": "text",
+    "class": "p-4 bg-slate-200 flex items-center",
+    "text": "Definition text..."
+}
+const matchObject = {
+    "text": "Words...",
+    "class": "normal-case",
+    "block": "text",
+    "name": ""
+}
 
 
 const questionObject = {
-    "block": "group", "class": "bg-slate-100 rounded p-5 text-center",
+    "block": "group",
+    "class": "bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto grid grid-cols-2 gap-1",
     "content": [
         {
-            "block": "text", "class": "text-neutral text-xl", "text": "{{que}}"
+            "class": "grid gap-3",
+            "content": [
+                
+            ],
+            "block": "group",
         },
         {
-            "options": [
-                { "text": "{{op1}}","block": "text" },
-                { "text": "{{op2}}","block": "text" },
-                { "text": "{{op3}}","block": "text"}
+            "order": true,
+            "class": "grid h-full gap-3 flex-col !justify-between",
+            "group": "uno",
+            "content": [
+                
             ],
-            "evaluation": "auto", "showResult": false, "block": "option", "attempts": 0
+            "positive": "",
+            "evaluation": "auto",
+            "showResult": false,
+            "id": "p8AI",
+            "block": "dragdrop",
+            "attempts": 0
         }
     ]
 }
 
 
+const getRandomCharacters=_=>"xxxx".replace(/x/g,_=>"0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"[Math.random()*62|0]);
+
+const shuffle = (array) => {
+  return array.sort(() => Math.random() - 0.5);
+}
 
 const odaObject = ref()
 const buildODA = () => {
@@ -196,23 +208,28 @@ const buildODA = () => {
     defdoc.title = configurationData.value.title
     defdoc.attempts = configurationData.value.attempts
     defdoc.activity.scenes[0].instructions.content[0].content[0].text = configurationData.value.instructions
-    
-
-    let qoYT = JSON.parse(JSON.stringify(ytObject))
-    qoYT.url = odablocks.value.url
-    defdoc.activity.scenes[0].content[0].content.push(qoYT)
-    
+    let qo = JSON.parse(JSON.stringify(questionObject))
     for(var q of questions.value){
-        let qo = JSON.parse(JSON.stringify(questionObject))
-        qo.content[0].text = q.question
-        qo.content[1].options[0].text = q.options[0]
-        qo.content[1].options[1].text = q.options[1]
-        qo.content[1].options[2].text = q.options[2]
-        defdoc.activity.scenes[0].content[0].content.push(qo)
+        let deObj = JSON.parse(JSON.stringify(definitionObject))
+        let maObj = JSON.parse(JSON.stringify(matchObject))
+
+        deObj.text = q.definition
+        maObj.text = q.matching
+        maObj.name = getRandomCharacters()
+
+
+        qo.content[0].content.push(deObj)
+
+        qo.content[1].content.push(maObj)
+        qo.content[1].positive +=maObj.name+','
     }
-
+    
+    // FIXME:
+    qo.content[1].content = shuffle(JSON.parse(JSON.stringify(qo.content[1].content)))
+    qo.content[1].positive = qo.content[1].positive.replace(/,\s*$/, '')
+    console.log(qo.content[1].positive)
+    defdoc.activity.scenes[0].content[0].content.push(qo)
     odaObject.value = defdoc
-
 }
 
 
@@ -249,15 +266,15 @@ if(props.data){
 }
 
 onMounted(() => {
+  //DEBUG
+  //title.value = "Debug title"
+  //questions.value[0]= {start: 'Beginning ', word: 'missing', end: 'End.' }
 
-
-    if(!props.data) {
+  if(!props.data) {
         // Is new
         addNew()  
         
     }
-
-
 })
 
 </script>

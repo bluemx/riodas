@@ -143,6 +143,7 @@ const FNPreview = () => {
         attempts: configurationData.value.attempts,
         startDate: configurationData.value.startDate,
         endDate: configurationData.value.endDate,
+        isExtra: 1
     }
     const inps = {
         config: JSON.parse(JSON.stringify(message)),

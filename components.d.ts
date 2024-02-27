@@ -55,6 +55,7 @@ declare module '@vue/runtime-core' {
     Option: typeof import('./src/components/blocks/option.vue')['default']
     Preguntasdiagnostico: typeof import('./src/components/blocks/preguntasdiagnostico.vue')['default']
     Reading: typeof import('./src/components/builder/reading.vue')['default']
+    Rearrangewords: typeof import('./src/components/builder/rearrangewords.vue')['default']
     Record: typeof import('./src/components/blocks/record.vue')['default']
     Repeater: typeof import('./src/components/blocks/repeater.vue')['default']
     RestartButton: typeof import('./src/components/all/RestartButton.vue')['default']

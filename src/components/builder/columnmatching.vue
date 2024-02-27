@@ -137,6 +137,7 @@ const FNPreview = () => {
         attempts: configurationData.value.attempts,
         startDate: configurationData.value.startDate,
         endDate: configurationData.value.endDate,
+        isExtra: 1
     }
     const inps = {
         config: JSON.parse(JSON.stringify(message)),
@@ -179,7 +180,7 @@ const questionObject = {
         },
         {
             "order": true,
-            "class": "grid h-full gap-3",
+            "class": "grid h-full gap-3 flex-col !justify-between",
             "group": "uno",
             "content": [
                 

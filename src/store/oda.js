@@ -23,7 +23,8 @@ export const useOda = defineStore({
         dynamicOdaData: null,
         leveltemp:null,
         leveldescriptiontemp:null,
-        nextscene: null
+        nextscene: null,
+        isExtra: null
     }),
     getters: {
         getOda(){
@@ -289,6 +290,7 @@ export const useOda = defineStore({
                 }
             });
 
+            this.isExtra = 1;
             const tout = window.location.href.includes('localhost') ? 0 : 500
             setTimeout(()=>{
                     this.oda = odadocument.value

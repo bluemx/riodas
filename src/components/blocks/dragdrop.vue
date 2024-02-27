@@ -1,7 +1,7 @@
 <template>
 
 <div data="dragdrop" v-if="ready">
-    <div ref="block" :class="[blocks.freeze.value ? 'pointer-events-none':' ', 'relative']">
+    <div ref="block" :class="[blocks.freeze.value ? 'pointer-events-none':' ', 'relative', data.class.includes('flex-col')?'h-full':'']">
     <Container
         :orientation="data.class.includes('flex-col')?'vertical':'horizontal'"
         :group-name="data.group || 'basegroup'"
