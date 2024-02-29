@@ -24,6 +24,8 @@
 </template>
 <script setup>
 import { useOda } from "../../store/oda.js"
+
+
 const oda = useOda()
 const props = defineProps({
     data: Object,
@@ -33,12 +35,12 @@ const video = ref()
 
 
 const filepath = computed(()=>{
-  return props.data.file.includes('http')? props.data.file : '/ODAS/'+oda.odaID+'/'+props.data.file
+  return props.data.file.includes('http')? props.data.file : oda.baseurl+'/ODAS/'+oda.odaID+'/'+props.data.file
 })
 
 
 const posterpath = computed(()=>{
-  const post = props.data.poster.includes('http')? props.data.poster : '/ODAS/'+oda.odaID+'/'+props.data.poster  
+  const post = props.data.poster.includes('http')? props.data.poster : oda.baseurl+'/ODAS/'+oda.odaID+'/'+props.data.poster  
   return post
 })
 

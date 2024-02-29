@@ -5,39 +5,23 @@
        
         <Transition>
             <div  v-if="configurationData">
-
-                <div v-for="(item, index) in questions" :key="index" class="border-4 my-2 border-secondary/50 shadow-xl rounded p-4">
-                    
-                    <label class="block w-fit py-1 px-5 rounded-t bg-slate-200 mx-auto">Row</label>
-                    <div class="bg-slate-200 p-1 rounded bg-secondary grid grid-cols-1 md:grid-cols-2 gap-2">
-                        <div class=" p-1 rounded bg-slate-200">
-                            <input v-model="item.definition" class="block border-2 border-info bg-white rounded w-full min-h-[32px] resize-none " placeholder="Definition" />
-                            <div class="text-xs text-neutral">Definition</div>
-                        </div>
-                        <div class=" p-1 rounded bg-success">
-                            <input v-model="item.matching" class="block border-2 border-info bg-white rounded w-full min-h-[32px] resize-none " placeholder="Text" />
-                            <div class="text-xs text-white">Matching text</div>
-                        </div>
-                    </div>
-                    <Transition>
-                        <div v-if="item.start && item.word && item.end">
-                            <div class="text-center my-2 text-3xl"><iconify-icon icon="solar:arrow-down-bold-duotone"></iconify-icon></div>
-                            <div class="bg-slate-300 mt-2 text-slate-500 text-center text-xl p-2 rounded">{{ item.start }} <strong class="underline underline-offset-4 text-primary">{{ item.word }}</strong> {{ item.end }}</div>
-                        </div>
-                        </Transition>
-                    <div class="text-center" v-if="questions.length>1">
-                        <button @click="removeItem(index)" class="p-1 rounded bg-slate-100 text-rose-400 text-xs mt-2">Remove row</button>
-                    </div>    
+                <label class="block w-fit py-1 px-5 rounded-t bg-slate-200 mx-auto">Write a sentence</label>
+                <div class="border-4 border-slate-200 shadow-xl rounded p-4">
+                    <input v-model="sentence" class="block border-2 border-info bg-white rounded w-full min-h-[32px] resize-none font-bold" placeholder="Write a sentence." />
                 </div>
-
-                <div class="text-center">
-                    <button @click="addNew" class="p-1 rounded bg-info text-white">Add row</button>
-                    <div v-if="isready>0" class="text-xs mt-3 text-primary">{{isready}} field(s) remaining to be filled.</div>
+                <label class="block w-fit mt-5 py-1 px-5 rounded-t bg-slate-200 mx-auto">{{sentenceSplit.length}} words in the sentence</label>
+                <div class="flex flex-wrap gap-1 justify-center items-center max-w-full  bg-slate-200 p-4 rounded">
+                    <template v-for="(item, index) in sentenceSplit" :key="index">
+                        <div class="bg-amber-300 px-4 py-1 rounded border-2 border-white shadow">{{ item }}</div>
+                    </template>
                 </div>
+                
+
+                
                 <div class="grid grid-cols-2 text-center py-6 bg-slate-100 mt-10 rounded">
-                    <div><button :disabled="isready>0" @click="FNPreview" class="p-1 rounded bg-secondary text-white disabled:opacity-20">Preview</button></div>
+                    <div><button :disabled="!isready" @click="FNPreview" class="p-1 rounded bg-secondary text-white disabled:opacity-20">Preview</button></div>
                     <div>
-                        <button :disabled="isready>0"  @click="FNSave" class="p-1 rounded bg-success text-white disabled:opacity-20">
+                        <button :disabled="!isready"  @click="FNSave" class="p-1 rounded bg-success text-white disabled:opacity-20">
                             <span v-if="status=='new'">Publish</span>
                             <span v-if="status=='publishing'">Saving and publishing...</span>
                             <span v-if="status=='save'">Save changes</span>
@@ -71,6 +55,14 @@ const emits = defineEmits(['cancel', 'preview', 'save'])
 const status = ref('new')
 const previewing = ref(false)
 const iframe = ref()
+const sentence = ref('')
+const sentenceSplit = computed(() => {
+    if (sentence.value && sentence.value.trim() !== '') {
+        return sentence.value.trim().split(' ');
+    } else {
+        return [];
+    }
+});
 
 const initialConfiguration = ref(
     {instructions:'Rearrange the words.'}
@@ -109,13 +101,7 @@ const removeItem = (index) => {
 
 
 const isready = computed(()=>{
-    let empties = 0
-    _.eachDeep(questions.value, (valueD, keyD, parentD, ctxD) => {
-        if(valueD == ''){
-            empties++
-        }
-    })
-    return empties
+    return sentenceSplit.value.length > 2
 })
 
 const FNCancel = () => { emits('cancel') }
@@ -154,46 +140,43 @@ const FNPreview = () => {
 
 
 
-const definitionObject = {
-    "block": "text",
-    "class": "p-4 bg-slate-200 flex items-center",
-    "text": "Definition text..."
-}
-const matchObject = {
-    "text": "Words...",
+
+const wordObject = {
+    "text": "Hello",
     "class": "normal-case",
     "block": "text",
+    "id": "",
     "name": ""
 }
 
 
 const questionObject = {
-    "block": "group",
-    "class": "bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto grid grid-cols-2 gap-1",
-    "content": [
-        {
-            "class": "grid gap-3",
-            "content": [
-                
-            ],
             "block": "group",
-        },
-        {
-            "order": true,
-            "class": "grid h-full gap-3 flex-col !justify-between",
-            "group": "uno",
+            "class": "bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto",
             "content": [
-                
+              {
+                "order": true,
+                "class": "gap-1 justify-center flex w-full mx-auto",
+                "group": "uno",
+                "content": [
+                  
+                ],
+                "positive": "",
+                "evaluation": "auto",
+                "showResult": false,
+                "id": "rearrbuilder",
+                "block": "dragdrop",
+                "name": "rearrbuilder",
+                "attempts": 0,
+                "shuffle": true
+              }
             ],
-            "positive": "",
-            "evaluation": "auto",
-            "showResult": false,
-            "id": "p8AI",
-            "block": "dragdrop",
-            "attempts": 0
-        }
-    ]
-}
+            "background": "",
+            "name": "jzoE",
+            "hidden": false,
+            "marker": "rearranger",
+            "id": ""
+          }
 
 
 const getRandomCharacters=_=>"xxxx".replace(/x/g,_=>"0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"[Math.random()*62|0]);
@@ -209,25 +192,27 @@ const buildODA = () => {
     defdoc.attempts = configurationData.value.attempts
     defdoc.activity.scenes[0].instructions.content[0].content[0].text = configurationData.value.instructions
     let qo = JSON.parse(JSON.stringify(questionObject))
-    for(var q of questions.value){
-        let deObj = JSON.parse(JSON.stringify(definitionObject))
-        let maObj = JSON.parse(JSON.stringify(matchObject))
-
-        deObj.text = q.definition
-        maObj.text = q.matching
-        maObj.name = getRandomCharacters()
+    let positivevalue = ""
+    for(var q in sentenceSplit.value){
+        let wordObj = JSON.parse(JSON.stringify(wordObject))
 
 
-        qo.content[0].content.push(deObj)
+        wordObj.text = sentenceSplit.value[q]
+        wordObj.name = 's'+q
+        positivevalue += 's'+q+','
 
-        qo.content[1].content.push(maObj)
-        qo.content[1].positive +=maObj.name+','
+        qo.content[0].content.push(wordObj)
     }
+    if (positivevalue.endsWith(',')) {
+        positivevalue = positivevalue.slice(0, -1); // Remove the last comma
+    }
+    qo.content[0].positive += positivevalue
     
-    // FIXME:
-    qo.content[1].content = shuffle(JSON.parse(JSON.stringify(qo.content[1].content)))
-    qo.content[1].positive = qo.content[1].positive.replace(/,\s*$/, '')
-    console.log(qo.content[1].positive)
+    
+
+    //qo.content[0].content = shuffle(JSON.parse(JSON.stringify(qo.content[1].content)))
+    //qo.content[0].positive = qo.content[1].positive.replace(/,\s*$/, '')
+    
     defdoc.activity.scenes[0].content[0].content.push(qo)
     odaObject.value = defdoc
 }

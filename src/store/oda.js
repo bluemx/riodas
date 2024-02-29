@@ -12,6 +12,8 @@ export const useOda = defineStore({
     state: ()=> ({
         odaID: useStorage('rioda_ID', null),
         oda: null,
+        customerID: 0,
+        activityID:0,
         user: null,
         odaloaded: false,
         freeze: false,
@@ -24,7 +26,8 @@ export const useOda = defineStore({
         leveltemp:null,
         leveldescriptiontemp:null,
         nextscene: null,
-        isExtra: null
+        isExtra: null,
+        baseurl: import.meta.env.BASE_URL !=='/' ? import.meta.env.BASE_URL : ''
     }),
     getters: {
         getOda(){
@@ -165,8 +168,16 @@ export const useOda = defineStore({
         }
     },
     actions: {
-        setOdaID (id){
-            this.odaID = id
+        setOdaID (stringID){
+            //this.odaID = id
+            let parts = stringID.split('|');
+            this.odaID = parts[0];
+            this.customerID = 0;
+            this.activityID = 0;
+            if (parts.length > 1) {
+                this.customerID = parseInt(parts[1]);
+                this.activityID = parseInt(parts[2]);
+            }
         },
         setUserData (data){
             const decodeData = JSON.parse(window.atob(data))

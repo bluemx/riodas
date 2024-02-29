@@ -13,6 +13,7 @@
 <script setup>
 import { useRoute, useRouter } from 'vue-router';
 import { useOda } from "../../store/oda.js"
+
 const oda = useOda()
 const route = useRoute()
 const router = useRouter()
@@ -57,7 +58,7 @@ const buildData = () => {
     loading.value = false
 }
 const loadFile = async () => {
-    const response = await fetch('/ODAS/'+oda.odaID+'/'+props.data.file)
+    const response = await fetch(oda.baseurl+'/ODAS/'+oda.odaID+'/'+props.data.file)
     const file = await response.json()
     content.value = file
     buildData()

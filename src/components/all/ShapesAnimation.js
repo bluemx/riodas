@@ -180,7 +180,6 @@ const working = (parent) => {
 
 
 const playkeep = (parent, shapes, centered) => {
-  console.log('playkeep!')
     const theparent = parent || document.body;
     const theshapes = shapes || ['Outline1','Outline2','Outline3','Outline4','Outline5','Outline6', "donut", "cross", "slice"];
     const RADIUS = 16;
@@ -247,7 +246,8 @@ const playkeep = (parent, shapes, centered) => {
     symbol.el.style.zIndex=10;
     if(shapes[0]=='positive'){
       timeline.add(circle, circlebg,  symbol, burst);
-    } else {
+    } if(shapes[0]=='neutral'){
+    }else {
       timeline.add(circle);
     }
   

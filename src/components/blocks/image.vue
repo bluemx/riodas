@@ -5,6 +5,7 @@
 </template>
 <script setup>
 import { useOda } from "../../store/oda.js"
+
 const oda = useOda()
 const props = defineProps({
     data: Object,
@@ -13,7 +14,7 @@ const props = defineProps({
 
 const filepath = computed(()=>{
     if(props.data.file){
-      return props.data.file.includes('http')? props.data.file : '/ODAS/'+oda.odaID+'/'+props.data.file
+      return props.data.file.includes('http')? props.data.file :oda.baseurl+'/ODAS/'+oda.odaID+'/'+props.data.file
     } else {
       return false
     }

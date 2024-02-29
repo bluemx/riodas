@@ -40,7 +40,7 @@ const cssbackgroundFN = () => {
         } else {
             //Local
             
-            const localimage = '/ODAS/'+oda.odaID+'/'+bg
+            const localimage =oda.baseurl+'/ODAS/'+oda.odaID+'/'+bg
             block.value.style.backgroundImage = "url(" + localimage + ")";
         }
     }

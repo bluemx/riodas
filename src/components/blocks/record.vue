@@ -84,6 +84,8 @@ const isRecording = ref(false)
 const recordingTimelimit = ref(5)
 const recordingProgress = ref(0)
 const recordingTimer = ref()
+const recordingDuration = ref(0)
+const recordingDurationTimer = ref()
 
 // RECORD
 const audiorecordedBlob = ref(null)
@@ -182,9 +184,12 @@ const startRecord = () => {
             clearInterval(recordingTimer.value)
         }
     },250)
+    recordingDurationTimer.value = setInterval(()=>{recordingDuration.value+=100}, 100)
 }
 
 const stopRecord = async () => {
+    clearInterval(recordingDurationTimer.value)
+    recordingDuration.value = recordingDuration.value/1000
     FNS.stopRecord().then(thedata => {
         audiorecordedBlob.value = thedata.blob
         audioPlayerStart()
@@ -227,15 +232,22 @@ const verify = async () => {
     loading.value = true
     errorVerification.value = null
     try{
-        //const res = await axios.post('https://bluetest.mx/reCreaIngles/gateway/api/Audio', {
-        const res = await axios.post('https://recreaingles.jalisco.gob.mx/gateway/api/Audio', {
+
+        const requestData = {
             "text": props.data.positive,
-            "recording": audiorecordedWav.value
-        }, {
+            "recording": audiorecordedWav.value,
+            "num_seconds": Math.ceil(recordingDuration.value),
+            "customerid": oda.customerID,
+            "activityid": oda.activityID
+        }
+        console.log(requestData)
+
+        const res = await axios.post('https://recreaingles.jalisco.gob.mx/gateway/api/Audio', requestData, {
             headers: {"X-API-KEYA": "UikgoDyBKWrhsWF7y2qa4wLSbDFLPeSqYBYX0rTPTEzjCGZWUy17BHLI7956HLASOGAEVPEQWEWesI3tEshNcbyB4pyCPgZU0dC9UWhwwANF2h0NIwdmKei5L6RHqTM4HXPfK3MI"}
         })
         const data = res.data
-
+        
+        
         if(data?.data){
             loading.value = false
             blocks.result.value = data.data.score > 90
@@ -278,6 +290,9 @@ onMounted(() => {
     } else {
         blocks.evaluateFN(null)
     }
+    console.log('GETTING!')
+    console.log(localStorage.getItem('customerid'))
+    console.log(localStorage.getItem('activityid'))
 })
 
 </script>
