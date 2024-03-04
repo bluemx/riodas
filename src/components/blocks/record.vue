@@ -2,9 +2,6 @@
 
 <div ref="block" :blockindex="blockindex" :class="[' bg-slate-50 p-0.5 rounded relative  text-center min-w-[280px]']">
     <AudiorecordRecBtn :key="blockindex+'-audiorecordbtn'" v-if="!blocks.freeze.value && verifyTimes>0" class="mx-auto" :isrecording="FNS.isrecording.value" @start="startRecord" @stop="stopRecord"></AudiorecordRecBtn>
-
-    
-
     <div class="flex flex-wrap gap-0.5 items-center justify-center" ref="blockAnimationContainer">
         
 
@@ -240,7 +237,7 @@ const verify = async () => {
             "customerid": oda.customerID,
             "activityid": oda.activityID
         }
-        console.log(requestData)
+
 
         const res = await axios.post('https://recreaingles.jalisco.gob.mx/gateway/api/Audio', requestData, {
             headers: {"X-API-KEYA": "UikgoDyBKWrhsWF7y2qa4wLSbDFLPeSqYBYX0rTPTEzjCGZWUy17BHLI7956HLASOGAEVPEQWEWesI3tEshNcbyB4pyCPgZU0dC9UWhwwANF2h0NIwdmKei5L6RHqTM4HXPfK3MI"}
@@ -279,6 +276,7 @@ onMounted(() => {
     FNS.checkPermission()
 
     const blockdata = blocks.initFN(oda, props.data, props.blockindex, block.value)
+
     if(blockdata && blockdata?.v!=null){
 
         //input.value = blockdata.v
@@ -290,9 +288,6 @@ onMounted(() => {
     } else {
         blocks.evaluateFN(null)
     }
-    console.log('GETTING!')
-    console.log(localStorage.getItem('customerid'))
-    console.log(localStorage.getItem('activityid'))
 })
 
 </script>

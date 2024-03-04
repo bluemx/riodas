@@ -64,6 +64,7 @@ export function useMaker () {
         if(data.type == 'student-inputs'){
             $toast.open({message:'Loading student data', type:'info', duration:600});
             setTimeout(()=>{    
+                console.log(atob(data.inputs))
                 const inputs = JSON.parse(atob(data.inputs))
                 const decodeData = JSON.parse(window.atob(data.inputs))
                 decodeData.location = '/intro'

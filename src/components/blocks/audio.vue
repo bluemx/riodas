@@ -5,7 +5,7 @@
         <iconify-icon icon="solar:stop-circle-line-duotone" :class="['absolute text-4xl', playing?'repeat-infinite animate-pulse duration-500 ease-in-out':'animate-out fade-out fill-mode-forwards']"></iconify-icon>
     </button>
     <div v-if="data.wave" ref="blockwave" class="flex-grow bg-white rounded p-2 min-w-[200px] w-full"></div>
-
+    
 </div>
 </template>
 <script setup>
