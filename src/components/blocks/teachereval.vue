@@ -36,16 +36,12 @@
           <iconify-icon icon="solar:user-check-linear" class="text-2xl"></iconify-icon>
         </button>
         <template #popper="{hide}">
-          <div class="flex  justify-center items-center bg-info rounded p-2 text-slate-600 text-center" v-if="oda.teacherFreeze">
+          <div class="flex  justify-center items-center bg-purple-500 rounded p-2 text-white text-center" v-if="oda.teacherFreeze">
             <div v-if="text!==null" class="flex gap-2 items-center">
               <iconify-icon icon="solar:dialog-2-bold-duotone"> </iconify-icon>
               <div>{{ text }}</div>
             </div>
-            <!--
-            <div v-if="!toggle" class=" text-slate-600">
-              <iconify-icon icon="solar:dislike-bold"> </iconify-icon>
-            </div>
-            -->
+
           </div>
         </template>
 
@@ -56,7 +52,6 @@
         </div>
     </template>
 
-  
 
   </div>
 
@@ -77,6 +72,7 @@ const isright = ref()
 const teachericon = ref()
 const viewtextarea = ref(false)
 
+
 const onChange = () => {
   
   if (toggle.value) {
@@ -89,26 +85,26 @@ const setInputs = () => {
   oda.setTeacherInput(props.blockindex, toggle.value, text.value)
 }
 
-
-
 if(oda.teacher?.inputs){
   const initialData =  oda.teacher?.inputs[props.blockindex]
+  console.log(initialData, props.blockindex)
   if (initialData) {
     toggle.value = initialData.r
     text.value = (initialData.v && initialData.v.length>0) ? initialData.v : null
-    console.log('iD:::', initialData, text.value)
 
-    if (toggle.value) {
-
+    if (toggle.value && oda.teacherFreeze) {
       setTimeout(()=>{
-        ShapesAnimation.playkeep(teachericon.value, ['positive'])
+          ShapesAnimation.playkeep(teachericon.value, ['positive'])
       }, 1000)
     }
+    
   }
 }
 
 onMounted(() => {
   setInputs()
+  
+
   
 })
 

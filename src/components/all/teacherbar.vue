@@ -1,5 +1,5 @@
 <template>
-<div ref="block" class="teacherbar overflow-clip bg-info text-white rounded p-10 text-center flex justify-center flex-col items-center text-xl mt-5 shadow-2xl drop-shadow-2xl">
+<div ref="block" class="teacherbar overflow-clip bg-purple-500 text-white rounded p-10 text-center flex justify-center flex-col items-center text-xl mt-5 shadow-2xl drop-shadow-2xl">
     <div>
         Out of the 
         <span class="text-white/70 dark:text-white/80">{{getTeacherInputs.total}} questions</span>, you marked 

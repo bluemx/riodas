@@ -54,7 +54,7 @@ export function useMaker () {
             if(!setattempts){return false}
             if(setattempts == 99){
                 oda.odaAttemptsLimit = 99
-                console.log('att', oda.odaAttemptsLimit)
+                //console.log('att', oda.odaAttemptsLimit)
             } else {
                 oda.odaAttempts = setattempts
             }
@@ -64,14 +64,12 @@ export function useMaker () {
         if(data.type == 'student-inputs'){
             $toast.open({message:'Loading student data', type:'info', duration:600});
             setTimeout(()=>{    
-                console.log(atob(data.inputs))
                 const inputs = JSON.parse(atob(data.inputs))
                 const decodeData = JSON.parse(window.atob(data.inputs))
                 decodeData.location = '/intro'
                 oda.user = decodeData
                 oda.userWaiting = decodeData
                 //router.push('/intro')
-                console.log(oda.userWaiting)
             }, 700)
         }
         if(data.type == 'teacher-inputs'){

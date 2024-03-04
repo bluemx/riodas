@@ -115,7 +115,7 @@ export const useOda = defineStore({
                 if(this.teacher.inputs[key].r == true){
                     positive++
                 }
-                if(this.teacher.inputs[key].v != ""){
+                if(this.teacher.inputs[key].v && this.teacher.inputs[key].v.length>0 && this.teacher.inputs[key].v != ""){
                     comments++
                 }
             })

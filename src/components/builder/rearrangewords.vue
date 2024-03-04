@@ -6,16 +6,23 @@
         <Transition>
             <div  v-if="configurationData">
                 <label class="block w-fit py-1 px-5 rounded-t bg-slate-200 mx-auto">Write a sentence</label>
-                <div class="border-4 border-slate-200 shadow-xl rounded p-4">
-                    <input v-model="sentence" class="block border-2 border-info bg-white rounded w-full min-h-[32px] resize-none font-bold" placeholder="Write a sentence." />
-                </div>
-                <label class="block w-fit mt-5 py-1 px-5 rounded-t bg-slate-200 mx-auto">{{sentenceSplit.length}} words in the sentence</label>
-                <div class="flex flex-wrap gap-1 justify-center items-center max-w-full  bg-slate-200 p-4 rounded">
-                    <template v-for="(item, index) in sentenceSplit" :key="index">
-                        <div class="bg-amber-300 px-4 py-1 rounded border-2 border-white shadow">{{ item }}</div>
-                    </template>
-                </div>
                 
+                <div class="border-4 border-slate-200 shadow-xl rounded p-4" v-for="(sItem, sIndex) in sentences" :key="sIndex">
+                    <input v-model="sItem.text" class="block border-2 border-info bg-white rounded w-full min-h-[32px] resize-none font-bold" placeholder="Write a sentence." />
+                    <div class="flex mt-1 flex-wrap gap-1 justify-center items-center max-w-full  bg-slate-200 p-4 rounded">
+                        <template v-for="(item, index) in sSplit(sItem.text)" :key="index">
+                            <div class="bg-amber-300 px-4 py-1 rounded border-2 border-white shadow">{{ item }}</div>
+                        </template>
+                    </div>
+                    <label class="block w-fit py-1 px-5 rounded-b bg-slate-200 mx-auto text-xs">{{sSplit(sItem.text).length}} words.</label>
+                    
+                    <button v-if="sentences.length>1" class="text-bold p-1 mt-1 text-red-400 text-warning text-sm" @click="deleteSentence(sIndex)">Delete sentence</button>
+                </div>
+
+
+                <div class="my-5">
+                    <button class="text-bold p-2 bg-info rounded hover:bg-warning" @click="addSentence">Add sentence</button>
+                </div>
 
                 
                 <div class="grid grid-cols-2 text-center py-6 bg-slate-100 mt-10 rounded">
@@ -55,6 +62,7 @@ const emits = defineEmits(['cancel', 'preview', 'save'])
 const status = ref('new')
 const previewing = ref(false)
 const iframe = ref()
+const sentences = ref([{text:''}])
 const sentence = ref('')
 const sentenceSplit = computed(() => {
     if (sentence.value && sentence.value.trim() !== '') {
@@ -64,6 +72,15 @@ const sentenceSplit = computed(() => {
     }
 });
 
+const sSplit = (text) => {
+    if (text && text.trim() !== '') {
+        return text.trim().split(' ');
+    } else {
+        return [];
+    }
+}
+
+
 const initialConfiguration = ref(
     {instructions:'Rearrange the words.'}
 )
@@ -72,7 +89,8 @@ const configurationData = ref(null)
 
 const questions = ref([])
 
-
+const addSentence = () =>{ sentences.value.push({text:''}) }
+const deleteSentence = (index) =>{ sentences.value.splice(index, 1) }
 
 
 const base = {
@@ -101,7 +119,13 @@ const removeItem = (index) => {
 
 
 const isready = computed(()=>{
-    return sentenceSplit.value.length > 2
+    let nonempty = true
+    for(var s in sentences.value){
+        if(sentences.value[s].text==""){
+            nonempty = false
+        }
+    }
+    return nonempty
 })
 
 const FNCancel = () => { emits('cancel') }
@@ -113,7 +137,7 @@ const FNPreview = () => {
     status.value = 'publishing'
     emits('save')
     buildODA()
-    console.log(props.data)
+
     const message = {
         datatype: 'Builder: '+props.name,
         title: configurationData.value.title,
@@ -131,7 +155,7 @@ const FNPreview = () => {
     }
     message['inputs'] = inps
     const publishData = JSON.stringify(message)
-    console.log(JSON.stringify(inps))
+
     window.parent.postMessage(publishData, "*");
     setTimeout(()=>{
         status.value = 'save'
@@ -139,37 +163,38 @@ const FNPreview = () => {
 }
 
 
-
-
 const wordObject = {
-    "text": "Hello",
-    "class": "normal-case",
-    "block": "text",
-    "id": "",
-    "name": ""
+        "text": "Hello",
+        "class": "normal-case",
+        "block": "text",
+        "id": "",
+        "name": ""
+    }
+
+const sentObject = {
+    "order": true,
+    "class": "gap-1 justify-center flex w-full mx-auto mt-3",
+    "group": "uno",
+    "content": [
+    
+    ],
+    "positive": "",
+    "evaluation": "auto",
+    "showResult": false,
+    "id": "rearrbuilder",
+    "block": "dragdrop",
+    "name": "rearrbuilder",
+    "attempts": 0,
+    "shuffle": true
 }
+
 
 
 const questionObject = {
             "block": "group",
             "class": "bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto",
             "content": [
-              {
-                "order": true,
-                "class": "gap-1 justify-center flex w-full mx-auto",
-                "group": "uno",
-                "content": [
-                  
-                ],
-                "positive": "",
-                "evaluation": "auto",
-                "showResult": false,
-                "id": "rearrbuilder",
-                "block": "dragdrop",
-                "name": "rearrbuilder",
-                "attempts": 0,
-                "shuffle": true
-              }
+              
             ],
             "background": "",
             "name": "jzoE",
@@ -192,27 +217,31 @@ const buildODA = () => {
     defdoc.attempts = configurationData.value.attempts
     defdoc.activity.scenes[0].instructions.content[0].content[0].text = configurationData.value.instructions
     let qo = JSON.parse(JSON.stringify(questionObject))
-    let positivevalue = ""
-    for(var q in sentenceSplit.value){
-        let wordObj = JSON.parse(JSON.stringify(wordObject))
+    
+    for(var s in sentences.value){
+        let thesentence = sentences.value[s]
+        let sentenceObj = JSON.parse(JSON.stringify(sentObject))
+        let positivevalue = ""
+        let words = sSplit(thesentence.text)
 
+        for(var q in words){
 
-        wordObj.text = sentenceSplit.value[q]
-        wordObj.name = 's'+q
-        positivevalue += 's'+q+','
-
-        qo.content[0].content.push(wordObj)
+            let wordObj = JSON.parse(JSON.stringify(wordObject))
+            wordObj.text = words[q]
+            wordObj.name = 's'+s+''+q
+            positivevalue += 's'+s+''+q+','
+            sentenceObj.content.push(wordObj)
+        }
+        
+        if (positivevalue.endsWith(',')) {
+            positivevalue = positivevalue.slice(0, -1); // Remove the last comma
+        }
+        sentenceObj.positive = positivevalue
+        
+        qo.content.push(sentenceObj)
     }
-    if (positivevalue.endsWith(',')) {
-        positivevalue = positivevalue.slice(0, -1); // Remove the last comma
-    }
-    qo.content[0].positive += positivevalue
-    
-    
+   
 
-    //qo.content[0].content = shuffle(JSON.parse(JSON.stringify(qo.content[1].content)))
-    //qo.content[0].positive = qo.content[1].positive.replace(/,\s*$/, '')
-    
     defdoc.activity.scenes[0].content[0].content.push(qo)
     odaObject.value = defdoc
 }
