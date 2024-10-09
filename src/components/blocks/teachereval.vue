@@ -1,9 +1,8 @@
 <template>
 
   <div ref="block" class="mt-2  relative">
-    
     <!-- TEACHER -->
-    <template v-if="!oda.teacherFreeze">
+    <template v-if="!oda.teacherFreeze && oda.freeze">
       <VDropdown>
         <button class="animate-pulse w-12 h-12 rounded-full bg-purple-400 text-white" ref="teachericon">
           <iconify-icon icon="solar:user-check-linear" class="text-2xl"></iconify-icon>
@@ -31,8 +30,10 @@
     
     <!-- STUDENT -->
     <template v-if="oda.teacherFreeze">
-      <VDropdown v-if="text!=null">
-        <button v-if="text!=null" class="animate-pulse w-12 h-12 rounded-full bg-purple-400 text-white" ref="teachericon">
+
+      <VDropdown v-if="text!==null && text!==''" class="mx-auto text-center">
+
+        <button v-if="text!==null" class="animate-pulse w-12 h-12 rounded-full bg-purple-400 text-white mx-auto" ref="teachericon">
           <iconify-icon icon="solar:user-check-linear" class="text-2xl"></iconify-icon>
         </button>
         <template #popper="{hide}">
@@ -41,15 +42,16 @@
               <iconify-icon icon="solar:dialog-2-bold-duotone"> </iconify-icon>
               <div>{{ text }}</div>
             </div>
-
           </div>
         </template>
 
       </VDropdown>
-      
-      <div v-if="text===null" class="relative w-12 h-12 rounded-full border-2 border-purple-400 text-purple-400 mx-auto flex justify-center items-center" ref="teachericon">
+
+      <div v-if="text===null || text===''" class="relative w-12 h-12 rounded-full border-2 border-purple-400 text-purple-400 mx-auto flex justify-center items-center" ref="teachericon">
           <iconify-icon icon="solar:user-check-linear" class="text-2xl"></iconify-icon>
-        </div>
+      </div>
+
+
     </template>
 
 
@@ -91,6 +93,7 @@ if(oda.teacher?.inputs){
   if (initialData) {
     toggle.value = initialData.r
     text.value = (initialData.v && initialData.v.length>0) ? initialData.v : null
+
 
     if (toggle.value && oda.teacherFreeze) {
       setTimeout(()=>{
