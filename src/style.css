@@ -9,8 +9,8 @@
 
 @font-face {
   font-family: 'Nutmeg Ultra';
-  src: url('../appassets/font/Nutmeg-UltraBlack.woff2') format('woff2'),
-      url('../appassets/font/Nutmeg-UltraBlack.woff') format('woff');
+  src: url('../appassets/font/nutmeg-ultrablack.woff2') format('woff2'),
+      url('../appassets/font/nutmeg-ultrablack.woff') format('woff');
   font-weight: bolder;
   font-style: normal;
   font-display: swap;
@@ -18,8 +18,8 @@
 
 @font-face {
   font-family: 'Nutmeg';
-  src: url('../appassets/font/Nutmeg-Regular.woff2') format('woff2'),
-      url('../appassets/font/Nutmeg-Regular.woff') format('woff');
+  src: url('../appassets/font/nutmeg-regular.woff2') format('woff2'),
+      url('../appassets/font/nutmeg-regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -27,8 +27,8 @@
 
 @font-face {
   font-family: 'Nutmeg';
-  src: url('../appassets/font/Nutmeg-Bold.woff2') format('woff2'),
-      url('../appassets/font/Nutmeg-Bold.woff') format('woff');
+  src: url('../appassets/font/nutmeg-bold.woff2') format('woff2'),
+      url('../appassets/font/nutmeg-bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -49,7 +49,7 @@ body{
 }
 
 :root {
-  font-family: nutmeg, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Nutmeg, system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-weight: normal;
   color-scheme: light dark;
   
