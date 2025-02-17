@@ -6,7 +6,7 @@
     </div>
     <SceneInstructions v-if="sceneInstructions" :data="oda.oda.activity.scenes[scenenum].instructions"></SceneInstructions>
 
-    <div v-show="oda.oda.clock || oda.oda.countdown || sceneCountdown" class="flex gap-2 bg-red-800 min-w-[4rem] rounded justify-center items-center text-white py-1">
+    <div v-show="oda.oda.clock || oda.oda.countdown || sceneCountdown" class="flex gap-2 bg-red-500 min-w-[4rem] rounded justify-center items-center text-white py-1">
         <TimerClock v-show="oda.oda.clock"></TimerClock>
         
         <TimerCountdown v-if="oda.oda.countdown > 0"  :timecount="oda.oda.countdown" store-as="totaltime" ></TimerCountdown>

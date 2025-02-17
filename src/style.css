@@ -63,7 +63,7 @@ body{
 
 
 html, #app{
-  @apply h-screen w-screen bg-red-800;
+  @apply h-screen w-screen bg-red-500;
   max-height: -webkit-fill-available !important;
 }
 #app{

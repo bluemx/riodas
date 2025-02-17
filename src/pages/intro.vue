@@ -10,7 +10,7 @@
         <!--
         <div class="text-xs opacity-40">{{ oda.odaID }}</div>
         -->
-        <h1 class="text-xl md:text-3xl my-5 ri-title">{{ oda.oda.title }}</h1>
+        <h1 class="text-xl md:text-3xl my-5 ri-title text-white">{{ oda.oda.title }}</h1>
         
 
         <Content  v-for="(item, index) in oda?.oda?.intro?.content" :key="index" :data="item"></Content>

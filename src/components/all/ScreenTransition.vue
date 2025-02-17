@@ -16,7 +16,7 @@ onMounted(() => {
     const square = new mojs.Shape({
         parent: '#bouncy',
         shape: 'rect',
-        fill: '#A52829',
+        fill: '#ed0043',
         left: '50%',
         radius: 1000,
         fillOpacity: { 1: 0 },
@@ -29,7 +29,7 @@ onMounted(() => {
         //scale:{ 0.1 : 1 },
         left: '50%',
         fill: 'none',
-        stroke: '#A52829',
+        stroke: '#ed0043',
         strokeWidth: { 1000: 100 },
         radius: { 300: 1000 },
         duration: 1000,
