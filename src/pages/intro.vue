@@ -2,8 +2,9 @@
 
 <ScreenTransition></ScreenTransition>
 <div class="oda-screen  intro-oda-screen">
-        
-        <div class="max-w-[10rem] mb-10"><img :src="recreaingles" class="w-full"></div>
+        <!--
+                <div class="max-w-[10rem] mb-10"><img :src="recreaingles" class="w-full"></div>
+        -->
 
         <div class="text-center  text-white">{{odapath()}}</div>
         <!--
@@ -27,7 +28,7 @@
                         </router-link>
 
 
-                        <div v-if="oda.odaAttemptsLimit<99 && !oda.freeze" class="text-md mt-5 text-center">This is your attempt <strong>{{ oda.odaAttempts+1 }} of {{ oda.odaAttemptsLimit }}</strong> to complete the activity.</div>
+                        <div v-if="oda.odaAttemptsLimit<99 && !oda.freeze" class="text-md text-white mt-5 text-center">This is your attempt <strong>{{ oda.odaAttempts+1 }} of {{ oda.odaAttemptsLimit }}</strong> to complete the activity.</div>
                 </template>
                 <template v-else>
                         <div  v-if="!oda.freeze" class="text-md mt-5 rounded text-center">Completed activity</div>

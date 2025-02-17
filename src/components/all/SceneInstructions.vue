@@ -1,12 +1,12 @@
 <template>
 <div ref="wrapper" class="relative">
-    <div :class="['flex justify-center items-center gap-1 cursor-pointer text-white font-bold p-1 rounded ', isopen?' bg-sky-500':' bg-sky-800']" @click="toggle">
+    <div :class="['flex justify-center items-center gap-1 cursor-pointer text-white font-bold p-1 rounded ', 'bg-red-800']" @click="toggle">
         <iconify-icon icon="solar:info-square-outline"></iconify-icon>
         <div class="text-xs">Instrucciones</div>
     </div>
     <!--backdrop:backdrop-blur-sm open:backdrop:animate-in open:backdrop:fade-in open:backdrop:duration-500-->
     
-    <dialog id="instructions" ref="dialog" class="bg-sky-500 text-white z-50 shadow-xl rounded-lg p-1 animate-in slide-in-from-top spin-in focus:outline-none m-0 mt-2 absolute top-full -translate-y-1 right-0 left-auto min-w-[220px] md:min-w-[420px]  ">
+    <dialog id="instructions" ref="dialog" class="bg-red-800 text-white z-50 shadow-xl rounded-lg p-1 animate-in slide-in-from-top spin-in focus:outline-none m-0 mt-2 absolute top-full -translate-y-1 right-0 left-auto min-w-[220px] md:min-w-[420px]  ">
         <div class="p-1 flex items-center justify-between  gap-4">
             <div class="font-bold">Instrucciones</div>
             <div @click="close" class="cursor-pointer  flex justify-center"><iconify-icon icon="solar:close-square-outline"></iconify-icon></div>

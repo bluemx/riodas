@@ -1,5 +1,6 @@
 <template>
 <div class=" flex justify-center items-center px-1">
+    
     <div class="bg-white rounded-full aspect-square">
         <div :class="['radial-progress  border-2 border-opacity-0 border-slate-800', percentagecolor]" :style="'--value:'+percentagedown+'; --size:24px; --thickness: 6px;'"></div>
     </div>
