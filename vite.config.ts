@@ -12,7 +12,7 @@ import postcssImport from 'postcss-import';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  //base: '/odascourses/',
+  base: '/odascourses/',
   server:{
     https: true
   },
