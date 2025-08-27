@@ -27,13 +27,23 @@ const oda = useOda()
 const block = ref()
 const {getTeacherInputs} = storeToRefs(oda)
 const saving= ref(false)
+
+
+function btoaUnicode(str) {
+  const utf8Bytes = new TextEncoder().encode(str);
+  let binary = '';
+  utf8Bytes.forEach(b => binary += String.fromCharCode(b));
+  return btoa(binary);
+}
+
+
 const saveEv = () => {
     if(saving.value)
         return false
     saving.value = true
 
     const response = JSON.parse(JSON.stringify(getTeacherInputs.value))
-    response.inputs = window.btoa(JSON.stringify(response))
+    response.inputs = btoaUnicode(JSON.stringify(response))
     response.datatype = 'teacher';
     response.isExtra = oda.isExtra;
     const message = JSON.stringify(response)

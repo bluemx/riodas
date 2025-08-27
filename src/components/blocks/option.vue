@@ -112,6 +112,9 @@ const evaluate = (itemindex) => {
 }
 
 
+
+
+
 onMounted(() => {
     
     const blockdata = blocks.initFN(oda, props.data, props.blockindex, block.value)

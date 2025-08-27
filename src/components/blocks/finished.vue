@@ -90,9 +90,26 @@ const elashtable = () => {
     console.log(elashCefrLevel.value, elashLevel.value)
 }
 
+function btoaUnicode(str) {
+  const utf8Bytes = new TextEncoder().encode(str);
+  let binary = '';
+  utf8Bytes.forEach(b => binary += String.fromCharCode(b));
+  return btoa(binary);
+}
+
+function atobUnicode(str) {
+  const binary = atob(str);
+  const bytes = Uint8Array.from(binary, c => c.charCodeAt(0));
+  return new TextDecoder().decode(bytes);
+}
+
+
 const cleanresponse = () => {
     elashtable()
     const buildInputs = JSON.parse(JSON.stringify(oda.user))
+
+
+
 
     const res = {
         datatype: 'student',
@@ -103,7 +120,8 @@ const cleanresponse = () => {
         seconds: oda.user.totaltime,
         //inputs: CryptoJS.AES.encrypt(JSON.stringify(oda.getAllInputs.inputs),'blue').toString(),
         //inputs: window.btoa(JSON.stringify(oda.user))
-        inputs: window.btoa(JSON.stringify(buildInputs))
+        //inputs: window.btoa(JSON.stringify(buildInputs))
+        inputs: btoaUnicode(JSON.stringify(buildInputs))
     }
     // Dyanmic total
     if(res.total == 0){
