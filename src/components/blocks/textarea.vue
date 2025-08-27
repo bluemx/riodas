@@ -78,7 +78,7 @@ const onChange = (itemindex) => {
 
 const checkCookieAutoFill = async () => {
     thecookie.value = await cookieStore.get('odafill')
-    if(thecookie.value.value == 99){
+    if(thecookie.value && thecookie.value.value == 99){
         thecookie.value = true
         input.value = props.data.positive.split("|")[0]
         onChange()
