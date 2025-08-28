@@ -14,6 +14,11 @@
 <script setup>
 import { useOda } from "../../store/oda.js"
 import {useBlocks} from './blocks.js'
+import { expandContractions } from "./textExpander.js"
+
+
+
+
 const blocks = useBlocks()
 const oda = useOda()
 const block = ref()
@@ -58,15 +63,15 @@ const onChange = (itemindex) => {
 
     if(props.data.positive){
         const caseSensitive = props.data.case
-        const rightAnswer = String(props.data.positive || '').replace(/[\u2018\u2019\u201A\u201B\u2032\u00B4]/g, "'")
-        const userInput = String(input.value || '').replace(/[\u2018\u2019\u201A\u201B\u2032\u00B4]/g, "'")
+        const rightAnswer = expandContractions(String(props.data.positive || '').replace(/[\u2018\u2019\u201A\u201B\u2032\u00B4]/g, "'"))
+        const userInput = expandContractions(String(input.value || '').replace(/[\u2018\u2019\u201A\u201B\u2032\u00B4]/g, "'"))
         blocks.result.value = evaluatePositiveAndInput(caseSensitive, rightAnswer, userInput);
 
-
+        /*
         if(thecookie.value){
             console.log(blocks.result.value, input.value )
         }
-
+        */
     }
 
     blocks.evaluateFN(input.value)
