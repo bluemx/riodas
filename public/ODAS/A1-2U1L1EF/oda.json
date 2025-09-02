@@ -1,1 +1,466 @@
-{"title":"My every day life","clock":true,"countdown":0,"intro":{"buttons":{"start":"Start"},"content":[]},"activity":{"scenes":[{"block":"scene","name":"SC1","countdown":0,"instructions":{"open":true,"content":[{"block":"group","class":"flex gap-2 items-center","content":[{"block":"audio","class":"","file":"files/inst.mp3","wave":false,"autoplay":false,"name":"VD0r","id":""},{"block":"text","class":"","text":"Complete it with your own answers","name":"wXDs","id":""}]}]},"content":[{"block":"group","class":"","content":[{"class":"mb-10 flex justify-center","content":[{"file":"files/01.jpg","class":"mask mask-squircle w-3/4","block":"image","name":"5Cne"}],"background":"","block":"group","name":"LzMx"},{"class":"flex items-center","content":[{"text":"Today I'll tell you about my routine. For example, in the morning","class":"","block":"text","name":"NAWC"},{"text":"I","class":"font-bold ml-1","block":"text","name":"YRLJ"},{"class":"","content":[{"case":false,"evaluation":"","class":"","positive":"","multiline":false,"placeholder":"","showResult":false,"block":"textarea","name":"bWNO","maxlength":0,"attempts":0,"id":""}],"background":"","block":"group","name":"iDCG"}],"background":"","block":"group","name":"in8e"},{"class":"flex items-center mt-5","content":[{"text":"at","class":"","block":"text","name":"NAWC"},{"class":"","content":[{"case":false,"evaluation":"","class":"","positive":"","multiline":false,"placeholder":"","showResult":false,"block":"textarea","name":"bWNO"}],"background":"","block":"group","name":"iDCG"},{"text":"a.m. Then,","class":"","block":"text","name":"jLVt"},{"class":"","content":[{"case":false,"evaluation":"","class":"","positive":"","multiline":false,"placeholder":"","showResult":false,"block":"textarea","name":"bWNO"}],"background":"","block":"group","name":"aqvO"},{"text":".","class":"","block":"text","name":"Viir"}],"background":"","block":"group","name":"h3je"},{"class":"flex items-center mt-5","content":[{"text":"After that,","class":"","block":"text","name":"NAWC"},{"text":"I","class":"font-bold ml-1","block":"text","name":"tZ2J"},{"class":"","content":[{"case":false,"evaluation":"","class":"","positive":"","multiline":false,"placeholder":"","showResult":false,"block":"textarea","name":"bWNO"}],"background":"","block":"group","name":"iDCG"},{"text":"Afterwards,","class":"","block":"text","name":"jLVt"},{"text":"I","class":"font-bold ml-1","block":"text","name":"9HFd"},{"class":"","content":[{"case":false,"evaluation":"","class":"","positive":"","multiline":false,"placeholder":"","showResult":false,"block":"textarea","name":"bWNO"}],"background":"","block":"group","name":"aqvO"}],"background":"","block":"group","name":"4Md2"},{"class":"flex items-center mt-5","content":[{"text":"Then,","class":"","block":"text","name":"NAWC"},{"text":"I","class":"font-bold ml-1","block":"text","name":"tZ2J"},{"class":"","content":[{"case":false,"evaluation":"","class":"","positive":"","multiline":false,"placeholder":"","showResult":false,"block":"textarea","name":"bWNO"}],"background":"","block":"group","name":"iDCG"},{"text":". At","class":"","block":"text","name":"jLVt"},{"class":"","content":[{"case":false,"evaluation":"","class":"","positive":"","multiline":false,"placeholder":"","showResult":false,"block":"textarea","name":"bWNO"}],"background":"","block":"group","name":"aqvO"},{"text":"p.m.","class":"","block":"text","name":"Viir"},{"text":"I","class":"font-bold ml-1","block":"text","name":"pVSj"},{"class":"","content":[{"case":false,"evaluation":"","class":"","positive":"","multiline":false,"placeholder":"","showResult":false,"block":"textarea","name":"bWNO"}],"background":"","block":"group","name":"dwUZ"}],"background":"","block":"group","name":"likF"},{"class":"flex items-center mt-5","content":[{"text":"dinner.","class":"","block":"text","name":"NAWC"},{"text":"I","class":"font-bold ml-1","block":"text","name":"tZ2J"},{"class":"","content":[{"case":false,"evaluation":"","class":"","positive":"","multiline":false,"placeholder":"","showResult":false,"block":"textarea","name":"bWNO"}],"background":"","block":"group","name":"iDCG"},{"text":". And then","class":"","block":"text","name":"jLVt"},{"text":"I","class":"font-bold ml-1","block":"text","name":"pVSj"},{"class":"","content":[{"case":false,"evaluation":"","class":"","positive":"","multiline":false,"placeholder":"","showResult":false,"block":"textarea","name":"bWNO"}],"background":"","block":"group","name":"aqvO"},{"text":"to sleep.","class":"","block":"text","name":"Viir"}],"background":"","block":"group","name":"IF1j"}],"background":"","name":"XC5D"},{"class":"text-center mt-10","content":[{"to":"/end","class":"mx-auto","text":"Finalize","block":"button","name":"qwIf"}],"background":"","block":"group","name":"fFLs"}],"id":""}]},"end":{"buttons":{"restart":false},"content":[{"block":"group","class":"bg-slate-100 rounded p-5 text-center w-full","content":[{"block":"text","content":"Congratulations, you finished the activity."}],"background":"","name":"Fmq3"},{"block":"group","class":"text-center p-5","content":[{"block":"finished"}],"background":"","name":"OTfL"}]},"symbols":{},"attempts":0}
+{
+    "title": "My every day life",
+    "clock": true,
+    "countdown": 0,
+    "intro": {
+        "buttons": {
+            "start": "Start"
+        },
+        "content": []
+    },
+    "activity": {
+        "scenes": [
+            {
+                "block": "scene",
+                "name": "SC1",
+                "countdown": 0,
+                "instructions": {
+                    "open": true,
+                    "content": [
+                        {
+                            "block": "group",
+                            "class": "flex gap-2 items-center",
+                            "content": [
+                                {
+                                    "block": "audio",
+                                    "class": "",
+                                    "file": "files/inst.mp3",
+                                    "wave": false,
+                                    "autoplay": false,
+                                    "name": "VD0r",
+                                    "id": ""
+                                },
+                                {
+                                    "block": "text",
+                                    "class": "",
+                                    "text": "Complete it with your own answers",
+                                    "name": "wXDs",
+                                    "id": ""
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "content": [
+                    {
+                        "block": "group",
+                        "class": "",
+                        "content": [
+                            {
+                                "class": "mb-10 flex justify-center",
+                                "content": [
+                                    {
+                                        "file": "files/01.jpg",
+                                        "class": "mask mask-squircle w-3/4",
+                                        "block": "image",
+                                        "name": "5Cne"
+                                    }
+                                ],
+                                "background": "",
+                                "block": "group",
+                                "name": "LzMx"
+                            },
+                            {
+                                "class": "flex items-center",
+                                "content": [
+                                    {
+                                        "text": "Today I'll tell you about my routine. For example, in the morning",
+                                        "class": "",
+                                        "block": "text",
+                                        "name": "NAWC"
+                                    },
+                                    {
+                                        "text": "I",
+                                        "class": "font-bold ml-1",
+                                        "block": "text",
+                                        "name": "YRLJ"
+                                    },
+                                    {
+                                        "class": "",
+                                        "content": [
+                                            {
+                                                "case": false,
+                                                "evaluation": "manual",
+                                                "class": "",
+                                                "positive": "",
+                                                "multiline": false,
+                                                "placeholder": "",
+                                                "showResult": false,
+                                                "block": "textarea",
+                                                "name": "bWNO",
+                                                "maxlength": 0,
+                                                "attempts": 0,
+                                                "id": ""
+                                            }
+                                        ],
+                                        "background": "",
+                                        "block": "group",
+                                        "name": "iDCG"
+                                    }
+                                ],
+                                "background": "",
+                                "block": "group",
+                                "name": "in8e"
+                            },
+                            {
+                                "class": "flex items-center mt-5",
+                                "content": [
+                                    {
+                                        "text": "at",
+                                        "class": "",
+                                        "block": "text",
+                                        "name": "NAWC"
+                                    },
+                                    {
+                                        "class": "",
+                                        "content": [
+                                            {
+                                                "case": false,
+                                                "evaluation": "manual",
+                                                "class": "",
+                                                "positive": "",
+                                                "multiline": false,
+                                                "placeholder": "",
+                                                "showResult": false,
+                                                "block": "textarea",
+                                                "name": "bWNO"
+                                            }
+                                        ],
+                                        "background": "",
+                                        "block": "group",
+                                        "name": "iDCG"
+                                    },
+                                    {
+                                        "text": "a.m. Then,",
+                                        "class": "",
+                                        "block": "text",
+                                        "name": "jLVt"
+                                    },
+                                    {
+                                        "class": "",
+                                        "content": [
+                                            {
+                                                "case": false,
+                                                "evaluation": "manual",
+                                                "class": "",
+                                                "positive": "",
+                                                "multiline": false,
+                                                "placeholder": "",
+                                                "showResult": false,
+                                                "block": "textarea",
+                                                "name": "bWNO"
+                                            }
+                                        ],
+                                        "background": "",
+                                        "block": "group",
+                                        "name": "aqvO"
+                                    },
+                                    {
+                                        "text": ".",
+                                        "class": "",
+                                        "block": "text",
+                                        "name": "Viir"
+                                    }
+                                ],
+                                "background": "",
+                                "block": "group",
+                                "name": "h3je"
+                            },
+                            {
+                                "class": "flex items-center mt-5",
+                                "content": [
+                                    {
+                                        "text": "After that,",
+                                        "class": "",
+                                        "block": "text",
+                                        "name": "NAWC"
+                                    },
+                                    {
+                                        "text": "I",
+                                        "class": "font-bold ml-1",
+                                        "block": "text",
+                                        "name": "tZ2J"
+                                    },
+                                    {
+                                        "class": "",
+                                        "content": [
+                                            {
+                                                "case": false,
+                                                "evaluation": "manual",
+                                                "class": "",
+                                                "positive": "",
+                                                "multiline": false,
+                                                "placeholder": "",
+                                                "showResult": false,
+                                                "block": "textarea",
+                                                "name": "bWNO"
+                                            }
+                                        ],
+                                        "background": "",
+                                        "block": "group",
+                                        "name": "iDCG"
+                                    },
+                                    {
+                                        "text": "Afterwards,",
+                                        "class": "",
+                                        "block": "text",
+                                        "name": "jLVt"
+                                    },
+                                    {
+                                        "text": "I",
+                                        "class": "font-bold ml-1",
+                                        "block": "text",
+                                        "name": "9HFd"
+                                    },
+                                    {
+                                        "class": "",
+                                        "content": [
+                                            {
+                                                "case": false,
+                                                "evaluation": "manual",
+                                                "class": "",
+                                                "positive": "",
+                                                "multiline": false,
+                                                "placeholder": "",
+                                                "showResult": false,
+                                                "block": "textarea",
+                                                "name": "bWNO"
+                                            }
+                                        ],
+                                        "background": "",
+                                        "block": "group",
+                                        "name": "aqvO"
+                                    }
+                                ],
+                                "background": "",
+                                "block": "group",
+                                "name": "4Md2"
+                            },
+                            {
+                                "class": "flex items-center mt-5",
+                                "content": [
+                                    {
+                                        "text": "Then,",
+                                        "class": "",
+                                        "block": "text",
+                                        "name": "NAWC"
+                                    },
+                                    {
+                                        "text": "I",
+                                        "class": "font-bold ml-1",
+                                        "block": "text",
+                                        "name": "tZ2J"
+                                    },
+                                    {
+                                        "class": "",
+                                        "content": [
+                                            {
+                                                "case": false,
+                                                "evaluation": "manual",
+                                                "class": "",
+                                                "positive": "",
+                                                "multiline": false,
+                                                "placeholder": "",
+                                                "showResult": false,
+                                                "block": "textarea",
+                                                "name": "bWNO"
+                                            }
+                                        ],
+                                        "background": "",
+                                        "block": "group",
+                                        "name": "iDCG"
+                                    },
+                                    {
+                                        "text": ". At",
+                                        "class": "",
+                                        "block": "text",
+                                        "name": "jLVt"
+                                    },
+                                    {
+                                        "class": "",
+                                        "content": [
+                                            {
+                                                "case": false,
+                                                "evaluation": "manual",
+                                                "class": "",
+                                                "positive": "",
+                                                "multiline": false,
+                                                "placeholder": "",
+                                                "showResult": false,
+                                                "block": "textarea",
+                                                "name": "bWNO"
+                                            }
+                                        ],
+                                        "background": "",
+                                        "block": "group",
+                                        "name": "aqvO"
+                                    },
+                                    {
+                                        "text": "p.m.",
+                                        "class": "",
+                                        "block": "text",
+                                        "name": "Viir"
+                                    },
+                                    {
+                                        "text": "I",
+                                        "class": "font-bold ml-1",
+                                        "block": "text",
+                                        "name": "pVSj"
+                                    },
+                                    {
+                                        "class": "",
+                                        "content": [
+                                            {
+                                                "case": false,
+                                                "evaluation": "manual",
+                                                "class": "",
+                                                "positive": "",
+                                                "multiline": false,
+                                                "placeholder": "",
+                                                "showResult": false,
+                                                "block": "textarea",
+                                                "name": "bWNO"
+                                            }
+                                        ],
+                                        "background": "",
+                                        "block": "group",
+                                        "name": "dwUZ"
+                                    }
+                                ],
+                                "background": "",
+                                "block": "group",
+                                "name": "likF"
+                            },
+                            {
+                                "class": "flex items-center mt-5",
+                                "content": [
+                                    {
+                                        "text": "dinner.",
+                                        "class": "",
+                                        "block": "text",
+                                        "name": "NAWC"
+                                    },
+                                    {
+                                        "text": "I",
+                                        "class": "font-bold ml-1",
+                                        "block": "text",
+                                        "name": "tZ2J"
+                                    },
+                                    {
+                                        "class": "",
+                                        "content": [
+                                            {
+                                                "case": false,
+                                                "evaluation": "manual",
+                                                "class": "",
+                                                "positive": "",
+                                                "multiline": false,
+                                                "placeholder": "",
+                                                "showResult": false,
+                                                "block": "textarea",
+                                                "name": "bWNO"
+                                            }
+                                        ],
+                                        "background": "",
+                                        "block": "group",
+                                        "name": "iDCG"
+                                    },
+                                    {
+                                        "text": ". And then",
+                                        "class": "",
+                                        "block": "text",
+                                        "name": "jLVt"
+                                    },
+                                    {
+                                        "text": "I",
+                                        "class": "font-bold ml-1",
+                                        "block": "text",
+                                        "name": "pVSj"
+                                    },
+                                    {
+                                        "class": "",
+                                        "content": [
+                                            {
+                                                "case": false,
+                                                "evaluation": "manual",
+                                                "class": "",
+                                                "positive": "",
+                                                "multiline": false,
+                                                "placeholder": "",
+                                                "showResult": false,
+                                                "block": "textarea",
+                                                "name": "bWNO"
+                                            }
+                                        ],
+                                        "background": "",
+                                        "block": "group",
+                                        "name": "aqvO"
+                                    },
+                                    {
+                                        "text": "to sleep.",
+                                        "class": "",
+                                        "block": "text",
+                                        "name": "Viir"
+                                    }
+                                ],
+                                "background": "",
+                                "block": "group",
+                                "name": "IF1j"
+                            }
+                        ],
+                        "background": "",
+                        "name": "XC5D"
+                    },
+                    {
+                        "class": "text-center mt-10",
+                        "content": [
+                            {
+                                "to": "/end",
+                                "class": "mx-auto",
+                                "text": "Finalize",
+                                "block": "button",
+                                "name": "qwIf"
+                            }
+                        ],
+                        "background": "",
+                        "block": "group",
+                        "name": "fFLs"
+                    }
+                ],
+                "id": ""
+            }
+        ]
+    },
+    "end": {
+        "buttons": {
+            "restart": false
+        },
+        "content": [
+            {
+                "block": "group",
+                "class": "bg-slate-100 rounded p-5 text-center w-full",
+                "content": [
+                    {
+                        "block": "text",
+                        "content": "Congratulations, you finished the activity."
+                    }
+                ],
+                "background": "",
+                "name": "Fmq3"
+            },
+            {
+                "block": "group",
+                "class": "text-center p-5",
+                "content": [
+                    {
+                        "block": "finished"
+                    }
+                ],
+                "background": "",
+                "name": "OTfL"
+            }
+        ]
+    },
+    "symbols": {},
+    "attempts": 0
+}
