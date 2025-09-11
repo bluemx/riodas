@@ -1,1 +1,215 @@
-{"title":"Routines","clock":true,"countdown":0,"intro":{"buttons":{"start":"Start"},"content":[{"block":"text","class":"","tag":false,"content":""}]},"activity":{"scenes":[{"block":"scene","name":"SC1","countdown":0,"instructions":{"open":true,"content":[{"block":"group","class":"flex gap-2 items-center","content":[{"block":"audio","class":"","file":"files/instruccion.mp3","wave":false,"autoplay":false,"name":"XA4T"},{"block":"text","class":"","text":"Read the information below. Then, copy the information in your English notebook.","name":"lun2"}]}]},"content":[{"block":"group","class":"","content":[{"class":"","content":[{"file":"files/01.jpg","class":"","block":"image","name":"6SFa"}],"background":"","block":"group","name":"Ac9g"},{"block":"group","class":"text-center mt-10","content":[{"block":"button","class":"mx-auto","content":"Finalize","to":"/activity/1","text":"Next","name":"2GcI"}]}]}]},{"block":"scene","name":"Vysj","countdown":0,"instructions":{"open":true,"content":[{"block":"group","class":"flex gap-2 items-center","content":[{"block":"audio","class":"","file":"files/instruccion2.mp3","wave":false,"autoplay":false,"name":"XA4T"},{"block":"text","class":"","text":"Copy and complete the below exercise on your notebook. ","name":"lun2"}]}]},"content":[{"block":"group","class":"","content":[{"class":"grid grid-cols-1 bg-sky-500 p-10 text-xl text-white font-bold","content":[{"text":"We use do or does + __________ to form sentences in negative.","class":"my-5","block":"text","name":"v1E4"},{"text":"Most questions in Present Simple used for routines start with _________ or______________.","class":"my-5","block":"text","name":"NwIZ"},{"text":"Questions always end with a _______\t\t","class":"my-5","block":"text","name":"jHDb"},{"text":"Affirmative sentences for subject pronouns he, she, it use the infinitive (run, go) + ___ or ___.\t\t","class":"my-5","block":"text","name":"atcE"}],"background":"","block":"group","name":"Ac9g"},{"class":"mt-10","content":[{"text":"Compare your answers with your partners during class. \t\t","class":"","block":"text","name":"DDew"}],"background":"","block":"group","name":"Zltq"},{"block":"group","class":"text-center mt-10","content":[{"block":"button","class":"mx-auto","content":"Finalize","to":"/end","text":"Finalize","name":"2GcI"}]}],"background":"","name":"ZBcK"}]}]},"end":{"buttons":{"restart":false},"content":[{"block":"group","class":"bg-slate-100 rounded p-5 text-center w-full","content":[{"block":"text","content":"Congratulations, you finished the activity."}]},{"block":"group","class":"text-center p-5","content":[{"block":"finished"}]}]},"symbols":{}}
+{
+    "title": "Routines",
+    "clock": true,
+    "countdown": 0,
+    "intro": {
+        "buttons": {
+            "start": "Start"
+        },
+        "content": [
+            {
+                "block": "text",
+                "class": "",
+                "tag": false,
+                "content": ""
+            }
+        ]
+    },
+    "activity": {
+        "scenes": [
+            {
+                "block": "scene",
+                "name": "SC1",
+                "countdown": 0,
+                "instructions": {
+                    "open": true,
+                    "content": [
+                        {
+                            "block": "group",
+                            "class": "flex gap-2 items-center",
+                            "content": [
+                                {
+                                    "block": "audio",
+                                    "class": "",
+                                    "file": "files/instruccion.mp3",
+                                    "wave": false,
+                                    "autoplay": false,
+                                    "name": "XA4T"
+                                },
+                                {
+                                    "block": "text",
+                                    "class": "",
+                                    "text": "Read the information below. Then, copy the information in your English notebook. <small>Asegúrate de escribir las oraciones tal como te indica la instrucción, incluyendo los signos de puntuación y sin poner doble espacio.</small>",
+                                    "name": "lun2"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "content": [
+                    {
+                        "block": "group",
+                        "class": "",
+                        "content": [
+                            {
+                                "class": "",
+                                "content": [
+                                    {
+                                        "file": "files/01.jpg",
+                                        "class": "",
+                                        "block": "image",
+                                        "name": "6SFa"
+                                    }
+                                ],
+                                "background": "",
+                                "block": "group",
+                                "name": "Ac9g"
+                            },
+                            {
+                                "block": "group",
+                                "class": "text-center mt-10",
+                                "content": [
+                                    {
+                                        "block": "button",
+                                        "class": "mx-auto",
+                                        "content": "Finalize",
+                                        "to": "/activity/1",
+                                        "text": "Next",
+                                        "name": "2GcI"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "block": "scene",
+                "name": "Vysj",
+                "countdown": 0,
+                "instructions": {
+                    "open": true,
+                    "content": [
+                        {
+                            "block": "group",
+                            "class": "flex gap-2 items-center",
+                            "content": [
+                                {
+                                    "block": "audio",
+                                    "class": "",
+                                    "file": "files/instruccion2.mp3",
+                                    "wave": false,
+                                    "autoplay": false,
+                                    "name": "XA4T"
+                                },
+                                {
+                                    "block": "text",
+                                    "class": "",
+                                    "text": "Copy and complete the below exercise on your notebook. ",
+                                    "name": "lun2"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "content": [
+                    {
+                        "block": "group",
+                        "class": "",
+                        "content": [
+                            {
+                                "class": "grid grid-cols-1 bg-sky-500 p-10 text-xl text-white font-bold",
+                                "content": [
+                                    {
+                                        "text": "We use do or does + __________ to form sentences in negative.",
+                                        "class": "my-5",
+                                        "block": "text",
+                                        "name": "v1E4"
+                                    },
+                                    {
+                                        "text": "Most questions in Present Simple used for routines start with _________ or______________.",
+                                        "class": "my-5",
+                                        "block": "text",
+                                        "name": "NwIZ"
+                                    },
+                                    {
+                                        "text": "Questions always end with a _______\t\t",
+                                        "class": "my-5",
+                                        "block": "text",
+                                        "name": "jHDb"
+                                    },
+                                    {
+                                        "text": "Affirmative sentences for subject pronouns he, she, it use the infinitive (run, go) + ___ or ___.\t\t",
+                                        "class": "my-5",
+                                        "block": "text",
+                                        "name": "atcE"
+                                    }
+                                ],
+                                "background": "",
+                                "block": "group",
+                                "name": "Ac9g"
+                            },
+                            {
+                                "class": "mt-10",
+                                "content": [
+                                    {
+                                        "text": "Compare your answers with your partners during class. \t\t",
+                                        "class": "",
+                                        "block": "text",
+                                        "name": "DDew"
+                                    }
+                                ],
+                                "background": "",
+                                "block": "group",
+                                "name": "Zltq"
+                            },
+                            {
+                                "block": "group",
+                                "class": "text-center mt-10",
+                                "content": [
+                                    {
+                                        "block": "button",
+                                        "class": "mx-auto",
+                                        "content": "Finalize",
+                                        "to": "/end",
+                                        "text": "Finalize",
+                                        "name": "2GcI"
+                                    }
+                                ]
+                            }
+                        ],
+                        "background": "",
+                        "name": "ZBcK"
+                    }
+                ]
+            }
+        ]
+    },
+    "end": {
+        "buttons": {
+            "restart": false
+        },
+        "content": [
+            {
+                "block": "group",
+                "class": "bg-slate-100 rounded p-5 text-center w-full",
+                "content": [
+                    {
+                        "block": "text",
+                        "content": "Congratulations, you finished the activity."
+                    }
+                ]
+            },
+            {
+                "block": "group",
+                "class": "text-center p-5",
+                "content": [
+                    {
+                        "block": "finished"
+                    }
+                ]
+            }
+        ]
+    },
+    "symbols": {}
+}
