@@ -12,7 +12,7 @@ const props = defineProps({
     blockindex: String
 })
 
-const filepath2 = computed(() => {
+const filepath = computed(() => {
   const f = props?.data?.file || ''
   if (!f) return false
   return /^(https?:|data:|blob:|\/\/)/i.test(f)
