@@ -20,31 +20,28 @@ watch(()=>props, ()=>{
 }, {deep:true})
 
 const cssbackgroundFN = () => {
-    const bg = props?.data?.background
-    let stylerule = ''
-    if(bg ){
-        if(bg.includes('http')){
-            //External?
-            var image = new Image();
-            image.crossOrigin = "anonymous";
-            image.onload = function() {
-                var canvas = document.createElement("canvas");
-                canvas.width = image.width;
-                canvas.height = image.height;
-                var context = canvas.getContext("2d");
-                context.drawImage(image, 0, 0);
-                var base64 = canvas.toDataURL("image/webp");
-                block.value.style.backgroundImage = "url(" + base64 + ")";
-            };
-            image.src = bg;
-        } else {
-            //Local
-            
-            const localimage =oda.baseurl+'/ODAS/'+oda.odaID+'/'+bg
-            block.value.style.backgroundImage = "url(" + localimage + ")";
-        }
-    }
+  const bg = props?.data?.background || ''
+  if (!bg) return
 
+  if (/^(https?:|data:|blob:|\/\/)/i.test(bg)) {
+    // externo o data/blob
+    const image = new Image()
+    image.crossOrigin = 'anonymous'
+    image.onload = function () {
+      const canvas = document.createElement('canvas')
+      canvas.width = image.width
+      canvas.height = image.height
+      const ctx = canvas.getContext('2d')
+      ctx.drawImage(image, 0, 0)
+      const base64 = canvas.toDataURL('image/webp')
+      block.value.style.backgroundImage = `url(${base64})`
+    }
+    image.src = bg
+  } else {
+    // relativo local
+    const local = `${oda.baseurl}/ODAS/${oda.odaID}/${bg}`
+    block.value.style.backgroundImage = `url(${local})`
+  }
 }
 onMounted(() => {
     cssbackgroundFN()

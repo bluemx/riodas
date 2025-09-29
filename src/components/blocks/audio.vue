@@ -28,8 +28,11 @@ const props = defineProps({
 })
 
 
-const filepath = computed(()=>{
-  return props.data.file.includes('http')? props.data.file :oda.baseurl+'/ODAS/'+oda.odaID+'/'+props.data.file
+const filepath = computed(() => {
+  const f = props?.data?.file || ''
+  return /^(https?:|data:|blob:|\/\/)/i.test(f)
+    ? f
+    : `${oda.baseurl}/ODAS/${oda.odaID}/${f}`
 })
 
 

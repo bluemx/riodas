@@ -34,16 +34,19 @@ const props = defineProps({
 const video = ref()
 
 
-const filepath = computed(()=>{
-  return props.data.file.includes('http')? props.data.file : oda.baseurl+'/ODAS/'+oda.odaID+'/'+props.data.file
+const filepath = computed(() => {
+  const f = props?.data?.file || ''
+  return /^(https?:|data:|blob:|\/\/)/i.test(f)
+    ? f
+    : `${oda.baseurl}/ODAS/${oda.odaID}/${f}`
 })
 
-
-const posterpath = computed(()=>{
-  const post = props.data.poster.includes('http')? props.data.poster : oda.baseurl+'/ODAS/'+oda.odaID+'/'+props.data.poster  
-  return post
+const posterpath = computed(() => {
+  const p = props?.data?.poster || ''
+  return /^(https?:|data:|blob:|\/\/)/i.test(p)
+    ? p
+    : `${oda.baseurl}/ODAS/${oda.odaID}/${p}`
 })
-
 
 
 const vmounted = () => {}

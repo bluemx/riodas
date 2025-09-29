@@ -13,12 +13,12 @@ const props = defineProps({
     blockindex: String
 })
 
-const filepath = computed(()=>{
-    if(props.data.file){
-      return props.data.file.includes('http')? props.data.file :oda.baseurl+'/ODAS/'+oda.odaID+'/'+props.data.file
-    } else {
-      return false
-    }
+const filepath = computed(() => {
+  const f = props?.data?.file || ''
+  if (!f) return false
+  return /^(https?:|data:|blob:|\/\/)/i.test(f)
+    ? f
+    : `${oda.baseurl}/ODAS/${oda.odaID}/${f}`
 })
 
 const download = (filep) => {
