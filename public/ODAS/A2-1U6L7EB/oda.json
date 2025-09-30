@@ -1,1 +1,851 @@
-{"title":"Exercise B.","clock":true,"countdown":0,"intro":{"buttons":{"start":"Start"},"content":[]},"activity":{"scenes":[{"block":"scene","name":"SC1","countdown":0,"instructions":{"open":true,"content":[{"block":"group","class":"flex gap-2 items-center","content":[{"block":"audio","class":"","file":"files/in1.mp3","wave":false,"autoplay":false,"id":"","name":"uN8Z"},{"block":"text","class":"","text":"Unscramble the sentences.","id":"","name":"Df9J"}],"marker":"","background":"","id":"","name":"OKrJ"}]},"content":[{"block":"group","class":"bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto","content":[{"order":true,"class":"flex-wrap","group":"uno","content":[{"block":"text","class":"normal-case","text":"friend","name":"GoEM","hidden":false,"id":"81VHPuqA"},{"block":"text","class":"normal-case","text":"all","name":"LNid","hidden":false,"id":"kAuZt3ip"},{"block":"text","class":"normal-case","text":"is","name":"0b1j","hidden":false,"id":"spyHnwUd"},{"block":"text","class":"normal-case","text":"Ana","name":"enuo","hidden":false,"id":"V3IvYaMm"},{"block":"text","class":"normal-case","text":"going to","name":"zYgv","hidden":false,"id":"pWqWkMar"},{"block":"text","class":"normal-case","text":"My","name":"3Ovd","hidden":false,"id":""},{"block":"text","class":"normal-case","text":"clean","name":"FcFG","hidden":false,"id":"kbpQSPAa"},{"block":"text","class":"normal-case","text":"house.","name":"X6No","hidden":false,"id":"oeuh8pnL"},{"block":"text","class":"normal-case","text":"her","name":"mbgg","hidden":false,"id":"MtEttFmo"}],"positive":"3Ovd,GoEM,enuo,0b1j,zYgv,FcFG,LNid,mbgg,X6No","evaluation":"auto","showResult":false,"id":"xZIU","block":"dragdrop","name":"bDhA","attempts":0}],"background":"","name":"4Cs6","hidden":false,"marker":"","id":""},{"block":"group","class":"bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto","content":[{"order":true,"class":"flex-wrap","group":"dos","content":[{"block":"text","class":"normal-case","text":"is","name":"siGz","hidden":false,"id":"YvSUE6mr"},{"block":"text","class":"normal-case","text":"tomorrow.","name":"3OHv","hidden":false,"id":"sUErv2ol"},{"block":"text","class":"normal-case","text":"drive","name":"AZky","hidden":false,"id":"E2dpVxDy"},{"block":"text","class":"normal-case","text":"going to","name":"rxex","hidden":false,"id":"dZNZiYh9"},{"block":"text","class":"normal-case","text":"Hector","name":"jCnI","hidden":false,"id":"HURH"},{"block":"text","class":"normal-case","text":"not","name":"c7ZY","hidden":false,"id":"OktAl65M"}],"positive":"jCnI,siGz,c7ZY,rxex,AZky,3OHv","evaluation":"auto","showResult":false,"id":"xZIU0y7G","block":"dragdrop","name":"rjCO","attempts":0}],"background":"","name":"OLru","hidden":false,"marker":"","id":"GSE6l2mM"},{"block":"group","class":"bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto","content":[{"order":true,"class":"flex-wrap","group":"tres","content":[{"block":"text","class":"normal-case","text":"fun","name":"JIBH","hidden":false,"id":"hGsix0dH"},{"block":"text","class":"normal-case","text":"going to","name":"vViA","hidden":false,"id":"WADMVyVZ"},{"block":"text","class":"normal-case","text":"at","name":"XcB7","hidden":false,"id":"3MrA0HzX"},{"block":"text","class":"normal-case","text":"have","name":"ewP3","hidden":false,"id":"9HSNp25r"},{"block":"text","class":"normal-case","text":"are","name":"YxG8","hidden":false,"id":"rYI5dXAN"},{"block":"text","class":"normal-case","text":"beach.","name":"LOEu","hidden":false,"id":"FAUvJzmB"},{"block":"text","class":"normal-case","text":"We","name":"IkOr","hidden":false,"id":"HURHQq9y"},{"block":"text","class":"normal-case","text":"the","name":"Oyyw","hidden":false,"id":"8mUS5Lq3"}],"positive":"IkOr,YxG8,vViA,ewP3,JIBH,XcB7,Oyyw,LOEu","evaluation":"auto","showResult":false,"id":"xZIU0y7GKKhT","block":"dragdrop","name":"OIxk","attempts":0}],"background":"","name":"vGES","hidden":false,"marker":"","id":"nK37XFjk"},{"class":"text-center my-10","content":[{"to":"/activity/1","class":"","text":"Next","id":"bgs2","block":"button","name":"d9GG"}],"background":"","id":"GmYQ","block":"group","name":"seua","marker":""}],"id":""},{"block":"scene","name":"h1Qm","countdown":0,"instructions":{"open":true,"content":[{"block":"group","class":"flex gap-2 items-center","content":[{"block":"audio","class":"","file":"files/in2.mp3","wave":false,"autoplay":false,"id":"xEGM","name":"HdTX"},{"block":"text","class":"","text":"Complete the sentences.","id":"6xpn","name":"B305"}],"marker":"","background":"","id":"Y9yb","name":"eioi"}]},"content":[{"marker":"","class":"my-5 p-5 bg-pink-300 rounded","content":[{"block":"group","class":"bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto","content":[{"block":"text","class":"","text":"They ","name":"Yzc9","hidden":false,"id":""},{"class":"inline-block","content":[{"case":false,"evaluation":"auto","class":"","positive":"are going","multiline":false,"placeholder":"","showResult":false,"id":"fJLa","block":"textarea","name":"Dd9S","maxlength":0,"attempts":0}],"background":"","id":"Dtyi","block":"group","name":"m1Fc"},{"block":"text","class":"","text":" to sleep late tonight.","name":"47PV","hidden":false,"id":"HZis54H8"}],"background":"","name":"TWr8","hidden":false,"marker":"","id":""},{"block":"group","class":"bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto","content":[{"block":"text","class":"","text":"My sister","name":"Ppny","hidden":false,"id":"feZG"},{"class":"inline-block","content":[{"case":false,"evaluation":"auto","class":"","positive":"is going","multiline":false,"placeholder":"","showResult":false,"id":"fJLaiTMG","block":"textarea","name":"vFVx","maxlength":0,"attempts":0}],"background":"","id":"DtyiyZch","block":"group","name":"CAye"},{"block":"text","class":"","text":" to watch t.v tomorrow.","name":"GC45","hidden":false,"id":"HZis54H8egws"}],"background":"","name":"OeFC","hidden":false,"marker":"","id":"WG1S3Z7T"},{"block":"group","class":"bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto","content":[{"block":"text","class":"","text":"It's not ","name":"ePjP","hidden":false,"id":"feZGiLIP"},{"class":"inline-block","content":[{"case":false,"evaluation":"auto","class":"","positive":"going to","multiline":false,"placeholder":"","showResult":false,"id":"fJLaiTMG6Gy6","block":"textarea","name":"FIXZ","maxlength":0,"attempts":0}],"background":"","id":"DtyiyZch8xHL","block":"group","name":"xA2g"},{"block":"text","class":"","text":" rain today.","name":"7hBi","hidden":false,"id":"HZis54H8egwsV0zF"}],"background":"","name":"cOrm","hidden":false,"marker":"","id":"eEg08Zru"}],"background":"","id":"O0cT","block":"group","name":"yzVT"},{"block":"group","class":"mt-10 p-5 bg-amber-300 rounded","content":[{"class":"","content":[{"order":false,"class":"gap-5 p-5 max-w-3xl mx-auto flex-wrap","group":"uno","content":[{"text":"is going to","class":"normal-case","id":"cUKlERU1","block":"text","name":"naP5"},{"text":"am going to","class":"normal-case","id":"YFkaCB98","block":"text","name":"R2o5"},{"text":"are going to","class":"normal-case","id":"6tSpDMjI","block":"text","name":"rY8m"},{"text":"is not going to","class":"normal-case","id":"4iT6Bvi9","block":"text","name":"zcLA"}],"positive":"","evaluation":"","showResult":false,"id":"LP3z","block":"dragdrop","name":"oOfn","attempts":0}],"background":"","id":"cRRG","block":"group","name":"VZnM","marker":"🧺"},{"class":"items-center border-2 border-slate-100 my-2 p-2 rounded max-w-2xl mx-auto","content":[{"text":"Javier ","class":"","id":"ZLjiZzEafUV7","block":"text","name":"tlAm","hidden":false},{"marker":"","class":"inline-block mx-2 align-middle","content":[{"order":false,"class":"","group":"uno","content":[],"positive":"naP5","evaluation":"auto","showResult":false,"id":"p3QukNdd","block":"dragdrop","name":"Wgwj","attempts":0}],"background":"","id":"ndCf","block":"group","name":"NKnW"},{"text":" to work hard next week.","class":"","id":"Av5QhBUu","block":"text","name":"8kMT"}],"background":"","id":"qoqGTyIL","block":"group","name":"6s8P","marker":"🫢"},{"class":"items-center border-2 border-slate-100 my-2 p-2 rounded max-w-2xl mx-auto","content":[{"text":"Ben ","class":"","id":"ZLjiZzEafUV7vIIe","block":"text","name":"UCiF","hidden":false},{"marker":"","class":"inline-block mx-2 align-middle","content":[{"order":false,"class":"","group":"uno","content":[],"positive":"zcLA","evaluation":"auto","showResult":false,"id":"p3QukNddz8oa","block":"dragdrop","name":"IpEm","attempts":0}],"background":"","id":"ndCffdS0","block":"group","name":"ZQXA"},{"text":" eat chicken and fries.","class":"","id":"Av5QhBUuVvfi","block":"text","name":"KRGD"}],"background":"","id":"YJYrqdIe","block":"group","name":"bnLo","marker":""},{"class":"items-center border-2 border-slate-100 my-2 p-2 rounded max-w-2xl mx-auto","content":[{"text":"Ricky and Martha ","class":"","id":"ZLjiZzEafUV7vIIemjHy","block":"text","name":"fP06","hidden":false},{"marker":"","class":"inline-block mx-2 align-middle","content":[{"order":false,"class":"","group":"uno","content":[],"positive":"rY8m","evaluation":"auto","showResult":false,"id":"p3QukNddz8oaTSxI","block":"dragdrop","name":"zpfV","attempts":0}],"background":"","id":"ndCffdS0S12q","block":"group","name":"6bT3"},{"text":" sing at the party.","class":"","id":"Av5QhBUuVvfiU9B9","block":"text","name":"8Kcj"}],"background":"","id":"9w8BpFXA","block":"group","name":"8Ei4","marker":""},{"class":"items-center border-2 border-slate-100 my-2 p-2 rounded max-w-2xl mx-auto","content":[{"text":"I ","class":"","id":"ZLjiZzEafUV7vIIemjHychBu","block":"text","name":"zKuk","hidden":false},{"marker":"","class":"inline-block mx-2 align-middle","content":[{"order":false,"class":"","group":"uno","content":[],"positive":"R2o5","evaluation":"auto","showResult":false,"id":"p3QukNddz8oaTSxI63Wq","block":"dragdrop","name":"sIU5","attempts":0}],"background":"","id":"ndCffdS0S12qV4ib","block":"group","name":"CyQY"},{"text":" visit  my friend Britany next year.","class":"","id":"Av5QhBUuVvfiU9B9uYNo","block":"text","name":"lxZI"}],"background":"","id":"izPESDcl","block":"group","name":"01Dq","marker":""}],"background":"","name":"RmqF","hidden":false,"id":"qYKb","marker":"🏠"},{"symbol":"FinalizeGroup"}],"id":"102js1KC"}]},"end":{"buttons":{"restart":false},"content":[{"symbol":"finishedAll"}]},"symbols":{"finishedAll":{"class":"w-full","content":[{"block":"group","class":"bg-slate-100 rounded p-5 text-center w-full","content":[{"block":"text","text":"Congratulations, you finished the activity.","class":"","name":"Congra"}],"background":"","name":"CongraGroup"},{"block":"group","class":"text-center p-5","content":[{"block":"finished","name":"finishedBlock"}],"background":"","name":"finishedGroup"}],"background":"","block":"group"},"FinalizeGroup":{"block":"group","class":"text-center mt-10","content":[{"block":"button","class":"mx-auto","to":"/end","text":"Finalize","name":"FinalizeBTN"}],"background":""}},"metadata":{"sync":0.4776212573383136}}
+{
+  "title": "Exercise B.",
+  "clock": true,
+  "countdown": 0,
+  "intro": {
+    "buttons": {
+      "start": "Start"
+    },
+    "content": []
+  },
+  "activity": {
+    "scenes": [
+      {
+        "block": "scene",
+        "name": "SC1",
+        "countdown": 0,
+        "instructions": {
+          "open": true,
+          "content": [
+            {
+              "block": "group",
+              "class": "flex gap-2 items-center",
+              "content": [
+                {
+                  "block": "audio",
+                  "class": "",
+                  "file": "files/in1.mp3",
+                  "wave": false,
+                  "autoplay": false,
+                  "id": "",
+                  "name": "uN8Z"
+                },
+                {
+                  "block": "text",
+                  "class": "",
+                  "text": "Unscramble the sentences.",
+                  "id": "",
+                  "name": "Df9J"
+                }
+              ],
+              "marker": "",
+              "background": "",
+              "id": "",
+              "name": "OKrJ"
+            }
+          ]
+        },
+        "content": [
+          {
+            "block": "group",
+            "class": "bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto",
+            "content": [
+              {
+                "order": true,
+                "class": "flex-wrap",
+                "group": "uno",
+                "content": [
+                  {
+                    "block": "text",
+                    "class": "normal-case",
+                    "text": "friend",
+                    "name": "GoEM",
+                    "hidden": false,
+                    "id": "81VHPuqA"
+                  },
+                  {
+                    "block": "text",
+                    "class": "normal-case",
+                    "text": "all",
+                    "name": "LNid",
+                    "hidden": false,
+                    "id": "kAuZt3ip"
+                  },
+                  {
+                    "block": "text",
+                    "class": "normal-case",
+                    "text": "is",
+                    "name": "0b1j",
+                    "hidden": false,
+                    "id": "spyHnwUd"
+                  },
+                  {
+                    "block": "text",
+                    "class": "normal-case",
+                    "text": "Ana",
+                    "name": "enuo",
+                    "hidden": false,
+                    "id": "V3IvYaMm"
+                  },
+                  {
+                    "block": "text",
+                    "class": "normal-case",
+                    "text": "going to",
+                    "name": "zYgv",
+                    "hidden": false,
+                    "id": "pWqWkMar"
+                  },
+                  {
+                    "block": "text",
+                    "class": "normal-case",
+                    "text": "My",
+                    "name": "3Ovd",
+                    "hidden": false,
+                    "id": ""
+                  },
+                  {
+                    "block": "text",
+                    "class": "normal-case",
+                    "text": "clean",
+                    "name": "FcFG",
+                    "hidden": false,
+                    "id": "kbpQSPAa"
+                  },
+                  {
+                    "block": "text",
+                    "class": "normal-case",
+                    "text": "house.",
+                    "name": "X6No",
+                    "hidden": false,
+                    "id": "oeuh8pnL"
+                  },
+                  {
+                    "block": "text",
+                    "class": "normal-case",
+                    "text": "her",
+                    "name": "mbgg",
+                    "hidden": false,
+                    "id": "MtEttFmo"
+                  }
+                ],
+                "positive": "3Ovd,GoEM,enuo,0b1j,zYgv,FcFG,LNid,mbgg,X6No",
+                "evaluation": "auto",
+                "showResult": false,
+                "id": "xZIU",
+                "block": "dragdrop",
+                "name": "bDhA",
+                "attempts": 0
+              }
+            ],
+            "background": "",
+            "name": "4Cs6",
+            "hidden": false,
+            "marker": "",
+            "id": ""
+          },
+          {
+            "block": "group",
+            "class": "bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto",
+            "content": [
+              {
+                "order": true,
+                "class": "flex-wrap",
+                "group": "dos",
+                "content": [
+                  {
+                    "block": "text",
+                    "class": "normal-case",
+                    "text": "is",
+                    "name": "siGz",
+                    "hidden": false,
+                    "id": "YvSUE6mr"
+                  },
+                  {
+                    "block": "text",
+                    "class": "normal-case",
+                    "text": "tomorrow.",
+                    "name": "3OHv",
+                    "hidden": false,
+                    "id": "sUErv2ol"
+                  },
+                  {
+                    "block": "text",
+                    "class": "normal-case",
+                    "text": "drive",
+                    "name": "AZky",
+                    "hidden": false,
+                    "id": "E2dpVxDy"
+                  },
+                  {
+                    "block": "text",
+                    "class": "normal-case",
+                    "text": "going to",
+                    "name": "rxex",
+                    "hidden": false,
+                    "id": "dZNZiYh9"
+                  },
+                  {
+                    "block": "text",
+                    "class": "normal-case",
+                    "text": "Hector",
+                    "name": "jCnI",
+                    "hidden": false,
+                    "id": "HURH"
+                  },
+                  {
+                    "block": "text",
+                    "class": "normal-case",
+                    "text": "not",
+                    "name": "c7ZY",
+                    "hidden": false,
+                    "id": "OktAl65M"
+                  }
+                ],
+                "positive": "jCnI,siGz,c7ZY,rxex,AZky,3OHv",
+                "evaluation": "auto",
+                "showResult": false,
+                "id": "xZIU0y7G",
+                "block": "dragdrop",
+                "name": "rjCO",
+                "attempts": 0
+              }
+            ],
+            "background": "",
+            "name": "OLru",
+            "hidden": false,
+            "marker": "",
+            "id": "GSE6l2mM"
+          },
+          {
+            "block": "group",
+            "class": "bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto",
+            "content": [
+              {
+                "order": true,
+                "class": "flex-wrap",
+                "group": "tres",
+                "content": [
+                  {
+                    "block": "text",
+                    "class": "normal-case",
+                    "text": "fun",
+                    "name": "JIBH",
+                    "hidden": false,
+                    "id": "hGsix0dH"
+                  },
+                  {
+                    "block": "text",
+                    "class": "normal-case",
+                    "text": "going to",
+                    "name": "vViA",
+                    "hidden": false,
+                    "id": "WADMVyVZ"
+                  },
+                  {
+                    "block": "text",
+                    "class": "normal-case",
+                    "text": "at",
+                    "name": "XcB7",
+                    "hidden": false,
+                    "id": "3MrA0HzX"
+                  },
+                  {
+                    "block": "text",
+                    "class": "normal-case",
+                    "text": "have",
+                    "name": "ewP3",
+                    "hidden": false,
+                    "id": "9HSNp25r"
+                  },
+                  {
+                    "block": "text",
+                    "class": "normal-case",
+                    "text": "are",
+                    "name": "YxG8",
+                    "hidden": false,
+                    "id": "rYI5dXAN"
+                  },
+                  {
+                    "block": "text",
+                    "class": "normal-case",
+                    "text": "beach.",
+                    "name": "LOEu",
+                    "hidden": false,
+                    "id": "FAUvJzmB"
+                  },
+                  {
+                    "block": "text",
+                    "class": "normal-case",
+                    "text": "We",
+                    "name": "IkOr",
+                    "hidden": false,
+                    "id": "HURHQq9y"
+                  },
+                  {
+                    "block": "text",
+                    "class": "normal-case",
+                    "text": "the",
+                    "name": "Oyyw",
+                    "hidden": false,
+                    "id": "8mUS5Lq3"
+                  }
+                ],
+                "positive": "IkOr,YxG8,vViA,ewP3,JIBH,XcB7,Oyyw,LOEu",
+                "evaluation": "auto",
+                "showResult": false,
+                "id": "xZIU0y7GKKhT",
+                "block": "dragdrop",
+                "name": "OIxk",
+                "attempts": 0
+              }
+            ],
+            "background": "",
+            "name": "vGES",
+            "hidden": false,
+            "marker": "",
+            "id": "nK37XFjk"
+          },
+          {
+            "class": "text-center my-10",
+            "content": [
+              {
+                "to": "/activity/1",
+                "class": "",
+                "text": "Next",
+                "id": "bgs2",
+                "block": "button",
+                "name": "d9GG"
+              }
+            ],
+            "background": "",
+            "id": "GmYQ",
+            "block": "group",
+            "name": "seua",
+            "marker": ""
+          }
+        ],
+        "id": ""
+      },
+      {
+        "block": "scene",
+        "name": "h1Qm",
+        "countdown": 0,
+        "instructions": {
+          "open": true,
+          "content": [
+            {
+              "block": "group",
+              "class": "flex gap-2 items-center",
+              "content": [
+                {
+                  "block": "audio",
+                  "class": "",
+                  "file": "files/in2.mp3",
+                  "wave": false,
+                  "autoplay": false,
+                  "id": "xEGM",
+                  "name": "HdTX"
+                },
+                {
+                  "block": "text",
+                  "class": "",
+                  "text": "Complete the sentences.",
+                  "id": "6xpn",
+                  "name": "B305"
+                }
+              ],
+              "marker": "",
+              "background": "",
+              "id": "Y9yb",
+              "name": "eioi"
+            }
+          ]
+        },
+        "content": [
+          {
+            "marker": "",
+            "class": "my-5 p-5 bg-pink-300 rounded",
+            "content": [
+              {
+                "block": "group",
+                "class": "bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto",
+                "content": [
+                  {
+                    "block": "text",
+                    "class": "",
+                    "text": "They ",
+                    "name": "Yzc9",
+                    "hidden": false,
+                    "id": ""
+                  },
+                  {
+                    "class": "inline-block",
+                    "content": [
+                      {
+                        "case": false,
+                        "evaluation": "auto",
+                        "class": "",
+                        "positive": "are going",
+                        "multiline": false,
+                        "placeholder": "",
+                        "showResult": false,
+                        "id": "fJLa",
+                        "block": "textarea",
+                        "name": "Dd9S",
+                        "maxlength": 0,
+                        "attempts": 0
+                      }
+                    ],
+                    "background": "",
+                    "id": "Dtyi",
+                    "block": "group",
+                    "name": "m1Fc"
+                  },
+                  {
+                    "block": "text",
+                    "class": "",
+                    "text": " to sleep late tonight.",
+                    "name": "47PV",
+                    "hidden": false,
+                    "id": "HZis54H8"
+                  }
+                ],
+                "background": "",
+                "name": "TWr8",
+                "hidden": false,
+                "marker": "",
+                "id": ""
+              },
+              {
+                "block": "group",
+                "class": "bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto",
+                "content": [
+                  {
+                    "block": "text",
+                    "class": "",
+                    "text": "My sister",
+                    "name": "Ppny",
+                    "hidden": false,
+                    "id": "feZG"
+                  },
+                  {
+                    "class": "inline-block",
+                    "content": [
+                      {
+                        "case": false,
+                        "evaluation": "auto",
+                        "class": "",
+                        "positive": "is going",
+                        "multiline": false,
+                        "placeholder": "",
+                        "showResult": false,
+                        "id": "fJLaiTMG",
+                        "block": "textarea",
+                        "name": "vFVx",
+                        "maxlength": 0,
+                        "attempts": 0
+                      }
+                    ],
+                    "background": "",
+                    "id": "DtyiyZch",
+                    "block": "group",
+                    "name": "CAye"
+                  },
+                  {
+                    "block": "text",
+                    "class": "",
+                    "text": " to watch t.v tomorrow.",
+                    "name": "GC45",
+                    "hidden": false,
+                    "id": "HZis54H8egws"
+                  }
+                ],
+                "background": "",
+                "name": "OeFC",
+                "hidden": false,
+                "marker": "",
+                "id": "WG1S3Z7T"
+              },
+              {
+                "block": "group",
+                "class": "bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto",
+                "content": [
+                  {
+                    "block": "text",
+                    "class": "",
+                    "text": "It's not ",
+                    "name": "ePjP",
+                    "hidden": false,
+                    "id": "feZGiLIP"
+                  },
+                  {
+                    "class": "inline-block",
+                    "content": [
+                      {
+                        "case": false,
+                        "evaluation": "auto",
+                        "class": "",
+                        "positive": "going to",
+                        "multiline": false,
+                        "placeholder": "",
+                        "showResult": false,
+                        "id": "fJLaiTMG6Gy6",
+                        "block": "textarea",
+                        "name": "FIXZ",
+                        "maxlength": 0,
+                        "attempts": 0
+                      }
+                    ],
+                    "background": "",
+                    "id": "DtyiyZch8xHL",
+                    "block": "group",
+                    "name": "xA2g"
+                  },
+                  {
+                    "block": "text",
+                    "class": "",
+                    "text": " rain today.",
+                    "name": "7hBi",
+                    "hidden": false,
+                    "id": "HZis54H8egwsV0zF"
+                  }
+                ],
+                "background": "",
+                "name": "cOrm",
+                "hidden": false,
+                "marker": "",
+                "id": "eEg08Zru"
+              }
+            ],
+            "background": "",
+            "id": "O0cT",
+            "block": "group",
+            "name": "yzVT"
+          },
+          {
+            "block": "group",
+            "class": "mt-10 p-5 bg-amber-300 rounded",
+            "content": [
+              {
+                "class": "",
+                "content": [
+                  {
+                    "order": false,
+                    "class": "gap-5 p-5 max-w-3xl mx-auto flex-wrap",
+                    "group": "uno",
+                    "content": [
+                      {
+                        "text": "is going to",
+                        "class": "normal-case",
+                        "id": "cUKlERU1",
+                        "block": "text",
+                        "name": "naP5"
+                      },
+                      {
+                        "text": "am going to",
+                        "class": "normal-case",
+                        "id": "YFkaCB98",
+                        "block": "text",
+                        "name": "R2o5"
+                      },
+                      {
+                        "text": "are going to",
+                        "class": "normal-case",
+                        "id": "6tSpDMjI",
+                        "block": "text",
+                        "name": "rY8m"
+                      },
+                      {
+                        "text": "is not going to",
+                        "class": "normal-case",
+                        "id": "4iT6Bvi9",
+                        "block": "text",
+                        "name": "zcLA"
+                      }
+                    ],
+                    "positive": "",
+                    "evaluation": "",
+                    "showResult": false,
+                    "id": "LP3z",
+                    "block": "dragdrop",
+                    "name": "oOfn",
+                    "attempts": 0
+                  }
+                ],
+                "background": "",
+                "id": "cRRG",
+                "block": "group",
+                "name": "VZnM",
+                "marker": "🧺"
+              },
+              {
+                "class": "items-center border-2 border-slate-100 my-2 p-2 rounded max-w-2xl mx-auto",
+                "content": [
+                  {
+                    "text": "Javier ",
+                    "class": "",
+                    "id": "ZLjiZzEafUV7",
+                    "block": "text",
+                    "name": "tlAm",
+                    "hidden": false
+                  },
+                  {
+                    "marker": "",
+                    "class": "inline-block mx-2 align-middle",
+                    "content": [
+                      {
+                        "order": false,
+                        "class": "",
+                        "group": "uno",
+                        "content": [],
+                        "positive": "naP5",
+                        "evaluation": "auto",
+                        "showResult": false,
+                        "id": "p3QukNdd",
+                        "block": "dragdrop",
+                        "name": "Wgwj",
+                        "attempts": 0
+                      }
+                    ],
+                    "background": "",
+                    "id": "ndCf",
+                    "block": "group",
+                    "name": "NKnW"
+                  },
+                  {
+                    "text": " work hard next week.",
+                    "class": "",
+                    "id": "Av5QhBUu",
+                    "block": "text",
+                    "name": "8kMT"
+                  }
+                ],
+                "background": "",
+                "id": "qoqGTyIL",
+                "block": "group",
+                "name": "6s8P",
+                "marker": "🫢"
+              },
+              {
+                "class": "items-center border-2 border-slate-100 my-2 p-2 rounded max-w-2xl mx-auto",
+                "content": [
+                  {
+                    "text": "Ben ",
+                    "class": "",
+                    "id": "ZLjiZzEafUV7vIIe",
+                    "block": "text",
+                    "name": "UCiF",
+                    "hidden": false
+                  },
+                  {
+                    "marker": "",
+                    "class": "inline-block mx-2 align-middle",
+                    "content": [
+                      {
+                        "order": false,
+                        "class": "",
+                        "group": "uno",
+                        "content": [],
+                        "positive": "zcLA",
+                        "evaluation": "auto",
+                        "showResult": false,
+                        "id": "p3QukNddz8oa",
+                        "block": "dragdrop",
+                        "name": "IpEm",
+                        "attempts": 0
+                      }
+                    ],
+                    "background": "",
+                    "id": "ndCffdS0",
+                    "block": "group",
+                    "name": "ZQXA"
+                  },
+                  {
+                    "text": " eat chicken and fries.",
+                    "class": "",
+                    "id": "Av5QhBUuVvfi",
+                    "block": "text",
+                    "name": "KRGD"
+                  }
+                ],
+                "background": "",
+                "id": "YJYrqdIe",
+                "block": "group",
+                "name": "bnLo",
+                "marker": ""
+              },
+              {
+                "class": "items-center border-2 border-slate-100 my-2 p-2 rounded max-w-2xl mx-auto",
+                "content": [
+                  {
+                    "text": "Ricky and Martha ",
+                    "class": "",
+                    "id": "ZLjiZzEafUV7vIIemjHy",
+                    "block": "text",
+                    "name": "fP06",
+                    "hidden": false
+                  },
+                  {
+                    "marker": "",
+                    "class": "inline-block mx-2 align-middle",
+                    "content": [
+                      {
+                        "order": false,
+                        "class": "",
+                        "group": "uno",
+                        "content": [],
+                        "positive": "rY8m",
+                        "evaluation": "auto",
+                        "showResult": false,
+                        "id": "p3QukNddz8oaTSxI",
+                        "block": "dragdrop",
+                        "name": "zpfV",
+                        "attempts": 0
+                      }
+                    ],
+                    "background": "",
+                    "id": "ndCffdS0S12q",
+                    "block": "group",
+                    "name": "6bT3"
+                  },
+                  {
+                    "text": " sing at the party.",
+                    "class": "",
+                    "id": "Av5QhBUuVvfiU9B9",
+                    "block": "text",
+                    "name": "8Kcj"
+                  }
+                ],
+                "background": "",
+                "id": "9w8BpFXA",
+                "block": "group",
+                "name": "8Ei4",
+                "marker": ""
+              },
+              {
+                "class": "items-center border-2 border-slate-100 my-2 p-2 rounded max-w-2xl mx-auto",
+                "content": [
+                  {
+                    "text": "I ",
+                    "class": "",
+                    "id": "ZLjiZzEafUV7vIIemjHychBu",
+                    "block": "text",
+                    "name": "zKuk",
+                    "hidden": false
+                  },
+                  {
+                    "marker": "",
+                    "class": "inline-block mx-2 align-middle",
+                    "content": [
+                      {
+                        "order": false,
+                        "class": "",
+                        "group": "uno",
+                        "content": [],
+                        "positive": "R2o5",
+                        "evaluation": "auto",
+                        "showResult": false,
+                        "id": "p3QukNddz8oaTSxI63Wq",
+                        "block": "dragdrop",
+                        "name": "sIU5",
+                        "attempts": 0
+                      }
+                    ],
+                    "background": "",
+                    "id": "ndCffdS0S12qV4ib",
+                    "block": "group",
+                    "name": "CyQY"
+                  },
+                  {
+                    "text": " visit  my friend Britany next year.",
+                    "class": "",
+                    "id": "Av5QhBUuVvfiU9B9uYNo",
+                    "block": "text",
+                    "name": "lxZI"
+                  }
+                ],
+                "background": "",
+                "id": "izPESDcl",
+                "block": "group",
+                "name": "01Dq",
+                "marker": ""
+              }
+            ],
+            "background": "",
+            "name": "RmqF",
+            "hidden": false,
+            "id": "qYKb",
+            "marker": "🏠"
+          },
+          {
+            "symbol": "FinalizeGroup"
+          }
+        ],
+        "id": "102js1KC"
+      }
+    ]
+  },
+  "end": {
+    "buttons": {
+      "restart": false
+    },
+    "content": [
+      {
+        "symbol": "finishedAll"
+      }
+    ]
+  },
+  "symbols": {
+    "finishedAll": {
+      "class": "w-full",
+      "content": [
+        {
+          "block": "group",
+          "class": "bg-slate-100 rounded p-5 text-center w-full",
+          "content": [
+            {
+              "block": "text",
+              "text": "Congratulations, you finished the activity.",
+              "class": "",
+              "name": "Congra"
+            }
+          ],
+          "background": "",
+          "name": "CongraGroup"
+        },
+        {
+          "block": "group",
+          "class": "text-center p-5",
+          "content": [
+            {
+              "block": "finished",
+              "name": "finishedBlock"
+            }
+          ],
+          "background": "",
+          "name": "finishedGroup"
+        }
+      ],
+      "background": "",
+      "block": "group"
+    },
+    "FinalizeGroup": {
+      "block": "group",
+      "class": "text-center mt-10",
+      "content": [
+        {
+          "block": "button",
+          "class": "mx-auto",
+          "to": "/end",
+          "text": "Finalize",
+          "name": "FinalizeBTN"
+        }
+      ],
+      "background": ""
+    }
+  },
+  "metadata": {
+    "sync": 0.4776212573383136
+  },
+  "attempts": 0
+}

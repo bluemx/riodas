@@ -1,1 +1,607 @@
-{"title":"Unit 4: Lesson 2, Exercise A","clock":false,"countdown":0,"intro":{"buttons":{"start":"Start"},"content":[]},"activity":{"scenes":[{"block":"scene","name":"SC1","countdown":0,"instructions":{"open":true,"content":[{"block":"group","class":"flex gap-2 items-center","content":[{"block":"audio","class":"","file":"files/A2-2U4L2EA-INS.mp3","wave":false,"autoplay":false,"id":"","name":"qlvi"},{"block":"text","class":"","text":"Drag the correct answer to the corresponding gap.","id":"","name":"zIy4"}]}]},"content":[{"block":"group","class":"bg-slate-100 rounded p-3 my-2 max-w-5xl mx-auto","content":[{"marker":"","class":"mask mask-squircle flex justify-center bg-red-500 ","content":[{"file":"files/A2-2U4L2EA-IMG-01.jpg","class":"w-2/4 mask mask-squircle m-1","id":"m7Hj","block":"image","name":"Phx9"}],"background":"","id":"d5uo","block":"group","name":"kdFN"},{"marker":"","class":"text-xl","content":[{"marker":"","class":"m-10 bg-red-500 rounded-lg p-1","content":[{"marker":"","class":"grid grid-cols-4 gap-5 bg-slate-100 rounded-lg p-5","content":[{"evaluation":"auto","positiveid":"5","id":"4YM3BaLc","class":"","classitem":"","content":[{"block":"text","class":"","text":"surprised","name":"uB5J","hidden":false,"id":""}],"block":"dragitem","name":"Ntaw"},{"evaluation":"auto","positiveid":"7","id":"vT9f","class":"","classitem":"","content":[{"block":"text","class":"","text":"fortunate","name":"3Ovd","hidden":false,"id":""}],"block":"dragitem","name":"eJOx"},{"evaluation":"auto","positiveid":"4","id":"mKwI62If","class":"","classitem":"","content":[{"block":"text","class":"","text":"sad ","name":"LxVw","hidden":false,"id":""}],"block":"dragitem","name":"Pu5F"},{"evaluation":"auto","positiveid":"1","id":"KvtlGk3R","class":"","classitem":"","content":[{"block":"text","class":"","text":"worried","name":"OMtU","hidden":false,"id":""}],"block":"dragitem","name":"H8Nz"},{"evaluation":"auto","positiveid":"3","id":"EVBpQ7rv","class":"","classitem":"","content":[{"block":"text","class":"","text":"motivated","name":"V6Bp","hidden":false,"id":""}],"block":"dragitem","name":"n1Pg"},{"evaluation":"auto","positiveid":"2","id":"G8Ioi1oQ","class":"","classitem":"","content":[{"block":"text","class":"","text":"afraid","name":"3tk8","hidden":false,"id":""}],"block":"dragitem","name":"Ccqo"},{"evaluation":"auto","positiveid":"6","id":"z9WNivwq","class":"","classitem":"","content":[{"block":"text","class":"","text":"excited","name":"3gs0","hidden":false,"id":""}],"block":"dragitem","name":"lVDr"}],"background":"","id":"4GVt","block":"group","name":"kf88"}],"background":"","id":"kY5O","block":"group","name":"sHmq"},{"marker":"","class":"bg-red-500 p-1 rounded-lg","content":[{"marker":"","class":"bg-slate-100 p-10","content":[{"marker":"","class":"my-2","content":[{"block":"text","class":"","text":"A) How do you feel today?","name":"Qb3H","hidden":false,"id":""}],"background":"","id":"SWjKb8yS","block":"group","name":"kiYR"},{"marker":"","class":"my-2","content":[{"block":"text","class":"inline-block mr-2","text":"B) Not that well. I just had a test and I  am","name":"J8XM","hidden":false,"id":"QeHr"},{"id":"1","class":"inline-block mx-2 align-middle w-60","block":"dragzone","name":"thOf"},{"block":"text","class":"inline-block ml-2 align-middle","text":"about the results.","name":"aI9h","hidden":false,"id":"7Wzf28hE"}],"background":"","id":"nPFGxuB9","block":"group","name":"yve8"},{"marker":"","class":"my-2","content":[{"block":"text","class":"inline-block mr-2","text":"A) Why are you worried? Didn't you study?","name":"E9dL","hidden":false,"id":"QeHrALw2"},{"id":"3jrJCw5S","class":"inline-block mx-2 align-middle w-60","block":"dragzone","name":"jqdB","hidden":true},{"block":"text","class":"inline-block ml-2 align-middle","text":"about the results.","name":"Hg8m","hidden":true,"id":"7Wzf28hEHDfQ"}],"background":"","id":"Kv7qpdAf","block":"group","name":"iObg"},{"marker":"","class":"my-2","content":[{"block":"text","class":"inline-block mr-2","text":"B) Yes, I did. Still, as I was","name":"eIEP","hidden":false,"id":"QeHrALw2eafb"},{"id":"2","class":"inline-block mx-2 align-middle w-60","block":"dragzone","name":"UDXR"},{"block":"text","class":"","text":"or scared of today's exam, I did not sleep so well.","name":"V5fv","hidden":false,"id":"7Wzf28hEHDfQ76Er"}],"background":"","id":"rbmy6S20","block":"group","name":"CkNV"},{"marker":"","class":"my-2","content":[{"block":"text","class":"inline-block mr-2","text":"A) I am sorry. But do you know what may make you feel more","name":"rrji","hidden":false,"id":"QeHrALw2eafbw8AY"},{"id":"3","class":"inline-block ml-2 align-middle w-60","block":"dragzone","name":"ZNPB"},{"block":"text","class":"","text":"? ","name":"mEsZ","hidden":false,"id":"7Wzf28hEHDfQ76ErGedH"},{"block":"text","class":"","text":"If you think about the possibility of getting positive results.","name":"uJhX","hidden":false,"id":"Mv7SXCFZ"}],"background":"","id":"ok0AiOlt","block":"group","name":"B3xs"},{"marker":"","class":"my-2","content":[{"block":"text","class":"inline-block mr-2","text":"B) You are totally right! When I am feeling","name":"VqKs","hidden":false,"id":"QeHrALw2eafbw8AYfUnL"},{"id":"4","class":"inline-block mx-2 align-middle w-60","block":"dragzone","name":"TL4X"},{"block":"text","class":"","text":"about something I feel insecure, thinking the other way around always helps.","name":"Y6CE","hidden":false,"id":"Mv7SXCFZMMl9"}],"background":"","id":"4wI2SZ6Q","block":"group","name":"XCaY"},{"marker":"","class":"my-2","content":[{"block":"text","class":"inline-block mr-2","text":"A) Exactly! You may be","name":"J458","hidden":false,"id":"QeHrALw2eafbw8AYfUnLoZXg"},{"id":"5","class":"inline-block mx-2 align-middle w-60","block":"dragzone","name":"nCqg"},{"block":"text","class":"","text":"by your potential.","name":"bU7Y","hidden":false,"id":"Mv7SXCFZMMl9Gm1X"}],"background":"","id":"wpYqO1Cp","block":"group","name":"u5dg"},{"marker":"","class":"my-2","content":[{"block":"text","class":"inline-block mr-2","text":"B) Thank you for that. Now, I am actually ","name":"bs7B","hidden":false,"id":"QeHrALw2eafbw8AYfUnLoZXg9gie"},{"id":"6","class":"inline-block mx-2 align-middle w-60","block":"dragzone","name":"8dGl"},{"block":"text","class":"","text":"about getting  my results.","name":"0665","hidden":false,"id":"Mv7SXCFZMMl9Gm1XxW0V"}],"background":"","id":"OEBDk6U8","block":"group","name":"BUk2"},{"marker":"","class":"my-2","content":[{"block":"text","class":"inline-block mr-2","text":"A) Great! I am glad I made you feel happy, more","name":"sb4N","hidden":false,"id":"QeHrALw2eafbw8AYfUnLoZXg9giepttl"},{"id":"7","class":"inline-block ml-2 align-middle w-60","block":"dragzone","name":"HFM3"},{"block":"text","class":"","text":".","name":"e7pt","hidden":false,"id":"Mv7SXCFZMMl9Gm1XxW0VQ7gO"}],"background":"","id":"u6QboHsA","block":"group","name":"bJyb"}],"background":"","id":"Ls4T","block":"group","name":"uAkU"}],"background":"","id":"fs70","block":"group","name":"6mo4"}],"background":"","id":"jFZK","block":"group","name":"zsVy"}],"background":"","name":"4Cs6","hidden":false,"marker":"","id":""},{"symbol":"FinalizeGroup"}],"id":""}]},"end":{"buttons":{"restart":false},"content":[{"symbol":"finishedAll"}]},"symbols":{"finishedAll":{"class":"w-full","content":[{"block":"group","class":"bg-slate-100 rounded p-5 text-center w-full","content":[{"block":"text","text":"Congratulations, you finished the activity.","class":"","name":"Congra"}],"background":"","name":"CongraGroup"},{"block":"group","class":"text-center p-5","content":[{"block":"finished","name":"finishedBlock"}],"background":"","name":"finishedGroup"}],"background":"","block":"group"},"FinalizeGroup":{"block":"group","class":"text-center mt-10","content":[{"block":"button","class":"mx-auto","to":"/end","text":"Finalize","name":"FinalizeBTN"}],"background":""}}}
+{
+  "title": "Unit 4: Lesson 2, Exercise A",
+  "clock": false,
+  "countdown": 0,
+  "intro": {
+    "buttons": {
+      "start": "Start"
+    },
+    "content": []
+  },
+  "activity": {
+    "scenes": [
+      {
+        "block": "scene",
+        "name": "SC1",
+        "countdown": 0,
+        "instructions": {
+          "open": true,
+          "content": [
+            {
+              "block": "group",
+              "class": "flex gap-2 items-center",
+              "content": [
+                {
+                  "block": "audio",
+                  "class": "",
+                  "file": "files/A2-2U4L2EA-INS.mp3",
+                  "wave": false,
+                  "autoplay": false,
+                  "id": "",
+                  "name": "qlvi"
+                },
+                {
+                  "block": "text",
+                  "class": "",
+                  "text": "Drag the correct answer to the corresponding gap.",
+                  "id": "",
+                  "name": "zIy4"
+                }
+              ]
+            }
+          ]
+        },
+        "content": [
+          {
+            "block": "group",
+            "class": "bg-slate-100 rounded p-3 my-2 max-w-5xl mx-auto",
+            "content": [
+              {
+                "marker": "",
+                "class": "mask mask-squircle flex justify-center bg-red-500 ",
+                "content": [
+                  {
+                    "file": "files/A2-2U4L2EA-IMG-01.jpg",
+                    "class": "w-2/4 mask mask-squircle m-1",
+                    "id": "m7Hj",
+                    "block": "image",
+                    "name": "Phx9"
+                  }
+                ],
+                "background": "",
+                "id": "d5uo",
+                "block": "group",
+                "name": "kdFN"
+              },
+              {
+                "marker": "",
+                "class": "text-xl",
+                "content": [
+                  {
+                    "marker": "",
+                    "class": "m-10 bg-red-500 rounded-lg p-1",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "grid grid-cols-4 gap-5 bg-slate-100 rounded-lg p-5",
+                        "content": [
+                          {
+                            "evaluation": "auto",
+                            "positiveid": "5",
+                            "id": "4YM3BaLc",
+                            "class": "",
+                            "classitem": "",
+                            "content": [
+                              {
+                                "block": "text",
+                                "class": "",
+                                "text": "surprised",
+                                "name": "uB5J",
+                                "hidden": false,
+                                "id": ""
+                              }
+                            ],
+                            "block": "dragitem",
+                            "name": "Ntaw"
+                          },
+                          {
+                            "evaluation": "auto",
+                            "positiveid": "7",
+                            "id": "vT9f",
+                            "class": "",
+                            "classitem": "",
+                            "content": [
+                              {
+                                "block": "text",
+                                "class": "",
+                                "text": "fortunate",
+                                "name": "3Ovd",
+                                "hidden": false,
+                                "id": ""
+                              }
+                            ],
+                            "block": "dragitem",
+                            "name": "eJOx"
+                          },
+                          {
+                            "evaluation": "auto",
+                            "positiveid": "4",
+                            "id": "mKwI62If",
+                            "class": "",
+                            "classitem": "",
+                            "content": [
+                              {
+                                "block": "text",
+                                "class": "",
+                                "text": "sad ",
+                                "name": "LxVw",
+                                "hidden": false,
+                                "id": ""
+                              }
+                            ],
+                            "block": "dragitem",
+                            "name": "Pu5F"
+                          },
+                          {
+                            "evaluation": "auto",
+                            "positiveid": "1",
+                            "id": "KvtlGk3R",
+                            "class": "",
+                            "classitem": "",
+                            "content": [
+                              {
+                                "block": "text",
+                                "class": "",
+                                "text": "worried",
+                                "name": "OMtU",
+                                "hidden": false,
+                                "id": ""
+                              }
+                            ],
+                            "block": "dragitem",
+                            "name": "H8Nz"
+                          },
+                          {
+                            "evaluation": "auto",
+                            "positiveid": "3",
+                            "id": "EVBpQ7rv",
+                            "class": "",
+                            "classitem": "",
+                            "content": [
+                              {
+                                "block": "text",
+                                "class": "",
+                                "text": "motivated",
+                                "name": "V6Bp",
+                                "hidden": false,
+                                "id": ""
+                              }
+                            ],
+                            "block": "dragitem",
+                            "name": "n1Pg"
+                          },
+                          {
+                            "evaluation": "auto",
+                            "positiveid": "2",
+                            "id": "G8Ioi1oQ",
+                            "class": "",
+                            "classitem": "",
+                            "content": [
+                              {
+                                "block": "text",
+                                "class": "",
+                                "text": "afraid",
+                                "name": "3tk8",
+                                "hidden": false,
+                                "id": ""
+                              }
+                            ],
+                            "block": "dragitem",
+                            "name": "Ccqo"
+                          },
+                          {
+                            "evaluation": "auto",
+                            "positiveid": "6",
+                            "id": "z9WNivwq",
+                            "class": "",
+                            "classitem": "",
+                            "content": [
+                              {
+                                "block": "text",
+                                "class": "",
+                                "text": "excited",
+                                "name": "3gs0",
+                                "hidden": false,
+                                "id": ""
+                              }
+                            ],
+                            "block": "dragitem",
+                            "name": "lVDr"
+                          }
+                        ],
+                        "background": "",
+                        "id": "4GVt",
+                        "block": "group",
+                        "name": "kf88"
+                      }
+                    ],
+                    "background": "",
+                    "id": "kY5O",
+                    "block": "group",
+                    "name": "sHmq"
+                  },
+                  {
+                    "marker": "",
+                    "class": "bg-red-500 p-1 rounded-lg",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "bg-slate-100 p-10",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": "my-2",
+                            "content": [
+                              {
+                                "block": "text",
+                                "class": "",
+                                "text": "A) How do you feel today?",
+                                "name": "Qb3H",
+                                "hidden": false,
+                                "id": ""
+                              }
+                            ],
+                            "background": "",
+                            "id": "SWjKb8yS",
+                            "block": "group",
+                            "name": "kiYR"
+                          },
+                          {
+                            "marker": "",
+                            "class": "my-2",
+                            "content": [
+                              {
+                                "block": "text",
+                                "class": "inline-block mr-2",
+                                "text": "B) Not that well. I just had a test and I  am",
+                                "name": "J8XM",
+                                "hidden": false,
+                                "id": "QeHr"
+                              },
+                              {
+                                "id": "1",
+                                "class": "inline-block mx-2 align-middle w-60",
+                                "block": "dragzone",
+                                "name": "thOf"
+                              },
+                              {
+                                "block": "text",
+                                "class": "inline-block ml-2 align-middle",
+                                "text": "about the results.",
+                                "name": "aI9h",
+                                "hidden": false,
+                                "id": "7Wzf28hE"
+                              }
+                            ],
+                            "background": "",
+                            "id": "nPFGxuB9",
+                            "block": "group",
+                            "name": "yve8"
+                          },
+                          {
+                            "marker": "",
+                            "class": "my-2",
+                            "content": [
+                              {
+                                "block": "text",
+                                "class": "inline-block mr-2",
+                                "text": "A) Why are you worried? Didn't you study?",
+                                "name": "E9dL",
+                                "hidden": false,
+                                "id": "QeHrALw2"
+                              },
+                              {
+                                "id": "3jrJCw5S",
+                                "class": "inline-block mx-2 align-middle w-60",
+                                "block": "dragzone",
+                                "name": "jqdB",
+                                "hidden": true
+                              },
+                              {
+                                "block": "text",
+                                "class": "inline-block ml-2 align-middle",
+                                "text": "about the results.",
+                                "name": "Hg8m",
+                                "hidden": true,
+                                "id": "7Wzf28hEHDfQ"
+                              }
+                            ],
+                            "background": "",
+                            "id": "Kv7qpdAf",
+                            "block": "group",
+                            "name": "iObg"
+                          },
+                          {
+                            "marker": "",
+                            "class": "my-2",
+                            "content": [
+                              {
+                                "block": "text",
+                                "class": "inline-block mr-2",
+                                "text": "B) Yes, I did. Still, as I was",
+                                "name": "eIEP",
+                                "hidden": false,
+                                "id": "QeHrALw2eafb"
+                              },
+                              {
+                                "id": "2",
+                                "class": "inline-block mx-2 align-middle w-60",
+                                "block": "dragzone",
+                                "name": "UDXR"
+                              },
+                              {
+                                "block": "text",
+                                "class": "",
+                                "text": "or scared of today's exam, I did not sleep so well.",
+                                "name": "V5fv",
+                                "hidden": false,
+                                "id": "7Wzf28hEHDfQ76Er"
+                              }
+                            ],
+                            "background": "",
+                            "id": "rbmy6S20",
+                            "block": "group",
+                            "name": "CkNV"
+                          },
+                          {
+                            "marker": "",
+                            "class": "my-2 ",
+                            "content": [
+                              {
+                                "block": "text",
+                                "class": "inline-block mr-2",
+                                "text": "A) I am sorry. ",
+                                "name": "rrji",
+                                "hidden": false,
+                                "id": "QeHrALw2eafbw8AY"
+                              },
+                              {
+                                "block": "text",
+                                "class": "inline-block mr-2",
+                                "text": "Think about getting positive results, you may feel lucky and more",
+                                "name": "BFuS",
+                                "hidden": false,
+                                "id": "pObt5LUs"
+                              },
+                              {
+                                "id": "3",
+                                "class": "inline-block ml-2 align-middle w-60",
+                                "block": "dragzone",
+                                "name": "ZNPB"
+                              },
+                              {
+                                "block": "text",
+                                "class": "",
+                                "text": "If you think about the possibility of getting positive results.",
+                                "name": "uJhX",
+                                "hidden": true,
+                                "id": "Mv7SXCFZ"
+                              }
+                            ],
+                            "background": "",
+                            "id": "ok0AiOlt",
+                            "block": "group",
+                            "name": "B3xs"
+                          },
+                          {
+                            "marker": "",
+                            "class": "my-2",
+                            "content": [
+                              {
+                                "block": "text",
+                                "class": "inline-block mr-2",
+                                "text": "B) You are totally right! When I am feeling",
+                                "name": "VqKs",
+                                "hidden": false,
+                                "id": "QeHrALw2eafbw8AYfUnL"
+                              },
+                              {
+                                "id": "4",
+                                "class": "inline-block mx-2 align-middle w-60",
+                                "block": "dragzone",
+                                "name": "TL4X"
+                              },
+                              {
+                                "block": "text",
+                                "class": "",
+                                "text": "about bad news, i feel insecure, thinking the other way around always helps.",
+                                "name": "Y6CE",
+                                "hidden": false,
+                                "id": "Mv7SXCFZMMl9"
+                              }
+                            ],
+                            "background": "",
+                            "id": "4wI2SZ6Q",
+                            "block": "group",
+                            "name": "XCaY"
+                          },
+                          {
+                            "marker": "",
+                            "class": "my-2",
+                            "content": [
+                              {
+                                "block": "text",
+                                "class": "inline-block mr-2",
+                                "text": "A) Exactly! You may be",
+                                "name": "J458",
+                                "hidden": false,
+                                "id": "QeHrALw2eafbw8AYfUnLoZXg"
+                              },
+                              {
+                                "id": "5",
+                                "class": "inline-block mx-2 align-middle w-60",
+                                "block": "dragzone",
+                                "name": "nCqg"
+                              },
+                              {
+                                "block": "text",
+                                "class": "",
+                                "text": "by your potential.",
+                                "name": "bU7Y",
+                                "hidden": false,
+                                "id": "Mv7SXCFZMMl9Gm1X"
+                              }
+                            ],
+                            "background": "",
+                            "id": "wpYqO1Cp",
+                            "block": "group",
+                            "name": "u5dg"
+                          },
+                          {
+                            "marker": "",
+                            "class": "my-2",
+                            "content": [
+                              {
+                                "block": "text",
+                                "class": "inline-block mr-2",
+                                "text": "B) Thank you for that. Now, i am actually ",
+                                "name": "bs7B",
+                                "hidden": false,
+                                "id": "QeHrALw2eafbw8AYfUnLoZXg9gie"
+                              },
+                              {
+                                "id": "6",
+                                "class": "inline-block mx-2 align-middle w-60",
+                                "block": "dragzone",
+                                "name": "8dGl"
+                              },
+                              {
+                                "block": "text",
+                                "class": "",
+                                "text": "and didn’t expect that about getting my results.",
+                                "name": "0665",
+                                "hidden": false,
+                                "id": "Mv7SXCFZMMl9Gm1XxW0V"
+                              }
+                            ],
+                            "background": "",
+                            "id": "OEBDk6U8",
+                            "block": "group",
+                            "name": "BUk2"
+                          },
+                          {
+                            "marker": "",
+                            "class": "my-2",
+                            "content": [
+                              {
+                                "block": "text",
+                                "class": "inline-block mr-2",
+                                "text": "A) Great! I am glad I made you feel happy, more",
+                                "name": "sb4N",
+                                "hidden": false,
+                                "id": "QeHrALw2eafbw8AYfUnLoZXg9giepttl"
+                              },
+                              {
+                                "id": "7",
+                                "class": "inline-block ml-2 align-middle w-60",
+                                "block": "dragzone",
+                                "name": "HFM3"
+                              },
+                              {
+                                "block": "text",
+                                "class": "",
+                                "text": ".",
+                                "name": "e7pt",
+                                "hidden": false,
+                                "id": "Mv7SXCFZMMl9Gm1XxW0VQ7gO"
+                              }
+                            ],
+                            "background": "",
+                            "id": "u6QboHsA",
+                            "block": "group",
+                            "name": "bJyb"
+                          }
+                        ],
+                        "background": "",
+                        "id": "Ls4T",
+                        "block": "group",
+                        "name": "uAkU"
+                      }
+                    ],
+                    "background": "",
+                    "id": "fs70",
+                    "block": "group",
+                    "name": "6mo4"
+                  }
+                ],
+                "background": "",
+                "id": "jFZK",
+                "block": "group",
+                "name": "zsVy"
+              }
+            ],
+            "background": "",
+            "name": "4Cs6",
+            "hidden": false,
+            "marker": "",
+            "id": ""
+          },
+          {
+            "symbol": "FinalizeGroup"
+          }
+        ],
+        "id": ""
+      }
+    ]
+  },
+  "end": {
+    "buttons": {
+      "restart": false
+    },
+    "content": [
+      {
+        "symbol": "finishedAll"
+      }
+    ]
+  },
+  "symbols": {
+    "finishedAll": {
+      "class": "w-full",
+      "content": [
+        {
+          "block": "group",
+          "class": "bg-slate-100 rounded p-5 text-center w-full",
+          "content": [
+            {
+              "block": "text",
+              "text": "Congratulations, you finished the activity.",
+              "class": "",
+              "name": "Congra"
+            }
+          ],
+          "background": "",
+          "name": "CongraGroup"
+        },
+        {
+          "block": "group",
+          "class": "text-center p-5",
+          "content": [
+            {
+              "block": "finished",
+              "name": "finishedBlock"
+            }
+          ],
+          "background": "",
+          "name": "finishedGroup"
+        }
+      ],
+      "background": "",
+      "block": "group"
+    },
+    "FinalizeGroup": {
+      "block": "group",
+      "class": "text-center mt-10",
+      "content": [
+        {
+          "block": "button",
+          "class": "mx-auto",
+          "to": "/end",
+          "text": "Finalize",
+          "name": "FinalizeBTN"
+        }
+      ],
+      "background": ""
+    }
+  },
+  "attempts": 0
+}

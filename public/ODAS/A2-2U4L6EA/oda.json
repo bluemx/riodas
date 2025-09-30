@@ -1,1 +1,408 @@
-{"title":"Unit 4: Lesson 6, Exercise A","clock":true,"countdown":0,"intro":{"buttons":{"start":"Start"},"content":[]},"activity":{"scenes":[{"block":"scene","name":"SC1","countdown":0,"instructions":{"open":true,"content":[{"block":"group","class":"flex gap-2 items-center","content":[{"block":"audio","class":"","file":"files/instruccion.mp3","wave":false,"autoplay":false,"id":"","name":"grrL"},{"block":"text","class":"","text":"Look at the following e-mail. After you read it, you will write one with your own story.","id":"","name":"NFd2"}]}]},"content":[{"block":"group","class":"bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto","content":[{"marker":"","class":"flex justify-center ","content":[{"file":"files/img01.jpg","class":"w-1/2 mask mask-circle","id":"uWfO","block":"image","name":"zjwS"}],"background":"","id":"XAES","block":"group","name":"RxP0"},{"marker":"","class":"p-10","content":[{"marker":"","class":"gap-2 p-10 border shadow-xl bg-white ","content":[{"text":"Dear Mom,   ","class":"text-blue-400","id":"L8H6","block":"text","name":"vCuM"},{"text":"<br><br> I hope  everything is fine at home. Have you guessed how I am doing at camp?","class":"text-yellow-400","id":"qcGeTJnl","block":"text","name":"VTF2"},{"text":"Well, the camp where I am is <b>varied</b> and <b>beautiful</b>. I am <b>happier</b> here than I was last Summer. The activitiess they organize for us normally make me feel <b>surprised</b>, <b>excited</b> and <b>motivated</b>. I think I am <b>fortunate</b> of being here. On the other hand, last Summer I felt <b>worried, sad</b> and <b>afraid</b> at some point during the other camp. I just did not like the organizers' style back then. So, in conclusion, this camp is <b>better, more fun</b> and I feel <b>more comfortable</b> with the way this is managed. ","class":"ml-1","id":"E6WI","block":"text","name":"sE4B"},{"text":"How is your Summer going?","class":"text-lime-700","id":"OsMrsG4D","block":"text","name":"6YUA"},{"text":"Please, let me know about you.","class":"text-violet-700 ml-1","id":"4YYxTXgA","block":"text","name":"q7en"},{"text":"<br>Sending all my love,","class":"text-orange-400 ml-1","id":"GbQqFdcb","block":"text","name":"xVOX"},{"text":"<br>Jill","class":"text-red-600 ml-1","id":"mfDhfcSC","block":"text","name":"Mv7b"}],"background":"","id":"iGZC","block":"group","name":"fpK1"},{"marker":"","class":"p-10","content":[{"text":"Code: ","class":"","id":"e2QN","block":"text","name":"sEK1"},{"text":"Greeting,   ","class":"text-blue-400","id":"L8H62haH","block":"text","name":"7nPS"},{"text":"introduction,","class":"text-yellow-400","id":"qcGeTJnlziHr","block":"text","name":"jzNc"},{"text":"<b>vocabulary words, adjectives and comparative adjectives,</b>","class":"ml-1","id":"E6WI8vmq","block":"text","name":"8F5U"},{"text":"question for the receiver,","class":"text-lime-700","id":"OsMrsG4DnEJI","block":"text","name":"OEBH"},{"text":"sentence to establish interest,","class":"text-violet-700 ml-1","id":"4YYxTXgAwyJZ","block":"text","name":"pCES"},{"text":"goodbye,","class":"text-orange-400 ml-1","id":"GbQqFdcbijTo","block":"text","name":"MU2x"},{"text":"signature/name","class":"text-red-600 ml-1","id":"mfDhfcSCQaPR","block":"text","name":"xaW8"}],"background":"","id":"iGZC5lIn","block":"group","name":"VK8E"},{"marker":"","class":"gap-2 p-10 border shadow-xl bg-yellow-100","content":[{"text":"<b>Note:</b> It is important to know how to write e-mails and be ready to tell what is happening to you, what you are doing. This makes others feel closer to you. ","class":"","id":"Vqz0","block":"text","name":"bMWp"}],"background":"","id":"R10r","block":"group","name":"33PJ"}],"background":"","id":"ejCt","block":"group","name":"Y5Mj"}],"background":"","name":"4Cs6","hidden":false},{"class":"text-center my-10","content":[{"to":"/activity/1","class":"","text":"Next","id":"bgs2","block":"button","name":"6A1B"}],"background":"","id":"GmYQ","block":"group","name":"z95C","marker":""},{"symbol":"FinalizeGroup","hidden":true}],"id":""},{"block":"scene","name":"ykKD","countdown":0,"instructions":{"open":true,"content":[{"block":"group","class":"flex gap-2 items-center","content":[{"block":"audio","class":"","file":"files/instruccion2.mp3","wave":false,"autoplay":false,"id":"ieAW","name":"U53T"},{"block":"text","class":"","text":"Make a list of activities you had during the Summer and details from it in your notebook (how you felt, etc.). It will be useful in the upcoming activity.","id":"JuAL","name":"DT85"}]}]},"content":[{"block":"group","class":"bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto","content":[{"marker":"","class":"flex justify-center ","content":[{"file":"files/img01.jpg","class":"w-1/2 mask mask-circle","id":"uWfOMeGm","block":"image","name":"fU6I"}],"background":"","id":"XAESGdat","block":"group","name":"KoT2"},{"marker":"","class":"p-10","content":[{"marker":"","class":"gap-2 p-10 border shadow-xl bg-white ","content":[{"case":false,"evaluation":"","class":"","positive":"","multiline":true,"placeholder":"","showResult":false,"id":"j2ix","block":"textarea","name":"TFYf","maxlength":0,"attempts":0}],"background":"","id":"iGZC5AkB","block":"group","name":"6hoz"}],"background":"","id":"ejCt4G1I","block":"group","name":"f1NL"}],"background":"","name":"KFrE","hidden":false},{"symbol":"FinalizeGroup"}],"id":"4v5GnRFj"}]},"end":{"buttons":{"restart":false},"content":[{"symbol":"finishedAll"}]},"symbols":{"finishedAll":{"class":"w-full","content":[{"block":"group","class":"bg-slate-100 rounded p-5 text-center w-full","content":[{"block":"text","text":"Congratulations, you finished the activity.","class":"","name":"Congra"}],"background":"","name":"CongraGroup"},{"block":"group","class":"text-center p-5","content":[{"block":"finished","name":"finishedBlock"}],"background":"","name":"finishedGroup"}],"background":"","block":"group"},"FinalizeGroup":{"block":"group","class":"text-center mt-10","content":[{"block":"button","class":"mx-auto","to":"/end","text":"Finalize","name":"FinalizeBTN"}],"background":""}}}
+{
+  "title": "Unit 4: Lesson 6, Exercise A",
+  "clock": true,
+  "countdown": 0,
+  "intro": {
+    "buttons": {
+      "start": "Start"
+    },
+    "content": []
+  },
+  "activity": {
+    "scenes": [
+      {
+        "block": "scene",
+        "name": "SC1",
+        "countdown": 0,
+        "instructions": {
+          "open": true,
+          "content": [
+            {
+              "block": "group",
+              "class": "flex gap-2 items-center",
+              "content": [
+                {
+                  "block": "audio",
+                  "class": "",
+                  "file": "files/instruccion.mp3",
+                  "wave": false,
+                  "autoplay": false,
+                  "id": "",
+                  "name": "grrL"
+                },
+                {
+                  "block": "text",
+                  "class": "",
+                  "text": "Look at the following e-mail. After you read it, you will write one with your own story.",
+                  "id": "",
+                  "name": "NFd2"
+                }
+              ]
+            }
+          ]
+        },
+        "content": [
+          {
+            "block": "group",
+            "class": "bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto",
+            "content": [
+              {
+                "marker": "",
+                "class": "flex justify-center ",
+                "content": [
+                  {
+                    "file": "files/img01.jpg",
+                    "class": "w-1/2 mask mask-circle",
+                    "id": "uWfO",
+                    "block": "image",
+                    "name": "zjwS"
+                  }
+                ],
+                "background": "",
+                "id": "XAES",
+                "block": "group",
+                "name": "RxP0"
+              },
+              {
+                "marker": "",
+                "class": "p-10",
+                "content": [
+                  {
+                    "marker": "",
+                    "class": "gap-2 p-10 border shadow-xl bg-white ",
+                    "content": [
+                      {
+                        "text": "Dear Mom,   ",
+                        "class": "text-blue-400",
+                        "id": "L8H6",
+                        "block": "text",
+                        "name": "vCuM"
+                      },
+                      {
+                        "text": "<br><br> I hope  everything is fine at home. Have you guessed how I am doing at camp?",
+                        "class": "text-yellow-400",
+                        "id": "qcGeTJnl",
+                        "block": "text",
+                        "name": "VTF2"
+                      },
+                      {
+                        "text": "Well, the camp where I am is <b>varied</b> and <b>beautiful</b>. I am <b>happier</b> here than I was last Summer. The activitiess they organize for us normally make me feel <b>surprised</b>, <b>excited</b> and <b>motivated</b>. I think I am <b>fortunate</b> of being here. On the other hand, last Summer I felt <b>worried, sad</b> and <b>afraid</b> at some point during the other camp. I just did not like the organizers' style back then. So, in conclusion, this camp is <b>better, more fun</b> and I feel <b>more comfortable</b> with the way this is managed. ",
+                        "class": "ml-1",
+                        "id": "E6WI",
+                        "block": "text",
+                        "name": "sE4B"
+                      },
+                      {
+                        "text": "How is your Summer going?",
+                        "class": "text-lime-700",
+                        "id": "OsMrsG4D",
+                        "block": "text",
+                        "name": "6YUA"
+                      },
+                      {
+                        "text": "Please, let me know about you.",
+                        "class": "text-violet-700 ml-1",
+                        "id": "4YYxTXgA",
+                        "block": "text",
+                        "name": "q7en"
+                      },
+                      {
+                        "text": "<br>Sending all my love,",
+                        "class": "text-orange-400 ml-1",
+                        "id": "GbQqFdcb",
+                        "block": "text",
+                        "name": "xVOX"
+                      },
+                      {
+                        "text": "<br>Jill",
+                        "class": "text-red-600 ml-1",
+                        "id": "mfDhfcSC",
+                        "block": "text",
+                        "name": "Mv7b"
+                      }
+                    ],
+                    "background": "",
+                    "id": "iGZC",
+                    "block": "group",
+                    "name": "fpK1"
+                  },
+                  {
+                    "marker": "",
+                    "class": "p-10",
+                    "content": [
+                      {
+                        "text": "Code: ",
+                        "class": "",
+                        "id": "e2QN",
+                        "block": "text",
+                        "name": "sEK1"
+                      },
+                      {
+                        "text": "Greeting,   ",
+                        "class": "text-blue-400",
+                        "id": "L8H62haH",
+                        "block": "text",
+                        "name": "7nPS"
+                      },
+                      {
+                        "text": "introduction,",
+                        "class": "text-yellow-400",
+                        "id": "qcGeTJnlziHr",
+                        "block": "text",
+                        "name": "jzNc"
+                      },
+                      {
+                        "text": "<b>vocabulary words, adjectives and comparative adjectives,</b>",
+                        "class": "ml-1",
+                        "id": "E6WI8vmq",
+                        "block": "text",
+                        "name": "8F5U"
+                      },
+                      {
+                        "text": "question for the receiver,",
+                        "class": "text-lime-700",
+                        "id": "OsMrsG4DnEJI",
+                        "block": "text",
+                        "name": "OEBH"
+                      },
+                      {
+                        "text": "sentence to establish interest,",
+                        "class": "text-violet-700 ml-1",
+                        "id": "4YYxTXgAwyJZ",
+                        "block": "text",
+                        "name": "pCES"
+                      },
+                      {
+                        "text": "goodbye,",
+                        "class": "text-orange-400 ml-1",
+                        "id": "GbQqFdcbijTo",
+                        "block": "text",
+                        "name": "MU2x"
+                      },
+                      {
+                        "text": "signature/name",
+                        "class": "text-red-600 ml-1",
+                        "id": "mfDhfcSCQaPR",
+                        "block": "text",
+                        "name": "xaW8"
+                      }
+                    ],
+                    "background": "",
+                    "id": "iGZC5lIn",
+                    "block": "group",
+                    "name": "VK8E"
+                  },
+                  {
+                    "marker": "",
+                    "class": "gap-2 p-10 border shadow-xl bg-yellow-100",
+                    "content": [
+                      {
+                        "text": "<b>Note:</b> It is important to know how to write e-mails and be ready to tell what is happening to you, what you are doing. This makes others feel closer to you. ",
+                        "class": "",
+                        "id": "Vqz0",
+                        "block": "text",
+                        "name": "bMWp"
+                      }
+                    ],
+                    "background": "",
+                    "id": "R10r",
+                    "block": "group",
+                    "name": "33PJ"
+                  }
+                ],
+                "background": "",
+                "id": "ejCt",
+                "block": "group",
+                "name": "Y5Mj"
+              }
+            ],
+            "background": "",
+            "name": "4Cs6",
+            "hidden": false
+          },
+          {
+            "class": "text-center my-10",
+            "content": [
+              {
+                "to": "/activity/1",
+                "class": "",
+                "text": "Next",
+                "id": "bgs2",
+                "block": "button",
+                "name": "6A1B"
+              }
+            ],
+            "background": "",
+            "id": "GmYQ",
+            "block": "group",
+            "name": "z95C",
+            "marker": ""
+          },
+          {
+            "symbol": "FinalizeGroup",
+            "hidden": true
+          }
+        ],
+        "id": ""
+      },
+      {
+        "block": "scene",
+        "name": "ykKD",
+        "countdown": 0,
+        "instructions": {
+          "open": true,
+          "content": [
+            {
+              "block": "group",
+              "class": "flex gap-2 items-center",
+              "content": [
+                {
+                  "block": "audio",
+                  "class": "",
+                  "file": "files/instruccion2.mp3",
+                  "wave": false,
+                  "autoplay": false,
+                  "id": "ieAW",
+                  "name": "U53T"
+                },
+                {
+                  "block": "text",
+                  "class": "",
+                  "text": "Make a list of activities you had during the Summer and details from it in your notebook (how you felt, etc.). It will be useful in the upcoming activity.",
+                  "id": "JuAL",
+                  "name": "DT85"
+                }
+              ]
+            }
+          ]
+        },
+        "content": [
+          {
+            "block": "group",
+            "class": "bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto",
+            "content": [
+              {
+                "marker": "",
+                "class": "flex justify-center ",
+                "content": [
+                  {
+                    "file": "files/img01.jpg",
+                    "class": "w-1/2 mask mask-circle",
+                    "id": "uWfOMeGm",
+                    "block": "image",
+                    "name": "fU6I"
+                  }
+                ],
+                "background": "",
+                "id": "XAESGdat",
+                "block": "group",
+                "name": "KoT2"
+              },
+              {
+                "marker": "",
+                "class": "p-10",
+                "content": [
+                  {
+                    "marker": "",
+                    "class": "gap-2 p-10 border shadow-xl bg-white ",
+                    "content": [
+                      {
+                        "case": false,
+                        "evaluation": "manual",
+                        "class": "min-h-[8rem]",
+                        "positive": "",
+                        "multiline": true,
+                        "placeholder": "",
+                        "showResult": false,
+                        "id": "j2ix",
+                        "block": "textarea",
+                        "name": "TFYf",
+                        "maxlength": 0,
+                        "attempts": 0
+                      }
+                    ],
+                    "background": "",
+                    "id": "iGZC5AkB",
+                    "block": "group",
+                    "name": "6hoz"
+                  }
+                ],
+                "background": "",
+                "id": "ejCt4G1I",
+                "block": "group",
+                "name": "f1NL"
+              }
+            ],
+            "background": "",
+            "name": "KFrE",
+            "hidden": false
+          },
+          {
+            "symbol": "FinalizeGroup"
+          }
+        ],
+        "id": "4v5GnRFj"
+      }
+    ]
+  },
+  "end": {
+    "buttons": {
+      "restart": false
+    },
+    "content": [
+      {
+        "symbol": "finishedAll"
+      }
+    ]
+  },
+  "symbols": {
+    "finishedAll": {
+      "class": "w-full",
+      "content": [
+        {
+          "block": "group",
+          "class": "bg-slate-100 rounded p-5 text-center w-full",
+          "content": [
+            {
+              "block": "text",
+              "text": "Congratulations, you finished the activity.",
+              "class": "",
+              "name": "Congra"
+            }
+          ],
+          "background": "",
+          "name": "CongraGroup"
+        },
+        {
+          "block": "group",
+          "class": "text-center p-5",
+          "content": [
+            {
+              "block": "finished",
+              "name": "finishedBlock"
+            }
+          ],
+          "background": "",
+          "name": "finishedGroup"
+        }
+      ],
+      "background": "",
+      "block": "group"
+    },
+    "FinalizeGroup": {
+      "block": "group",
+      "class": "text-center mt-10",
+      "content": [
+        {
+          "block": "button",
+          "class": "mx-auto",
+          "to": "/end",
+          "text": "Finalize",
+          "name": "FinalizeBTN"
+        }
+      ],
+      "background": ""
+    }
+  },
+  "attempts": 0
+}

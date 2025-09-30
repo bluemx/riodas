@@ -1,1 +1,622 @@
-{"title":"Health, medicine, remedies.","clock":true,"countdown":0,"intro":{"buttons":{"start":"Start"},"content":[]},"activity":{"scenes":[{"block":"scene","name":"SC1","countdown":0,"instructions":{"open":true,"content":[{"block":"group","class":"flex gap-2 items-center","content":[{"block":"audio","class":"","file":"files/instruccion.mp3","wave":false,"autoplay":false,"id":"","name":"ladE"},{"block":"text","class":"","text":"Fill in the gaps with should or shouldn't","id":"","name":"DXU7"}]}]},"content":[{"block":"group","class":"bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto","content":[{"block":"group","class":"bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto","content":[{"block":"text","class":"","text":"1. When you have the flu, you","name":"3s3Q","hidden":false,"id":""},{"class":"inline-block","content":[{"case":false,"evaluation":"auto","class":"text-center","positive":"should","multiline":false,"placeholder":"-","showResult":false,"id":"fJLa","block":"textarea","name":"Evnu","maxlength":0,"attempts":0}],"background":"","id":"Dtyi","block":"group","name":"6g04"},{"block":"text","class":"","text":"drink lots of fluids.","name":"xdTu","hidden":false,"id":"HZis54H8"}],"background":"","name":"axRj","hidden":false,"marker":"","id":""},{"block":"group","class":"bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto","content":[{"block":"text","class":"","text":"2. When you have a stomachache, you","name":"zGrg","hidden":false,"id":"YQQi"},{"class":"inline-block","content":[{"case":false,"evaluation":"auto","class":"text-center","positive":"should","multiline":false,"placeholder":"-","showResult":false,"id":"fJLaqsoY","block":"textarea","name":"6jNy","maxlength":0,"attempts":0}],"background":"","id":"DtyiXOYl","block":"group","name":"0num"},{"block":"text","class":"","text":"drink chamomile tea.","name":"ZNWw","hidden":false,"id":"HZis54H8bsOd"}],"background":"","name":"1Nh7","hidden":false,"marker":"","id":"U0GQrcL0"},{"block":"group","class":"bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto","content":[{"block":"text","class":"","text":"3. When you can´t sleep, you","name":"gYjY","hidden":false,"id":"YQQiEWaT"},{"class":"inline-block","content":[{"case":false,"evaluation":"auto","class":"text-center","positive":"shouldn't","multiline":false,"placeholder":"-","showResult":false,"id":"fJLaqsoYEbj0","block":"textarea","name":"U9DS","maxlength":0,"attempts":0}],"background":"","id":"DtyiXOYl726k","block":"group","name":"SpRN"},{"block":"text","class":"","text":"keep looking at your cellphone.","name":"zft0","hidden":false,"id":"HZis54H8bsOdO7as"}],"background":"","name":"0kEd","hidden":false,"marker":"","id":"d09oYHQW"},{"block":"group","class":"bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto","content":[{"block":"text","class":"","text":"4. When you twist and ankle, you","name":"zB3g","hidden":false,"id":"YQQiEWaTHxKq"},{"class":"inline-block","content":[{"case":false,"evaluation":"auto","class":"text-center","positive":"shouldn't","multiline":false,"placeholder":"-","showResult":false,"id":"fJLaqsoYEbj0PBBH","block":"textarea","name":"FuuL","maxlength":0,"attempts":0}],"background":"","id":"DtyiXOYl726kTEpe","block":"group","name":"ijjb"},{"block":"text","class":"","text":"play football.","name":"oDyS","hidden":false,"id":"HZis54H8bsOdO7asBLRS"}],"background":"","name":"d1L9","hidden":false,"marker":"","id":"qrvBE7RT"},{"block":"group","class":"bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto","content":[{"block":"text","class":"","text":"5. When you feel overwhelmed, you","name":"9gyb","hidden":false,"id":"YQQiEWaTHxKqiVdm"},{"class":"inline-block","content":[{"case":false,"evaluation":"auto","class":"text-center","positive":"shouldn't","multiline":false,"placeholder":"-","showResult":false,"id":"fJLaqsoYEbj0PBBHlYJD","block":"textarea","name":"RMbX","maxlength":0,"attempts":0}],"background":"","id":"DtyiXOYl726kTEpersBy","block":"group","name":"Z1Jm"},{"block":"text","class":"","text":"worry about things that are not in your control.","name":"7LpC","hidden":false,"id":"HZis54H8bsOdO7asBLRSkgYy"}],"background":"","name":"MEKJ","hidden":false,"marker":"","id":"OdngDYhA"},{"block":"group","class":"bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto","content":[{"block":"text","class":"","text":"6. When you are stressed from work, you","name":"BEUm","hidden":false,"id":"YQQiEWaTHxKqiVdm8CvU"},{"class":"inline-block","content":[{"case":false,"evaluation":"auto","class":"text-center","positive":"should","multiline":false,"placeholder":"-","showResult":false,"id":"fJLaqsoYEbj0PBBHlYJDQ71j","block":"textarea","name":"1E72","maxlength":0,"attempts":0}],"background":"","id":"DtyiXOYl726kTEpersByVSiV","block":"group","name":"oGJz"},{"block":"text","class":"","text":"should leave all work related problems at work.","name":"kRKu","hidden":false,"id":"HZis54H8bsOdO7asBLRSkgYyQPh5"}],"background":"","name":"voKw","hidden":false,"marker":"","id":"8rEr7vC2"},{"block":"group","class":"bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto","content":[{"block":"text","class":"","text":"7. When you have fever, you","name":"oSLB","hidden":false,"id":"YQQiEWaTHxKqiVdm8CvU21Qz"},{"class":"inline-block","content":[{"case":false,"evaluation":"auto","class":"text-center","positive":"should","multiline":false,"placeholder":"-","showResult":false,"id":"fJLaqsoYEbj0PBBHlYJDQ71jxOY6","block":"textarea","name":"AukB","maxlength":0,"attempts":0}],"background":"","id":"DtyiXOYl726kTEpersByVSiVRAwl","block":"group","name":"d3zS"},{"block":"text","class":"","text":"take a cold shower.","name":"dX1a","hidden":false,"id":"HZis54H8bsOdO7asBLRSkgYyQPh5FxZJ"}],"background":"","name":"1Siv","hidden":false,"marker":"","id":"KQQukIio"},{"block":"group","class":"bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto","content":[{"block":"text","class":"","text":"8. When you can´t sleep, you","name":"agUq","hidden":false,"id":"YQQiEWaTHxKqiVdm8CvU21QzjILX"},{"class":"inline-block","content":[{"case":false,"evaluation":"auto","class":"text-center","positive":"should","multiline":false,"placeholder":"-","showResult":false,"id":"fJLaqsoYEbj0PBBHlYJDQ71jxOY6H45W","block":"textarea","name":"kjFf","maxlength":0,"attempts":0}],"background":"","id":"DtyiXOYl726kTEpersByVSiVRAwltsM8","block":"group","name":"Mty6"},{"block":"text","class":"","text":"meditate.","name":"zLPm","hidden":false,"id":"HZis54H8bsOdO7asBLRSkgYyQPh5FxZJOhCw"}],"background":"","name":"LLQz","hidden":false,"marker":"","id":"elfWBXoK"},{"block":"group","class":"bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto","content":[{"block":"text","class":"","text":"9. When you feel depressed, you","name":"z9w9","hidden":false,"id":"YQQiEWaTHxKqiVdm8CvU21QzjILXAjCK"},{"class":"inline-block","content":[{"case":false,"evaluation":"auto","class":"text-center","positive":"should","multiline":false,"placeholder":"-","showResult":false,"id":"fJLaqsoYEbj0PBBHlYJDQ71jxOY6H45WDvjz","block":"textarea","name":"6DcS","maxlength":0,"attempts":0}],"background":"","id":"DtyiXOYl726kTEpersByVSiVRAwltsM8NhyT","block":"group","name":"QQYv"},{"block":"text","class":"","text":"think positive things.","name":"eTCB","hidden":false,"id":"HZis54H8bsOdO7asBLRSkgYyQPh5FxZJOhCwQrCk"}],"background":"","name":"KAyB","hidden":false,"marker":"","id":"8Kf3qLEX"},{"block":"group","class":"bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto","content":[{"block":"text","class":"","text":"10. When your feet hurt, you","name":"XICq","hidden":false,"id":"YQQiEWaTHxKqiVdm8CvU21QzjILXAjCK823o"},{"class":"inline-block","content":[{"case":false,"evaluation":"auto","class":"text-center","positive":"shouldn't","multiline":false,"placeholder":"-","showResult":false,"id":"fJLaqsoYEbj0PBBHlYJDQ71jxOY6H45WDvjzmvJv","block":"textarea","name":"154n","maxlength":0,"attempts":0}],"background":"","id":"DtyiXOYl726kTEpersByVSiVRAwltsM8NhyTHHhK","block":"group","name":"TNGQ"},{"block":"text","class":"","text":"take long walks. ","name":"9oUR","hidden":false,"id":"HZis54H8bsOdO7asBLRSkgYyQPh5FxZJOhCwQrCki8r3"}],"background":"","name":"h2V8","hidden":false,"marker":"","id":"2CiIjERq"}],"background":"","name":"4Cs6","hidden":false},{"symbol":"FinalizeGroup"}],"id":""}]},"end":{"buttons":{"restart":false},"content":[{"symbol":"finishedAll"}]},"symbols":{"finishedAll":{"class":"w-full","content":[{"block":"group","class":"bg-slate-100 rounded p-5 text-center w-full","content":[{"block":"text","text":"Congratulations, you finished the activity.","class":"","name":"Congra"}],"background":"","name":"CongraGroup"},{"block":"group","class":"text-center p-5","content":[{"block":"finished","name":"finishedBlock"}],"background":"","name":"finishedGroup"}],"background":"","block":"group"},"FinalizeGroup":{"block":"group","class":"text-center mt-10","content":[{"block":"button","class":"mx-auto","to":"/end","text":"Finalize","name":"FinalizeBTN"}],"background":""}}}
+{
+  "title": "Health, medicine, remedies.",
+  "clock": true,
+  "countdown": 0,
+  "intro": {
+    "buttons": {
+      "start": "Start"
+    },
+    "content": []
+  },
+  "activity": {
+    "scenes": [
+      {
+        "block": "scene",
+        "name": "SC1",
+        "countdown": 0,
+        "instructions": {
+          "open": true,
+          "content": [
+            {
+              "block": "group",
+              "class": "flex gap-2 items-center",
+              "content": [
+                {
+                  "block": "audio",
+                  "class": "",
+                  "file": "files/instruccion.mp3",
+                  "wave": false,
+                  "autoplay": false,
+                  "id": "",
+                  "name": "ladE"
+                },
+                {
+                  "block": "text",
+                  "class": "",
+                  "text": "Fill in the gaps with should or shouldn't",
+                  "id": "",
+                  "name": "DXU7"
+                }
+              ]
+            }
+          ]
+        },
+        "content": [
+          {
+            "block": "group",
+            "class": "bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto",
+            "content": [
+              {
+                "block": "group",
+                "class": "bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto",
+                "content": [
+                  {
+                    "block": "text",
+                    "class": "",
+                    "text": "1. When you have the flu, you",
+                    "name": "3s3Q",
+                    "hidden": false,
+                    "id": ""
+                  },
+                  {
+                    "class": "inline-block",
+                    "content": [
+                      {
+                        "case": false,
+                        "evaluation": "auto",
+                        "class": "text-center",
+                        "positive": "should",
+                        "multiline": false,
+                        "placeholder": "-",
+                        "showResult": false,
+                        "id": "fJLa",
+                        "block": "textarea",
+                        "name": "Evnu",
+                        "maxlength": 0,
+                        "attempts": 0
+                      }
+                    ],
+                    "background": "",
+                    "id": "Dtyi",
+                    "block": "group",
+                    "name": "6g04"
+                  },
+                  {
+                    "block": "text",
+                    "class": "",
+                    "text": "drink lots of fluids.",
+                    "name": "xdTu",
+                    "hidden": false,
+                    "id": "HZis54H8"
+                  }
+                ],
+                "background": "",
+                "name": "axRj",
+                "hidden": false,
+                "marker": "",
+                "id": ""
+              },
+              {
+                "block": "group",
+                "class": "bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto",
+                "content": [
+                  {
+                    "block": "text",
+                    "class": "",
+                    "text": "2. When you have a stomachache, you",
+                    "name": "zGrg",
+                    "hidden": false,
+                    "id": "YQQi"
+                  },
+                  {
+                    "class": "inline-block",
+                    "content": [
+                      {
+                        "case": false,
+                        "evaluation": "auto",
+                        "class": "text-center",
+                        "positive": "should",
+                        "multiline": false,
+                        "placeholder": "-",
+                        "showResult": false,
+                        "id": "fJLaqsoY",
+                        "block": "textarea",
+                        "name": "6jNy",
+                        "maxlength": 0,
+                        "attempts": 0
+                      }
+                    ],
+                    "background": "",
+                    "id": "DtyiXOYl",
+                    "block": "group",
+                    "name": "0num"
+                  },
+                  {
+                    "block": "text",
+                    "class": "",
+                    "text": "drink chamomile tea.",
+                    "name": "ZNWw",
+                    "hidden": false,
+                    "id": "HZis54H8bsOd"
+                  }
+                ],
+                "background": "",
+                "name": "1Nh7",
+                "hidden": false,
+                "marker": "",
+                "id": "U0GQrcL0"
+              },
+              {
+                "block": "group",
+                "class": "bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto",
+                "content": [
+                  {
+                    "block": "text",
+                    "class": "",
+                    "text": "3. When you can´t sleep, you",
+                    "name": "gYjY",
+                    "hidden": false,
+                    "id": "YQQiEWaT"
+                  },
+                  {
+                    "class": "inline-block",
+                    "content": [
+                      {
+                        "case": false,
+                        "evaluation": "auto",
+                        "class": "text-center",
+                        "positive": "shouldn't",
+                        "multiline": false,
+                        "placeholder": "-",
+                        "showResult": false,
+                        "id": "fJLaqsoYEbj0",
+                        "block": "textarea",
+                        "name": "U9DS",
+                        "maxlength": 0,
+                        "attempts": 0
+                      }
+                    ],
+                    "background": "",
+                    "id": "DtyiXOYl726k",
+                    "block": "group",
+                    "name": "SpRN"
+                  },
+                  {
+                    "block": "text",
+                    "class": "",
+                    "text": "keep looking at your cellphone.",
+                    "name": "zft0",
+                    "hidden": false,
+                    "id": "HZis54H8bsOdO7as"
+                  }
+                ],
+                "background": "",
+                "name": "0kEd",
+                "hidden": false,
+                "marker": "",
+                "id": "d09oYHQW"
+              },
+              {
+                "block": "group",
+                "class": "bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto",
+                "content": [
+                  {
+                    "block": "text",
+                    "class": "",
+                    "text": "4. When you twist and ankle, you",
+                    "name": "zB3g",
+                    "hidden": false,
+                    "id": "YQQiEWaTHxKq"
+                  },
+                  {
+                    "class": "inline-block",
+                    "content": [
+                      {
+                        "case": false,
+                        "evaluation": "auto",
+                        "class": "text-center",
+                        "positive": "shouldn't",
+                        "multiline": false,
+                        "placeholder": "-",
+                        "showResult": false,
+                        "id": "fJLaqsoYEbj0PBBH",
+                        "block": "textarea",
+                        "name": "FuuL",
+                        "maxlength": 0,
+                        "attempts": 0
+                      }
+                    ],
+                    "background": "",
+                    "id": "DtyiXOYl726kTEpe",
+                    "block": "group",
+                    "name": "ijjb"
+                  },
+                  {
+                    "block": "text",
+                    "class": "",
+                    "text": "play football.",
+                    "name": "oDyS",
+                    "hidden": false,
+                    "id": "HZis54H8bsOdO7asBLRS"
+                  }
+                ],
+                "background": "",
+                "name": "d1L9",
+                "hidden": false,
+                "marker": "",
+                "id": "qrvBE7RT"
+              },
+              {
+                "block": "group",
+                "class": "bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto",
+                "content": [
+                  {
+                    "block": "text",
+                    "class": "",
+                    "text": "5. When you feel overwhelmed, you",
+                    "name": "9gyb",
+                    "hidden": false,
+                    "id": "YQQiEWaTHxKqiVdm"
+                  },
+                  {
+                    "class": "inline-block",
+                    "content": [
+                      {
+                        "case": false,
+                        "evaluation": "auto",
+                        "class": "text-center",
+                        "positive": "shouldn't",
+                        "multiline": false,
+                        "placeholder": "-",
+                        "showResult": false,
+                        "id": "fJLaqsoYEbj0PBBHlYJD",
+                        "block": "textarea",
+                        "name": "RMbX",
+                        "maxlength": 0,
+                        "attempts": 0
+                      }
+                    ],
+                    "background": "",
+                    "id": "DtyiXOYl726kTEpersBy",
+                    "block": "group",
+                    "name": "Z1Jm"
+                  },
+                  {
+                    "block": "text",
+                    "class": "",
+                    "text": "worry about things that are not in your control.",
+                    "name": "7LpC",
+                    "hidden": false,
+                    "id": "HZis54H8bsOdO7asBLRSkgYy"
+                  }
+                ],
+                "background": "",
+                "name": "MEKJ",
+                "hidden": false,
+                "marker": "",
+                "id": "OdngDYhA"
+              },
+              {
+                "block": "group",
+                "class": "bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto",
+                "content": [
+                  {
+                    "block": "text",
+                    "class": "",
+                    "text": "6. When you are stressed from work, you",
+                    "name": "BEUm",
+                    "hidden": false,
+                    "id": "YQQiEWaTHxKqiVdm8CvU"
+                  },
+                  {
+                    "class": "inline-block",
+                    "content": [
+                      {
+                        "case": false,
+                        "evaluation": "auto",
+                        "class": "text-center",
+                        "positive": "should",
+                        "multiline": false,
+                        "placeholder": "-",
+                        "showResult": false,
+                        "id": "fJLaqsoYEbj0PBBHlYJDQ71j",
+                        "block": "textarea",
+                        "name": "1E72",
+                        "maxlength": 0,
+                        "attempts": 0
+                      }
+                    ],
+                    "background": "",
+                    "id": "DtyiXOYl726kTEpersByVSiV",
+                    "block": "group",
+                    "name": "oGJz"
+                  },
+                  {
+                    "block": "text",
+                    "class": "",
+                    "text": " leave all work related problems at work.",
+                    "name": "kRKu",
+                    "hidden": false,
+                    "id": "HZis54H8bsOdO7asBLRSkgYyQPh5"
+                  }
+                ],
+                "background": "",
+                "name": "voKw",
+                "hidden": false,
+                "marker": "",
+                "id": "8rEr7vC2"
+              },
+              {
+                "block": "group",
+                "class": "bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto",
+                "content": [
+                  {
+                    "block": "text",
+                    "class": "",
+                    "text": "7. When you have fever, you",
+                    "name": "oSLB",
+                    "hidden": false,
+                    "id": "YQQiEWaTHxKqiVdm8CvU21Qz"
+                  },
+                  {
+                    "class": "inline-block",
+                    "content": [
+                      {
+                        "case": false,
+                        "evaluation": "auto",
+                        "class": "text-center",
+                        "positive": "should",
+                        "multiline": false,
+                        "placeholder": "-",
+                        "showResult": false,
+                        "id": "fJLaqsoYEbj0PBBHlYJDQ71jxOY6",
+                        "block": "textarea",
+                        "name": "AukB",
+                        "maxlength": 0,
+                        "attempts": 0
+                      }
+                    ],
+                    "background": "",
+                    "id": "DtyiXOYl726kTEpersByVSiVRAwl",
+                    "block": "group",
+                    "name": "d3zS"
+                  },
+                  {
+                    "block": "text",
+                    "class": "",
+                    "text": "take a cold shower.",
+                    "name": "dX1a",
+                    "hidden": false,
+                    "id": "HZis54H8bsOdO7asBLRSkgYyQPh5FxZJ"
+                  }
+                ],
+                "background": "",
+                "name": "1Siv",
+                "hidden": false,
+                "marker": "",
+                "id": "KQQukIio"
+              },
+              {
+                "block": "group",
+                "class": "bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto",
+                "content": [
+                  {
+                    "block": "text",
+                    "class": "",
+                    "text": "8. When you can´t sleep, you",
+                    "name": "agUq",
+                    "hidden": false,
+                    "id": "YQQiEWaTHxKqiVdm8CvU21QzjILX"
+                  },
+                  {
+                    "class": "inline-block",
+                    "content": [
+                      {
+                        "case": false,
+                        "evaluation": "auto",
+                        "class": "text-center",
+                        "positive": "should",
+                        "multiline": false,
+                        "placeholder": "-",
+                        "showResult": false,
+                        "id": "fJLaqsoYEbj0PBBHlYJDQ71jxOY6H45W",
+                        "block": "textarea",
+                        "name": "kjFf",
+                        "maxlength": 0,
+                        "attempts": 0
+                      }
+                    ],
+                    "background": "",
+                    "id": "DtyiXOYl726kTEpersByVSiVRAwltsM8",
+                    "block": "group",
+                    "name": "Mty6"
+                  },
+                  {
+                    "block": "text",
+                    "class": "",
+                    "text": "meditate.",
+                    "name": "zLPm",
+                    "hidden": false,
+                    "id": "HZis54H8bsOdO7asBLRSkgYyQPh5FxZJOhCw"
+                  }
+                ],
+                "background": "",
+                "name": "LLQz",
+                "hidden": false,
+                "marker": "",
+                "id": "elfWBXoK"
+              },
+              {
+                "block": "group",
+                "class": "bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto",
+                "content": [
+                  {
+                    "block": "text",
+                    "class": "",
+                    "text": "9. When you feel depressed, you",
+                    "name": "z9w9",
+                    "hidden": false,
+                    "id": "YQQiEWaTHxKqiVdm8CvU21QzjILXAjCK"
+                  },
+                  {
+                    "class": "inline-block",
+                    "content": [
+                      {
+                        "case": false,
+                        "evaluation": "auto",
+                        "class": "text-center",
+                        "positive": "should",
+                        "multiline": false,
+                        "placeholder": "-",
+                        "showResult": false,
+                        "id": "fJLaqsoYEbj0PBBHlYJDQ71jxOY6H45WDvjz",
+                        "block": "textarea",
+                        "name": "6DcS",
+                        "maxlength": 0,
+                        "attempts": 0
+                      }
+                    ],
+                    "background": "",
+                    "id": "DtyiXOYl726kTEpersByVSiVRAwltsM8NhyT",
+                    "block": "group",
+                    "name": "QQYv"
+                  },
+                  {
+                    "block": "text",
+                    "class": "",
+                    "text": "think positive things.",
+                    "name": "eTCB",
+                    "hidden": false,
+                    "id": "HZis54H8bsOdO7asBLRSkgYyQPh5FxZJOhCwQrCk"
+                  }
+                ],
+                "background": "",
+                "name": "KAyB",
+                "hidden": false,
+                "marker": "",
+                "id": "8Kf3qLEX"
+              },
+              {
+                "block": "group",
+                "class": "bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto",
+                "content": [
+                  {
+                    "block": "text",
+                    "class": "",
+                    "text": "10. When your feet hurt, you",
+                    "name": "XICq",
+                    "hidden": false,
+                    "id": "YQQiEWaTHxKqiVdm8CvU21QzjILXAjCK823o"
+                  },
+                  {
+                    "class": "inline-block",
+                    "content": [
+                      {
+                        "case": false,
+                        "evaluation": "auto",
+                        "class": "text-center",
+                        "positive": "shouldn't",
+                        "multiline": false,
+                        "placeholder": "-",
+                        "showResult": false,
+                        "id": "fJLaqsoYEbj0PBBHlYJDQ71jxOY6H45WDvjzmvJv",
+                        "block": "textarea",
+                        "name": "154n",
+                        "maxlength": 0,
+                        "attempts": 0
+                      }
+                    ],
+                    "background": "",
+                    "id": "DtyiXOYl726kTEpersByVSiVRAwltsM8NhyTHHhK",
+                    "block": "group",
+                    "name": "TNGQ"
+                  },
+                  {
+                    "block": "text",
+                    "class": "",
+                    "text": "take long walks. ",
+                    "name": "9oUR",
+                    "hidden": false,
+                    "id": "HZis54H8bsOdO7asBLRSkgYyQPh5FxZJOhCwQrCki8r3"
+                  }
+                ],
+                "background": "",
+                "name": "h2V8",
+                "hidden": false,
+                "marker": "",
+                "id": "2CiIjERq"
+              }
+            ],
+            "background": "",
+            "name": "4Cs6",
+            "hidden": false
+          },
+          {
+            "symbol": "FinalizeGroup"
+          }
+        ],
+        "id": ""
+      }
+    ]
+  },
+  "end": {
+    "buttons": {
+      "restart": false
+    },
+    "content": [
+      {
+        "symbol": "finishedAll"
+      }
+    ]
+  },
+  "symbols": {
+    "finishedAll": {
+      "class": "w-full",
+      "content": [
+        {
+          "block": "group",
+          "class": "bg-slate-100 rounded p-5 text-center w-full",
+          "content": [
+            {
+              "block": "text",
+              "text": "Congratulations, you finished the activity.",
+              "class": "",
+              "name": "Congra"
+            }
+          ],
+          "background": "",
+          "name": "CongraGroup"
+        },
+        {
+          "block": "group",
+          "class": "text-center p-5",
+          "content": [
+            {
+              "block": "finished",
+              "name": "finishedBlock"
+            }
+          ],
+          "background": "",
+          "name": "finishedGroup"
+        }
+      ],
+      "background": "",
+      "block": "group"
+    },
+    "FinalizeGroup": {
+      "block": "group",
+      "class": "text-center mt-10",
+      "content": [
+        {
+          "block": "button",
+          "class": "mx-auto",
+          "to": "/end",
+          "text": "Finalize",
+          "name": "FinalizeBTN"
+        }
+      ],
+      "background": ""
+    }
+  },
+  "attempts": 0
+}

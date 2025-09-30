@@ -1,1 +1,287 @@
-{"title":"Health, medicine, remedies.","clock":true,"countdown":0,"intro":{"buttons":{"start":"Start"},"content":[]},"activity":{"scenes":[{"block":"scene","name":"SC1","countdown":0,"instructions":{"open":true,"content":[{"block":"group","class":"flex gap-2 items-center","content":[{"block":"audio","class":"","file":"files/instruccion.mp3","wave":false,"autoplay":false,"id":"","name":"AThe"},{"block":"text","class":"","text":"Match the options of what Pedro should and shouldn't do, according to what Dr. Neil said in the conversation with him. ","id":"","name":"vdAa"}]}]},"content":[{"block":"group","class":"bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto","content":[{"block":"group","class":"bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto grid grid-cols-3 gap-1","content":[{"marker":"⬅️","class":"grid col-span-2 gap-3","content":[{"block":"text","class":"p-4 bg-slate-200","text":"Stomachache","name":"KTUh","hidden":false,"id":""},{"block":"text","class":"p-4 bg-slate-300","text":"Nausea","name":"00i4","hidden":false,"id":"4KpFkb6w"},{"block":"text","class":"p-4 bg-slate-200","text":"Fever","name":"R98w","hidden":false,"id":"pcadoo7c"},{"block":"text","class":"p-4 bg-slate-300","text":"Headache","name":"WyOh","hidden":false,"id":"PjeHja8W"},{"block":"text","class":"p-4 bg-slate-200","text":"The Flu ","name":"cSRB","hidden":false,"id":"Qsm1cXaE"},{"block":"text","class":"p-4 bg-slate-300","text":"Sore Throat","name":"QzKA","hidden":false,"id":"OsUKlW4l"}],"background":"","id":"au3X","block":"group","name":"Kyjm"},{"order":true,"class":"grid h-full gap-3","group":"uno","content":[{"text":"He should take vitamin C","class":"normal-case","id":"Hotf","block":"text","name":"D5MU"},{"text":"He should drink more water","class":"normal-case","id":"FusxBY6s","block":"text","name":"TYHe"},{"text":"He shouldn't be near cats","class":"normal-case","id":"fYZGrVk3","block":"text","name":"ZPhT"},{"text":"He should get more sleep","class":"normal-case","id":"hOQ3qYOh","block":"text","name":"Ayri"},{"text":"He shouldn't drink alcohol","class":"normal-case","id":"7vyLu2Hu","block":"text","name":"yqm6"},{"text":"He should have a healthy breakfast every morning","class":"normal-case","id":"FWe6BZ4n","block":"text","name":"cL5A"}],"positive":"cL5A,TYHe,Ayri,yqm6,D5MU,ZPhT","evaluation":"auto","showResult":false,"id":"p8AI","block":"dragdrop","name":"IvWR","attempts":0}],"background":"","name":"g05o","hidden":false,"marker":"","id":""}],"background":"","name":"4Cs6","hidden":false},{"symbol":"FinalizeGroup"}],"id":""}]},"end":{"buttons":{"restart":false},"content":[{"symbol":"finishedAll"}]},"symbols":{"finishedAll":{"class":"w-full","content":[{"block":"group","class":"bg-slate-100 rounded p-5 text-center w-full","content":[{"block":"text","text":"Congratulations, you finished the activity.","class":"","name":"Congra"}],"background":"","name":"CongraGroup"},{"block":"group","class":"text-center p-5","content":[{"block":"finished","name":"finishedBlock"}],"background":"","name":"finishedGroup"}],"background":"","block":"group"},"FinalizeGroup":{"block":"group","class":"text-center mt-10","content":[{"block":"button","class":"mx-auto","to":"/end","text":"Finalize","name":"FinalizeBTN"}],"background":""}}}
+{
+  "title": "Health, medicine, remedies.",
+  "clock": true,
+  "countdown": 0,
+  "intro": {
+    "buttons": {
+      "start": "Start"
+    },
+    "content": []
+  },
+  "activity": {
+    "scenes": [
+      {
+        "block": "scene",
+        "name": "SC1",
+        "countdown": 0,
+        "instructions": {
+          "open": true,
+          "content": [
+            {
+              "block": "group",
+              "class": "flex gap-2 items-center",
+              "content": [
+                {
+                  "block": "audio",
+                  "class": "",
+                  "file": "files/instruccion.mp3",
+                  "wave": false,
+                  "autoplay": false,
+                  "id": "",
+                  "name": "AThe"
+                },
+                {
+                  "block": "text",
+                  "class": "",
+                  "text": "Match the options of what Pedro should and shouldn't do, according to what Dr. Neil said in the conversation with him. ",
+                  "id": "",
+                  "name": "vdAa"
+                }
+              ]
+            }
+          ]
+        },
+        "content": [
+          {
+            "block": "group",
+            "class": "bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto",
+            "content": [
+              {
+                "block": "group",
+                "class": "bg-slate-100 rounded p-3 my-2 max-w-lg mx-auto grid grid-cols-2 gap-1",
+                "content": [
+                  {
+                    "marker": "",
+                    "class": "",
+                    "content": [],
+                    "background": "",
+                    "id": "nHEh",
+                    "block": "group",
+                    "name": "Vdl0"
+                  },
+                  {
+                    "marker": "",
+                    "class": "text-center",
+                    "content": [
+                      {
+                        "icon": "streamline:one-finger-drag-vertical",
+                        "class": "text-6xl opacity-50",
+                        "id": "yZqW",
+                        "block": "icon",
+                        "name": "6g74"
+                      }
+                    ],
+                    "background": "",
+                    "id": "550WnVqE",
+                    "block": "group",
+                    "name": "DJI9"
+                  }
+                ],
+                "background": "",
+                "name": "g05o",
+                "hidden": false,
+                "marker": "",
+                "id": ""
+              },
+              {
+                "block": "group",
+                "class": "bg-slate-100 rounded p-3 my-2 max-w-lg mx-auto grid grid-cols-2 gap-1",
+                "content": [
+                  {
+                    "marker": "⬅️",
+                    "class": "flex flex-col gap-5 mx-auto w-full",
+                    "content": [
+                      {
+                        "block": "text",
+                        "class": "p-4 bg-slate-200",
+                        "text": "Stomachache",
+                        "name": "bMm1",
+                        "hidden": false,
+                        "id": "y257"
+                      },
+                      {
+                        "block": "text",
+                        "class": "p-4 bg-slate-300",
+                        "text": "Nausea",
+                        "name": "0jJv",
+                        "hidden": false,
+                        "id": "4KpFkb6w30uV"
+                      },
+                      {
+                        "block": "text",
+                        "class": "p-4 bg-slate-200",
+                        "text": "Fever",
+                        "name": "yywb",
+                        "hidden": false,
+                        "id": "pcadoo7clfGv"
+                      },
+                      {
+                        "block": "text",
+                        "class": "p-4 bg-slate-300",
+                        "text": "Headache",
+                        "name": "RB3l",
+                        "hidden": false,
+                        "id": "PjeHja8W2DPO"
+                      },
+                      {
+                        "block": "text",
+                        "class": "p-4 bg-slate-200",
+                        "text": "The Flu ",
+                        "name": "NQ14",
+                        "hidden": false,
+                        "id": "Qsm1cXaEqHso"
+                      },
+                      {
+                        "block": "text",
+                        "class": "p-4 bg-slate-300",
+                        "text": "Sore Throat",
+                        "name": "XlmD",
+                        "hidden": false,
+                        "id": "OsUKlW4lR74w"
+                      }
+                    ],
+                    "background": "",
+                    "id": "au3XbghC",
+                    "block": "group",
+                    "name": "34dr"
+                  },
+                  {
+                    "order": true,
+                    "class": "flex flex-col h-full justify-between",
+                    "group": "uno",
+                    "content": [
+                      {
+                        "text": "He should take vitamin C",
+                        "class": "normal-case",
+                        "id": "Hotfd5dr",
+                        "block": "text",
+                        "name": "gCP2"
+                      },
+                      {
+                        "text": "He should drink more water",
+                        "class": "normal-case",
+                        "id": "FusxBY6s9hzM",
+                        "block": "text",
+                        "name": "sfj1"
+                      },
+                      {
+                        "text": "He shouldn't be near cats",
+                        "class": "normal-case",
+                        "id": "fYZGrVk3mRTF",
+                        "block": "text",
+                        "name": "cUo1"
+                      },
+                      {
+                        "text": "He should get more sleep",
+                        "class": "normal-case",
+                        "id": "hOQ3qYOhDASY",
+                        "block": "text",
+                        "name": "giIF"
+                      },
+                      {
+                        "text": "He shouldn't drink alcohol",
+                        "class": "normal-case",
+                        "id": "7vyLu2Huygph",
+                        "block": "text",
+                        "name": "VxGe"
+                      },
+                      {
+                        "text": "He should have a healthy breakfast every morning",
+                        "class": "normal-case",
+                        "id": "FWe6BZ4n1D2y",
+                        "block": "text",
+                        "name": "qIYV"
+                      }
+                    ],
+                    "positive": "cL5A,TYHe,Ayri,yqm6,D5MU,ZPhT",
+                    "evaluation": "auto",
+                    "showResult": false,
+                    "id": "p8AI8qp8",
+                    "block": "dragdrop",
+                    "name": "hltO",
+                    "attempts": 0,
+                    "shuffle": false
+                  }
+                ],
+                "background": "",
+                "name": "8u6C",
+                "hidden": false,
+                "marker": "",
+                "id": "HpqUz7Nj"
+              }
+            ],
+            "background": "",
+            "name": "4Cs6",
+            "hidden": false,
+            "marker": "",
+            "id": ""
+          },
+          {
+            "symbol": "FinalizeGroup"
+          }
+        ],
+        "id": ""
+      }
+    ]
+  },
+  "end": {
+    "buttons": {
+      "restart": false
+    },
+    "content": [
+      {
+        "symbol": "finishedAll"
+      }
+    ]
+  },
+  "symbols": {
+    "finishedAll": {
+      "class": "w-full",
+      "content": [
+        {
+          "block": "group",
+          "class": "bg-slate-100 rounded p-5 text-center w-full",
+          "content": [
+            {
+              "block": "text",
+              "text": "Congratulations, you finished the activity.",
+              "class": "",
+              "name": "Congra"
+            }
+          ],
+          "background": "",
+          "name": "CongraGroup"
+        },
+        {
+          "block": "group",
+          "class": "text-center p-5",
+          "content": [
+            {
+              "block": "finished",
+              "name": "finishedBlock"
+            }
+          ],
+          "background": "",
+          "name": "finishedGroup"
+        }
+      ],
+      "background": "",
+      "block": "group"
+    },
+    "FinalizeGroup": {
+      "block": "group",
+      "class": "text-center mt-10",
+      "content": [
+        {
+          "block": "button",
+          "class": "mx-auto",
+          "to": "/end",
+          "text": "Finalize",
+          "name": "FinalizeBTN"
+        }
+      ],
+      "background": ""
+    }
+  },
+  "attempts": 0
+}

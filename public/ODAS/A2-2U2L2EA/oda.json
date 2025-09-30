@@ -1,1 +1,622 @@
-{"title":"Health, medicine, remedies.","clock":false,"countdown":0,"intro":{"buttons":{"start":"Start"},"content":[]},"activity":{"scenes":[{"block":"scene","name":"SC1","countdown":0,"instructions":{"open":true,"content":[{"block":"group","class":"flex gap-2 items-center","content":[{"block":"audio","class":"","file":"files/A2-2U2L2EA-INS.mp3","wave":false,"autoplay":false,"id":"","name":"wU2H"},{"block":"text","class":"","text":"Let´s go to Dr. Neil´s office. He is a very good physician and he always has lots of patients. Click on each one of them and find out why they are going to visit him. ","id":"","name":"hq93"}]}]},"content":[{"block":"group","class":"bg-slate-100 rounded p-3 my-2 max-w-5xl mx-auto","content":[{"marker":"","class":"bg-blue-500 p-2 rounded-lg","content":[{"marker":"","class":"bg-white p-5 rounded-lg","content":[{"marker":"","class":"grid grid-cols-3 gap-5 m-10 text-2xl","content":[{"class":"","content":[{"marker":"","class":"","content":[{"marker":"","class":"bg-gray-300 rounded-lg flex justify-center p-2 mask mask-squircle","content":[{"file":"files/A2-2U2L2EA-IMG-01-gris.jpg","class":"w-3/4 mask mask-squircle ","id":"RoAp","block":"image","name":"OXGu"}],"background":"","id":"Cu7P","block":"group","name":"MMpH"}],"background":"","id":"V19O","block":"group","name":"bxdG"},{"marker":"","class":"text-center","content":[{"marker":"","class":"bg-blue-300 rounded-lg flex justify-center p-2 mask mask-squircle","content":[{"file":"files/A2-2U2L2EA-IMG-01.jpg","class":"w-3/4 mask mask-squircle","id":"RoApeeOf","block":"image","name":"cKTV"}],"background":"","id":"UxaP","block":"group","name":"nWi7"},{"text":"My joints are aching.","class":"","id":"qMYf","block":"text","name":"ciJL"}],"background":"","id":"S0BtEkng","block":"group","name":"4YtU"}],"evaluation":"auto","id":"2owu","block":"switch","name":"ufYY"},{"class":"","content":[{"marker":"","class":"","content":[{"marker":"","class":"bg-gray-300 rounded-lg flex justify-center p-2 mask mask-squircle","content":[{"file":"files/A2-2U2L2EA-IMG-02-gris.jpg","class":"w-3/4 mask mask-squircle","id":"RoApzbr3","block":"image","name":"y6LS"}],"background":"","id":"VYdJ","block":"group","name":"mZve"}],"background":"","id":"V19OOXwJ","block":"group","name":"Nuaz"},{"marker":"","class":"text-center","content":[{"marker":"","class":"bg-indigo-300 rounded-lg flex justify-center p-2 mask mask-squircle","content":[{"file":"files/A2-2U2L2EA-IMG-02.jpg","class":"w-3/4 mask mask-squircle","id":"RoApeeOf7dle","block":"image","name":"bhqx"}],"background":"","id":"JNR2","block":"group","name":"tSEY"},{"text":"I´ve been having headaches.","class":"","id":"qMYfBW1d","block":"text","name":"fYxO"}],"background":"","id":"S0BtEkngr7NJ","block":"group","name":"E1Ez"}],"evaluation":"auto","id":"K4TuKMWi","block":"switch","name":"pT8x"},{"class":"","content":[{"marker":"","class":"","content":[{"marker":"","class":"bg-gray-300 rounded-lg flex justify-center p-2 mask mask-squircle","content":[{"file":"files/A2-2U2L2EA-IMG-04-gris.jpg","class":"w-3/4 mask mask-squircle","id":"RoApiNdU","block":"image","name":"pSJd"}],"background":"","id":"B083","block":"group","name":"WIbR"}],"background":"","id":"V19OsIzW","block":"group","name":"33Zw"},{"marker":"","class":"text-center","content":[{"marker":"","class":"bg-red-300 rounded-lg flex justify-center p-2 mask mask-squircle","content":[{"file":"files/A2-2U2L2EA-IMG-04.jpg","class":"w-3/4 mask mask-squircle","id":"RoApeeOfEZhY","block":"image","name":"00NR"}],"background":"","id":"Pbwd","block":"group","name":"2WDe"},{"text":"My skin is itchy, I can´t stop scratching","class":"","id":"qMYfQFAi","block":"text","name":"v1SY"}],"background":"","id":"S0BtEkngCZt7","block":"group","name":"iZMW"}],"evaluation":"auto","id":"8yvlfP2m","block":"switch","name":"9RhD"},{"class":"","content":[{"marker":"","class":"bg-gray-300 rounded-lg flex justify-center p-2 mask mask-squircle","content":[{"file":"files/A2-2U2L2EA-IMG-03-gris.jpg","class":"w-3/4  mask mask-squircle","id":"RoApn5MM","block":"image","name":"PmKB"}],"background":"","id":"V19ONGOs","block":"group","name":"H4k0"},{"marker":"","class":"text-center","content":[{"marker":"","class":"bg-red-600 rounded-lg flex justify-center p-2 mask mask-squircle","content":[{"file":"files/A2-2U2L2EA-IMG-03.jpg","class":"w-3/4 mask mask-squircle","id":"RoApeeOf2Egy","block":"image","name":"h4Ho"}],"background":"","id":"G2Z9","block":"group","name":"6tgZ"},{"text":"I cut my finger, the bleeding won´t stop.","class":"","id":"qMYfF1hK","block":"text","name":"WY1z"}],"background":"","id":"S0BtEkngiQOs","block":"group","name":"NIjF"}],"evaluation":"auto","id":"43zOhoZ6","block":"switch","name":"ptJ5"},{"class":"","content":[{"marker":"","class":"bg-gray-300 rounded-lg flex justify-center p-2 mask mask-squircle","content":[{"file":"files/A2-2U2L2EA-IMG-06-2-gris.jpg","class":"w-3/4 mask mask-squircle","id":"RoApVZy8","block":"image","name":"gFxv"}],"background":"","id":"V19OUuVI","block":"group","name":"at5i"},{"marker":"","class":"text-center","content":[{"marker":"","class":"bg-orange-300 rounded-lg flex justify-center p-2 mask mask-squircle","content":[{"file":"files/A2-2U2L2EA-IMG-06-2.jpg","class":"w-3/4 mask mask-squircle","id":"RoApeeOfgQTm","block":"image","name":"zMvS"}],"background":"","id":"Dlj2","block":"group","name":"PmON"},{"text":"I´ve got a sprained ankle","class":"","id":"qMYfGtKi","block":"text","name":"Wrsf"}],"background":"","id":"S0BtEkng9OIt","block":"group","name":"lHRW"}],"evaluation":"auto","id":"hlTpIT5H","block":"switch","name":"itIy"},{"class":"","content":[{"marker":"","class":"bg-gray-300 rounded-lg flex justify-center p-2 mask mask-squircle","content":[{"file":"files/A2-2U2L2EA-IMG-05-gris.jpg","class":"w-3/4 mask mask-squircle","id":"RoApW4TdaxI1","block":"image","name":"3wXM"}],"background":"","id":"V19OwVTm5uVK","block":"group","name":"OJjk"},{"marker":"","class":"","content":[{"marker":"","class":"bg-green-300 rounded-lg flex justify-center p-2 mask mask-squircle","content":[{"file":"files/A2-2U2L2EA-IMG-05.jpg","class":"w-3/4 mask mask-squircle","id":"RoApeeOfPmOEeF3C","block":"image","name":"4TuZ"}],"background":"","id":"4YvLdTqJ","block":"group","name":"ULv2"},{"text":"I have stomachache and nausea","class":"","id":"qMYfWAB9npXZ","block":"text","name":"Rslh"}],"background":"","id":"S0BtEkngB4AVLZu5","block":"group","name":"Y85H"}],"evaluation":"auto","id":"WN4cfSZK","block":"switch","name":"yCyB"},{"marker":"","class":"grid col-span-3","content":[{"class":"","content":[{"marker":"","class":"bg-gray-300 rounded-lg flex justify-center p-2 mask mask-squircle","content":[{"file":"files/A2-2U2L2EA-IMG-07-gris.jpg","class":"w-1/4 mask mask-squircle","id":"RoApW4TdaxI1Vnj2","block":"image","name":"V5oA"}],"background":"","id":"V19OwVTm5uVKPeNe","block":"group","name":"hMFR"},{"marker":"","class":"text-center","content":[{"marker":"","class":"bg-orange-500 rounded-lg flex justify-center p-2 mask mask-squircle","content":[{"file":"files/A2-2U2L2EA-IMG-07.jpg","class":"w-1/4 mask mask-squircle","id":"RoApeeOfPmOEeF3Ca8ER","block":"image","name":"b3RJ"}],"background":"","id":"4YvLdTqJwXNN","block":"group","name":"yyfb"},{"text":"I have the measles.","class":"","id":"qMYfWAB9npXZEgaL","block":"text","name":"Mu6l"}],"background":"","id":"S0BtEkngB4AVLZu5qeYH","block":"group","name":"hNac"}],"evaluation":"auto","id":"daRe4J8Z","block":"switch","name":"m7Ix","positive":0}],"background":"","id":"ckbA","block":"group","name":"LhYn"}],"background":"","id":"0tdv","block":"group","name":"Iy8W"}],"background":"","id":"3YRR","block":"group","name":"pxze","hidden":false}],"background":"","id":"04tq","block":"group","name":"2qxa"}],"background":"","name":"4Cs6","hidden":false,"marker":"","id":""},{"symbol":"FinalizeGroup"}],"id":""}]},"end":{"buttons":{"restart":false},"content":[{"symbol":"finishedAll"}]},"symbols":{"finishedAll":{"class":"w-full","content":[{"block":"group","class":"bg-slate-100 rounded p-5 text-center w-full","content":[{"block":"text","text":"Congratulations, you finished the activity.","class":"","name":"Congra"}],"background":"","name":"CongraGroup"},{"block":"group","class":"text-center p-5","content":[{"block":"finished","name":"finishedBlock"}],"background":"","name":"finishedGroup"}],"background":"","block":"group"},"FinalizeGroup":{"block":"group","class":"text-center mt-10","content":[{"block":"button","class":"mx-auto","to":"/end","text":"Finalize","name":"FinalizeBTN"}],"background":""}},"attempts":0}
+{
+  "title": "Health, medicine, remedies.",
+  "clock": false,
+  "countdown": 0,
+  "intro": {
+    "buttons": {
+      "start": "Start"
+    },
+    "content": []
+  },
+  "activity": {
+    "scenes": [
+      {
+        "block": "scene",
+        "name": "SC1",
+        "countdown": 0,
+        "instructions": {
+          "open": true,
+          "content": [
+            {
+              "block": "group",
+              "class": "flex gap-2 items-center",
+              "content": [
+                {
+                  "block": "audio",
+                  "class": "",
+                  "file": "files/A2-2U2L2EA-INS.mp3",
+                  "wave": false,
+                  "autoplay": false,
+                  "id": "",
+                  "name": "wU2H"
+                },
+                {
+                  "block": "text",
+                  "class": "",
+                  "text": "Let´s go to Dr. Neil´s office. He is a very good physician and he always has lots of patients. Click on each one of them and find out why they are going to visit him. ",
+                  "id": "",
+                  "name": "hq93"
+                }
+              ]
+            }
+          ]
+        },
+        "content": [
+          {
+            "block": "group",
+            "class": "bg-slate-100 rounded p-3 my-2 max-w-5xl mx-auto",
+            "content": [
+              {
+                "marker": "",
+                "class": "bg-blue-500 p-2 rounded-lg",
+                "content": [
+                  {
+                    "marker": "",
+                    "class": "bg-white p-5 rounded-lg",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "grid grid-cols-3 gap-5 m-10 text-2xl",
+                        "content": [
+                          {
+                            "class": "",
+                            "content": [
+                              {
+                                "marker": "",
+                                "class": "",
+                                "content": [
+                                  {
+                                    "marker": "",
+                                    "class": "bg-gray-300 rounded-lg flex justify-center p-2 mask mask-squircle",
+                                    "content": [
+                                      {
+                                        "file": "files/A2-2U2L2EA-IMG-01-gris.jpg",
+                                        "class": "w-3/4 mask mask-squircle ",
+                                        "id": "RoAp",
+                                        "block": "image",
+                                        "name": "OXGu"
+                                      }
+                                    ],
+                                    "background": "",
+                                    "id": "Cu7P",
+                                    "block": "group",
+                                    "name": "MMpH"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "V19O",
+                                "block": "group",
+                                "name": "bxdG"
+                              },
+                              {
+                                "marker": "",
+                                "class": "text-center",
+                                "content": [
+                                  {
+                                    "marker": "",
+                                    "class": "bg-blue-300 rounded-lg flex justify-center p-2 mask mask-squircle",
+                                    "content": [
+                                      {
+                                        "file": "files/A2-2U2L2EA-IMG-01.jpg",
+                                        "class": "w-3/4 mask mask-squircle",
+                                        "id": "RoApeeOf",
+                                        "block": "image",
+                                        "name": "cKTV"
+                                      }
+                                    ],
+                                    "background": "",
+                                    "id": "UxaP",
+                                    "block": "group",
+                                    "name": "nWi7"
+                                  },
+                                  {
+                                    "text": "My joints are aching.",
+                                    "class": "",
+                                    "id": "qMYf",
+                                    "block": "text",
+                                    "name": "ciJL"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "S0BtEkng",
+                                "block": "group",
+                                "name": "4YtU"
+                              }
+                            ],
+                            "evaluation": "manual",
+                            "id": "2owu",
+                            "block": "switch",
+                            "name": "ufYY",
+                            "positive": 0
+                          },
+                          {
+                            "class": "",
+                            "content": [
+                              {
+                                "marker": "",
+                                "class": "",
+                                "content": [
+                                  {
+                                    "marker": "",
+                                    "class": "bg-gray-300 rounded-lg flex justify-center p-2 mask mask-squircle",
+                                    "content": [
+                                      {
+                                        "file": "files/A2-2U2L2EA-IMG-02-gris.jpg",
+                                        "class": "w-3/4 mask mask-squircle",
+                                        "id": "RoApzbr3",
+                                        "block": "image",
+                                        "name": "y6LS"
+                                      }
+                                    ],
+                                    "background": "",
+                                    "id": "VYdJ",
+                                    "block": "group",
+                                    "name": "mZve"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "V19OOXwJ",
+                                "block": "group",
+                                "name": "Nuaz"
+                              },
+                              {
+                                "marker": "",
+                                "class": "text-center",
+                                "content": [
+                                  {
+                                    "marker": "",
+                                    "class": "bg-indigo-300 rounded-lg flex justify-center p-2 mask mask-squircle",
+                                    "content": [
+                                      {
+                                        "file": "files/A2-2U2L2EA-IMG-02.jpg",
+                                        "class": "w-3/4 mask mask-squircle",
+                                        "id": "RoApeeOf7dle",
+                                        "block": "image",
+                                        "name": "bhqx"
+                                      }
+                                    ],
+                                    "background": "",
+                                    "id": "JNR2",
+                                    "block": "group",
+                                    "name": "tSEY"
+                                  },
+                                  {
+                                    "text": "I´ve been having headaches.",
+                                    "class": "",
+                                    "id": "qMYfBW1d",
+                                    "block": "text",
+                                    "name": "fYxO"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "S0BtEkngr7NJ",
+                                "block": "group",
+                                "name": "E1Ez"
+                              }
+                            ],
+                            "evaluation": "manual",
+                            "id": "K4TuKMWi",
+                            "block": "switch",
+                            "name": "pT8x",
+                            "positive": 0
+                          },
+                          {
+                            "class": "",
+                            "content": [
+                              {
+                                "marker": "",
+                                "class": "",
+                                "content": [
+                                  {
+                                    "marker": "",
+                                    "class": "bg-gray-300 rounded-lg flex justify-center p-2 mask mask-squircle",
+                                    "content": [
+                                      {
+                                        "file": "files/A2-2U2L2EA-IMG-04-gris.jpg",
+                                        "class": "w-3/4 mask mask-squircle",
+                                        "id": "RoApiNdU",
+                                        "block": "image",
+                                        "name": "pSJd"
+                                      }
+                                    ],
+                                    "background": "",
+                                    "id": "B083",
+                                    "block": "group",
+                                    "name": "WIbR"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "V19OsIzW",
+                                "block": "group",
+                                "name": "33Zw"
+                              },
+                              {
+                                "marker": "",
+                                "class": "text-center",
+                                "content": [
+                                  {
+                                    "marker": "",
+                                    "class": "bg-red-300 rounded-lg flex justify-center p-2 mask mask-squircle",
+                                    "content": [
+                                      {
+                                        "file": "files/A2-2U2L2EA-IMG-04.jpg",
+                                        "class": "w-3/4 mask mask-squircle",
+                                        "id": "RoApeeOfEZhY",
+                                        "block": "image",
+                                        "name": "00NR"
+                                      }
+                                    ],
+                                    "background": "",
+                                    "id": "Pbwd",
+                                    "block": "group",
+                                    "name": "2WDe"
+                                  },
+                                  {
+                                    "text": "My skin is itchy, I can´t stop scratching",
+                                    "class": "",
+                                    "id": "qMYfQFAi",
+                                    "block": "text",
+                                    "name": "v1SY"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "S0BtEkngCZt7",
+                                "block": "group",
+                                "name": "iZMW"
+                              }
+                            ],
+                            "evaluation": "manual",
+                            "id": "8yvlfP2m",
+                            "block": "switch",
+                            "name": "9RhD",
+                            "positive": 0
+                          },
+                          {
+                            "class": "",
+                            "content": [
+                              {
+                                "marker": "",
+                                "class": "bg-gray-300 rounded-lg flex justify-center p-2 mask mask-squircle",
+                                "content": [
+                                  {
+                                    "file": "files/A2-2U2L2EA-IMG-03-gris.jpg",
+                                    "class": "w-3/4  mask mask-squircle",
+                                    "id": "RoApn5MM",
+                                    "block": "image",
+                                    "name": "PmKB"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "V19ONGOs",
+                                "block": "group",
+                                "name": "H4k0"
+                              },
+                              {
+                                "marker": "",
+                                "class": "text-center",
+                                "content": [
+                                  {
+                                    "marker": "",
+                                    "class": "bg-red-600 rounded-lg flex justify-center p-2 mask mask-squircle",
+                                    "content": [
+                                      {
+                                        "file": "files/A2-2U2L2EA-IMG-03.jpg",
+                                        "class": "w-3/4 mask mask-squircle",
+                                        "id": "RoApeeOf2Egy",
+                                        "block": "image",
+                                        "name": "h4Ho"
+                                      }
+                                    ],
+                                    "background": "",
+                                    "id": "G2Z9",
+                                    "block": "group",
+                                    "name": "6tgZ"
+                                  },
+                                  {
+                                    "text": "I cut my finger, the bleeding won´t stop.",
+                                    "class": "",
+                                    "id": "qMYfF1hK",
+                                    "block": "text",
+                                    "name": "WY1z"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "S0BtEkngiQOs",
+                                "block": "group",
+                                "name": "NIjF"
+                              }
+                            ],
+                            "evaluation": "manual",
+                            "id": "43zOhoZ6",
+                            "block": "switch",
+                            "name": "ptJ5",
+                            "positive": 0
+                          },
+                          {
+                            "class": "",
+                            "content": [
+                              {
+                                "marker": "",
+                                "class": "bg-gray-300 rounded-lg flex justify-center p-2 mask mask-squircle",
+                                "content": [
+                                  {
+                                    "file": "files/A2-2U2L2EA-IMG-06-2-gris.jpg",
+                                    "class": "w-3/4 mask mask-squircle",
+                                    "id": "RoApVZy8",
+                                    "block": "image",
+                                    "name": "gFxv"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "V19OUuVI",
+                                "block": "group",
+                                "name": "at5i"
+                              },
+                              {
+                                "marker": "",
+                                "class": "text-center",
+                                "content": [
+                                  {
+                                    "marker": "",
+                                    "class": "bg-orange-300 rounded-lg flex justify-center p-2 mask mask-squircle",
+                                    "content": [
+                                      {
+                                        "file": "files/A2-2U2L2EA-IMG-06-2.jpg",
+                                        "class": "w-3/4 mask mask-squircle",
+                                        "id": "RoApeeOfgQTm",
+                                        "block": "image",
+                                        "name": "zMvS"
+                                      }
+                                    ],
+                                    "background": "",
+                                    "id": "Dlj2",
+                                    "block": "group",
+                                    "name": "PmON"
+                                  },
+                                  {
+                                    "text": "I´ve got a sprained ankle",
+                                    "class": "",
+                                    "id": "qMYfGtKi",
+                                    "block": "text",
+                                    "name": "Wrsf"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "S0BtEkng9OIt",
+                                "block": "group",
+                                "name": "lHRW"
+                              }
+                            ],
+                            "evaluation": "manual",
+                            "id": "hlTpIT5H",
+                            "block": "switch",
+                            "name": "itIy",
+                            "positive": 0
+                          },
+                          {
+                            "class": "",
+                            "content": [
+                              {
+                                "marker": "",
+                                "class": "bg-gray-300 rounded-lg flex justify-center p-2 mask mask-squircle",
+                                "content": [
+                                  {
+                                    "file": "files/A2-2U2L2EA-IMG-05-gris.jpg",
+                                    "class": "w-3/4 mask mask-squircle",
+                                    "id": "RoApW4TdaxI1",
+                                    "block": "image",
+                                    "name": "3wXM"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "V19OwVTm5uVK",
+                                "block": "group",
+                                "name": "OJjk"
+                              },
+                              {
+                                "marker": "",
+                                "class": "",
+                                "content": [
+                                  {
+                                    "marker": "",
+                                    "class": "bg-green-300 rounded-lg flex justify-center p-2 mask mask-squircle",
+                                    "content": [
+                                      {
+                                        "file": "files/A2-2U2L2EA-IMG-05.jpg",
+                                        "class": "w-3/4 mask mask-squircle",
+                                        "id": "RoApeeOfPmOEeF3C",
+                                        "block": "image",
+                                        "name": "4TuZ"
+                                      }
+                                    ],
+                                    "background": "",
+                                    "id": "4YvLdTqJ",
+                                    "block": "group",
+                                    "name": "ULv2"
+                                  },
+                                  {
+                                    "text": "I have stomachache and nausea",
+                                    "class": "",
+                                    "id": "qMYfWAB9npXZ",
+                                    "block": "text",
+                                    "name": "Rslh"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "S0BtEkngB4AVLZu5",
+                                "block": "group",
+                                "name": "Y85H"
+                              }
+                            ],
+                            "evaluation": "manual",
+                            "id": "WN4cfSZK",
+                            "block": "switch",
+                            "name": "yCyB",
+                            "positive": 0
+                          },
+                          {
+                            "marker": "",
+                            "class": "grid col-span-3",
+                            "content": [
+                              {
+                                "class": "",
+                                "content": [
+                                  {
+                                    "marker": "",
+                                    "class": "bg-gray-300 rounded-lg flex justify-center p-2 mask mask-squircle",
+                                    "content": [
+                                      {
+                                        "file": "files/A2-2U2L2EA-IMG-07-gris.jpg",
+                                        "class": "w-1/4 mask mask-squircle",
+                                        "id": "RoApW4TdaxI1Vnj2",
+                                        "block": "image",
+                                        "name": "V5oA"
+                                      }
+                                    ],
+                                    "background": "",
+                                    "id": "V19OwVTm5uVKPeNe",
+                                    "block": "group",
+                                    "name": "hMFR"
+                                  },
+                                  {
+                                    "marker": "",
+                                    "class": "text-center",
+                                    "content": [
+                                      {
+                                        "marker": "",
+                                        "class": "bg-orange-500 rounded-lg flex justify-center p-2 mask mask-squircle",
+                                        "content": [
+                                          {
+                                            "file": "files/A2-2U2L2EA-IMG-07.jpg",
+                                            "class": "w-1/4 mask mask-squircle",
+                                            "id": "RoApeeOfPmOEeF3Ca8ER",
+                                            "block": "image",
+                                            "name": "b3RJ"
+                                          }
+                                        ],
+                                        "background": "",
+                                        "id": "4YvLdTqJwXNN",
+                                        "block": "group",
+                                        "name": "yyfb"
+                                      },
+                                      {
+                                        "text": "I have the measles.",
+                                        "class": "",
+                                        "id": "qMYfWAB9npXZEgaL",
+                                        "block": "text",
+                                        "name": "Mu6l"
+                                      }
+                                    ],
+                                    "background": "",
+                                    "id": "S0BtEkngB4AVLZu5qeYH",
+                                    "block": "group",
+                                    "name": "hNac"
+                                  }
+                                ],
+                                "evaluation": "manual",
+                                "id": "daRe4J8Z",
+                                "block": "switch",
+                                "name": "m7Ix",
+                                "positive": 0
+                              }
+                            ],
+                            "background": "",
+                            "id": "ckbA",
+                            "block": "group",
+                            "name": "LhYn"
+                          }
+                        ],
+                        "background": "",
+                        "id": "0tdv",
+                        "block": "group",
+                        "name": "Iy8W"
+                      }
+                    ],
+                    "background": "",
+                    "id": "3YRR",
+                    "block": "group",
+                    "name": "pxze",
+                    "hidden": false
+                  }
+                ],
+                "background": "",
+                "id": "04tq",
+                "block": "group",
+                "name": "2qxa"
+              }
+            ],
+            "background": "",
+            "name": "4Cs6",
+            "hidden": false,
+            "marker": "",
+            "id": ""
+          },
+          {
+            "symbol": "FinalizeGroup"
+          }
+        ],
+        "id": ""
+      }
+    ]
+  },
+  "end": {
+    "buttons": {
+      "restart": false
+    },
+    "content": [
+      {
+        "symbol": "finishedAll"
+      }
+    ]
+  },
+  "symbols": {
+    "finishedAll": {
+      "class": "w-full",
+      "content": [
+        {
+          "block": "group",
+          "class": "bg-slate-100 rounded p-5 text-center w-full",
+          "content": [
+            {
+              "block": "text",
+              "text": "Congratulations, you finished the activity.",
+              "class": "",
+              "name": "Congra"
+            }
+          ],
+          "background": "",
+          "name": "CongraGroup"
+        },
+        {
+          "block": "group",
+          "class": "text-center p-5",
+          "content": [
+            {
+              "block": "finished",
+              "name": "finishedBlock"
+            }
+          ],
+          "background": "",
+          "name": "finishedGroup"
+        }
+      ],
+      "background": "",
+      "block": "group"
+    },
+    "FinalizeGroup": {
+      "block": "group",
+      "class": "text-center mt-10",
+      "content": [
+        {
+          "block": "button",
+          "class": "mx-auto",
+          "to": "/end",
+          "text": "Finalize",
+          "name": "FinalizeBTN"
+        }
+      ],
+      "background": ""
+    }
+  },
+  "attempts": 0
+}

@@ -1,1 +1,503 @@
-{"title":"My favorite sports (Present Continuous).","clock":false,"countdown":0,"intro":{"buttons":{"start":"Start"},"content":[]},"activity":{"scenes":[{"block":"scene","name":"SC1","countdown":0,"instructions":{"open":true,"content":[{"block":"group","class":"flex gap-2 items-center","content":[{"block":"audio","class":"","file":"files/A2-1U5L1EB-INS.mp3","wave":false,"autoplay":false,"id":"","name":"QEbm"},{"block":"text","class":"","text":"Hello dear student. Now you are going to read the following interview.","id":"","name":"Yjng"}]}]},"content":[{"block":"group","class":"bg-slate-100 rounded p-3 my-2 max-w-5xl mx-auto","content":[{"marker":"","class":"text-2xl bg-sky-100 rounded-lg p-5","content":[{"marker":"","class":"","content":[{"text":"A: Hi, I’m Alfred. I’m a reporter for the Daily Sport News and <b>I’m covering the event today</b>. Can I ask you some questions? ","class":"","id":"1lo1","block":"text","name":"CxGu"}],"background":"","id":"hAGx","block":"group","name":"H6Bi"},{"marker":"","class":"","content":[{"text":"B: Sure, I’m Betty. I’m one of the participants. <b>I’m running </b>in the marathon.","class":"","id":"1lo1Mf6h","block":"text","name":"WbI3"}],"background":"","id":"bkvpo5D6","block":"group","name":"WBhq"},{"marker":"","class":"","content":[{"text":"A: <b>How are you feeling right now? </b>","class":"","id":"1lo1YQdr","block":"text","name":"3xf6"}],"background":"","id":"CfNnXCYb","block":"group","name":"qnsr"},{"marker":"","class":"","content":[{"text":"B: <b>I’m feeling nervous</b> and excited. <b>I’m hoping to finish</b> the race in a good time. ","class":"","id":"1lo11Dz7","block":"text","name":"KQ9T"}],"background":"","id":"7Db8oNA8","block":"group","name":"l9OQ"},{"marker":"","class":"","content":[{"text":"A: How <b>are you training for this event? </b>","class":"","id":"1lo11Dz7WTbo","block":"text","name":"XsHD"}],"background":"","id":"kHB48Xe5","block":"group","name":"hP3e"},{"marker":"","class":"","content":[{"text":"B: <b>I’m running</b> 5 kilometer five days a week and <b>I’m following a strict diet. I’m <font color=red>not</font> eating bread and I'm <font color=red>not</font> drinking sodas.</b>","class":"","id":"1lo11Dz7IuGU","block":"text","name":"pwxM"}],"background":"","id":"ld62MXPB","block":"group","name":"jSmv"},{"marker":"","class":"","content":[{"text":"A: <b>What are you doing to prepare for the race today? </b>","class":"","id":"1lo11Dz75ZxL","block":"text","name":"BwQa"}],"background":"","id":"y6WquiZx","block":"group","name":"i1aq"},{"marker":"","class":"","content":[{"text":"B: <b>I’m drinking a lot of water</b> and <b>warming up my muscles. I’m also listening</b> to my favorite music. ","class":"","id":"1lo11Dz75ZxLKwBm","block":"text","name":"G8kC"}],"background":"","id":"P5GlhgQW","block":"group","name":"13n1"},{"marker":"","class":"","content":[{"text":"A:<b> Who are you competing against? </b>","class":"","id":"1lo11Dz75ZxLYfO7","block":"text","name":"4S1d"}],"background":"","id":"ZeaRTsC5","block":"group","name":"k8QV"},{"marker":"","class":"","content":[{"text":"B: <b>I’m competing against a lot of other runners</b> from different countries. <b>They are running very</b> fast and they are very experienced too. ","class":"","id":"1lo11Dz75ZxLKwBmnh34","block":"text","name":"FmFH"}],"background":"","id":"rVmNKXQK","block":"group","name":"Niap"},{"marker":"","class":"","content":[{"text":"A: What are your goals for the race? ","class":"","id":"1lo11Dz75ZxLKwBmnh34mO3b","block":"text","name":"BiPv"}],"background":"","id":"XGg9kc10","block":"group","name":"C6kh"},{"marker":"","class":"","content":[{"text":"B: <b>I’m looking to beat my personal record</b> and enjoy the experience. <b>I’m <font color=red>not</font> expecting to win</b>, but <b>I’m doing my best.</b> ","class":"","id":"1lo11Dz75ZxLKwBmnh34OAn8","block":"text","name":"A06Q"}],"background":"","id":"80TEarTF","block":"group","name":"kvV5"},{"marker":"","class":"","content":[{"text":"A: Well, good luck and break a leg! ","class":"","id":"1lo11Dz75ZxLKwBmnh34OAn8qNfx","block":"text","name":"5TiN"}],"background":"","id":"yjs9c9oA","block":"group","name":"g7bz"},{"marker":"","class":"","content":[{"text":"B: Thank you very much!","class":"","id":"1lo11Dz75ZxLKwBmnh34OAn8mqDW","block":"text","name":"Gc4R"}],"background":"","id":"I3LjBxxY","block":"group","name":"rRD9"}],"background":"","id":"XBAT","block":"group","name":"sw9q"},{"marker":"","class":"text-2xl my-10 bg-yellow-100 rounded-lg p-5","content":[{"text":"Are you checking the bold letters and the words in color red?","class":"","id":"Ddra","block":"text","name":"f6au"}],"background":"","id":"LMno","block":"group","name":"imK8"},{"marker":"","class":"text-2xl my-10 bg-sky-100 rounded-lg p-5","content":[{"text":"Are they talking in present?","class":"","id":"DdrafZlD","block":"text","name":"gpEn"}],"background":"","id":"AgUlklRw","block":"group","name":"lUbr"},{"marker":"","class":"text-2xl my-10 bg-yellow-100 rounded-lg p-5","content":[{"text":"Exactly we are discovering a new tense \"Present continuous\".","class":"","id":"DdrafZlDniEx","block":"text","name":"uyye"}],"background":"","id":"cyz9uhy2","block":"group","name":"z2So"}],"background":"","name":"4Cs6","hidden":false,"marker":"","id":""},{"class":"text-center my-10","content":[{"to":"/activity/1","class":"","text":"Next","id":"bgs2","block":"button","name":"e6fK"}],"background":"","id":"GmYQ","block":"group","name":"ruS2"}],"id":""},{"block":"scene","name":"cWIT","countdown":0,"instructions":{"open":true,"content":[{"block":"group","class":"flex gap-2 items-center","content":[{"block":"audio","class":"","file":"files/A2-1U5L1EB-INS-2.mp3","wave":false,"autoplay":false,"id":"aQzb","name":"1muT"},{"block":"text","class":"","text":"Look at the next image, to check grammar.","id":"CqiC","name":"eJo2"}]}]},"content":[{"block":"group","class":"bg-slate-100 rounded p-3 my-2 max-w-5xl mx-auto","content":[{"marker":"","class":"text-2xl my-10 flex justify-center","content":[{"file":"files/A2.1 U5 Present Continuous.jpg","class":"","id":"OUhk","block":"image","name":"TWik"}],"background":"","id":"LMnoRPLb","block":"group","name":"Auh3"}],"background":"","name":"4GB6","hidden":false,"marker":"","id":"ZIc6"},{"symbol":"FinalizeGroup"}],"id":"TtmuCnFF"}]},"end":{"buttons":{"restart":false},"content":[{"symbol":"finishedAll"}]},"symbols":{"finishedAll":{"class":"w-full","content":[{"block":"group","class":"bg-slate-100 rounded p-5 text-center w-full","content":[{"block":"text","text":"Congratulations, you finished the activity.","class":"","name":"Congra"}],"background":"","name":"CongraGroup"},{"block":"group","class":"text-center p-5","content":[{"block":"finished","name":"finishedBlock"}],"background":"","name":"finishedGroup"}],"background":"","block":"group"},"FinalizeGroup":{"block":"group","class":"text-center mt-10","content":[{"block":"button","class":"mx-auto","to":"/end","text":"Finalize","name":"FinalizeBTN"}],"background":""}}}
+{
+  "title": "My favorite sports (Present Continuous).",
+  "clock": false,
+  "countdown": 0,
+  "intro": {
+    "buttons": {
+      "start": "Start"
+    },
+    "content": []
+  },
+  "activity": {
+    "scenes": [
+      {
+        "block": "scene",
+        "name": "SC1",
+        "countdown": 0,
+        "instructions": {
+          "open": true,
+          "content": [
+            {
+              "block": "group",
+              "class": "flex gap-2 items-center",
+              "content": [
+                {
+                  "block": "audio",
+                  "class": "",
+                  "file": "files/A2-1U5L1EB-INS.mp3",
+                  "wave": false,
+                  "autoplay": false,
+                  "id": "",
+                  "name": "QEbm"
+                },
+                {
+                  "block": "text",
+                  "class": "",
+                  "text": "Hello dear student. Now you are going to read the following interview.",
+                  "id": "",
+                  "name": "Yjng"
+                }
+              ]
+            }
+          ]
+        },
+        "content": [
+          {
+            "block": "group",
+            "class": "bg-slate-100 rounded p-3 my-2 max-w-5xl mx-auto",
+            "content": [
+              {
+                "marker": "",
+                "class": "text-2xl bg-sky-100 rounded-lg p-5",
+                "content": [
+                  {
+                    "marker": "",
+                    "class": "",
+                    "content": [
+                      {
+                        "text": "A: Hi, I’m Alfred. I’m a reporter for the Daily Sport News and <b>I’m covering the event today</b>. Can I ask you some questions? ",
+                        "class": "",
+                        "id": "1lo1",
+                        "block": "text",
+                        "name": "CxGu"
+                      }
+                    ],
+                    "background": "",
+                    "id": "hAGx",
+                    "block": "group",
+                    "name": "H6Bi"
+                  },
+                  {
+                    "marker": "",
+                    "class": "",
+                    "content": [
+                      {
+                        "text": "B: Sure, I’m Betty. I’m one of the participants. <b>I’m running </b>in the marathon.",
+                        "class": "",
+                        "id": "1lo1Mf6h",
+                        "block": "text",
+                        "name": "WbI3"
+                      }
+                    ],
+                    "background": "",
+                    "id": "bkvpo5D6",
+                    "block": "group",
+                    "name": "WBhq"
+                  },
+                  {
+                    "marker": "",
+                    "class": "",
+                    "content": [
+                      {
+                        "text": "A: <b>How are you feeling right now? </b>",
+                        "class": "",
+                        "id": "1lo1YQdr",
+                        "block": "text",
+                        "name": "3xf6"
+                      }
+                    ],
+                    "background": "",
+                    "id": "CfNnXCYb",
+                    "block": "group",
+                    "name": "qnsr"
+                  },
+                  {
+                    "marker": "",
+                    "class": "",
+                    "content": [
+                      {
+                        "text": "B: <b>I’m feeling nervous</b> and excited. <b>I’m hoping to finish</b> the race in a good time. ",
+                        "class": "",
+                        "id": "1lo11Dz7",
+                        "block": "text",
+                        "name": "KQ9T"
+                      }
+                    ],
+                    "background": "",
+                    "id": "7Db8oNA8",
+                    "block": "group",
+                    "name": "l9OQ"
+                  },
+                  {
+                    "marker": "",
+                    "class": "",
+                    "content": [
+                      {
+                        "text": "A: How <b>are you training for this event? </b>",
+                        "class": "",
+                        "id": "1lo11Dz7WTbo",
+                        "block": "text",
+                        "name": "XsHD"
+                      }
+                    ],
+                    "background": "",
+                    "id": "kHB48Xe5",
+                    "block": "group",
+                    "name": "hP3e"
+                  },
+                  {
+                    "marker": "",
+                    "class": "",
+                    "content": [
+                      {
+                        "text": "B: <b>I’m running</b> 5 kilometers five days a week and <b>I’m following a strict diet. I’m <font color=red>not</font> eating bread and I'm <font color=red>not</font> drinking sodas.</b>",
+                        "class": "",
+                        "id": "1lo11Dz7IuGU",
+                        "block": "text",
+                        "name": "pwxM"
+                      }
+                    ],
+                    "background": "",
+                    "id": "ld62MXPB",
+                    "block": "group",
+                    "name": "jSmv"
+                  },
+                  {
+                    "marker": "",
+                    "class": "",
+                    "content": [
+                      {
+                        "text": "A: <b>What are you doing to prepare for the race today? </b>",
+                        "class": "",
+                        "id": "1lo11Dz75ZxL",
+                        "block": "text",
+                        "name": "BwQa"
+                      }
+                    ],
+                    "background": "",
+                    "id": "y6WquiZx",
+                    "block": "group",
+                    "name": "i1aq"
+                  },
+                  {
+                    "marker": "",
+                    "class": "",
+                    "content": [
+                      {
+                        "text": "B: <b>I’m drinking a lot of water</b> and <b>warming up my muscles. I’m also listening</b> to my favorite music. ",
+                        "class": "",
+                        "id": "1lo11Dz75ZxLKwBm",
+                        "block": "text",
+                        "name": "G8kC"
+                      }
+                    ],
+                    "background": "",
+                    "id": "P5GlhgQW",
+                    "block": "group",
+                    "name": "13n1"
+                  },
+                  {
+                    "marker": "",
+                    "class": "",
+                    "content": [
+                      {
+                        "text": "A:<b> Who are you competing against? </b>",
+                        "class": "",
+                        "id": "1lo11Dz75ZxLYfO7",
+                        "block": "text",
+                        "name": "4S1d"
+                      }
+                    ],
+                    "background": "",
+                    "id": "ZeaRTsC5",
+                    "block": "group",
+                    "name": "k8QV"
+                  },
+                  {
+                    "marker": "",
+                    "class": "",
+                    "content": [
+                      {
+                        "text": "B: <b>I’m competing against a lot of other runners</b> from different countries. <b>They are running very</b> fast and they are very experienced too. ",
+                        "class": "",
+                        "id": "1lo11Dz75ZxLKwBmnh34",
+                        "block": "text",
+                        "name": "FmFH"
+                      }
+                    ],
+                    "background": "",
+                    "id": "rVmNKXQK",
+                    "block": "group",
+                    "name": "Niap"
+                  },
+                  {
+                    "marker": "",
+                    "class": "",
+                    "content": [
+                      {
+                        "text": "A: What are your goals for the race? ",
+                        "class": "",
+                        "id": "1lo11Dz75ZxLKwBmnh34mO3b",
+                        "block": "text",
+                        "name": "BiPv"
+                      }
+                    ],
+                    "background": "",
+                    "id": "XGg9kc10",
+                    "block": "group",
+                    "name": "C6kh"
+                  },
+                  {
+                    "marker": "",
+                    "class": "",
+                    "content": [
+                      {
+                        "text": "B: <b>I’m looking to beat my personal record</b> and enjoy the experience. <b>I’m <font color=red>not</font> expecting to win</b>, but <b>I’m doing my best.</b> ",
+                        "class": "",
+                        "id": "1lo11Dz75ZxLKwBmnh34OAn8",
+                        "block": "text",
+                        "name": "A06Q"
+                      }
+                    ],
+                    "background": "",
+                    "id": "80TEarTF",
+                    "block": "group",
+                    "name": "kvV5"
+                  },
+                  {
+                    "marker": "",
+                    "class": "",
+                    "content": [
+                      {
+                        "text": "A: Well, good luck and break a leg! ",
+                        "class": "",
+                        "id": "1lo11Dz75ZxLKwBmnh34OAn8qNfx",
+                        "block": "text",
+                        "name": "5TiN"
+                      }
+                    ],
+                    "background": "",
+                    "id": "yjs9c9oA",
+                    "block": "group",
+                    "name": "g7bz"
+                  },
+                  {
+                    "marker": "",
+                    "class": "",
+                    "content": [
+                      {
+                        "text": "B: Thank you very much!",
+                        "class": "",
+                        "id": "1lo11Dz75ZxLKwBmnh34OAn8mqDW",
+                        "block": "text",
+                        "name": "Gc4R"
+                      }
+                    ],
+                    "background": "",
+                    "id": "I3LjBxxY",
+                    "block": "group",
+                    "name": "rRD9"
+                  }
+                ],
+                "background": "",
+                "id": "XBAT",
+                "block": "group",
+                "name": "sw9q"
+              },
+              {
+                "marker": "",
+                "class": "text-2xl my-10 bg-yellow-100 rounded-lg p-5",
+                "content": [
+                  {
+                    "text": "Are you checking the bold letters and the words in color red?",
+                    "class": "",
+                    "id": "Ddra",
+                    "block": "text",
+                    "name": "f6au"
+                  }
+                ],
+                "background": "",
+                "id": "LMno",
+                "block": "group",
+                "name": "imK8"
+              },
+              {
+                "marker": "",
+                "class": "text-2xl my-10 bg-sky-100 rounded-lg p-5",
+                "content": [
+                  {
+                    "text": "Are they talking in present?",
+                    "class": "",
+                    "id": "DdrafZlD",
+                    "block": "text",
+                    "name": "gpEn"
+                  }
+                ],
+                "background": "",
+                "id": "AgUlklRw",
+                "block": "group",
+                "name": "lUbr"
+              },
+              {
+                "marker": "",
+                "class": "text-2xl my-10 bg-yellow-100 rounded-lg p-5",
+                "content": [
+                  {
+                    "text": "Exactly we are discovering a new tense \"Present continuous\".",
+                    "class": "",
+                    "id": "DdrafZlDniEx",
+                    "block": "text",
+                    "name": "uyye"
+                  }
+                ],
+                "background": "",
+                "id": "cyz9uhy2",
+                "block": "group",
+                "name": "z2So"
+              }
+            ],
+            "background": "",
+            "name": "4Cs6",
+            "hidden": false,
+            "marker": "",
+            "id": ""
+          },
+          {
+            "class": "text-center my-10",
+            "content": [
+              {
+                "to": "/activity/1",
+                "class": "",
+                "text": "Next",
+                "id": "bgs2",
+                "block": "button",
+                "name": "e6fK"
+              }
+            ],
+            "background": "",
+            "id": "GmYQ",
+            "block": "group",
+            "name": "ruS2"
+          }
+        ],
+        "id": ""
+      },
+      {
+        "block": "scene",
+        "name": "cWIT",
+        "countdown": 0,
+        "instructions": {
+          "open": true,
+          "content": [
+            {
+              "block": "group",
+              "class": "flex gap-2 items-center",
+              "content": [
+                {
+                  "block": "audio",
+                  "class": "",
+                  "file": "files/A2-1U5L1EB-INS-2.mp3",
+                  "wave": false,
+                  "autoplay": false,
+                  "id": "aQzb",
+                  "name": "1muT"
+                },
+                {
+                  "block": "text",
+                  "class": "",
+                  "text": "Look at the next image, to check grammar.",
+                  "id": "CqiC",
+                  "name": "eJo2"
+                }
+              ]
+            }
+          ]
+        },
+        "content": [
+          {
+            "block": "group",
+            "class": "bg-slate-100 rounded p-3 my-2 max-w-5xl mx-auto",
+            "content": [
+              {
+                "marker": "",
+                "class": "text-2xl my-10 flex justify-center",
+                "content": [
+                  {
+                    "file": "files/A2.1 U5 Present Continuous.jpg",
+                    "class": "",
+                    "id": "OUhk",
+                    "block": "image",
+                    "name": "TWik"
+                  }
+                ],
+                "background": "",
+                "id": "LMnoRPLb",
+                "block": "group",
+                "name": "Auh3"
+              }
+            ],
+            "background": "",
+            "name": "4GB6",
+            "hidden": false,
+            "marker": "",
+            "id": "ZIc6"
+          },
+          {
+            "symbol": "FinalizeGroup"
+          }
+        ],
+        "id": "TtmuCnFF"
+      }
+    ]
+  },
+  "end": {
+    "buttons": {
+      "restart": false
+    },
+    "content": [
+      {
+        "symbol": "finishedAll"
+      }
+    ]
+  },
+  "symbols": {
+    "finishedAll": {
+      "class": "w-full",
+      "content": [
+        {
+          "block": "group",
+          "class": "bg-slate-100 rounded p-5 text-center w-full",
+          "content": [
+            {
+              "block": "text",
+              "text": "Congratulations, you finished the activity.",
+              "class": "",
+              "name": "Congra"
+            }
+          ],
+          "background": "",
+          "name": "CongraGroup"
+        },
+        {
+          "block": "group",
+          "class": "text-center p-5",
+          "content": [
+            {
+              "block": "finished",
+              "name": "finishedBlock"
+            }
+          ],
+          "background": "",
+          "name": "finishedGroup"
+        }
+      ],
+      "background": "",
+      "block": "group"
+    },
+    "FinalizeGroup": {
+      "block": "group",
+      "class": "text-center mt-10",
+      "content": [
+        {
+          "block": "button",
+          "class": "mx-auto",
+          "to": "/end",
+          "text": "Finalize",
+          "name": "FinalizeBTN"
+        }
+      ],
+      "background": ""
+    }
+  },
+  "attempts": 0
+}

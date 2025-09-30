@@ -1,1 +1,437 @@
-{"title":"Exercise B. Reading comprehension.","clock":true,"countdown":0,"intro":{"buttons":{"start":"Start"},"content":[]},"activity":{"scenes":[{"block":"scene","name":"SC1","countdown":0,"instructions":{"open":true,"content":[{"block":"group","class":"flex gap-2 items-center","content":[{"block":"audio","class":"","file":"files/instruccion.mp3","wave":false,"autoplay":false,"id":"","name":"H86n"},{"block":"text","class":"","text":"Read the text in exercise A \"Are old appliances better than today 's?\" Choose true or false.","id":"","name":"GSZf"}]}]},"content":[{"block":"group","class":"bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto","content":[{"marker":"","class":"grid grid-cols-2 my-5","content":[{"block":"text","class":"text-lg","text":"1. Modern refrigerators have accessible prices. ","name":"3Ovd","hidden":false,"id":""},{"class":"mx-2","options":[{"text":"true","class":"","id":"TheZ","block":"text","name":"1i1o"},{"text":"false","class":"","id":"5DlQCqkr","block":"text","name":"Tdz6"}],"evaluation":"auto","showResult":false,"dropdown":true,"dropdownpos":"right ","id":"8adx","block":"option","name":"9uiV","attempts":0}],"background":"","id":"li2f","block":"group","name":"jw4o"},{"marker":"","class":"grid grid-cols-2 my-5","content":[{"block":"text","class":"text-lg","text":"2. People used appliances for 20 years or more in the past. ","name":"Zfi9","hidden":false,"id":"Abac"},{"class":"mx-2","options":[{"text":"true","class":"","id":"TheZDA1A","block":"text","name":"IJey"},{"text":"false","class":"","id":"5DlQCqkrGkXK","block":"text","name":"pMJx"}],"evaluation":"auto","showResult":false,"dropdown":true,"dropdownpos":"right ","id":"8adxqCD5","block":"option","name":"GERk","attempts":0}],"background":"","id":"1PWRtY1Y","block":"group","name":"bnxl"},{"marker":"","class":"grid grid-cols-2 my-5","content":[{"block":"text","class":"text-lg","text":"3. Old appliances had a low cost.","name":"RGAU","hidden":false,"id":"Abac5GnK"},{"class":"mx-2","options":[{"text":"false","class":"","id":"5DlQCqkrGkXKhVaZ","block":"text","name":"3s6W"},{"text":"true","class":"","id":"TheZDA1AB5vV","block":"text","name":"3RNX"}],"evaluation":"auto","showResult":false,"dropdown":true,"dropdownpos":"right ","id":"8adxqCD5uCDJ","block":"option","name":"bp4W","attempts":0}],"background":"","id":"1LpcNYaP","block":"group","name":"FdBH"},{"marker":"","class":"grid grid-cols-2 my-5","content":[{"block":"text","class":"text-lg","text":"4. Old appliances consumed little energy and water.","name":"VM7U","hidden":false,"id":"Abac5GnKGuGQ"},{"class":"mx-2","options":[{"text":"false","class":"","id":"5DlQCqkrGkXKhVaZLxDC","block":"text","name":"ErB0"},{"text":"true","class":"","id":"TheZDA1AB5vVO0Jb","block":"text","name":"uks3"}],"evaluation":"auto","showResult":false,"dropdown":true,"dropdownpos":"right ","id":"8adxqCD5uCDJHijQ","block":"option","name":"ClNe","attempts":0}],"background":"","id":"elZ46GtM","block":"group","name":"XgMl"},{"marker":"","class":"grid grid-cols-2 my-5","content":[{"block":"text","class":"text-lg","text":"5. Modern appliances can be repaired.","name":"kA6S","hidden":false,"id":"Abac5GnKGuGQ3uYr"},{"class":"mx-2","options":[{"text":"false","class":"","id":"5DlQCqkrGkXKhVaZLxDCvESH","block":"text","name":"Uijz"},{"text":"true","class":"","id":"TheZDA1AB5vVO0JbzlTV","block":"text","name":"qmKv"}],"evaluation":"auto","showResult":false,"dropdown":true,"dropdownpos":"right ","id":"8adxqCD5uCDJHijQPbhq","block":"option","name":"WRYi","attempts":0}],"background":"","id":"DuLRnOeC","block":"group","name":"edln"},{"marker":"","class":"grid grid-cols-2 my-5","content":[{"block":"text","class":"text-lg","text":"6. The designs of modern appliances are colorful. ","name":"7cEO","hidden":false,"id":"Abac5GnKGuGQ3uYrQId8"},{"class":"mx-2","options":[{"text":"false","class":"","id":"5DlQCqkrGkXKhVaZLxDCvESHNRif","block":"text","name":"AeMH"},{"text":"true","class":"","id":"TheZDA1AB5vVO0JbzlTVz3se","block":"text","name":"fUJG"}],"evaluation":"auto","showResult":false,"dropdown":true,"dropdownpos":"right ","id":"8adxqCD5uCDJHijQPbhqTpQg","block":"option","name":"nDba","attempts":0}],"background":"","id":"CafSCQQm","block":"group","name":"6P5z"},{"marker":"","class":"grid grid-cols-2 my-5","content":[{"block":"text","class":"text-lg","text":"7. People had the possiblity to repair appliances in the past. ","name":"AVfG","hidden":false,"id":"Abac5GnKGuGQ3uYrQId82LLS"},{"class":"mx-2","options":[{"text":"true","class":"","id":"TheZDA1AB5vVO0JbzlTVz3seWOVN","block":"text","name":"Bkip"},{"text":"false","class":"","id":"5DlQCqkrGkXKhVaZLxDCvESHNRifMCF5","block":"text","name":"u5wV"}],"evaluation":"auto","showResult":false,"dropdown":true,"dropdownpos":"right ","id":"8adxqCD5uCDJHijQPbhqTpQg45DI","block":"option","name":"nXVZ","attempts":0}],"background":"","id":"ARC3CsQd","block":"group","name":"fM15"}],"background":"","name":"4Cs6","hidden":false},{"symbol":"FinalizeGroup"}],"id":""}]},"end":{"buttons":{"restart":false},"content":[{"symbol":"finishedAll"}]},"symbols":{"finishedAll":{"class":"w-full","content":[{"block":"group","class":"bg-slate-100 rounded p-5 text-center w-full","content":[{"block":"text","text":"Congratulations, you finished the activity.","class":"","name":"Congra"}],"background":"","name":"CongraGroup"},{"block":"group","class":"text-center p-5","content":[{"block":"finished","name":"finishedBlock"}],"background":"","name":"finishedGroup"}],"background":"","block":"group"},"FinalizeGroup":{"block":"group","class":"text-center mt-10","content":[{"block":"button","class":"mx-auto","to":"/end","text":"Finalize","name":"FinalizeBTN"}],"background":""}}}
+{
+  "title": "Exercise B. Reading comprehension.",
+  "clock": true,
+  "countdown": 0,
+  "intro": {
+    "buttons": {
+      "start": "Start"
+    },
+    "content": []
+  },
+  "activity": {
+    "scenes": [
+      {
+        "block": "scene",
+        "name": "SC1",
+        "countdown": 0,
+        "instructions": {
+          "open": true,
+          "content": [
+            {
+              "block": "group",
+              "class": "flex gap-2 items-center",
+              "content": [
+                {
+                  "block": "audio",
+                  "class": "",
+                  "file": "files/instruccion.mp3",
+                  "wave": false,
+                  "autoplay": false,
+                  "id": "",
+                  "name": "H86n"
+                },
+                {
+                  "block": "text",
+                  "class": "",
+                  "text": "Read the text in exercise A \"Are old appliances better than today 's?\" Choose true or false.",
+                  "id": "",
+                  "name": "GSZf"
+                }
+              ]
+            }
+          ]
+        },
+        "content": [
+          {
+            "block": "group",
+            "class": "bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto",
+            "content": [
+              {
+                "marker": "",
+                "class": "grid grid-cols-2 my-5",
+                "content": [
+                  {
+                    "block": "text",
+                    "class": "text-lg",
+                    "text": "1. Modern refrigerators have accessible prices. ",
+                    "name": "3Ovd",
+                    "hidden": false,
+                    "id": ""
+                  },
+                  {
+                    "class": "mx-2",
+                    "options": [
+                      {
+                        "text": "true",
+                        "class": "",
+                        "id": "TheZ",
+                        "block": "text",
+                        "name": "1i1o"
+                      },
+                      {
+                        "text": "false",
+                        "class": "",
+                        "id": "5DlQCqkr",
+                        "block": "text",
+                        "name": "Tdz6"
+                      }
+                    ],
+                    "evaluation": "auto",
+                    "showResult": false,
+                    "dropdown": true,
+                    "dropdownpos": "right ",
+                    "id": "8adx",
+                    "block": "option",
+                    "name": "9uiV",
+                    "attempts": 0
+                  }
+                ],
+                "background": "",
+                "id": "li2f",
+                "block": "group",
+                "name": "jw4o"
+              },
+              {
+                "marker": "",
+                "class": "grid grid-cols-2 my-5",
+                "content": [
+                  {
+                    "block": "text",
+                    "class": "text-lg",
+                    "text": "2. People used appliances for 20 years or more in the past. ",
+                    "name": "Zfi9",
+                    "hidden": false,
+                    "id": "Abac"
+                  },
+                  {
+                    "class": "mx-2",
+                    "options": [
+                      {
+                        "text": "true",
+                        "class": "",
+                        "id": "TheZDA1A",
+                        "block": "text",
+                        "name": "IJey"
+                      },
+                      {
+                        "text": "false",
+                        "class": "",
+                        "id": "5DlQCqkrGkXK",
+                        "block": "text",
+                        "name": "pMJx"
+                      }
+                    ],
+                    "evaluation": "auto",
+                    "showResult": false,
+                    "dropdown": true,
+                    "dropdownpos": "right ",
+                    "id": "8adxqCD5",
+                    "block": "option",
+                    "name": "GERk",
+                    "attempts": 0
+                  }
+                ],
+                "background": "",
+                "id": "1PWRtY1Y",
+                "block": "group",
+                "name": "bnxl"
+              },
+              {
+                "marker": "",
+                "class": "grid grid-cols-2 my-5",
+                "content": [
+                  {
+                    "block": "text",
+                    "class": "text-lg",
+                    "text": "3. Old appliances had a low cost.",
+                    "name": "RGAU",
+                    "hidden": false,
+                    "id": "Abac5GnK"
+                  },
+                  {
+                    "class": "mx-2",
+                    "options": [
+                      {
+                        "text": "false",
+                        "class": "",
+                        "id": "5DlQCqkrGkXKhVaZ",
+                        "block": "text",
+                        "name": "3s6W"
+                      },
+                      {
+                        "text": "true",
+                        "class": "",
+                        "id": "TheZDA1AB5vV",
+                        "block": "text",
+                        "name": "3RNX"
+                      }
+                    ],
+                    "evaluation": "auto",
+                    "showResult": false,
+                    "dropdown": true,
+                    "dropdownpos": "right ",
+                    "id": "8adxqCD5uCDJ",
+                    "block": "option",
+                    "name": "bp4W",
+                    "attempts": 0
+                  }
+                ],
+                "background": "",
+                "id": "1LpcNYaP",
+                "block": "group",
+                "name": "FdBH"
+              },
+              {
+                "marker": "",
+                "class": "grid grid-cols-2 my-5",
+                "content": [
+                  {
+                    "block": "text",
+                    "class": "text-lg",
+                    "text": "4. Old appliances consumed little energy and water.",
+                    "name": "VM7U",
+                    "hidden": false,
+                    "id": "Abac5GnKGuGQ"
+                  },
+                  {
+                    "class": "mx-2",
+                    "options": [
+                      {
+                        "text": "false",
+                        "class": "",
+                        "id": "5DlQCqkrGkXKhVaZLxDC",
+                        "block": "text",
+                        "name": "ErB0"
+                      },
+                      {
+                        "text": "true",
+                        "class": "",
+                        "id": "TheZDA1AB5vVO0Jb",
+                        "block": "text",
+                        "name": "uks3"
+                      }
+                    ],
+                    "evaluation": "auto",
+                    "showResult": false,
+                    "dropdown": true,
+                    "dropdownpos": "right ",
+                    "id": "8adxqCD5uCDJHijQ",
+                    "block": "option",
+                    "name": "ClNe",
+                    "attempts": 0
+                  }
+                ],
+                "background": "",
+                "id": "elZ46GtM",
+                "block": "group",
+                "name": "XgMl"
+              },
+              {
+                "marker": "",
+                "class": "grid grid-cols-2 my-5",
+                "content": [
+                  {
+                    "block": "text",
+                    "class": "text-lg",
+                    "text": "5. Modern appliances can be repaired.",
+                    "name": "kA6S",
+                    "hidden": false,
+                    "id": "Abac5GnKGuGQ3uYr"
+                  },
+                  {
+                    "class": "mx-2",
+                    "options": [
+                      {
+                        "text": "true",
+                        "class": "",
+                        "id": "TheZDA1AB5vVO0JbzlTV",
+                        "block": "text",
+                        "name": "qmKv"
+                      },
+                      {
+                        "text": "false",
+                        "class": "",
+                        "id": "5DlQCqkrGkXKhVaZLxDCvESH",
+                        "block": "text",
+                        "name": "Uijz"
+                      }
+                    ],
+                    "evaluation": "auto",
+                    "showResult": false,
+                    "dropdown": true,
+                    "dropdownpos": "right ",
+                    "id": "8adxqCD5uCDJHijQPbhq",
+                    "block": "option",
+                    "name": "WRYi",
+                    "attempts": 0
+                  }
+                ],
+                "background": "",
+                "id": "DuLRnOeC",
+                "block": "group",
+                "name": "edln"
+              },
+              {
+                "marker": "",
+                "class": "grid grid-cols-2 my-5",
+                "content": [
+                  {
+                    "block": "text",
+                    "class": "text-lg",
+                    "text": "6. The designs of modern appliances are colorful. ",
+                    "name": "7cEO",
+                    "hidden": false,
+                    "id": "Abac5GnKGuGQ3uYrQId8"
+                  },
+                  {
+                    "class": "mx-2",
+                    "options": [
+                      {
+                        "text": "false",
+                        "class": "",
+                        "id": "5DlQCqkrGkXKhVaZLxDCvESHNRif",
+                        "block": "text",
+                        "name": "AeMH"
+                      },
+                      {
+                        "text": "true",
+                        "class": "",
+                        "id": "TheZDA1AB5vVO0JbzlTVz3se",
+                        "block": "text",
+                        "name": "fUJG"
+                      }
+                    ],
+                    "evaluation": "auto",
+                    "showResult": false,
+                    "dropdown": true,
+                    "dropdownpos": "right ",
+                    "id": "8adxqCD5uCDJHijQPbhqTpQg",
+                    "block": "option",
+                    "name": "nDba",
+                    "attempts": 0
+                  }
+                ],
+                "background": "",
+                "id": "CafSCQQm",
+                "block": "group",
+                "name": "6P5z"
+              },
+              {
+                "marker": "",
+                "class": "grid grid-cols-2 my-5",
+                "content": [
+                  {
+                    "block": "text",
+                    "class": "text-lg",
+                    "text": "7. People had the possiblity to repair appliances in the past. ",
+                    "name": "AVfG",
+                    "hidden": false,
+                    "id": "Abac5GnKGuGQ3uYrQId82LLS"
+                  },
+                  {
+                    "class": "mx-2",
+                    "options": [
+                      {
+                        "text": "true",
+                        "class": "",
+                        "id": "TheZDA1AB5vVO0JbzlTVz3seWOVN",
+                        "block": "text",
+                        "name": "Bkip"
+                      },
+                      {
+                        "text": "false",
+                        "class": "",
+                        "id": "5DlQCqkrGkXKhVaZLxDCvESHNRifMCF5",
+                        "block": "text",
+                        "name": "u5wV"
+                      }
+                    ],
+                    "evaluation": "auto",
+                    "showResult": false,
+                    "dropdown": true,
+                    "dropdownpos": "right ",
+                    "id": "8adxqCD5uCDJHijQPbhqTpQg45DI",
+                    "block": "option",
+                    "name": "nXVZ",
+                    "attempts": 0
+                  }
+                ],
+                "background": "",
+                "id": "ARC3CsQd",
+                "block": "group",
+                "name": "fM15"
+              }
+            ],
+            "background": "",
+            "name": "4Cs6",
+            "hidden": false
+          },
+          {
+            "symbol": "FinalizeGroup"
+          }
+        ],
+        "id": ""
+      }
+    ]
+  },
+  "end": {
+    "buttons": {
+      "restart": false
+    },
+    "content": [
+      {
+        "symbol": "finishedAll"
+      }
+    ]
+  },
+  "symbols": {
+    "finishedAll": {
+      "class": "w-full",
+      "content": [
+        {
+          "block": "group",
+          "class": "bg-slate-100 rounded p-5 text-center w-full",
+          "content": [
+            {
+              "block": "text",
+              "text": "Congratulations, you finished the activity.",
+              "class": "",
+              "name": "Congra"
+            }
+          ],
+          "background": "",
+          "name": "CongraGroup"
+        },
+        {
+          "block": "group",
+          "class": "text-center p-5",
+          "content": [
+            {
+              "block": "finished",
+              "name": "finishedBlock"
+            }
+          ],
+          "background": "",
+          "name": "finishedGroup"
+        }
+      ],
+      "background": "",
+      "block": "group"
+    },
+    "FinalizeGroup": {
+      "block": "group",
+      "class": "text-center mt-10",
+      "content": [
+        {
+          "block": "button",
+          "class": "mx-auto",
+          "to": "/end",
+          "text": "Finalize",
+          "name": "FinalizeBTN"
+        }
+      ],
+      "background": ""
+    }
+  },
+  "attempts": 0
+}

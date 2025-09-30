@@ -1,1 +1,320 @@
-{"title":"The Next Best Thing (Superlatives)","clock":false,"countdown":0,"intro":{"buttons":{"start":"Start"},"content":[]},"activity":{"scenes":[{"block":"scene","name":"SC1","countdown":0,"instructions":{"open":true,"content":[{"block":"group","class":"flex gap-2 items-center","content":[{"block":"audio","class":"","file":"files/A2-2U5L1EB-01.mp3","wave":false,"autoplay":false,"id":"","name":"ShZX"},{"block":"text","class":"","text":"Hello dear student, read the following advertising","id":"","name":"kFGH"}]}]},"content":[{"block":"group","class":"bg-slate-100 rounded p-3 my-2 max-w-5xl mx-auto","content":[{"marker":"","class":" m-20 bg-orange-500 pr-2 rounded-lg","content":[{"marker":"","class":"bg-slate-50 pr-2 rounded-lg","content":[{"marker":"","class":"text-2xl  bg-orange-500 pr-2 rounded-lg","content":[{"marker":"","class":"bg-slate-50 p-20 rounded-lg","content":[{"marker":"","class":"bg-red-300  rounded-full p-1 mx-20 my-20","content":[{"marker":"","class":"bg-blue-50 rounded-full p-5 flex justify-center ","content":[{"file":"files/A2-2U5L1EB-IMG-01.jpg","class":"mask mask-circle ","id":"k162","block":"image","name":"8dvK"}],"background":"","id":"SVb1","block":"group","name":"VJ3q"}],"background":"","id":"k50r","block":"group","name":"yfDN"},{"block":"text","class":"","text":"Are you looking for <b>the best</b> smartwatch on the market? You are in the correct place. The Simsung Asteroid Watch X4, is <b>the latest</b> and <b>greatest</b> gadget from Simsung Company. This watch is not only <b>the most beautiful</b> and <b>lightest</b> watch ever, but also <b>the most intelligent</b> and <b>versatile</b>. It runs on the <b>newest</b> OS, which combines <b>the most powerful</b> Woogle and Simsung software, providing you the access to a huge variety of apps and up-to-date features. You can keep track of your body health and fitness with <b>the most advanced</b> technology, you can make calls and send texts with <b>the easiest</b> platform. Simsung gives you <b>the biggest</b> service network. Don’t miss this opportunity to get <b>the least expensive</b> smartwatch ever made. Order yours today!","name":"3Ovd","hidden":false,"id":""}],"background":"","id":"eQYipp47","block":"group","name":"fbRz"}],"background":"","id":"38y0","block":"group","name":"3nKH"}],"background":"","id":"GRdQVHJl","block":"group","name":"oPCv"}],"background":"","id":"Emva","block":"group","name":"MWaw"},{"marker":"","class":"text-3xl ml-5 my-2","content":[{"text":"Did you notice the bold letters?","class":"","id":"w62C","block":"text","name":"PcG6"}],"background":"","id":"R1q7","block":"group","name":"ekla"},{"marker":"","class":"text-3xl ml-5 my-2","content":[{"text":"What are those bold letters describing?","class":"","id":"w62CafCv","block":"text","name":"9qKk"}],"background":"","id":"rr2Ic8EC","block":"group","name":"SoN3"},{"marker":"","class":"text-3xl ml-5 my-2","content":[{"text":"Exactly we are working with <u>\"Superlatives\"</u>","class":"","id":"w62CafCvCapM","block":"text","name":"xFUX"}],"background":"","id":"CojcXqnc","block":"group","name":"uLw2"}],"background":"","name":"4Cs6","hidden":false,"marker":"","id":""},{"class":"text-center my-10","content":[{"to":"/activity/1","class":"","text":"Next","id":"bgs2","block":"button","name":"trOI"}],"background":"","id":"GmYQ","block":"group","name":"DcVu"}],"id":""},{"block":"scene","name":"lBBr","countdown":0,"instructions":{"open":true,"content":[{"block":"group","class":"flex gap-2 items-center","content":[{"block":"audio","class":"","file":"files/A2-2U3L7EB-INS-2.mp3","wave":false,"autoplay":false,"id":"xQQR","name":"CfjH"},{"block":"text","class":"","text":"Click on the following image to discover the grammar behind the superlatives.","id":"McEk","name":"sSPj"}]}]},"content":[{"block":"group","class":"bg-slate-100 rounded p-3 my-2 max-w-5xl mx-auto","content":[{"marker":"","class":"","content":[{"class":"","content":[{"file":"files/A2.2 Infographic Superlatives-1.jpg","class":"","id":"J42z","block":"image","name":"85Mp"},{"file":"files/A2.2 Infographic Superlatives.jpg","class":"","id":"BRqWz5oi","block":"image","name":"YjH9"}],"evaluation":"","id":"gK90","block":"switch","name":"kggc"}],"background":"","id":"AkLS","block":"group","name":"R5DM"}],"background":"","name":"ly0n","hidden":false,"marker":"","id":"tyTX"},{"symbol":"FinalizeGroup"}],"id":"NARqjgdK"}]},"end":{"buttons":{"restart":false},"content":[{"symbol":"finishedAll"}]},"symbols":{"finishedAll":{"class":"w-full","content":[{"block":"group","class":"bg-slate-100 rounded p-5 text-center w-full","content":[{"block":"text","text":"Congratulations, you finished the activity.","class":"","name":"Congra"}],"background":"","name":"CongraGroup"},{"block":"group","class":"text-center p-5","content":[{"block":"finished","name":"finishedBlock"}],"background":"","name":"finishedGroup"}],"background":"","block":"group"},"FinalizeGroup":{"block":"group","class":"text-center mt-10","content":[{"block":"button","class":"mx-auto","to":"/end","text":"Finalize","name":"FinalizeBTN"}],"background":""}}}
+{
+  "title": "The Next Best Thing (Superlatives)",
+  "clock": false,
+  "countdown": 0,
+  "intro": {
+    "buttons": {
+      "start": "Start"
+    },
+    "content": []
+  },
+  "activity": {
+    "scenes": [
+      {
+        "block": "scene",
+        "name": "SC1",
+        "countdown": 0,
+        "instructions": {
+          "open": true,
+          "content": [
+            {
+              "block": "group",
+              "class": "flex gap-2 items-center",
+              "content": [
+                {
+                  "block": "audio",
+                  "class": "",
+                  "file": "files/A2-2U5L1EB-01.mp3",
+                  "wave": false,
+                  "autoplay": false,
+                  "id": "",
+                  "name": "ShZX"
+                },
+                {
+                  "block": "text",
+                  "class": "",
+                  "text": "Hello dear student, read the following advertising",
+                  "id": "",
+                  "name": "kFGH"
+                }
+              ]
+            }
+          ]
+        },
+        "content": [
+          {
+            "block": "group",
+            "class": "bg-slate-100 rounded p-3 my-2 max-w-5xl mx-auto",
+            "content": [
+              {
+                "marker": "",
+                "class": " m-20 bg-orange-500 pr-2 rounded-lg",
+                "content": [
+                  {
+                    "marker": "",
+                    "class": "bg-slate-50 pr-2 rounded-lg",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "bg-slate-50 p-20 rounded-lg",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": "bg-red-300  rounded-full p-1 mx-20 my-20",
+                            "content": [
+                              {
+                                "marker": "",
+                                "class": "bg-blue-50 rounded-full p-5 flex justify-center ",
+                                "content": [
+                                  {
+                                    "file": "files/A2-2U5L1EB-IMG-01.jpg",
+                                    "class": "mask mask-circle ",
+                                    "id": "k162",
+                                    "block": "image",
+                                    "name": "8dvK"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "SVb1",
+                                "block": "group",
+                                "name": "VJ3q"
+                              }
+                            ],
+                            "background": "",
+                            "id": "k50r",
+                            "block": "group",
+                            "name": "yfDN"
+                          },
+                          {
+                            "block": "text",
+                            "class": "",
+                            "text": "Are you looking for <b>the best</b> smartwatch on the market? You are in the correct place. The Simsung Asteroid Watch X4, is <b>the latest</b> and <b>greatest</b> gadget from Simsung Company. This watch is not only <b>the most beautiful</b> and <b>lightest</b> watch ever, but also <b>the most intelligent</b> and <b>versatile</b>. It runs on the <b>newest</b> OS, which combines <b>the most powerful</b> Woogle and Simsung software, providing you the access to a huge variety of apps and up-to-date features. You can keep track of your body health and fitness with <b>the most advanced</b> technology, you can make calls and send texts with <b>the easiest</b> platform. Simsung gives you <b>the biggest</b> service network. Don’t miss this opportunity to get <b>the least expensive</b> smartwatch ever made. Order yours today!",
+                            "name": "3Ovd",
+                            "hidden": false,
+                            "id": ""
+                          }
+                        ],
+                        "background": "",
+                        "id": "eQYipp47",
+                        "block": "group",
+                        "name": "fbRz"
+                      }
+                    ],
+                    "background": "",
+                    "id": "GRdQVHJl",
+                    "block": "group",
+                    "name": "oPCv"
+                  }
+                ],
+                "background": "",
+                "id": "Emva",
+                "block": "group",
+                "name": "MWaw"
+              },
+              {
+                "marker": "",
+                "class": "text-3xl ml-5 my-2",
+                "content": [
+                  {
+                    "text": "Did you notice the bold letters?",
+                    "class": "",
+                    "id": "w62C",
+                    "block": "text",
+                    "name": "PcG6"
+                  }
+                ],
+                "background": "",
+                "id": "R1q7",
+                "block": "group",
+                "name": "ekla"
+              },
+              {
+                "marker": "",
+                "class": "text-3xl ml-5 my-2",
+                "content": [
+                  {
+                    "text": "What are those bold letters describing?",
+                    "class": "",
+                    "id": "w62CafCv",
+                    "block": "text",
+                    "name": "9qKk"
+                  }
+                ],
+                "background": "",
+                "id": "rr2Ic8EC",
+                "block": "group",
+                "name": "SoN3"
+              },
+              {
+                "marker": "",
+                "class": "text-3xl ml-5 my-2",
+                "content": [
+                  {
+                    "text": "Exactly we are working with <u>\"Superlatives\"</u>",
+                    "class": "",
+                    "id": "w62CafCvCapM",
+                    "block": "text",
+                    "name": "xFUX"
+                  }
+                ],
+                "background": "",
+                "id": "CojcXqnc",
+                "block": "group",
+                "name": "uLw2"
+              }
+            ],
+            "background": "",
+            "name": "4Cs6",
+            "hidden": false,
+            "marker": "",
+            "id": ""
+          },
+          {
+            "class": "text-center my-10",
+            "content": [
+              {
+                "to": "/activity/1",
+                "class": "",
+                "text": "Next",
+                "id": "bgs2",
+                "block": "button",
+                "name": "trOI"
+              }
+            ],
+            "background": "",
+            "id": "GmYQ",
+            "block": "group",
+            "name": "DcVu"
+          }
+        ],
+        "id": ""
+      },
+      {
+        "block": "scene",
+        "name": "lBBr",
+        "countdown": 0,
+        "instructions": {
+          "open": true,
+          "content": [
+            {
+              "block": "group",
+              "class": "flex gap-2 items-center",
+              "content": [
+                {
+                  "block": "audio",
+                  "class": "",
+                  "file": "files/A2-2U3L7EB-INS-2.mp3",
+                  "wave": false,
+                  "autoplay": false,
+                  "id": "xQQR",
+                  "name": "CfjH"
+                },
+                {
+                  "block": "text",
+                  "class": "",
+                  "text": "Click on the following image to discover the grammar behind the superlatives.",
+                  "id": "McEk",
+                  "name": "sSPj"
+                }
+              ]
+            }
+          ]
+        },
+        "content": [
+          {
+            "block": "group",
+            "class": "bg-slate-100 rounded p-3 my-2 max-w-5xl mx-auto",
+            "content": [
+              {
+                "marker": "",
+                "class": "",
+                "content": [
+                  {
+                    "file": "files/A2.2 Infographic Superlatives.jpg",
+                    "class": "",
+                    "id": "BRqWz5oi",
+                    "block": "image",
+                    "name": "YjH9"
+                  }
+                ],
+                "background": "",
+                "id": "AkLS",
+                "block": "group",
+                "name": "R5DM"
+              }
+            ],
+            "background": "",
+            "name": "ly0n",
+            "hidden": false,
+            "marker": "",
+            "id": "tyTX"
+          },
+          {
+            "symbol": "FinalizeGroup"
+          }
+        ],
+        "id": "NARqjgdK"
+      }
+    ]
+  },
+  "end": {
+    "buttons": {
+      "restart": false
+    },
+    "content": [
+      {
+        "symbol": "finishedAll"
+      }
+    ]
+  },
+  "symbols": {
+    "finishedAll": {
+      "class": "w-full",
+      "content": [
+        {
+          "block": "group",
+          "class": "bg-slate-100 rounded p-5 text-center w-full",
+          "content": [
+            {
+              "block": "text",
+              "text": "Congratulations, you finished the activity.",
+              "class": "",
+              "name": "Congra"
+            }
+          ],
+          "background": "",
+          "name": "CongraGroup"
+        },
+        {
+          "block": "group",
+          "class": "text-center p-5",
+          "content": [
+            {
+              "block": "finished",
+              "name": "finishedBlock"
+            }
+          ],
+          "background": "",
+          "name": "finishedGroup"
+        }
+      ],
+      "background": "",
+      "block": "group"
+    },
+    "FinalizeGroup": {
+      "block": "group",
+      "class": "text-center mt-10",
+      "content": [
+        {
+          "block": "button",
+          "class": "mx-auto",
+          "to": "/end",
+          "text": "Finalize",
+          "name": "FinalizeBTN"
+        }
+      ],
+      "background": ""
+    }
+  },
+  "attempts": 0
+}

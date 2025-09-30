@@ -1,1 +1,491 @@
-{"title":"Exercise F  My plans","clock":true,"countdown":0,"intro":{"buttons":{"start":"Start"},"content":[]},"activity":{"scenes":[{"block":"scene","name":"SC1","countdown":0,"instructions":{"open":true,"content":[{"block":"group","class":"flex gap-2 items-center","content":[{"block":"audio","class":"","file":"files/instruccion.mp3","wave":false,"autoplay":false,"id":"","name":"D6dy"},{"block":"text","class":"","text":"Create a story describing the pictures, remember to use going to. Type 6 sentences.","id":"","name":"Ic5S"}]}]},"content":[{"block":"group","class":"bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto","content":[{"marker":"","class":"","content":[{"block":"text","class":"text-xl font-bold","text":"Example:","name":"DuOJ","hidden":false,"id":"9KVk"}],"background":"","id":"3bpxZjI3","block":"group","name":"roaC"},{"marker":"","class":"grid grid-cols-2 mt-3 mb-","content":[{"marker":"","class":"flex justify-center ","content":[{"file":"files/img00.jpg","class":"w-1/2 mask mask-squircle","id":"wtc7","block":"image","name":"wHDd"}],"background":"","id":"tSjW","block":"group","name":"Agrb"},{"marker":"","class":"flex items-center ","content":[{"block":"text","class":"text-xl font-bold","text":"He is going to eat an apple.","name":"xPWC","hidden":false,"id":"89TppUa9"}],"background":"","id":"BXwJTXDC","block":"group","name":"7EJ5"}],"background":"","id":"rtaF","block":"group","name":"YgoJ"},{"marker":"","class":"grid grid-cols-2 my-10","content":[{"marker":"","class":"flex justify-center ","content":[{"file":"files/img01.jpg","class":"w-1/2 mask mask-squircle","id":"wtc70VmH","block":"image","name":"EyWc"}],"background":"","id":"tSjWd2Ut","block":"group","name":"Lt7n"},{"marker":"","class":"flex items-center ","content":[{"case":false,"evaluation":"","class":"","positive":"","multiline":true,"placeholder":"","showResult":false,"id":"SAm813Tk","block":"textarea","name":"Jr7P","maxlength":0,"attempts":0}],"background":"","id":"BXwJTXDCvcIx","block":"group","name":"t36a"}],"background":"","id":"lcsyZP77","block":"group","name":"W8mP"},{"marker":"","class":"grid grid-cols-2 my-10","content":[{"marker":"","class":"flex justify-center ","content":[{"file":"files/img02.jpg","class":"w-1/2 mask mask-squircle","id":"wtc7G8rz","block":"image","name":"wZt9"}],"background":"","id":"tSjWlLoU","block":"group","name":"6EEO"},{"marker":"","class":"flex items-center ","content":[{"case":false,"evaluation":"","class":"","positive":"","multiline":true,"placeholder":"","showResult":false,"id":"SAm8Dcrz","block":"textarea","name":"8dpd","maxlength":0,"attempts":0}],"background":"","id":"BXwJTXDCc22b","block":"group","name":"8MpQ"}],"background":"","id":"eZBJThjX","block":"group","name":"sVnk"},{"marker":"","class":"grid grid-cols-2 my-10","content":[{"marker":"","class":"flex justify-center ","content":[{"file":"files/img03.jpg","class":"w-1/2 mask mask-squircle","id":"wtc7G8rzMl1K","block":"image","name":"Oxla"}],"background":"","id":"tSjWlLoUngVp","block":"group","name":"z4eP"},{"marker":"","class":"flex items-center ","content":[{"case":false,"evaluation":"","class":"","positive":"","multiline":true,"placeholder":"","showResult":false,"id":"SAm8Dcrz3jnN","block":"textarea","name":"8IJD","maxlength":0,"attempts":0}],"background":"","id":"BXwJTXDCc22bhGPm","block":"group","name":"436y"}],"background":"","id":"Cpsv0GXi","block":"group","name":"sV3t"},{"marker":"","class":"grid grid-cols-2 my-10","content":[{"marker":"","class":"flex justify-center ","content":[{"file":"files/img04.jpg","class":"w-1/2 mask mask-squircle","id":"wtc7G8rzMl1KwugJ","block":"image","name":"6Z9F"}],"background":"","id":"tSjWlLoUngVpor6r","block":"group","name":"S6cc"},{"marker":"","class":"flex items-center ","content":[{"case":false,"evaluation":"","class":"","positive":"","multiline":true,"placeholder":"","showResult":false,"id":"SAm8Dcrz3jnN0S7L","block":"textarea","name":"gsl5","maxlength":0,"attempts":0}],"background":"","id":"BXwJTXDCc22bhGPmIKVj","block":"group","name":"2cUl"}],"background":"","id":"OfFHKMoJ","block":"group","name":"FG1B"},{"marker":"","class":"grid grid-cols-2 my-10","content":[{"marker":"","class":"flex justify-center ","content":[{"file":"files/img05.jpg","class":"w-1/2 mask mask-squircle","id":"wtc7G8rzMl1KwugJjmW9","block":"image","name":"2f7C"}],"background":"","id":"tSjWlLoUngVpor6rXwH0","block":"group","name":"N03t"},{"marker":"","class":"flex items-center ","content":[{"case":false,"evaluation":"","class":"","positive":"","multiline":true,"placeholder":"","showResult":false,"id":"SAm8Dcrz3jnN0S7L6SCD","block":"textarea","name":"SujG","maxlength":0,"attempts":0}],"background":"","id":"BXwJTXDCc22bhGPmIKVjuY9K","block":"group","name":"Xv2p"}],"background":"","id":"emFSWB9n","block":"group","name":"zM2r"},{"marker":"","class":"grid grid-cols-2 my-10","content":[{"marker":"","class":"flex justify-center ","content":[{"file":"files/img06.jpg","class":"w-1/2 mask mask-squircle","id":"wtc7G8rzMl1KwugJjmW9h7T0","block":"image","name":"OEwk"}],"background":"","id":"tSjWlLoUngVpor6rXwH0gRLB","block":"group","name":"qkqL"},{"marker":"","class":"flex items-center ","content":[{"case":false,"evaluation":"","class":"","positive":"","multiline":true,"placeholder":"","showResult":false,"id":"SAm8Dcrz3jnN0S7L6SCDwsVP","block":"textarea","name":"9CcM","maxlength":0,"attempts":0}],"background":"","id":"BXwJTXDCc22bhGPmIKVjuY9Kj1ym","block":"group","name":"rFsD"}],"background":"","id":"02jhGBPU","block":"group","name":"CQFu"}],"background":"","name":"4Cs6","hidden":false},{"symbol":"FinalizeGroup"}],"id":""}]},"end":{"buttons":{"restart":false},"content":[{"symbol":"finishedAll"}]},"symbols":{"finishedAll":{"class":"w-full","content":[{"block":"group","class":"bg-slate-100 rounded p-5 text-center w-full","content":[{"block":"text","text":"Congratulations, you finished the activity.","class":"","name":"Congra"}],"background":"","name":"CongraGroup"},{"block":"group","class":"text-center p-5","content":[{"block":"finished","name":"finishedBlock"}],"background":"","name":"finishedGroup"}],"background":"","block":"group"},"FinalizeGroup":{"block":"group","class":"text-center mt-10","content":[{"block":"button","class":"mx-auto","to":"/end","text":"Finalize","name":"FinalizeBTN"}],"background":""}}}
+{
+  "title": "Exercise F  My plans",
+  "clock": true,
+  "countdown": 0,
+  "intro": {
+    "buttons": {
+      "start": "Start"
+    },
+    "content": []
+  },
+  "activity": {
+    "scenes": [
+      {
+        "block": "scene",
+        "name": "SC1",
+        "countdown": 0,
+        "instructions": {
+          "open": true,
+          "content": [
+            {
+              "block": "group",
+              "class": "flex gap-2 items-center",
+              "content": [
+                {
+                  "block": "audio",
+                  "class": "",
+                  "file": "files/instruccion.mp3",
+                  "wave": false,
+                  "autoplay": false,
+                  "id": "",
+                  "name": "D6dy"
+                },
+                {
+                  "block": "text",
+                  "class": "",
+                  "text": "Create a story describing the pictures, remember to use going to. Type 6 sentences.",
+                  "id": "",
+                  "name": "Ic5S"
+                }
+              ]
+            }
+          ]
+        },
+        "content": [
+          {
+            "block": "group",
+            "class": "bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto",
+            "content": [
+              {
+                "marker": "",
+                "class": "",
+                "content": [
+                  {
+                    "block": "text",
+                    "class": "text-xl font-bold",
+                    "text": "Example:",
+                    "name": "DuOJ",
+                    "hidden": false,
+                    "id": "9KVk"
+                  }
+                ],
+                "background": "",
+                "id": "3bpxZjI3",
+                "block": "group",
+                "name": "roaC"
+              },
+              {
+                "marker": "",
+                "class": "grid grid-cols-2 mt-3 mb-",
+                "content": [
+                  {
+                    "marker": "",
+                    "class": "flex justify-center ",
+                    "content": [
+                      {
+                        "file": "files/img00.jpg",
+                        "class": "w-1/2 mask mask-squircle",
+                        "id": "wtc7",
+                        "block": "image",
+                        "name": "wHDd"
+                      }
+                    ],
+                    "background": "",
+                    "id": "tSjW",
+                    "block": "group",
+                    "name": "Agrb"
+                  },
+                  {
+                    "marker": "",
+                    "class": "flex items-center ",
+                    "content": [
+                      {
+                        "block": "text",
+                        "class": "text-xl font-bold",
+                        "text": "He is going to eat an apple.",
+                        "name": "xPWC",
+                        "hidden": false,
+                        "id": "89TppUa9"
+                      }
+                    ],
+                    "background": "",
+                    "id": "BXwJTXDC",
+                    "block": "group",
+                    "name": "7EJ5"
+                  }
+                ],
+                "background": "",
+                "id": "rtaF",
+                "block": "group",
+                "name": "YgoJ"
+              },
+              {
+                "marker": "",
+                "class": "grid grid-cols-2 my-10",
+                "content": [
+                  {
+                    "marker": "",
+                    "class": "flex justify-center ",
+                    "content": [
+                      {
+                        "file": "files/img01.jpg",
+                        "class": "w-1/2 mask mask-squircle",
+                        "id": "wtc70VmH",
+                        "block": "image",
+                        "name": "EyWc"
+                      }
+                    ],
+                    "background": "",
+                    "id": "tSjWd2Ut",
+                    "block": "group",
+                    "name": "Lt7n"
+                  },
+                  {
+                    "marker": "",
+                    "class": "flex items-center ",
+                    "content": [
+                      {
+                        "case": false,
+                        "evaluation": "manual",
+                        "class": "",
+                        "positive": "",
+                        "multiline": true,
+                        "placeholder": "",
+                        "showResult": false,
+                        "id": "SAm813Tk",
+                        "block": "textarea",
+                        "name": "Jr7P",
+                        "maxlength": 0,
+                        "attempts": 0
+                      }
+                    ],
+                    "background": "",
+                    "id": "BXwJTXDCvcIx",
+                    "block": "group",
+                    "name": "t36a"
+                  }
+                ],
+                "background": "",
+                "id": "lcsyZP77",
+                "block": "group",
+                "name": "W8mP"
+              },
+              {
+                "marker": "",
+                "class": "grid grid-cols-2 my-10",
+                "content": [
+                  {
+                    "marker": "",
+                    "class": "flex justify-center ",
+                    "content": [
+                      {
+                        "file": "files/img02.jpg",
+                        "class": "w-1/2 mask mask-squircle",
+                        "id": "wtc7G8rz",
+                        "block": "image",
+                        "name": "wZt9"
+                      }
+                    ],
+                    "background": "",
+                    "id": "tSjWlLoU",
+                    "block": "group",
+                    "name": "6EEO"
+                  },
+                  {
+                    "marker": "",
+                    "class": "flex items-center ",
+                    "content": [
+                      {
+                        "case": false,
+                        "evaluation": "manual",
+                        "class": "",
+                        "positive": "",
+                        "multiline": true,
+                        "placeholder": "",
+                        "showResult": false,
+                        "id": "SAm8Dcrz",
+                        "block": "textarea",
+                        "name": "8dpd",
+                        "maxlength": 0,
+                        "attempts": 0
+                      }
+                    ],
+                    "background": "",
+                    "id": "BXwJTXDCc22b",
+                    "block": "group",
+                    "name": "8MpQ"
+                  }
+                ],
+                "background": "",
+                "id": "eZBJThjX",
+                "block": "group",
+                "name": "sVnk"
+              },
+              {
+                "marker": "",
+                "class": "grid grid-cols-2 my-10",
+                "content": [
+                  {
+                    "marker": "",
+                    "class": "flex justify-center ",
+                    "content": [
+                      {
+                        "file": "files/img03.jpg",
+                        "class": "w-1/2 mask mask-squircle",
+                        "id": "wtc7G8rzMl1K",
+                        "block": "image",
+                        "name": "Oxla"
+                      }
+                    ],
+                    "background": "",
+                    "id": "tSjWlLoUngVp",
+                    "block": "group",
+                    "name": "z4eP"
+                  },
+                  {
+                    "marker": "",
+                    "class": "flex items-center ",
+                    "content": [
+                      {
+                        "case": false,
+                        "evaluation": "manual",
+                        "class": "",
+                        "positive": "",
+                        "multiline": true,
+                        "placeholder": "",
+                        "showResult": false,
+                        "id": "SAm8Dcrz3jnN",
+                        "block": "textarea",
+                        "name": "8IJD",
+                        "maxlength": 0,
+                        "attempts": 0
+                      }
+                    ],
+                    "background": "",
+                    "id": "BXwJTXDCc22bhGPm",
+                    "block": "group",
+                    "name": "436y"
+                  }
+                ],
+                "background": "",
+                "id": "Cpsv0GXi",
+                "block": "group",
+                "name": "sV3t"
+              },
+              {
+                "marker": "",
+                "class": "grid grid-cols-2 my-10",
+                "content": [
+                  {
+                    "marker": "",
+                    "class": "flex justify-center ",
+                    "content": [
+                      {
+                        "file": "files/img04.jpg",
+                        "class": "w-1/2 mask mask-squircle",
+                        "id": "wtc7G8rzMl1KwugJ",
+                        "block": "image",
+                        "name": "6Z9F"
+                      }
+                    ],
+                    "background": "",
+                    "id": "tSjWlLoUngVpor6r",
+                    "block": "group",
+                    "name": "S6cc"
+                  },
+                  {
+                    "marker": "",
+                    "class": "flex items-center ",
+                    "content": [
+                      {
+                        "case": false,
+                        "evaluation": "manual",
+                        "class": "",
+                        "positive": "",
+                        "multiline": true,
+                        "placeholder": "",
+                        "showResult": false,
+                        "id": "SAm8Dcrz3jnN0S7L",
+                        "block": "textarea",
+                        "name": "gsl5",
+                        "maxlength": 0,
+                        "attempts": 0
+                      }
+                    ],
+                    "background": "",
+                    "id": "BXwJTXDCc22bhGPmIKVj",
+                    "block": "group",
+                    "name": "2cUl"
+                  }
+                ],
+                "background": "",
+                "id": "OfFHKMoJ",
+                "block": "group",
+                "name": "FG1B"
+              },
+              {
+                "marker": "",
+                "class": "grid grid-cols-2 my-10",
+                "content": [
+                  {
+                    "marker": "",
+                    "class": "flex justify-center ",
+                    "content": [
+                      {
+                        "file": "files/img05.jpg",
+                        "class": "w-1/2 mask mask-squircle",
+                        "id": "wtc7G8rzMl1KwugJjmW9",
+                        "block": "image",
+                        "name": "2f7C"
+                      }
+                    ],
+                    "background": "",
+                    "id": "tSjWlLoUngVpor6rXwH0",
+                    "block": "group",
+                    "name": "N03t"
+                  },
+                  {
+                    "marker": "",
+                    "class": "flex items-center ",
+                    "content": [
+                      {
+                        "case": false,
+                        "evaluation": "manual",
+                        "class": "",
+                        "positive": "",
+                        "multiline": true,
+                        "placeholder": "",
+                        "showResult": false,
+                        "id": "SAm8Dcrz3jnN0S7L6SCD",
+                        "block": "textarea",
+                        "name": "SujG",
+                        "maxlength": 0,
+                        "attempts": 0
+                      }
+                    ],
+                    "background": "",
+                    "id": "BXwJTXDCc22bhGPmIKVjuY9K",
+                    "block": "group",
+                    "name": "Xv2p"
+                  }
+                ],
+                "background": "",
+                "id": "emFSWB9n",
+                "block": "group",
+                "name": "zM2r"
+              },
+              {
+                "marker": "",
+                "class": "grid grid-cols-2 my-10",
+                "content": [
+                  {
+                    "marker": "",
+                    "class": "flex justify-center ",
+                    "content": [
+                      {
+                        "file": "files/img06.jpg",
+                        "class": "w-1/2 mask mask-squircle",
+                        "id": "wtc7G8rzMl1KwugJjmW9h7T0",
+                        "block": "image",
+                        "name": "OEwk"
+                      }
+                    ],
+                    "background": "",
+                    "id": "tSjWlLoUngVpor6rXwH0gRLB",
+                    "block": "group",
+                    "name": "qkqL"
+                  },
+                  {
+                    "marker": "",
+                    "class": "flex items-center ",
+                    "content": [
+                      {
+                        "case": false,
+                        "evaluation": "manual",
+                        "class": "",
+                        "positive": "",
+                        "multiline": true,
+                        "placeholder": "",
+                        "showResult": false,
+                        "id": "SAm8Dcrz3jnN0S7L6SCDwsVP",
+                        "block": "textarea",
+                        "name": "9CcM",
+                        "maxlength": 0,
+                        "attempts": 0
+                      }
+                    ],
+                    "background": "",
+                    "id": "BXwJTXDCc22bhGPmIKVjuY9Kj1ym",
+                    "block": "group",
+                    "name": "rFsD"
+                  }
+                ],
+                "background": "",
+                "id": "02jhGBPU",
+                "block": "group",
+                "name": "CQFu"
+              }
+            ],
+            "background": "",
+            "name": "4Cs6",
+            "hidden": false
+          },
+          {
+            "symbol": "FinalizeGroup"
+          }
+        ],
+        "id": ""
+      }
+    ]
+  },
+  "end": {
+    "buttons": {
+      "restart": false
+    },
+    "content": [
+      {
+        "symbol": "finishedAll"
+      }
+    ]
+  },
+  "symbols": {
+    "finishedAll": {
+      "class": "w-full",
+      "content": [
+        {
+          "block": "group",
+          "class": "bg-slate-100 rounded p-5 text-center w-full",
+          "content": [
+            {
+              "block": "text",
+              "text": "Congratulations, you finished the activity.",
+              "class": "",
+              "name": "Congra"
+            }
+          ],
+          "background": "",
+          "name": "CongraGroup"
+        },
+        {
+          "block": "group",
+          "class": "text-center p-5",
+          "content": [
+            {
+              "block": "finished",
+              "name": "finishedBlock"
+            }
+          ],
+          "background": "",
+          "name": "finishedGroup"
+        }
+      ],
+      "background": "",
+      "block": "group"
+    },
+    "FinalizeGroup": {
+      "block": "group",
+      "class": "text-center mt-10",
+      "content": [
+        {
+          "block": "button",
+          "class": "mx-auto",
+          "to": "/end",
+          "text": "Finalize",
+          "name": "FinalizeBTN"
+        }
+      ],
+      "background": ""
+    }
+  },
+  "attempts": 0
+}
