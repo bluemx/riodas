@@ -1,1 +1,1378 @@
-{"title":"Present Perfect Tense vs. Present Perfect Continuous Tense","clock":true,"countdown":0,"attempts":0,"intro":{"buttons":{"start":"Start"},"content":[]},"activity":{"scenes":[{"block":"scene","name":"SC1","countdown":0,"instructions":{"open":true,"content":[{"block":"group","class":"flex gap-2 items-center","content":[{"block":"audio","class":"","file":"files/B1-2U2L1EB-INS.mp3"},{"block":"text","class":"","text":"There are many differences between present perfect and present perfect continuous tense. We are going to learn about these in this tutorial. It will be easier to compare and understand these two tenses after knowing the differences."}]}]},"content":[{"marker":"📒","class":"bg-slate-100 rounded p-2 max-w-5xl  mx-auto","content":[{"marker":"","class":"text-center","content":[{"text":"Present Perfect Tense vs. Present Perfect Continuous Tense","class":"text-5xl font-bold","id":"txt1","block":"text","name":"txt1"}],"background":"","id":"aHmJ","block":"group","name":"ckKU"},{"marker":"","class":"my-10 text-2xl max-w-4xl  mx-auto","content":[{"text":"<b>MEANING</b>: We use the present perfect simple with action verbs to emphasize the completion of an event in the recent past. We use the present perfect continuous to talk about ongoing events or activities that started at a time in the past and are continuing up until now.t There is often a difference in meaning: <b>We use the Present Perfect Simple mainly to express the connection of a past action with the present so that we can emphasize the result, while we use the Present Perfect Progressive to emphasize the duration or continuous course of action</b>.","class":"","id":"sLRR","block":"text","name":"7l52"}],"background":"","id":"z1so","block":"group","name":"nU7h"},{"marker":"","class":"my-10 text-2xl max-w-5xl  mx-auto","content":[{"marker":"","class":"","content":[{"marker":"","class":"text-center bg-blue-100 p-5 text-3xl  border-4 border-blue-500","content":[{"text":"Construction","class":"font-bold","id":"sLRR4Jth","block":"text","name":"Hfzr"}],"background":"","id":"XCT8","block":"group","name":"7YIH"},{"marker":"","class":"text-center bg-blue-100  text-2xl  grid grid-cols-2","content":[{"marker":"","class":"border-4 border-blue-500 p-5","content":[{"text":"Present Perfect Tense","class":"font-bold","id":"sLRR4JthzbFX","block":"text","name":"nwQu"}],"background":"","id":"XbTf","block":"group","name":"laax"},{"marker":"","class":"border-4 border-blue-500 p-5","content":[{"text":"Present Perfect Continuous Tense","class":"font-bold","id":"sLRR4JthzbFX4SCq","block":"text","name":"pBYT"}],"background":"","id":"q7oBXWAr","block":"group","name":"TaRz"}],"background":"","id":"kATL1Cct","block":"group","name":"n2Oi"},{"marker":"","class":" bg-blue-100  text-2xl  grid grid-cols-2 items-center border-4 border-blue-500 ","content":[{"marker":"","class":" border-4 border-blue-500 h-60 p-5","content":[{"text":"The construction of the present perfect tense is like the following:","class":"","id":"sLRR4JthzbFXjcXJ","block":"text","name":"ZaJc"}],"background":"","id":"XbTflJ3s","block":"group","name":"0EHT"},{"marker":"","class":"border-4 border-blue-500   h-60 p-5","content":[{"text":"The construction of the present perfect continuous tense differs from the present perfect tense. Here we have:","class":"","id":"sLRR4JthzbFX4SCqaAS3","block":"text","name":"dqIh"}],"background":"","id":"q7oBXWAr357X","block":"group","name":"FFG5","hidden":false}],"background":"","id":"VcwgX1kL","block":"group","name":"v7on"},{"marker":"","class":" bg-blue-100  text-2xl  grid grid-cols-2 items-center border-4 border-blue-500 ","content":[{"marker":"","class":"border-4 border-blue-500  h-60 p-5","content":[{"text":"Subject + Has / have (auxiliary verb present simple) + been (past participle form of 'be' verb) +  (main verb + ing)","class":"font-bold","id":"sLRR4JthzbFXjcXJJ8I1","block":"text","name":"FQOi"}],"background":"","id":"XbTflJ3syXDv","block":"group","name":"wOMF"},{"marker":"","class":"border-4 border-blue-500   h-60 p-5","content":[{"text":"Subject + Has/have (auxiliary verb present simple) + past participle (third form of the main verb)","class":"font-bold","id":"sLRR4JthzbFX4SCqaAS32Znn","block":"text","name":"azgQ"}],"background":"","id":"q7oBXWAr357Xz8Ex","block":"group","name":"aUEH","hidden":false}],"background":"","id":"yfTgYX9A","block":"group","name":"8O7c"},{"marker":"","class":" bg-blue-100  text-2xl  grid grid-cols-2  border-4 border-blue-500 ","content":[{"marker":"","class":" border-blue-500 border-4 p-5","content":[{"text":"Example","class":"font-bold","id":"sLRR4JthzbFXjcXJJ8I1vIxb","block":"text","name":"EWP4"},{"marker":"","class":"","content":[{"text":"He has stayed here.","class":"font-bold","id":"OE2l","block":"text","name":"s7Cr"}],"background":"","id":"PqyU","block":"group","name":"Il7f"},{"marker":"","class":"my-10","content":[{"text":"Here 'stayed' happens to be the past participle form of the main verb 'stay'. And 'has' is the auxiliary verb of the sentence. So, we need an auxiliary verb ‘has’ or ‘have’ along with the past participle form of the main verb to form a present perfect tense. The past participle form of the verb is also known as the third form of the verb. The auxiliary verb form is to be in the simple present form.","class":"","id":"OE2lDigw","block":"text","name":"r0ot"}],"background":"","id":"Lz6L9URc","block":"group","name":"nnRJ"},{"marker":"","class":"","content":[{"text":"Example","class":"font-bold","id":"OE2lDigwzORK","block":"text","name":"rG1Q"}],"background":"","id":"OoYrPUQZ","block":"group","name":"ZAs1"},{"marker":"","class":"","content":[{"text":"I have finished writing.","class":"font-bold","id":"OE2lDigwyytS","block":"text","name":"TcgA"}],"background":"","id":"9esUlJt2","block":"group","name":"t5SQ"}],"background":"","id":"XbTflJ3syXDvyoHB","block":"group","name":"JTEq"},{"marker":"","class":" border-4 border-blue-500  p-5","content":[{"text":"Example","class":"font-bold","id":"sLRR4JthzbFX4SCqaAS32ZnnqIvY","block":"text","name":"wfR9"},{"marker":"","class":"my-10","content":[{"text":"It is evident from the construction that we form the present perfect continuous tense with the present form of auxiliary verb (have/has) along with the past participle of 'be verb' (been). And at last, the main verb + (-ing) is there to denote an action in progress","class":"","id":"kBKj","block":"text","name":"euKl"}],"background":"","id":"Iitw","block":"group","name":"kOpC"},{"marker":"","class":"","content":[{"text":"Example ","class":"font-bold","id":"kBKjFwWq","block":"text","name":"MbMe"}],"background":"","id":"zhAy3Quf","block":"group","name":"NOp3"},{"marker":"","class":"","content":[{"text":"I have been feeling sick lately.","class":"font-bold","id":"kBKjFwWqbtby","block":"text","name":"LRsc"}],"background":"","id":"sHdBhQlW","block":"group","name":"ldgr"}],"background":"","id":"q7oBXWAr357Xz8ExSrQN","block":"group","name":"B2yF","hidden":false}],"background":"","id":"GAepM6Oy","block":"group","name":"8S4o"}],"background":"","id":"xUi2","block":"group","name":"pl9z"}],"background":"","id":"Zo64eX5u","block":"group","name":"siRx","hidden":false},{"marker":"","class":"my-10 text-2xl max-w-5xl  mx-auto","content":[{"marker":"","class":"","content":[{"marker":"","class":"text-center bg-red-100 p-5 text-3xl  border-4 border-red-500","content":[{"text":"Negative sentence","class":"font-bold","id":"sLRR4JthtM0L","block":"text","name":"rHt8"}],"background":"","id":"XCT8w6dq","block":"group","name":"nhDe"},{"marker":"","class":"text-center bg-red-50  text-2xl  grid grid-cols-2","content":[{"marker":"","class":"border-4 border-red-500 p-5","content":[{"text":"Present Perfect Tense","class":"font-bold","id":"sLRR4JthzbFXtDC3","block":"text","name":"R8ES"}],"background":"","id":"XbTfqsFL","block":"group","name":"QXQu"},{"marker":"","class":"border-4 border-red-500 p-5","content":[{"text":"Present Perfect Continuous Tense","class":"font-bold","id":"sLRR4JthzbFX4SCqEstI","block":"text","name":"amGF"}],"background":"","id":"q7oBXWArpy7s","block":"group","name":"VM0a"}],"background":"","id":"kATL1CctEk5i","block":"group","name":"w9NW"},{"marker":"","class":" bg-red-50  text-2xl  grid grid-cols-2 items-center border-4 border-red-500 ","content":[{"marker":"","class":" border-4 border-red-500 h-80 p-5","content":[{"text":"To construct the negative form with present perfect tense, then the word 'not' will be between the auxiliary verb and the main verb. That means 'not' is placed between 'have' and 'finished'.","class":"","id":"sLRR4JthzbFXjcXJCM9h","block":"text","name":"loSk"}],"background":"","id":"XbTflJ3sAoDO","block":"group","name":"AEtB"},{"marker":"","class":"border-4 border-red-500   h-80 p-5","content":[{"text":"The construction of the negative sentence with the present perfect continuous tense happens when we use the word 'not'. The word 'not' comes between the first auxiliary verb and the 'be' verb.","class":"","id":"sLRR4JthzbFX4SCqaAS3vGfI","block":"text","name":"omDj"}],"background":"","id":"q7oBXWAr357XXrLi","block":"group","name":"brSW","hidden":false}],"background":"","id":"VcwgX1kLTv3j","block":"group","name":"1GcU"},{"marker":"","class":" bg-green-50  text-2xl  grid grid-cols-2 items-center border-4 border-green-500 ","content":[{"marker":"","class":"border-4 border-green-500  h-60 p-5","content":[{"text":"Subject + Has / have (auxiliary verb present simple) + been (past participle form of 'be' verb) +  (main verb + ing)","class":"font-bold","id":"sLRR4JthzbFXjcXJJ8I1e6Rz","block":"text","name":"jJR0"}],"background":"","id":"XbTflJ3syXDvUODC","block":"group","name":"FYJo"},{"marker":"","class":"border-4 border-green-500   h-60 p-5","content":[{"text":"Subject + Has/have (auxiliary verb present simple) + past participle (third form of the main verb)","class":"font-bold","id":"sLRR4JthzbFX4SCqaAS32Znn3ysY","block":"text","name":"UYJ8"}],"background":"","id":"q7oBXWAr357Xz8ExFmQk","block":"group","name":"E11i","hidden":false}],"background":"","id":"yfTgYX9A3kc0","block":"group","name":"RDgm","hidden":true},{"marker":"","class":" bg-red-50  text-2xl  grid grid-cols-2  border-4 border-red-500 ","content":[{"marker":"","class":" border-red-500 border-4 p-5","content":[{"text":"Examples in sentences","class":"font-bold","id":"sLRR4JthzbFXjcXJJ8I1vIxbPkN5","block":"text","name":"xRju"},{"marker":"","class":"my-10","content":[{"text":"• I have not finished writing","class":"font-bold ","id":"OE2lDigwzORKZDlJ","block":"text","name":"9Gpn"}],"background":"","id":"OoYrPUQZyxjD","block":"group","name":"015C"},{"marker":"","class":"","content":[{"text":"• We have not gone there.","class":"font-bold","id":"OE2lDigwyytSdmp1","block":"text","name":"9w6c"}],"background":"","id":"9esUlJt2pRzu","block":"group","name":"HbdP"}],"background":"","id":"XbTflJ3syXDvyoHBmvPu","block":"group","name":"iUWP"},{"marker":"","class":" border-4 border-red-500  p-5","content":[{"text":"Examples in sentences","class":"font-bold","id":"sLRR4JthzbFX4SCqaAS32ZnnqIvYWmQy","block":"text","name":"JnVh"},{"marker":"","class":"my-10","content":[{"text":"• I have not been arriving late for work lately.","class":"font-bold","id":"kBKjFwWqHvvI","block":"text","name":"5ZuX"}],"background":"","id":"zhAy3Quf62UD","block":"group","name":"t2Ql"},{"marker":"","class":"","content":[{"text":"• He has not been doing well recently.","class":"font-bold","id":"kBKjFwWqbtbynYZ6","block":"text","name":"aC6N"}],"background":"","id":"sHdBhQlWryrc","block":"group","name":"ZX95"}],"background":"","id":"q7oBXWAr357Xz8ExSrQNRC0x","block":"group","name":"H2b9","hidden":false}],"background":"","id":"GAepM6OyfPbD","block":"group","name":"seCx"}],"background":"","id":"xUi2LsHu","block":"group","name":"Bl1e"}],"background":"","id":"wImsbPgn","block":"group","name":"75Q1","hidden":false},{"marker":"","class":"my-10 text-2xl max-w-5xl  mx-auto","content":[{"marker":"","class":"","content":[{"marker":"","class":"text-center bg-yellow-100 p-5 text-3xl  border-4 border-yellow-500","content":[{"text":"Interrogative form","class":"font-bold","id":"sLRR4JthtM0LI9oG","block":"text","name":"5YCX"}],"background":"","id":"XCT8w6dqk0na","block":"group","name":"zAPn"},{"marker":"","class":"text-center bg-yellow-50  text-2xl  grid grid-cols-2","content":[{"marker":"","class":"border-4 border-yellow-500 p-5","content":[{"text":"Present Perfect Tense","class":"font-bold","id":"sLRR4JthzbFXtDC3EUB8","block":"text","name":"NuOW"}],"background":"","id":"XbTfqsFLCYMr","block":"group","name":"j809"},{"marker":"","class":"border-4 border-yellow-500 p-5","content":[{"text":"Present Perfect Continuous Tense","class":"font-bold","id":"sLRR4JthzbFX4SCqEstIYamD","block":"text","name":"5j2U"}],"background":"","id":"q7oBXWArpy7sq2xI","block":"group","name":"cTPS"}],"background":"","id":"kATL1CctEk5iOjO2","block":"group","name":"uRiu"},{"marker":"","class":" bg-yellow-50  text-2xl  grid grid-cols-2 items-center border-4 border-yellow-500 ","content":[{"marker":"","class":" border-4 border-yellow-500 h-60 p-5","content":[{"text":"The construction of interrogative form with the present perfect tense looks like below:","class":"","id":"sLRR4JthzbFXjcXJCM9hgKOw","block":"text","name":"vZ3P"}],"background":"","id":"XbTflJ3sAoDO6v97","block":"group","name":"fKBn"},{"marker":"","class":"border-4 border-yellow-500   h-60 p-5","content":[{"text":"The construction of the interrogative form with the present perfect continuous tense looks like the following:","class":"","id":"sLRR4JthzbFX4SCqaAS3vGfIRgO4","block":"text","name":"ukfG"}],"background":"","id":"q7oBXWAr357XXrLiPLal","block":"group","name":"j1i2","hidden":false}],"background":"","id":"VcwgX1kLTv3jedWr","block":"group","name":"rwbW"},{"marker":"","class":" bg-yellow-50  text-2xl  grid grid-cols-2 items-center border-4 border-yellow-500 ","content":[{"marker":"","class":"border-4 border-yellow-500  h-80 p-5","content":[{"text":"Auxiliary verb + Subject + Past participle form of the main verb + Rest of the sentence.","class":"font-bold","id":"sLRR4JthzbFXjcXJJ8I1e6Rza9ko","block":"text","name":"biQC"}],"background":"","id":"XbTflJ3syXDvUODCXhUR","block":"group","name":"yZcG"},{"marker":"","class":"border-4 border-yellow-500   h-80 p-5","content":[{"text":"Auxiliary verb (has/have) + Subject +  Verb to be (past participle form) +  (Main verb + ing) + Rest of the sentence.","class":"font-bold","id":"sLRR4JthzbFX4SCqaAS32Znn3ysYgqtM","block":"text","name":"KCzR"},{"marker":"","class":"my-5","content":[{"text":"The position of the subject and the first auxiliary verb is exchanged in interrogative sentences.","class":"","id":"nwn5","block":"text","name":"66oa"}],"background":"","id":"l8bd","block":"group","name":"j9gw"}],"background":"","id":"q7oBXWAr357Xz8ExFmQk5isv","block":"group","name":"bPUK","hidden":false}],"background":"","id":"yfTgYX9A3kc04FQe","block":"group","name":"HtH0","hidden":false},{"marker":"","class":" bg-yellow-50  text-2xl  grid grid-cols-2  border-4 border-yellow-500 ","content":[{"marker":"","class":" border-yellow-500 border-4 p-5","content":[{"text":"Examples","class":"font-bold","id":"sLRR4JthzbFXjcXJJ8I1vIxbPkN5hx31","block":"text","name":"CVGB"},{"marker":"","class":"my-10","content":[{"text":"• Have you done your homework?","class":"font-bold ","id":"OE2lDigwzORKZDlJaqTS","block":"text","name":"bQe2"}],"background":"","id":"OoYrPUQZyxjDkM7D","block":"group","name":"gz6i"},{"marker":"","class":"","content":[{"text":"• Have they left for the city?","class":"font-bold","id":"OE2lDigwyytSdmp1a56t","block":"text","name":"ZcPO"}],"background":"","id":"9esUlJt2pRzueBSu","block":"group","name":"vVcL"}],"background":"","id":"XbTflJ3syXDvyoHBmvPuaQOv","block":"group","name":"g5HZ"},{"marker":"","class":" border-4 border-yellow-500  p-5","content":[{"text":"Examples ","class":"font-bold","id":"sLRR4JthzbFX4SCqaAS32ZnnqIvYWmQyTgio","block":"text","name":"873a"},{"marker":"","class":"my-10","content":[{"text":"• Has he been trying to reach out?","class":"font-bold","id":"kBKjFwWqHvvIwoS0","block":"text","name":"qstC"}],"background":"","id":"zhAy3Quf62UDkISk","block":"group","name":"WcWj"},{"marker":"","class":"","content":[{"text":"• Have you been meeting her?","class":"font-bold","id":"kBKjFwWqbtbynYZ6r9sT","block":"text","name":"Xb3u"}],"background":"","id":"sHdBhQlWryrcisFc","block":"group","name":"PoC1"}],"background":"","id":"q7oBXWAr357Xz8ExSrQNRC0xVlWd","block":"group","name":"uRt3","hidden":false}],"background":"","id":"GAepM6OyfPbDYFI4","block":"group","name":"enUR"}],"background":"","id":"xUi2LsHueCnH","block":"group","name":"Lh0m"}],"background":"","id":"2dtyEES5","block":"group","name":"MTHP","hidden":false},{"marker":"","class":"my-10 text-2xl max-w-5xl  mx-auto","content":[{"marker":"","class":"","content":[{"marker":"","class":"text-center bg-violet-100 p-5 text-3xl  border-4 border-violet-500","content":[{"text":"Contraction and Uses","class":"font-bold","id":"sLRR4JthtM0LI9oGDSIg","block":"text","name":"B4t8"}],"background":"","id":"XCT8w6dqk0naome8","block":"group","name":"fxiN"},{"marker":"","class":"text-center bg-violet-50  text-2xl  grid grid-cols-2","content":[{"marker":"","class":"border-4 border-violet-500 p-5","content":[{"text":"Present Perfect Tense","class":"font-bold","id":"sLRR4JthzbFXtDC3EUB8PCk8","block":"text","name":"9hjF"}],"background":"","id":"XbTfqsFLCYMroszT","block":"group","name":"PCTw"},{"marker":"","class":"border-4 border-violet-500 p-5","content":[{"text":"Present Perfect Continuous Tense","class":"font-bold","id":"sLRR4JthzbFX4SCqEstIYamD7clI","block":"text","name":"KUKD"}],"background":"","id":"q7oBXWArpy7sq2xIkFmM","block":"group","name":"BveZ"}],"background":"","id":"kATL1CctEk5iOjO2cTkJ","block":"group","name":"iQFZ"},{"marker":"","class":" bg-violet-50  text-2xl  grid grid-cols-2 items-center border-4 border-violet-500 ","content":[{"marker":"","class":" border-4 border-violet-500 h-60 p-5","content":[{"text":"Contraction of the present perfect tense is seen in informal writing and spoken English. We contract  the auxiliary verb to do that.","class":"","id":"sLRR4JthzbFXjcXJCM9hgKOwJBWq","block":"text","name":"ykK0"}],"background":"","id":"XbTflJ3sAoDO6v97HIzx","block":"group","name":"o1MY"},{"marker":"","class":"border-4 border-violet-500   h-60 p-5","content":[{"text":"Contraction is seen in the present perfect continuous tense in informal writing and spoken English. Here we contract the  first auxiliary verb.","class":"","id":"sLRR4JthzbFX4SCqaAS3vGfIRgO4Dp3F","block":"text","name":"4na4"}],"background":"","id":"q7oBXWAr357XXrLiPLalUKPS","block":"group","name":"c7vM","hidden":false}],"background":"","id":"VcwgX1kLTv3jedWrGh29","block":"group","name":"Waea"},{"marker":"","class":" bg-violet-50  text-2xl  grid grid-cols-2 items-center border-4 border-violet-500 ","content":[{"marker":"","class":"border-4 border-violet-500  h-80 p-5","content":[{"text":"Auxiliary verb + Subject + Past participle form of the main verb + Rest of the sentence.","class":"font-bold","id":"sLRR4JthzbFXjcXJJ8I1e6Rza9kob3b2","block":"text","name":"AdRi"}],"background":"","id":"XbTflJ3syXDvUODCXhUR33p7","block":"group","name":"ZhZM"},{"marker":"","class":"border-4 border-violet-500   h-80 p-5","content":[{"text":"Auxiliary verb (has/have) + Subject +  Verb to be (past participle form) +  (Main verb + ing) + Rest of the sentence.","class":"font-bold","id":"sLRR4JthzbFX4SCqaAS32Znn3ysYgqtMlrsx","block":"text","name":"awd5"},{"marker":"","class":"my-5","content":[{"text":"The position of the subject and the first auxiliary verb is exchanged in interrogative sentences.","class":"","id":"nwn5lVdt","block":"text","name":"Pz6U"}],"background":"","id":"l8bdry3F","block":"group","name":"JjNT"}],"background":"","id":"q7oBXWAr357Xz8ExFmQk5isvrUGX","block":"group","name":"ZRc4","hidden":false}],"background":"","id":"yfTgYX9A3kc04FQesa5p","block":"group","name":"z0VA","hidden":true},{"marker":"","class":" bg-violet-50  text-2xl  grid grid-cols-2  border-4 border-violet-500 ","content":[{"marker":"","class":" border-violet-500 border-4 p-5","content":[{"text":"Examples","class":"font-bold","id":"sLRR4JthzbFXjcXJJ8I1vIxbPkN5hx316XVS","block":"text","name":"PCM2"},{"marker":"","class":"my-10","content":[{"text":"• I've done this with perfection","class":"font-bold ","id":"OE2lDigwzORKZDlJaqTSsrIw","block":"text","name":"u4lN"}],"background":"","id":"OoYrPUQZyxjDkM7DW7AM","block":"group","name":"kDrh"},{"marker":"","class":"","content":[{"text":"• You've told me about this.","class":"font-bold","id":"OE2lDigwyytSdmp1a56tuFAy","block":"text","name":"PaJI"}],"background":"","id":"9esUlJt2pRzueBSuDqGT","block":"group","name":"PJme"}],"background":"","id":"XbTflJ3syXDvyoHBmvPuaQOvBlFz","block":"group","name":"cVtc"},{"marker":"","class":" border-4 border-violet-500  p-5","content":[{"text":"Examples ","class":"font-bold","id":"sLRR4JthzbFX4SCqaAS32ZnnqIvYWmQyTgiouy7Q","block":"text","name":"4DsK"},{"marker":"","class":"my-10","content":[{"text":"• Rakesh's been helping us recently. (\"Rakesh has\" becomes Rakesh's)","class":"font-bold","id":"kBKjFwWqHvvIwoS0lJlE","block":"text","name":"Fjej"}],"background":"","id":"zhAy3Quf62UDkISkDblk","block":"group","name":"Z1gU"},{"marker":"","class":"","content":[{"text":"• They've been cooking together lately. (\"They have\" becomes They've')","class":"font-bold","id":"kBKjFwWqbtbynYZ6r9sT4On8","block":"text","name":"D4ml"}],"background":"","id":"sHdBhQlWryrcisFcCtpv","block":"group","name":"LDMB"}],"background":"","id":"q7oBXWAr357Xz8ExSrQNRC0xVlWdW28L","block":"group","name":"m6QN","hidden":false}],"background":"","id":"GAepM6OyfPbDYFI4Y3Cu","block":"group","name":"5K1Y"}],"background":"","id":"xUi2LsHueCnH8OXz","block":"group","name":"ByBr"}],"background":"","id":"QJ6YSt5s","block":"group","name":"E51o","hidden":false}],"background":"","id":"gpo1","block":"group","name":"gpo1"},{"symbol":"FinalizeGroup"}]}]},"end":{"buttons":{"restart":false},"content":[{"symbol":"finishedAll"}]},"symbols":{"finishedAll":{"class":"w-full","content":[{"block":"group","class":"bg-slate-100 rounded p-5 text-center w-full","content":[{"block":"text","text":"Congratulations, you finished the activity.","class":"","name":"Congra"}],"background":"","name":"CongraGroup"},{"block":"group","class":"text-center p-5","content":[{"block":"finished","name":"finishedBlock"}],"background":"","name":"finishedGroup"}],"background":"","block":"group"},"FinalizeGroup":{"block":"group","class":"text-center mt-10","content":[{"block":"button","class":"mx-auto","to":"/end","text":"Finalize","name":"FinalizeBTN"}],"background":""}}}
+{
+  "title": "Present Perfect Tense vs. Present Perfect Continuous Tense",
+  "clock": true,
+  "countdown": 0,
+  "attempts": 0,
+  "intro": {
+    "buttons": {
+      "start": "Start"
+    },
+    "content": []
+  },
+  "activity": {
+    "scenes": [
+      {
+        "block": "scene",
+        "name": "SC1",
+        "countdown": 0,
+        "instructions": {
+          "open": true,
+          "content": [
+            {
+              "block": "group",
+              "class": "flex gap-2 items-center",
+              "content": [
+                {
+                  "block": "audio",
+                  "class": "",
+                  "file": "files/B1-2U2L1EB-INS.mp3"
+                },
+                {
+                  "block": "text",
+                  "class": "",
+                  "text": "There are many differences between present perfect and present perfect continuous tense. We are going to learn about these in this tutorial. It will be easier to compare and understand these two tenses after knowing the differences."
+                }
+              ]
+            }
+          ]
+        },
+        "content": [
+          {
+            "marker": "📒",
+            "class": "bg-slate-100 rounded p-2 max-w-5xl  mx-auto",
+            "content": [
+              {
+                "marker": "",
+                "class": "text-center",
+                "content": [
+                  {
+                    "text": "Present Perfect Tense vs. Present Perfect Continuous Tense",
+                    "class": "text-5xl font-bold",
+                    "id": "txt1",
+                    "block": "text",
+                    "name": "txt1"
+                  }
+                ],
+                "background": "",
+                "id": "aHmJ",
+                "block": "group",
+                "name": "ckKU"
+              },
+              {
+                "marker": "",
+                "class": "my-10 text-2xl max-w-4xl  mx-auto",
+                "content": [
+                  {
+                    "text": "<b>MEANING</b>: We use the present perfect simple with action verbs to emphasize the completion of an event in the recent past. We use the present perfect continuous to talk about ongoing events or activities that started at a time in the past and are continuing up until now. There is often a difference in meaning: <b>We use the Present Perfect Simple mainly to express the connection of a past action with the present so that we can emphasize the result, while we use the Present Perfect Progressive to emphasize the duration or continuous course of action</b>.",
+                    "class": "",
+                    "id": "sLRR",
+                    "block": "text",
+                    "name": "7l52"
+                  }
+                ],
+                "background": "",
+                "id": "z1so",
+                "block": "group",
+                "name": "nU7h"
+              },
+              {
+                "marker": "",
+                "class": "my-10 text-2xl max-w-5xl  mx-auto",
+                "content": [
+                  {
+                    "marker": "",
+                    "class": "",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "text-center bg-blue-100 p-5 text-3xl  border-4 border-blue-500",
+                        "content": [
+                          {
+                            "text": "Construction",
+                            "class": "font-bold",
+                            "id": "sLRR4Jth",
+                            "block": "text",
+                            "name": "Hfzr"
+                          }
+                        ],
+                        "background": "",
+                        "id": "XCT8",
+                        "block": "group",
+                        "name": "7YIH"
+                      },
+                      {
+                        "marker": "",
+                        "class": "text-center bg-blue-100  text-2xl  grid grid-cols-2",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": "border-4 border-blue-500 p-5",
+                            "content": [
+                              {
+                                "text": "Present Perfect Tense",
+                                "class": "font-bold",
+                                "id": "sLRR4JthzbFX",
+                                "block": "text",
+                                "name": "nwQu"
+                              }
+                            ],
+                            "background": "",
+                            "id": "XbTf",
+                            "block": "group",
+                            "name": "laax"
+                          },
+                          {
+                            "marker": "",
+                            "class": "border-4 border-blue-500 p-5",
+                            "content": [
+                              {
+                                "text": "Present Perfect Continuous Tense",
+                                "class": "font-bold",
+                                "id": "sLRR4JthzbFX4SCq",
+                                "block": "text",
+                                "name": "pBYT"
+                              }
+                            ],
+                            "background": "",
+                            "id": "q7oBXWAr",
+                            "block": "group",
+                            "name": "TaRz"
+                          }
+                        ],
+                        "background": "",
+                        "id": "kATL1Cct",
+                        "block": "group",
+                        "name": "n2Oi"
+                      },
+                      {
+                        "marker": "",
+                        "class": " bg-blue-100  text-2xl  grid grid-cols-2 items-center border-4 border-blue-500 ",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": " border-4 border-blue-500 h-60 p-5",
+                            "content": [
+                              {
+                                "text": "The construction of the present perfect tense is like the following:",
+                                "class": "",
+                                "id": "sLRR4JthzbFXjcXJ",
+                                "block": "text",
+                                "name": "ZaJc"
+                              }
+                            ],
+                            "background": "",
+                            "id": "XbTflJ3s",
+                            "block": "group",
+                            "name": "0EHT"
+                          },
+                          {
+                            "marker": "",
+                            "class": "border-4 border-blue-500   h-60 p-5",
+                            "content": [
+                              {
+                                "text": "The construction of the present perfect continuous tense differs from the present perfect tense. Here we have:",
+                                "class": "",
+                                "id": "sLRR4JthzbFX4SCqaAS3",
+                                "block": "text",
+                                "name": "dqIh"
+                              }
+                            ],
+                            "background": "",
+                            "id": "q7oBXWAr357X",
+                            "block": "group",
+                            "name": "FFG5",
+                            "hidden": false
+                          }
+                        ],
+                        "background": "",
+                        "id": "VcwgX1kL",
+                        "block": "group",
+                        "name": "v7on"
+                      },
+                      {
+                        "marker": "",
+                        "class": " bg-blue-100  text-2xl  grid grid-cols-2 items-center border-4 border-blue-500 ",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": "border-4 border-blue-500  h-60 p-5",
+                            "content": [
+                              {
+                                "text": "Subject + Has / have (auxiliary verb present simple) + been (past participle form of 'be' verb) +  (main verb + ing)",
+                                "class": "font-bold",
+                                "id": "sLRR4JthzbFXjcXJJ8I1",
+                                "block": "text",
+                                "name": "FQOi"
+                              }
+                            ],
+                            "background": "",
+                            "id": "XbTflJ3syXDv",
+                            "block": "group",
+                            "name": "wOMF"
+                          },
+                          {
+                            "marker": "",
+                            "class": "border-4 border-blue-500   h-60 p-5",
+                            "content": [
+                              {
+                                "text": "Subject + Has/have (auxiliary verb present simple) + past participle (third form of the main verb)",
+                                "class": "font-bold",
+                                "id": "sLRR4JthzbFX4SCqaAS32Znn",
+                                "block": "text",
+                                "name": "azgQ"
+                              }
+                            ],
+                            "background": "",
+                            "id": "q7oBXWAr357Xz8Ex",
+                            "block": "group",
+                            "name": "aUEH",
+                            "hidden": false
+                          }
+                        ],
+                        "background": "",
+                        "id": "yfTgYX9A",
+                        "block": "group",
+                        "name": "8O7c"
+                      },
+                      {
+                        "marker": "",
+                        "class": " bg-blue-100  text-2xl  grid grid-cols-2  border-4 border-blue-500 ",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": " border-blue-500 border-4 p-5",
+                            "content": [
+                              {
+                                "text": "Example",
+                                "class": "font-bold",
+                                "id": "sLRR4JthzbFXjcXJJ8I1vIxb",
+                                "block": "text",
+                                "name": "EWP4"
+                              },
+                              {
+                                "marker": "",
+                                "class": "",
+                                "content": [
+                                  {
+                                    "text": "He has stayed here.",
+                                    "class": "font-bold",
+                                    "id": "OE2l",
+                                    "block": "text",
+                                    "name": "s7Cr"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "PqyU",
+                                "block": "group",
+                                "name": "Il7f"
+                              },
+                              {
+                                "marker": "",
+                                "class": "my-10",
+                                "content": [
+                                  {
+                                    "text": "Here 'stayed' happens to be the past participle form of the main verb 'stay'. And 'has' is the auxiliary verb of the sentence. So, we need an auxiliary verb ‘has’ or ‘have’ along with the past participle form of the main verb to form a present perfect tense. The past participle form of the verb is also known as the third form of the verb. The auxiliary verb form is to be in the simple present form.",
+                                    "class": "",
+                                    "id": "OE2lDigw",
+                                    "block": "text",
+                                    "name": "r0ot"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "Lz6L9URc",
+                                "block": "group",
+                                "name": "nnRJ"
+                              },
+                              {
+                                "marker": "",
+                                "class": "",
+                                "content": [
+                                  {
+                                    "text": "Example",
+                                    "class": "font-bold",
+                                    "id": "OE2lDigwzORK",
+                                    "block": "text",
+                                    "name": "rG1Q"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "OoYrPUQZ",
+                                "block": "group",
+                                "name": "ZAs1"
+                              },
+                              {
+                                "marker": "",
+                                "class": "",
+                                "content": [
+                                  {
+                                    "text": "I have finished writing.",
+                                    "class": "font-bold",
+                                    "id": "OE2lDigwyytS",
+                                    "block": "text",
+                                    "name": "TcgA"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "9esUlJt2",
+                                "block": "group",
+                                "name": "t5SQ"
+                              }
+                            ],
+                            "background": "",
+                            "id": "XbTflJ3syXDvyoHB",
+                            "block": "group",
+                            "name": "JTEq"
+                          },
+                          {
+                            "marker": "",
+                            "class": " border-4 border-blue-500  p-5",
+                            "content": [
+                              {
+                                "text": "Example",
+                                "class": "font-bold",
+                                "id": "sLRR4JthzbFX4SCqaAS32ZnnqIvY",
+                                "block": "text",
+                                "name": "wfR9"
+                              },
+                              {
+                                "marker": "",
+                                "class": "my-10",
+                                "content": [
+                                  {
+                                    "text": "It is evident from the construction that we form the present perfect continuous tense with the present form of auxiliary verb (have/has) along with the past participle of 'be verb' (been). And at last, the main verb + (-ing) is there to denote an action in progress",
+                                    "class": "",
+                                    "id": "kBKj",
+                                    "block": "text",
+                                    "name": "euKl"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "Iitw",
+                                "block": "group",
+                                "name": "kOpC"
+                              },
+                              {
+                                "marker": "",
+                                "class": "",
+                                "content": [
+                                  {
+                                    "text": "Example ",
+                                    "class": "font-bold",
+                                    "id": "kBKjFwWq",
+                                    "block": "text",
+                                    "name": "MbMe"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "zhAy3Quf",
+                                "block": "group",
+                                "name": "NOp3"
+                              },
+                              {
+                                "marker": "",
+                                "class": "",
+                                "content": [
+                                  {
+                                    "text": "I have been feeling sick lately.",
+                                    "class": "font-bold",
+                                    "id": "kBKjFwWqbtby",
+                                    "block": "text",
+                                    "name": "LRsc"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "sHdBhQlW",
+                                "block": "group",
+                                "name": "ldgr"
+                              }
+                            ],
+                            "background": "",
+                            "id": "q7oBXWAr357Xz8ExSrQN",
+                            "block": "group",
+                            "name": "B2yF",
+                            "hidden": false
+                          }
+                        ],
+                        "background": "",
+                        "id": "GAepM6Oy",
+                        "block": "group",
+                        "name": "8S4o"
+                      }
+                    ],
+                    "background": "",
+                    "id": "xUi2",
+                    "block": "group",
+                    "name": "pl9z"
+                  }
+                ],
+                "background": "",
+                "id": "Zo64eX5u",
+                "block": "group",
+                "name": "siRx",
+                "hidden": false
+              },
+              {
+                "marker": "",
+                "class": "my-10 text-2xl max-w-5xl  mx-auto",
+                "content": [
+                  {
+                    "marker": "",
+                    "class": "",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "text-center bg-red-100 p-5 text-3xl  border-4 border-red-500",
+                        "content": [
+                          {
+                            "text": "Negative sentence",
+                            "class": "font-bold",
+                            "id": "sLRR4JthtM0L",
+                            "block": "text",
+                            "name": "rHt8"
+                          }
+                        ],
+                        "background": "",
+                        "id": "XCT8w6dq",
+                        "block": "group",
+                        "name": "nhDe"
+                      },
+                      {
+                        "marker": "",
+                        "class": "text-center bg-red-50  text-2xl  grid grid-cols-2",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": "border-4 border-red-500 p-5",
+                            "content": [
+                              {
+                                "text": "Present Perfect Tense",
+                                "class": "font-bold",
+                                "id": "sLRR4JthzbFXtDC3",
+                                "block": "text",
+                                "name": "R8ES"
+                              }
+                            ],
+                            "background": "",
+                            "id": "XbTfqsFL",
+                            "block": "group",
+                            "name": "QXQu"
+                          },
+                          {
+                            "marker": "",
+                            "class": "border-4 border-red-500 p-5",
+                            "content": [
+                              {
+                                "text": "Present Perfect Continuous Tense",
+                                "class": "font-bold",
+                                "id": "sLRR4JthzbFX4SCqEstI",
+                                "block": "text",
+                                "name": "amGF"
+                              }
+                            ],
+                            "background": "",
+                            "id": "q7oBXWArpy7s",
+                            "block": "group",
+                            "name": "VM0a"
+                          }
+                        ],
+                        "background": "",
+                        "id": "kATL1CctEk5i",
+                        "block": "group",
+                        "name": "w9NW"
+                      },
+                      {
+                        "marker": "",
+                        "class": " bg-red-50  text-2xl  grid grid-cols-2 items-center border-4 border-red-500 ",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": " border-4 border-red-500 h-80 p-5",
+                            "content": [
+                              {
+                                "text": "To construct the negative form with present perfect tense, then the word 'not' will be between the auxiliary verb and the main verb. That means 'not' is placed between 'have' and 'finished'.",
+                                "class": "",
+                                "id": "sLRR4JthzbFXjcXJCM9h",
+                                "block": "text",
+                                "name": "loSk"
+                              }
+                            ],
+                            "background": "",
+                            "id": "XbTflJ3sAoDO",
+                            "block": "group",
+                            "name": "AEtB"
+                          },
+                          {
+                            "marker": "",
+                            "class": "border-4 border-red-500   h-80 p-5",
+                            "content": [
+                              {
+                                "text": "The construction of the negative sentence with the present perfect continuous tense happens when we use the word 'not'. The word 'not' comes between the first auxiliary verb and the 'be' verb.",
+                                "class": "",
+                                "id": "sLRR4JthzbFX4SCqaAS3vGfI",
+                                "block": "text",
+                                "name": "omDj"
+                              }
+                            ],
+                            "background": "",
+                            "id": "q7oBXWAr357XXrLi",
+                            "block": "group",
+                            "name": "brSW",
+                            "hidden": false
+                          }
+                        ],
+                        "background": "",
+                        "id": "VcwgX1kLTv3j",
+                        "block": "group",
+                        "name": "1GcU"
+                      },
+                      {
+                        "marker": "",
+                        "class": " bg-green-50  text-2xl  grid grid-cols-2 items-center border-4 border-green-500 ",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": "border-4 border-green-500  h-60 p-5",
+                            "content": [
+                              {
+                                "text": "Subject + Has / have (auxiliary verb present simple) + been (past participle form of 'be' verb) +  (main verb + ing)",
+                                "class": "font-bold",
+                                "id": "sLRR4JthzbFXjcXJJ8I1e6Rz",
+                                "block": "text",
+                                "name": "jJR0"
+                              }
+                            ],
+                            "background": "",
+                            "id": "XbTflJ3syXDvUODC",
+                            "block": "group",
+                            "name": "FYJo"
+                          },
+                          {
+                            "marker": "",
+                            "class": "border-4 border-green-500   h-60 p-5",
+                            "content": [
+                              {
+                                "text": "Subject + Has/have (auxiliary verb present simple) + past participle (third form of the main verb)",
+                                "class": "font-bold",
+                                "id": "sLRR4JthzbFX4SCqaAS32Znn3ysY",
+                                "block": "text",
+                                "name": "UYJ8"
+                              }
+                            ],
+                            "background": "",
+                            "id": "q7oBXWAr357Xz8ExFmQk",
+                            "block": "group",
+                            "name": "E11i",
+                            "hidden": false
+                          }
+                        ],
+                        "background": "",
+                        "id": "yfTgYX9A3kc0",
+                        "block": "group",
+                        "name": "RDgm",
+                        "hidden": true
+                      },
+                      {
+                        "marker": "",
+                        "class": " bg-red-50  text-2xl  grid grid-cols-2  border-4 border-red-500 ",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": " border-red-500 border-4 p-5",
+                            "content": [
+                              {
+                                "text": "Examples in sentences",
+                                "class": "font-bold",
+                                "id": "sLRR4JthzbFXjcXJJ8I1vIxbPkN5",
+                                "block": "text",
+                                "name": "xRju"
+                              },
+                              {
+                                "marker": "",
+                                "class": "my-10",
+                                "content": [
+                                  {
+                                    "text": "• I have not finished writing",
+                                    "class": "font-bold ",
+                                    "id": "OE2lDigwzORKZDlJ",
+                                    "block": "text",
+                                    "name": "9Gpn"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "OoYrPUQZyxjD",
+                                "block": "group",
+                                "name": "015C"
+                              },
+                              {
+                                "marker": "",
+                                "class": "",
+                                "content": [
+                                  {
+                                    "text": "• We have not gone there.",
+                                    "class": "font-bold",
+                                    "id": "OE2lDigwyytSdmp1",
+                                    "block": "text",
+                                    "name": "9w6c"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "9esUlJt2pRzu",
+                                "block": "group",
+                                "name": "HbdP"
+                              }
+                            ],
+                            "background": "",
+                            "id": "XbTflJ3syXDvyoHBmvPu",
+                            "block": "group",
+                            "name": "iUWP"
+                          },
+                          {
+                            "marker": "",
+                            "class": " border-4 border-red-500  p-5",
+                            "content": [
+                              {
+                                "text": "Examples in sentences",
+                                "class": "font-bold",
+                                "id": "sLRR4JthzbFX4SCqaAS32ZnnqIvYWmQy",
+                                "block": "text",
+                                "name": "JnVh"
+                              },
+                              {
+                                "marker": "",
+                                "class": "my-10",
+                                "content": [
+                                  {
+                                    "text": "• I have not been arriving late for work lately.",
+                                    "class": "font-bold",
+                                    "id": "kBKjFwWqHvvI",
+                                    "block": "text",
+                                    "name": "5ZuX"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "zhAy3Quf62UD",
+                                "block": "group",
+                                "name": "t2Ql"
+                              },
+                              {
+                                "marker": "",
+                                "class": "",
+                                "content": [
+                                  {
+                                    "text": "• He has not been doing well recently.",
+                                    "class": "font-bold",
+                                    "id": "kBKjFwWqbtbynYZ6",
+                                    "block": "text",
+                                    "name": "aC6N"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "sHdBhQlWryrc",
+                                "block": "group",
+                                "name": "ZX95"
+                              }
+                            ],
+                            "background": "",
+                            "id": "q7oBXWAr357Xz8ExSrQNRC0x",
+                            "block": "group",
+                            "name": "H2b9",
+                            "hidden": false
+                          }
+                        ],
+                        "background": "",
+                        "id": "GAepM6OyfPbD",
+                        "block": "group",
+                        "name": "seCx"
+                      }
+                    ],
+                    "background": "",
+                    "id": "xUi2LsHu",
+                    "block": "group",
+                    "name": "Bl1e"
+                  }
+                ],
+                "background": "",
+                "id": "wImsbPgn",
+                "block": "group",
+                "name": "75Q1",
+                "hidden": false
+              },
+              {
+                "marker": "",
+                "class": "my-10 text-2xl max-w-5xl  mx-auto",
+                "content": [
+                  {
+                    "marker": "",
+                    "class": "",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "text-center bg-yellow-100 p-5 text-3xl  border-4 border-yellow-500",
+                        "content": [
+                          {
+                            "text": "Interrogative form",
+                            "class": "font-bold",
+                            "id": "sLRR4JthtM0LI9oG",
+                            "block": "text",
+                            "name": "5YCX"
+                          }
+                        ],
+                        "background": "",
+                        "id": "XCT8w6dqk0na",
+                        "block": "group",
+                        "name": "zAPn"
+                      },
+                      {
+                        "marker": "",
+                        "class": "text-center bg-yellow-50  text-2xl  grid grid-cols-2",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": "border-4 border-yellow-500 p-5",
+                            "content": [
+                              {
+                                "text": "Present Perfect Tense",
+                                "class": "font-bold",
+                                "id": "sLRR4JthzbFXtDC3EUB8",
+                                "block": "text",
+                                "name": "NuOW"
+                              }
+                            ],
+                            "background": "",
+                            "id": "XbTfqsFLCYMr",
+                            "block": "group",
+                            "name": "j809"
+                          },
+                          {
+                            "marker": "",
+                            "class": "border-4 border-yellow-500 p-5",
+                            "content": [
+                              {
+                                "text": "Present Perfect Continuous Tense",
+                                "class": "font-bold",
+                                "id": "sLRR4JthzbFX4SCqEstIYamD",
+                                "block": "text",
+                                "name": "5j2U"
+                              }
+                            ],
+                            "background": "",
+                            "id": "q7oBXWArpy7sq2xI",
+                            "block": "group",
+                            "name": "cTPS"
+                          }
+                        ],
+                        "background": "",
+                        "id": "kATL1CctEk5iOjO2",
+                        "block": "group",
+                        "name": "uRiu"
+                      },
+                      {
+                        "marker": "",
+                        "class": " bg-yellow-50  text-2xl  grid grid-cols-2 items-center border-4 border-yellow-500 ",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": " border-4 border-yellow-500 h-60 p-5",
+                            "content": [
+                              {
+                                "text": "The construction of interrogative form with the present perfect tense looks like below:",
+                                "class": "",
+                                "id": "sLRR4JthzbFXjcXJCM9hgKOw",
+                                "block": "text",
+                                "name": "vZ3P"
+                              }
+                            ],
+                            "background": "",
+                            "id": "XbTflJ3sAoDO6v97",
+                            "block": "group",
+                            "name": "fKBn"
+                          },
+                          {
+                            "marker": "",
+                            "class": "border-4 border-yellow-500   h-60 p-5",
+                            "content": [
+                              {
+                                "text": "The construction of the interrogative form with the present perfect continuous tense looks like the following:",
+                                "class": "",
+                                "id": "sLRR4JthzbFX4SCqaAS3vGfIRgO4",
+                                "block": "text",
+                                "name": "ukfG"
+                              }
+                            ],
+                            "background": "",
+                            "id": "q7oBXWAr357XXrLiPLal",
+                            "block": "group",
+                            "name": "j1i2",
+                            "hidden": false
+                          }
+                        ],
+                        "background": "",
+                        "id": "VcwgX1kLTv3jedWr",
+                        "block": "group",
+                        "name": "rwbW"
+                      },
+                      {
+                        "marker": "",
+                        "class": " bg-yellow-50  text-2xl  grid grid-cols-2 items-center border-4 border-yellow-500 ",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": "border-4 border-yellow-500  h-80 p-5",
+                            "content": [
+                              {
+                                "text": "Auxiliary verb + Subject + Past participle form of the main verb + Rest of the sentence.",
+                                "class": "font-bold",
+                                "id": "sLRR4JthzbFXjcXJJ8I1e6Rza9ko",
+                                "block": "text",
+                                "name": "biQC"
+                              }
+                            ],
+                            "background": "",
+                            "id": "XbTflJ3syXDvUODCXhUR",
+                            "block": "group",
+                            "name": "yZcG"
+                          },
+                          {
+                            "marker": "",
+                            "class": "border-4 border-yellow-500   h-80 p-5",
+                            "content": [
+                              {
+                                "text": "Auxiliary verb (has/have) + Subject +  Verb to be (past participle form) +  (Main verb + ing) + Rest of the sentence.",
+                                "class": "font-bold",
+                                "id": "sLRR4JthzbFX4SCqaAS32Znn3ysYgqtM",
+                                "block": "text",
+                                "name": "KCzR"
+                              },
+                              {
+                                "marker": "",
+                                "class": "my-5",
+                                "content": [
+                                  {
+                                    "text": "The position of the subject and the first auxiliary verb is exchanged in interrogative sentences.",
+                                    "class": "",
+                                    "id": "nwn5",
+                                    "block": "text",
+                                    "name": "66oa"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "l8bd",
+                                "block": "group",
+                                "name": "j9gw"
+                              }
+                            ],
+                            "background": "",
+                            "id": "q7oBXWAr357Xz8ExFmQk5isv",
+                            "block": "group",
+                            "name": "bPUK",
+                            "hidden": false
+                          }
+                        ],
+                        "background": "",
+                        "id": "yfTgYX9A3kc04FQe",
+                        "block": "group",
+                        "name": "HtH0",
+                        "hidden": false
+                      },
+                      {
+                        "marker": "",
+                        "class": " bg-yellow-50  text-2xl  grid grid-cols-2  border-4 border-yellow-500 ",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": " border-yellow-500 border-4 p-5",
+                            "content": [
+                              {
+                                "text": "Examples",
+                                "class": "font-bold",
+                                "id": "sLRR4JthzbFXjcXJJ8I1vIxbPkN5hx31",
+                                "block": "text",
+                                "name": "CVGB"
+                              },
+                              {
+                                "marker": "",
+                                "class": "my-10",
+                                "content": [
+                                  {
+                                    "text": "• Have you done your homework?",
+                                    "class": "font-bold ",
+                                    "id": "OE2lDigwzORKZDlJaqTS",
+                                    "block": "text",
+                                    "name": "bQe2"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "OoYrPUQZyxjDkM7D",
+                                "block": "group",
+                                "name": "gz6i"
+                              },
+                              {
+                                "marker": "",
+                                "class": "",
+                                "content": [
+                                  {
+                                    "text": "• Have they left for the city?",
+                                    "class": "font-bold",
+                                    "id": "OE2lDigwyytSdmp1a56t",
+                                    "block": "text",
+                                    "name": "ZcPO"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "9esUlJt2pRzueBSu",
+                                "block": "group",
+                                "name": "vVcL"
+                              }
+                            ],
+                            "background": "",
+                            "id": "XbTflJ3syXDvyoHBmvPuaQOv",
+                            "block": "group",
+                            "name": "g5HZ"
+                          },
+                          {
+                            "marker": "",
+                            "class": " border-4 border-yellow-500  p-5",
+                            "content": [
+                              {
+                                "text": "Examples ",
+                                "class": "font-bold",
+                                "id": "sLRR4JthzbFX4SCqaAS32ZnnqIvYWmQyTgio",
+                                "block": "text",
+                                "name": "873a"
+                              },
+                              {
+                                "marker": "",
+                                "class": "my-10",
+                                "content": [
+                                  {
+                                    "text": "• Has he been trying to reach out?",
+                                    "class": "font-bold",
+                                    "id": "kBKjFwWqHvvIwoS0",
+                                    "block": "text",
+                                    "name": "qstC"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "zhAy3Quf62UDkISk",
+                                "block": "group",
+                                "name": "WcWj"
+                              },
+                              {
+                                "marker": "",
+                                "class": "",
+                                "content": [
+                                  {
+                                    "text": "• Have you been meeting her?",
+                                    "class": "font-bold",
+                                    "id": "kBKjFwWqbtbynYZ6r9sT",
+                                    "block": "text",
+                                    "name": "Xb3u"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "sHdBhQlWryrcisFc",
+                                "block": "group",
+                                "name": "PoC1"
+                              }
+                            ],
+                            "background": "",
+                            "id": "q7oBXWAr357Xz8ExSrQNRC0xVlWd",
+                            "block": "group",
+                            "name": "uRt3",
+                            "hidden": false
+                          }
+                        ],
+                        "background": "",
+                        "id": "GAepM6OyfPbDYFI4",
+                        "block": "group",
+                        "name": "enUR"
+                      }
+                    ],
+                    "background": "",
+                    "id": "xUi2LsHueCnH",
+                    "block": "group",
+                    "name": "Lh0m"
+                  }
+                ],
+                "background": "",
+                "id": "2dtyEES5",
+                "block": "group",
+                "name": "MTHP",
+                "hidden": false
+              },
+              {
+                "marker": "",
+                "class": "my-10 text-2xl max-w-5xl  mx-auto",
+                "content": [
+                  {
+                    "marker": "",
+                    "class": "",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "text-center bg-violet-100 p-5 text-3xl  border-4 border-violet-500",
+                        "content": [
+                          {
+                            "text": "Contraction and Uses",
+                            "class": "font-bold",
+                            "id": "sLRR4JthtM0LI9oGDSIg",
+                            "block": "text",
+                            "name": "B4t8"
+                          }
+                        ],
+                        "background": "",
+                        "id": "XCT8w6dqk0naome8",
+                        "block": "group",
+                        "name": "fxiN"
+                      },
+                      {
+                        "marker": "",
+                        "class": "text-center bg-violet-50  text-2xl  grid grid-cols-2",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": "border-4 border-violet-500 p-5",
+                            "content": [
+                              {
+                                "text": "Present Perfect Tense",
+                                "class": "font-bold",
+                                "id": "sLRR4JthzbFXtDC3EUB8PCk8",
+                                "block": "text",
+                                "name": "9hjF"
+                              }
+                            ],
+                            "background": "",
+                            "id": "XbTfqsFLCYMroszT",
+                            "block": "group",
+                            "name": "PCTw"
+                          },
+                          {
+                            "marker": "",
+                            "class": "border-4 border-violet-500 p-5",
+                            "content": [
+                              {
+                                "text": "Present Perfect Continuous Tense",
+                                "class": "font-bold",
+                                "id": "sLRR4JthzbFX4SCqEstIYamD7clI",
+                                "block": "text",
+                                "name": "KUKD"
+                              }
+                            ],
+                            "background": "",
+                            "id": "q7oBXWArpy7sq2xIkFmM",
+                            "block": "group",
+                            "name": "BveZ"
+                          }
+                        ],
+                        "background": "",
+                        "id": "kATL1CctEk5iOjO2cTkJ",
+                        "block": "group",
+                        "name": "iQFZ"
+                      },
+                      {
+                        "marker": "",
+                        "class": " bg-violet-50  text-2xl  grid grid-cols-2 items-center border-4 border-violet-500 ",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": " border-4 border-violet-500 h-60 p-5",
+                            "content": [
+                              {
+                                "text": "Contraction of the present perfect tense is seen in informal writing and spoken English. We contract  the auxiliary verb to do that.",
+                                "class": "",
+                                "id": "sLRR4JthzbFXjcXJCM9hgKOwJBWq",
+                                "block": "text",
+                                "name": "ykK0"
+                              }
+                            ],
+                            "background": "",
+                            "id": "XbTflJ3sAoDO6v97HIzx",
+                            "block": "group",
+                            "name": "o1MY"
+                          },
+                          {
+                            "marker": "",
+                            "class": "border-4 border-violet-500   h-60 p-5",
+                            "content": [
+                              {
+                                "text": "Contraction is seen in the present perfect continuous tense in informal writing and spoken English. Here we contract the  first auxiliary verb.",
+                                "class": "",
+                                "id": "sLRR4JthzbFX4SCqaAS3vGfIRgO4Dp3F",
+                                "block": "text",
+                                "name": "4na4"
+                              }
+                            ],
+                            "background": "",
+                            "id": "q7oBXWAr357XXrLiPLalUKPS",
+                            "block": "group",
+                            "name": "c7vM",
+                            "hidden": false
+                          }
+                        ],
+                        "background": "",
+                        "id": "VcwgX1kLTv3jedWrGh29",
+                        "block": "group",
+                        "name": "Waea"
+                      },
+                      {
+                        "marker": "",
+                        "class": " bg-violet-50  text-2xl  grid grid-cols-2 items-center border-4 border-violet-500 ",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": "border-4 border-violet-500  h-80 p-5",
+                            "content": [
+                              {
+                                "text": "Auxiliary verb + Subject + Past participle form of the main verb + Rest of the sentence.",
+                                "class": "font-bold",
+                                "id": "sLRR4JthzbFXjcXJJ8I1e6Rza9kob3b2",
+                                "block": "text",
+                                "name": "AdRi"
+                              }
+                            ],
+                            "background": "",
+                            "id": "XbTflJ3syXDvUODCXhUR33p7",
+                            "block": "group",
+                            "name": "ZhZM"
+                          },
+                          {
+                            "marker": "",
+                            "class": "border-4 border-violet-500   h-80 p-5",
+                            "content": [
+                              {
+                                "text": "Auxiliary verb (has/have) + Subject +  Verb to be (past participle form) +  (Main verb + ing) + Rest of the sentence.",
+                                "class": "font-bold",
+                                "id": "sLRR4JthzbFX4SCqaAS32Znn3ysYgqtMlrsx",
+                                "block": "text",
+                                "name": "awd5"
+                              },
+                              {
+                                "marker": "",
+                                "class": "my-5",
+                                "content": [
+                                  {
+                                    "text": "The position of the subject and the first auxiliary verb is exchanged in interrogative sentences.",
+                                    "class": "",
+                                    "id": "nwn5lVdt",
+                                    "block": "text",
+                                    "name": "Pz6U"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "l8bdry3F",
+                                "block": "group",
+                                "name": "JjNT"
+                              }
+                            ],
+                            "background": "",
+                            "id": "q7oBXWAr357Xz8ExFmQk5isvrUGX",
+                            "block": "group",
+                            "name": "ZRc4",
+                            "hidden": false
+                          }
+                        ],
+                        "background": "",
+                        "id": "yfTgYX9A3kc04FQesa5p",
+                        "block": "group",
+                        "name": "z0VA",
+                        "hidden": true
+                      },
+                      {
+                        "marker": "",
+                        "class": " bg-violet-50  text-2xl  grid grid-cols-2  border-4 border-violet-500 ",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": " border-violet-500 border-4 p-5",
+                            "content": [
+                              {
+                                "text": "Examples",
+                                "class": "font-bold",
+                                "id": "sLRR4JthzbFXjcXJJ8I1vIxbPkN5hx316XVS",
+                                "block": "text",
+                                "name": "PCM2"
+                              },
+                              {
+                                "marker": "",
+                                "class": "my-10",
+                                "content": [
+                                  {
+                                    "text": "• I've done this with perfection",
+                                    "class": "font-bold ",
+                                    "id": "OE2lDigwzORKZDlJaqTSsrIw",
+                                    "block": "text",
+                                    "name": "u4lN"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "OoYrPUQZyxjDkM7DW7AM",
+                                "block": "group",
+                                "name": "kDrh"
+                              },
+                              {
+                                "marker": "",
+                                "class": "",
+                                "content": [
+                                  {
+                                    "text": "• You've told me about this.",
+                                    "class": "font-bold",
+                                    "id": "OE2lDigwyytSdmp1a56tuFAy",
+                                    "block": "text",
+                                    "name": "PaJI"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "9esUlJt2pRzueBSuDqGT",
+                                "block": "group",
+                                "name": "PJme"
+                              }
+                            ],
+                            "background": "",
+                            "id": "XbTflJ3syXDvyoHBmvPuaQOvBlFz",
+                            "block": "group",
+                            "name": "cVtc"
+                          },
+                          {
+                            "marker": "",
+                            "class": " border-4 border-violet-500  p-5",
+                            "content": [
+                              {
+                                "text": "Examples ",
+                                "class": "font-bold",
+                                "id": "sLRR4JthzbFX4SCqaAS32ZnnqIvYWmQyTgiouy7Q",
+                                "block": "text",
+                                "name": "4DsK"
+                              },
+                              {
+                                "marker": "",
+                                "class": "my-10",
+                                "content": [
+                                  {
+                                    "text": "• Rakesh's been helping us recently. (\"Rakesh has\" becomes Rakesh's)",
+                                    "class": "font-bold",
+                                    "id": "kBKjFwWqHvvIwoS0lJlE",
+                                    "block": "text",
+                                    "name": "Fjej"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "zhAy3Quf62UDkISkDblk",
+                                "block": "group",
+                                "name": "Z1gU"
+                              },
+                              {
+                                "marker": "",
+                                "class": "",
+                                "content": [
+                                  {
+                                    "text": "• They've been cooking together lately. (\"They have\" becomes They've')",
+                                    "class": "font-bold",
+                                    "id": "kBKjFwWqbtbynYZ6r9sT4On8",
+                                    "block": "text",
+                                    "name": "D4ml"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "sHdBhQlWryrcisFcCtpv",
+                                "block": "group",
+                                "name": "LDMB"
+                              }
+                            ],
+                            "background": "",
+                            "id": "q7oBXWAr357Xz8ExSrQNRC0xVlWdW28L",
+                            "block": "group",
+                            "name": "m6QN",
+                            "hidden": false
+                          }
+                        ],
+                        "background": "",
+                        "id": "GAepM6OyfPbDYFI4Y3Cu",
+                        "block": "group",
+                        "name": "5K1Y"
+                      }
+                    ],
+                    "background": "",
+                    "id": "xUi2LsHueCnH8OXz",
+                    "block": "group",
+                    "name": "ByBr"
+                  }
+                ],
+                "background": "",
+                "id": "QJ6YSt5s",
+                "block": "group",
+                "name": "E51o",
+                "hidden": false
+              }
+            ],
+            "background": "",
+            "id": "gpo1",
+            "block": "group",
+            "name": "gpo1"
+          },
+          {
+            "symbol": "FinalizeGroup"
+          }
+        ]
+      }
+    ]
+  },
+  "end": {
+    "buttons": {
+      "restart": false
+    },
+    "content": [
+      {
+        "symbol": "finishedAll"
+      }
+    ]
+  },
+  "symbols": {
+    "finishedAll": {
+      "class": "w-full",
+      "content": [
+        {
+          "block": "group",
+          "class": "bg-slate-100 rounded p-5 text-center w-full",
+          "content": [
+            {
+              "block": "text",
+              "text": "Congratulations, you finished the activity.",
+              "class": "",
+              "name": "Congra"
+            }
+          ],
+          "background": "",
+          "name": "CongraGroup"
+        },
+        {
+          "block": "group",
+          "class": "text-center p-5",
+          "content": [
+            {
+              "block": "finished",
+              "name": "finishedBlock"
+            }
+          ],
+          "background": "",
+          "name": "finishedGroup"
+        }
+      ],
+      "background": "",
+      "block": "group"
+    },
+    "FinalizeGroup": {
+      "block": "group",
+      "class": "text-center mt-10",
+      "content": [
+        {
+          "block": "button",
+          "class": "mx-auto",
+          "to": "/end",
+          "text": "Finalize",
+          "name": "FinalizeBTN"
+        }
+      ],
+      "background": ""
+    }
+  }
+}
