@@ -1,1 +1,464 @@
-{"title":"Vocabulary practice (in context).","clock":true,"countdown":0,"attempts":0,"intro":{"buttons":{"start":"Start"},"content":[]},"activity":{"scenes":[{"block":"scene","name":"SC1","countdown":0,"instructions":{"open":true,"content":[{"block":"group","class":"flex gap-2 items-center","content":[{"block":"audio","class":"","file":"files/INS.mp3"},{"block":"text","class":"","text":"Drag and drop the words in the box to complete the sentences."}]}]},"content":[{"marker":"📒","class":"bg-slate-100 rounded p-2 max-w-4xl  mx-auto","content":[{"marker":"","class":"max-w-4xl  mx-auto","content":[{"marker":"","class":"grid grid-cols-3 p-5 gap-5 border-4 border-sky-900 rounded-lg my-5 bg-sky-200 text-black","content":[{"evaluation":"auto","positiveid":"5","id":"YPXu","class":"bg-transparent ","classitem":"!min-h-[20px] bg-yellow-400 rounded-lg text-center p-1 shadow-md","content":[{"text":"employment","class":"","id":"ufDW","block":"text","name":"ipvm"}],"block":"dragitem","name":"hucJ"},{"evaluation":"auto","positiveid":"3","id":"tiAxCdv5","class":"bg-transparent !min-h-[40px]","classitem":"!min-h-[20px] bg-yellow-400 rounded-lg text-center p-1 shadow-md","content":[{"text":"duty","class":"","id":"ufDWT3Ec","block":"text","name":"G4TN"}],"block":"dragitem","name":"Owmb"},{"evaluation":"auto","positiveid":"2","id":"zPjauKxM","class":"bg-transparent","classitem":"!min-h-[20px] bg-yellow-400 rounded-lg text-center p-1 shadow-md","content":[{"text":"schedule","class":"","id":"ufDWgYrf","block":"text","name":"FRQJ"}],"block":"dragitem","name":"eD9k"},{"evaluation":"auto","positiveid":"1","id":"B8BvkV8h","class":"bg-transparent","classitem":"!min-h-[20px] bg-yellow-400 rounded-lg text-center p-1 shadow-md","content":[{"text":"interview","class":"","id":"ufDWgYrfM4ga","block":"text","name":"F18E"}],"block":"dragitem","name":"OEK4"},{"evaluation":"auto","positiveid":"6","id":"tLdcPAqI","class":"bg-transparent","classitem":"!min-h-[20px] bg-yellow-400 rounded-lg text-center p-1 shadow-md","content":[{"text":"Application form","class":"","id":"ufDWgYrfUw6X","block":"text","name":"ueFz"}],"block":"dragitem","name":"fzpq"},{"evaluation":"auto","positiveid":"4","id":"YXpIpgu8","class":"bg-transparent","classitem":"!min-h-[20px] bg-yellow-400 rounded-lg text-center p-1 shadow-md","content":[{"text":"Certain","class":"","id":"ufDWgYrfUw6XHfAf","block":"text","name":"60KC"}],"block":"dragitem","name":"kzFX"}],"background":"","id":"J1De","block":"group","name":"n2nf"},{"marker":"","class":"text-xl","content":[{"marker":"","class":"text-blue-900 border-sky-900 border-4 rounded-lg p-5 bg-sky-200","content":[{"marker":"","class":"w-8 h-8 rounded-lg shadow-md bg-yellow-400 inline-block  mx-2  align-middle ","content":[{"text":"1.-","class":"r","id":"uKzQxeWb","block":"text","name":"pCEW","hidden":false}],"background":"","id":"WDQMM3WU","block":"group","name":"BLVq","hidden":true},{"text":"If you want to feel ready for your next","class":"","id":"NsX63zUgTj4b","block":"text","name":"TyQG"},{"marker":"","class":"inline-block mx-2  align-middle \n","content":[{"id":"1","class":"bg-blue-100 rounded-lg !min-h-[40px]","block":"dragzone","name":"bI3V"}],"background":"","id":"IKcHwCwb","block":"group","name":"K1uF"},{"text":"visualize yourself in your future job. It would help if you felt confident answering questions to give the recruiter a nice impression of yourself.","class":"","id":"hLQyB9ohz7kL","block":"text","name":"sInI"},{"text":" Our company's","class":"","id":"9nRj9lTO","block":"text","name":"y4RL"},{"marker":"","class":"inline-block mx-2  align-middle \n","content":[{"id":"2","class":"bg-blue-100 rounded-lg !min-h-[40px]","block":"dragzone","name":"gBHd"}],"background":"","id":"nVYLGvBf","block":"group","name":"dsuS"},{"text":"vary, as different shifts depend on the season; Christmas is really busy.","class":"","id":"VwDJpD1c","block":"text","name":"1ZtU"},{"text":"<br>The most important","class":"","id":"jI1K7x5d","block":"text","name":"u6nJ"},{"marker":"","class":"inline-block mx-2  align-middle \n","content":[{"id":"3","class":"bg-blue-100 rounded-lg !min-h-[40px]","block":"dragzone","name":"wE1P"}],"background":"","id":"aSCMJEHF","block":"group","name":"qWHp"},{"text":", in that position is to keep the team united as they work together.","class":"","id":"ig6dRqLy","block":"text","name":"Zq12"},{"text":" It is complete madness to think that work regulations will change overnight. It will take years!","class":"","id":"vSL7rkG3","block":"text","name":"WOe3"},{"text":"<br>You need to know","class":"","id":"5GGiuEvj","block":"text","name":"ghAT"},{"marker":"","class":"inline-block mx-2  align-middle \n","content":[{"id":"4","class":"bg-blue-100 rounded-lg !min-h-[40px]","block":"dragzone","name":"Tp1s"}],"background":"","id":"VcOa4mxX","block":"group","name":"yOWB"},{"text":", things about this company, like the fact that it is a Canadian company and you can ask to be relocated.","class":"","id":"iq8yyTT8","block":"text","name":"gCr4"},{"text":"<br>The","class":"","id":"GipqqeSa","block":"text","name":"XWNg"},{"marker":"","class":"inline-block mx-2  align-middle \n","content":[{"id":"5","class":"bg-blue-100 rounded-lg !min-h-[40px]","block":"dragzone","name":"pqCi"}],"background":"","id":"fdItzP5N","block":"group","name":"0sgC"},{"text":", rate in Mexico has skyrocketed in the past ten years thanks to international companies that want to operate here. If you want to work in a company, send a neat","class":"","id":"cQ8ErzJV","block":"text","name":"bupp"},{"marker":"","class":"inline-block mx-2  align-middle \n","content":[{"id":"6","class":"bg-blue-100 rounded-lg !min-h-[40px]","block":"dragzone","name":"7MX5"}],"background":"","id":"KVJ5Csdw","block":"group","name":"3vM0"},{"text":", and catch the human resources department's attention. ","class":"","id":"KcRSlQtm","block":"text","name":"tkDq"}],"background":"","id":"J07APcVv","block":"group","name":"WhUj"}],"background":"","id":"Q3Xg","block":"group","name":"cgaT","hidden":false}],"background":"","id":"5aF4Auvh","block":"group","name":"ZMh6"}],"background":"","id":"gpo1","block":"group","name":"gpo1"},{"symbol":"FinalizeGroup"}]}]},"end":{"buttons":{"restart":false},"content":[{"symbol":"finishedAll"}]},"symbols":{"finishedAll":{"class":"w-full","content":[{"block":"group","class":"bg-slate-100 rounded p-5 text-center w-full","content":[{"block":"text","text":"Congratulations, you finished the activity.","class":"","name":"Congra"}],"background":"","name":"CongraGroup"},{"block":"group","class":"text-center p-5","content":[{"block":"finished","name":"finishedBlock"}],"background":"","name":"finishedGroup"}],"background":"","block":"group"},"FinalizeGroup":{"block":"group","class":"text-center mt-10","content":[{"block":"button","class":"mx-auto","to":"/end","text":"Finalize","name":"FinalizeBTN"}],"background":""}}}
+{
+  "title": "Vocabulary practice (in context).",
+  "clock": true,
+  "countdown": 0,
+  "attempts": 0,
+  "intro": {
+    "buttons": {
+      "start": "Start"
+    },
+    "content": []
+  },
+  "activity": {
+    "scenes": [
+      {
+        "block": "scene",
+        "name": "SC1",
+        "countdown": 0,
+        "instructions": {
+          "open": true,
+          "content": [
+            {
+              "block": "group",
+              "class": "flex gap-2 items-center",
+              "content": [
+                {
+                  "block": "audio",
+                  "class": "",
+                  "file": "files/INS.mp3"
+                },
+                {
+                  "block": "text",
+                  "class": "",
+                  "text": "Drag and drop the words in the box to complete the sentences."
+                }
+              ]
+            }
+          ]
+        },
+        "content": [
+          {
+            "marker": "📒",
+            "class": "bg-slate-100 rounded p-2 max-w-4xl  mx-auto",
+            "content": [
+              {
+                "marker": "",
+                "class": "max-w-4xl  mx-auto",
+                "content": [
+                  {
+                    "marker": "",
+                    "class": "grid grid-cols-3 p-5 gap-5 border-4 border-sky-900 rounded-lg my-5 bg-sky-200 text-black",
+                    "content": [
+                      {
+                        "evaluation": "auto",
+                        "positiveid": "5",
+                        "id": "YPXu",
+                        "class": "bg-transparent ",
+                        "classitem": "!min-h-[20px] bg-yellow-400 rounded-lg text-center p-1 shadow-md",
+                        "content": [
+                          {
+                            "text": "employment",
+                            "class": "",
+                            "id": "ufDW",
+                            "block": "text",
+                            "name": "ipvm"
+                          }
+                        ],
+                        "block": "dragitem",
+                        "name": "hucJ"
+                      },
+                      {
+                        "evaluation": "auto",
+                        "positiveid": "3",
+                        "id": "tiAxCdv5",
+                        "class": "bg-transparent !min-h-[40px]",
+                        "classitem": "!min-h-[20px] bg-yellow-400 rounded-lg text-center p-1 shadow-md",
+                        "content": [
+                          {
+                            "text": "duty",
+                            "class": "",
+                            "id": "ufDWT3Ec",
+                            "block": "text",
+                            "name": "G4TN"
+                          }
+                        ],
+                        "block": "dragitem",
+                        "name": "Owmb"
+                      },
+                      {
+                        "evaluation": "auto",
+                        "positiveid": "2",
+                        "id": "zPjauKxM",
+                        "class": "bg-transparent",
+                        "classitem": "!min-h-[20px] bg-yellow-400 rounded-lg text-center p-1 shadow-md",
+                        "content": [
+                          {
+                            "text": "schedule",
+                            "class": "",
+                            "id": "ufDWgYrf",
+                            "block": "text",
+                            "name": "FRQJ"
+                          }
+                        ],
+                        "block": "dragitem",
+                        "name": "eD9k"
+                      },
+                      {
+                        "evaluation": "auto",
+                        "positiveid": "1",
+                        "id": "B8BvkV8h",
+                        "class": "bg-transparent",
+                        "classitem": "!min-h-[20px] bg-yellow-400 rounded-lg text-center p-1 shadow-md",
+                        "content": [
+                          {
+                            "text": "interview",
+                            "class": "",
+                            "id": "ufDWgYrfM4ga",
+                            "block": "text",
+                            "name": "F18E"
+                          }
+                        ],
+                        "block": "dragitem",
+                        "name": "OEK4"
+                      },
+                      {
+                        "evaluation": "auto",
+                        "positiveid": "6",
+                        "id": "tLdcPAqI",
+                        "class": "bg-transparent",
+                        "classitem": "!min-h-[20px] bg-yellow-400 rounded-lg text-center p-1 shadow-md",
+                        "content": [
+                          {
+                            "text": "application form",
+                            "class": "",
+                            "id": "ufDWgYrfUw6X",
+                            "block": "text",
+                            "name": "ueFz"
+                          }
+                        ],
+                        "block": "dragitem",
+                        "name": "fzpq"
+                      },
+                      {
+                        "evaluation": "auto",
+                        "positiveid": "4",
+                        "id": "YXpIpgu8",
+                        "class": "bg-transparent",
+                        "classitem": "!min-h-[20px] bg-yellow-400 rounded-lg text-center p-1 shadow-md",
+                        "content": [
+                          {
+                            "text": "certain",
+                            "class": "",
+                            "id": "ufDWgYrfUw6XHfAf",
+                            "block": "text",
+                            "name": "60KC"
+                          }
+                        ],
+                        "block": "dragitem",
+                        "name": "kzFX"
+                      }
+                    ],
+                    "background": "",
+                    "id": "J1De",
+                    "block": "group",
+                    "name": "n2nf"
+                  },
+                  {
+                    "marker": "",
+                    "class": "text-xl",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "text-blue-900 border-sky-900 border-4 rounded-lg p-5 bg-sky-200",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": "w-8 h-8 rounded-lg shadow-md bg-yellow-400 inline-block  mx-2  align-middle ",
+                            "content": [
+                              {
+                                "text": "1.-",
+                                "class": "r",
+                                "id": "uKzQxeWb",
+                                "block": "text",
+                                "name": "pCEW",
+                                "hidden": false
+                              }
+                            ],
+                            "background": "",
+                            "id": "WDQMM3WU",
+                            "block": "group",
+                            "name": "BLVq",
+                            "hidden": true
+                          },
+                          {
+                            "text": "If you want to feel ready for your next",
+                            "class": "",
+                            "id": "NsX63zUgTj4b",
+                            "block": "text",
+                            "name": "TyQG"
+                          },
+                          {
+                            "marker": "",
+                            "class": "inline-block mx-2  align-middle \n",
+                            "content": [
+                              {
+                                "id": "1",
+                                "class": "bg-blue-100 rounded-lg !min-h-[40px]",
+                                "block": "dragzone",
+                                "name": "bI3V"
+                              }
+                            ],
+                            "background": "",
+                            "id": "IKcHwCwb",
+                            "block": "group",
+                            "name": "K1uF"
+                          },
+                          {
+                            "text": "visualize yourself in your future job. It would help if you felt confident answering questions to give the recruiter a nice impression of yourself.",
+                            "class": "",
+                            "id": "hLQyB9ohz7kL",
+                            "block": "text",
+                            "name": "sInI"
+                          },
+                          {
+                            "text": " Our company's",
+                            "class": "",
+                            "id": "9nRj9lTO",
+                            "block": "text",
+                            "name": "y4RL"
+                          },
+                          {
+                            "marker": "",
+                            "class": "inline-block mx-2  align-middle \n",
+                            "content": [
+                              {
+                                "id": "2",
+                                "class": "bg-blue-100 rounded-lg !min-h-[40px]",
+                                "block": "dragzone",
+                                "name": "gBHd"
+                              }
+                            ],
+                            "background": "",
+                            "id": "nVYLGvBf",
+                            "block": "group",
+                            "name": "dsuS"
+                          },
+                          {
+                            "text": "vary, as different shifts depend on the season; Christmas is really busy.",
+                            "class": "",
+                            "id": "VwDJpD1c",
+                            "block": "text",
+                            "name": "1ZtU"
+                          },
+                          {
+                            "text": "<br>The most important",
+                            "class": "",
+                            "id": "jI1K7x5d",
+                            "block": "text",
+                            "name": "u6nJ"
+                          },
+                          {
+                            "marker": "",
+                            "class": "inline-block mx-2  align-middle \n",
+                            "content": [
+                              {
+                                "id": "3",
+                                "class": "bg-blue-100 rounded-lg !min-h-[40px]",
+                                "block": "dragzone",
+                                "name": "wE1P"
+                              }
+                            ],
+                            "background": "",
+                            "id": "aSCMJEHF",
+                            "block": "group",
+                            "name": "qWHp"
+                          },
+                          {
+                            "text": ", in that position is to keep the team united as they work together.",
+                            "class": "",
+                            "id": "ig6dRqLy",
+                            "block": "text",
+                            "name": "Zq12"
+                          },
+                          {
+                            "text": " It is complete madness to think that work regulations will change overnight. It will take years!",
+                            "class": "",
+                            "id": "vSL7rkG3",
+                            "block": "text",
+                            "name": "WOe3"
+                          },
+                          {
+                            "text": "<br>You need to know",
+                            "class": "",
+                            "id": "5GGiuEvj",
+                            "block": "text",
+                            "name": "ghAT"
+                          },
+                          {
+                            "marker": "",
+                            "class": "inline-block mx-2  align-middle \n",
+                            "content": [
+                              {
+                                "id": "4",
+                                "class": "bg-blue-100 rounded-lg !min-h-[40px]",
+                                "block": "dragzone",
+                                "name": "Tp1s"
+                              }
+                            ],
+                            "background": "",
+                            "id": "VcOa4mxX",
+                            "block": "group",
+                            "name": "yOWB"
+                          },
+                          {
+                            "text": ", things about this company, like the fact that it is a Canadian company and you can ask to be relocated.",
+                            "class": "",
+                            "id": "iq8yyTT8",
+                            "block": "text",
+                            "name": "gCr4"
+                          },
+                          {
+                            "text": "<br>The",
+                            "class": "",
+                            "id": "GipqqeSa",
+                            "block": "text",
+                            "name": "XWNg"
+                          },
+                          {
+                            "marker": "",
+                            "class": "inline-block mx-2  align-middle \n",
+                            "content": [
+                              {
+                                "id": "5",
+                                "class": "bg-blue-100 rounded-lg !min-h-[40px]",
+                                "block": "dragzone",
+                                "name": "pqCi"
+                              }
+                            ],
+                            "background": "",
+                            "id": "fdItzP5N",
+                            "block": "group",
+                            "name": "0sgC"
+                          },
+                          {
+                            "text": ", rate in Mexico has skyrocketed in the past ten years thanks to international companies that want to operate here. If you want to work in a company, send a neat",
+                            "class": "",
+                            "id": "cQ8ErzJV",
+                            "block": "text",
+                            "name": "bupp"
+                          },
+                          {
+                            "marker": "",
+                            "class": "inline-block mx-2  align-middle \n",
+                            "content": [
+                              {
+                                "id": "6",
+                                "class": "bg-blue-100 rounded-lg !min-h-[40px]",
+                                "block": "dragzone",
+                                "name": "7MX5"
+                              }
+                            ],
+                            "background": "",
+                            "id": "KVJ5Csdw",
+                            "block": "group",
+                            "name": "3vM0"
+                          },
+                          {
+                            "text": ", and catch the human resources department's attention. ",
+                            "class": "",
+                            "id": "KcRSlQtm",
+                            "block": "text",
+                            "name": "tkDq"
+                          }
+                        ],
+                        "background": "",
+                        "id": "J07APcVv",
+                        "block": "group",
+                        "name": "WhUj"
+                      }
+                    ],
+                    "background": "",
+                    "id": "Q3Xg",
+                    "block": "group",
+                    "name": "cgaT",
+                    "hidden": false
+                  }
+                ],
+                "background": "",
+                "id": "5aF4Auvh",
+                "block": "group",
+                "name": "ZMh6"
+              }
+            ],
+            "background": "",
+            "id": "gpo1",
+            "block": "group",
+            "name": "gpo1"
+          },
+          {
+            "symbol": "FinalizeGroup"
+          }
+        ]
+      }
+    ]
+  },
+  "end": {
+    "buttons": {
+      "restart": false
+    },
+    "content": [
+      {
+        "symbol": "finishedAll"
+      }
+    ]
+  },
+  "symbols": {
+    "finishedAll": {
+      "class": "w-full",
+      "content": [
+        {
+          "block": "group",
+          "class": "bg-slate-100 rounded p-5 text-center w-full",
+          "content": [
+            {
+              "block": "text",
+              "text": "Congratulations, you finished the activity.",
+              "class": "",
+              "name": "Congra"
+            }
+          ],
+          "background": "",
+          "name": "CongraGroup"
+        },
+        {
+          "block": "group",
+          "class": "text-center p-5",
+          "content": [
+            {
+              "block": "finished",
+              "name": "finishedBlock"
+            }
+          ],
+          "background": "",
+          "name": "finishedGroup"
+        }
+      ],
+      "background": "",
+      "block": "group"
+    },
+    "FinalizeGroup": {
+      "block": "group",
+      "class": "text-center mt-10",
+      "content": [
+        {
+          "block": "button",
+          "class": "mx-auto",
+          "to": "/end",
+          "text": "Finalize",
+          "name": "FinalizeBTN"
+        }
+      ],
+      "background": ""
+    }
+  }
+}
