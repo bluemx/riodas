@@ -1,1 +1,373 @@
-{"title":"Vocabulary: Guided discovery","clock":true,"countdown":0,"intro":{"buttons":{"start":"Start"},"content":[]},"activity":{"scenes":[{"block":"scene","name":"SC1","countdown":0,"instructions":{"open":true,"content":[{"block":"group","class":"flex gap-2 items-center","content":[{"block":"audio","class":"","file":"files/inst.mp3","wave":false,"autoplay":false,"id":"","name":"3BFS"},{"block":"text","class":"","text":"Read carefully the following information and take notes on your notebook","id":"","name":"tkvB"}]}]},"content":[{"block":"group","class":"bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto","content":[{"marker":"","class":"m-5 p-10 bg-pink-100 rounded-lg grid gap-5 shadow-lg","content":[{"text":"Present perfect is formed with has/have +  present perfect. In addition, we use some adverbs and prepostions to provide more details about what we are talking. Check the following chart. ","class":"","id":"Ybjl","block":"text","name":"05mR"},{"text":"COMMON ADVERBS USED WITH PRESENT PERFECT","class":"font-bold","id":"KLVz","block":"text","name":"PuMY"},{"marker":"","class":"grid grid-cols-3 flex justify-center text-center","content":[{"text":"already","class":"","id":"s0kSaou7","block":"text","name":"bCAP"},{"text":"ever","class":"","id":"PEbkvAMw","block":"text","name":"nqUx"},{"text":"for","class":"","id":"Uh8majds","block":"text","name":"ff8A"},{"text":"just","class":"","id":"pvovhBsc","block":"text","name":"nfGe"},{"text":"never","class":"","id":"66nlVfJ9","block":"text","name":"5zMt"},{"text":"since","class":"","id":"YczvPTOC","block":"text","name":"r2EM"},{"text":"yet","class":"","id":"ELag7ybJ","block":"text","name":"Krz8"}],"background":"","id":"uYsk","block":"group","name":"K4tq"},{"text":"Prepositions FOR and SINCE for present perfect","class":"font-bold","id":"O7pOnb1P","block":"text","name":"dCpf"},{"text":"1) We use FOR to talk about a length of time or a period of time. It shows amount of time.","class":"","id":"lqMEY52y","block":"text","name":"jDyr"},{"text":"<b>FOR</b> + period  of time/ number / time word ","class":"ml-5","id":"JM3lseup","block":"text","name":"jnzI"},{"text":"Look at the example:","class":"","id":"7BvgwWKr","block":"text","name":"gTU3"},{"text":"We <b>have read</b> the book “Mastering English the Easy Way” for two weeks in our English class.","class":"","id":"N8BEFP4g","block":"text","name":"DpkJ"},{"text":"2) We use SINCE to talk about a point in the past, a specific point in time. It shows when an event started.","class":"","id":"jvWfDXUl","block":"text","name":"7BtQ"},{"text":"<b>SINCE</b> + starting point / a time / a date. ","class":"ml-5","id":"VOr7Yn1S","block":"text","name":"thwY"},{"text":"Look at the example:","class":"","id":"i3XUkIK0","block":"text","name":"iCxu"},{"text":"Mr. Clark <b>has taught</b> English in this school <b>since</b> 2000 in our English class.","class":"","id":"tvarKAsn","block":"text","name":"yDAq"},{"text":"Prepositions FOR and SINCE for present perfect","class":"font-bold mt-10","id":"9DjanPwG","block":"text","name":"4QAI"},{"text":"We use EVER AND NEVER to express frequency, events happening or not happening at some moment of your life, at any time up to now.<br>EVER: Questions.<br>NEVER: Answers and statements. ","class":"","id":"hnzRUeKs","block":"text","name":"VOCP"},{"text":"<b>Have</b> you <b>ever been</b> in London? No, I <b>have never been</b> in London, but my friends Richard and Laura have been many times.","class":"","id":"cTr93M2C","block":"text","name":"VkGN"},{"text":"Adverbs JUST, ALREADY and YET for present perfect ","class":"font-bold mt-10","id":"k3hKcw5r","block":"text","name":"9hCn"},{"text":"We use JUST, ALREADY and YET to talk about actions that have or haven’t happened.","class":"","id":"e1xIBrYr","block":"text","name":"arwc"},{"text":"JUST: Affirmative statements. To talk about actions that happened recently.","class":"","id":"j9vY3ul3","block":"text","name":"z1dH"},{"text":"Mr. Clark has <b>just</b> sent an email with the instructions for the homework an hour ago.","class":"","id":"SZuSbVks","block":"text","name":"naed"},{"text":"ALREADY: Affirmative statements. To talk about actions that have happened sooner than expected.","class":"","id":"6wJNK3iH","block":"text","name":"fCkO"},{"text":"My classmates Emma and Frank have <b>already</b> done the homework.","class":"","id":"h7qNCMSc","block":"text","name":"jvUr"},{"text":"YET: Negative statements and questions. To talk about actions that are expected to happen.","class":"","id":"p1n6fH36","block":"text","name":"VBby"},{"text":"YET: Negative statements and questions. To talk about actions that are expected to happen. To ask if something expected has happened. ","class":"","id":"4XlPVWMe","block":"text","name":"baJX"},{"text":"Mike and Liz haven’t done the homework <b>yet.</b>","class":"","id":"eiXMs09U","block":"text","name":"Ix17"},{"text":"Analyze the examples and discuss with your classmates the order of the auxiliary have, ever, and never and the verb in past participle.","class":"","id":"4ZwdUz7w","block":"text","name":"NYfS"},{"text":"Can you mention the differences between questions and answers?","class":"","id":"1js7dzEd","block":"text","name":"mFQJ"},{"text":"Practice with your classmates the use of adverbs and prepositions. Write them down on your notebook and then check in class with your teacher and your classmates. ","class":"mt-10","id":"Dnl2qhVc","block":"text","name":"Mwkp"}],"background":"","id":"NkeB","block":"group","name":"lf8R"}],"background":"","name":"4Cs6","hidden":false},{"symbol":"FinalizeGroup"}],"id":""}]},"end":{"buttons":{"restart":false},"content":[{"symbol":"finishedAll"}]},"symbols":{"finishedAll":{"class":"w-full","content":[{"block":"group","class":"bg-slate-100 rounded p-5 text-center w-full","content":[{"block":"text","text":"Congratulations, you finished the activity.","class":"","name":"Congra"}],"background":"","name":"CongraGroup"},{"block":"group","class":"text-center p-5","content":[{"block":"finished","name":"finishedBlock"}],"background":"","name":"finishedGroup"}],"background":"","block":"group"},"FinalizeGroup":{"block":"group","class":"text-center mt-10","content":[{"block":"button","class":"mx-auto","to":"/end","text":"Finalize","name":"FinalizeBTN"}],"background":""}}}
+{
+  "title": "Vocabulary: Guided discovery",
+  "clock": true,
+  "countdown": 0,
+  "intro": {
+    "buttons": {
+      "start": "Start"
+    },
+    "content": []
+  },
+  "activity": {
+    "scenes": [
+      {
+        "block": "scene",
+        "name": "SC1",
+        "countdown": 0,
+        "instructions": {
+          "open": true,
+          "content": [
+            {
+              "block": "group",
+              "class": "flex gap-2 items-center",
+              "content": [
+                {
+                  "block": "audio",
+                  "class": "",
+                  "file": "files/inst.mp3",
+                  "wave": false,
+                  "autoplay": false,
+                  "id": "",
+                  "name": "3BFS"
+                },
+                {
+                  "block": "text",
+                  "class": "",
+                  "text": "Read carefully the following information and take notes on your notebook",
+                  "id": "",
+                  "name": "tkvB"
+                }
+              ]
+            }
+          ]
+        },
+        "content": [
+          {
+            "block": "group",
+            "class": "bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto",
+            "content": [
+              {
+                "marker": "",
+                "class": "m-5 p-10 bg-pink-100 rounded-lg grid gap-5 shadow-lg",
+                "content": [
+                  {
+                    "text": "Present perfect is formed with has/have +  present perfect. In addition, we use some adverbs and prepostions to provide more details about what we are talking. Check the following chart. ",
+                    "class": "",
+                    "id": "Ybjl",
+                    "block": "text",
+                    "name": "05mR"
+                  },
+                  {
+                    "text": "COMMON ADVERBS USED WITH PRESENT PERFECT",
+                    "class": "font-bold",
+                    "id": "KLVz",
+                    "block": "text",
+                    "name": "PuMY"
+                  },
+                  {
+                    "marker": "",
+                    "class": "grid grid-cols-3 flex justify-center text-center",
+                    "content": [
+                      {
+                        "text": "already",
+                        "class": "",
+                        "id": "s0kSaou7",
+                        "block": "text",
+                        "name": "bCAP"
+                      },
+                      {
+                        "text": "ever",
+                        "class": "",
+                        "id": "PEbkvAMw",
+                        "block": "text",
+                        "name": "nqUx"
+                      },
+                      {
+                        "text": "for",
+                        "class": "",
+                        "id": "Uh8majds",
+                        "block": "text",
+                        "name": "ff8A"
+                      },
+                      {
+                        "text": "just",
+                        "class": "",
+                        "id": "pvovhBsc",
+                        "block": "text",
+                        "name": "nfGe"
+                      },
+                      {
+                        "text": "never",
+                        "class": "",
+                        "id": "66nlVfJ9",
+                        "block": "text",
+                        "name": "5zMt"
+                      },
+                      {
+                        "text": "since",
+                        "class": "",
+                        "id": "YczvPTOC",
+                        "block": "text",
+                        "name": "r2EM"
+                      },
+                      {
+                        "text": "yet",
+                        "class": "",
+                        "id": "ELag7ybJ",
+                        "block": "text",
+                        "name": "Krz8"
+                      }
+                    ],
+                    "background": "",
+                    "id": "uYsk",
+                    "block": "group",
+                    "name": "K4tq"
+                  },
+                  {
+                    "text": "Prepositions FOR and SINCE for present perfect",
+                    "class": "font-bold",
+                    "id": "O7pOnb1P",
+                    "block": "text",
+                    "name": "dCpf"
+                  },
+                  {
+                    "text": "1) We use FOR to talk about a length of time or a period of time. It shows amount of time.",
+                    "class": "",
+                    "id": "lqMEY52y",
+                    "block": "text",
+                    "name": "jDyr"
+                  },
+                  {
+                    "text": "<b>FOR</b> + period  of time/ number / time word ",
+                    "class": "ml-5",
+                    "id": "JM3lseup",
+                    "block": "text",
+                    "name": "jnzI"
+                  },
+                  {
+                    "text": "Look at the example:",
+                    "class": "",
+                    "id": "7BvgwWKr",
+                    "block": "text",
+                    "name": "gTU3"
+                  },
+                  {
+                    "text": "We <b>have read</b> the book “Mastering English the Easy Way” for two weeks in our English class.",
+                    "class": "",
+                    "id": "N8BEFP4g",
+                    "block": "text",
+                    "name": "DpkJ"
+                  },
+                  {
+                    "text": "2) We use SINCE to talk about a point in the past, a specific point in time. It shows when an event started.",
+                    "class": "",
+                    "id": "jvWfDXUl",
+                    "block": "text",
+                    "name": "7BtQ"
+                  },
+                  {
+                    "text": "<b>SINCE</b> + starting point / a time / a date. ",
+                    "class": "ml-5",
+                    "id": "VOr7Yn1S",
+                    "block": "text",
+                    "name": "thwY"
+                  },
+                  {
+                    "text": "Look at the example:",
+                    "class": "",
+                    "id": "i3XUkIK0",
+                    "block": "text",
+                    "name": "iCxu"
+                  },
+                  {
+                    "text": "Mr. Clark <b>has taught</b> English in this school <b>since</b> 2000 in our English class.",
+                    "class": "",
+                    "id": "tvarKAsn",
+                    "block": "text",
+                    "name": "yDAq"
+                  },
+                  {
+                    "text": "Prepositions FOR and SINCE for present perfect",
+                    "class": "font-bold mt-10",
+                    "id": "9DjanPwG",
+                    "block": "text",
+                    "name": "4QAI"
+                  },
+                  {
+                    "text": "We use EVER AND NEVER to express frequency, events happening or not happening at some moment of your life, at any time up to now.<br>EVER: Questions.<br>NEVER: Answers and statements. ",
+                    "class": "",
+                    "id": "hnzRUeKs",
+                    "block": "text",
+                    "name": "VOCP"
+                  },
+                  {
+                    "text": "<b>Have</b> you <b>ever been</b> in London? No, I <b>have never been</b> in London, but my friends Richard and Laura have been many times.",
+                    "class": "",
+                    "id": "cTr93M2C",
+                    "block": "text",
+                    "name": "VkGN"
+                  },
+                  {
+                    "text": "Adverbs JUST, ALREADY and YET for present perfect ",
+                    "class": "font-bold mt-10",
+                    "id": "k3hKcw5r",
+                    "block": "text",
+                    "name": "9hCn"
+                  },
+                  {
+                    "text": "We use JUST, ALREADY and YET to talk about actions that have or haven’t happened.",
+                    "class": "",
+                    "id": "e1xIBrYr",
+                    "block": "text",
+                    "name": "arwc"
+                  },
+                  {
+                    "text": "JUST: Affirmative statements. To talk about actions that happened recently.",
+                    "class": "",
+                    "id": "j9vY3ul3",
+                    "block": "text",
+                    "name": "z1dH"
+                  },
+                  {
+                    "text": "Mr. Clark has <b>just</b> sent an email with the instructions for the homework.",
+                    "class": "",
+                    "id": "SZuSbVks",
+                    "block": "text",
+                    "name": "naed"
+                  },
+                  {
+                    "text": "ALREADY: Affirmative statements. To talk about actions that have happened sooner than expected.",
+                    "class": "",
+                    "id": "6wJNK3iH",
+                    "block": "text",
+                    "name": "fCkO"
+                  },
+                  {
+                    "text": "My classmates Emma and Frank have <b>already</b> done the homework.",
+                    "class": "",
+                    "id": "h7qNCMSc",
+                    "block": "text",
+                    "name": "jvUr"
+                  },
+                  {
+                    "text": "YET: Negative statements and questions. To talk about actions that are expected to happen.",
+                    "class": "",
+                    "id": "p1n6fH36",
+                    "block": "text",
+                    "name": "VBby"
+                  },
+                  {
+                    "text": "YET: Negative statements and questions. To talk about actions that are expected to happen. To ask if something expected has happened. ",
+                    "class": "",
+                    "id": "4XlPVWMe",
+                    "block": "text",
+                    "name": "baJX"
+                  },
+                  {
+                    "text": "Mike and Liz haven’t done the homework <b>yet.</b>",
+                    "class": "",
+                    "id": "eiXMs09U",
+                    "block": "text",
+                    "name": "Ix17"
+                  },
+                  {
+                    "text": "Analyze the examples and discuss with your classmates the order of the auxiliary have, ever, and never and the verb in past participle.",
+                    "class": "",
+                    "id": "4ZwdUz7w",
+                    "block": "text",
+                    "name": "NYfS"
+                  },
+                  {
+                    "text": "Can you mention the differences between questions and answers?",
+                    "class": "",
+                    "id": "1js7dzEd",
+                    "block": "text",
+                    "name": "mFQJ"
+                  },
+                  {
+                    "text": "Practice with your classmates the use of adverbs and prepositions. Write them down on your notebook and then check in class with your teacher and your classmates. ",
+                    "class": "mt-10",
+                    "id": "Dnl2qhVc",
+                    "block": "text",
+                    "name": "Mwkp"
+                  }
+                ],
+                "background": "",
+                "id": "NkeB",
+                "block": "group",
+                "name": "lf8R"
+              }
+            ],
+            "background": "",
+            "name": "4Cs6",
+            "hidden": false
+          },
+          {
+            "symbol": "FinalizeGroup"
+          }
+        ],
+        "id": ""
+      }
+    ]
+  },
+  "end": {
+    "buttons": {
+      "restart": false
+    },
+    "content": [
+      {
+        "symbol": "finishedAll"
+      }
+    ]
+  },
+  "symbols": {
+    "finishedAll": {
+      "class": "w-full",
+      "content": [
+        {
+          "block": "group",
+          "class": "bg-slate-100 rounded p-5 text-center w-full",
+          "content": [
+            {
+              "block": "text",
+              "text": "Congratulations, you finished the activity.",
+              "class": "",
+              "name": "Congra"
+            }
+          ],
+          "background": "",
+          "name": "CongraGroup"
+        },
+        {
+          "block": "group",
+          "class": "text-center p-5",
+          "content": [
+            {
+              "block": "finished",
+              "name": "finishedBlock"
+            }
+          ],
+          "background": "",
+          "name": "finishedGroup"
+        }
+      ],
+      "background": "",
+      "block": "group"
+    },
+    "FinalizeGroup": {
+      "block": "group",
+      "class": "text-center mt-10",
+      "content": [
+        {
+          "block": "button",
+          "class": "mx-auto",
+          "to": "/end",
+          "text": "Finalize",
+          "name": "FinalizeBTN"
+        }
+      ],
+      "background": ""
+    }
+  },
+  "attempts": 0
+}
