@@ -1,1 +1,245 @@
-{"title":"Food","clock":true,"countdown":0,"intro":{"buttons":{"start":"Start"},"content":[]},"activity":{"scenes":[{"block":"scene","name":"SC1","countdown":0,"instructions":{"open":true,"content":[{"block":"group","class":"flex gap-2 items-center","content":[{"block":"audio","class":"","file":"files/instruccion.mp3","wave":false,"autoplay":false,"id":"","name":"bcvv"},{"block":"text","class":"","text":"Let's look at Jorge's fridge again. Pay attention to the  words in bold letters","id":"","name":"6RRa"}]}]},"content":[{"block":"group","class":"bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto","content":[{"class":"","content":[{"marker":"","class":"","content":[{"file":"files/img01.jpg","class":"","id":"EbVw","block":"image","name":"oFTg"},{"text":"Click the image","class":"","id":"CewW","block":"text","name":"lBW1"}],"background":"","id":"Q61G","block":"group","name":"omdq"},{"marker":"","class":"","content":[{"file":"files/img02.jpg","class":"","id":"EbVwRvGd","block":"image","name":"wQB3"},{"marker":"","class":" mt-10 text-lg","content":[{"text":"As you scan the shelves of Jorge's fridge, you may notice something weird. He doesn't like cooking, but he loves vegetables.  A basket with lots of tomatoes promises freshness, while a <b>crisp container</b> of enough lettuce is thought to add crunch to salads and <b>wraps</b>. A <b>cluster</b> of some onions resting nearby can be a fantastic addition to salads, providing a <b>flavorful</b> and aromatic punch. The only protein you will find in his fridge lands upon a carton containing many eggs.He loves <b>hard-boiled eggs</b> as addition to salads. Plus, you don't have to be a great chef to prepare them. Finally the fridge door reveals a collection of <b>beverages</b>, including plenty of orange juice, a lot of milk,  some wine and a little water. This fridge is a collection of items awaiting <b>nourishing</b> possibilities, just don't expect to find any cooked meal\t\t","class":"","id":"Trjl","block":"text","name":"lVQf"}],"background":"","id":"02cE","block":"group","name":"vda9"}],"background":"","id":"Mha5Vv6N","block":"group","name":"Ii7R"}],"evaluation":"","id":"ZWoW","block":"switch","name":"jLbz","positive":0},{"marker":"","class":"mt-10 p-10 bg-yellow-100 rounded shadow","content":[{"text":"Copy in your notebook the next sentences and complete them using the words in bold. Discuss them with your classmates.\t\t","class":"","id":"60Oy","block":"text","name":"CUJW"},{"marker":"","class":"mt-10 grid gap-4","content":[{"text":"1.- I prefer to keep green leaves vegetables such as spinach inside a ____________, since it protects the flavour of them.\t\t","class":"","id":"x7fQ","block":"text","name":"kDnK"},{"text":"2.- You may fill in ________with some lettuce and boiled vegatables, add some vinegar for a _______ combination\t\t","class":"","id":"J9rna83i","block":"text","name":"KvNV"},{"text":"3.- I love having a ____________of __________ in the fridge. Orange and pineapple juice is one of my favorites!\t\t","class":"","id":"gpjqrOue","block":"text","name":"pNuf"},{"text":"4.- You can have a delicious and ___________ food, just with _________________ since you don't need to add any oil to cook them.","class":"","id":"3bCjVeIb","block":"text","name":"xabV"}],"background":"","id":"NTiz","block":"group","name":"xZq5"}],"background":"","id":"tC9Q","block":"group","name":"aC0W"}],"background":"","name":"4Cs6","hidden":false},{"symbol":"FinalizeGroup"}],"id":""}]},"end":{"buttons":{"restart":false},"content":[{"symbol":"finishedAll"}]},"symbols":{"finishedAll":{"class":"w-full","content":[{"block":"group","class":"bg-slate-100 rounded p-5 text-center w-full","content":[{"block":"text","text":"Congratulations, you finished the activity.","class":"","name":"Congra"}],"background":"","name":"CongraGroup"},{"block":"group","class":"text-center p-5","content":[{"block":"finished","name":"finishedBlock"}],"background":"","name":"finishedGroup"}],"background":"","block":"group"},"FinalizeGroup":{"block":"group","class":"text-center mt-10","content":[{"block":"button","class":"mx-auto","to":"/end","text":"Finalize","name":"FinalizeBTN"}],"background":""}}}
+{
+  "title": "Food",
+  "clock": true,
+  "countdown": 0,
+  "intro": {
+    "buttons": {
+      "start": "Start"
+    },
+    "content": []
+  },
+  "activity": {
+    "scenes": [
+      {
+        "block": "scene",
+        "name": "SC1",
+        "countdown": 0,
+        "instructions": {
+          "open": true,
+          "content": [
+            {
+              "block": "group",
+              "class": "flex gap-2 items-center",
+              "content": [
+                {
+                  "block": "audio",
+                  "class": "",
+                  "file": "files/instruccion.mp3",
+                  "wave": false,
+                  "autoplay": false,
+                  "id": "",
+                  "name": "bcvv"
+                },
+                {
+                  "block": "text",
+                  "class": "",
+                  "text": "Let's look at Jorge's fridge again. Pay attention to the  words in bold letters",
+                  "id": "",
+                  "name": "6RRa"
+                }
+              ]
+            }
+          ]
+        },
+        "content": [
+          {
+            "block": "group",
+            "class": "bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto",
+            "content": [
+              {
+                "class": "",
+                "content": [
+                  {
+                    "marker": "",
+                    "class": "text-center",
+                    "content": [
+                      {
+                        "text": "<b>Click the image</b>",
+                        "class": "text-3xl",
+                        "id": "CewW",
+                        "block": "text",
+                        "name": "lBW1"
+                      },
+                      {
+                        "file": "files/img01.jpg",
+                        "class": "",
+                        "id": "EbVw",
+                        "block": "image",
+                        "name": "oFTg"
+                      }
+                    ],
+                    "background": "",
+                    "id": "Q61G",
+                    "block": "group",
+                    "name": "omdq"
+                  },
+                  {
+                    "marker": "",
+                    "class": "",
+                    "content": [
+                      {
+                        "file": "files/img02.jpg",
+                        "class": "",
+                        "id": "EbVwRvGd",
+                        "block": "image",
+                        "name": "wQB3"
+                      },
+                      {
+                        "marker": "",
+                        "class": " mt-10 text-lg",
+                        "content": [
+                          {
+                            "text": "As you scan the shelves of Jorge's fridge, you may notice something weird. He doesn't like cooking, but he loves vegetables.  A basket with lots of tomatoes promises freshness, while a <b>crisp container</b> of enough lettuce is thought to add crunch to salads and <b>wraps</b>. A <b>cluster</b> of onions resting nearby can be a fantastic addition to salads, providing a <b>flavorful</b> and aromatic punch. The only protein you will find in his fridge lands upon a carton containing many eggs. He loves <b>hard-boiled eggs</b> as an addition to salads. Plus, you don't have to be a great chef to prepare them. Finally the fridge door reveals a collection of <b>beverages</b>, including plenty of orange juice, a lot of milk,  some wine and a little water. This fridge is a collection of items awaiting <b>nourishing</b> possibilities, just don't expect to find any cooked meals.\t\t",
+                            "class": "",
+                            "id": "Trjl",
+                            "block": "text",
+                            "name": "lVQf"
+                          }
+                        ],
+                        "background": "",
+                        "id": "02cE",
+                        "block": "group",
+                        "name": "vda9"
+                      }
+                    ],
+                    "background": "",
+                    "id": "Mha5Vv6N",
+                    "block": "group",
+                    "name": "Ii7R"
+                  }
+                ],
+                "evaluation": "manual",
+                "id": "ZWoW",
+                "block": "switch",
+                "name": "jLbz",
+                "positive": 0
+              },
+              {
+                "marker": "",
+                "class": "mt-10 p-10 bg-yellow-100 rounded shadow",
+                "content": [
+                  {
+                    "text": "Copy in your notebook the next sentences and complete them using the words in bold. Discuss them with your classmates.\t\t",
+                    "class": "",
+                    "id": "60Oy",
+                    "block": "text",
+                    "name": "CUJW"
+                  },
+                  {
+                    "marker": "",
+                    "class": "mt-10 grid gap-4",
+                    "content": [
+                      {
+                        "text": "1.- I prefer to keep green leaves vegetables such as spinach inside a ____________, since it protects the flavour of them.\t\t",
+                        "class": "",
+                        "id": "x7fQ",
+                        "block": "text",
+                        "name": "kDnK"
+                      },
+                      {
+                        "text": "2.- You may fill in ________with some lettuce and boiled vegatables, add some vinegar for a _______ combination\t\t",
+                        "class": "",
+                        "id": "J9rna83i",
+                        "block": "text",
+                        "name": "KvNV"
+                      },
+                      {
+                        "text": "3.- I love having a ____________of __________ in the fridge. Orange and pineapple juice is one of my favorites!\t\t",
+                        "class": "",
+                        "id": "gpjqrOue",
+                        "block": "text",
+                        "name": "pNuf"
+                      },
+                      {
+                        "text": "4.- You can have a delicious and ___________ food, just with _________________ since you don't need to add any oil to cook them.",
+                        "class": "",
+                        "id": "3bCjVeIb",
+                        "block": "text",
+                        "name": "xabV"
+                      }
+                    ],
+                    "background": "",
+                    "id": "NTiz",
+                    "block": "group",
+                    "name": "xZq5"
+                  }
+                ],
+                "background": "",
+                "id": "tC9Q",
+                "block": "group",
+                "name": "aC0W"
+              }
+            ],
+            "background": "",
+            "name": "4Cs6",
+            "hidden": false
+          },
+          {
+            "symbol": "FinalizeGroup"
+          }
+        ],
+        "id": ""
+      }
+    ]
+  },
+  "end": {
+    "buttons": {
+      "restart": false
+    },
+    "content": [
+      {
+        "symbol": "finishedAll"
+      }
+    ]
+  },
+  "symbols": {
+    "finishedAll": {
+      "class": "w-full",
+      "content": [
+        {
+          "block": "group",
+          "class": "bg-slate-100 rounded p-5 text-center w-full",
+          "content": [
+            {
+              "block": "text",
+              "text": "Congratulations, you finished the activity.",
+              "class": "",
+              "name": "Congra"
+            }
+          ],
+          "background": "",
+          "name": "CongraGroup"
+        },
+        {
+          "block": "group",
+          "class": "text-center p-5",
+          "content": [
+            {
+              "block": "finished",
+              "name": "finishedBlock"
+            }
+          ],
+          "background": "",
+          "name": "finishedGroup"
+        }
+      ],
+      "background": "",
+      "block": "group"
+    },
+    "FinalizeGroup": {
+      "block": "group",
+      "class": "text-center mt-10",
+      "content": [
+        {
+          "block": "button",
+          "class": "mx-auto",
+          "to": "/end",
+          "text": "Finalize",
+          "name": "FinalizeBTN"
+        }
+      ],
+      "background": ""
+    }
+  },
+  "attempts": 0
+}
