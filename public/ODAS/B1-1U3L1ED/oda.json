@@ -1,1 +1,649 @@
-{"title":"Technology ","clock":true,"countdown":0,"intro":{"buttons":{"start":"Start"},"content":[]},"activity":{"scenes":[{"block":"scene","name":"SC1","countdown":0,"instructions":{"open":true,"content":[{"block":"group","class":"flex gap-2 items-center","content":[{"block":"audio","class":"","file":"files/instructions.mp3","wave":false,"autoplay":false,"id":"","name":"LHO7"},{"block":"text","class":"","text":"Complete the following sentences typing the correct form of the auxiliary verb have (has/have) and the past participle of the verb in parenthesis to form the present perfect in each sentence, correctly.","id":"","name":"JvlB"}]}]},"content":[{"block":"group","class":"bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto","content":[{"marker":"","class":"flex justify-center ","content":[{"file":"files/img01.jpg","class":"w-3/4 mask mask-squircle","id":"tfcs","block":"image","name":"A7XB"}],"background":"","id":"Tqw5","block":"group","name":"Hvgl"},{"marker":"","class":"p-10 grid gap-5","content":[{"marker":"","class":"","content":[{"block":"text","class":"","text":"1. Technology","name":"3Ovd","hidden":false,"id":""},{"marker":"","class":"inline-block ","content":[{"case":false,"evaluation":"auto","class":"text-center","positive":"has arisen","multiline":false,"placeholder":"-","showResult":false,"id":"gfQK","block":"textarea","name":"KeDX","maxlength":0,"attempts":0}],"background":"","id":"Y8zN","block":"group","name":"k0oZ"},{"block":"text","class":"","text":"(arise) numerous opportunities for communication and education in the recent decades.","name":"LGgu","hidden":false,"id":"lA3DiT1g"}],"background":"","id":"22m1","block":"group","name":"e24K"},{"marker":"","class":"","content":[{"block":"text","class":"","text":"2. Scientists","name":"GMuq","hidden":false,"id":"k6vb"},{"marker":"","class":"inline-block ","content":[{"case":false,"evaluation":"auto","class":"text-center","positive":"have done","multiline":false,"placeholder":"-","showResult":false,"id":"gfQKYgD5","block":"textarea","name":"nbTC","maxlength":0,"attempts":0}],"background":"","id":"Y8zNQ4KD","block":"group","name":"Nobh"},{"block":"text","class":"","text":"(do)  extensive research on strategies to enhance language learning.","name":"5FtJ","hidden":false,"id":"lA3DiT1gFWTf"}],"background":"","id":"PcLhDW2C","block":"group","name":"nVoQ"},{"marker":"","class":"","content":[{"block":"text","class":"","text":"3. They","name":"OACW","hidden":false,"id":"k6vboOeZ"},{"marker":"","class":"inline-block ","content":[{"case":false,"evaluation":"auto","class":"text-center","positive":"have found","multiline":false,"placeholder":"-","showResult":false,"id":"gfQKYgD5MkDl","block":"textarea","name":"JQlE","maxlength":0,"attempts":0}],"background":"","id":"Y8zNQ4KDIYvv","block":"group","name":"qZkK"},{"block":"text","class":"","text":"(find) evidence that technology provides students with opportunities to improve in grammar, pronunciation, and vocabulary.","name":"lFGO","hidden":false,"id":"lA3DiT1gFWTfGAth"}],"background":"","id":"MiauG737","block":"group","name":"YpMp"},{"marker":"","class":"","content":[{"block":"text","class":"","text":"4. Online courses","name":"ZQal","hidden":false,"id":"k6vboOeZqzhk"},{"marker":"","class":"inline-block ","content":[{"case":false,"evaluation":"auto","class":"text-center","positive":"have become","multiline":false,"placeholder":"-","showResult":false,"id":"gfQKYgD5MkDlNKkv","block":"textarea","name":"VA1o","maxlength":0,"attempts":0}],"background":"","id":"Y8zNQ4KDIYvvfoeE","block":"group","name":"cN5T"},{"block":"text","class":"","text":"(become) more popular since the pandemic.","name":"WQSt","hidden":false,"id":"lA3DiT1gFWTfGAthHV96"}],"background":"","id":"trMAGVWE","block":"group","name":"jt0O"},{"marker":"","class":"","content":[{"block":"text","class":"","text":"5. My cousins","name":"61cd","hidden":false,"id":"k6vboOeZqzhkh4KJ"},{"marker":"","class":"inline-block ","content":[{"case":false,"evaluation":"auto","class":"text-center","positive":"have taken","multiline":false,"placeholder":"-","showResult":false,"id":"gfQKYgD5MkDlNKkvov1G","block":"textarea","name":"tfXe","maxlength":0,"attempts":0}],"background":"","id":"Y8zNQ4KDIYvvfoeEuaQh","block":"group","name":"Po1w"},{"block":"text","class":"","text":"(take) online courses to enhance their conversation skills. They improved a lot.","name":"A3Ks","hidden":false,"id":"lA3DiT1gFWTfGAthHV96vHV0"}],"background":"","id":"jbc9bAWm","block":"group","name":"dR2u"},{"marker":"","class":"","content":[{"block":"text","class":"","text":"6. Unfortunately, my sister","name":"ySzN","hidden":false,"id":"k6vboOeZqzhkh4KJC1ju"},{"marker":"","class":"inline-block ","content":[{"case":false,"evaluation":"auto","class":"text-center","positive":"has quit","multiline":false,"placeholder":"-","showResult":false,"id":"gfQKYgD5MkDlNKkvov1GgTcm","block":"textarea","name":"9xy9","maxlength":0,"attempts":0}],"background":"","id":"Y8zNQ4KDIYvvfoeEuaQhUYCH","block":"group","name":"SqWg"},{"block":"text","class":"","text":"(quit) her English course, but she will go back next semester.","name":"cj5f","hidden":false,"id":"lA3DiT1gFWTfGAthHV96vHV0lgQd"}],"background":"","id":"WXiGkqOP","block":"group","name":"JSDw"},{"marker":"","class":"","content":[{"block":"text","class":"","text":"7. Microsoft invented a device to translate words to any language, for example people who","name":"8eyk","hidden":false,"id":"k6vboOeZqzhkh4KJC1jux3vX"},{"marker":"","class":"inline-block ","content":[{"case":false,"evaluation":"auto","class":"text-center","positive":"have forgotten","multiline":false,"placeholder":"-","showResult":false,"id":"gfQKYgD5MkDlNKkvov1GgTcmgBjw","block":"textarea","name":"2pZI","maxlength":0,"attempts":0}],"background":"","id":"Y8zNQ4KDIYvvfoeEuaQhUYCHvqRu","block":"group","name":"RicS"},{"block":"text","class":"","text":"(forget) vocabulary while they are on a trip in a foreign country.","name":"apdH","hidden":false,"id":"lA3DiT1gFWTfGAthHV96vHV0lgQdRu20"}],"background":"","id":"Z02vuWpg","block":"group","name":"coOD"},{"marker":"","class":"","content":[{"block":"text","class":"","text":"8. Artificial intelligence","name":"g76q","hidden":false,"id":"k6vboOeZqzhkh4KJC1jux3vXVNhp"},{"marker":"","class":"inline-block ","content":[{"case":false,"evaluation":"auto","class":"text-center","positive":"has bent","multiline":false,"placeholder":"-","showResult":false,"id":"gfQKYgD5MkDlNKkvov1GgTcmgBjwt2aw","block":"textarea","name":"z7La","maxlength":0,"attempts":0}],"background":"","id":"Y8zNQ4KDIYvvfoeEuaQhUYCHvqRu6sY6","block":"group","name":"50H0"},{"block":"text","class":"","text":"(bend) the limits of what we thought was possible.","name":"cys5","hidden":false,"id":"lA3DiT1gFWTfGAthHV96vHV0lgQdRu20LwuE"}],"background":"","id":"6ZrUVCVx","block":"group","name":"PZ0O"},{"marker":"","class":"","content":[{"block":"text","class":"","text":"9. The robotics club of my school","name":"SHoF","hidden":false,"id":"k6vboOeZqzhkh4KJC1jux3vXVNhpqqa0"},{"marker":"","class":"inline-block ","content":[{"case":false,"evaluation":"auto","class":"text-center","positive":"has won","multiline":false,"placeholder":"-","showResult":false,"id":"gfQKYgD5MkDlNKkvov1GgTcmgBjwt2awPC0I","block":"textarea","name":"yvDK","maxlength":0,"attempts":0}],"background":"","id":"Y8zNQ4KDIYvvfoeEuaQhUYCHvqRu6sY6CBOc","block":"group","name":"oPUZ"},{"block":"text","class":"","text":"(win) a tech innovation award for a groundbreaking invention.","name":"8xLS","hidden":false,"id":"lA3DiT1gFWTfGAthHV96vHV0lgQdRu20LwuEOoxm"}],"background":"","id":"p1QfAj7E","block":"group","name":"i1Zu"},{"marker":"","class":"","content":[{"block":"text","class":"","text":"10. The English teaching staff","name":"uP8h","hidden":false,"id":"k6vboOeZqzhkh4KJC1jux3vXVNhpqqa01pud"},{"marker":"","class":"inline-block ","content":[{"case":false,"evaluation":"auto","class":"text-center","positive":"has set","multiline":false,"placeholder":"-","showResult":false,"id":"gfQKYgD5MkDlNKkvov1GgTcmgBjwt2awPC0Iyo2n","block":"textarea","name":"eB66","maxlength":0,"attempts":0}],"background":"","id":"Y8zNQ4KDIYvvfoeEuaQhUYCHvqRu6sY6CBOccRHZ","block":"group","name":"oyjr"},{"block":"text","class":"","text":"(set) ambitions goals for the next course. We have to reach the B2 proficiency level. ","name":"feDB","hidden":false,"id":"lA3DiT1gFWTfGAthHV96vHV0lgQdRu20LwuEOoxmQt2s"}],"background":"","id":"SNNxr82a","block":"group","name":"FHO9"}],"background":"","id":"HsZj","block":"group","name":"0O86"}],"background":"","name":"4Cs6","hidden":false},{"symbol":"FinalizeGroup"}],"id":""}]},"end":{"buttons":{"restart":false},"content":[{"symbol":"finishedAll"}]},"symbols":{"finishedAll":{"class":"w-full","content":[{"block":"group","class":"bg-slate-100 rounded p-5 text-center w-full","content":[{"block":"text","text":"Congratulations, you finished the activity.","class":"","name":"Congra"}],"background":"","name":"CongraGroup"},{"block":"group","class":"text-center p-5","content":[{"block":"finished","name":"finishedBlock"}],"background":"","name":"finishedGroup"}],"background":"","block":"group"},"FinalizeGroup":{"block":"group","class":"text-center mt-10","content":[{"block":"button","class":"mx-auto","to":"/end","text":"Finalize","name":"FinalizeBTN"}],"background":""}}}
+{
+  "title": "Technology ",
+  "clock": true,
+  "countdown": 0,
+  "intro": {
+    "buttons": {
+      "start": "Start"
+    },
+    "content": []
+  },
+  "activity": {
+    "scenes": [
+      {
+        "block": "scene",
+        "name": "SC1",
+        "countdown": 0,
+        "instructions": {
+          "open": true,
+          "content": [
+            {
+              "block": "group",
+              "class": "flex gap-2 items-center",
+              "content": [
+                {
+                  "block": "audio",
+                  "class": "",
+                  "file": "files/instructions.mp3",
+                  "wave": false,
+                  "autoplay": false,
+                  "id": "",
+                  "name": "LHO7"
+                },
+                {
+                  "block": "text",
+                  "class": "",
+                  "text": "Complete the following sentences typing the correct form of the auxiliary verb have (has/have) and the past participle of the verb in parenthesis to form the present perfect in each sentence, correctly.",
+                  "id": "",
+                  "name": "JvlB"
+                }
+              ]
+            }
+          ]
+        },
+        "content": [
+          {
+            "block": "group",
+            "class": "bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto",
+            "content": [
+              {
+                "marker": "",
+                "class": "flex justify-center ",
+                "content": [
+                  {
+                    "file": "files/img01.jpg",
+                    "class": "w-3/4 mask mask-squircle",
+                    "id": "tfcs",
+                    "block": "image",
+                    "name": "A7XB"
+                  }
+                ],
+                "background": "",
+                "id": "Tqw5",
+                "block": "group",
+                "name": "Hvgl"
+              },
+              {
+                "marker": "",
+                "class": "p-10 grid gap-5",
+                "content": [
+                  {
+                    "marker": "",
+                    "class": "",
+                    "content": [
+                      {
+                        "block": "text",
+                        "class": "",
+                        "text": "1. Technology",
+                        "name": "3Ovd",
+                        "hidden": false,
+                        "id": ""
+                      },
+                      {
+                        "marker": "",
+                        "class": "inline-block ",
+                        "content": [
+                          {
+                            "case": false,
+                            "evaluation": "auto",
+                            "class": "text-center",
+                            "positive": "has arisen",
+                            "multiline": false,
+                            "placeholder": "-",
+                            "showResult": false,
+                            "id": "gfQK",
+                            "block": "textarea",
+                            "name": "KeDX",
+                            "maxlength": 0,
+                            "attempts": 0
+                          }
+                        ],
+                        "background": "",
+                        "id": "Y8zN",
+                        "block": "group",
+                        "name": "k0oZ"
+                      },
+                      {
+                        "block": "text",
+                        "class": "",
+                        "text": "(arise) numerous opportunities for communication and education in the recent decades.",
+                        "name": "LGgu",
+                        "hidden": false,
+                        "id": "lA3DiT1g"
+                      }
+                    ],
+                    "background": "",
+                    "id": "22m1",
+                    "block": "group",
+                    "name": "e24K"
+                  },
+                  {
+                    "marker": "",
+                    "class": "",
+                    "content": [
+                      {
+                        "block": "text",
+                        "class": "",
+                        "text": "2. Scientists",
+                        "name": "GMuq",
+                        "hidden": false,
+                        "id": "k6vb"
+                      },
+                      {
+                        "marker": "",
+                        "class": "inline-block ",
+                        "content": [
+                          {
+                            "case": false,
+                            "evaluation": "auto",
+                            "class": "text-center",
+                            "positive": "have done",
+                            "multiline": false,
+                            "placeholder": "-",
+                            "showResult": false,
+                            "id": "gfQKYgD5",
+                            "block": "textarea",
+                            "name": "nbTC",
+                            "maxlength": 0,
+                            "attempts": 0
+                          }
+                        ],
+                        "background": "",
+                        "id": "Y8zNQ4KD",
+                        "block": "group",
+                        "name": "Nobh"
+                      },
+                      {
+                        "block": "text",
+                        "class": "",
+                        "text": "(do)  extensive research on strategies to enhance language learning.",
+                        "name": "5FtJ",
+                        "hidden": false,
+                        "id": "lA3DiT1gFWTf"
+                      }
+                    ],
+                    "background": "",
+                    "id": "PcLhDW2C",
+                    "block": "group",
+                    "name": "nVoQ"
+                  },
+                  {
+                    "marker": "",
+                    "class": "",
+                    "content": [
+                      {
+                        "block": "text",
+                        "class": "",
+                        "text": "3. They",
+                        "name": "OACW",
+                        "hidden": false,
+                        "id": "k6vboOeZ"
+                      },
+                      {
+                        "marker": "",
+                        "class": "inline-block ",
+                        "content": [
+                          {
+                            "case": false,
+                            "evaluation": "auto",
+                            "class": "text-center",
+                            "positive": "have found",
+                            "multiline": false,
+                            "placeholder": "-",
+                            "showResult": false,
+                            "id": "gfQKYgD5MkDl",
+                            "block": "textarea",
+                            "name": "JQlE",
+                            "maxlength": 0,
+                            "attempts": 0
+                          }
+                        ],
+                        "background": "",
+                        "id": "Y8zNQ4KDIYvv",
+                        "block": "group",
+                        "name": "qZkK"
+                      },
+                      {
+                        "block": "text",
+                        "class": "",
+                        "text": "(find) evidence that technology provides students with opportunities to improve in grammar, pronunciation, and vocabulary.",
+                        "name": "lFGO",
+                        "hidden": false,
+                        "id": "lA3DiT1gFWTfGAth"
+                      }
+                    ],
+                    "background": "",
+                    "id": "MiauG737",
+                    "block": "group",
+                    "name": "YpMp"
+                  },
+                  {
+                    "marker": "",
+                    "class": "",
+                    "content": [
+                      {
+                        "block": "text",
+                        "class": "",
+                        "text": "4. Online courses",
+                        "name": "ZQal",
+                        "hidden": false,
+                        "id": "k6vboOeZqzhk"
+                      },
+                      {
+                        "marker": "",
+                        "class": "inline-block ",
+                        "content": [
+                          {
+                            "case": false,
+                            "evaluation": "auto",
+                            "class": "text-center",
+                            "positive": "have become",
+                            "multiline": false,
+                            "placeholder": "-",
+                            "showResult": false,
+                            "id": "gfQKYgD5MkDlNKkv",
+                            "block": "textarea",
+                            "name": "VA1o",
+                            "maxlength": 0,
+                            "attempts": 0
+                          }
+                        ],
+                        "background": "",
+                        "id": "Y8zNQ4KDIYvvfoeE",
+                        "block": "group",
+                        "name": "cN5T"
+                      },
+                      {
+                        "block": "text",
+                        "class": "",
+                        "text": "(become) more popular since the pandemic.",
+                        "name": "WQSt",
+                        "hidden": false,
+                        "id": "lA3DiT1gFWTfGAthHV96"
+                      }
+                    ],
+                    "background": "",
+                    "id": "trMAGVWE",
+                    "block": "group",
+                    "name": "jt0O"
+                  },
+                  {
+                    "marker": "",
+                    "class": "",
+                    "content": [
+                      {
+                        "block": "text",
+                        "class": "",
+                        "text": "5. My cousins",
+                        "name": "61cd",
+                        "hidden": false,
+                        "id": "k6vboOeZqzhkh4KJ"
+                      },
+                      {
+                        "marker": "",
+                        "class": "inline-block ",
+                        "content": [
+                          {
+                            "case": false,
+                            "evaluation": "auto",
+                            "class": "text-center",
+                            "positive": "have taken",
+                            "multiline": false,
+                            "placeholder": "-",
+                            "showResult": false,
+                            "id": "gfQKYgD5MkDlNKkvov1G",
+                            "block": "textarea",
+                            "name": "tfXe",
+                            "maxlength": 0,
+                            "attempts": 0
+                          }
+                        ],
+                        "background": "",
+                        "id": "Y8zNQ4KDIYvvfoeEuaQh",
+                        "block": "group",
+                        "name": "Po1w"
+                      },
+                      {
+                        "block": "text",
+                        "class": "",
+                        "text": "(take) online courses to enhance their conversation skills. They improved a lot.",
+                        "name": "A3Ks",
+                        "hidden": false,
+                        "id": "lA3DiT1gFWTfGAthHV96vHV0"
+                      }
+                    ],
+                    "background": "",
+                    "id": "jbc9bAWm",
+                    "block": "group",
+                    "name": "dR2u"
+                  },
+                  {
+                    "marker": "",
+                    "class": "",
+                    "content": [
+                      {
+                        "block": "text",
+                        "class": "",
+                        "text": "6. Unfortunately, my sister",
+                        "name": "ySzN",
+                        "hidden": false,
+                        "id": "k6vboOeZqzhkh4KJC1ju"
+                      },
+                      {
+                        "marker": "",
+                        "class": "inline-block ",
+                        "content": [
+                          {
+                            "case": false,
+                            "evaluation": "auto",
+                            "class": "text-center",
+                            "positive": "has quit",
+                            "multiline": false,
+                            "placeholder": "-",
+                            "showResult": false,
+                            "id": "gfQKYgD5MkDlNKkvov1GgTcm",
+                            "block": "textarea",
+                            "name": "9xy9",
+                            "maxlength": 0,
+                            "attempts": 0
+                          }
+                        ],
+                        "background": "",
+                        "id": "Y8zNQ4KDIYvvfoeEuaQhUYCH",
+                        "block": "group",
+                        "name": "SqWg"
+                      },
+                      {
+                        "block": "text",
+                        "class": "",
+                        "text": "(quit) her English course, but she will go back next semester.",
+                        "name": "cj5f",
+                        "hidden": false,
+                        "id": "lA3DiT1gFWTfGAthHV96vHV0lgQd"
+                      }
+                    ],
+                    "background": "",
+                    "id": "WXiGkqOP",
+                    "block": "group",
+                    "name": "JSDw"
+                  },
+                  {
+                    "marker": "",
+                    "class": "",
+                    "content": [
+                      {
+                        "block": "text",
+                        "class": "",
+                        "text": "7. Microsoft invented a device to translate words to any language, for example people who",
+                        "name": "8eyk",
+                        "hidden": false,
+                        "id": "k6vboOeZqzhkh4KJC1jux3vX"
+                      },
+                      {
+                        "marker": "",
+                        "class": "inline-block ",
+                        "content": [
+                          {
+                            "case": false,
+                            "evaluation": "auto",
+                            "class": "text-center",
+                            "positive": "have forgotten",
+                            "multiline": false,
+                            "placeholder": "-",
+                            "showResult": false,
+                            "id": "gfQKYgD5MkDlNKkvov1GgTcmgBjw",
+                            "block": "textarea",
+                            "name": "2pZI",
+                            "maxlength": 0,
+                            "attempts": 0
+                          }
+                        ],
+                        "background": "",
+                        "id": "Y8zNQ4KDIYvvfoeEuaQhUYCHvqRu",
+                        "block": "group",
+                        "name": "RicS"
+                      },
+                      {
+                        "block": "text",
+                        "class": "",
+                        "text": "(forget) vocabulary while they are on a trip in a foreign country.",
+                        "name": "apdH",
+                        "hidden": false,
+                        "id": "lA3DiT1gFWTfGAthHV96vHV0lgQdRu20"
+                      }
+                    ],
+                    "background": "",
+                    "id": "Z02vuWpg",
+                    "block": "group",
+                    "name": "coOD"
+                  },
+                  {
+                    "marker": "",
+                    "class": "",
+                    "content": [
+                      {
+                        "block": "text",
+                        "class": "",
+                        "text": "8. Artificial intelligence",
+                        "name": "g76q",
+                        "hidden": false,
+                        "id": "k6vboOeZqzhkh4KJC1jux3vXVNhp"
+                      },
+                      {
+                        "marker": "",
+                        "class": "inline-block ",
+                        "content": [
+                          {
+                            "case": false,
+                            "evaluation": "auto",
+                            "class": "text-center",
+                            "positive": "has bent",
+                            "multiline": false,
+                            "placeholder": "-",
+                            "showResult": false,
+                            "id": "gfQKYgD5MkDlNKkvov1GgTcmgBjwt2aw",
+                            "block": "textarea",
+                            "name": "z7La",
+                            "maxlength": 0,
+                            "attempts": 0
+                          }
+                        ],
+                        "background": "",
+                        "id": "Y8zNQ4KDIYvvfoeEuaQhUYCHvqRu6sY6",
+                        "block": "group",
+                        "name": "50H0"
+                      },
+                      {
+                        "block": "text",
+                        "class": "",
+                        "text": "(bend) the limits of what we thought was possible.",
+                        "name": "cys5",
+                        "hidden": false,
+                        "id": "lA3DiT1gFWTfGAthHV96vHV0lgQdRu20LwuE"
+                      }
+                    ],
+                    "background": "",
+                    "id": "6ZrUVCVx",
+                    "block": "group",
+                    "name": "PZ0O"
+                  },
+                  {
+                    "marker": "",
+                    "class": "",
+                    "content": [
+                      {
+                        "block": "text",
+                        "class": "",
+                        "text": "9. The robotics club of my school",
+                        "name": "SHoF",
+                        "hidden": false,
+                        "id": "k6vboOeZqzhkh4KJC1jux3vXVNhpqqa0"
+                      },
+                      {
+                        "marker": "",
+                        "class": "inline-block ",
+                        "content": [
+                          {
+                            "case": false,
+                            "evaluation": "auto",
+                            "class": "text-center",
+                            "positive": "has won",
+                            "multiline": false,
+                            "placeholder": "-",
+                            "showResult": false,
+                            "id": "gfQKYgD5MkDlNKkvov1GgTcmgBjwt2awPC0I",
+                            "block": "textarea",
+                            "name": "yvDK",
+                            "maxlength": 0,
+                            "attempts": 0
+                          }
+                        ],
+                        "background": "",
+                        "id": "Y8zNQ4KDIYvvfoeEuaQhUYCHvqRu6sY6CBOc",
+                        "block": "group",
+                        "name": "oPUZ"
+                      },
+                      {
+                        "block": "text",
+                        "class": "",
+                        "text": "(win) a tech innovation award for a groundbreaking invention.",
+                        "name": "8xLS",
+                        "hidden": false,
+                        "id": "lA3DiT1gFWTfGAthHV96vHV0lgQdRu20LwuEOoxm"
+                      }
+                    ],
+                    "background": "",
+                    "id": "p1QfAj7E",
+                    "block": "group",
+                    "name": "i1Zu"
+                  },
+                  {
+                    "marker": "",
+                    "class": "",
+                    "content": [
+                      {
+                        "block": "text",
+                        "class": "",
+                        "text": "10. The English teaching staff",
+                        "name": "uP8h",
+                        "hidden": false,
+                        "id": "k6vboOeZqzhkh4KJC1jux3vXVNhpqqa01pud"
+                      },
+                      {
+                        "marker": "",
+                        "class": "inline-block ",
+                        "content": [
+                          {
+                            "case": false,
+                            "evaluation": "auto",
+                            "class": "text-center",
+                            "positive": "has set",
+                            "multiline": false,
+                            "placeholder": "-",
+                            "showResult": false,
+                            "id": "gfQKYgD5MkDlNKkvov1GgTcmgBjwt2awPC0Iyo2n",
+                            "block": "textarea",
+                            "name": "eB66",
+                            "maxlength": 0,
+                            "attempts": 0
+                          }
+                        ],
+                        "background": "",
+                        "id": "Y8zNQ4KDIYvvfoeEuaQhUYCHvqRu6sY6CBOccRHZ",
+                        "block": "group",
+                        "name": "oyjr"
+                      },
+                      {
+                        "block": "text",
+                        "class": "",
+                        "text": "(set) ambitious goals for the next course. We have to reach the B2 proficiency level. ",
+                        "name": "feDB",
+                        "hidden": false,
+                        "id": "lA3DiT1gFWTfGAthHV96vHV0lgQdRu20LwuEOoxmQt2s"
+                      }
+                    ],
+                    "background": "",
+                    "id": "SNNxr82a",
+                    "block": "group",
+                    "name": "FHO9"
+                  }
+                ],
+                "background": "",
+                "id": "HsZj",
+                "block": "group",
+                "name": "0O86"
+              }
+            ],
+            "background": "",
+            "name": "4Cs6",
+            "hidden": false
+          },
+          {
+            "symbol": "FinalizeGroup"
+          }
+        ],
+        "id": ""
+      }
+    ]
+  },
+  "end": {
+    "buttons": {
+      "restart": false
+    },
+    "content": [
+      {
+        "symbol": "finishedAll"
+      }
+    ]
+  },
+  "symbols": {
+    "finishedAll": {
+      "class": "w-full",
+      "content": [
+        {
+          "block": "group",
+          "class": "bg-slate-100 rounded p-5 text-center w-full",
+          "content": [
+            {
+              "block": "text",
+              "text": "Congratulations, you finished the activity.",
+              "class": "",
+              "name": "Congra"
+            }
+          ],
+          "background": "",
+          "name": "CongraGroup"
+        },
+        {
+          "block": "group",
+          "class": "text-center p-5",
+          "content": [
+            {
+              "block": "finished",
+              "name": "finishedBlock"
+            }
+          ],
+          "background": "",
+          "name": "finishedGroup"
+        }
+      ],
+      "background": "",
+      "block": "group"
+    },
+    "FinalizeGroup": {
+      "block": "group",
+      "class": "text-center mt-10",
+      "content": [
+        {
+          "block": "button",
+          "class": "mx-auto",
+          "to": "/end",
+          "text": "Finalize",
+          "name": "FinalizeBTN"
+        }
+      ],
+      "background": ""
+    }
+  },
+  "attempts": 0
+}
