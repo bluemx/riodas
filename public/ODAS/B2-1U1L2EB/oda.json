@@ -1,1 +1,606 @@
-{"title":"History","clock":true,"countdown":0,"attempts":0,"intro":{"buttons":{"start":"Start"},"content":[]},"activity":{"scenes":[{"block":"scene","name":"SC1","countdown":0,"instructions":{"open":true,"content":[{"block":"group","class":"flex gap-2 items-center","content":[{"block":"audio","class":"","file":"files/INS.mp3"},{"block":"text","class":"","text":"Click on the play button, listen to the following vocabulary and finally, record your voice."}]}]},"content":[{"marker":"📒","class":"bg-slate-100 rounded p-2 max-w-5xl  mx-auto","content":[{"marker":"","class":"mask mask-squircle p-2 bg-sky-900 flex justify-center my-10","content":[{"file":"files/B2-1U1L2EB-IMG-01.jpg","class":"w-2/4 mask mask-squircle","id":"HpU3","block":"image","name":"Gcpc"}],"background":"","id":"GLiU","block":"group","name":"8WPs"},{"marker":"","class":"","content":[{"marker":"","class":"bg-sky-900 rounded-lg p-1 my-1","content":[{"marker":"","class":"text-2xl bg-sky-100 p-5 rounded-lg","content":[{"marker":"","class":"flex items-center justify-center bg-sky-300 rounded-lg border-sky-900 border-4","content":[{"text":"1.- Chronology.","class":"","id":"3DB1","block":"text","name":"FMwB"},{"file":"files/Chronology.mp3","wave":false,"class":"","autoplay":false,"id":"DeMu","block":"audio","name":"Urfh"}],"background":"","id":"1xDK","block":"group","name":"U2fx"},{"marker":"","class":"bg-sky-900 rounded-lg p-1","content":[{"class":"","attempts":3,"positive":"Chronology","timelimit":10,"evaluation":"auto","id":"xnYq","block":"record","name":"gzTZ"}],"background":"","id":"QgalNf22","block":"group","name":"9dSu"}],"background":"","id":"DweQ","block":"group","name":"cW1h"}],"background":"","id":"fzNe","block":"group","name":"tMC4"},{"marker":"","class":"bg-sky-900 rounded-lg p-1 my-1","content":[{"marker":"","class":"text-2xl bg-sky-100 p-5 rounded-lg","content":[{"marker":"","class":"flex items-center justify-center bg-sky-300 rounded-lg border-sky-900 border-4","content":[{"text":"2.- Story.","class":"","id":"3DB12BCl","block":"text","name":"ToMY"},{"file":"files/Story.mp3","wave":false,"class":"","autoplay":false,"id":"DeMuio9g","block":"audio","name":"R91D"}],"background":"","id":"1xDK86EH","block":"group","name":"keai"},{"marker":"","class":"bg-sky-900 rounded-lg p-1","content":[{"class":"","attempts":3,"positive":"Story","timelimit":10,"evaluation":"auto","id":"xnYq4N9r","block":"record","name":"4ugN"}],"background":"","id":"QgalNf22bftm","block":"group","name":"ssFf"}],"background":"","id":"DweQnS85","block":"group","name":"MHfm"}],"background":"","id":"js94LiA5","block":"group","name":"ZMjR"},{"marker":"","class":"bg-sky-900 rounded-lg p-1 my-1","content":[{"marker":"","class":"text-2xl bg-sky-100 p-5 rounded-lg","content":[{"marker":"","class":"flex items-center justify-center bg-sky-300 rounded-lg border-sky-900 border-4","content":[{"text":"3.- Record.","class":"","id":"3DB12BClysRk","block":"text","name":"LrH0"},{"file":"files/Record.mp3","wave":false,"class":"","autoplay":false,"id":"DeMuio9gvaP7","block":"audio","name":"PeL7"}],"background":"","id":"1xDK86EHA8uU","block":"group","name":"4qgT"},{"marker":"","class":"bg-sky-900 rounded-lg p-1","content":[{"class":"","attempts":3,"positive":"Record","timelimit":10,"evaluation":"auto","id":"xnYq4N9rSBuZ","block":"record","name":"uk0c"}],"background":"","id":"QgalNf22bftm3uvf","block":"group","name":"Of0L"}],"background":"","id":"DweQnS85dZb7","block":"group","name":"6NyF"}],"background":"","id":"yHiatyI7","block":"group","name":"wKa3"},{"marker":"","class":"bg-sky-900 rounded-lg p-1 my-1","content":[{"marker":"","class":"text-2xl bg-sky-100 p-5 rounded-lg","content":[{"marker":"","class":"flex items-center justify-center bg-sky-300 rounded-lg border-sky-900 border-4","content":[{"text":"4.- Epic.","class":"","id":"3DB12BClysRkriuZ","block":"text","name":"hBUk"},{"file":"files/Epic.mp3","wave":false,"class":"","autoplay":false,"id":"DeMuio9gvaP7hyyQ","block":"audio","name":"y7Ue"}],"background":"","id":"1xDK86EHA8uUduYx","block":"group","name":"2jW0"},{"marker":"","class":"bg-sky-900 rounded-lg p-1","content":[{"class":"","attempts":3,"positive":"Epic","timelimit":10,"evaluation":"auto","id":"xnYq4N9rSBuZVyOm","block":"record","name":"aFbe"}],"background":"","id":"QgalNf22bftm3uvfIVNG","block":"group","name":"Wnbm"}],"background":"","id":"DweQnS85dZb7JSeL","block":"group","name":"Wfqv"}],"background":"","id":"VHfxoQvX","block":"group","name":"23cs"},{"marker":"","class":"bg-sky-900 rounded-lg p-1 my-1","content":[{"marker":"","class":"text-2xl bg-sky-100 p-5 rounded-lg","content":[{"marker":"","class":"flex items-center justify-center bg-sky-300 rounded-lg border-sky-900 border-4","content":[{"text":"5.- Chronicle.","class":"","id":"3DB12BClysRkriuZ5FGj","block":"text","name":"ROYA"},{"file":"files/Chronicle.mp3","wave":false,"class":"","autoplay":false,"id":"DeMuio9gvaP7hyyQxjgT","block":"audio","name":"wLjR"}],"background":"","id":"1xDK86EHA8uUduYxH7Al","block":"group","name":"L7Ol"},{"marker":"","class":"bg-sky-900 rounded-lg p-1","content":[{"class":"","attempts":3,"positive":"Chronicle","timelimit":10,"evaluation":"auto","id":"xnYq4N9rSBuZVyOm1nTW","block":"record","name":"o7Us"}],"background":"","id":"QgalNf22bftm3uvfIVNGEk5Y","block":"group","name":"IE03"}],"background":"","id":"DweQnS85dZb7JSeLeBF2","block":"group","name":"fjp0"}],"background":"","id":"FusMcKK2","block":"group","name":"X6BL"},{"marker":"","class":"bg-sky-900 rounded-lg p-1 my-1","content":[{"marker":"","class":"text-2xl bg-sky-100 p-5 rounded-lg","content":[{"marker":"","class":"flex items-center justify-center bg-sky-300 rounded-lg border-sky-900 border-4","content":[{"text":"6.- Testimony.","class":"","id":"3DB12BClysRkriuZ5FGjNIpf","block":"text","name":"kfko"},{"file":"files/Testimony.mp3","wave":false,"class":"","autoplay":false,"id":"DeMuio9gvaP7hyyQxjgTQkvi","block":"audio","name":"il52"}],"background":"","id":"1xDK86EHA8uUduYxH7Al6bTc","block":"group","name":"ZSzS"},{"marker":"","class":"bg-sky-900 rounded-lg p-1","content":[{"class":"","attempts":3,"positive":"Testimony","timelimit":10,"evaluation":"auto","id":"xnYq4N9rSBuZVyOm1nTWkMry","block":"record","name":"ZFpe"}],"background":"","id":"QgalNf22bftm3uvfIVNGEk5Yqdm9","block":"group","name":"1WQh"}],"background":"","id":"DweQnS85dZb7JSeLeBF2OCGx","block":"group","name":"Pjkk"}],"background":"","id":"YkC2mLfR","block":"group","name":"wUEv"},{"marker":"","class":"bg-sky-900 rounded-lg p-1 my-1","content":[{"marker":"","class":"text-2xl bg-sky-100 p-5 rounded-lg","content":[{"marker":"","class":"flex items-center justify-center bg-sky-300 rounded-lg border-sky-900 border-4","content":[{"text":"7.- Narrative.","class":"","id":"3DB12BClysRkriuZ5FGjNIpfkHkP","block":"text","name":"S5p7"},{"file":"files/Narrative.mp3","wave":false,"class":"","autoplay":false,"id":"DeMuio9gvaP7hyyQxjgTQkvizBkq","block":"audio","name":"vzm8"}],"background":"","id":"1xDK86EHA8uUduYxH7Al6bTcmM1X","block":"group","name":"d1rn"},{"marker":"","class":"bg-sky-900 rounded-lg p-1","content":[{"class":"","attempts":3,"positive":"Narrative","timelimit":10,"evaluation":"auto","id":"xnYq4N9rSBuZVyOm1nTWkMrykvHz","block":"record","name":"51xa"}],"background":"","id":"QgalNf22bftm3uvfIVNGEk5Yqdm9Jrek","block":"group","name":"BA3E"}],"background":"","id":"DweQnS85dZb7JSeLeBF2OCGxnHi9","block":"group","name":"qNN1"}],"background":"","id":"ekKYpxeQ","block":"group","name":"5ifi"}],"background":"","id":"CJIk","block":"group","name":"F7vr","hidden":false}],"background":"","id":"gpo1","block":"group","name":"gpo1"},{"symbol":"FinalizeGroup"}]}]},"end":{"buttons":{"restart":false},"content":[{"symbol":"finishedAll"}]},"symbols":{"finishedAll":{"class":"w-full","content":[{"block":"group","class":"bg-slate-100 rounded p-5 text-center w-full","content":[{"block":"text","text":"Congratulations, you finished the activity.","class":"","name":"Congra"}],"background":"","name":"CongraGroup"},{"block":"group","class":"text-center p-5","content":[{"block":"finished","name":"finishedBlock"}],"background":"","name":"finishedGroup"}],"background":"","block":"group"},"FinalizeGroup":{"block":"group","class":"text-center mt-10","content":[{"block":"button","class":"mx-auto","to":"/end","text":"Finalize","name":"FinalizeBTN"}],"background":""}}}
+{
+  "title": "History",
+  "clock": true,
+  "countdown": 0,
+  "attempts": 0,
+  "intro": {
+    "buttons": {
+      "start": "Start"
+    },
+    "content": []
+  },
+  "activity": {
+    "scenes": [
+      {
+        "block": "scene",
+        "name": "SC1",
+        "countdown": 0,
+        "instructions": {
+          "open": true,
+          "content": [
+            {
+              "block": "group",
+              "class": "flex gap-2 items-center",
+              "content": [
+                {
+                  "block": "audio",
+                  "class": "",
+                  "file": "files/INS.mp3"
+                },
+                {
+                  "block": "text",
+                  "class": "",
+                  "text": "Click on the play button, listen to the following vocabulary and finally, record your voice."
+                }
+              ]
+            }
+          ]
+        },
+        "content": [
+          {
+            "marker": "📒",
+            "class": "bg-slate-100 rounded p-2 max-w-5xl  mx-auto",
+            "content": [
+              {
+                "marker": "",
+                "class": "mask mask-squircle p-2 bg-sky-900 flex justify-center my-10",
+                "content": [
+                  {
+                    "file": "files/B2-1U1L2EB-IMG-01.jpg",
+                    "class": "w-2/4 mask mask-squircle",
+                    "id": "HpU3",
+                    "block": "image",
+                    "name": "Gcpc"
+                  }
+                ],
+                "background": "",
+                "id": "GLiU",
+                "block": "group",
+                "name": "8WPs"
+              },
+              {
+                "marker": "",
+                "class": "",
+                "content": [
+                  {
+                    "marker": "",
+                    "class": "bg-sky-900 rounded-lg p-1 my-1",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "text-2xl bg-sky-100 p-5 rounded-lg",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": "flex items-center justify-center bg-sky-300 rounded-lg border-sky-900 border-4",
+                            "content": [
+                              {
+                                "text": "1.- Chronology.",
+                                "class": "",
+                                "id": "3DB1",
+                                "block": "text",
+                                "name": "FMwB"
+                              },
+                              {
+                                "file": "files/Chronology.mp3",
+                                "wave": false,
+                                "class": "",
+                                "autoplay": false,
+                                "id": "DeMu",
+                                "block": "audio",
+                                "name": "Urfh"
+                              }
+                            ],
+                            "background": "",
+                            "id": "1xDK",
+                            "block": "group",
+                            "name": "U2fx"
+                          },
+                          {
+                            "marker": "",
+                            "class": "bg-sky-900 rounded-lg p-1",
+                            "content": [
+                              {
+                                "class": "",
+                                "attempts": 3,
+                                "positive": "Chronology",
+                                "timelimit": 10,
+                                "evaluation": "auto",
+                                "id": "xnYq",
+                                "block": "record",
+                                "name": "gzTZ"
+                              }
+                            ],
+                            "background": "",
+                            "id": "QgalNf22",
+                            "block": "group",
+                            "name": "9dSu"
+                          }
+                        ],
+                        "background": "",
+                        "id": "DweQ",
+                        "block": "group",
+                        "name": "cW1h"
+                      }
+                    ],
+                    "background": "",
+                    "id": "fzNe",
+                    "block": "group",
+                    "name": "tMC4"
+                  },
+                  {
+                    "marker": "",
+                    "class": "bg-sky-900 rounded-lg p-1 my-1",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "text-2xl bg-sky-100 p-5 rounded-lg",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": "flex items-center justify-center bg-sky-300 rounded-lg border-sky-900 border-4",
+                            "content": [
+                              {
+                                "text": "2.- Story.",
+                                "class": "",
+                                "id": "3DB12BCl",
+                                "block": "text",
+                                "name": "ToMY"
+                              },
+                              {
+                                "file": "files/Story.mp3",
+                                "wave": false,
+                                "class": "",
+                                "autoplay": false,
+                                "id": "DeMuio9g",
+                                "block": "audio",
+                                "name": "R91D"
+                              }
+                            ],
+                            "background": "",
+                            "id": "1xDK86EH",
+                            "block": "group",
+                            "name": "keai"
+                          },
+                          {
+                            "marker": "",
+                            "class": "bg-sky-900 rounded-lg p-1",
+                            "content": [
+                              {
+                                "class": "",
+                                "attempts": 3,
+                                "positive": "Story",
+                                "timelimit": 10,
+                                "evaluation": "auto",
+                                "id": "xnYq4N9r",
+                                "block": "record",
+                                "name": "4ugN"
+                              }
+                            ],
+                            "background": "",
+                            "id": "QgalNf22bftm",
+                            "block": "group",
+                            "name": "ssFf"
+                          }
+                        ],
+                        "background": "",
+                        "id": "DweQnS85",
+                        "block": "group",
+                        "name": "MHfm"
+                      }
+                    ],
+                    "background": "",
+                    "id": "js94LiA5",
+                    "block": "group",
+                    "name": "ZMjR"
+                  },
+                  {
+                    "marker": "",
+                    "class": "bg-sky-900 rounded-lg p-1 my-1",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "text-2xl bg-sky-100 p-5 rounded-lg",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": "flex items-center justify-center bg-sky-300 rounded-lg border-sky-900 border-4",
+                            "content": [
+                              {
+                                "text": "3.- Record.",
+                                "class": "",
+                                "id": "3DB12BClysRk",
+                                "block": "text",
+                                "name": "LrH0"
+                              },
+                              {
+                                "file": "files/Record.mp3",
+                                "wave": false,
+                                "class": "",
+                                "autoplay": false,
+                                "id": "DeMuio9gvaP7",
+                                "block": "audio",
+                                "name": "PeL7"
+                              }
+                            ],
+                            "background": "",
+                            "id": "1xDK86EHA8uU",
+                            "block": "group",
+                            "name": "4qgT"
+                          },
+                          {
+                            "marker": "",
+                            "class": "bg-sky-900 rounded-lg p-1",
+                            "content": [
+                              {
+                                "class": "",
+                                "attempts": 3,
+                                "positive": "Record",
+                                "timelimit": 10,
+                                "evaluation": "auto",
+                                "id": "xnYq4N9rSBuZ",
+                                "block": "record",
+                                "name": "uk0c"
+                              }
+                            ],
+                            "background": "",
+                            "id": "QgalNf22bftm3uvf",
+                            "block": "group",
+                            "name": "Of0L"
+                          }
+                        ],
+                        "background": "",
+                        "id": "DweQnS85dZb7",
+                        "block": "group",
+                        "name": "6NyF"
+                      }
+                    ],
+                    "background": "",
+                    "id": "yHiatyI7",
+                    "block": "group",
+                    "name": "wKa3"
+                  },
+                  {
+                    "marker": "",
+                    "class": "bg-sky-900 rounded-lg p-1 my-1",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "text-2xl bg-sky-100 p-5 rounded-lg",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": "flex items-center justify-center bg-sky-300 rounded-lg border-sky-900 border-4",
+                            "content": [
+                              {
+                                "text": "4.- Epic.",
+                                "class": "",
+                                "id": "3DB12BClysRkriuZ",
+                                "block": "text",
+                                "name": "hBUk"
+                              },
+                              {
+                                "file": "files/Epic.mp3",
+                                "wave": false,
+                                "class": "",
+                                "autoplay": false,
+                                "id": "DeMuio9gvaP7hyyQ",
+                                "block": "audio",
+                                "name": "y7Ue"
+                              }
+                            ],
+                            "background": "",
+                            "id": "1xDK86EHA8uUduYx",
+                            "block": "group",
+                            "name": "2jW0"
+                          },
+                          {
+                            "marker": "",
+                            "class": "bg-sky-900 rounded-lg p-1",
+                            "content": [
+                              {
+                                "class": "",
+                                "attempts": 3,
+                                "positive": "Epic",
+                                "timelimit": 10,
+                                "evaluation": "auto",
+                                "id": "xnYq4N9rSBuZVyOm",
+                                "block": "record",
+                                "name": "aFbe"
+                              }
+                            ],
+                            "background": "",
+                            "id": "QgalNf22bftm3uvfIVNG",
+                            "block": "group",
+                            "name": "Wnbm"
+                          }
+                        ],
+                        "background": "",
+                        "id": "DweQnS85dZb7JSeL",
+                        "block": "group",
+                        "name": "Wfqv"
+                      }
+                    ],
+                    "background": "",
+                    "id": "VHfxoQvX",
+                    "block": "group",
+                    "name": "23cs"
+                  },
+                  {
+                    "marker": "",
+                    "class": "bg-sky-900 rounded-lg p-1 my-1",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "text-2xl bg-sky-100 p-5 rounded-lg",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": "flex items-center justify-center bg-sky-300 rounded-lg border-sky-900 border-4",
+                            "content": [
+                              {
+                                "text": "5.- Chronicle.",
+                                "class": "",
+                                "id": "3DB12BClysRkriuZ5FGj",
+                                "block": "text",
+                                "name": "ROYA"
+                              },
+                              {
+                                "file": "files/Chronicle.mp3",
+                                "wave": false,
+                                "class": "",
+                                "autoplay": false,
+                                "id": "DeMuio9gvaP7hyyQxjgT",
+                                "block": "audio",
+                                "name": "wLjR"
+                              }
+                            ],
+                            "background": "",
+                            "id": "1xDK86EHA8uUduYxH7Al",
+                            "block": "group",
+                            "name": "L7Ol"
+                          },
+                          {
+                            "marker": "",
+                            "class": "bg-sky-900 rounded-lg p-1",
+                            "content": [
+                              {
+                                "class": "",
+                                "attempts": 3,
+                                "positive": "Chronicle",
+                                "timelimit": 10,
+                                "evaluation": "auto",
+                                "id": "xnYq4N9rSBuZVyOm1nTW",
+                                "block": "record",
+                                "name": "o7Us"
+                              }
+                            ],
+                            "background": "",
+                            "id": "QgalNf22bftm3uvfIVNGEk5Y",
+                            "block": "group",
+                            "name": "IE03"
+                          }
+                        ],
+                        "background": "",
+                        "id": "DweQnS85dZb7JSeLeBF2",
+                        "block": "group",
+                        "name": "fjp0"
+                      }
+                    ],
+                    "background": "",
+                    "id": "FusMcKK2",
+                    "block": "group",
+                    "name": "X6BL"
+                  },
+                  {
+                    "marker": "",
+                    "class": "bg-sky-900 rounded-lg p-1 my-1",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "text-2xl bg-sky-100 p-5 rounded-lg",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": "flex items-center justify-center bg-sky-300 rounded-lg border-sky-900 border-4",
+                            "content": [
+                              {
+                                "text": "6.- Testimony.",
+                                "class": "",
+                                "id": "3DB12BClysRkriuZ5FGjNIpf",
+                                "block": "text",
+                                "name": "kfko"
+                              },
+                              {
+                                "file": "files/Testimony.mp3",
+                                "wave": false,
+                                "class": "",
+                                "autoplay": false,
+                                "id": "DeMuio9gvaP7hyyQxjgTQkvi",
+                                "block": "audio",
+                                "name": "il52"
+                              }
+                            ],
+                            "background": "",
+                            "id": "1xDK86EHA8uUduYxH7Al6bTc",
+                            "block": "group",
+                            "name": "ZSzS"
+                          },
+                          {
+                            "marker": "",
+                            "class": "bg-sky-900 rounded-lg p-1",
+                            "content": [
+                              {
+                                "class": "",
+                                "attempts": 3,
+                                "positive": "Testimony",
+                                "timelimit": 10,
+                                "evaluation": "auto",
+                                "id": "xnYq4N9rSBuZVyOm1nTWkMry",
+                                "block": "record",
+                                "name": "ZFpe"
+                              }
+                            ],
+                            "background": "",
+                            "id": "QgalNf22bftm3uvfIVNGEk5Yqdm9",
+                            "block": "group",
+                            "name": "1WQh"
+                          }
+                        ],
+                        "background": "",
+                        "id": "DweQnS85dZb7JSeLeBF2OCGx",
+                        "block": "group",
+                        "name": "Pjkk"
+                      }
+                    ],
+                    "background": "",
+                    "id": "YkC2mLfR",
+                    "block": "group",
+                    "name": "wUEv"
+                  },
+                  {
+                    "marker": "",
+                    "class": "bg-sky-900 rounded-lg p-1 my-1",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "text-2xl bg-sky-100 p-5 rounded-lg",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": "flex items-center justify-center bg-sky-300 rounded-lg border-sky-900 border-4",
+                            "content": [
+                              {
+                                "text": "7.- Narrative.",
+                                "class": "",
+                                "id": "3DB12BClysRkriuZ5FGjNIpfkHkP",
+                                "block": "text",
+                                "name": "S5p7"
+                              },
+                              {
+                                "file": "files/Narrative.mp3",
+                                "wave": false,
+                                "class": "",
+                                "autoplay": false,
+                                "id": "DeMuio9gvaP7hyyQxjgTQkvizBkq",
+                                "block": "audio",
+                                "name": "vzm8"
+                              }
+                            ],
+                            "background": "",
+                            "id": "1xDK86EHA8uUduYxH7Al6bTcmM1X",
+                            "block": "group",
+                            "name": "d1rn"
+                          },
+                          {
+                            "marker": "",
+                            "class": "bg-sky-900 rounded-lg p-1",
+                            "content": [
+                              {
+                                "class": "",
+                                "attempts": 3,
+                                "positive": "Narrative",
+                                "timelimit": 10,
+                                "evaluation": "auto",
+                                "id": "xnYq4N9rSBuZVyOm1nTWkMrykvHz",
+                                "block": "record",
+                                "name": "51xa"
+                              }
+                            ],
+                            "background": "",
+                            "id": "QgalNf22bftm3uvfIVNGEk5Yqdm9Jrek",
+                            "block": "group",
+                            "name": "BA3E"
+                          }
+                        ],
+                        "background": "",
+                        "id": "DweQnS85dZb7JSeLeBF2OCGxnHi9",
+                        "block": "group",
+                        "name": "qNN1"
+                      }
+                    ],
+                    "background": "",
+                    "id": "ekKYpxeQ",
+                    "block": "group",
+                    "name": "5ifi"
+                  }
+                ],
+                "background": "",
+                "id": "CJIk",
+                "block": "group",
+                "name": "F7vr",
+                "hidden": false
+              }
+            ],
+            "background": "",
+            "id": "gpo1",
+            "block": "group",
+            "name": "gpo1"
+          },
+          {
+            "symbol": "FinalizeGroup"
+          }
+        ]
+      }
+    ]
+  },
+  "end": {
+    "buttons": {
+      "restart": false
+    },
+    "content": [
+      {
+        "symbol": "finishedAll"
+      }
+    ]
+  },
+  "symbols": {
+    "finishedAll": {
+      "class": "w-full",
+      "content": [
+        {
+          "block": "group",
+          "class": "bg-slate-100 rounded p-5 text-center w-full",
+          "content": [
+            {
+              "block": "text",
+              "text": "Congratulations, you finished the activity.",
+              "class": "",
+              "name": "Congra"
+            }
+          ],
+          "background": "",
+          "name": "CongraGroup"
+        },
+        {
+          "block": "group",
+          "class": "text-center p-5",
+          "content": [
+            {
+              "block": "finished",
+              "name": "finishedBlock"
+            }
+          ],
+          "background": "",
+          "name": "finishedGroup"
+        }
+      ],
+      "background": "",
+      "block": "group"
+    },
+    "FinalizeGroup": {
+      "block": "group",
+      "class": "text-center mt-10",
+      "content": [
+        {
+          "block": "button",
+          "class": "mx-auto",
+          "to": "/end",
+          "text": "Finalize",
+          "name": "FinalizeBTN"
+        }
+      ],
+      "background": ""
+    }
+  }
+}
