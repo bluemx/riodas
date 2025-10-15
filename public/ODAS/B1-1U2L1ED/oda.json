@@ -1,1 +1,548 @@
-{"title":"Food.","clock":false,"countdown":0,"intro":{"buttons":{"start":"Start"},"content":[]},"activity":{"scenes":[{"block":"scene","name":"SC1","countdown":0,"instructions":{"open":true,"content":[{"block":"group","class":"flex gap-2 items-center","content":[{"block":"audio","class":"","file":"files/B1-1U2L1ED-INS.mp3","wave":false,"autoplay":false,"id":"","name":"EOex"},{"block":"text","class":"","text":"Fill in the blanks with the right quantifier. Take into consideration that there could be more than one right answer.","id":"","name":"0OFw"}]}]},"content":[{"block":"group","class":"bg-slate-100 rounded p-3 my-2 max-w-5xl mx-auto","content":[{"marker":"","class":"my-10 flex justify-center bg-red-500 p-2 mask mask-squircle","content":[{"file":"files/B1-1U2L1ED-IMG-01.jpg","class":"w-2/4 mask mask-squircle ","id":"Ivrp","block":"image","name":"GTze"}],"background":"","id":"GQPl","block":"group","name":"Ko4P"},{"marker":"","class":"text-2xl border-red-500 p-5 border-dashed border-4 grid grid-cols-5 gap-5 text-center","content":[{"text":"some","class":"bg-slate-200 p-5 rounded-lg","id":"NwPU9DsO","block":"text","name":"wsB8"},{"text":"many","class":"bg-slate-200 p-5 rounded-lg","id":"Dy2c8eLqhDgf","block":"text","name":"Bjp8"},{"text":"much","class":"bg-slate-200 p-5 rounded-lg","id":"5gGjPMigttAN","block":"text","name":"w6Ep"},{"text":"a lot of","class":"bg-slate-200 p-5 rounded-lg","id":"jaDSZsu53de3","block":"text","name":"imq1"},{"text":"enough","class":"bg-slate-200 p-5 rounded-lg","id":"Z6yqwTHUjbBZ","block":"text","name":"pbbL"}],"background":"","id":"gRb04Uzn","block":"group","name":"6h7j"},{"marker":"","class":"","content":[{"marker":"","class":"text-2xl bg-red-500 rounded-lg p-1 my-10","content":[{"marker":"","class":" bg-slate-50 p-5 rounded-lg","content":[{"marker":"","class":"","content":[{"text":"I usually go with my mom to buy the groceries for the week. We go every Sunday because me and my brother, we eat","class":"","id":"Cg4Y","block":"text","name":"RNL3"},{"marker":"","class":"inline-block mx-2 align-middle","content":[{"case":false,"evaluation":"auto","class":"text-center","positive":"a lot of","multiline":false,"placeholder":"","showResult":false,"id":"DhHm","block":"textarea","name":"fXyW","maxlength":0,"attempts":0}],"background":"","id":"69Gi","block":"group","name":"xYz5"},{"text":"food. My mother buys","class":"","id":"SS09F4re","block":"text","name":"Vpuo"},{"marker":"","class":"inline-block mx-2 align-middle","content":[{"case":false,"evaluation":"auto","class":"text-center","positive":"enough","multiline":false,"placeholder":"","showResult":false,"id":"DhHmQlIy","block":"textarea","name":"katc","maxlength":0,"attempts":0}],"background":"","id":"w5EoxulK","block":"group","name":"eK6e"},{"text":"milk,","class":"","id":"ie7jlce5","block":"text","name":"YW8a"},{"marker":"","class":"inline-block mx-2 align-middle","content":[{"case":false,"evaluation":"auto","class":"text-center","positive":"some","multiline":false,"placeholder":"","showResult":false,"id":"DhHmQlIyfOhdn6oL","block":"textarea","name":"bjCE","maxlength":0,"attempts":0}],"background":"","id":"z4su1o7s","block":"group","name":"bsFD"},{"text":"fruit and","class":"","id":"NkcRCBo2","block":"text","name":"49DE"},{"marker":"","class":"inline-block mx-2 align-middle","content":[{"case":false,"evaluation":"auto","class":"text-center","positive":"much","multiline":false,"placeholder":"","showResult":false,"id":"DhHmQlIyfOhdn6oLPwqT","block":"textarea","name":"zbGb","maxlength":0,"attempts":0}],"background":"","id":"iY72JAOK","block":"group","name":"eYRF"},{"text":"bread. Those items are never missing in our fridge. But we also buy stuff to cook during the week, this time we want to make tacos. We will need","class":"","id":"8taPwylo","block":"text","name":"Vmjn"},{"marker":"","class":"inline-block mx-2 align-middle","content":[{"case":false,"evaluation":"auto","class":"text-center","positive":"some","multiline":false,"placeholder":"","showResult":false,"id":"DhHmQlIyfOhdn6oLPwqT9mAh","block":"textarea","name":"f4bu","maxlength":0,"attempts":0}],"background":"","id":"TmneQrIE","block":"group","name":"YQE8"},{"text":"avocados,","class":"","id":"LwDj9kqC","block":"text","name":"3WCX"},{"marker":"","class":"inline-block mx-2 align-middle","content":[{"case":false,"evaluation":"auto","class":"text-center","positive":"many","multiline":false,"placeholder":"","showResult":false,"id":"DhHmQlIyfOhdn6oLPwqT9mAhqd23","block":"textarea","name":"1gQs","maxlength":0,"attempts":0}],"background":"","id":"yR2Age0V","block":"group","name":"M36O"},{"text":"tortillas,","class":"","id":"5JdvWTBl","block":"text","name":"8Miw"},{"marker":"","class":"inline-block mx-2 align-middle","content":[{"case":false,"evaluation":"auto","class":"text-center","positive":"a lot of","multiline":false,"placeholder":"","showResult":false,"id":"DhHmQlIyfOhdn6oLPwqT9mAhqd23rnGc","block":"textarea","name":"UTr1","maxlength":0,"attempts":0}],"background":"","id":"7lIIZojP","block":"group","name":"qyec"},{"text":"lemons and onions and defenitely ","class":"","id":"OMf4uO3y","block":"text","name":"TNgR"},{"marker":"","class":"inline-block mx-2 align-middle","content":[{"case":false,"evaluation":"auto","class":"text-center","positive":"enough","multiline":false,"placeholder":"","showResult":false,"id":"DhHmQlIyfOhdn6oLPwqT9mAhqd23rnGcTtkW","block":"textarea","name":"gstX","maxlength":0,"attempts":0}],"background":"","id":"iUcrxSI8","block":"group","name":"8tyg"},{"text":"meat.  We also need","class":"","id":"Uh4sbKaa","block":"text","name":"vEp9"},{"marker":"","class":"inline-block mx-2 align-middle","content":[{"case":false,"evaluation":"auto","class":"text-center","positive":"some","multiline":false,"placeholder":"","showResult":false,"id":"DhHmQlIyfOhdn6oLPwqT9mAhqd23rnGcTtkWg7eP","block":"textarea","name":"whh8","maxlength":0,"attempts":0}],"background":"","id":"ccoVPNv7","block":"group","name":"ie1V"},{"text":"other ingredients to make salsa. We will need","class":"","id":"qUG7EoxK","block":"text","name":"rD6r"},{"marker":"","class":"inline-block mx-2 align-middle","content":[{"case":false,"evaluation":"auto","class":"text-center","positive":"many","multiline":false,"placeholder":"","showResult":false,"id":"DhHmQlIyfOhdn6oLPwqT9mAhqd23rnGcTtkWg7ePmVBI","block":"textarea","name":"MpH3","maxlength":0,"attempts":0}],"background":"","id":"t6KiykCH","block":"group","name":"3G0b"},{"text":"peppers too.  ","class":"","id":"JtgYoqAt","block":"text","name":"YOW5"}],"background":"","id":"1ZS6","block":"group","name":"GPDG"}],"background":"","id":"aXuw","block":"group","name":"uauB"}],"background":"","id":"bQU0","block":"group","name":"xIRO","hidden":false}],"background":"","id":"zRU7","block":"group","name":"Rail","hidden":false}],"background":"","name":"4Cs6","hidden":false,"marker":"","id":""},{"symbol":"FinalizeGroup"}],"id":""}]},"end":{"buttons":{"restart":false},"content":[{"symbol":"finishedAll"}]},"symbols":{"finishedAll":{"class":"w-full","content":[{"block":"group","class":"bg-slate-100 rounded p-5 text-center w-full","content":[{"block":"text","text":"Congratulations, you finished the activity.","class":"","name":"Congra"}],"background":"","name":"CongraGroup"},{"block":"group","class":"text-center p-5","content":[{"block":"finished","name":"finishedBlock"}],"background":"","name":"finishedGroup"}],"background":"","block":"group"},"FinalizeGroup":{"block":"group","class":"text-center mt-10","content":[{"block":"button","class":"mx-auto","to":"/end","text":"Finalize","name":"FinalizeBTN"}],"background":""}},"metadata":{"sync":0.9005925480443799},"attempts":0}
+{
+  "title": "Food.",
+  "clock": false,
+  "countdown": 0,
+  "intro": {
+    "buttons": {
+      "start": "Start"
+    },
+    "content": []
+  },
+  "activity": {
+    "scenes": [
+      {
+        "block": "scene",
+        "name": "SC1",
+        "countdown": 0,
+        "instructions": {
+          "open": true,
+          "content": [
+            {
+              "block": "group",
+              "class": "flex gap-2 items-center",
+              "content": [
+                {
+                  "block": "audio",
+                  "class": "",
+                  "file": "files/B1-1U2L1ED-INS.mp3",
+                  "wave": false,
+                  "autoplay": false,
+                  "id": "",
+                  "name": "EOex"
+                },
+                {
+                  "block": "text",
+                  "class": "",
+                  "text": "Fill in the blanks with the right quantifier. Take into consideration that there could be more than one right answer.",
+                  "id": "",
+                  "name": "0OFw"
+                }
+              ]
+            }
+          ]
+        },
+        "content": [
+          {
+            "block": "group",
+            "class": "bg-slate-100 rounded p-3 my-2 max-w-5xl mx-auto",
+            "content": [
+              {
+                "marker": "",
+                "class": "my-10 flex justify-center bg-red-500 p-2 mask mask-squircle",
+                "content": [
+                  {
+                    "file": "files/B1-1U2L1ED-IMG-01.jpg",
+                    "class": "w-2/4 mask mask-squircle ",
+                    "id": "Ivrp",
+                    "block": "image",
+                    "name": "GTze"
+                  }
+                ],
+                "background": "",
+                "id": "GQPl",
+                "block": "group",
+                "name": "Ko4P"
+              },
+              {
+                "marker": "",
+                "class": "text-2xl border-red-500 p-5 border-dashed border-4 grid grid-cols-5 gap-5 text-center",
+                "content": [
+                  {
+                    "text": "some",
+                    "class": "bg-slate-200 p-5 rounded-lg",
+                    "id": "NwPU9DsO",
+                    "block": "text",
+                    "name": "wsB8"
+                  },
+                  {
+                    "text": "many",
+                    "class": "bg-slate-200 p-5 rounded-lg",
+                    "id": "Dy2c8eLqhDgf",
+                    "block": "text",
+                    "name": "Bjp8"
+                  },
+                  {
+                    "text": "much",
+                    "class": "bg-slate-200 p-5 rounded-lg",
+                    "id": "5gGjPMigttAN",
+                    "block": "text",
+                    "name": "w6Ep"
+                  },
+                  {
+                    "text": "a lot of",
+                    "class": "bg-slate-200 p-5 rounded-lg",
+                    "id": "jaDSZsu53de3",
+                    "block": "text",
+                    "name": "imq1"
+                  },
+                  {
+                    "text": "enough",
+                    "class": "bg-slate-200 p-5 rounded-lg",
+                    "id": "Z6yqwTHUjbBZ",
+                    "block": "text",
+                    "name": "pbbL"
+                  }
+                ],
+                "background": "",
+                "id": "gRb04Uzn",
+                "block": "group",
+                "name": "6h7j"
+              },
+              {
+                "marker": "",
+                "class": "",
+                "content": [
+                  {
+                    "marker": "",
+                    "class": "text-2xl bg-red-500 rounded-lg p-1 my-10",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": " bg-slate-50 p-5 rounded-lg",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": "",
+                            "content": [
+                              {
+                                "text": "I usually go with my mom to buy the groceries for the week. We go every Sunday because me and my brother, we eat",
+                                "class": "",
+                                "id": "Cg4Y",
+                                "block": "text",
+                                "name": "RNL3"
+                              },
+                              {
+                                "marker": "",
+                                "class": "inline-block mx-2 align-middle",
+                                "content": [
+                                  {
+                                    "case": false,
+                                    "evaluation": "manual",
+                                    "class": "text-center",
+                                    "positive": "a lot of",
+                                    "multiline": false,
+                                    "placeholder": "",
+                                    "showResult": false,
+                                    "id": "DhHm",
+                                    "block": "textarea",
+                                    "name": "fXyW",
+                                    "maxlength": 0,
+                                    "attempts": 0
+                                  }
+                                ],
+                                "background": "",
+                                "id": "69Gi",
+                                "block": "group",
+                                "name": "xYz5"
+                              },
+                              {
+                                "text": "food. My mother buys",
+                                "class": "",
+                                "id": "SS09F4re",
+                                "block": "text",
+                                "name": "Vpuo"
+                              },
+                              {
+                                "marker": "",
+                                "class": "inline-block mx-2 align-middle",
+                                "content": [
+                                  {
+                                    "case": false,
+                                    "evaluation": "manual",
+                                    "class": "text-center",
+                                    "positive": "enough",
+                                    "multiline": false,
+                                    "placeholder": "",
+                                    "showResult": false,
+                                    "id": "DhHmQlIy",
+                                    "block": "textarea",
+                                    "name": "katc",
+                                    "maxlength": 0,
+                                    "attempts": 0
+                                  }
+                                ],
+                                "background": "",
+                                "id": "w5EoxulK",
+                                "block": "group",
+                                "name": "eK6e"
+                              },
+                              {
+                                "text": "milk,",
+                                "class": "",
+                                "id": "ie7jlce5",
+                                "block": "text",
+                                "name": "YW8a"
+                              },
+                              {
+                                "marker": "",
+                                "class": "inline-block mx-2 align-middle",
+                                "content": [
+                                  {
+                                    "case": false,
+                                    "evaluation": "manual",
+                                    "class": "text-center",
+                                    "positive": "some",
+                                    "multiline": false,
+                                    "placeholder": "",
+                                    "showResult": false,
+                                    "id": "DhHmQlIyfOhdn6oL",
+                                    "block": "textarea",
+                                    "name": "bjCE",
+                                    "maxlength": 0,
+                                    "attempts": 0
+                                  }
+                                ],
+                                "background": "",
+                                "id": "z4su1o7s",
+                                "block": "group",
+                                "name": "bsFD"
+                              },
+                              {
+                                "text": "fruit and",
+                                "class": "",
+                                "id": "NkcRCBo2",
+                                "block": "text",
+                                "name": "49DE"
+                              },
+                              {
+                                "marker": "",
+                                "class": "inline-block mx-2 align-middle",
+                                "content": [
+                                  {
+                                    "case": false,
+                                    "evaluation": "manual",
+                                    "class": "text-center",
+                                    "positive": "much",
+                                    "multiline": false,
+                                    "placeholder": "",
+                                    "showResult": false,
+                                    "id": "DhHmQlIyfOhdn6oLPwqT",
+                                    "block": "textarea",
+                                    "name": "zbGb",
+                                    "maxlength": 0,
+                                    "attempts": 0
+                                  }
+                                ],
+                                "background": "",
+                                "id": "iY72JAOK",
+                                "block": "group",
+                                "name": "eYRF"
+                              },
+                              {
+                                "text": "bread. Those items are never missing in our fridge. But we also buy stuff to cook during the week, this time we want to make tacos. We will need",
+                                "class": "",
+                                "id": "8taPwylo",
+                                "block": "text",
+                                "name": "Vmjn"
+                              },
+                              {
+                                "marker": "",
+                                "class": "inline-block mx-2 align-middle",
+                                "content": [
+                                  {
+                                    "case": false,
+                                    "evaluation": "manual",
+                                    "class": "text-center",
+                                    "positive": "some",
+                                    "multiline": false,
+                                    "placeholder": "",
+                                    "showResult": false,
+                                    "id": "DhHmQlIyfOhdn6oLPwqT9mAh",
+                                    "block": "textarea",
+                                    "name": "f4bu",
+                                    "maxlength": 0,
+                                    "attempts": 0
+                                  }
+                                ],
+                                "background": "",
+                                "id": "TmneQrIE",
+                                "block": "group",
+                                "name": "YQE8"
+                              },
+                              {
+                                "text": "avocados,",
+                                "class": "",
+                                "id": "LwDj9kqC",
+                                "block": "text",
+                                "name": "3WCX"
+                              },
+                              {
+                                "marker": "",
+                                "class": "inline-block mx-2 align-middle",
+                                "content": [
+                                  {
+                                    "case": false,
+                                    "evaluation": "manual",
+                                    "class": "text-center",
+                                    "positive": "many",
+                                    "multiline": false,
+                                    "placeholder": "",
+                                    "showResult": false,
+                                    "id": "DhHmQlIyfOhdn6oLPwqT9mAhqd23",
+                                    "block": "textarea",
+                                    "name": "1gQs",
+                                    "maxlength": 0,
+                                    "attempts": 0
+                                  }
+                                ],
+                                "background": "",
+                                "id": "yR2Age0V",
+                                "block": "group",
+                                "name": "M36O"
+                              },
+                              {
+                                "text": "tortillas,",
+                                "class": "",
+                                "id": "5JdvWTBl",
+                                "block": "text",
+                                "name": "8Miw"
+                              },
+                              {
+                                "marker": "",
+                                "class": "inline-block mx-2 align-middle",
+                                "content": [
+                                  {
+                                    "case": false,
+                                    "evaluation": "manual",
+                                    "class": "text-center",
+                                    "positive": "a lot of",
+                                    "multiline": false,
+                                    "placeholder": "",
+                                    "showResult": false,
+                                    "id": "DhHmQlIyfOhdn6oLPwqT9mAhqd23rnGc",
+                                    "block": "textarea",
+                                    "name": "UTr1",
+                                    "maxlength": 0,
+                                    "attempts": 0
+                                  }
+                                ],
+                                "background": "",
+                                "id": "7lIIZojP",
+                                "block": "group",
+                                "name": "qyec"
+                              },
+                              {
+                                "text": "lemons and onions and defenitely ",
+                                "class": "",
+                                "id": "OMf4uO3y",
+                                "block": "text",
+                                "name": "TNgR"
+                              },
+                              {
+                                "marker": "",
+                                "class": "inline-block mx-2 align-middle",
+                                "content": [
+                                  {
+                                    "case": false,
+                                    "evaluation": "manual",
+                                    "class": "text-center",
+                                    "positive": "enough",
+                                    "multiline": false,
+                                    "placeholder": "",
+                                    "showResult": false,
+                                    "id": "DhHmQlIyfOhdn6oLPwqT9mAhqd23rnGcTtkW",
+                                    "block": "textarea",
+                                    "name": "gstX",
+                                    "maxlength": 0,
+                                    "attempts": 0
+                                  }
+                                ],
+                                "background": "",
+                                "id": "iUcrxSI8",
+                                "block": "group",
+                                "name": "8tyg"
+                              },
+                              {
+                                "text": "meat.  We also need",
+                                "class": "",
+                                "id": "Uh4sbKaa",
+                                "block": "text",
+                                "name": "vEp9"
+                              },
+                              {
+                                "marker": "",
+                                "class": "inline-block mx-2 align-middle",
+                                "content": [
+                                  {
+                                    "case": false,
+                                    "evaluation": "manual",
+                                    "class": "text-center",
+                                    "positive": "some",
+                                    "multiline": false,
+                                    "placeholder": "",
+                                    "showResult": false,
+                                    "id": "DhHmQlIyfOhdn6oLPwqT9mAhqd23rnGcTtkWg7eP",
+                                    "block": "textarea",
+                                    "name": "whh8",
+                                    "maxlength": 0,
+                                    "attempts": 0
+                                  }
+                                ],
+                                "background": "",
+                                "id": "ccoVPNv7",
+                                "block": "group",
+                                "name": "ie1V"
+                              },
+                              {
+                                "text": "other ingredients to make salsa. We will need",
+                                "class": "",
+                                "id": "qUG7EoxK",
+                                "block": "text",
+                                "name": "rD6r"
+                              },
+                              {
+                                "marker": "",
+                                "class": "inline-block mx-2 align-middle",
+                                "content": [
+                                  {
+                                    "case": false,
+                                    "evaluation": "manual",
+                                    "class": "text-center",
+                                    "positive": "many",
+                                    "multiline": false,
+                                    "placeholder": "",
+                                    "showResult": false,
+                                    "id": "DhHmQlIyfOhdn6oLPwqT9mAhqd23rnGcTtkWg7ePmVBI",
+                                    "block": "textarea",
+                                    "name": "MpH3",
+                                    "maxlength": 0,
+                                    "attempts": 0
+                                  }
+                                ],
+                                "background": "",
+                                "id": "t6KiykCH",
+                                "block": "group",
+                                "name": "3G0b"
+                              },
+                              {
+                                "text": "peppers too.  ",
+                                "class": "",
+                                "id": "JtgYoqAt",
+                                "block": "text",
+                                "name": "YOW5"
+                              }
+                            ],
+                            "background": "",
+                            "id": "1ZS6",
+                            "block": "group",
+                            "name": "GPDG"
+                          }
+                        ],
+                        "background": "",
+                        "id": "aXuw",
+                        "block": "group",
+                        "name": "uauB"
+                      }
+                    ],
+                    "background": "",
+                    "id": "bQU0",
+                    "block": "group",
+                    "name": "xIRO",
+                    "hidden": false
+                  }
+                ],
+                "background": "",
+                "id": "zRU7",
+                "block": "group",
+                "name": "Rail",
+                "hidden": false
+              }
+            ],
+            "background": "",
+            "name": "4Cs6",
+            "hidden": false,
+            "marker": "",
+            "id": ""
+          },
+          {
+            "symbol": "FinalizeGroup"
+          }
+        ],
+        "id": ""
+      }
+    ]
+  },
+  "end": {
+    "buttons": {
+      "restart": false
+    },
+    "content": [
+      {
+        "symbol": "finishedAll"
+      }
+    ]
+  },
+  "symbols": {
+    "finishedAll": {
+      "class": "w-full",
+      "content": [
+        {
+          "block": "group",
+          "class": "bg-slate-100 rounded p-5 text-center w-full",
+          "content": [
+            {
+              "block": "text",
+              "text": "Congratulations, you finished the activity.",
+              "class": "",
+              "name": "Congra"
+            }
+          ],
+          "background": "",
+          "name": "CongraGroup"
+        },
+        {
+          "block": "group",
+          "class": "text-center p-5",
+          "content": [
+            {
+              "block": "finished",
+              "name": "finishedBlock"
+            }
+          ],
+          "background": "",
+          "name": "finishedGroup"
+        }
+      ],
+      "background": "",
+      "block": "group"
+    },
+    "FinalizeGroup": {
+      "block": "group",
+      "class": "text-center mt-10",
+      "content": [
+        {
+          "block": "button",
+          "class": "mx-auto",
+          "to": "/end",
+          "text": "Finalize",
+          "name": "FinalizeBTN"
+        }
+      ],
+      "background": ""
+    }
+  },
+  "metadata": {
+    "sync": 0.9005925480443799
+  },
+  "attempts": 0
+}
