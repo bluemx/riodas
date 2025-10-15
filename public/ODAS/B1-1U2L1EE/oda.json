@@ -1,1 +1,176 @@
-{"title":"Food","clock":true,"countdown":0,"intro":{"buttons":{"start":"Start"},"content":[]},"activity":{"scenes":[{"block":"scene","name":"SC1","countdown":0,"instructions":{"open":true,"content":[{"block":"group","class":"flex gap-2 items-center","content":[{"block":"audio","class":"","file":"files/instruccion.mp3","wave":false,"autoplay":false,"id":"","name":"3A19"},{"block":"text","class":"","text":"Read Jorge's description of what´s in his fridge. When you are done reading, click finish. ","id":"","name":"sLeY"}]}]},"content":[{"block":"group","class":"bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto","content":[{"class":"","content":[{"marker":"","class":"p-10 text-xl grid gap-4","content":[{"file":"files/img01.jpg","class":"","id":"anSw","block":"image","name":"vy0o"}],"background":"","id":"zIZJ","block":"group","name":"m9Ck"},{"marker":"","class":"p-10 text-xl grid gap-4 bg-green-200","content":[{"text":"The refrigerator, a treasure of ingredients and inspirations, embodies the essence of culinary artistry.Mine is huge, and it´s always full. It has 4 racks and the freezer, besides the space in the doors. In the first rack you will always find lots of jars, of all kinds. Some are full of food like pickles or peppers. We also have some crisps and vibrant greens. On the second rack, you will always find enough cheese and plenty of milk.A quart-sized jug of creamy, calcium-rich milk stands alongside a dozen free-range eggs. On the third rack, there´s always some fish, some meat, but always enough protein for a complete food. A rectangular container holds a portion of savory beef stir-fry, ready to be reheated and savored after a long day.  On the fourth rack you will find plenty of vegetables, many tomatoes, enough onion and a lot of lemon. On the doors we put a couple sodas as well, and there´s always some wine. From top to bottom, each rack within the refrigerator reveals a culinary adventure waiting to unfold.\t\t","class":"","id":"y9UGdn1u","block":"text","name":"Y6EL"},{"text":"Does Jorge have enough food to eat in his fridge? Which words helped you to understand it better? Discuss it with your classmates. \t\t","class":"","id":"X0Jftj1k8JFY","block":"text","name":"5w3i"}],"background":"","id":"vCYL1JmR","block":"group","name":"WkiN"}],"evaluation":"","id":"1CGw","block":"switch","name":"YNIh","positive":0}],"background":"","name":"4Cs6","hidden":false},{"symbol":"FinalizeGroup"}],"id":""}]},"end":{"buttons":{"restart":false},"content":[{"symbol":"finishedAll"}]},"symbols":{"finishedAll":{"class":"w-full","content":[{"block":"group","class":"bg-slate-100 rounded p-5 text-center w-full","content":[{"block":"text","text":"Congratulations, you finished the activity.","class":"","name":"Congra"}],"background":"","name":"CongraGroup"},{"block":"group","class":"text-center p-5","content":[{"block":"finished","name":"finishedBlock"}],"background":"","name":"finishedGroup"}],"background":"","block":"group"},"FinalizeGroup":{"block":"group","class":"text-center mt-10","content":[{"block":"button","class":"mx-auto","to":"/end","text":"Finalize","name":"FinalizeBTN"}],"background":""}}}
+{
+  "title": "Food",
+  "clock": true,
+  "countdown": 0,
+  "intro": {
+    "buttons": {
+      "start": "Start"
+    },
+    "content": []
+  },
+  "activity": {
+    "scenes": [
+      {
+        "block": "scene",
+        "name": "SC1",
+        "countdown": 0,
+        "instructions": {
+          "open": true,
+          "content": [
+            {
+              "block": "group",
+              "class": "flex gap-2 items-center",
+              "content": [
+                {
+                  "block": "audio",
+                  "class": "",
+                  "file": "files/instruccion.mp3",
+                  "wave": false,
+                  "autoplay": false,
+                  "id": "",
+                  "name": "3A19"
+                },
+                {
+                  "block": "text",
+                  "class": "",
+                  "text": "Read Jorge's description of what´s in his fridge. When you are done reading, click finish. ",
+                  "id": "",
+                  "name": "sLeY"
+                }
+              ]
+            }
+          ]
+        },
+        "content": [
+          {
+            "block": "group",
+            "class": "bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto",
+            "content": [
+              {
+                "marker": "",
+                "class": "p-10 text-xl grid gap-4 bg-green-200",
+                "content": [
+                  {
+                    "text": "The refrigerator, a treasure of ingredients and inspirations, embodies the essence of culinary artistry.Mine is huge, and it´s always full. It has 4 racks and the freezer, besides the space in the doors. In the first rack you will always find lots of jars, of all kinds. Some are full of food like pickles or peppers. We also have some crisps and vibrant greens. On the second rack, you will always find enough cheese and plenty of milk.A quart-sized jug of creamy, calcium-rich milk stands alongside a dozen free-range eggs. On the third rack, there´s always some fish, some meat, but always enough protein for a complete food. A rectangular container holds a portion of savory beef stir-fry, ready to be reheated and savored after a long day.  On the fourth rack you will find plenty of vegetables, many tomatoes, enough onion and a lot of lemon. On the doors we put a couple of sodas, and there´s always some wine. From top to bottom, each rack within the refrigerator reveals a culinary adventure waiting to unfold.\t\t",
+                    "class": "",
+                    "id": "y9UGdn1u",
+                    "block": "text",
+                    "name": "Y6EL"
+                  },
+                  {
+                    "text": "Does Jorge have enough food to eat in his fridge? Which words helped you to understand it better? Discuss it with your classmates. \t\t",
+                    "class": "",
+                    "id": "X0Jftj1k8JFY",
+                    "block": "text",
+                    "name": "5w3i"
+                  }
+                ],
+                "background": "",
+                "id": "vCYL1JmR",
+                "block": "group",
+                "name": "WkiN"
+              },
+              {
+                "class": "",
+                "content": [
+                  {
+                    "marker": "",
+                    "class": "p-10 text-xl grid gap-4",
+                    "content": [
+                      {
+                        "file": "files/img01.jpg",
+                        "class": "",
+                        "id": "anSw",
+                        "block": "image",
+                        "name": "vy0o"
+                      }
+                    ],
+                    "background": "",
+                    "id": "zIZJ",
+                    "block": "group",
+                    "name": "m9Ck"
+                  }
+                ],
+                "evaluation": "",
+                "id": "1CGw",
+                "block": "switch",
+                "name": "YNIh",
+                "positive": 0,
+                "hidden": true
+              }
+            ],
+            "background": "",
+            "name": "4Cs6",
+            "hidden": false,
+            "marker": "",
+            "id": ""
+          },
+          {
+            "symbol": "FinalizeGroup"
+          }
+        ],
+        "id": ""
+      }
+    ]
+  },
+  "end": {
+    "buttons": {
+      "restart": false
+    },
+    "content": [
+      {
+        "symbol": "finishedAll"
+      }
+    ]
+  },
+  "symbols": {
+    "finishedAll": {
+      "class": "w-full",
+      "content": [
+        {
+          "block": "group",
+          "class": "bg-slate-100 rounded p-5 text-center w-full",
+          "content": [
+            {
+              "block": "text",
+              "text": "Congratulations, you finished the activity.",
+              "class": "",
+              "name": "Congra"
+            }
+          ],
+          "background": "",
+          "name": "CongraGroup"
+        },
+        {
+          "block": "group",
+          "class": "text-center p-5",
+          "content": [
+            {
+              "block": "finished",
+              "name": "finishedBlock"
+            }
+          ],
+          "background": "",
+          "name": "finishedGroup"
+        }
+      ],
+      "background": "",
+      "block": "group"
+    },
+    "FinalizeGroup": {
+      "block": "group",
+      "class": "text-center mt-10",
+      "content": [
+        {
+          "block": "button",
+          "class": "mx-auto",
+          "to": "/end",
+          "text": "Finalize",
+          "name": "FinalizeBTN"
+        }
+      ],
+      "background": ""
+    }
+  },
+  "attempts": 0
+}
