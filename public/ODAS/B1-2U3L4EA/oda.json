@@ -1,1 +1,183 @@
-{"title":"PLANNING A BIRTHDAY PARTY","clock":true,"countdown":0,"attempts":0,"intro":{"buttons":{"start":"Start"},"content":[]},"activity":{"scenes":[{"block":"scene","name":"SC1","countdown":0,"instructions":{"open":true,"content":[{"block":"group","class":"flex gap-2 items-center","content":[{"block":"audio","class":"","file":"files/inst.mp3","wave":false,"autoplay":false,"id":"","name":"MaEG"},{"block":"text","class":"","text":"Read the following text.","id":"","name":"8S6g"}]}]},"content":[{"block":"group","class":"bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto","content":[{"marker":"","class":"flex justify-center ","content":[{"file":"files/img01.jpg","class":"mask mask-squircle w-3/4","id":"afQm","block":"image","name":"VXSR"}],"background":"","id":"MODF","block":"group","name":"ACiR"},{"marker":"","class":"p-5","content":[{"marker":"","class":"text-2xl","content":[{"text":"Birthday Party Preparations","class":"font-bold","id":"UJEG","block":"text","name":"DvTm"}],"background":"","id":"ZhH5","block":"group","name":"KjEg"},{"marker":"","class":"text-xl mt-5 ","content":[{"text":"Hey guys!<br>  I'm Claudia, Samantha´s best friend.<br>  I'm super busy because we're organizing a surprise birthday party for her. <br> This is her 14th birthday, and she is really excited even though she thinks she is not having a party.<br> The party is next Friday, and we're making sure everything is perfect.<br>  Samantha's sister is decorating the living room with colorful balloons.<br><br><br>    I'm baking a delicious chocolate cake, she loves chocolate!<br> Sergio and Teresa are buying some snacks and sodas. <br> Ivonne is preparing hotdogs and tuna sandwiches.<br>  After blowing birthday candles Lucy is planning an outdoor movie night, she is setting a big screen and projector in her backyard.<br> Mary, Samantha´s mother, is fixing a spa day.  She is setting a big table and arranging facial masks, cleansers, moisturizers, manicures, and soothing activities, we are having aromatherapy using essential oils and candles to create a calming atmosphere.<br> Rico is taking the pictures of the party, he is creating a photo booth area with props and backdrops for guests to capture wonderful memories.<br>  I can't wait to see the look on Samantha's face when she walks into the surprise party!<br> We want this party to be unforgettable!<br>","class":"","id":"UJEGL1w9","block":"text","name":"duNi"}],"background":"","id":"2OJ77ntd","block":"group","name":"z04b"}],"background":"","id":"bQz2","block":"group","name":"SD8P"}],"background":"","name":"4Cs6","hidden":false},{"symbol":"FinalizeGroup"}],"id":""}]},"end":{"buttons":{"restart":false},"content":[{"symbol":"finishedAll"}]},"symbols":{"finishedAll":{"class":"w-full","content":[{"block":"group","class":"bg-slate-100 rounded p-5 text-center w-full","content":[{"block":"text","text":"Congratulations, you finished the activity.","class":"","name":"Congra"}],"background":"","name":"CongraGroup"},{"block":"group","class":"text-center p-5","content":[{"block":"finished","name":"finishedBlock"}],"background":"","name":"finishedGroup"}],"background":"","block":"group"},"FinalizeGroup":{"block":"group","class":"text-center mt-10","content":[{"block":"button","class":"mx-auto","to":"/end","text":"Finalize","name":"FinalizeBTN"}],"background":""}}}
+{
+  "title": "PLANNING A BIRTHDAY PARTY",
+  "clock": true,
+  "countdown": 0,
+  "attempts": 0,
+  "intro": {
+    "buttons": {
+      "start": "Start"
+    },
+    "content": []
+  },
+  "activity": {
+    "scenes": [
+      {
+        "block": "scene",
+        "name": "SC1",
+        "countdown": 0,
+        "instructions": {
+          "open": true,
+          "content": [
+            {
+              "block": "group",
+              "class": "flex gap-2 items-center",
+              "content": [
+                {
+                  "block": "audio",
+                  "class": "",
+                  "file": "files/inst.mp3",
+                  "wave": false,
+                  "autoplay": false,
+                  "id": "",
+                  "name": "MaEG"
+                },
+                {
+                  "block": "text",
+                  "class": "",
+                  "text": "Read the following text.",
+                  "id": "",
+                  "name": "8S6g"
+                }
+              ]
+            }
+          ]
+        },
+        "content": [
+          {
+            "block": "group",
+            "class": "bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto",
+            "content": [
+              {
+                "marker": "",
+                "class": "flex justify-center ",
+                "content": [
+                  {
+                    "file": "files/img01.jpg",
+                    "class": "mask mask-squircle w-3/4",
+                    "id": "afQm",
+                    "block": "image",
+                    "name": "VXSR"
+                  }
+                ],
+                "background": "",
+                "id": "MODF",
+                "block": "group",
+                "name": "ACiR"
+              },
+              {
+                "marker": "",
+                "class": "p-5",
+                "content": [
+                  {
+                    "marker": "",
+                    "class": "text-2xl",
+                    "content": [
+                      {
+                        "text": "Birthday Party Preparations",
+                        "class": "font-bold",
+                        "id": "UJEG",
+                        "block": "text",
+                        "name": "DvTm"
+                      }
+                    ],
+                    "background": "",
+                    "id": "ZhH5",
+                    "block": "group",
+                    "name": "KjEg"
+                  },
+                  {
+                    "marker": "",
+                    "class": "text-xl mt-5 ",
+                    "content": [
+                      {
+                        "text": "Hey guys!<br>  I'm Claudia, Samantha´s best friend.<br>  I'm super busy because we're organizing a surprise birthday party for her. <br> This is her 14th birthday, and she is really excited even though she thinks she is not having a party.<br> The party is next Friday, and we're making sure everything is perfect.<br>  Samantha's sister is decorating the living room with colorful balloons.<br><br><br>    I'm baking a delicious chocolate cake, she loves chocolate!<br> Sergio and Teresa are buying some snacks and sodas. <br> Ivonne is preparing hot dogs and tuna sandwiches.<br>  After blowing birthday candles Lucy is planning an outdoor movie night, she is setting a big screen and projector in her backyard.<br> Mary, Samantha´s mother, is fixing a spa day.  She is setting a big table and arranging facial masks, cleansers, moisturizers, manicures, and soothing activities, we are having aromatherapy using essential oils and candles to create a calming atmosphere.<br> Rico is taking the pictures of the party, he is creating a photo booth area with props and backdrops for guests to capture wonderful memories.<br>  I can't wait to see the look on Samantha's face when she walks into the surprise party!<br> We want this party to be unforgettable!<br>",
+                        "class": "",
+                        "id": "UJEGL1w9",
+                        "block": "text",
+                        "name": "duNi"
+                      }
+                    ],
+                    "background": "",
+                    "id": "2OJ77ntd",
+                    "block": "group",
+                    "name": "z04b"
+                  }
+                ],
+                "background": "",
+                "id": "bQz2",
+                "block": "group",
+                "name": "SD8P"
+              }
+            ],
+            "background": "",
+            "name": "4Cs6",
+            "hidden": false
+          },
+          {
+            "symbol": "FinalizeGroup"
+          }
+        ],
+        "id": ""
+      }
+    ]
+  },
+  "end": {
+    "buttons": {
+      "restart": false
+    },
+    "content": [
+      {
+        "symbol": "finishedAll"
+      }
+    ]
+  },
+  "symbols": {
+    "finishedAll": {
+      "class": "w-full",
+      "content": [
+        {
+          "block": "group",
+          "class": "bg-slate-100 rounded p-5 text-center w-full",
+          "content": [
+            {
+              "block": "text",
+              "text": "Congratulations, you finished the activity.",
+              "class": "",
+              "name": "Congra"
+            }
+          ],
+          "background": "",
+          "name": "CongraGroup"
+        },
+        {
+          "block": "group",
+          "class": "text-center p-5",
+          "content": [
+            {
+              "block": "finished",
+              "name": "finishedBlock"
+            }
+          ],
+          "background": "",
+          "name": "finishedGroup"
+        }
+      ],
+      "background": "",
+      "block": "group"
+    },
+    "FinalizeGroup": {
+      "block": "group",
+      "class": "text-center mt-10",
+      "content": [
+        {
+          "block": "button",
+          "class": "mx-auto",
+          "to": "/end",
+          "text": "Finalize",
+          "name": "FinalizeBTN"
+        }
+      ],
+      "background": ""
+    }
+  }
+}
