@@ -1,1 +1,478 @@
-{"title":"Busy day","clock":true,"countdown":0,"attempts":0,"intro":{"buttons":{"start":"Start"},"content":[]},"activity":{"scenes":[{"block":"scene","name":"SC1","countdown":0,"instructions":{"open":true,"content":[{"block":"group","class":"flex gap-2 items-center","content":[{"block":"audio","class":"","file":"files/inst.mp3","wave":false,"autoplay":false,"id":"","name":"Xb1x"},{"block":"text","class":"","text":"Complete the following sentences so that they are true or false to you. Remember you can use affirmative or negative tenses correspondingly.","id":"","name":"Wy3O"}]}]},"content":[{"block":"group","class":"bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto","content":[{"marker":"","class":"flex justify-center my-5","content":[{"file":"files/img01.jpg","class":"mask mask-squircle w-3/4","id":"xnMP","block":"image","name":"1pJh"}],"background":"","id":"n5cU","block":"group","name":"UmyW"},{"marker":"","class":"grid gap-10 p-5","content":[{"marker":"","class":"","content":[{"text":"1. On Monday, me, and my class","class":"","id":"3haX","block":"text","name":"Sijq"},{"marker":"","class":"inline-block ","content":[{"case":false,"evaluation":"manual","class":"","positive":"","multiline":false,"placeholder":"","showResult":false,"id":"dVpc","block":"textarea","name":"MtVF","maxlength":0,"attempts":0}],"background":"","id":"y4fB","block":"group","name":"BeCj"}],"background":"","id":"1dEv","block":"group","name":"S4IV"},{"marker":"","class":"","content":[{"text":"2. We","class":"","id":"3haXLDsy","block":"text","name":"Sukj"},{"marker":"","class":"inline-block ","content":[{"case":false,"evaluation":"manual","class":"","positive":"","multiline":false,"placeholder":"","showResult":false,"id":"dVpcGukl","block":"textarea","name":"TG3b","maxlength":0,"attempts":0}],"background":"","id":"y4fBXzrJ","block":"group","name":"Ubp2"},{"text":"to have exams by the end of the day. (have)","class":"","id":"Nv3YNcIk","block":"text","name":"Q8mb"}],"background":"","id":"Sr2kD6Cx","block":"group","name":"Yb3m"},{"marker":"","class":"","content":[{"text":"3. My professors","class":"","id":"3haXLDsyC8NR","block":"text","name":"lLrF"},{"marker":"","class":"inline-block ","content":[{"case":false,"evaluation":"manual","class":"","positive":"","multiline":false,"placeholder":"","showResult":false,"id":"dVpcGuklJvqC","block":"textarea","name":"cinU","maxlength":0,"attempts":0}],"background":"","id":"y4fBXzrJD9ha","block":"group","name":"cZUx"},{"text":"to a field trip during this school year (take) ","class":"","id":"Nv3YNcIkBh8a","block":"text","name":"Q06t"}],"background":"","id":"3BgDDKuc","block":"group","name":"DfZQ"},{"marker":"","class":"","content":[{"text":"4. We","class":"","id":"3haXLDsyC8NRaecC","block":"text","name":"7RcO"},{"marker":"","class":"inline-block ","content":[{"case":false,"evaluation":"manual","class":"","positive":"","multiline":false,"placeholder":"","showResult":false,"id":"dVpcGuklJvqC3JLF","block":"textarea","name":"d5Ys","maxlength":0,"attempts":0}],"background":"","id":"y4fBXzrJD9hacHkW","block":"group","name":"hVoT"},{"text":"during the current school term. (graduate)","class":"","id":"Nv3YNcIkBh8a4ZKT","block":"text","name":"Qh3V"}],"background":"","id":"fMsxScX1","block":"group","name":"dJwv"},{"marker":"","class":"","content":[{"text":"5. I","class":"","id":"3haXLDsyC8NRaecCv8fv","block":"text","name":"Etze"},{"marker":"","class":"inline-block ","content":[{"case":false,"evaluation":"manual","class":"","positive":"","multiline":false,"placeholder":"","showResult":false,"id":"dVpcGuklJvqC3JLFeOuB","block":"textarea","name":"1Z4d","maxlength":0,"attempts":0}],"background":"","id":"y4fBXzrJD9hacHkWISAJ","block":"group","name":"LifO"},{"text":"to do all my pending assignments on time (commit) ","class":"","id":"Nv3YNcIkBh8a4ZKTfLt1","block":"text","name":"N3Un"}],"background":"","id":"zXhS0tX5","block":"group","name":"GruU"},{"marker":"","class":"","content":[{"text":"6. My family","class":"","id":"3haXLDsyC8NRaecCv8fvju46","block":"text","name":"Pj50"},{"marker":"","class":"inline-block ","content":[{"case":false,"evaluation":"manual","class":"","positive":"","multiline":false,"placeholder":"","showResult":false,"id":"dVpcGuklJvqC3JLFeOuB2P12","block":"textarea","name":"j22A","maxlength":0,"attempts":0}],"background":"","id":"y4fBXzrJD9hacHkWISAJ6nN9","block":"group","name":"Kslt"},{"text":"a computer for me to work better (buy)","class":"","id":"Nv3YNcIkBh8a4ZKTfLt13yOy","block":"text","name":"xVOE"}],"background":"","id":"DR3ESc4g","block":"group","name":"svvy"},{"marker":"","class":"","content":[{"text":"7. I","class":"","id":"3haXLDsyC8NRaecCv8fvju46EmT1","block":"text","name":"l1CI"},{"marker":"","class":"inline-block ","content":[{"case":false,"evaluation":"manual","class":"","positive":"","multiline":false,"placeholder":"","showResult":false,"id":"dVpcGuklJvqC3JLFeOuB2P126yvy","block":"textarea","name":"p10E","maxlength":0,"attempts":0}],"background":"","id":"y4fBXzrJD9hacHkWISAJ6nN9n5sn","block":"group","name":"Z1V9"},{"text":"forward the vacations. (look)","class":"","id":"Nv3YNcIkBh8a4ZKTfLt13yOyCoYo","block":"text","name":"JPQO"}],"background":"","id":"fORBWD4f","block":"group","name":"0iEb"}],"background":"","id":"wQWD","block":"group","name":"xW8z"}],"background":"","name":"4Cs6","hidden":false},{"symbol":"FinalizeGroup"}],"id":""}]},"end":{"buttons":{"restart":false},"content":[{"symbol":"finishedAll"}]},"symbols":{"finishedAll":{"class":"w-full","content":[{"block":"group","class":"bg-slate-100 rounded p-5 text-center w-full","content":[{"block":"text","text":"Congratulations, you finished the activity.","class":"","name":"Congra"}],"background":"","name":"CongraGroup"},{"block":"group","class":"text-center p-5","content":[{"block":"finished","name":"finishedBlock"}],"background":"","name":"finishedGroup"}],"background":"","block":"group"},"FinalizeGroup":{"block":"group","class":"text-center mt-10","content":[{"block":"button","class":"mx-auto","to":"/end","text":"Finalize","name":"FinalizeBTN"}],"background":""}}}
+{
+  "title": "Busy day",
+  "clock": true,
+  "countdown": 0,
+  "attempts": 0,
+  "intro": {
+    "buttons": {
+      "start": "Start"
+    },
+    "content": []
+  },
+  "activity": {
+    "scenes": [
+      {
+        "block": "scene",
+        "name": "SC1",
+        "countdown": 0,
+        "instructions": {
+          "open": true,
+          "content": [
+            {
+              "block": "group",
+              "class": "flex gap-2 items-center",
+              "content": [
+                {
+                  "block": "audio",
+                  "class": "",
+                  "file": "files/inst.mp3",
+                  "wave": false,
+                  "autoplay": false,
+                  "id": "",
+                  "name": "Xb1x"
+                },
+                {
+                  "block": "text",
+                  "class": "",
+                  "text": "Complete the following sentences so that they are true or false to you. Remember you can use affirmative or negative tenses correspondingly.",
+                  "id": "",
+                  "name": "Wy3O"
+                }
+              ]
+            }
+          ]
+        },
+        "content": [
+          {
+            "block": "group",
+            "class": "bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto",
+            "content": [
+              {
+                "marker": "",
+                "class": "flex justify-center my-5",
+                "content": [
+                  {
+                    "file": "files/img01.jpg",
+                    "class": "mask mask-squircle w-3/4",
+                    "id": "xnMP",
+                    "block": "image",
+                    "name": "1pJh"
+                  }
+                ],
+                "background": "",
+                "id": "n5cU",
+                "block": "group",
+                "name": "UmyW"
+              },
+              {
+                "marker": "",
+                "class": "grid gap-10 p-5",
+                "content": [
+                  {
+                    "marker": "",
+                    "class": "",
+                    "content": [
+                      {
+                        "text": "1. On Monday, me, and my class",
+                        "class": "",
+                        "id": "3haX",
+                        "block": "text",
+                        "name": "Sijq"
+                      },
+                      {
+                        "marker": "",
+                        "class": "inline-block ",
+                        "content": [
+                          {
+                            "case": false,
+                            "evaluation": "manual",
+                            "class": "",
+                            "positive": "",
+                            "multiline": false,
+                            "placeholder": "",
+                            "showResult": false,
+                            "id": "dVpc",
+                            "block": "textarea",
+                            "name": "MtVF",
+                            "maxlength": 0,
+                            "attempts": 0
+                          }
+                        ],
+                        "background": "",
+                        "id": "y4fB",
+                        "block": "group",
+                        "name": "BeCj"
+                      }
+                    ],
+                    "background": "",
+                    "id": "1dEv",
+                    "block": "group",
+                    "name": "S4IV"
+                  },
+                  {
+                    "marker": "",
+                    "class": "",
+                    "content": [
+                      {
+                        "text": "2. We",
+                        "class": "",
+                        "id": "3haXLDsy",
+                        "block": "text",
+                        "name": "Sukj"
+                      },
+                      {
+                        "marker": "",
+                        "class": "inline-block ",
+                        "content": [
+                          {
+                            "case": false,
+                            "evaluation": "manual",
+                            "class": "",
+                            "positive": "",
+                            "multiline": false,
+                            "placeholder": "",
+                            "showResult": false,
+                            "id": "dVpcGukl",
+                            "block": "textarea",
+                            "name": "TG3b",
+                            "maxlength": 0,
+                            "attempts": 0
+                          }
+                        ],
+                        "background": "",
+                        "id": "y4fBXzrJ",
+                        "block": "group",
+                        "name": "Ubp2"
+                      },
+                      {
+                        "text": "exams by the end of the day. (have)",
+                        "class": "",
+                        "id": "Nv3YNcIk",
+                        "block": "text",
+                        "name": "Q8mb"
+                      }
+                    ],
+                    "background": "",
+                    "id": "Sr2kD6Cx",
+                    "block": "group",
+                    "name": "Yb3m"
+                  },
+                  {
+                    "marker": "",
+                    "class": "",
+                    "content": [
+                      {
+                        "text": "3. My professors",
+                        "class": "",
+                        "id": "3haXLDsyC8NR",
+                        "block": "text",
+                        "name": "lLrF"
+                      },
+                      {
+                        "marker": "",
+                        "class": "inline-block ",
+                        "content": [
+                          {
+                            "case": false,
+                            "evaluation": "manual",
+                            "class": "",
+                            "positive": "",
+                            "multiline": false,
+                            "placeholder": "",
+                            "showResult": false,
+                            "id": "dVpcGuklJvqC",
+                            "block": "textarea",
+                            "name": "cinU",
+                            "maxlength": 0,
+                            "attempts": 0
+                          }
+                        ],
+                        "background": "",
+                        "id": "y4fBXzrJD9ha",
+                        "block": "group",
+                        "name": "cZUx"
+                      },
+                      {
+                        "text": "to a field trip during this school year (take) ",
+                        "class": "",
+                        "id": "Nv3YNcIkBh8a",
+                        "block": "text",
+                        "name": "Q06t"
+                      }
+                    ],
+                    "background": "",
+                    "id": "3BgDDKuc",
+                    "block": "group",
+                    "name": "DfZQ"
+                  },
+                  {
+                    "marker": "",
+                    "class": "",
+                    "content": [
+                      {
+                        "text": "4. We",
+                        "class": "",
+                        "id": "3haXLDsyC8NRaecC",
+                        "block": "text",
+                        "name": "7RcO"
+                      },
+                      {
+                        "marker": "",
+                        "class": "inline-block ",
+                        "content": [
+                          {
+                            "case": false,
+                            "evaluation": "manual",
+                            "class": "",
+                            "positive": "",
+                            "multiline": false,
+                            "placeholder": "",
+                            "showResult": false,
+                            "id": "dVpcGuklJvqC3JLF",
+                            "block": "textarea",
+                            "name": "d5Ys",
+                            "maxlength": 0,
+                            "attempts": 0
+                          }
+                        ],
+                        "background": "",
+                        "id": "y4fBXzrJD9hacHkW",
+                        "block": "group",
+                        "name": "hVoT"
+                      },
+                      {
+                        "text": "during the current school term. (graduate)",
+                        "class": "",
+                        "id": "Nv3YNcIkBh8a4ZKT",
+                        "block": "text",
+                        "name": "Qh3V"
+                      }
+                    ],
+                    "background": "",
+                    "id": "fMsxScX1",
+                    "block": "group",
+                    "name": "dJwv"
+                  },
+                  {
+                    "marker": "",
+                    "class": "",
+                    "content": [
+                      {
+                        "text": "5. I",
+                        "class": "",
+                        "id": "3haXLDsyC8NRaecCv8fv",
+                        "block": "text",
+                        "name": "Etze"
+                      },
+                      {
+                        "marker": "",
+                        "class": "inline-block ",
+                        "content": [
+                          {
+                            "case": false,
+                            "evaluation": "manual",
+                            "class": "",
+                            "positive": "",
+                            "multiline": false,
+                            "placeholder": "",
+                            "showResult": false,
+                            "id": "dVpcGuklJvqC3JLFeOuB",
+                            "block": "textarea",
+                            "name": "1Z4d",
+                            "maxlength": 0,
+                            "attempts": 0
+                          }
+                        ],
+                        "background": "",
+                        "id": "y4fBXzrJD9hacHkWISAJ",
+                        "block": "group",
+                        "name": "LifO"
+                      },
+                      {
+                        "text": "to do all my pending assignments on time (commit) ",
+                        "class": "",
+                        "id": "Nv3YNcIkBh8a4ZKTfLt1",
+                        "block": "text",
+                        "name": "N3Un"
+                      }
+                    ],
+                    "background": "",
+                    "id": "zXhS0tX5",
+                    "block": "group",
+                    "name": "GruU"
+                  },
+                  {
+                    "marker": "",
+                    "class": "",
+                    "content": [
+                      {
+                        "text": "6. My family",
+                        "class": "",
+                        "id": "3haXLDsyC8NRaecCv8fvju46",
+                        "block": "text",
+                        "name": "Pj50"
+                      },
+                      {
+                        "marker": "",
+                        "class": "inline-block ",
+                        "content": [
+                          {
+                            "case": false,
+                            "evaluation": "manual",
+                            "class": "",
+                            "positive": "",
+                            "multiline": false,
+                            "placeholder": "",
+                            "showResult": false,
+                            "id": "dVpcGuklJvqC3JLFeOuB2P12",
+                            "block": "textarea",
+                            "name": "j22A",
+                            "maxlength": 0,
+                            "attempts": 0
+                          }
+                        ],
+                        "background": "",
+                        "id": "y4fBXzrJD9hacHkWISAJ6nN9",
+                        "block": "group",
+                        "name": "Kslt"
+                      },
+                      {
+                        "text": "a computer for me to work better (buy)",
+                        "class": "",
+                        "id": "Nv3YNcIkBh8a4ZKTfLt13yOy",
+                        "block": "text",
+                        "name": "xVOE"
+                      }
+                    ],
+                    "background": "",
+                    "id": "DR3ESc4g",
+                    "block": "group",
+                    "name": "svvy"
+                  },
+                  {
+                    "marker": "",
+                    "class": "",
+                    "content": [
+                      {
+                        "text": "7. I",
+                        "class": "",
+                        "id": "3haXLDsyC8NRaecCv8fvju46EmT1",
+                        "block": "text",
+                        "name": "l1CI"
+                      },
+                      {
+                        "marker": "",
+                        "class": "inline-block ",
+                        "content": [
+                          {
+                            "case": false,
+                            "evaluation": "manual",
+                            "class": "",
+                            "positive": "",
+                            "multiline": false,
+                            "placeholder": "",
+                            "showResult": false,
+                            "id": "dVpcGuklJvqC3JLFeOuB2P126yvy",
+                            "block": "textarea",
+                            "name": "p10E",
+                            "maxlength": 0,
+                            "attempts": 0
+                          }
+                        ],
+                        "background": "",
+                        "id": "y4fBXzrJD9hacHkWISAJ6nN9n5sn",
+                        "block": "group",
+                        "name": "Z1V9"
+                      },
+                      {
+                        "text": "forward the vacations. (look)",
+                        "class": "",
+                        "id": "Nv3YNcIkBh8a4ZKTfLt13yOyCoYo",
+                        "block": "text",
+                        "name": "JPQO"
+                      }
+                    ],
+                    "background": "",
+                    "id": "fORBWD4f",
+                    "block": "group",
+                    "name": "0iEb"
+                  }
+                ],
+                "background": "",
+                "id": "wQWD",
+                "block": "group",
+                "name": "xW8z"
+              }
+            ],
+            "background": "",
+            "name": "4Cs6",
+            "hidden": false
+          },
+          {
+            "symbol": "FinalizeGroup"
+          }
+        ],
+        "id": ""
+      }
+    ]
+  },
+  "end": {
+    "buttons": {
+      "restart": false
+    },
+    "content": [
+      {
+        "symbol": "finishedAll"
+      }
+    ]
+  },
+  "symbols": {
+    "finishedAll": {
+      "class": "w-full",
+      "content": [
+        {
+          "block": "group",
+          "class": "bg-slate-100 rounded p-5 text-center w-full",
+          "content": [
+            {
+              "block": "text",
+              "text": "Congratulations, you finished the activity.",
+              "class": "",
+              "name": "Congra"
+            }
+          ],
+          "background": "",
+          "name": "CongraGroup"
+        },
+        {
+          "block": "group",
+          "class": "text-center p-5",
+          "content": [
+            {
+              "block": "finished",
+              "name": "finishedBlock"
+            }
+          ],
+          "background": "",
+          "name": "finishedGroup"
+        }
+      ],
+      "background": "",
+      "block": "group"
+    },
+    "FinalizeGroup": {
+      "block": "group",
+      "class": "text-center mt-10",
+      "content": [
+        {
+          "block": "button",
+          "class": "mx-auto",
+          "to": "/end",
+          "text": "Finalize",
+          "name": "FinalizeBTN"
+        }
+      ],
+      "background": ""
+    }
+  }
+}
