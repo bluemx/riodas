@@ -1,1 +1,742 @@
-{"title":"Food","clock":false,"countdown":0,"intro":{"buttons":{"start":"Start"},"content":[]},"activity":{"scenes":[{"block":"scene","name":"SC1","countdown":0,"instructions":{"open":true,"content":[{"block":"group","class":"flex gap-2 items-center","content":[{"block":"audio","class":"","file":"files/B1-2U2L2ED-INS.mp3","wave":false,"autoplay":false,"id":"","name":"Yimq"},{"block":"text","class":"","text":"Complete the dialogue between two nutritionist friends. Drag and drop the words from the answer box","id":"","name":"xiJc"}]}]},"content":[{"block":"group","class":"bg-slate-100 rounded p-3 my-2 max-w-5xl mx-auto","content":[{"marker":"","class":"","content":[{"marker":"","class":"text-2xl bg-red-300 rounded-lg p-1 my-10","content":[{"marker":"","class":" bg-slate-50 p-5 rounded-lg","content":[{"marker":"","class":"my-2","content":[{"marker":"","class":"border-4 border-red-300  border-dashed p-5 grid grid-cols-4 gap-5 text-center my-10","content":[{"evaluation":"auto","positiveid":"2","id":"Gmo7","class":"","classitem":"","content":[{"text":"Flavorful","class":"","id":"ff8K","block":"text","name":"YVqM"}],"block":"dragitem","name":"V66q"},{"evaluation":"auto","positiveid":"5","id":"s3oU","class":"","classitem":"","content":[{"text":"Wraps ","class":"","id":"RRjeZIUX","block":"text","name":"Vb8H"}],"block":"dragitem","name":"a9Tp"},{"evaluation":"auto","positiveid":"7","id":"kxyQ","class":"","classitem":"","content":[{"text":"container","class":"","id":"6Aqa6TUu","block":"text","name":"XzRp"}],"block":"dragitem","name":"SyLv"},{"evaluation":"auto","positiveid":"1","id":"T6AK","class":"","classitem":"","content":[{"text":"Nourishing  ","class":"","id":"g8qQgrI5","block":"text","name":"QpB5"}],"block":"dragitem","name":"0mK1"},{"evaluation":"auto","positiveid":"6","id":"8IQ2","class":"","classitem":"","content":[{"text":"Hard-boiled eggs","class":"","id":"MBk5IqB9","block":"text","name":"AVNo"}],"block":"dragitem","name":"90IJ"},{"evaluation":"auto","positiveid":"4","id":"1RGE","class":"","classitem":"","content":[{"text":"Cluster ","class":"","id":"Q1I7EufI","block":"text","name":"3sm6"}],"block":"dragitem","name":"B3gu"},{"evaluation":"auto","positiveid":"3","id":"NdlJ","class":"","classitem":"","content":[{"text":"Beverages ","class":"","id":"0sG1EpDn","block":"text","name":"Yofo"}],"block":"dragitem","name":"FSmw"}],"background":"","id":"NCke","block":"group","name":"IYGD"},{"text":"<b>Rebecca</b>: Good morning, Jane! I've been exploring various cuisines and their ","class":"","id":"Cg4Y","block":"text","name":"8iQD"},{"marker":"","class":"inline-block mx-2 align-middle ","content":[{"id":"1","class":"","block":"dragzone","name":"US9M"}],"background":"","id":"69Gi","block":"group","name":"enxi"},{"text":"elements lately. I am writing an article comparing different cuisines around the world. Have you noticed how some cuisines seem to incorporate a lot of  whole grains into their dishes? All of these ingredients make Mediterranean food a","class":"","id":"SS09F4re","block":"text","name":"G37W"},{"marker":"","class":"inline-block mx-2 align-middle","content":[{"id":"2","class":"","block":"dragzone","name":"D8Iv"}],"background":"","id":"WN6ccRdX","block":"group","name":"uGm3"},{"text":"combination.","class":"","id":"h1Uy25A0","block":"text","name":"pcLn"}],"background":"","id":"1ZS6","block":"group","name":"AW3J","hidden":false},{"marker":"","class":"my-2","content":[{"text":"<b>Jane</b> : True that!  I love Mediterranean cuisine, it  provides  enough  dietary fiber and essential nutrients. Have you ever explored the","class":"","id":"Cg4YlEO5","block":"text","name":"N5tp"},{"marker":"","class":"inline-block mx-2 align-middle","content":[{"id":"3","class":"","block":"dragzone","name":"0mGO"}],"background":"","id":"69GitwRk","block":"group","name":"oKnr"},{"text":"that are part of the Mediterranean cuisine? Or do they just drink sodas and juices as the rest of us?","class":"","id":"SS09F4retSIh","block":"text","name":"ycc4"},{"marker":"","class":"inline-block mx-2 align-middle","content":[{"id":"zYC6rM2G4haz","class":"","block":"dragzone","name":"lz6F"}],"background":"","id":"WN6ccRdXPGuY","block":"group","name":"gLYm","hidden":true},{"text":"combination.","class":"","id":"h1Uy25A0CJct","block":"text","name":"i6Bx","hidden":true}],"background":"","id":"Um64CRlB","block":"group","name":"Uzeg","hidden":false},{"marker":"","class":"my-2","content":[{"text":"<b>Rebecca</b>: Hahaha, they sure do! On the other hand, there's also the famous herbal tea called \"tisane\" or \"tisana.\" It's made by infusing a","class":"","id":"Cg4YlEO57pnj","block":"text","name":"McJi"},{"marker":"","class":"inline-block mx-2 align-middle","content":[{"id":"4","class":"","block":"dragzone","name":"ks6X"}],"background":"","id":"69GitwRkXFd5","block":"group","name":"SZ3W"},{"text":"of  herbs like chamomile, sage, or rosemary. These herbs are believed to have potential digestive and calming properties.","class":"","id":"SS09F4retSIhZC58","block":"text","name":"Kcr1"},{"marker":"","class":"inline-block mx-2 align-middle","content":[{"id":"zYC6rM2G4hazJca0","class":"","block":"dragzone","name":"eAVt"}],"background":"","id":"WN6ccRdXPGuYPmXv","block":"group","name":"IY7Y","hidden":true},{"text":"combination.","class":"","id":"h1Uy25A0CJctecVG","block":"text","name":"BX0h","hidden":true}],"background":"","id":"su3RhghQ","block":"group","name":"RY6t","hidden":false},{"marker":"","class":"my-2","content":[{"text":"<b>Jane</b>: Absolutely! But all of these elements seem really fancy, that makes me wonder.  Do they have street food in Mediterranena cuisine? ","class":"","id":"Cg4YlEO57pnjs5ny","block":"text","name":"0q1Y"},{"marker":"","class":"inline-block mx-2 align-middle","content":[{"id":"zYC6ROzcNyIevqE4","class":"","block":"dragzone","name":"bXxz"}],"background":"","id":"69GitwRkXFd5hltK","block":"group","name":"Goki","hidden":true},{"text":"of  herbs like chamomile, sage, or rosemary. These herbs are believed to have potential digestive and calming properties.","class":"","id":"SS09F4retSIhZC58eNp7","block":"text","name":"OhGv","hidden":true},{"marker":"","class":"inline-block mx-2 align-middle","content":[{"id":"zYC6rM2G4hazJca0EVYQ","class":"","block":"dragzone","name":"UHvT"}],"background":"","id":"WN6ccRdXPGuYPmXv2ViF","block":"group","name":"i6ec","hidden":true},{"text":"combination.","class":"","id":"h1Uy25A0CJctecVG7a2t","block":"text","name":"cSEc","hidden":true}],"background":"","id":"bLXuDM0u","block":"group","name":"L70f","hidden":false},{"marker":"","class":"my-2","content":[{"text":"<b>Rebecca</b>: Definetely. Souvlaki ","class":"","id":"Cg4YlEO57pnjs5nyeNEt","block":"text","name":"N1bo"},{"marker":"","class":"inline-block mx-2 align-middle","content":[{"id":"5","class":"","block":"dragzone","name":"rfUl"}],"background":"","id":"69GitwRkXFd5hltKM6cz","block":"group","name":"Euh0","hidden":false},{"text":"are beloved for their harmonious blend, they are rolled with savory grilled meat, fresh vegetables, and creamy sauces. You can find some weird toppings for this dish, for example","class":"","id":"SS09F4retSIhZC58eNp7w25n","block":"text","name":"6DXE","hidden":false},{"marker":"","class":"inline-block mx-2 align-middle","content":[{"id":"6","class":"","block":"dragzone","name":"iq9S"}],"background":"","id":"WN6ccRdXPGuYPmXv2ViFDbtB","block":"group","name":"lFLt","hidden":false},{"text":"yogurt-based sauce and onions. Just don't forget to bring a ","class":"","id":"h1Uy25A0CJctecVG7a2txfQv","block":"text","name":"LBrB","hidden":false},{"marker":"","class":"inline-block mx-2 align-middle","content":[{"id":"7","class":"","block":"dragzone","name":"cfeI"}],"background":"","id":"RagtErqz","block":"group","name":"m8os","hidden":false},{"text":"if you'd like to take them home.","class":"","id":"mgiUEUB1","block":"text","name":"IBEN","hidden":false}],"background":"","id":"mAUbgVkc","block":"group","name":"KRRk","hidden":false},{"marker":"","class":"my-2","content":[{"text":"<b>Jane</b>: I won't forget! It sounds delicious! ","class":"","id":"Cg4YlEO57pnjs5nyeNEti3sZ","block":"text","name":"oEpX"},{"marker":"","class":"inline-block mx-2 align-middle","content":[{"id":"zYC6ROzcNyIevqE4KLaXWmON","class":"","block":"dragzone","name":"09Cr"}],"background":"","id":"69GitwRkXFd5hltKM6czMiyn","block":"group","name":"VSNn","hidden":true},{"text":"are beloved for their harmonious blend, they are rolled with savory grilled meat, fresh vegetables, and creamy sauces. You can find some weird toppings for this dish, for example","class":"","id":"SS09F4retSIhZC58eNp7w25n9BQN","block":"text","name":"XyaV","hidden":true},{"marker":"","class":"inline-block mx-2 align-middle","content":[{"id":"zYC6rM2G4hazJca0EVYQIzfhKuCa","class":"","block":"dragzone","name":"8xVv"}],"background":"","id":"WN6ccRdXPGuYPmXv2ViFDbtBrxog","block":"group","name":"pF3a","hidden":true},{"text":"yogurt-based sauce and onions. Just don't forget to bring a ","class":"","id":"h1Uy25A0CJctecVG7a2txfQv186b","block":"text","name":"3xb3","hidden":true},{"marker":"","class":"inline-block mx-2 align-middle","content":[{"id":"zYC6rM2G4hazJca0EVYQIzfhYkVsOzBq","class":"","block":"dragzone","name":"Ns4U"}],"background":"","id":"RagtErqzrc6p","block":"group","name":"Sl7n","hidden":true},{"text":"if you'd like to take them home.","class":"","id":"mgiUEUB1fuam","block":"text","name":"2A6h","hidden":true}],"background":"","id":"zG1Bz0dq","block":"group","name":"3ukb","hidden":false}],"background":"","id":"aXuw","block":"group","name":"hCbh"}],"background":"","id":"bQU0","block":"group","name":"YwJ6","hidden":false}],"background":"","id":"zRU7","block":"group","name":"0qTZ","hidden":false}],"background":"","name":"4Cs6","hidden":false,"marker":"","id":""},{"symbol":"FinalizeGroup"}],"id":""}]},"end":{"buttons":{"restart":false},"content":[{"symbol":"finishedAll"}]},"symbols":{"finishedAll":{"class":"w-full","content":[{"block":"group","class":"bg-slate-100 rounded p-5 text-center w-full","content":[{"block":"text","text":"Congratulations, you finished the activity.","class":"","name":"Congra"}],"background":"","name":"CongraGroup"},{"block":"group","class":"text-center p-5","content":[{"block":"finished","name":"finishedBlock"}],"background":"","name":"finishedGroup"}],"background":"","block":"group"},"FinalizeGroup":{"block":"group","class":"text-center mt-10","content":[{"block":"button","class":"mx-auto","to":"/end","text":"Finalize","name":"FinalizeBTN"}],"background":""}}}
+{
+  "title": "Food",
+  "clock": false,
+  "countdown": 0,
+  "intro": {
+    "buttons": {
+      "start": "Start"
+    },
+    "content": []
+  },
+  "activity": {
+    "scenes": [
+      {
+        "block": "scene",
+        "name": "SC1",
+        "countdown": 0,
+        "instructions": {
+          "open": true,
+          "content": [
+            {
+              "block": "group",
+              "class": "flex gap-2 items-center",
+              "content": [
+                {
+                  "block": "audio",
+                  "class": "",
+                  "file": "files/B1-2U2L2ED-INS.mp3",
+                  "wave": false,
+                  "autoplay": false,
+                  "id": "",
+                  "name": "Yimq"
+                },
+                {
+                  "block": "text",
+                  "class": "",
+                  "text": "Complete the dialogue between two nutritionist friends. Drag and drop the words from the answer box",
+                  "id": "",
+                  "name": "xiJc"
+                }
+              ]
+            }
+          ]
+        },
+        "content": [
+          {
+            "block": "group",
+            "class": "bg-slate-100 rounded p-3 my-2 max-w-5xl mx-auto",
+            "content": [
+              {
+                "marker": "",
+                "class": "",
+                "content": [
+                  {
+                    "marker": "",
+                    "class": "text-2xl bg-red-300 rounded-lg p-1 my-10",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": " bg-slate-50 p-5 rounded-lg",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": "my-2",
+                            "content": [
+                              {
+                                "marker": "",
+                                "class": "border-4 border-red-300  border-dashed p-5 grid grid-cols-4 gap-5 text-center my-10",
+                                "content": [
+                                  {
+                                    "evaluation": "auto",
+                                    "positiveid": "2",
+                                    "id": "Gmo7",
+                                    "class": "",
+                                    "classitem": "",
+                                    "content": [
+                                      {
+                                        "text": "Flavorful",
+                                        "class": "",
+                                        "id": "ff8K",
+                                        "block": "text",
+                                        "name": "YVqM"
+                                      }
+                                    ],
+                                    "block": "dragitem",
+                                    "name": "V66q"
+                                  },
+                                  {
+                                    "evaluation": "auto",
+                                    "positiveid": "5",
+                                    "id": "s3oU",
+                                    "class": "",
+                                    "classitem": "",
+                                    "content": [
+                                      {
+                                        "text": "Wraps ",
+                                        "class": "",
+                                        "id": "RRjeZIUX",
+                                        "block": "text",
+                                        "name": "Vb8H"
+                                      }
+                                    ],
+                                    "block": "dragitem",
+                                    "name": "a9Tp"
+                                  },
+                                  {
+                                    "evaluation": "auto",
+                                    "positiveid": "7",
+                                    "id": "kxyQ",
+                                    "class": "",
+                                    "classitem": "",
+                                    "content": [
+                                      {
+                                        "text": "container",
+                                        "class": "",
+                                        "id": "6Aqa6TUu",
+                                        "block": "text",
+                                        "name": "XzRp"
+                                      }
+                                    ],
+                                    "block": "dragitem",
+                                    "name": "SyLv"
+                                  },
+                                  {
+                                    "evaluation": "auto",
+                                    "positiveid": "1",
+                                    "id": "T6AK",
+                                    "class": "",
+                                    "classitem": "",
+                                    "content": [
+                                      {
+                                        "text": "Nourishing  ",
+                                        "class": "",
+                                        "id": "g8qQgrI5",
+                                        "block": "text",
+                                        "name": "QpB5"
+                                      }
+                                    ],
+                                    "block": "dragitem",
+                                    "name": "0mK1"
+                                  },
+                                  {
+                                    "evaluation": "auto",
+                                    "positiveid": "6",
+                                    "id": "8IQ2",
+                                    "class": "",
+                                    "classitem": "",
+                                    "content": [
+                                      {
+                                        "text": "Hard-boiled eggs",
+                                        "class": "",
+                                        "id": "MBk5IqB9",
+                                        "block": "text",
+                                        "name": "AVNo"
+                                      }
+                                    ],
+                                    "block": "dragitem",
+                                    "name": "90IJ"
+                                  },
+                                  {
+                                    "evaluation": "auto",
+                                    "positiveid": "4",
+                                    "id": "1RGE",
+                                    "class": "",
+                                    "classitem": "",
+                                    "content": [
+                                      {
+                                        "text": "Cluster ",
+                                        "class": "",
+                                        "id": "Q1I7EufI",
+                                        "block": "text",
+                                        "name": "3sm6"
+                                      }
+                                    ],
+                                    "block": "dragitem",
+                                    "name": "B3gu"
+                                  },
+                                  {
+                                    "evaluation": "auto",
+                                    "positiveid": "3",
+                                    "id": "NdlJ",
+                                    "class": "",
+                                    "classitem": "",
+                                    "content": [
+                                      {
+                                        "text": "Beverages ",
+                                        "class": "",
+                                        "id": "0sG1EpDn",
+                                        "block": "text",
+                                        "name": "Yofo"
+                                      }
+                                    ],
+                                    "block": "dragitem",
+                                    "name": "FSmw"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "NCke",
+                                "block": "group",
+                                "name": "IYGD"
+                              },
+                              {
+                                "text": "<b>Rebecca</b>: Good morning, Jane! I've been exploring various cuisines and their ",
+                                "class": "",
+                                "id": "Cg4Y",
+                                "block": "text",
+                                "name": "8iQD"
+                              },
+                              {
+                                "marker": "",
+                                "class": "inline-block mx-2 align-middle ",
+                                "content": [
+                                  {
+                                    "id": "1",
+                                    "class": "",
+                                    "block": "dragzone",
+                                    "name": "US9M"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "69Gi",
+                                "block": "group",
+                                "name": "enxi"
+                              },
+                              {
+                                "text": "elements lately. I am writing an article comparing different cuisines around the world. Have you noticed how some cuisines seem to incorporate a lot of  whole grains into their dishes? All of these ingredients make Mediterranean food a",
+                                "class": "",
+                                "id": "SS09F4re",
+                                "block": "text",
+                                "name": "G37W"
+                              },
+                              {
+                                "marker": "",
+                                "class": "inline-block mx-2 align-middle",
+                                "content": [
+                                  {
+                                    "id": "2",
+                                    "class": "",
+                                    "block": "dragzone",
+                                    "name": "D8Iv"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "WN6ccRdX",
+                                "block": "group",
+                                "name": "uGm3"
+                              },
+                              {
+                                "text": "combination.",
+                                "class": "",
+                                "id": "h1Uy25A0",
+                                "block": "text",
+                                "name": "pcLn"
+                              }
+                            ],
+                            "background": "",
+                            "id": "1ZS6",
+                            "block": "group",
+                            "name": "AW3J",
+                            "hidden": false
+                          },
+                          {
+                            "marker": "",
+                            "class": "my-2",
+                            "content": [
+                              {
+                                "text": "<b>Jane</b> : True that!  I love Mediterranean cuisine, it  provides  enough  dietary fiber and essential nutrients. Have you ever explored the",
+                                "class": "",
+                                "id": "Cg4YlEO5",
+                                "block": "text",
+                                "name": "N5tp"
+                              },
+                              {
+                                "marker": "",
+                                "class": "inline-block mx-2 align-middle",
+                                "content": [
+                                  {
+                                    "id": "3",
+                                    "class": "",
+                                    "block": "dragzone",
+                                    "name": "0mGO"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "69GitwRk",
+                                "block": "group",
+                                "name": "oKnr"
+                              },
+                              {
+                                "text": "that are part of the Mediterranean cuisine? Or do they just drink sodas and juices as the rest of us?",
+                                "class": "",
+                                "id": "SS09F4retSIh",
+                                "block": "text",
+                                "name": "ycc4"
+                              },
+                              {
+                                "marker": "",
+                                "class": "inline-block mx-2 align-middle",
+                                "content": [
+                                  {
+                                    "id": "zYC6rM2G4haz",
+                                    "class": "",
+                                    "block": "dragzone",
+                                    "name": "lz6F"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "WN6ccRdXPGuY",
+                                "block": "group",
+                                "name": "gLYm",
+                                "hidden": true
+                              },
+                              {
+                                "text": "combination.",
+                                "class": "",
+                                "id": "h1Uy25A0CJct",
+                                "block": "text",
+                                "name": "i6Bx",
+                                "hidden": true
+                              }
+                            ],
+                            "background": "",
+                            "id": "Um64CRlB",
+                            "block": "group",
+                            "name": "Uzeg",
+                            "hidden": false
+                          },
+                          {
+                            "marker": "",
+                            "class": "my-2",
+                            "content": [
+                              {
+                                "text": "<b>Rebecca</b>: Hahaha, they sure do! On the other hand, there's also the famous herbal tea called \"tisane\" or \"tisana.\" It's made by infusing a",
+                                "class": "",
+                                "id": "Cg4YlEO57pnj",
+                                "block": "text",
+                                "name": "McJi"
+                              },
+                              {
+                                "marker": "",
+                                "class": "inline-block mx-2 align-middle",
+                                "content": [
+                                  {
+                                    "id": "4",
+                                    "class": "",
+                                    "block": "dragzone",
+                                    "name": "ks6X"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "69GitwRkXFd5",
+                                "block": "group",
+                                "name": "SZ3W"
+                              },
+                              {
+                                "text": "of  herbs like chamomile, sage, or rosemary. These herbs are believed to have potential digestive and calming properties.",
+                                "class": "",
+                                "id": "SS09F4retSIhZC58",
+                                "block": "text",
+                                "name": "Kcr1"
+                              },
+                              {
+                                "marker": "",
+                                "class": "inline-block mx-2 align-middle",
+                                "content": [
+                                  {
+                                    "id": "zYC6rM2G4hazJca0",
+                                    "class": "",
+                                    "block": "dragzone",
+                                    "name": "eAVt"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "WN6ccRdXPGuYPmXv",
+                                "block": "group",
+                                "name": "IY7Y",
+                                "hidden": true
+                              },
+                              {
+                                "text": "combination.",
+                                "class": "",
+                                "id": "h1Uy25A0CJctecVG",
+                                "block": "text",
+                                "name": "BX0h",
+                                "hidden": true
+                              }
+                            ],
+                            "background": "",
+                            "id": "su3RhghQ",
+                            "block": "group",
+                            "name": "RY6t",
+                            "hidden": false
+                          },
+                          {
+                            "marker": "",
+                            "class": "my-2",
+                            "content": [
+                              {
+                                "text": "<b>Jane</b>: Absolutely! But all of these elements seem really fancy, that makes me wonder.  Do they have street food in Mediterranean cuisine? ",
+                                "class": "",
+                                "id": "Cg4YlEO57pnjs5ny",
+                                "block": "text",
+                                "name": "0q1Y"
+                              },
+                              {
+                                "marker": "",
+                                "class": "inline-block mx-2 align-middle",
+                                "content": [
+                                  {
+                                    "id": "zYC6ROzcNyIevqE4",
+                                    "class": "",
+                                    "block": "dragzone",
+                                    "name": "bXxz"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "69GitwRkXFd5hltK",
+                                "block": "group",
+                                "name": "Goki",
+                                "hidden": true
+                              },
+                              {
+                                "text": "of  herbs like chamomile, sage, or rosemary. These herbs are believed to have potential digestive and calming properties.",
+                                "class": "",
+                                "id": "SS09F4retSIhZC58eNp7",
+                                "block": "text",
+                                "name": "OhGv",
+                                "hidden": true
+                              },
+                              {
+                                "marker": "",
+                                "class": "inline-block mx-2 align-middle",
+                                "content": [
+                                  {
+                                    "id": "zYC6rM2G4hazJca0EVYQ",
+                                    "class": "",
+                                    "block": "dragzone",
+                                    "name": "UHvT"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "WN6ccRdXPGuYPmXv2ViF",
+                                "block": "group",
+                                "name": "i6ec",
+                                "hidden": true
+                              },
+                              {
+                                "text": "combination.",
+                                "class": "",
+                                "id": "h1Uy25A0CJctecVG7a2t",
+                                "block": "text",
+                                "name": "cSEc",
+                                "hidden": true
+                              }
+                            ],
+                            "background": "",
+                            "id": "bLXuDM0u",
+                            "block": "group",
+                            "name": "L70f",
+                            "hidden": false
+                          },
+                          {
+                            "marker": "",
+                            "class": "my-2",
+                            "content": [
+                              {
+                                "text": "<b>Rebecca</b>: Definitely. Souvlaki ",
+                                "class": "",
+                                "id": "Cg4YlEO57pnjs5nyeNEt",
+                                "block": "text",
+                                "name": "N1bo"
+                              },
+                              {
+                                "marker": "",
+                                "class": "inline-block mx-2 align-middle",
+                                "content": [
+                                  {
+                                    "id": "5",
+                                    "class": "",
+                                    "block": "dragzone",
+                                    "name": "rfUl"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "69GitwRkXFd5hltKM6cz",
+                                "block": "group",
+                                "name": "Euh0",
+                                "hidden": false
+                              },
+                              {
+                                "text": "are beloved for their harmonious blend, they are rolled with savory grilled meat, fresh vegetables, and creamy sauces. You can find some weird toppings for this dish, for example",
+                                "class": "",
+                                "id": "SS09F4retSIhZC58eNp7w25n",
+                                "block": "text",
+                                "name": "6DXE",
+                                "hidden": false
+                              },
+                              {
+                                "marker": "",
+                                "class": "inline-block mx-2 align-middle",
+                                "content": [
+                                  {
+                                    "id": "6",
+                                    "class": "",
+                                    "block": "dragzone",
+                                    "name": "iq9S"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "WN6ccRdXPGuYPmXv2ViFDbtB",
+                                "block": "group",
+                                "name": "lFLt",
+                                "hidden": false
+                              },
+                              {
+                                "text": "yogurt-based sauce and onions. Just don't forget to bring a ",
+                                "class": "",
+                                "id": "h1Uy25A0CJctecVG7a2txfQv",
+                                "block": "text",
+                                "name": "LBrB",
+                                "hidden": false
+                              },
+                              {
+                                "marker": "",
+                                "class": "inline-block mx-2 align-middle",
+                                "content": [
+                                  {
+                                    "id": "7",
+                                    "class": "",
+                                    "block": "dragzone",
+                                    "name": "cfeI"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "RagtErqz",
+                                "block": "group",
+                                "name": "m8os",
+                                "hidden": false
+                              },
+                              {
+                                "text": "if you'd like to take them home.",
+                                "class": "",
+                                "id": "mgiUEUB1",
+                                "block": "text",
+                                "name": "IBEN",
+                                "hidden": false
+                              }
+                            ],
+                            "background": "",
+                            "id": "mAUbgVkc",
+                            "block": "group",
+                            "name": "KRRk",
+                            "hidden": false
+                          },
+                          {
+                            "marker": "",
+                            "class": "my-2",
+                            "content": [
+                              {
+                                "text": "<b>Jane</b>: I won't forget! It sounds delicious! ",
+                                "class": "",
+                                "id": "Cg4YlEO57pnjs5nyeNEti3sZ",
+                                "block": "text",
+                                "name": "oEpX"
+                              },
+                              {
+                                "marker": "",
+                                "class": "inline-block mx-2 align-middle",
+                                "content": [
+                                  {
+                                    "id": "zYC6ROzcNyIevqE4KLaXWmON",
+                                    "class": "",
+                                    "block": "dragzone",
+                                    "name": "09Cr"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "69GitwRkXFd5hltKM6czMiyn",
+                                "block": "group",
+                                "name": "VSNn",
+                                "hidden": true
+                              },
+                              {
+                                "text": "are beloved for their harmonious blend, they are rolled with savory grilled meat, fresh vegetables, and creamy sauces. You can find some weird toppings for this dish, for example",
+                                "class": "",
+                                "id": "SS09F4retSIhZC58eNp7w25n9BQN",
+                                "block": "text",
+                                "name": "XyaV",
+                                "hidden": true
+                              },
+                              {
+                                "marker": "",
+                                "class": "inline-block mx-2 align-middle",
+                                "content": [
+                                  {
+                                    "id": "zYC6rM2G4hazJca0EVYQIzfhKuCa",
+                                    "class": "",
+                                    "block": "dragzone",
+                                    "name": "8xVv"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "WN6ccRdXPGuYPmXv2ViFDbtBrxog",
+                                "block": "group",
+                                "name": "pF3a",
+                                "hidden": true
+                              },
+                              {
+                                "text": "yogurt-based sauce and onions. Just don't forget to bring a ",
+                                "class": "",
+                                "id": "h1Uy25A0CJctecVG7a2txfQv186b",
+                                "block": "text",
+                                "name": "3xb3",
+                                "hidden": true
+                              },
+                              {
+                                "marker": "",
+                                "class": "inline-block mx-2 align-middle",
+                                "content": [
+                                  {
+                                    "id": "zYC6rM2G4hazJca0EVYQIzfhYkVsOzBq",
+                                    "class": "",
+                                    "block": "dragzone",
+                                    "name": "Ns4U"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "RagtErqzrc6p",
+                                "block": "group",
+                                "name": "Sl7n",
+                                "hidden": true
+                              },
+                              {
+                                "text": "if you'd like to take them home.",
+                                "class": "",
+                                "id": "mgiUEUB1fuam",
+                                "block": "text",
+                                "name": "2A6h",
+                                "hidden": true
+                              }
+                            ],
+                            "background": "",
+                            "id": "zG1Bz0dq",
+                            "block": "group",
+                            "name": "3ukb",
+                            "hidden": false
+                          }
+                        ],
+                        "background": "",
+                        "id": "aXuw",
+                        "block": "group",
+                        "name": "hCbh"
+                      }
+                    ],
+                    "background": "",
+                    "id": "bQU0",
+                    "block": "group",
+                    "name": "YwJ6",
+                    "hidden": false
+                  }
+                ],
+                "background": "",
+                "id": "zRU7",
+                "block": "group",
+                "name": "0qTZ",
+                "hidden": false
+              }
+            ],
+            "background": "",
+            "name": "4Cs6",
+            "hidden": false,
+            "marker": "",
+            "id": ""
+          },
+          {
+            "symbol": "FinalizeGroup"
+          }
+        ],
+        "id": ""
+      }
+    ]
+  },
+  "end": {
+    "buttons": {
+      "restart": false
+    },
+    "content": [
+      {
+        "symbol": "finishedAll"
+      }
+    ]
+  },
+  "symbols": {
+    "finishedAll": {
+      "class": "w-full",
+      "content": [
+        {
+          "block": "group",
+          "class": "bg-slate-100 rounded p-5 text-center w-full",
+          "content": [
+            {
+              "block": "text",
+              "text": "Congratulations, you finished the activity.",
+              "class": "",
+              "name": "Congra"
+            }
+          ],
+          "background": "",
+          "name": "CongraGroup"
+        },
+        {
+          "block": "group",
+          "class": "text-center p-5",
+          "content": [
+            {
+              "block": "finished",
+              "name": "finishedBlock"
+            }
+          ],
+          "background": "",
+          "name": "finishedGroup"
+        }
+      ],
+      "background": "",
+      "block": "group"
+    },
+    "FinalizeGroup": {
+      "block": "group",
+      "class": "text-center mt-10",
+      "content": [
+        {
+          "block": "button",
+          "class": "mx-auto",
+          "to": "/end",
+          "text": "Finalize",
+          "name": "FinalizeBTN"
+        }
+      ],
+      "background": ""
+    }
+  },
+  "attempts": 0
+}
