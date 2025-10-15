@@ -1,1 +1,450 @@
-{"title":"Conversation questions.","clock":true,"countdown":0,"attempts":0,"intro":{"buttons":{"start":"Start"},"content":[]},"activity":{"scenes":[{"block":"scene","name":"SC1","countdown":0,"instructions":{"open":true,"content":[{"block":"group","class":"flex gap-2 items-center","content":[{"block":"audio","class":"","file":"files/INS.mp3"},{"block":"text","class":"","text":"Answer the following past perfect tense questions. Try to use full sentences where you contrast past perfect and past simple to show the order of events in the past."}]}]},"content":[{"marker":"📒","class":"bg-slate-100 rounded p-2 max-w-5xl mx-auto","content":[{"marker":"","class":"mask mask-squircle p-2 bg-sky-900 flex justify-center my-10","content":[{"file":"files/B2-1U1L2ED-IMG-01.jpg","class":"w-2/4 mask mask-squircle","id":"HpU3","block":"image","name":"zTUs"}],"background":"","id":"GLiU","block":"group","name":"2lGB"},{"marker":"","class":"","content":[{"marker":"","class":" bg-slate-50 p-5 rounded-lg border-sky-900 border-4 text-2xl p-1 my-1","content":[{"marker":"","class":"","content":[{"text":"1. Give a brief <b>chronicle</b> of the schools you have been before.","class":"","id":"Cg4Y","block":"text","name":"lXZY"},{"marker":"","class":"","content":[{"case":false,"evaluation":"manual","class":"!min-h-[80px]","positive":"","multiline":true,"placeholder":"-","showResult":false,"id":"R8ZA","block":"textarea","name":"TfPp","maxlength":250,"attempts":0}],"background":"","id":"69Gi","block":"group","name":"DtKI"}],"background":"","id":"1ZS6","block":"group","name":"szhu"}],"background":"","id":"aXuw","block":"group","name":"o7pv"},{"marker":"","class":" bg-slate-50 p-5 rounded-lg border-sky-900 border-4 text-2xl p-1 my-1","content":[{"marker":"","class":"","content":[{"text":"2. Have you already learned about the <b>epic</b> achievements of some Mexican inventors? Describe one.","class":"","id":"Cg4Yu8Uf","block":"text","name":"a9oK"},{"marker":"","class":"","content":[{"case":false,"evaluation":"manual","class":"!min-h-[80px]","positive":"","multiline":true,"placeholder":"-","showResult":false,"id":"SmDT","block":"textarea","name":"OCfm","maxlength":250,"attempts":0}],"background":"","id":"69GiKcUR","block":"group","name":"hCVj"}],"background":"","id":"1ZS6wIvg","block":"group","name":"asdW"}],"background":"","id":"aXuw7rIO","block":"group","name":"0EJr"},{"marker":"","class":" bg-slate-50 p-5 rounded-lg border-sky-900 border-4 text-2xl p-1 my-1","content":[{"marker":"","class":"","content":[{"text":"3. Have you <b>recorded</b> some of your most important memories? Where do you keep them? ","class":"","id":"Cg4YGbel","block":"text","name":"kHxN"},{"marker":"","class":"","content":[{"case":false,"evaluation":"manual","class":"!min-h-[80px]","positive":"","multiline":true,"placeholder":"-","showResult":false,"id":"OKyX","block":"textarea","name":"FGoN","maxlength":250,"attempts":0}],"background":"","id":"69GicQRd","block":"group","name":"7kYv"}],"background":"","id":"1ZS697Se","block":"group","name":"Z9GA"}],"background":"","id":"aXuwCcGV","block":"group","name":"9z9a"},{"marker":"","class":" bg-slate-50 p-5 rounded-lg border-sky-900 border-4 text-2xl p-1 my-1","content":[{"marker":"","class":"","content":[{"text":"4. Have you told your deepest secret <b>stories</b> to someone? Describe it!","class":"","id":"Cg4Yg4Q4","block":"text","name":"0MaY"},{"marker":"","class":"","content":[{"case":false,"evaluation":"manual","class":"!min-h-[80px]","positive":"","multiline":true,"placeholder":"-","showResult":false,"id":"Xed2","block":"textarea","name":"yCxO","maxlength":250,"attempts":0}],"background":"","id":"69GicnoD","block":"group","name":"Syld"}],"background":"","id":"1ZS6lrFv","block":"group","name":"tqLj"}],"background":"","id":"aXuwqDpp","block":"group","name":"fjmC"},{"marker":"","class":" bg-slate-50 p-5 rounded-lg border-sky-900 border-4 text-2xl p-1 my-1","content":[{"marker":"","class":"","content":[{"text":"5. Have you written a <b>chronology</b> of important events in your life? Write it down.","class":"","id":"Cg4Y8jO9","block":"text","name":"zJII"},{"marker":"","class":"","content":[{"case":false,"evaluation":"auto","class":"!min-h-[80px]","positive":"more","multiline":true,"placeholder":"-","showResult":false,"id":"hOQD","block":"textarea","name":"jd1g","maxlength":250,"attempts":0}],"background":"","id":"69GicPsD","block":"group","name":"mU7e"}],"background":"","id":"1ZS62xrm","block":"group","name":"kK66"}],"background":"","id":"aXuwGx1b","block":"group","name":"IL23"},{"marker":"","class":" bg-slate-50 p-5 rounded-lg border-sky-900 border-4 text-2xl p-1 my-1","content":[{"marker":"","class":"","content":[{"text":"6. Had you  given a personal <b>testimony</b> about COVID lockdown to someone else? Write it down.","class":"","id":"Cg4Y8jO9gYg8","block":"text","name":"PUdi"},{"marker":"","class":"","content":[{"case":false,"evaluation":"manual","class":"!min-h-[80px]","positive":"","multiline":true,"placeholder":"-","showResult":false,"id":"hOQDb0u2","block":"textarea","name":"cXD6","maxlength":250,"attempts":0}],"background":"","id":"69GicPsDBMwp","block":"group","name":"TqVc"}],"background":"","id":"1ZS62xrmUQ3d","block":"group","name":"exvp"}],"background":"","id":"aXuwGx1biwhx","block":"group","name":"LRJI"}],"background":"","id":"zRU7","block":"group","name":"fveW","hidden":false}],"background":"","id":"gpo1","block":"group","name":"gpo1"},{"symbol":"FinalizeGroup"}]}]},"end":{"buttons":{"restart":false},"content":[{"symbol":"finishedAll"}]},"symbols":{"finishedAll":{"class":"w-full","content":[{"block":"group","class":"bg-slate-100 rounded p-5 text-center w-full","content":[{"block":"text","text":"Congratulations, you finished the activity.","class":"","name":"Congra"}],"background":"","name":"CongraGroup"},{"block":"group","class":"text-center p-5","content":[{"block":"finished","name":"finishedBlock"}],"background":"","name":"finishedGroup"}],"background":"","block":"group"},"FinalizeGroup":{"block":"group","class":"text-center mt-10","content":[{"block":"button","class":"mx-auto","to":"/end","text":"Finalize","name":"FinalizeBTN"}],"background":""}}}
+{
+  "title": "Conversation questions.",
+  "clock": true,
+  "countdown": 0,
+  "attempts": 0,
+  "intro": {
+    "buttons": {
+      "start": "Start"
+    },
+    "content": []
+  },
+  "activity": {
+    "scenes": [
+      {
+        "block": "scene",
+        "name": "SC1",
+        "countdown": 0,
+        "instructions": {
+          "open": true,
+          "content": [
+            {
+              "block": "group",
+              "class": "flex gap-2 items-center",
+              "content": [
+                {
+                  "block": "audio",
+                  "class": "",
+                  "file": "files/INS.mp3"
+                },
+                {
+                  "block": "text",
+                  "class": "",
+                  "text": "Answer the following past perfect tense questions. Try to use full sentences where you contrast past perfect and past simple to show the order of events in the past."
+                }
+              ]
+            }
+          ]
+        },
+        "content": [
+          {
+            "marker": "📒",
+            "class": "bg-slate-100 rounded p-2 max-w-5xl mx-auto",
+            "content": [
+              {
+                "marker": "",
+                "class": "mask mask-squircle p-2 bg-sky-900 flex justify-center my-10",
+                "content": [
+                  {
+                    "file": "files/B2-1U1L2ED-IMG-01.jpg",
+                    "class": "w-2/4 mask mask-squircle",
+                    "id": "HpU3",
+                    "block": "image",
+                    "name": "zTUs"
+                  }
+                ],
+                "background": "",
+                "id": "GLiU",
+                "block": "group",
+                "name": "2lGB"
+              },
+              {
+                "marker": "",
+                "class": "",
+                "content": [
+                  {
+                    "marker": "",
+                    "class": " bg-slate-50 p-5 rounded-lg border-sky-900 border-4 text-2xl p-1 my-1",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "",
+                        "content": [
+                          {
+                            "text": "1. Give a brief <b>chronicle</b> of the schools you have been before.",
+                            "class": "",
+                            "id": "Cg4Y",
+                            "block": "text",
+                            "name": "lXZY"
+                          },
+                          {
+                            "marker": "",
+                            "class": "",
+                            "content": [
+                              {
+                                "case": false,
+                                "evaluation": "manual",
+                                "class": "!min-h-[80px]",
+                                "positive": "",
+                                "multiline": true,
+                                "placeholder": "-",
+                                "showResult": false,
+                                "id": "R8ZA",
+                                "block": "textarea",
+                                "name": "TfPp",
+                                "maxlength": 250,
+                                "attempts": 0
+                              }
+                            ],
+                            "background": "",
+                            "id": "69Gi",
+                            "block": "group",
+                            "name": "DtKI"
+                          }
+                        ],
+                        "background": "",
+                        "id": "1ZS6",
+                        "block": "group",
+                        "name": "szhu"
+                      }
+                    ],
+                    "background": "",
+                    "id": "aXuw",
+                    "block": "group",
+                    "name": "o7pv"
+                  },
+                  {
+                    "marker": "",
+                    "class": " bg-slate-50 p-5 rounded-lg border-sky-900 border-4 text-2xl p-1 my-1",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "",
+                        "content": [
+                          {
+                            "text": "2. Have you already learned about the <b>epic</b> achievements of some Mexican inventors? Describe one.",
+                            "class": "",
+                            "id": "Cg4Yu8Uf",
+                            "block": "text",
+                            "name": "a9oK"
+                          },
+                          {
+                            "marker": "",
+                            "class": "",
+                            "content": [
+                              {
+                                "case": false,
+                                "evaluation": "manual",
+                                "class": "!min-h-[80px]",
+                                "positive": "",
+                                "multiline": true,
+                                "placeholder": "-",
+                                "showResult": false,
+                                "id": "SmDT",
+                                "block": "textarea",
+                                "name": "OCfm",
+                                "maxlength": 250,
+                                "attempts": 0
+                              }
+                            ],
+                            "background": "",
+                            "id": "69GiKcUR",
+                            "block": "group",
+                            "name": "hCVj"
+                          }
+                        ],
+                        "background": "",
+                        "id": "1ZS6wIvg",
+                        "block": "group",
+                        "name": "asdW"
+                      }
+                    ],
+                    "background": "",
+                    "id": "aXuw7rIO",
+                    "block": "group",
+                    "name": "0EJr"
+                  },
+                  {
+                    "marker": "",
+                    "class": " bg-slate-50 p-5 rounded-lg border-sky-900 border-4 text-2xl p-1 my-1",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "",
+                        "content": [
+                          {
+                            "text": "3. Have you <b>recorded</b> some of your most important memories? Where do you keep them? ",
+                            "class": "",
+                            "id": "Cg4YGbel",
+                            "block": "text",
+                            "name": "kHxN"
+                          },
+                          {
+                            "marker": "",
+                            "class": "",
+                            "content": [
+                              {
+                                "case": false,
+                                "evaluation": "manual",
+                                "class": "!min-h-[80px]",
+                                "positive": "",
+                                "multiline": true,
+                                "placeholder": "-",
+                                "showResult": false,
+                                "id": "OKyX",
+                                "block": "textarea",
+                                "name": "FGoN",
+                                "maxlength": 250,
+                                "attempts": 0
+                              }
+                            ],
+                            "background": "",
+                            "id": "69GicQRd",
+                            "block": "group",
+                            "name": "7kYv"
+                          }
+                        ],
+                        "background": "",
+                        "id": "1ZS697Se",
+                        "block": "group",
+                        "name": "Z9GA"
+                      }
+                    ],
+                    "background": "",
+                    "id": "aXuwCcGV",
+                    "block": "group",
+                    "name": "9z9a"
+                  },
+                  {
+                    "marker": "",
+                    "class": " bg-slate-50 p-5 rounded-lg border-sky-900 border-4 text-2xl p-1 my-1",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "",
+                        "content": [
+                          {
+                            "text": "4. Have you told your deepest secret <b>stories</b> to someone? Describe it!",
+                            "class": "",
+                            "id": "Cg4Yg4Q4",
+                            "block": "text",
+                            "name": "0MaY"
+                          },
+                          {
+                            "marker": "",
+                            "class": "",
+                            "content": [
+                              {
+                                "case": false,
+                                "evaluation": "manual",
+                                "class": "!min-h-[80px]",
+                                "positive": "",
+                                "multiline": true,
+                                "placeholder": "-",
+                                "showResult": false,
+                                "id": "Xed2",
+                                "block": "textarea",
+                                "name": "yCxO",
+                                "maxlength": 250,
+                                "attempts": 0
+                              }
+                            ],
+                            "background": "",
+                            "id": "69GicnoD",
+                            "block": "group",
+                            "name": "Syld"
+                          }
+                        ],
+                        "background": "",
+                        "id": "1ZS6lrFv",
+                        "block": "group",
+                        "name": "tqLj"
+                      }
+                    ],
+                    "background": "",
+                    "id": "aXuwqDpp",
+                    "block": "group",
+                    "name": "fjmC"
+                  },
+                  {
+                    "marker": "",
+                    "class": " bg-slate-50 p-5 rounded-lg border-sky-900 border-4 text-2xl p-1 my-1",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "",
+                        "content": [
+                          {
+                            "text": "5. Have you written a <b>chronology</b> of important events in your life? Write it down.",
+                            "class": "",
+                            "id": "Cg4Y8jO9",
+                            "block": "text",
+                            "name": "zJII"
+                          },
+                          {
+                            "marker": "",
+                            "class": "",
+                            "content": [
+                              {
+                                "case": false,
+                                "evaluation": "manual",
+                                "class": "!min-h-[80px]",
+                                "positive": "more",
+                                "multiline": true,
+                                "placeholder": "-",
+                                "showResult": false,
+                                "id": "hOQD",
+                                "block": "textarea",
+                                "name": "jd1g",
+                                "maxlength": 250,
+                                "attempts": 0
+                              }
+                            ],
+                            "background": "",
+                            "id": "69GicPsD",
+                            "block": "group",
+                            "name": "mU7e"
+                          }
+                        ],
+                        "background": "",
+                        "id": "1ZS62xrm",
+                        "block": "group",
+                        "name": "kK66"
+                      }
+                    ],
+                    "background": "",
+                    "id": "aXuwGx1b",
+                    "block": "group",
+                    "name": "IL23"
+                  },
+                  {
+                    "marker": "",
+                    "class": " bg-slate-50 p-5 rounded-lg border-sky-900 border-4 text-2xl p-1 my-1",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "",
+                        "content": [
+                          {
+                            "text": "6. Had you  given a personal <b>testimony</b> about COVID lockdown to someone else? Write it down.",
+                            "class": "",
+                            "id": "Cg4Y8jO9gYg8",
+                            "block": "text",
+                            "name": "PUdi"
+                          },
+                          {
+                            "marker": "",
+                            "class": "",
+                            "content": [
+                              {
+                                "case": false,
+                                "evaluation": "manual",
+                                "class": "!min-h-[80px]",
+                                "positive": "",
+                                "multiline": true,
+                                "placeholder": "-",
+                                "showResult": false,
+                                "id": "hOQDb0u2",
+                                "block": "textarea",
+                                "name": "cXD6",
+                                "maxlength": 250,
+                                "attempts": 0
+                              }
+                            ],
+                            "background": "",
+                            "id": "69GicPsDBMwp",
+                            "block": "group",
+                            "name": "TqVc"
+                          }
+                        ],
+                        "background": "",
+                        "id": "1ZS62xrmUQ3d",
+                        "block": "group",
+                        "name": "exvp"
+                      }
+                    ],
+                    "background": "",
+                    "id": "aXuwGx1biwhx",
+                    "block": "group",
+                    "name": "LRJI"
+                  }
+                ],
+                "background": "",
+                "id": "zRU7",
+                "block": "group",
+                "name": "fveW",
+                "hidden": false
+              }
+            ],
+            "background": "",
+            "id": "gpo1",
+            "block": "group",
+            "name": "gpo1"
+          },
+          {
+            "symbol": "FinalizeGroup"
+          }
+        ]
+      }
+    ]
+  },
+  "end": {
+    "buttons": {
+      "restart": false
+    },
+    "content": [
+      {
+        "symbol": "finishedAll"
+      }
+    ]
+  },
+  "symbols": {
+    "finishedAll": {
+      "class": "w-full",
+      "content": [
+        {
+          "block": "group",
+          "class": "bg-slate-100 rounded p-5 text-center w-full",
+          "content": [
+            {
+              "block": "text",
+              "text": "Congratulations, you finished the activity.",
+              "class": "",
+              "name": "Congra"
+            }
+          ],
+          "background": "",
+          "name": "CongraGroup"
+        },
+        {
+          "block": "group",
+          "class": "text-center p-5",
+          "content": [
+            {
+              "block": "finished",
+              "name": "finishedBlock"
+            }
+          ],
+          "background": "",
+          "name": "finishedGroup"
+        }
+      ],
+      "background": "",
+      "block": "group"
+    },
+    "FinalizeGroup": {
+      "block": "group",
+      "class": "text-center mt-10",
+      "content": [
+        {
+          "block": "button",
+          "class": "mx-auto",
+          "to": "/end",
+          "text": "Finalize",
+          "name": "FinalizeBTN"
+        }
+      ],
+      "background": ""
+    }
+  }
+}
