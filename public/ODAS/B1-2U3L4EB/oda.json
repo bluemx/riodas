@@ -1,1 +1,401 @@
-{"title":"PLANNING A BIRTHDAY PARTY","clock":true,"countdown":0,"attempts":0,"intro":{"buttons":{"start":"Start"},"content":[]},"activity":{"scenes":[{"block":"scene","name":"SC1","countdown":0,"instructions":{"open":true,"content":[{"block":"group","class":"flex gap-2 items-center","content":[{"block":"audio","class":"","file":"files/inst.mp3","wave":false,"autoplay":false,"id":"","name":"2RKA"},{"block":"text","class":"","text":"Choose the correct answer according to the previous reading","id":"","name":"WKqF"}]}]},"content":[{"block":"group","class":"bg-slate-100 rounded p-3 my-2 max-w-5xl mx-auto","content":[{"marker":"","class":"flex justify-center my-5","content":[{"file":"files/img01.jpg","class":"mask mask-squircle w-3/4","id":"9Zzc","block":"image","name":"hok8"}],"background":"","id":"5jmj","block":"group","name":"iFtF"},{"marker":"","class":"grid gap-10 m-5 p-5","content":[{"marker":"","class":"grid gap-5","content":[{"text":"1.- Who is planning the birthday party?","class":"","id":"8622","block":"text","name":"Hbpb"},{"class":"","options":[{"text":"Claudia is planning the birthday party.","class":"","id":"x2Ll","block":"text","name":"Jwtu"},{"text":"Samantha is planning the birthday party.","class":"","id":"RWwN","block":"text","name":"U1Ad"},{"text":"Teresa and Jose are planning the birthday party.","class":"","id":"C48G","block":"text","name":"QkAk"}],"evaluation":"auto","showResult":false,"dropdown":false,"dropdownpos":"top","id":"ryWm","block":"option","name":"bpGq"}],"background":"","id":"4Ofx","block":"group","name":"CT2R"},{"marker":"","class":"grid gap-5","content":[{"text":"2.- Which birthday are they celebrating?","class":"","id":"8622cwzJ","block":"text","name":"TwOz"},{"class":"","options":[{"text":"This is Samantha´s 14th birthday.","class":"","id":"x2LlczB4","block":"text","name":"oP05"},{"text":"This is Samantha´s 15th birthday.","class":"","id":"RWwN1lC9","block":"text","name":"KTye"},{"text":"This is Claudia´s 14th birthday","class":"","id":"C48GmkNT","block":"text","name":"782Z"}],"evaluation":"auto","showResult":false,"dropdown":false,"dropdownpos":"top","id":"ryWmWnYn","block":"option","name":"DSZy"}],"background":"","id":"eFutvdMI","block":"group","name":"BzQm"},{"marker":"","class":"grid gap-5","content":[{"text":"3.- When is the party taking place?","class":"","id":"8622cwzJSRNM","block":"text","name":"t6KX"},{"class":"","options":[{"text":"Samantha´s birthday party is next Friday.","class":"","id":"x2LlczB47uLb","block":"text","name":"dRhg"},{"text":"Samantha´s birthday party is next week.","class":"","id":"RWwN1lC9drX9","block":"text","name":"r1iy"},{"text":"Samantha´s birthday party is next weekend.","class":"","id":"C48GmkNTNSOj","block":"text","name":"YOrd"}],"evaluation":"auto","showResult":false,"dropdown":false,"dropdownpos":"top","id":"ryWmWnYnVubV","block":"option","name":"JCbr"}],"background":"","id":"9Yd0te7e","block":"group","name":"dMpg"},{"marker":"","class":"grid gap-5","content":[{"text":"4.- Who's in charge of the decoration? ","class":"","id":"8622cwzJkL5b","block":"text","name":"fIQt"},{"class":"","options":[{"text":"Samantha's sister is decorating the living room with colorful balloons","class":"","id":"x2LlczB4kycj","block":"text","name":"yRlS"},{"text":"Teresa's sister is decorating the living room with colorful balloons","class":"","id":"RWwN1lC9Nrnu","block":"text","name":"F0GT"},{"text":"Claudia's sister is decorating the living room with colorful balloons","class":"","id":"C48GmkNThdPn","block":"text","name":"3OZ0"}],"evaluation":"auto","showResult":false,"dropdown":false,"dropdownpos":"top","id":"ryWmWnYnxkdP","block":"option","name":"coqb"}],"background":"","id":"u8H5fWM2","block":"group","name":"1bMj"},{"marker":"","class":"grid gap-5","content":[{"text":"5.-Who's preparing the meal?","class":"","id":"8622cwzJeraG","block":"text","name":"DDgf"},{"class":"","options":[{"text":"Ivonne is preparing hotdogs and tuna sandwiches","class":"","id":"x2LlczB4oXEf","block":"text","name":"fpMH"},{"text":"Sergio is preparing hotdogs and tuna sandwiches","class":"","id":"RWwN1lC96hW5","block":"text","name":"CP7s"},{"text":"Claudia´s sister is preparing hotdogs and tuna sandwiches","class":"","id":"C48GmkNTIoXN","block":"text","name":"YRmu"}],"evaluation":"auto","showResult":false,"dropdown":false,"dropdownpos":"top","id":"ryWmWnYnMxz4","block":"option","name":"6lPb"}],"background":"","id":"ET2hxBob","block":"group","name":"fQru"}],"background":"","id":"Q1OF","block":"group","name":"qzkI"}],"background":"","name":"4Cs6","hidden":false,"marker":"","id":""},{"symbol":"FinalizeGroup"}],"id":""}]},"end":{"buttons":{"restart":false},"content":[{"symbol":"finishedAll"}]},"symbols":{"finishedAll":{"class":"w-full","content":[{"block":"group","class":"bg-slate-100 rounded p-5 text-center w-full","content":[{"block":"text","text":"Congratulations, you finished the activity.","class":"","name":"Congra"}],"background":"","name":"CongraGroup"},{"block":"group","class":"text-center p-5","content":[{"block":"finished","name":"finishedBlock"}],"background":"","name":"finishedGroup"}],"background":"","block":"group"},"FinalizeGroup":{"block":"group","class":"text-center mt-10","content":[{"block":"button","class":"mx-auto","to":"/end","text":"Finalize","name":"FinalizeBTN"}],"background":""}}}
+{
+  "title": "PLANNING A BIRTHDAY PARTY",
+  "clock": true,
+  "countdown": 0,
+  "attempts": 0,
+  "intro": {
+    "buttons": {
+      "start": "Start"
+    },
+    "content": []
+  },
+  "activity": {
+    "scenes": [
+      {
+        "block": "scene",
+        "name": "SC1",
+        "countdown": 0,
+        "instructions": {
+          "open": true,
+          "content": [
+            {
+              "block": "group",
+              "class": "flex gap-2 items-center",
+              "content": [
+                {
+                  "block": "audio",
+                  "class": "",
+                  "file": "files/inst.mp3",
+                  "wave": false,
+                  "autoplay": false,
+                  "id": "",
+                  "name": "2RKA"
+                },
+                {
+                  "block": "text",
+                  "class": "",
+                  "text": "Choose the correct answer according to the previous reading",
+                  "id": "",
+                  "name": "WKqF"
+                }
+              ]
+            }
+          ]
+        },
+        "content": [
+          {
+            "block": "group",
+            "class": "bg-slate-100 rounded p-3 my-2 max-w-5xl mx-auto",
+            "content": [
+              {
+                "marker": "",
+                "class": "flex justify-center my-5",
+                "content": [
+                  {
+                    "file": "files/img01.jpg",
+                    "class": "mask mask-squircle w-3/4",
+                    "id": "9Zzc",
+                    "block": "image",
+                    "name": "hok8"
+                  }
+                ],
+                "background": "",
+                "id": "5jmj",
+                "block": "group",
+                "name": "iFtF"
+              },
+              {
+                "marker": "",
+                "class": "grid gap-10 m-5 p-5",
+                "content": [
+                  {
+                    "marker": "",
+                    "class": "grid gap-5",
+                    "content": [
+                      {
+                        "text": "1.- Who is planning the birthday party?",
+                        "class": "",
+                        "id": "8622",
+                        "block": "text",
+                        "name": "Hbpb"
+                      },
+                      {
+                        "class": "",
+                        "options": [
+                          {
+                            "text": "Claudia is planning the birthday party.",
+                            "class": "",
+                            "id": "x2Ll",
+                            "block": "text",
+                            "name": "Jwtu"
+                          },
+                          {
+                            "text": "Samantha is planning the birthday party.",
+                            "class": "",
+                            "id": "RWwN",
+                            "block": "text",
+                            "name": "U1Ad"
+                          },
+                          {
+                            "text": "Teresa and Jose are planning the birthday party.",
+                            "class": "",
+                            "id": "C48G",
+                            "block": "text",
+                            "name": "QkAk"
+                          }
+                        ],
+                        "evaluation": "auto",
+                        "showResult": false,
+                        "dropdown": false,
+                        "dropdownpos": "top",
+                        "id": "ryWm",
+                        "block": "option",
+                        "name": "bpGq"
+                      }
+                    ],
+                    "background": "",
+                    "id": "4Ofx",
+                    "block": "group",
+                    "name": "CT2R"
+                  },
+                  {
+                    "marker": "",
+                    "class": "grid gap-5",
+                    "content": [
+                      {
+                        "text": "2.- Which birthday are they celebrating?",
+                        "class": "",
+                        "id": "8622cwzJ",
+                        "block": "text",
+                        "name": "TwOz"
+                      },
+                      {
+                        "class": "",
+                        "options": [
+                          {
+                            "text": "This is Samantha´s 14th birthday.",
+                            "class": "",
+                            "id": "x2LlczB4",
+                            "block": "text",
+                            "name": "oP05"
+                          },
+                          {
+                            "text": "This is Samantha´s 15th birthday.",
+                            "class": "",
+                            "id": "RWwN1lC9",
+                            "block": "text",
+                            "name": "KTye"
+                          },
+                          {
+                            "text": "This is Claudia´s 14th birthday",
+                            "class": "",
+                            "id": "C48GmkNT",
+                            "block": "text",
+                            "name": "782Z"
+                          }
+                        ],
+                        "evaluation": "auto",
+                        "showResult": false,
+                        "dropdown": false,
+                        "dropdownpos": "top",
+                        "id": "ryWmWnYn",
+                        "block": "option",
+                        "name": "DSZy"
+                      }
+                    ],
+                    "background": "",
+                    "id": "eFutvdMI",
+                    "block": "group",
+                    "name": "BzQm"
+                  },
+                  {
+                    "marker": "",
+                    "class": "grid gap-5",
+                    "content": [
+                      {
+                        "text": "3.- When is the party taking place?",
+                        "class": "",
+                        "id": "8622cwzJSRNM",
+                        "block": "text",
+                        "name": "t6KX"
+                      },
+                      {
+                        "class": "",
+                        "options": [
+                          {
+                            "text": "Samantha´s birthday party is next Friday.",
+                            "class": "",
+                            "id": "x2LlczB47uLb",
+                            "block": "text",
+                            "name": "dRhg"
+                          },
+                          {
+                            "text": "Samantha´s birthday party is next week.",
+                            "class": "",
+                            "id": "RWwN1lC9drX9",
+                            "block": "text",
+                            "name": "r1iy"
+                          },
+                          {
+                            "text": "Samantha´s birthday party is next weekend.",
+                            "class": "",
+                            "id": "C48GmkNTNSOj",
+                            "block": "text",
+                            "name": "YOrd"
+                          }
+                        ],
+                        "evaluation": "auto",
+                        "showResult": false,
+                        "dropdown": false,
+                        "dropdownpos": "top",
+                        "id": "ryWmWnYnVubV",
+                        "block": "option",
+                        "name": "JCbr"
+                      }
+                    ],
+                    "background": "",
+                    "id": "9Yd0te7e",
+                    "block": "group",
+                    "name": "dMpg"
+                  },
+                  {
+                    "marker": "",
+                    "class": "grid gap-5",
+                    "content": [
+                      {
+                        "text": "4.- Who's in charge of the decoration? ",
+                        "class": "",
+                        "id": "8622cwzJkL5b",
+                        "block": "text",
+                        "name": "fIQt"
+                      },
+                      {
+                        "class": "",
+                        "options": [
+                          {
+                            "text": "Samantha's sister is decorating the living room with colorful balloons",
+                            "class": "",
+                            "id": "x2LlczB4kycj",
+                            "block": "text",
+                            "name": "yRlS"
+                          },
+                          {
+                            "text": "Teresa's sister is decorating the living room with colorful balloons",
+                            "class": "",
+                            "id": "RWwN1lC9Nrnu",
+                            "block": "text",
+                            "name": "F0GT"
+                          },
+                          {
+                            "text": "Claudia's sister is decorating the living room with colorful balloons",
+                            "class": "",
+                            "id": "C48GmkNThdPn",
+                            "block": "text",
+                            "name": "3OZ0"
+                          }
+                        ],
+                        "evaluation": "auto",
+                        "showResult": false,
+                        "dropdown": false,
+                        "dropdownpos": "top",
+                        "id": "ryWmWnYnxkdP",
+                        "block": "option",
+                        "name": "coqb"
+                      }
+                    ],
+                    "background": "",
+                    "id": "u8H5fWM2",
+                    "block": "group",
+                    "name": "1bMj"
+                  },
+                  {
+                    "marker": "",
+                    "class": "grid gap-5",
+                    "content": [
+                      {
+                        "text": "5.-Who's preparing the meal?",
+                        "class": "",
+                        "id": "8622cwzJeraG",
+                        "block": "text",
+                        "name": "DDgf"
+                      },
+                      {
+                        "class": "",
+                        "options": [
+                          {
+                            "text": "Ivonne is preparing hot dogs and tuna sandwiches",
+                            "class": "",
+                            "id": "x2LlczB4oXEf",
+                            "block": "text",
+                            "name": "fpMH"
+                          },
+                          {
+                            "text": "Sergio is preparing hot dogs and tuna sandwiches",
+                            "class": "",
+                            "id": "RWwN1lC96hW5",
+                            "block": "text",
+                            "name": "CP7s"
+                          },
+                          {
+                            "text": "Claudia´s sister is preparing hot dogs and tuna sandwiches",
+                            "class": "",
+                            "id": "C48GmkNTIoXN",
+                            "block": "text",
+                            "name": "YRmu"
+                          }
+                        ],
+                        "evaluation": "auto",
+                        "showResult": false,
+                        "dropdown": false,
+                        "dropdownpos": "top",
+                        "id": "ryWmWnYnMxz4",
+                        "block": "option",
+                        "name": "6lPb"
+                      }
+                    ],
+                    "background": "",
+                    "id": "ET2hxBob",
+                    "block": "group",
+                    "name": "fQru"
+                  }
+                ],
+                "background": "",
+                "id": "Q1OF",
+                "block": "group",
+                "name": "qzkI"
+              }
+            ],
+            "background": "",
+            "name": "4Cs6",
+            "hidden": false,
+            "marker": "",
+            "id": ""
+          },
+          {
+            "symbol": "FinalizeGroup"
+          }
+        ],
+        "id": ""
+      }
+    ]
+  },
+  "end": {
+    "buttons": {
+      "restart": false
+    },
+    "content": [
+      {
+        "symbol": "finishedAll"
+      }
+    ]
+  },
+  "symbols": {
+    "finishedAll": {
+      "class": "w-full",
+      "content": [
+        {
+          "block": "group",
+          "class": "bg-slate-100 rounded p-5 text-center w-full",
+          "content": [
+            {
+              "block": "text",
+              "text": "Congratulations, you finished the activity.",
+              "class": "",
+              "name": "Congra"
+            }
+          ],
+          "background": "",
+          "name": "CongraGroup"
+        },
+        {
+          "block": "group",
+          "class": "text-center p-5",
+          "content": [
+            {
+              "block": "finished",
+              "name": "finishedBlock"
+            }
+          ],
+          "background": "",
+          "name": "finishedGroup"
+        }
+      ],
+      "background": "",
+      "block": "group"
+    },
+    "FinalizeGroup": {
+      "block": "group",
+      "class": "text-center mt-10",
+      "content": [
+        {
+          "block": "button",
+          "class": "mx-auto",
+          "to": "/end",
+          "text": "Finalize",
+          "name": "FinalizeBTN"
+        }
+      ],
+      "background": ""
+    }
+  }
+}
