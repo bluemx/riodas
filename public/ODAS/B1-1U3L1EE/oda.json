@@ -1,1 +1,221 @@
-{"title":"Grammar Production","clock":true,"countdown":0,"intro":{"buttons":{"start":"Start"},"content":[]},"activity":{"scenes":[{"block":"scene","name":"SC1","countdown":0,"instructions":{"open":true,"content":[{"block":"group","class":"flex gap-2 items-center","content":[{"block":"audio","class":"","file":"files/inst.mp3","wave":false,"autoplay":false,"id":"","name":"uO8i"},{"block":"text","class":"","text":"Read the following text carefully. Pay attention to the  words in bold too.","id":"","name":"RH4A"}]}]},"content":[{"block":"group","class":"bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto","content":[{"marker":"📱mobileview","class":"mockup-phone w-full ","content":[{"marker":"camera","class":"camera","content":[],"background":"","id":"ktI7","block":"group","name":"oFBu"},{"marker":"","class":"display bg-white ","content":[{"marker":"","class":"artboard artboard-demo phone-1  p-5","content":[{"block":"group","class":"bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto flex flex-col gap-5 m","content":[{"text":"The impact of learning a foreign language in students’ lives ","class":"text-xl","id":"0hRa","block":"text","name":"uwFK"},{"text":"By Felicity Morgan","class":"text-xlg","id":"2pjklcG6","block":"text","name":"PPdH"},{"block":"text","class":"","text":"In today’s interconnected world, the ability to speak a foreign language is more crucial than ever. Students who <b>have made</b> the decision to learn a language become part of a global community, opening doors to exciting opportunities and broadening their perspectives. I interviewed a group of students. This is what they said about their experience of learning English as a foreign language: <br>Lily Hernandez: Language learning began with the building blocks of vocabulary and grammar. My classmates and I <b>have learnt</b> the intricacies of syntax and <b>have put</b> our knowledge into practice through speaking, writing, and reading. This process <b>has required</b> dedication and perseverance, but the rewards <b>have overcome</b>the challenges. I <b>have gotten</b> a lot of benefits. <br>Ethan Garza: Learning a foreign language <b>has had</b> practical implications in my case. Honestly, I didn’t want to study English at the beginning of the course but the ability to communicate in multiple languages <b>has given</b> me better job opportunities. I <b>have met</b> people from other countries. <br>Camila Morales: On a personal level, I <b>have become</b> more confident communicating in another language. This confidence <b>has spread</b> to other areas of my life. I <b>have been</b> happy studying English. In conclusion, the implication of learning a foreign language goes far beyond words and grammar. It impacts students’ cultural understanding, cognitive abilities, and personal growth. ","name":"fIKI","hidden":false,"id":""}],"background":"","name":"DN0J","hidden":false,"marker":"","id":""}],"background":"","id":"gAjK","block":"group","name":"CDVI"}],"background":"","id":"MKD6","block":"group","name":"3cPv"}],"background":"","id":"zhKT","block":"group","name":"bqNX"},{"marker":"","class":"mt-5 p-10","content":[{"marker":"","class":"bg-yellow-100 p-10 rounded shadow","content":[{"text":"*What do the verbs in bold have in common?                                                                                                                                                                                                                                                                                                                                                                                                                                                                      <br>*Can you mention the base form and past form of those verbs?                                                                                                                                                                                                                                                                                                                                                                                                                                                       <br>*Are there any other verbs in the text?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       <br>*Do you know the past participle of those verbs? ","class":"","id":"43jp","block":"text","name":"HmBf"}],"background":"","id":"1Zx8","block":"group","name":"Yj1W"}],"background":"","id":"bS3A","block":"group","name":"kGGF"}],"background":"","name":"4Cs6","hidden":false},{"symbol":"FinalizeGroup"}],"id":""}]},"end":{"buttons":{"restart":false},"content":[{"symbol":"finishedAll"}]},"symbols":{"finishedAll":{"class":"w-full","content":[{"block":"group","class":"bg-slate-100 rounded p-5 text-center w-full","content":[{"block":"text","text":"Congratulations, you finished the activity.","class":"","name":"Congra"}],"background":"","name":"CongraGroup"},{"block":"group","class":"text-center p-5","content":[{"block":"finished","name":"finishedBlock"}],"background":"","name":"finishedGroup"}],"background":"","block":"group"},"FinalizeGroup":{"block":"group","class":"text-center mt-10","content":[{"block":"button","class":"mx-auto","to":"/end","text":"Finalize","name":"FinalizeBTN"}],"background":""}}}
+{
+  "title": "Grammar Production",
+  "clock": true,
+  "countdown": 0,
+  "intro": {
+    "buttons": {
+      "start": "Start"
+    },
+    "content": []
+  },
+  "activity": {
+    "scenes": [
+      {
+        "block": "scene",
+        "name": "SC1",
+        "countdown": 0,
+        "instructions": {
+          "open": true,
+          "content": [
+            {
+              "block": "group",
+              "class": "flex gap-2 items-center",
+              "content": [
+                {
+                  "block": "audio",
+                  "class": "",
+                  "file": "files/inst.mp3",
+                  "wave": false,
+                  "autoplay": false,
+                  "id": "",
+                  "name": "uO8i"
+                },
+                {
+                  "block": "text",
+                  "class": "",
+                  "text": "Read the following text carefully. Pay attention to the  words in bold too.",
+                  "id": "",
+                  "name": "RH4A"
+                }
+              ]
+            }
+          ]
+        },
+        "content": [
+          {
+            "block": "group",
+            "class": "bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto",
+            "content": [
+              {
+                "marker": "📱mobileview",
+                "class": "mockup-phone w-full ",
+                "content": [
+                  {
+                    "marker": "camera",
+                    "class": "camera",
+                    "content": [],
+                    "background": "",
+                    "id": "ktI7",
+                    "block": "group",
+                    "name": "oFBu"
+                  },
+                  {
+                    "marker": "",
+                    "class": "display bg-white ",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "artboard artboard-demo phone-1  p-5",
+                        "content": [
+                          {
+                            "block": "group",
+                            "class": "bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto flex flex-col gap-5 m",
+                            "content": [
+                              {
+                                "text": "The impact of learning a foreign language in students’ lives ",
+                                "class": "text-xl",
+                                "id": "0hRa",
+                                "block": "text",
+                                "name": "uwFK"
+                              },
+                              {
+                                "text": "By Felicity Morgan",
+                                "class": "text-xlg",
+                                "id": "2pjklcG6",
+                                "block": "text",
+                                "name": "PPdH"
+                              },
+                              {
+                                "block": "text",
+                                "class": "",
+                                "text": "In today’s interconnected world, the ability to speak a foreign language is more crucial than ever. Students who <b>have made</b> the decision to learn a language become part of a global community, opening doors to exciting opportunities and broadening their perspectives. I interviewed a group of students. This is what they said about their experience of learning English as a foreign language: <br>Lily Hernandez: Language learning began with the building blocks of vocabulary and grammar. My classmates and I <b>have learnt</b> the intricacies of syntax and <b>have put</b> our knowledge into practice through speaking, writing, and reading. This process <b>has required</b> dedication and perseverance, but the rewards <b>have overcome</b> the challenges. I <b>have gotten</b> a lot of benefits. <br>Ethan Garza: Learning a foreign language <b>has had</b> practical implications in my case. Honestly, I didn’t want to study English at the beginning of the course but the ability to communicate in multiple languages <b>has given</b> me better job opportunities. I <b>have met</b> people from other countries. <br>Camila Morales: On a personal level, I <b>have become</b> more confident communicating in another language. This confidence <b>has spread</b> to other areas of my life. I <b>have been</b> happy studying English. In conclusion, the implication of learning a foreign language goes far beyond words and grammar. It impacts students’ cultural understanding, cognitive abilities, and personal growth. ",
+                                "name": "fIKI",
+                                "hidden": false,
+                                "id": ""
+                              }
+                            ],
+                            "background": "",
+                            "name": "DN0J",
+                            "hidden": false,
+                            "marker": "",
+                            "id": ""
+                          }
+                        ],
+                        "background": "",
+                        "id": "gAjK",
+                        "block": "group",
+                        "name": "CDVI"
+                      }
+                    ],
+                    "background": "",
+                    "id": "MKD6",
+                    "block": "group",
+                    "name": "3cPv"
+                  }
+                ],
+                "background": "",
+                "id": "zhKT",
+                "block": "group",
+                "name": "bqNX"
+              },
+              {
+                "marker": "",
+                "class": "mt-5 p-10",
+                "content": [
+                  {
+                    "marker": "",
+                    "class": "bg-yellow-100 p-10 rounded shadow",
+                    "content": [
+                      {
+                        "text": "*What do the verbs in bold have in common?                                                                                                                                                                                                                                                                                                                                                                                                                                                                      <br>*Can you mention the base form and past form of those verbs?                                                                                                                                                                                                                                                                                                                                                                                                                                                       <br>*Are there any other verbs in the text?                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       <br>*Do you know the past participle of those verbs? ",
+                        "class": "",
+                        "id": "43jp",
+                        "block": "text",
+                        "name": "HmBf"
+                      }
+                    ],
+                    "background": "",
+                    "id": "1Zx8",
+                    "block": "group",
+                    "name": "Yj1W"
+                  }
+                ],
+                "background": "",
+                "id": "bS3A",
+                "block": "group",
+                "name": "kGGF"
+              }
+            ],
+            "background": "",
+            "name": "4Cs6",
+            "hidden": false
+          },
+          {
+            "symbol": "FinalizeGroup"
+          }
+        ],
+        "id": ""
+      }
+    ]
+  },
+  "end": {
+    "buttons": {
+      "restart": false
+    },
+    "content": [
+      {
+        "symbol": "finishedAll"
+      }
+    ]
+  },
+  "symbols": {
+    "finishedAll": {
+      "class": "w-full",
+      "content": [
+        {
+          "block": "group",
+          "class": "bg-slate-100 rounded p-5 text-center w-full",
+          "content": [
+            {
+              "block": "text",
+              "text": "Congratulations, you finished the activity.",
+              "class": "",
+              "name": "Congra"
+            }
+          ],
+          "background": "",
+          "name": "CongraGroup"
+        },
+        {
+          "block": "group",
+          "class": "text-center p-5",
+          "content": [
+            {
+              "block": "finished",
+              "name": "finishedBlock"
+            }
+          ],
+          "background": "",
+          "name": "finishedGroup"
+        }
+      ],
+      "background": "",
+      "block": "group"
+    },
+    "FinalizeGroup": {
+      "block": "group",
+      "class": "text-center mt-10",
+      "content": [
+        {
+          "block": "button",
+          "class": "mx-auto",
+          "to": "/end",
+          "text": "Finalize",
+          "name": "FinalizeBTN"
+        }
+      ],
+      "background": ""
+    }
+  },
+  "attempts": 0
+}
