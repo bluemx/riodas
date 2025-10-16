@@ -1,1 +1,177 @@
-{"title":"Exercise B. Writing an opinion essay.","clock":true,"countdown":0,"attempts":0,"intro":{"buttons":{"start":"Start"},"content":[]},"activity":{"scenes":[{"block":"scene","name":"SC1","countdown":0,"instructions":{"open":true,"content":[{"block":"group","class":"flex gap-2 items-center","content":[{"block":"audio","class":"","file":"files/INS.mp3"},{"block":"text","class":"","text":"Look at your notes on how to write an opinion essay.  Write at least 200 words minimum and 250 maximum. The topic is: Which is the best animal? Elks, platypus, whales, axolotls, goats, moles or jellyfish? Don't forget to use past continuous whenever is possible."}]}]},"content":[{"marker":"📒","class":"bg-slate-100 rounded p-2 max-w-4xl text-center mx-auto","content":[{"marker":"","class":"mask mask-squircle p-2 bg-sky-900 flex justify-center my-10","content":[{"file":"files/B2-1U3L2EB-IMG-01.jpg","class":"w-3/4 mask mask-squircle","id":"HpU3","block":"image","name":"o24d"}],"background":"","id":"GLiU","block":"group","name":"BwPW"},{"marker":"","class":"bg-center h-screen bg-contain","content":[{"marker":"","class":"ml-20 pl-5","content":[{"case":false,"evaluation":"manual","class":"!min-h-[900px] !bg-transparent text-2xl text-justify p-5","positive":"","multiline":true,"placeholder":"-","showResult":false,"id":"d3OM","block":"textarea","name":"evSP","maxlength":1300,"attempts":0}],"background":"","id":"9CL0","block":"group","name":"cuOi"}],"background":"files/B2-1U3L1EF-IMG-02.jpg","id":"HlpF","block":"group","name":"ko1D"},{"marker":"","class":"bg-center  bg-contain","content":[],"background":"files/B2-1U3L1EF-IMG-02.jpg","id":"ZgXTXRxX","block":"group","name":"yCcU","hidden":false}],"background":"","id":"gpo1","block":"group","name":"gpo1"},{"symbol":"FinalizeGroup"}]}]},"end":{"buttons":{"restart":false},"content":[{"symbol":"finishedAll"}]},"symbols":{"finishedAll":{"class":"w-full","content":[{"block":"group","class":"bg-slate-100 rounded p-5 text-center w-full","content":[{"block":"text","text":"Congratulations, you finished the activity.","class":"","name":"Congra"}],"background":"","name":"CongraGroup"},{"block":"group","class":"text-center p-5","content":[{"block":"finished","name":"finishedBlock"}],"background":"","name":"finishedGroup"}],"background":"","block":"group"},"FinalizeGroup":{"block":"group","class":"text-center mt-10","content":[{"block":"button","class":"mx-auto","to":"/end","text":"Finalize","name":"FinalizeBTN"}],"background":""}}}
+{
+  "title": "Exercise B. Writing an opinion essay.",
+  "clock": true,
+  "countdown": 0,
+  "attempts": 0,
+  "intro": {
+    "buttons": {
+      "start": "Start"
+    },
+    "content": []
+  },
+  "activity": {
+    "scenes": [
+      {
+        "block": "scene",
+        "name": "SC1",
+        "countdown": 0,
+        "instructions": {
+          "open": true,
+          "content": [
+            {
+              "block": "group",
+              "class": "flex gap-2 items-center",
+              "content": [
+                {
+                  "block": "audio",
+                  "class": "",
+                  "file": "files/INS.mp3"
+                },
+                {
+                  "block": "text",
+                  "class": "",
+                  "text": "Look at your notes on how to write an opinion essay.  Write at least 200 words minimum and 250 maximum. The topic is: Which is the best animal? Elks, platypus, whales, axolotls, goats, moles or jellyfish? Don't forget to use past continuous whenever is possible."
+                }
+              ]
+            }
+          ]
+        },
+        "content": [
+          {
+            "marker": "📒",
+            "class": "bg-slate-100 rounded p-2 max-w-4xl text-center mx-auto",
+            "content": [
+              {
+                "marker": "",
+                "class": "mask mask-squircle p-2 bg-sky-900 flex justify-center my-10",
+                "content": [
+                  {
+                    "file": "files/B2-1U3L2EB-IMG-01.jpg",
+                    "class": "w-3/4 mask mask-squircle",
+                    "id": "HpU3",
+                    "block": "image",
+                    "name": "o24d"
+                  }
+                ],
+                "background": "",
+                "id": "GLiU",
+                "block": "group",
+                "name": "BwPW"
+              },
+              {
+                "marker": "",
+                "class": "bg-center h-screen bg-contain",
+                "content": [
+                  {
+                    "marker": "",
+                    "class": "ml-20 pl-5",
+                    "content": [
+                      {
+                        "case": false,
+                        "evaluation": "manual",
+                        "class": "!min-h-[800px] !bg-transparent text-2xl text-justify p-5",
+                        "positive": "",
+                        "multiline": true,
+                        "placeholder": "-",
+                        "showResult": false,
+                        "id": "d3OM",
+                        "block": "textarea",
+                        "name": "evSP",
+                        "maxlength": 1300,
+                        "attempts": 0
+                      }
+                    ],
+                    "background": "",
+                    "id": "9CL0",
+                    "block": "group",
+                    "name": "cuOi"
+                  }
+                ],
+                "background": "files/B2-1U3L1EF-IMG-02.jpg",
+                "id": "HlpF",
+                "block": "group",
+                "name": "ko1D"
+              },
+              {
+                "marker": "",
+                "class": "bg-center  bg-contain my-10",
+                "content": [],
+                "background": "files/B2-1U3L1EF-IMG-02.jpg",
+                "id": "ZgXTXRxX",
+                "block": "group",
+                "name": "yCcU",
+                "hidden": false
+              }
+            ],
+            "background": "",
+            "id": "gpo1",
+            "block": "group",
+            "name": "gpo1"
+          },
+          {
+            "symbol": "FinalizeGroup"
+          }
+        ]
+      }
+    ]
+  },
+  "end": {
+    "buttons": {
+      "restart": false
+    },
+    "content": [
+      {
+        "symbol": "finishedAll"
+      }
+    ]
+  },
+  "symbols": {
+    "finishedAll": {
+      "class": "w-full",
+      "content": [
+        {
+          "block": "group",
+          "class": "bg-slate-100 rounded p-5 text-center w-full",
+          "content": [
+            {
+              "block": "text",
+              "text": "Congratulations, you finished the activity.",
+              "class": "",
+              "name": "Congra"
+            }
+          ],
+          "background": "",
+          "name": "CongraGroup"
+        },
+        {
+          "block": "group",
+          "class": "text-center p-5",
+          "content": [
+            {
+              "block": "finished",
+              "name": "finishedBlock"
+            }
+          ],
+          "background": "",
+          "name": "finishedGroup"
+        }
+      ],
+      "background": "",
+      "block": "group"
+    },
+    "FinalizeGroup": {
+      "block": "group",
+      "class": "text-center mt-10",
+      "content": [
+        {
+          "block": "button",
+          "class": "mx-auto",
+          "to": "/end",
+          "text": "Finalize",
+          "name": "FinalizeBTN"
+        }
+      ],
+      "background": ""
+    }
+  }
+}
