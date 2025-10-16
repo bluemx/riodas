@@ -1,1 +1,2389 @@
-{"title":"Grammar  Presentation: Be used to / Get used to / Used to.","clock":true,"countdown":0,"attempts":0,"intro":{"buttons":{"start":"Start"},"content":[]},"activity":{"scenes":[{"block":"scene","name":"ofcV","countdown":0,"instructions":{"open":true,"content":[{"block":"group","class":"flex gap-2 items-center","content":[{"block":"audio","class":"","file":"files/INS.mp3"},{"block":"text","class":"","text":"Read carefully the next information and take notes in your notebook."}]}]},"content":[{"marker":"","class":"my-5","content":[{"text":"<b>USED TO</b>: We use it to talk about <b>activities performed repeatedly in the past</b>, but that are no longer performed in the present. ","class":"text-2xl","id":"Wo1K6QD4","block":"text","name":"N78w"}],"background":"","id":"qNYqNF45","block":"group","name":"8Z4e"},{"marker":"","class":"my-5","content":[{"text":" <b>USED TO</b>:  Activities that no longer happen now.","class":"text-2xl","id":"Wo1KgWV695PZ","block":"text","name":"EX4M"}],"background":"","id":"NXoR6McBJkEB","block":"group","name":"wlUa"},{"marker":"📒","class":"rounded p-5 max-w-5xl mx-auto bg-sky-50","content":[{"marker":"","class":"","content":[{"marker":"","class":"text-center","content":[{"text":" <b>USED TO</b>","class":"text-5xl","id":"Wo1KgWV62zVbkBKp","block":"text","name":"zhVq"}],"background":"","id":"9U1h1YPn2EV8","block":"group","name":"2bGC"},{"marker":"","class":"bg-sky-500 px-4 py-1 rounded-lg my-5","content":[{"marker":"","class":" text-center bg-sky-50 rounded-lg p-5 my-5","content":[{"text":"AFFIRMATIVE STATEMENTS ","class":"text-4xl font-bold","id":"xyIGBKuII3EknwBMF7AR","block":"text","name":"XABa"}],"background":"","id":"SBntJc3TxYWJLsaj4WBa","block":"group","name":"VW9n"},{"marker":"","class":"grid grid-cols-4  p-5 rounded-lg  items-center my-5 gap-5","content":[{"marker":"","class":"text-center items-center  col-span-2 grid grid-cols-2 bg-sky-50 rounded-lg p-5 !min-h-[250px]","content":[{"text":"I<br>You<br>He<br>She<br>It<br>We<br>They<br>","class":"text-xl font-bold","id":"kGrPnEQ0aAGS515Brqjy","block":"text","name":"MpVs"},{"marker":"","class":"","content":[{"icon":"material-symbols:double-arrow","class":"text-9xl","id":"HlFB8bu3KKRgeDOCG1xY","block":"icon","name":"3ZlU"}],"background":"","id":"mBThRYNcAbXtKeg0","block":"group","name":"nEeE"}],"background":"","id":"RKRFJmCEvt9TzcuEVjaQ","block":"group","name":"9iVd"},{"marker":"","class":"col-span-2 bg-sky-50 rounded-lg p-5 !min-h-[250px]","content":[{"marker":"","class":"","content":[{"text":"- used to ","class":"text-xl bg-sky-200 p-2 rounded-lg font-bold","id":"kGrPnEQ07w9OSzpGlT2UqaBB","block":"text","name":"gDbA"},{"text":"listen","class":"text-xl underline","id":"2HF6UivOGl3j","block":"text","name":"sFu1"},{"text":" to music in a disc man.","class":"text-xl","id":"WTzSal90KaNH","block":"text","name":"L6Rr"}],"background":"","id":"2DNCJsXxbLgPPAqC","block":"group","name":"kRaA"},{"marker":"","class":"","content":[{"text":"- used to","class":"text-xl bg-sky-200 p-2 rounded-lg font-bold","id":"kGrPnEQ07w9OSzpGizFxlMSL9zpd","block":"text","name":"dVlX"},{"text":"wear","class":"text-xl underline","id":"cikiXuVjrUwj","block":"text","name":"02Ei"},{"text":" uniform in elementary school.","class":"text-xl","id":"ic3QMRzYY0gW","block":"text","name":"pEzK"}],"background":"","id":"eDdxDarubbCoykZL","block":"group","name":"b1Dt"},{"marker":"","class":"","content":[{"text":"- used to","class":"text-xl bg-sky-200 p-2 rounded-lg font-bold","id":"kGrPnEQ07w9OkeuqzA2Sl9kCXwxi","block":"text","name":"evzs"},{"text":"search for","class":"text-xl underline","id":"GKtFd4CtaUG4","block":"text","name":"PEuq"},{"text":" information in the “Encarta” encyclopedia.","class":"text-xl","id":"mmlDzV4m2wXS","block":"text","name":"ZCh3"}],"background":"","id":"87PdULYQOEICuPK3DxFs","block":"group","name":"cVhE"}],"background":"","id":"DjpGRd9VJVl983oyBl6X","block":"group","name":"Txy4","hidden":false}],"background":"","id":"geT26mEb4KFQa0Ob","block":"group","name":"0g4s"}],"background":"","id":"9HfFeVo12FGI","block":"group","name":"UEV3","hidden":false},{"marker":"","class":"bg-sky-500 px-4 py-1 rounded-lg my-5","content":[{"marker":"","class":" text-center bg-sky-50 rounded-lg p-5 my-5","content":[{"text":"NEGATIVE STATEMENTS ","class":"text-4xl font-bold","id":"xyIGBKuII3Ek79EsLXqm","block":"text","name":"k5gM"}],"background":"","id":"SBntJc3TxYWJc05ydnDA","block":"group","name":"e1SG"},{"marker":"","class":"grid grid-cols-4  p-2 rounded-lg  items-center my-5 gap-5","content":[{"marker":"","class":"text-center items-center  col-span-2 grid grid-cols-2 bg-sky-50 rounded-lg p-5 !min-h-[250px]","content":[{"text":"I<br>You<br>He<br>She<br>It<br>We<br>They<br>","class":"text-xl font-bold","id":"kGrPnEQ0aAGSardN1UkA","block":"text","name":"M8QO"},{"marker":"","class":"","content":[{"icon":"material-symbols:double-arrow","class":"text-9xl","id":"HlFB8bu3KKRg5WFR0PJf","block":"icon","name":"TuJT"}],"background":"","id":"mBThRYNcoJdoWupn","block":"group","name":"RQif"}],"background":"","id":"RKRFJmCEvt9TogIxYwew","block":"group","name":"FfMM"},{"marker":"","class":"col-span-2 bg-sky-50 rounded-lg p-5 !min-h-[250px]","content":[{"marker":"","class":"","content":[{"text":"- didn’t use to","class":"text-xl bg-sky-200 p-2 rounded-lg font-bold","id":"kGrPnEQ07w9OSzpGIYhBe4CF","block":"text","name":"oOIC"},{"text":"listen","class":"text-xl underline","id":"EVzfSPXADQLu","block":"text","name":"b4sw"},{"text":"to music in a disc man.","class":"text-xl","id":"pc4UpzBt12pB","block":"text","name":"fVNk"}],"background":"","id":"2DNCJsXxkjjU7f0N","block":"group","name":"uu6j"},{"marker":"","class":"","content":[{"text":"- didn’t use to ","class":"text-xl bg-sky-200 p-2 rounded-lg font-bold","id":"kGrPnEQ07w9OSzpGIYhBgabbouGW","block":"text","name":"ES83"},{"text":"wear","class":"text-xl underline","id":"XiSVVVAUH2rA","block":"text","name":"QsE2"},{"text":" uniform in elementary school.","class":"text-xl","id":"s97L8VgOmB2e","block":"text","name":"eUq0"}],"background":"","id":"Zmt0pTRE39ie","block":"group","name":"M7Qe"},{"marker":"","class":"","content":[{"text":"- didn’t use to","class":"text-xl bg-sky-200 p-2 rounded-lg font-bold","id":"kGrPnEQ07w9OkeuqzA2Sr8frK0Pi","block":"text","name":"uHYu"},{"text":"search for","class":"text-xl underline","id":"zsvXHJrgDvQ2","block":"text","name":"E5g2"},{"text":" information in the “Encarta” encyclopedia.","class":"text-xl","id":"ZU9KFRRPCHPz","block":"text","name":"xsRC"}],"background":"","id":"87PdULYQOEICKetdsahu","block":"group","name":"BaN1"}],"background":"","id":"DjpGRd9VJVl9kZbSHbF4","block":"group","name":"TOLU","hidden":false}],"background":"","id":"geT26mEbKAVaMIkd","block":"group","name":"gO0I"}],"background":"","id":"dLyfWP9pJDmr","block":"group","name":"gRCW","hidden":false},{"marker":"","class":"bg-sky-500 px-4 py-1 rounded-lg my-5","content":[{"marker":"","class":" text-center bg-sky-50 rounded-lg p-5 my-5","content":[{"text":"QUESTIONS","class":"text-4xl font-bold","id":"xyIGBKuII3Ek79EsDAgUmbuH","block":"text","name":"ztrP"}],"background":"","id":"SBntJc3TxYWJc05y0hya71HK","block":"group","name":"Rcrr"},{"marker":"","class":"grid grid-cols-4  p-2 rounded-lg  items-center my-5 gap-5","content":[{"marker":"","class":"col-span-4 bg-sky-50 rounded-lg p-5 !min-h-[250px]","content":[{"marker":"","class":"","content":[{"text":"- Did you use to","class":"text-xl bg-sky-200 p-2 rounded-lg font-bold","id":"kGrPnEQ07w9OSzpGIYhBWs9uHUE1","block":"text","name":"Vk60"},{"text":"listen","class":"text-xl underline","id":"gbNEmiKW68LJ","block":"text","name":"ZzBh"},{"text":" to music in a disc man?","class":"text-xl","id":"7LUkCpALN9BZ","block":"text","name":"ETPT"}],"background":"","id":"2DNCJsXxkjjU7fK2OZaJ","block":"group","name":"jWeJ"},{"marker":"","class":"my-5","content":[{"text":"- Yes, I did / No, I didn’t.","class":"text-xl bg-sky-200 p-2 rounded-lg font-bold","id":"kGrPnEQ07w9OSzpGIYhBgabbaQ9IoFKw","block":"text","name":"VBGK"}],"background":"","id":"Zmt0pTREZ3wMl8E1","block":"group","name":"4H9c"},{"marker":"","class":"","content":[{"text":"- Did your teacher use to","class":"text-xl bg-sky-200 p-2 rounded-lg font-bold","id":"kGrPnEQ07w9OkeuqzA2Sr8fre1ORBRdC","block":"text","name":"cPW0"},{"text":"wear","class":"text-xl underline","id":"upfhMEcellWv","block":"text","name":"imGV"},{"text":" uniform in elementary school?","class":"text-xl","id":"8ndhqq4mZcIS","block":"text","name":"hvCS"}],"background":"","id":"87PdULYQOEICKetdVtkbjbvM","block":"group","name":"8FDI"},{"marker":"","class":"my-5","content":[{"text":"- Yes, he did / No, he didn’t.","class":"text-xl bg-sky-200 p-2 rounded-lg font-bold","id":"kGrPnEQ07w9OkeuqzA2Sr8fre1ORNOu5rw84","block":"text","name":"8P2E"}],"background":"","id":"8xWoFT7fmFUg","block":"group","name":"3fJ9"},{"marker":"","class":"","content":[{"text":"- Did you and your friends use to ","class":"text-xl bg-sky-200 p-2 rounded-lg font-bold","id":"kGrPnEQ07w9OkeuqzA2Sr8fre1ORKzpBXzk2","block":"text","name":"Q5h8"},{"text":"search for","class":"text-xl underline","id":"5hZvAVxiC30F","block":"text","name":"xma5"},{"text":" information in the “Encarta” encyclopedia? ","class":"text-xl","id":"XXHUpScCl7hg","block":"text","name":"UG4S"}],"background":"","id":"emWy8byjbgHB","block":"group","name":"Lnr8"},{"marker":"","class":"my-2","content":[{"text":"- Yes, we did / No, we didn’t.","class":"text-xl bg-sky-200 p-2 rounded-lg font-bold","id":"kGrPnEQ07w9OkeuqzA2Sr8fre1ORKzpBaKeEhtrY","block":"text","name":"GAXh"}],"background":"","id":"V2DKL87yncGq","block":"group","name":"Ntfw"}],"background":"","id":"DjpGRd9VJVl9kZbSw7209cA0","block":"group","name":"o54E","hidden":false}],"background":"","id":"geT26mEbKAVarfXR4ZHa","block":"group","name":"qg6p"}],"background":"","id":"C0hMtnW95pGg","block":"group","name":"mIGE","hidden":false}],"background":"","id":"Cae9fWch","block":"group","name":"Lr2a","hidden":false}],"background":"","id":"gpo1uwwf","block":"group","name":"AFNI","hidden":false},{"marker":"","class":"my-5","content":[{"text":"<b>GET USED TO</b>:  We use it to talk about <b>activities that are becoming familiar</b>. In other words, we start to become accustomed to doing something.","class":"text-2xl","id":"kiaZoFqp","block":"text","name":"mG8I"}],"background":"","id":"7XuI7Vpx","block":"group","name":"qnKC"},{"marker":"","class":"my-5","content":[{"text":"<b>GET USED TO</b>:  Activities that are in the process of becoming normal. ","class":"text-2xl","id":"kiaZnVeghuZnejkg","block":"text","name":"SOug"}],"background":"","id":"QELrZ0UChNRp","block":"group","name":"dnFt"},{"marker":"📒","class":"bg-slate-100 rounded p-5 max-w-5xl mx-auto bg-yellow-200","content":[{"marker":"","class":"text-center ","content":[{"text":"<b>GET USED TO</b>","class":"text-5xl ","id":"kiaZnVegdOxT","block":"text","name":"obje"}],"background":"","id":"nTEQ2bhzjua7","block":"group","name":"hlvQ"},{"marker":"","class":"bg-sky-500 px-4 py-1 rounded-lg my-5","content":[{"marker":"","class":" text-center bg-yellow-200 rounded-lg p-5 my-5","content":[{"text":"AFFIRMATIVE STATEMENTS ","class":"text-4xl font-bold","id":"xyIGBKuII3EknwBMeJQzTLvV","block":"text","name":"GIyS"}],"background":"","id":"SBntJc3TxYWJLsajGQDpMPuf","block":"group","name":"PZPz"},{"marker":"","class":"grid grid-cols-4  p-2 rounded-lg  items-center my-1 gap-5","content":[{"marker":"","class":"text-center items-center  col-span-1 bg-sky-200 rounded-lg p-5 !min-h-[50px]","content":[{"text":"I","class":"text-xl font-bold","id":"kGrPnEQ0aAGS515BmUx3GsXw","block":"text","name":"lt6X"}],"background":"","id":"RKRFJmCEvt9TzcuEacAM1p2U","block":"group","name":"9fEF"},{"marker":"","class":"col-span-3 bg-sky-200 rounded-lg p-5 !min-h-[50px]","content":[{"marker":"","class":"","content":[{"text":"- am getting used ","class":"text-xl bg-yellow-200 p-2 rounded-lg font-bold","id":"kGrPnEQ07w9OSzpGlT2UzrzioQnE","block":"text","name":"QqSJ"},{"text":"working","class":"text-xl underline","id":"DoBUDKQRNmJ6","block":"text","name":"H7xb"},{"text":" with AI.","class":"text-xl","id":"haB0BIbjdubt","block":"text","name":"wrNR"}],"background":"","id":"2DNCJsXxbLgPYKP4S87g","block":"group","name":"jI4w"}],"background":"","id":"DjpGRd9VJVl983oygvnSizH8","block":"group","name":"Guqc","hidden":false}],"background":"","id":"geT26mEb4KFQRg6fea0y","block":"group","name":"wKmx"},{"marker":"","class":"grid grid-cols-4  p-2 rounded-lg  items-center my-1 gap-5","content":[{"marker":"","class":"text-center items-center  col-span-1 bg-sky-200 rounded-lg p-5 !min-h-[50px]","content":[{"text":"He /  She / It","class":"text-xl font-bold","id":"kGrPnEQ0aAGS515BmUx3ftV3rICW","block":"text","name":"Z2Pl"}],"background":"","id":"RKRFJmCEvt9TzcuEacAMuegPMT5B","block":"group","name":"xe9S"},{"marker":"","class":"col-span-3 bg-sky-200 rounded-lg p-5 !min-h-[50px]","content":[{"marker":"","class":"","content":[{"text":"- is getting used to","class":"text-xl bg-yellow-200 p-2 rounded-lg font-bold","id":"v6qjyEBrckrN","block":"text","name":"8CHo"},{"text":"building","class":"text-xl underline","id":"kGrPnEQ07w9OSzpGlT2Uzrzivjr2nPE5","block":"text","name":"qPBt"},{"text":" gaming metaverse.","class":"text-xl","id":"zXOko9jkUc7o","block":"text","name":"s1Hu"}],"background":"","id":"2DNCJsXxbLgPYKP4fJQbgr8C","block":"group","name":"WNcL"}],"background":"","id":"DjpGRd9VJVl983oygvnS9Mqh4YcA","block":"group","name":"heGE","hidden":false}],"background":"","id":"fNays6wtTeTX","block":"group","name":"JFPU"},{"marker":"","class":"grid grid-cols-4  p-2 rounded-lg  items-center my-1 gap-5","content":[{"marker":"","class":"text-center items-center  col-span-1 bg-sky-200 rounded-lg p-5 !min-h-[50px]","content":[{"text":"You /  We / They","class":"text-xl font-bold","id":"kGrPnEQ0aAGS515BmUx3ftV3jlgFnvGr","block":"text","name":"Wtyu"}],"background":"","id":"RKRFJmCEvt9TzcuEacAMuegPizKEpspb","block":"group","name":"vTC7"},{"marker":"","class":"col-span-3 bg-sky-200 rounded-lg p-5 !min-h-[50px]","content":[{"marker":"","class":"","content":[{"text":"- are getting used to","class":"text-xl bg-yellow-200 p-2 rounded-lg font-bold ","id":"kGrPnEQ07w9OSzpGlT2Uzrzivjr2PR1pmP8p","block":"text","name":"NHz9"},{"text":" saving","class":"text-xl underline","id":"uyhgLHTJtqFo","block":"text","name":"rDCY"},{"text":" files in drive.","class":"text-xl","id":"rLUI4MGHeURF","block":"text","name":"YGsL"}],"background":"","id":"2DNCJsXxbLgPYKP4fJQbRKm5twD9","block":"group","name":"3Tol"}],"background":"","id":"DjpGRd9VJVl983oygvnS9MqhhtHU6Qgc","block":"group","name":"AjUw","hidden":false}],"background":"","id":"gc78t8Cml1me","block":"group","name":"9UUF"}],"background":"","id":"9HfFeVo1KOGmovEU","block":"group","name":"Csdw","hidden":false},{"marker":"","class":"bg-sky-500 px-4 py-1 rounded-lg my-5","content":[{"marker":"","class":" text-center bg-yellow-200 rounded-lg p-5 my-5","content":[{"text":"NEGATIVE STATEMENTS ","class":"text-4xl font-bold","id":"xyIGBKuII3EknwBMeJQziwRIcx19","block":"text","name":"Z7IG"}],"background":"","id":"SBntJc3TxYWJLsajGQDpvGg4ATPi","block":"group","name":"BHJ8"},{"marker":"","class":"grid grid-cols-4  p-2 rounded-lg  items-center my-1 gap-5","content":[{"marker":"","class":"text-center items-center  col-span-1 bg-sky-200 rounded-lg p-10 !min-h-[120px]","content":[{"text":"I","class":"text-xl font-bold","id":"kGrPnEQ0aAGS515BmUx3zDZtOXxM","block":"text","name":"EMcG"}],"background":"","id":"RKRFJmCEvt9TzcuEacAMvRbik0cu","block":"group","name":"bKU7"},{"marker":"","class":"col-span-3 bg-sky-200 rounded-lg p-5 !min-h-[120px]","content":[{"marker":"","class":"","content":[{"text":"- didn’t get used to ","class":"text-xl font-bold bg-yellow-200 p-2 rounded-lg","id":"kGrPnEQ07w9OSzpGlT2Uzrzil3ODQHss","block":"text","name":"CnfU"},{"text":"working","class":"text-xl underline","id":"PLupDqfGvlEo","block":"text","name":"6KTr"},{"text":" with AI. ","class":"text-xl","id":"qaNW9rQ6FFse","block":"text","name":"2Xda"},{"marker":"","class":"text-center","content":[{"text":" or","class":"text-xl","id":"QQETI7xjzDVZ","block":"text","name":"b0Wn"}],"background":"","id":"YzfrVBIK","block":"group","name":"QJyJ"},{"text":"- haven’t gotten used to","class":"text-xl bg-yellow-200 p-2 rounded-lg font-bold","id":"ogv0RlgPpSZl","block":"text","name":"HnI9"},{"text":"working","class":"text-xl underline","id":"bbke0SpzSfE3","block":"text","name":"98C7"},{"text":" with AI.","class":"text-xl","id":"8xlJzz0R0OfG","block":"text","name":"1QW4"}],"background":"","id":"2DNCJsXxbLgPYKP4UaLOeLQ1","block":"group","name":"HcFV"}],"background":"","id":"DjpGRd9VJVl983oygvnST1Ok3SRz","block":"group","name":"ZJbj","hidden":false}],"background":"","id":"geT26mEb4KFQRg6fjcOrPYlP","block":"group","name":"iZOU"},{"marker":"","class":"grid grid-cols-4  p-2 rounded-lg  items-center my-1 gap-5","content":[{"marker":"","class":"text-center items-center  col-span-1 bg-sky-200 rounded-lg py-10 !min-h-[120px]","content":[{"text":"He /  She / It","class":"text-xl font-bold","id":"kGrPnEQ0aAGS515BmUx3ftV3tS2v0KSG","block":"text","name":"zYLs"}],"background":"","id":"RKRFJmCEvt9TzcuEacAMuegPWP71NLjN","block":"group","name":"83sE"},{"marker":"","class":"col-span-3 bg-sky-200 rounded-lg p-5 !min-h-[120px]","content":[{"marker":"","class":"","content":[{"text":"- didn’t get used to ","class":"text-xl bg-yellow-200 p-2 rounded-lg font-bold","id":"kGrPnEQ07w9OSzpGlT2Uzrzivjr2ZRDaXagl","block":"text","name":"bRwq"},{"text":"building","class":"text-xl underline","id":"dxcAMXudnyav","block":"text","name":"f5ip"},{"text":" gaming metaverse.","class":"text-xl","id":"MFyxzKSGTaCF","block":"text","name":"tO0m"},{"marker":"","class":"text-center","content":[{"text":"or","class":"text-xl","id":"YbobJsuiqeQU","block":"text","name":"9ZMA"}],"background":"","id":"BUjjNKMM","block":"group","name":"X1q0"},{"text":"- hasn’t get used to ","class":"text-xl bg-yellow-200 p-2 rounded-lg font-bold","id":"WN5va8PSQODf","block":"text","name":"V0aa"},{"text":"building","class":"text-xl underline","id":"TQS09xJQbCrz","block":"text","name":"trNn"},{"text":" gaming metaverse.","class":"text-xl","id":"OEk6Y6Gj7aFu","block":"text","name":"bhxA"}],"background":"","id":"2DNCJsXxbLgPYKP4fJQbzyknusLy","block":"group","name":"k0md"}],"background":"","id":"DjpGRd9VJVl983oygvnS9Mqh3Gi1xLde","block":"group","name":"llD5","hidden":false}],"background":"","id":"fNays6wtd7N89vir","block":"group","name":"xTqf"},{"marker":"","class":"grid grid-cols-4  p-2 rounded-lg  items-center my-1 gap-5","content":[{"marker":"","class":"text-center items-center  col-span-1 bg-sky-200 rounded-lg py-10 !min-h-[120px]","content":[{"text":"You /  We / They","class":"text-xl font-bold","id":"kGrPnEQ0aAGS515BmUx3ftV3jlgF92slOmkT","block":"text","name":"o3nz"}],"background":"","id":"RKRFJmCEvt9TzcuEacAMuegPizKEu6bykfZ2","block":"group","name":"rwhf"},{"marker":"","class":"col-span-3 bg-sky-200 rounded-lg p-5 !min-h-[120px]","content":[{"marker":"","class":"","content":[{"text":"- didn’t get used to ","class":"text-xl bg-yellow-200 p-2 rounded-lg font-bold","id":"kGrPnEQ07w9OSzpGlT2Uzrzivjr2PR1pH0lw1gLc","block":"text","name":"PiNx"},{"text":"saving","class":"text-xl underline","id":"8AKNPgDNvKiG","block":"text","name":"54Uy"},{"text":" files in drive.","class":"text-xl","id":"eF9T0AZm9gTz","block":"text","name":"jZEO"},{"marker":"","class":"text-center","content":[{"text":"or","class":"text-xl","id":"ZU3LJBKsHab5","block":"text","name":"KJQ5"}],"background":"","id":"sAarfgLJ","block":"group","name":"LcCG"},{"text":"- haven’t get used to ","class":"text-xl bg-yellow-200 p-2 rounded-lg font-bold","id":"tyH1DKt7ZK5z","block":"text","name":"BV6I"},{"text":"saving","class":"text-xl underline","id":"3JnVuftbxwiM","block":"text","name":"BdTw"},{"text":" in drive.","class":"text-xl","id":"3gCHd3MEVOmx","block":"text","name":"y1MV"}],"background":"","id":"2DNCJsXxbLgPYKP4fJQbRKm5nFbIIqZa","block":"group","name":"cF8Q"}],"background":"","id":"DjpGRd9VJVl983oygvnS9MqhhtHUgnmeDLd8","block":"group","name":"I95S","hidden":false}],"background":"","id":"gc78t8CmS1EOYZ10","block":"group","name":"1oFA"}],"background":"","id":"N6XxyBnd9Msi","block":"group","name":"Gxcx","hidden":false},{"marker":"","class":"bg-sky-500 px-4 py-1 rounded-lg my-5","content":[{"marker":"","class":" text-center bg-yellow-200 rounded-lg p-5 my-5","content":[{"text":"QUESTIONS","class":"text-4xl font-bold","id":"xyIGBKuII3EknwBMeJQziwRI8J3BqL6F","block":"text","name":"MbpD"}],"background":"","id":"SBntJc3TxYWJLsajGQDpvGg48759vjUN","block":"group","name":"jWNp"},{"marker":"","class":"  p-2 rounded-lg  items-center my-1 gap-5","content":[{"marker":"","class":"col-span-1 bg-sky-200 rounded-lg p-10 !min-h-[50px]","content":[{"text":"Have you gotten used to","class":"text-xl bg-yellow-200 p-2 rounded-lg font-bold","id":"kGrPnEQ0aAGS515BmUx3zDZtUyNsd38g","block":"text","name":"CMkn"},{"text":"working","class":"text-xl underline","id":"CIAHIjaXFPDw","block":"text","name":"y6IF"},{"text":" with AI?","class":"text-xl ","id":"bsTIjnMXHzcB","block":"text","name":"rStk"},{"marker":"","class":"mt-5","content":[{"text":"Yes, I have. / No, I haven’t.","class":"text-xl bg-yellow-200 p-2 rounded-lg font-bold","id":"kGrPnEQ0aAGS515BmUx3zDZtUyNsOsp13FB0","block":"text","name":"x5ZK"}],"background":"","id":"FFtG8SQi","block":"group","name":"cmP9"}],"background":"","id":"RKRFJmCEvt9TzcuEacAMvRbijHtnNvx2","block":"group","name":"ehEz"}],"background":"","id":"geT26mEb4KFQRg6fjcOrz5rDFbhy","block":"group","name":"8qeK"},{"marker":"","class":"  p-2 rounded-lg  items-center my-1 gap-5","content":[{"marker":"","class":"col-span-1 bg-sky-200 rounded-lg p-10 !min-h-[50px]","content":[{"text":"Has your teacher gotten used to","class":"text-xl bg-yellow-200 p-2 rounded-lg font-bold","id":"kGrPnEQ0aAGS515BmUx3zDZtUyNsb3kO0h8v","block":"text","name":"XiMK"},{"text":"building","class":"text-xl underline","id":"mqAWKPKETsDj","block":"text","name":"4sC4"},{"text":" gaming metaverse?","class":"text-xl ","id":"5pahdlUP0hVn","block":"text","name":"hK4F"},{"marker":"","class":"mt-5","content":[{"text":"Yes, he has. / No, he hasn’t.","class":"text-xl bg-yellow-200 p-2 rounded-lg font-bold","id":"kGrPnEQ0aAGS515BmUx3zDZtUyNsOsp1RVDmc9VH","block":"text","name":"ztIt"}],"background":"","id":"FFtGpLNeffcV","block":"group","name":"g2en"}],"background":"","id":"RKRFJmCEvt9TzcuEacAMvRbijHtnX7bwIVw1","block":"group","name":"WSUj"}],"background":"","id":"TSeh1Y5941YM","block":"group","name":"o1od"},{"marker":"","class":"  p-2 rounded-lg  items-center my-1 gap-5","content":[{"marker":"","class":"col-span-1 bg-sky-200 rounded-lg p-10 !min-h-[50px]","content":[{"text":"Have you and your friends gotten used to","class":"text-xl bg-yellow-200 p-2 rounded-lg font-bold","id":"kGrPnEQ0aAGS515BmUx3zDZtUyNsb3kOG4oIOHyc","block":"text","name":"wmWE"},{"text":"saving","class":"text-xl underline","id":"ABcFJmzdLNX8","block":"text","name":"wEZS"},{"text":" files in drive? ","class":"text-xl ","id":"I2m0kAZQUWv6","block":"text","name":"dJyG"},{"marker":"","class":"mt-5","content":[{"text":"Yes, we have. / No, we haven’t. ","class":"text-xl bg-yellow-200 p-2 rounded-lg font-bold","id":"kGrPnEQ0aAGS515BmUx3zDZtUyNsOsp1RVDmWb9HQM5u","block":"text","name":"M2K9"}],"background":"","id":"FFtGpLNeN3S3AjdZ","block":"group","name":"9jge"}],"background":"","id":"RKRFJmCEvt9TzcuEacAMvRbijHtnX7bwk0AXNA6a","block":"group","name":"Sw7q"}],"background":"","id":"pdGLWPu7nivf","block":"group","name":"4Vsi"}],"background":"","id":"GubcoUR5npx7","block":"group","name":"Aeff","hidden":false}],"background":"","id":"AbTYRp1SDdHk","block":"group","name":"FgcC","hidden":false},{"marker":"","class":"my-5","content":[{"text":"<b>BE USED TO</b>: We use it to talk about <b>activities that have become familiar</b>. In other words, we are accustomed to doing something.","class":"text-2xl","id":"Rfia2NfS","block":"text","name":"ek36"}],"background":"","id":"GU51C9qp","block":"group","name":"Pgst"},{"marker":"","class":"my-5","content":[{"text":"<b>BE USED TO</b>: Activities that we find normal, not unusual.","class":"text-2xl","id":"RfiaUuK22xcs","block":"text","name":"OTSq"}],"background":"","id":"CTkbBCdPLpcy","block":"group","name":"uhvQ"},{"marker":"📒","class":" rounded p-2 max-w-5xl mx-auto bg-green-200 p-5","content":[{"marker":"","class":"text-center","content":[{"text":"BE USED TO","class":"text-5xl font-bold","id":"TmlCi5AL","block":"text","name":"6Jut"}],"background":"","id":"PqLgvOYn","block":"group","name":"4Fdx"},{"marker":"","class":"bg-sky-500 px-4 py-1 rounded-lg my-5","content":[{"marker":"","class":" text-center bg-green-200 rounded-lg p-5 my-5","content":[{"text":"AFFIRMATIVE STATEMENTS ","class":"text-4xl font-bold","id":"xyIGBKuII3EknwBMeJQzKxUEFNzI","block":"text","name":"YQWx"}],"background":"","id":"SBntJc3TxYWJLsajGQDpIpo1Fmqw","block":"group","name":"l4nV"},{"marker":"","class":"grid grid-cols-4  p-2 rounded-lg  items-center my-1 gap-5","content":[{"marker":"","class":"text-center items-center  col-span-1 bg-sky-200 rounded-lg p-5 !min-h-[50px]","content":[{"text":"I","class":"text-xl font-bold","id":"kGrPnEQ0aAGS515BmUx3jXxxtjhx","block":"text","name":"lFCL"}],"background":"","id":"RKRFJmCEvt9TzcuEacAMn2DLQhMb","block":"group","name":"ibEO"},{"marker":"","class":"col-span-3 bg-sky-200 rounded-lg p-5 !min-h-[50px]","content":[{"marker":"","class":"","content":[{"text":"- am used to","class":"text-xl bg-green-200 p-2 rounded-lg font-bold","id":"kGrPnEQ07w9OSzpGlT2UzrzijAjtJxj3","block":"text","name":"M0sY"},{"text":"playing","class":"text-xl underline","id":"7FCW5uQhw4bz","block":"text","name":"af3y"},{"text":" with the ps5.","class":"text-xl","id":"nXtcOluYiTyA","block":"text","name":"Q16b"}],"background":"","id":"2DNCJsXxbLgPYKP4rDa4VLK9","block":"group","name":"qOif"}],"background":"","id":"DjpGRd9VJVl983oygvnST0J4mGaz","block":"group","name":"A96M","hidden":false}],"background":"","id":"geT26mEb4KFQRg6ft4N2Sb3T","block":"group","name":"eP6e"},{"marker":"","class":"grid grid-cols-4  p-2 rounded-lg  items-center my-1 gap-5","content":[{"marker":"","class":"text-center items-center  col-span-1 bg-sky-200 rounded-lg p-5 !min-h-[50px]","content":[{"text":"He /  She / It","class":"text-xl font-bold","id":"kGrPnEQ0aAGS515BmUx3ftV3sSHbWBSa","block":"text","name":"Iy3a"}],"background":"","id":"RKRFJmCEvt9TzcuEacAMuegPtZyon0gc","block":"group","name":"HzeM"},{"marker":"","class":"col-span-3 bg-sky-200 rounded-lg p-5 !min-h-[50px]","content":[{"marker":"","class":"","content":[{"text":"- is used to","class":"text-xl bg-green-200 p-2 rounded-lg font-bold","id":"kGrPnEQ07w9OSzpGlT2Uzrzivjr2MmV9Nrap","block":"text","name":"Iul4"},{"text":"shopping","class":"text-xl underline","id":"CUyRSfxPBD9H","block":"text","name":"LocG"},{"text":" online.","class":"text-xl","id":"dsae5AO34BZK","block":"text","name":"YGCo"}],"background":"","id":"2DNCJsXxbLgPYKP4fJQbWqDhRRlR","block":"group","name":"kDrv"}],"background":"","id":"DjpGRd9VJVl983oygvnS9MqhIsDqK3uT","block":"group","name":"D6I1","hidden":false}],"background":"","id":"fNays6wt3P6akQ9o","block":"group","name":"grFO"},{"marker":"","class":"grid grid-cols-4  p-2 rounded-lg  items-center my-1 gap-5","content":[{"marker":"","class":"text-center items-center  col-span-1 bg-sky-200 rounded-lg p-5 !min-h-[50px]","content":[{"text":"You /  We / They","class":"text-xl font-bold","id":"kGrPnEQ0aAGS515BmUx3ftV3jlgFV6PklQ61","block":"text","name":"Pb8W"}],"background":"","id":"RKRFJmCEvt9TzcuEacAMuegPizKEH0jk2CKL","block":"group","name":"ERWz"},{"marker":"","class":"col-span-3 bg-sky-200 rounded-lg p-5 !min-h-[50px]","content":[{"marker":"","class":"","content":[{"text":"- are used to","class":"text-xl bg-green-200 p-2 rounded-lg font-bold","id":"kGrPnEQ07w9OSzpGlT2Uzrzivjr2PR1pqk5eMCMx","block":"text","name":"LxVs"},{"text":"taking","class":"text-xl underline","id":"olBV83ph0TMw","block":"text","name":"9TlT"},{"text":" classes.","class":"text-xl","id":"krauAjFM0fIg","block":"text","name":"jy96"}],"background":"","id":"2DNCJsXxbLgPYKP4fJQbRKm5dD0E8xIZ","block":"group","name":"MumA"}],"background":"","id":"DjpGRd9VJVl983oygvnS9MqhhtHUIi1Vx4i4","block":"group","name":"egkg","hidden":false}],"background":"","id":"gc78t8Cm6GBEApXO","block":"group","name":"mzZj"}],"background":"","id":"9HfFeVo1KOGmQC8jCJAj","block":"group","name":"TdkF","hidden":false},{"marker":"","class":"bg-sky-500 px-4 py-1 rounded-lg my-5","content":[{"marker":"","class":" text-center bg-green-200 rounded-lg p-5 my-5","content":[{"text":"NEGATIVE STATEMENTS ","class":"text-4xl font-bold","id":"xyIGBKuII3EknwBMeJQziwRIZcyBns93","block":"text","name":"vkxq"}],"background":"","id":"SBntJc3TxYWJLsajGQDpvGg4ujGCQWNm","block":"group","name":"2aft"},{"marker":"","class":"grid grid-cols-4  p-2 rounded-lg  items-center my-1 gap-5","content":[{"marker":"","class":"text-center items-center  col-span-1 bg-sky-200 rounded-lg p-5 !min-h-[50px]","content":[{"text":"I","class":"text-xl font-bold","id":"kGrPnEQ0aAGS515BmUx3zDZtJ4W8XPlt","block":"text","name":"XDxF"}],"background":"","id":"RKRFJmCEvt9TzcuEacAMvRbifTf571aq","block":"group","name":"J6yK"},{"marker":"","class":"col-span-3 bg-sky-200 rounded-lg p-5 !min-h-[50px]","content":[{"marker":"","class":"","content":[{"text":"- am not used to","class":"text-xl bg-green-200 p-2 rounded-lg font-bold","id":"kGrPnEQ07w9OSzpGlT2Uzrzil3ODEPnN51ZE","block":"text","name":"5asK"},{"text":"playing","class":"text-xl underline","id":"9C2ryhQO1VeR","block":"text","name":"9sHw"},{"text":" with the ps5.","class":"text-xl","id":"UWMupkJIYecl","block":"text","name":"OHMV"}],"background":"","id":"2DNCJsXxbLgPYKP4UaLOXOiApsvH","block":"group","name":"VGeM"}],"background":"","id":"DjpGRd9VJVl983oygvnST1OkAyTQpTYl","block":"group","name":"dlav","hidden":false}],"background":"","id":"geT26mEb4KFQRg6fjcOr5rERxJR6","block":"group","name":"lVoF"},{"marker":"","class":"grid grid-cols-4  p-2 rounded-lg  items-center my-1 gap-5","content":[{"marker":"","class":"text-center items-center  col-span-1 bg-sky-200 rounded-lg p-5 !min-h-[50px]","content":[{"text":"He /  She / It","class":"text-xl font-bold","id":"kGrPnEQ0aAGS515BmUx3ftV3tS2vIdm1ljVc","block":"text","name":"3nSx"}],"background":"","id":"RKRFJmCEvt9TzcuEacAMuegPWP719AM1pJCh","block":"group","name":"XrNy"},{"marker":"","class":"col-span-3 bg-sky-200 rounded-lg p-5 !min-h-[50px]","content":[{"marker":"","class":"","content":[{"text":"- is not used to ","class":"text-xl bg-green-200 p-2 rounded-lg font-bold","id":"1jcXV9cFdCWu","block":"text","name":"TXMo"},{"text":"shopping","class":"text-xl underline","id":"WN5va8PSwz9NgW2O","block":"text","name":"zmWw"},{"text":" online.","class":"text-xl","id":"p6sdSYEjnvmm","block":"text","name":"Wq0O"}],"background":"","id":"2DNCJsXxbLgPYKP4fJQbzyknWL6EAPJf","block":"group","name":"Snt8"}],"background":"","id":"DjpGRd9VJVl983oygvnS9Mqh3Gi1Z2tDbCHI","block":"group","name":"Jimi","hidden":false}],"background":"","id":"fNays6wtd7N8vrTHS8w7","block":"group","name":"ZFgh"},{"marker":"","class":"grid grid-cols-4  p-2 rounded-lg  items-center my-1 gap-5","content":[{"marker":"","class":"text-center items-center  col-span-1 bg-sky-200 rounded-lg p-5 !min-h-[50px]","content":[{"text":"You /  We / They","class":"text-xl font-bold","id":"kGrPnEQ0aAGS515BmUx3ftV3jlgF92slrzsQnicT","block":"text","name":"10xq"}],"background":"","id":"RKRFJmCEvt9TzcuEacAMuegPizKEu6byuYPo2Axm","block":"group","name":"gxHK"},{"marker":"","class":"col-span-3 bg-sky-200 rounded-lg p-5 !min-h-[50px]","content":[{"marker":"","class":"","content":[{"text":"- are not used to","class":"text-xl bg-green-200 p-2 rounded-lg font-bold","id":"kGrPnEQ07w9OSzpGlT2Uzrzivjr2PR1pH0lwULQtxyX0","block":"text","name":"H5TM"},{"text":"taking","class":"text-xl underline","id":"yVwPyAe2Cvwe","block":"text","name":"sTuX"},{"text":" online classes yet. ","class":"text-xl","id":"5Xbxfahha9qV","block":"text","name":"I6bA"}],"background":"","id":"2DNCJsXxbLgPYKP4fJQbRKm5nFbIQmVuj2iu","block":"group","name":"XJq8"}],"background":"","id":"DjpGRd9VJVl983oygvnS9MqhhtHUgnmeDjiS3o1p","block":"group","name":"Dq6Y","hidden":false}],"background":"","id":"gc78t8CmS1EOWI4gcVUv","block":"group","name":"eRXX"}],"background":"","id":"N6XxyBndBAS0ElZX","block":"group","name":"fng7","hidden":false},{"marker":"","class":"bg-sky-500 px-4 py-1 rounded-lg my-5","content":[{"marker":"","class":" text-center bg-green-200 rounded-lg p-5 my-5","content":[{"text":"QUESTIONS","class":"text-4xl font-bold","id":"xyIGBKuII3EknwBMeJQziwRI8J3B64C8WY8j","block":"text","name":"7LJ7"}],"background":"","id":"SBntJc3TxYWJLsajGQDpvGg48759GeJVoKkI","block":"group","name":"j7e1"},{"marker":"","class":"  p-2 rounded-lg  items-center my-1 gap-5","content":[{"marker":"","class":"col-span-1 bg-sky-200 rounded-lg p-10 !min-h-[50px]","content":[{"text":"Are you used to ","class":"text-xl bg-green-200 p-2 rounded-lg font-bold","id":"1EjeSNukaO4M","block":"text","name":"OLFs"},{"text":"playing","class":"text-xl underline","id":"kGrPnEQ0aAGS515BmUx3zDZtUyNsSudl9DAn","block":"text","name":"jZZr"},{"text":" with the ps5?","class":"text-xl ","id":"rhGFAunWBesx","block":"text","name":"9TUs"},{"marker":"","class":"mt-5","content":[{"text":"Yes, I am. / No, I’m not.","class":"text-xl bg-green-200 p-2 rounded-lg font-bold","id":"kGrPnEQ0aAGS515BmUx3zDZtUyNsOsp1MqMhTUh0","block":"text","name":"ek62"}],"background":"","id":"FFtGLeIRKM3s","block":"group","name":"MMg8"}],"background":"","id":"RKRFJmCEvt9TzcuEacAMvRbijHtnJYHCKZBw","block":"group","name":"3Q7S"}],"background":"","id":"geT26mEb4KFQRg6fjcOrz5rDka8cKvdm","block":"group","name":"OltL"},{"marker":"","class":"  p-2 rounded-lg  items-center my-1 gap-5","content":[{"marker":"","class":"col-span-1 bg-sky-200 rounded-lg p-10 !min-h-[50px]","content":[{"text":"Is your teacher used to","class":"text-xl bg-green-200 p-2 rounded-lg font-bold","id":"kGrPnEQ0aAGS515BmUx3zDZtUyNsb3kOsVvF3ukV","block":"text","name":"fXy9"},{"text":"shopping","class":"text-xl underline","id":"HMXdzYZU8M8C","block":"text","name":"MgM5"},{"text":" online?","class":"text-xl ","id":"mzVKD4ZG0q6d","block":"text","name":"zcqF"},{"marker":"","class":"mt-5","content":[{"text":"Yes, he's.  / No, he's not.","class":"text-xl bg-green-200 p-2 rounded-lg font-bold","id":"kGrPnEQ0aAGS515BmUx3zDZtUyNsOsp1RVDm5kLaVryZ","block":"text","name":"Gwpb"}],"background":"","id":"FFtGpLNeGrnp40Wn","block":"group","name":"KAMN"}],"background":"","id":"RKRFJmCEvt9TzcuEacAMvRbijHtnX7bw92IRxcYE","block":"group","name":"0rLr"}],"background":"","id":"TSeh1Y591uUx89c8","block":"group","name":"e2sS"},{"marker":"","class":"  p-2 rounded-lg  items-center my-1 gap-5","content":[{"marker":"","class":"col-span-1 bg-sky-200 rounded-lg p-10 !min-h-[50px]","content":[{"text":"Are you and your friends used to ","class":"text-xl bg-green-200 p-2 rounded-lg font-bold","id":"kGrPnEQ0aAGS515BmUx3zDZtUyNsb3kOG4oIkESgFiFA","block":"text","name":"2dfz"},{"text":"taking","class":"text-xl underline","id":"KZcNAPLl2o7C","block":"text","name":"586e"},{"text":" online classes?","class":"text-xl ","id":"lqysPQfQhKqW","block":"text","name":"Hr7K"},{"marker":"","class":"mt-5","content":[{"text":" Yes, we are.  / No, we aren’t. ","class":"text-xl bg-green-200 p-2 rounded-lg font-bold","id":"kGrPnEQ0aAGS515BmUx3zDZtUyNsOsp1RVDmWb9Hmf4gJer6","block":"text","name":"JfHG"}],"background":"","id":"FFtGpLNeN3S3oG6lFAdl","block":"group","name":"oMvs"}],"background":"","id":"RKRFJmCEvt9TzcuEacAMvRbijHtnX7bwk0AXUOnIaGrq","block":"group","name":"1FUt"}],"background":"","id":"pdGLWPu77GXr5axe","block":"group","name":"RGli"}],"background":"","id":"GubcoUR5DTrx94EN","block":"group","name":"k0OX","hidden":false}],"background":"","id":"vCSGeDShVsfq","block":"group","name":"XEJ1","hidden":false},{"class":"text-center my-10","content":[{"to":"/activity/1","class":"","text":"Next","id":"btn1","block":"button","name":"btn1"}],"background":"","id":"nxt1","block":"group","name":"➡️","marker":"➡️"}],"hidden":false,"id":"5xs769Zy"},{"block":"scene","name":"SC2","countdown":0,"instructions":{"open":true,"content":[{"block":"group","class":"flex gap-2 items-center","content":[{"block":"audio","class":"","file":"files/INS-2.mp3","wave":false,"autoplay":false,"id":"","name":"lukI"},{"block":"text","class":"","text":"Discuss the following questions in class:"}]}]},"content":[{"marker":"📒","class":"bg-slate-100 rounded p-5 max-w-5xl mx-auto","content":[{"marker":"","class":" max-w-3xl mx-auto ","content":[{"text":"<b>1)</b> What are the similarities and differences among these structures?<br><br> <b>2)</b> What verb form do we use for used to / get used to / and be used to?<br><br> <b>3)</b> What auxiliary verb do we use for used to / get used to / and be used to?<br><br> <b>4)</b> Provide examples for each structure about <b>YOUR</b> habits. ","class":"text-3xl","id":"txt2","block":"text","name":"txt2"}],"background":"","id":"pzIs","block":"group","name":"cmV7"}],"background":"","id":"gpo2","block":"group","name":"gpo2"},{"symbol":"FinalizeGroup"}],"id":""}]},"end":{"buttons":{"restart":false},"content":[{"symbol":"finishedAll"}]},"symbols":{"finishedAll":{"class":"w-full","content":[{"block":"group","class":"bg-slate-100 rounded p-5 text-center w-full","content":[{"block":"text","text":"Congratulations, you finished the activity.","class":"","name":"Congra"}],"background":"","name":"CongraGroup"},{"block":"group","class":"text-center p-5","content":[{"block":"finished","name":"finishedBlock"}],"background":"","name":"finishedGroup"}],"background":"","block":"group"},"FinalizeGroup":{"block":"group","class":"text-center mt-10","content":[{"block":"button","class":"mx-auto","to":"/end","text":"Finalize","name":"FinalizeBTN"}],"background":""}},"metadata":{"sync":0.06650297695420426}}
+{
+  "title": "Grammar  Presentation: Be used to / Get used to / Used to.",
+  "clock": true,
+  "countdown": 0,
+  "attempts": 0,
+  "intro": {
+    "buttons": {
+      "start": "Start"
+    },
+    "content": []
+  },
+  "activity": {
+    "scenes": [
+      {
+        "block": "scene",
+        "name": "ofcV",
+        "countdown": 0,
+        "instructions": {
+          "open": true,
+          "content": [
+            {
+              "block": "group",
+              "class": "flex gap-2 items-center",
+              "content": [
+                {
+                  "block": "audio",
+                  "class": "",
+                  "file": "files/INS.mp3"
+                },
+                {
+                  "block": "text",
+                  "class": "",
+                  "text": "Read carefully the next information and take notes in your notebook."
+                }
+              ]
+            }
+          ]
+        },
+        "content": [
+          {
+            "marker": "",
+            "class": "my-5",
+            "content": [
+              {
+                "text": "<b>USED TO</b>: We use it to talk about <b>activities performed repeatedly in the past</b>, but that are no longer performed in the present. ",
+                "class": "text-2xl",
+                "id": "Wo1K6QD4",
+                "block": "text",
+                "name": "N78w"
+              }
+            ],
+            "background": "",
+            "id": "qNYqNF45",
+            "block": "group",
+            "name": "8Z4e"
+          },
+          {
+            "marker": "",
+            "class": "my-5",
+            "content": [
+              {
+                "text": " <b>USED TO</b>:  Activities that no longer happen now.",
+                "class": "text-2xl",
+                "id": "Wo1KgWV695PZ",
+                "block": "text",
+                "name": "EX4M"
+              }
+            ],
+            "background": "",
+            "id": "NXoR6McBJkEB",
+            "block": "group",
+            "name": "wlUa"
+          },
+          {
+            "marker": "📒",
+            "class": "rounded p-5 max-w-5xl mx-auto bg-sky-50",
+            "content": [
+              {
+                "marker": "",
+                "class": "",
+                "content": [
+                  {
+                    "marker": "",
+                    "class": "text-center",
+                    "content": [
+                      {
+                        "text": " <b>USED TO</b>",
+                        "class": "text-5xl",
+                        "id": "Wo1KgWV62zVbkBKp",
+                        "block": "text",
+                        "name": "zhVq"
+                      }
+                    ],
+                    "background": "",
+                    "id": "9U1h1YPn2EV8",
+                    "block": "group",
+                    "name": "2bGC"
+                  },
+                  {
+                    "marker": "",
+                    "class": "bg-sky-500 px-4 py-1 rounded-lg my-5",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": " text-center bg-sky-50 rounded-lg p-5 my-5",
+                        "content": [
+                          {
+                            "text": "AFFIRMATIVE STATEMENTS ",
+                            "class": "text-4xl font-bold",
+                            "id": "xyIGBKuII3EknwBMF7AR",
+                            "block": "text",
+                            "name": "XABa"
+                          }
+                        ],
+                        "background": "",
+                        "id": "SBntJc3TxYWJLsaj4WBa",
+                        "block": "group",
+                        "name": "VW9n"
+                      },
+                      {
+                        "marker": "",
+                        "class": "grid grid-cols-4  p-5 rounded-lg  items-center my-5 gap-5",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": "text-center items-center  col-span-2 grid grid-cols-2 bg-sky-50 rounded-lg p-5 !min-h-[250px]",
+                            "content": [
+                              {
+                                "text": "I<br>You<br>He<br>She<br>It<br>We<br>They<br>",
+                                "class": "text-xl font-bold",
+                                "id": "kGrPnEQ0aAGS515Brqjy",
+                                "block": "text",
+                                "name": "MpVs"
+                              },
+                              {
+                                "marker": "",
+                                "class": "",
+                                "content": [
+                                  {
+                                    "icon": "material-symbols:double-arrow",
+                                    "class": "text-9xl",
+                                    "id": "HlFB8bu3KKRgeDOCG1xY",
+                                    "block": "icon",
+                                    "name": "3ZlU"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "mBThRYNcAbXtKeg0",
+                                "block": "group",
+                                "name": "nEeE"
+                              }
+                            ],
+                            "background": "",
+                            "id": "RKRFJmCEvt9TzcuEVjaQ",
+                            "block": "group",
+                            "name": "9iVd"
+                          },
+                          {
+                            "marker": "",
+                            "class": "col-span-2 bg-sky-50 rounded-lg p-5 !min-h-[250px]",
+                            "content": [
+                              {
+                                "marker": "",
+                                "class": "",
+                                "content": [
+                                  {
+                                    "text": "- used to ",
+                                    "class": "text-xl bg-sky-200 p-2 rounded-lg font-bold",
+                                    "id": "kGrPnEQ07w9OSzpGlT2UqaBB",
+                                    "block": "text",
+                                    "name": "gDbA"
+                                  },
+                                  {
+                                    "text": "listen",
+                                    "class": "text-xl underline",
+                                    "id": "2HF6UivOGl3j",
+                                    "block": "text",
+                                    "name": "sFu1"
+                                  },
+                                  {
+                                    "text": " to music in a disc man.",
+                                    "class": "text-xl",
+                                    "id": "WTzSal90KaNH",
+                                    "block": "text",
+                                    "name": "L6Rr"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "2DNCJsXxbLgPPAqC",
+                                "block": "group",
+                                "name": "kRaA"
+                              },
+                              {
+                                "marker": "",
+                                "class": "",
+                                "content": [
+                                  {
+                                    "text": "- used to",
+                                    "class": "text-xl bg-sky-200 p-2 rounded-lg font-bold",
+                                    "id": "kGrPnEQ07w9OSzpGizFxlMSL9zpd",
+                                    "block": "text",
+                                    "name": "dVlX"
+                                  },
+                                  {
+                                    "text": "wear",
+                                    "class": "text-xl underline",
+                                    "id": "cikiXuVjrUwj",
+                                    "block": "text",
+                                    "name": "02Ei"
+                                  },
+                                  {
+                                    "text": " uniform in elementary school.",
+                                    "class": "text-xl",
+                                    "id": "ic3QMRzYY0gW",
+                                    "block": "text",
+                                    "name": "pEzK"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "eDdxDarubbCoykZL",
+                                "block": "group",
+                                "name": "b1Dt"
+                              },
+                              {
+                                "marker": "",
+                                "class": "",
+                                "content": [
+                                  {
+                                    "text": "- used to",
+                                    "class": "text-xl bg-sky-200 p-2 rounded-lg font-bold",
+                                    "id": "kGrPnEQ07w9OkeuqzA2Sl9kCXwxi",
+                                    "block": "text",
+                                    "name": "evzs"
+                                  },
+                                  {
+                                    "text": "search for",
+                                    "class": "text-xl underline",
+                                    "id": "GKtFd4CtaUG4",
+                                    "block": "text",
+                                    "name": "PEuq"
+                                  },
+                                  {
+                                    "text": " information in the “Encarta” encyclopedia.",
+                                    "class": "text-xl",
+                                    "id": "mmlDzV4m2wXS",
+                                    "block": "text",
+                                    "name": "ZCh3"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "87PdULYQOEICuPK3DxFs",
+                                "block": "group",
+                                "name": "cVhE"
+                              }
+                            ],
+                            "background": "",
+                            "id": "DjpGRd9VJVl983oyBl6X",
+                            "block": "group",
+                            "name": "Txy4",
+                            "hidden": false
+                          }
+                        ],
+                        "background": "",
+                        "id": "geT26mEb4KFQa0Ob",
+                        "block": "group",
+                        "name": "0g4s"
+                      }
+                    ],
+                    "background": "",
+                    "id": "9HfFeVo12FGI",
+                    "block": "group",
+                    "name": "UEV3",
+                    "hidden": false
+                  },
+                  {
+                    "marker": "",
+                    "class": "bg-sky-500 px-4 py-1 rounded-lg my-5",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": " text-center bg-sky-50 rounded-lg p-5 my-5",
+                        "content": [
+                          {
+                            "text": "NEGATIVE STATEMENTS ",
+                            "class": "text-4xl font-bold",
+                            "id": "xyIGBKuII3Ek79EsLXqm",
+                            "block": "text",
+                            "name": "k5gM"
+                          }
+                        ],
+                        "background": "",
+                        "id": "SBntJc3TxYWJc05ydnDA",
+                        "block": "group",
+                        "name": "e1SG"
+                      },
+                      {
+                        "marker": "",
+                        "class": "grid grid-cols-4  p-2 rounded-lg  items-center my-5 gap-5",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": "text-center items-center  col-span-2 grid grid-cols-2 bg-sky-50 rounded-lg p-5 !min-h-[250px]",
+                            "content": [
+                              {
+                                "text": "I<br>You<br>He<br>She<br>It<br>We<br>They<br>",
+                                "class": "text-xl font-bold",
+                                "id": "kGrPnEQ0aAGSardN1UkA",
+                                "block": "text",
+                                "name": "M8QO"
+                              },
+                              {
+                                "marker": "",
+                                "class": "",
+                                "content": [
+                                  {
+                                    "icon": "material-symbols:double-arrow",
+                                    "class": "text-9xl",
+                                    "id": "HlFB8bu3KKRg5WFR0PJf",
+                                    "block": "icon",
+                                    "name": "TuJT"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "mBThRYNcoJdoWupn",
+                                "block": "group",
+                                "name": "RQif"
+                              }
+                            ],
+                            "background": "",
+                            "id": "RKRFJmCEvt9TogIxYwew",
+                            "block": "group",
+                            "name": "FfMM"
+                          },
+                          {
+                            "marker": "",
+                            "class": "col-span-2 bg-sky-50 rounded-lg p-5 !min-h-[250px]",
+                            "content": [
+                              {
+                                "marker": "",
+                                "class": "",
+                                "content": [
+                                  {
+                                    "text": "- didn’t use to",
+                                    "class": "text-xl bg-sky-200 p-2 rounded-lg font-bold",
+                                    "id": "kGrPnEQ07w9OSzpGIYhBe4CF",
+                                    "block": "text",
+                                    "name": "oOIC"
+                                  },
+                                  {
+                                    "text": "listen",
+                                    "class": "text-xl underline",
+                                    "id": "EVzfSPXADQLu",
+                                    "block": "text",
+                                    "name": "b4sw"
+                                  },
+                                  {
+                                    "text": " to music in a disc man.",
+                                    "class": "text-xl",
+                                    "id": "pc4UpzBt12pB",
+                                    "block": "text",
+                                    "name": "fVNk"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "2DNCJsXxkjjU7f0N",
+                                "block": "group",
+                                "name": "uu6j"
+                              },
+                              {
+                                "marker": "",
+                                "class": "",
+                                "content": [
+                                  {
+                                    "text": "- didn’t use to ",
+                                    "class": "text-xl bg-sky-200 p-2 rounded-lg font-bold",
+                                    "id": "kGrPnEQ07w9OSzpGIYhBgabbouGW",
+                                    "block": "text",
+                                    "name": "ES83"
+                                  },
+                                  {
+                                    "text": "wear",
+                                    "class": "text-xl underline",
+                                    "id": "XiSVVVAUH2rA",
+                                    "block": "text",
+                                    "name": "QsE2"
+                                  },
+                                  {
+                                    "text": " uniform in elementary school.",
+                                    "class": "text-xl",
+                                    "id": "s97L8VgOmB2e",
+                                    "block": "text",
+                                    "name": "eUq0"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "Zmt0pTRE39ie",
+                                "block": "group",
+                                "name": "M7Qe"
+                              },
+                              {
+                                "marker": "",
+                                "class": "",
+                                "content": [
+                                  {
+                                    "text": "- didn’t use to",
+                                    "class": "text-xl bg-sky-200 p-2 rounded-lg font-bold",
+                                    "id": "kGrPnEQ07w9OkeuqzA2Sr8frK0Pi",
+                                    "block": "text",
+                                    "name": "uHYu"
+                                  },
+                                  {
+                                    "text": "search for",
+                                    "class": "text-xl underline",
+                                    "id": "zsvXHJrgDvQ2",
+                                    "block": "text",
+                                    "name": "E5g2"
+                                  },
+                                  {
+                                    "text": " information in the “Encarta” encyclopedia.",
+                                    "class": "text-xl",
+                                    "id": "ZU9KFRRPCHPz",
+                                    "block": "text",
+                                    "name": "xsRC"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "87PdULYQOEICKetdsahu",
+                                "block": "group",
+                                "name": "BaN1"
+                              }
+                            ],
+                            "background": "",
+                            "id": "DjpGRd9VJVl9kZbSHbF4",
+                            "block": "group",
+                            "name": "TOLU",
+                            "hidden": false
+                          }
+                        ],
+                        "background": "",
+                        "id": "geT26mEbKAVaMIkd",
+                        "block": "group",
+                        "name": "gO0I"
+                      }
+                    ],
+                    "background": "",
+                    "id": "dLyfWP9pJDmr",
+                    "block": "group",
+                    "name": "gRCW",
+                    "hidden": false
+                  },
+                  {
+                    "marker": "",
+                    "class": "bg-sky-500 px-4 py-1 rounded-lg my-5",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": " text-center bg-sky-50 rounded-lg p-5 my-5",
+                        "content": [
+                          {
+                            "text": "QUESTIONS",
+                            "class": "text-4xl font-bold",
+                            "id": "xyIGBKuII3Ek79EsDAgUmbuH",
+                            "block": "text",
+                            "name": "ztrP"
+                          }
+                        ],
+                        "background": "",
+                        "id": "SBntJc3TxYWJc05y0hya71HK",
+                        "block": "group",
+                        "name": "Rcrr"
+                      },
+                      {
+                        "marker": "",
+                        "class": "grid grid-cols-4  p-2 rounded-lg  items-center my-5 gap-5",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": "col-span-4 bg-sky-50 rounded-lg p-5 !min-h-[250px]",
+                            "content": [
+                              {
+                                "marker": "",
+                                "class": "",
+                                "content": [
+                                  {
+                                    "text": "- Did you use to",
+                                    "class": "text-xl bg-sky-200 p-2 rounded-lg font-bold",
+                                    "id": "kGrPnEQ07w9OSzpGIYhBWs9uHUE1",
+                                    "block": "text",
+                                    "name": "Vk60"
+                                  },
+                                  {
+                                    "text": "listen",
+                                    "class": "text-xl underline",
+                                    "id": "gbNEmiKW68LJ",
+                                    "block": "text",
+                                    "name": "ZzBh"
+                                  },
+                                  {
+                                    "text": " to music in a disc man?",
+                                    "class": "text-xl",
+                                    "id": "7LUkCpALN9BZ",
+                                    "block": "text",
+                                    "name": "ETPT"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "2DNCJsXxkjjU7fK2OZaJ",
+                                "block": "group",
+                                "name": "jWeJ"
+                              },
+                              {
+                                "marker": "",
+                                "class": "my-5",
+                                "content": [
+                                  {
+                                    "text": "- Yes, I did / No, I didn’t.",
+                                    "class": "text-xl bg-sky-200 p-2 rounded-lg font-bold",
+                                    "id": "kGrPnEQ07w9OSzpGIYhBgabbaQ9IoFKw",
+                                    "block": "text",
+                                    "name": "VBGK"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "Zmt0pTREZ3wMl8E1",
+                                "block": "group",
+                                "name": "4H9c"
+                              },
+                              {
+                                "marker": "",
+                                "class": "",
+                                "content": [
+                                  {
+                                    "text": "- Did your teacher use to",
+                                    "class": "text-xl bg-sky-200 p-2 rounded-lg font-bold",
+                                    "id": "kGrPnEQ07w9OkeuqzA2Sr8fre1ORBRdC",
+                                    "block": "text",
+                                    "name": "cPW0"
+                                  },
+                                  {
+                                    "text": "wear",
+                                    "class": "text-xl underline",
+                                    "id": "upfhMEcellWv",
+                                    "block": "text",
+                                    "name": "imGV"
+                                  },
+                                  {
+                                    "text": " uniform in elementary school?",
+                                    "class": "text-xl",
+                                    "id": "8ndhqq4mZcIS",
+                                    "block": "text",
+                                    "name": "hvCS"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "87PdULYQOEICKetdVtkbjbvM",
+                                "block": "group",
+                                "name": "8FDI"
+                              },
+                              {
+                                "marker": "",
+                                "class": "my-5",
+                                "content": [
+                                  {
+                                    "text": "- Yes, he did / No, he didn’t.",
+                                    "class": "text-xl bg-sky-200 p-2 rounded-lg font-bold",
+                                    "id": "kGrPnEQ07w9OkeuqzA2Sr8fre1ORNOu5rw84",
+                                    "block": "text",
+                                    "name": "8P2E"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "8xWoFT7fmFUg",
+                                "block": "group",
+                                "name": "3fJ9"
+                              },
+                              {
+                                "marker": "",
+                                "class": "",
+                                "content": [
+                                  {
+                                    "text": "- Did you and your friends use to ",
+                                    "class": "text-xl bg-sky-200 p-2 rounded-lg font-bold",
+                                    "id": "kGrPnEQ07w9OkeuqzA2Sr8fre1ORKzpBXzk2",
+                                    "block": "text",
+                                    "name": "Q5h8"
+                                  },
+                                  {
+                                    "text": "search for",
+                                    "class": "text-xl underline",
+                                    "id": "5hZvAVxiC30F",
+                                    "block": "text",
+                                    "name": "xma5"
+                                  },
+                                  {
+                                    "text": " information in the “Encarta” encyclopedia? ",
+                                    "class": "text-xl",
+                                    "id": "XXHUpScCl7hg",
+                                    "block": "text",
+                                    "name": "UG4S"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "emWy8byjbgHB",
+                                "block": "group",
+                                "name": "Lnr8"
+                              },
+                              {
+                                "marker": "",
+                                "class": "my-2",
+                                "content": [
+                                  {
+                                    "text": "- Yes, we did / No, we didn’t.",
+                                    "class": "text-xl bg-sky-200 p-2 rounded-lg font-bold",
+                                    "id": "kGrPnEQ07w9OkeuqzA2Sr8fre1ORKzpBaKeEhtrY",
+                                    "block": "text",
+                                    "name": "GAXh"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "V2DKL87yncGq",
+                                "block": "group",
+                                "name": "Ntfw"
+                              }
+                            ],
+                            "background": "",
+                            "id": "DjpGRd9VJVl9kZbSw7209cA0",
+                            "block": "group",
+                            "name": "o54E",
+                            "hidden": false
+                          }
+                        ],
+                        "background": "",
+                        "id": "geT26mEbKAVarfXR4ZHa",
+                        "block": "group",
+                        "name": "qg6p"
+                      }
+                    ],
+                    "background": "",
+                    "id": "C0hMtnW95pGg",
+                    "block": "group",
+                    "name": "mIGE",
+                    "hidden": false
+                  }
+                ],
+                "background": "",
+                "id": "Cae9fWch",
+                "block": "group",
+                "name": "Lr2a",
+                "hidden": false
+              }
+            ],
+            "background": "",
+            "id": "gpo1uwwf",
+            "block": "group",
+            "name": "AFNI",
+            "hidden": false
+          },
+          {
+            "marker": "",
+            "class": "my-5",
+            "content": [
+              {
+                "text": "<b>GET USED TO</b>:  We use it to talk about <b>activities that are becoming familiar</b>. In other words, we start to become accustomed to doing something.",
+                "class": "text-2xl",
+                "id": "kiaZoFqp",
+                "block": "text",
+                "name": "mG8I"
+              }
+            ],
+            "background": "",
+            "id": "7XuI7Vpx",
+            "block": "group",
+            "name": "qnKC"
+          },
+          {
+            "marker": "",
+            "class": "my-5",
+            "content": [
+              {
+                "text": "<b>GET USED TO</b>:  Activities that are in the process of becoming normal. ",
+                "class": "text-2xl",
+                "id": "kiaZnVeghuZnejkg",
+                "block": "text",
+                "name": "SOug"
+              }
+            ],
+            "background": "",
+            "id": "QELrZ0UChNRp",
+            "block": "group",
+            "name": "dnFt"
+          },
+          {
+            "marker": "📒",
+            "class": "bg-slate-100 rounded p-5 max-w-5xl mx-auto bg-yellow-200",
+            "content": [
+              {
+                "marker": "",
+                "class": "text-center ",
+                "content": [
+                  {
+                    "text": "<b>GET USED TO</b>",
+                    "class": "text-5xl ",
+                    "id": "kiaZnVegdOxT",
+                    "block": "text",
+                    "name": "obje"
+                  }
+                ],
+                "background": "",
+                "id": "nTEQ2bhzjua7",
+                "block": "group",
+                "name": "hlvQ"
+              },
+              {
+                "marker": "",
+                "class": "bg-sky-500 px-4 py-1 rounded-lg my-5",
+                "content": [
+                  {
+                    "marker": "",
+                    "class": " text-center bg-yellow-200 rounded-lg p-5 my-5",
+                    "content": [
+                      {
+                        "text": "AFFIRMATIVE STATEMENTS ",
+                        "class": "text-4xl font-bold",
+                        "id": "xyIGBKuII3EknwBMeJQzTLvV",
+                        "block": "text",
+                        "name": "GIyS"
+                      }
+                    ],
+                    "background": "",
+                    "id": "SBntJc3TxYWJLsajGQDpMPuf",
+                    "block": "group",
+                    "name": "PZPz"
+                  },
+                  {
+                    "marker": "",
+                    "class": "grid grid-cols-4  p-2 rounded-lg  items-center my-1 gap-5",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "text-center items-center  col-span-1 bg-sky-200 rounded-lg p-5 !min-h-[50px]",
+                        "content": [
+                          {
+                            "text": "I",
+                            "class": "text-xl font-bold",
+                            "id": "kGrPnEQ0aAGS515BmUx3GsXw",
+                            "block": "text",
+                            "name": "lt6X"
+                          }
+                        ],
+                        "background": "",
+                        "id": "RKRFJmCEvt9TzcuEacAM1p2U",
+                        "block": "group",
+                        "name": "9fEF"
+                      },
+                      {
+                        "marker": "",
+                        "class": "col-span-3 bg-sky-200 rounded-lg p-5 !min-h-[50px]",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": "",
+                            "content": [
+                              {
+                                "text": "- am getting used ",
+                                "class": "text-xl bg-yellow-200 p-2 rounded-lg font-bold",
+                                "id": "kGrPnEQ07w9OSzpGlT2UzrzioQnE",
+                                "block": "text",
+                                "name": "QqSJ"
+                              },
+                              {
+                                "text": "working",
+                                "class": "text-xl underline",
+                                "id": "DoBUDKQRNmJ6",
+                                "block": "text",
+                                "name": "H7xb"
+                              },
+                              {
+                                "text": " with AI.",
+                                "class": "text-xl",
+                                "id": "haB0BIbjdubt",
+                                "block": "text",
+                                "name": "wrNR"
+                              }
+                            ],
+                            "background": "",
+                            "id": "2DNCJsXxbLgPYKP4S87g",
+                            "block": "group",
+                            "name": "jI4w"
+                          }
+                        ],
+                        "background": "",
+                        "id": "DjpGRd9VJVl983oygvnSizH8",
+                        "block": "group",
+                        "name": "Guqc",
+                        "hidden": false
+                      }
+                    ],
+                    "background": "",
+                    "id": "geT26mEb4KFQRg6fea0y",
+                    "block": "group",
+                    "name": "wKmx"
+                  },
+                  {
+                    "marker": "",
+                    "class": "grid grid-cols-4  p-2 rounded-lg  items-center my-1 gap-5",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "text-center items-center  col-span-1 bg-sky-200 rounded-lg p-5 !min-h-[50px]",
+                        "content": [
+                          {
+                            "text": "He /  She / It",
+                            "class": "text-xl font-bold",
+                            "id": "kGrPnEQ0aAGS515BmUx3ftV3rICW",
+                            "block": "text",
+                            "name": "Z2Pl"
+                          }
+                        ],
+                        "background": "",
+                        "id": "RKRFJmCEvt9TzcuEacAMuegPMT5B",
+                        "block": "group",
+                        "name": "xe9S"
+                      },
+                      {
+                        "marker": "",
+                        "class": "col-span-3 bg-sky-200 rounded-lg p-5 !min-h-[50px]",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": "",
+                            "content": [
+                              {
+                                "text": "- is getting used to",
+                                "class": "text-xl bg-yellow-200 p-2 rounded-lg font-bold",
+                                "id": "v6qjyEBrckrN",
+                                "block": "text",
+                                "name": "8CHo"
+                              },
+                              {
+                                "text": "building",
+                                "class": "text-xl underline",
+                                "id": "kGrPnEQ07w9OSzpGlT2Uzrzivjr2nPE5",
+                                "block": "text",
+                                "name": "qPBt"
+                              },
+                              {
+                                "text": " gaming metaverse.",
+                                "class": "text-xl",
+                                "id": "zXOko9jkUc7o",
+                                "block": "text",
+                                "name": "s1Hu"
+                              }
+                            ],
+                            "background": "",
+                            "id": "2DNCJsXxbLgPYKP4fJQbgr8C",
+                            "block": "group",
+                            "name": "WNcL"
+                          }
+                        ],
+                        "background": "",
+                        "id": "DjpGRd9VJVl983oygvnS9Mqh4YcA",
+                        "block": "group",
+                        "name": "heGE",
+                        "hidden": false
+                      }
+                    ],
+                    "background": "",
+                    "id": "fNays6wtTeTX",
+                    "block": "group",
+                    "name": "JFPU"
+                  },
+                  {
+                    "marker": "",
+                    "class": "grid grid-cols-4  p-2 rounded-lg  items-center my-1 gap-5",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "text-center items-center  col-span-1 bg-sky-200 rounded-lg p-5 !min-h-[50px]",
+                        "content": [
+                          {
+                            "text": "You /  We / They",
+                            "class": "text-xl font-bold",
+                            "id": "kGrPnEQ0aAGS515BmUx3ftV3jlgFnvGr",
+                            "block": "text",
+                            "name": "Wtyu"
+                          }
+                        ],
+                        "background": "",
+                        "id": "RKRFJmCEvt9TzcuEacAMuegPizKEpspb",
+                        "block": "group",
+                        "name": "vTC7"
+                      },
+                      {
+                        "marker": "",
+                        "class": "col-span-3 bg-sky-200 rounded-lg p-5 !min-h-[50px]",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": "",
+                            "content": [
+                              {
+                                "text": "- are getting used to",
+                                "class": "text-xl bg-yellow-200 p-2 rounded-lg font-bold ",
+                                "id": "kGrPnEQ07w9OSzpGlT2Uzrzivjr2PR1pmP8p",
+                                "block": "text",
+                                "name": "NHz9"
+                              },
+                              {
+                                "text": " saving",
+                                "class": "text-xl underline",
+                                "id": "uyhgLHTJtqFo",
+                                "block": "text",
+                                "name": "rDCY"
+                              },
+                              {
+                                "text": " files in drive.",
+                                "class": "text-xl",
+                                "id": "rLUI4MGHeURF",
+                                "block": "text",
+                                "name": "YGsL"
+                              }
+                            ],
+                            "background": "",
+                            "id": "2DNCJsXxbLgPYKP4fJQbRKm5twD9",
+                            "block": "group",
+                            "name": "3Tol"
+                          }
+                        ],
+                        "background": "",
+                        "id": "DjpGRd9VJVl983oygvnS9MqhhtHU6Qgc",
+                        "block": "group",
+                        "name": "AjUw",
+                        "hidden": false
+                      }
+                    ],
+                    "background": "",
+                    "id": "gc78t8Cml1me",
+                    "block": "group",
+                    "name": "9UUF"
+                  }
+                ],
+                "background": "",
+                "id": "9HfFeVo1KOGmovEU",
+                "block": "group",
+                "name": "Csdw",
+                "hidden": false
+              },
+              {
+                "marker": "",
+                "class": "bg-sky-500 px-4 py-1 rounded-lg my-5",
+                "content": [
+                  {
+                    "marker": "",
+                    "class": " text-center bg-yellow-200 rounded-lg p-5 my-5",
+                    "content": [
+                      {
+                        "text": "NEGATIVE STATEMENTS ",
+                        "class": "text-4xl font-bold",
+                        "id": "xyIGBKuII3EknwBMeJQziwRIcx19",
+                        "block": "text",
+                        "name": "Z7IG"
+                      }
+                    ],
+                    "background": "",
+                    "id": "SBntJc3TxYWJLsajGQDpvGg4ATPi",
+                    "block": "group",
+                    "name": "BHJ8"
+                  },
+                  {
+                    "marker": "",
+                    "class": "grid grid-cols-4  p-2 rounded-lg  items-center my-1 gap-5",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "text-center items-center  col-span-1 bg-sky-200 rounded-lg p-10 !min-h-[120px]",
+                        "content": [
+                          {
+                            "text": "I",
+                            "class": "text-xl font-bold",
+                            "id": "kGrPnEQ0aAGS515BmUx3zDZtOXxM",
+                            "block": "text",
+                            "name": "EMcG"
+                          }
+                        ],
+                        "background": "",
+                        "id": "RKRFJmCEvt9TzcuEacAMvRbik0cu",
+                        "block": "group",
+                        "name": "bKU7"
+                      },
+                      {
+                        "marker": "",
+                        "class": "col-span-3 bg-sky-200 rounded-lg p-5 !min-h-[120px]",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": "",
+                            "content": [
+                              {
+                                "text": "- didn’t get used to ",
+                                "class": "text-xl font-bold bg-yellow-200 p-2 rounded-lg",
+                                "id": "kGrPnEQ07w9OSzpGlT2Uzrzil3ODQHss",
+                                "block": "text",
+                                "name": "CnfU"
+                              },
+                              {
+                                "text": "working",
+                                "class": "text-xl underline",
+                                "id": "PLupDqfGvlEo",
+                                "block": "text",
+                                "name": "6KTr"
+                              },
+                              {
+                                "text": " with AI. ",
+                                "class": "text-xl",
+                                "id": "qaNW9rQ6FFse",
+                                "block": "text",
+                                "name": "2Xda"
+                              },
+                              {
+                                "marker": "",
+                                "class": "text-center",
+                                "content": [
+                                  {
+                                    "text": " or",
+                                    "class": "text-xl",
+                                    "id": "QQETI7xjzDVZ",
+                                    "block": "text",
+                                    "name": "b0Wn"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "YzfrVBIK",
+                                "block": "group",
+                                "name": "QJyJ"
+                              },
+                              {
+                                "text": "- haven’t gotten used to",
+                                "class": "text-xl bg-yellow-200 p-2 rounded-lg font-bold",
+                                "id": "ogv0RlgPpSZl",
+                                "block": "text",
+                                "name": "HnI9"
+                              },
+                              {
+                                "text": "working",
+                                "class": "text-xl underline",
+                                "id": "bbke0SpzSfE3",
+                                "block": "text",
+                                "name": "98C7"
+                              },
+                              {
+                                "text": " with AI.",
+                                "class": "text-xl",
+                                "id": "8xlJzz0R0OfG",
+                                "block": "text",
+                                "name": "1QW4"
+                              }
+                            ],
+                            "background": "",
+                            "id": "2DNCJsXxbLgPYKP4UaLOeLQ1",
+                            "block": "group",
+                            "name": "HcFV"
+                          }
+                        ],
+                        "background": "",
+                        "id": "DjpGRd9VJVl983oygvnST1Ok3SRz",
+                        "block": "group",
+                        "name": "ZJbj",
+                        "hidden": false
+                      }
+                    ],
+                    "background": "",
+                    "id": "geT26mEb4KFQRg6fjcOrPYlP",
+                    "block": "group",
+                    "name": "iZOU"
+                  },
+                  {
+                    "marker": "",
+                    "class": "grid grid-cols-4  p-2 rounded-lg  items-center my-1 gap-5",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "text-center items-center  col-span-1 bg-sky-200 rounded-lg py-10 !min-h-[120px]",
+                        "content": [
+                          {
+                            "text": "He /  She / It",
+                            "class": "text-xl font-bold",
+                            "id": "kGrPnEQ0aAGS515BmUx3ftV3tS2v0KSG",
+                            "block": "text",
+                            "name": "zYLs"
+                          }
+                        ],
+                        "background": "",
+                        "id": "RKRFJmCEvt9TzcuEacAMuegPWP71NLjN",
+                        "block": "group",
+                        "name": "83sE"
+                      },
+                      {
+                        "marker": "",
+                        "class": "col-span-3 bg-sky-200 rounded-lg p-5 !min-h-[120px]",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": "",
+                            "content": [
+                              {
+                                "text": "- didn’t get used to ",
+                                "class": "text-xl bg-yellow-200 p-2 rounded-lg font-bold",
+                                "id": "kGrPnEQ07w9OSzpGlT2Uzrzivjr2ZRDaXagl",
+                                "block": "text",
+                                "name": "bRwq"
+                              },
+                              {
+                                "text": "building",
+                                "class": "text-xl underline",
+                                "id": "dxcAMXudnyav",
+                                "block": "text",
+                                "name": "f5ip"
+                              },
+                              {
+                                "text": " gaming metaverse.",
+                                "class": "text-xl",
+                                "id": "MFyxzKSGTaCF",
+                                "block": "text",
+                                "name": "tO0m"
+                              },
+                              {
+                                "marker": "",
+                                "class": "text-center",
+                                "content": [
+                                  {
+                                    "text": "or",
+                                    "class": "text-xl",
+                                    "id": "YbobJsuiqeQU",
+                                    "block": "text",
+                                    "name": "9ZMA"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "BUjjNKMM",
+                                "block": "group",
+                                "name": "X1q0"
+                              },
+                              {
+                                "text": "- hasn’t get used to ",
+                                "class": "text-xl bg-yellow-200 p-2 rounded-lg font-bold",
+                                "id": "WN5va8PSQODf",
+                                "block": "text",
+                                "name": "V0aa"
+                              },
+                              {
+                                "text": "building",
+                                "class": "text-xl underline",
+                                "id": "TQS09xJQbCrz",
+                                "block": "text",
+                                "name": "trNn"
+                              },
+                              {
+                                "text": " gaming metaverse.",
+                                "class": "text-xl",
+                                "id": "OEk6Y6Gj7aFu",
+                                "block": "text",
+                                "name": "bhxA"
+                              }
+                            ],
+                            "background": "",
+                            "id": "2DNCJsXxbLgPYKP4fJQbzyknusLy",
+                            "block": "group",
+                            "name": "k0md"
+                          }
+                        ],
+                        "background": "",
+                        "id": "DjpGRd9VJVl983oygvnS9Mqh3Gi1xLde",
+                        "block": "group",
+                        "name": "llD5",
+                        "hidden": false
+                      }
+                    ],
+                    "background": "",
+                    "id": "fNays6wtd7N89vir",
+                    "block": "group",
+                    "name": "xTqf"
+                  },
+                  {
+                    "marker": "",
+                    "class": "grid grid-cols-4  p-2 rounded-lg  items-center my-1 gap-5",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "text-center items-center  col-span-1 bg-sky-200 rounded-lg py-10 !min-h-[120px]",
+                        "content": [
+                          {
+                            "text": "You /  We / They",
+                            "class": "text-xl font-bold",
+                            "id": "kGrPnEQ0aAGS515BmUx3ftV3jlgF92slOmkT",
+                            "block": "text",
+                            "name": "o3nz"
+                          }
+                        ],
+                        "background": "",
+                        "id": "RKRFJmCEvt9TzcuEacAMuegPizKEu6bykfZ2",
+                        "block": "group",
+                        "name": "rwhf"
+                      },
+                      {
+                        "marker": "",
+                        "class": "col-span-3 bg-sky-200 rounded-lg p-5 !min-h-[120px]",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": "",
+                            "content": [
+                              {
+                                "text": "- didn’t get used to ",
+                                "class": "text-xl bg-yellow-200 p-2 rounded-lg font-bold",
+                                "id": "kGrPnEQ07w9OSzpGlT2Uzrzivjr2PR1pH0lw1gLc",
+                                "block": "text",
+                                "name": "PiNx"
+                              },
+                              {
+                                "text": "saving",
+                                "class": "text-xl underline",
+                                "id": "8AKNPgDNvKiG",
+                                "block": "text",
+                                "name": "54Uy"
+                              },
+                              {
+                                "text": " files in drive.",
+                                "class": "text-xl",
+                                "id": "eF9T0AZm9gTz",
+                                "block": "text",
+                                "name": "jZEO"
+                              },
+                              {
+                                "marker": "",
+                                "class": "text-center",
+                                "content": [
+                                  {
+                                    "text": "or",
+                                    "class": "text-xl",
+                                    "id": "ZU3LJBKsHab5",
+                                    "block": "text",
+                                    "name": "KJQ5"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "sAarfgLJ",
+                                "block": "group",
+                                "name": "LcCG"
+                              },
+                              {
+                                "text": "- haven’t get used to ",
+                                "class": "text-xl bg-yellow-200 p-2 rounded-lg font-bold",
+                                "id": "tyH1DKt7ZK5z",
+                                "block": "text",
+                                "name": "BV6I"
+                              },
+                              {
+                                "text": "saving",
+                                "class": "text-xl underline",
+                                "id": "3JnVuftbxwiM",
+                                "block": "text",
+                                "name": "BdTw"
+                              },
+                              {
+                                "text": " in drive.",
+                                "class": "text-xl",
+                                "id": "3gCHd3MEVOmx",
+                                "block": "text",
+                                "name": "y1MV"
+                              }
+                            ],
+                            "background": "",
+                            "id": "2DNCJsXxbLgPYKP4fJQbRKm5nFbIIqZa",
+                            "block": "group",
+                            "name": "cF8Q"
+                          }
+                        ],
+                        "background": "",
+                        "id": "DjpGRd9VJVl983oygvnS9MqhhtHUgnmeDLd8",
+                        "block": "group",
+                        "name": "I95S",
+                        "hidden": false
+                      }
+                    ],
+                    "background": "",
+                    "id": "gc78t8CmS1EOYZ10",
+                    "block": "group",
+                    "name": "1oFA"
+                  }
+                ],
+                "background": "",
+                "id": "N6XxyBnd9Msi",
+                "block": "group",
+                "name": "Gxcx",
+                "hidden": false
+              },
+              {
+                "marker": "",
+                "class": "bg-sky-500 px-4 py-1 rounded-lg my-5",
+                "content": [
+                  {
+                    "marker": "",
+                    "class": " text-center bg-yellow-200 rounded-lg p-5 my-5",
+                    "content": [
+                      {
+                        "text": "QUESTIONS",
+                        "class": "text-4xl font-bold",
+                        "id": "xyIGBKuII3EknwBMeJQziwRI8J3BqL6F",
+                        "block": "text",
+                        "name": "MbpD"
+                      }
+                    ],
+                    "background": "",
+                    "id": "SBntJc3TxYWJLsajGQDpvGg48759vjUN",
+                    "block": "group",
+                    "name": "jWNp"
+                  },
+                  {
+                    "marker": "",
+                    "class": "  p-2 rounded-lg  items-center my-1 gap-5",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "col-span-1 bg-sky-200 rounded-lg p-10 !min-h-[50px]",
+                        "content": [
+                          {
+                            "text": "Have you gotten used to",
+                            "class": "text-xl bg-yellow-200 p-2 rounded-lg font-bold",
+                            "id": "kGrPnEQ0aAGS515BmUx3zDZtUyNsd38g",
+                            "block": "text",
+                            "name": "CMkn"
+                          },
+                          {
+                            "text": "working",
+                            "class": "text-xl underline",
+                            "id": "CIAHIjaXFPDw",
+                            "block": "text",
+                            "name": "y6IF"
+                          },
+                          {
+                            "text": " with AI?",
+                            "class": "text-xl ",
+                            "id": "bsTIjnMXHzcB",
+                            "block": "text",
+                            "name": "rStk"
+                          },
+                          {
+                            "marker": "",
+                            "class": "mt-5",
+                            "content": [
+                              {
+                                "text": "Yes, I have. / No, I haven’t.",
+                                "class": "text-xl bg-yellow-200 p-2 rounded-lg font-bold",
+                                "id": "kGrPnEQ0aAGS515BmUx3zDZtUyNsOsp13FB0",
+                                "block": "text",
+                                "name": "x5ZK"
+                              }
+                            ],
+                            "background": "",
+                            "id": "FFtG8SQi",
+                            "block": "group",
+                            "name": "cmP9"
+                          }
+                        ],
+                        "background": "",
+                        "id": "RKRFJmCEvt9TzcuEacAMvRbijHtnNvx2",
+                        "block": "group",
+                        "name": "ehEz"
+                      }
+                    ],
+                    "background": "",
+                    "id": "geT26mEb4KFQRg6fjcOrz5rDFbhy",
+                    "block": "group",
+                    "name": "8qeK"
+                  },
+                  {
+                    "marker": "",
+                    "class": "  p-2 rounded-lg  items-center my-1 gap-5",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "col-span-1 bg-sky-200 rounded-lg p-10 !min-h-[50px]",
+                        "content": [
+                          {
+                            "text": "Has your teacher gotten used to",
+                            "class": "text-xl bg-yellow-200 p-2 rounded-lg font-bold",
+                            "id": "kGrPnEQ0aAGS515BmUx3zDZtUyNsb3kO0h8v",
+                            "block": "text",
+                            "name": "XiMK"
+                          },
+                          {
+                            "text": "building",
+                            "class": "text-xl underline",
+                            "id": "mqAWKPKETsDj",
+                            "block": "text",
+                            "name": "4sC4"
+                          },
+                          {
+                            "text": " gaming metaverse?",
+                            "class": "text-xl ",
+                            "id": "5pahdlUP0hVn",
+                            "block": "text",
+                            "name": "hK4F"
+                          },
+                          {
+                            "marker": "",
+                            "class": "mt-5",
+                            "content": [
+                              {
+                                "text": "Yes, he has. / No, he hasn’t.",
+                                "class": "text-xl bg-yellow-200 p-2 rounded-lg font-bold",
+                                "id": "kGrPnEQ0aAGS515BmUx3zDZtUyNsOsp1RVDmc9VH",
+                                "block": "text",
+                                "name": "ztIt"
+                              }
+                            ],
+                            "background": "",
+                            "id": "FFtGpLNeffcV",
+                            "block": "group",
+                            "name": "g2en"
+                          }
+                        ],
+                        "background": "",
+                        "id": "RKRFJmCEvt9TzcuEacAMvRbijHtnX7bwIVw1",
+                        "block": "group",
+                        "name": "WSUj"
+                      }
+                    ],
+                    "background": "",
+                    "id": "TSeh1Y5941YM",
+                    "block": "group",
+                    "name": "o1od"
+                  },
+                  {
+                    "marker": "",
+                    "class": "  p-2 rounded-lg  items-center my-1 gap-5",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "col-span-1 bg-sky-200 rounded-lg p-10 !min-h-[50px]",
+                        "content": [
+                          {
+                            "text": "Have you and your friends gotten used to",
+                            "class": "text-xl bg-yellow-200 p-2 rounded-lg font-bold",
+                            "id": "kGrPnEQ0aAGS515BmUx3zDZtUyNsb3kOG4oIOHyc",
+                            "block": "text",
+                            "name": "wmWE"
+                          },
+                          {
+                            "text": "saving",
+                            "class": "text-xl underline",
+                            "id": "ABcFJmzdLNX8",
+                            "block": "text",
+                            "name": "wEZS"
+                          },
+                          {
+                            "text": " files in drive? ",
+                            "class": "text-xl ",
+                            "id": "I2m0kAZQUWv6",
+                            "block": "text",
+                            "name": "dJyG"
+                          },
+                          {
+                            "marker": "",
+                            "class": "mt-5",
+                            "content": [
+                              {
+                                "text": "Yes, we have. / No, we haven’t. ",
+                                "class": "text-xl bg-yellow-200 p-2 rounded-lg font-bold",
+                                "id": "kGrPnEQ0aAGS515BmUx3zDZtUyNsOsp1RVDmWb9HQM5u",
+                                "block": "text",
+                                "name": "M2K9"
+                              }
+                            ],
+                            "background": "",
+                            "id": "FFtGpLNeN3S3AjdZ",
+                            "block": "group",
+                            "name": "9jge"
+                          }
+                        ],
+                        "background": "",
+                        "id": "RKRFJmCEvt9TzcuEacAMvRbijHtnX7bwk0AXNA6a",
+                        "block": "group",
+                        "name": "Sw7q"
+                      }
+                    ],
+                    "background": "",
+                    "id": "pdGLWPu7nivf",
+                    "block": "group",
+                    "name": "4Vsi"
+                  }
+                ],
+                "background": "",
+                "id": "GubcoUR5npx7",
+                "block": "group",
+                "name": "Aeff",
+                "hidden": false
+              }
+            ],
+            "background": "",
+            "id": "AbTYRp1SDdHk",
+            "block": "group",
+            "name": "FgcC",
+            "hidden": false
+          },
+          {
+            "marker": "",
+            "class": "my-5",
+            "content": [
+              {
+                "text": "<b>BE USED TO</b>: We use it to talk about <b>activities that have become familiar</b>. In other words, we are accustomed to doing something.",
+                "class": "text-2xl",
+                "id": "Rfia2NfS",
+                "block": "text",
+                "name": "ek36"
+              }
+            ],
+            "background": "",
+            "id": "GU51C9qp",
+            "block": "group",
+            "name": "Pgst"
+          },
+          {
+            "marker": "",
+            "class": "my-5",
+            "content": [
+              {
+                "text": "<b>BE USED TO</b>: Activities that we find normal, not unusual.",
+                "class": "text-2xl",
+                "id": "RfiaUuK22xcs",
+                "block": "text",
+                "name": "OTSq"
+              }
+            ],
+            "background": "",
+            "id": "CTkbBCdPLpcy",
+            "block": "group",
+            "name": "uhvQ"
+          },
+          {
+            "marker": "📒",
+            "class": " rounded p-2 max-w-5xl mx-auto bg-green-200 p-5",
+            "content": [
+              {
+                "marker": "",
+                "class": "text-center",
+                "content": [
+                  {
+                    "text": "BE USED TO",
+                    "class": "text-5xl font-bold",
+                    "id": "TmlCi5AL",
+                    "block": "text",
+                    "name": "6Jut"
+                  }
+                ],
+                "background": "",
+                "id": "PqLgvOYn",
+                "block": "group",
+                "name": "4Fdx"
+              },
+              {
+                "marker": "",
+                "class": "bg-sky-500 px-4 py-1 rounded-lg my-5",
+                "content": [
+                  {
+                    "marker": "",
+                    "class": " text-center bg-green-200 rounded-lg p-5 my-5",
+                    "content": [
+                      {
+                        "text": "AFFIRMATIVE STATEMENTS ",
+                        "class": "text-4xl font-bold",
+                        "id": "xyIGBKuII3EknwBMeJQzKxUEFNzI",
+                        "block": "text",
+                        "name": "YQWx"
+                      }
+                    ],
+                    "background": "",
+                    "id": "SBntJc3TxYWJLsajGQDpIpo1Fmqw",
+                    "block": "group",
+                    "name": "l4nV"
+                  },
+                  {
+                    "marker": "",
+                    "class": "grid grid-cols-4  p-2 rounded-lg  items-center my-1 gap-5",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "text-center items-center  col-span-1 bg-sky-200 rounded-lg p-5 !min-h-[50px]",
+                        "content": [
+                          {
+                            "text": "I",
+                            "class": "text-xl font-bold",
+                            "id": "kGrPnEQ0aAGS515BmUx3jXxxtjhx",
+                            "block": "text",
+                            "name": "lFCL"
+                          }
+                        ],
+                        "background": "",
+                        "id": "RKRFJmCEvt9TzcuEacAMn2DLQhMb",
+                        "block": "group",
+                        "name": "ibEO"
+                      },
+                      {
+                        "marker": "",
+                        "class": "col-span-3 bg-sky-200 rounded-lg p-5 !min-h-[50px]",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": "",
+                            "content": [
+                              {
+                                "text": "- am used to",
+                                "class": "text-xl bg-green-200 p-2 rounded-lg font-bold",
+                                "id": "kGrPnEQ07w9OSzpGlT2UzrzijAjtJxj3",
+                                "block": "text",
+                                "name": "M0sY"
+                              },
+                              {
+                                "text": "playing",
+                                "class": "text-xl underline",
+                                "id": "7FCW5uQhw4bz",
+                                "block": "text",
+                                "name": "af3y"
+                              },
+                              {
+                                "text": " with the ps5.",
+                                "class": "text-xl",
+                                "id": "nXtcOluYiTyA",
+                                "block": "text",
+                                "name": "Q16b"
+                              }
+                            ],
+                            "background": "",
+                            "id": "2DNCJsXxbLgPYKP4rDa4VLK9",
+                            "block": "group",
+                            "name": "qOif"
+                          }
+                        ],
+                        "background": "",
+                        "id": "DjpGRd9VJVl983oygvnST0J4mGaz",
+                        "block": "group",
+                        "name": "A96M",
+                        "hidden": false
+                      }
+                    ],
+                    "background": "",
+                    "id": "geT26mEb4KFQRg6ft4N2Sb3T",
+                    "block": "group",
+                    "name": "eP6e"
+                  },
+                  {
+                    "marker": "",
+                    "class": "grid grid-cols-4  p-2 rounded-lg  items-center my-1 gap-5",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "text-center items-center  col-span-1 bg-sky-200 rounded-lg p-5 !min-h-[50px]",
+                        "content": [
+                          {
+                            "text": "He /  She / It",
+                            "class": "text-xl font-bold",
+                            "id": "kGrPnEQ0aAGS515BmUx3ftV3sSHbWBSa",
+                            "block": "text",
+                            "name": "Iy3a"
+                          }
+                        ],
+                        "background": "",
+                        "id": "RKRFJmCEvt9TzcuEacAMuegPtZyon0gc",
+                        "block": "group",
+                        "name": "HzeM"
+                      },
+                      {
+                        "marker": "",
+                        "class": "col-span-3 bg-sky-200 rounded-lg p-5 !min-h-[50px]",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": "",
+                            "content": [
+                              {
+                                "text": "- is used to",
+                                "class": "text-xl bg-green-200 p-2 rounded-lg font-bold",
+                                "id": "kGrPnEQ07w9OSzpGlT2Uzrzivjr2MmV9Nrap",
+                                "block": "text",
+                                "name": "Iul4"
+                              },
+                              {
+                                "text": "shopping",
+                                "class": "text-xl underline",
+                                "id": "CUyRSfxPBD9H",
+                                "block": "text",
+                                "name": "LocG"
+                              },
+                              {
+                                "text": " online.",
+                                "class": "text-xl",
+                                "id": "dsae5AO34BZK",
+                                "block": "text",
+                                "name": "YGCo"
+                              }
+                            ],
+                            "background": "",
+                            "id": "2DNCJsXxbLgPYKP4fJQbWqDhRRlR",
+                            "block": "group",
+                            "name": "kDrv"
+                          }
+                        ],
+                        "background": "",
+                        "id": "DjpGRd9VJVl983oygvnS9MqhIsDqK3uT",
+                        "block": "group",
+                        "name": "D6I1",
+                        "hidden": false
+                      }
+                    ],
+                    "background": "",
+                    "id": "fNays6wt3P6akQ9o",
+                    "block": "group",
+                    "name": "grFO"
+                  },
+                  {
+                    "marker": "",
+                    "class": "grid grid-cols-4  p-2 rounded-lg  items-center my-1 gap-5",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "text-center items-center  col-span-1 bg-sky-200 rounded-lg p-5 !min-h-[50px]",
+                        "content": [
+                          {
+                            "text": "You /  We / They",
+                            "class": "text-xl font-bold",
+                            "id": "kGrPnEQ0aAGS515BmUx3ftV3jlgFV6PklQ61",
+                            "block": "text",
+                            "name": "Pb8W"
+                          }
+                        ],
+                        "background": "",
+                        "id": "RKRFJmCEvt9TzcuEacAMuegPizKEH0jk2CKL",
+                        "block": "group",
+                        "name": "ERWz"
+                      },
+                      {
+                        "marker": "",
+                        "class": "col-span-3 bg-sky-200 rounded-lg p-5 !min-h-[50px]",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": "",
+                            "content": [
+                              {
+                                "text": "- are used to",
+                                "class": "text-xl bg-green-200 p-2 rounded-lg font-bold",
+                                "id": "kGrPnEQ07w9OSzpGlT2Uzrzivjr2PR1pqk5eMCMx",
+                                "block": "text",
+                                "name": "LxVs"
+                              },
+                              {
+                                "text": "taking",
+                                "class": "text-xl underline",
+                                "id": "olBV83ph0TMw",
+                                "block": "text",
+                                "name": "9TlT"
+                              },
+                              {
+                                "text": " classes.",
+                                "class": "text-xl",
+                                "id": "krauAjFM0fIg",
+                                "block": "text",
+                                "name": "jy96"
+                              }
+                            ],
+                            "background": "",
+                            "id": "2DNCJsXxbLgPYKP4fJQbRKm5dD0E8xIZ",
+                            "block": "group",
+                            "name": "MumA"
+                          }
+                        ],
+                        "background": "",
+                        "id": "DjpGRd9VJVl983oygvnS9MqhhtHUIi1Vx4i4",
+                        "block": "group",
+                        "name": "egkg",
+                        "hidden": false
+                      }
+                    ],
+                    "background": "",
+                    "id": "gc78t8Cm6GBEApXO",
+                    "block": "group",
+                    "name": "mzZj"
+                  }
+                ],
+                "background": "",
+                "id": "9HfFeVo1KOGmQC8jCJAj",
+                "block": "group",
+                "name": "TdkF",
+                "hidden": false
+              },
+              {
+                "marker": "",
+                "class": "bg-sky-500 px-4 py-1 rounded-lg my-5",
+                "content": [
+                  {
+                    "marker": "",
+                    "class": " text-center bg-green-200 rounded-lg p-5 my-5",
+                    "content": [
+                      {
+                        "text": "NEGATIVE STATEMENTS ",
+                        "class": "text-4xl font-bold",
+                        "id": "xyIGBKuII3EknwBMeJQziwRIZcyBns93",
+                        "block": "text",
+                        "name": "vkxq"
+                      }
+                    ],
+                    "background": "",
+                    "id": "SBntJc3TxYWJLsajGQDpvGg4ujGCQWNm",
+                    "block": "group",
+                    "name": "2aft"
+                  },
+                  {
+                    "marker": "",
+                    "class": "grid grid-cols-4  p-2 rounded-lg  items-center my-1 gap-5",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "text-center items-center  col-span-1 bg-sky-200 rounded-lg p-5 !min-h-[50px]",
+                        "content": [
+                          {
+                            "text": "I",
+                            "class": "text-xl font-bold",
+                            "id": "kGrPnEQ0aAGS515BmUx3zDZtJ4W8XPlt",
+                            "block": "text",
+                            "name": "XDxF"
+                          }
+                        ],
+                        "background": "",
+                        "id": "RKRFJmCEvt9TzcuEacAMvRbifTf571aq",
+                        "block": "group",
+                        "name": "J6yK"
+                      },
+                      {
+                        "marker": "",
+                        "class": "col-span-3 bg-sky-200 rounded-lg p-5 !min-h-[50px]",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": "",
+                            "content": [
+                              {
+                                "text": "- am not used to",
+                                "class": "text-xl bg-green-200 p-2 rounded-lg font-bold",
+                                "id": "kGrPnEQ07w9OSzpGlT2Uzrzil3ODEPnN51ZE",
+                                "block": "text",
+                                "name": "5asK"
+                              },
+                              {
+                                "text": "playing",
+                                "class": "text-xl underline",
+                                "id": "9C2ryhQO1VeR",
+                                "block": "text",
+                                "name": "9sHw"
+                              },
+                              {
+                                "text": " with the ps5.",
+                                "class": "text-xl",
+                                "id": "UWMupkJIYecl",
+                                "block": "text",
+                                "name": "OHMV"
+                              }
+                            ],
+                            "background": "",
+                            "id": "2DNCJsXxbLgPYKP4UaLOXOiApsvH",
+                            "block": "group",
+                            "name": "VGeM"
+                          }
+                        ],
+                        "background": "",
+                        "id": "DjpGRd9VJVl983oygvnST1OkAyTQpTYl",
+                        "block": "group",
+                        "name": "dlav",
+                        "hidden": false
+                      }
+                    ],
+                    "background": "",
+                    "id": "geT26mEb4KFQRg6fjcOr5rERxJR6",
+                    "block": "group",
+                    "name": "lVoF"
+                  },
+                  {
+                    "marker": "",
+                    "class": "grid grid-cols-4  p-2 rounded-lg  items-center my-1 gap-5",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "text-center items-center  col-span-1 bg-sky-200 rounded-lg p-5 !min-h-[50px]",
+                        "content": [
+                          {
+                            "text": "He /  She / It",
+                            "class": "text-xl font-bold",
+                            "id": "kGrPnEQ0aAGS515BmUx3ftV3tS2vIdm1ljVc",
+                            "block": "text",
+                            "name": "3nSx"
+                          }
+                        ],
+                        "background": "",
+                        "id": "RKRFJmCEvt9TzcuEacAMuegPWP719AM1pJCh",
+                        "block": "group",
+                        "name": "XrNy"
+                      },
+                      {
+                        "marker": "",
+                        "class": "col-span-3 bg-sky-200 rounded-lg p-5 !min-h-[50px]",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": "",
+                            "content": [
+                              {
+                                "text": "- is not used to ",
+                                "class": "text-xl bg-green-200 p-2 rounded-lg font-bold",
+                                "id": "1jcXV9cFdCWu",
+                                "block": "text",
+                                "name": "TXMo"
+                              },
+                              {
+                                "text": "shopping",
+                                "class": "text-xl underline",
+                                "id": "WN5va8PSwz9NgW2O",
+                                "block": "text",
+                                "name": "zmWw"
+                              },
+                              {
+                                "text": " online.",
+                                "class": "text-xl",
+                                "id": "p6sdSYEjnvmm",
+                                "block": "text",
+                                "name": "Wq0O"
+                              }
+                            ],
+                            "background": "",
+                            "id": "2DNCJsXxbLgPYKP4fJQbzyknWL6EAPJf",
+                            "block": "group",
+                            "name": "Snt8"
+                          }
+                        ],
+                        "background": "",
+                        "id": "DjpGRd9VJVl983oygvnS9Mqh3Gi1Z2tDbCHI",
+                        "block": "group",
+                        "name": "Jimi",
+                        "hidden": false
+                      }
+                    ],
+                    "background": "",
+                    "id": "fNays6wtd7N8vrTHS8w7",
+                    "block": "group",
+                    "name": "ZFgh"
+                  },
+                  {
+                    "marker": "",
+                    "class": "grid grid-cols-4  p-2 rounded-lg  items-center my-1 gap-5",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "text-center items-center  col-span-1 bg-sky-200 rounded-lg p-5 !min-h-[50px]",
+                        "content": [
+                          {
+                            "text": "You /  We / They",
+                            "class": "text-xl font-bold",
+                            "id": "kGrPnEQ0aAGS515BmUx3ftV3jlgF92slrzsQnicT",
+                            "block": "text",
+                            "name": "10xq"
+                          }
+                        ],
+                        "background": "",
+                        "id": "RKRFJmCEvt9TzcuEacAMuegPizKEu6byuYPo2Axm",
+                        "block": "group",
+                        "name": "gxHK"
+                      },
+                      {
+                        "marker": "",
+                        "class": "col-span-3 bg-sky-200 rounded-lg p-5 !min-h-[50px]",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": "",
+                            "content": [
+                              {
+                                "text": "- are not used to",
+                                "class": "text-xl bg-green-200 p-2 rounded-lg font-bold",
+                                "id": "kGrPnEQ07w9OSzpGlT2Uzrzivjr2PR1pH0lwULQtxyX0",
+                                "block": "text",
+                                "name": "H5TM"
+                              },
+                              {
+                                "text": "taking",
+                                "class": "text-xl underline",
+                                "id": "yVwPyAe2Cvwe",
+                                "block": "text",
+                                "name": "sTuX"
+                              },
+                              {
+                                "text": " online classes yet. ",
+                                "class": "text-xl",
+                                "id": "5Xbxfahha9qV",
+                                "block": "text",
+                                "name": "I6bA"
+                              }
+                            ],
+                            "background": "",
+                            "id": "2DNCJsXxbLgPYKP4fJQbRKm5nFbIQmVuj2iu",
+                            "block": "group",
+                            "name": "XJq8"
+                          }
+                        ],
+                        "background": "",
+                        "id": "DjpGRd9VJVl983oygvnS9MqhhtHUgnmeDjiS3o1p",
+                        "block": "group",
+                        "name": "Dq6Y",
+                        "hidden": false
+                      }
+                    ],
+                    "background": "",
+                    "id": "gc78t8CmS1EOWI4gcVUv",
+                    "block": "group",
+                    "name": "eRXX"
+                  }
+                ],
+                "background": "",
+                "id": "N6XxyBndBAS0ElZX",
+                "block": "group",
+                "name": "fng7",
+                "hidden": false
+              },
+              {
+                "marker": "",
+                "class": "bg-sky-500 px-4 py-1 rounded-lg my-5",
+                "content": [
+                  {
+                    "marker": "",
+                    "class": " text-center bg-green-200 rounded-lg p-5 my-5",
+                    "content": [
+                      {
+                        "text": "QUESTIONS",
+                        "class": "text-4xl font-bold",
+                        "id": "xyIGBKuII3EknwBMeJQziwRI8J3B64C8WY8j",
+                        "block": "text",
+                        "name": "7LJ7"
+                      }
+                    ],
+                    "background": "",
+                    "id": "SBntJc3TxYWJLsajGQDpvGg48759GeJVoKkI",
+                    "block": "group",
+                    "name": "j7e1"
+                  },
+                  {
+                    "marker": "",
+                    "class": "  p-2 rounded-lg  items-center my-1 gap-5",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "col-span-1 bg-sky-200 rounded-lg p-10 !min-h-[50px]",
+                        "content": [
+                          {
+                            "text": "Are you used to ",
+                            "class": "text-xl bg-green-200 p-2 rounded-lg font-bold",
+                            "id": "1EjeSNukaO4M",
+                            "block": "text",
+                            "name": "OLFs"
+                          },
+                          {
+                            "text": "playing",
+                            "class": "text-xl underline",
+                            "id": "kGrPnEQ0aAGS515BmUx3zDZtUyNsSudl9DAn",
+                            "block": "text",
+                            "name": "jZZr"
+                          },
+                          {
+                            "text": " with the ps5?",
+                            "class": "text-xl ",
+                            "id": "rhGFAunWBesx",
+                            "block": "text",
+                            "name": "9TUs"
+                          },
+                          {
+                            "marker": "",
+                            "class": "mt-5",
+                            "content": [
+                              {
+                                "text": "Yes, I am. / No, I’m not.",
+                                "class": "text-xl bg-green-200 p-2 rounded-lg font-bold",
+                                "id": "kGrPnEQ0aAGS515BmUx3zDZtUyNsOsp1MqMhTUh0",
+                                "block": "text",
+                                "name": "ek62"
+                              }
+                            ],
+                            "background": "",
+                            "id": "FFtGLeIRKM3s",
+                            "block": "group",
+                            "name": "MMg8"
+                          }
+                        ],
+                        "background": "",
+                        "id": "RKRFJmCEvt9TzcuEacAMvRbijHtnJYHCKZBw",
+                        "block": "group",
+                        "name": "3Q7S"
+                      }
+                    ],
+                    "background": "",
+                    "id": "geT26mEb4KFQRg6fjcOrz5rDka8cKvdm",
+                    "block": "group",
+                    "name": "OltL"
+                  },
+                  {
+                    "marker": "",
+                    "class": "  p-2 rounded-lg  items-center my-1 gap-5",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "col-span-1 bg-sky-200 rounded-lg p-10 !min-h-[50px]",
+                        "content": [
+                          {
+                            "text": "Is your teacher used to",
+                            "class": "text-xl bg-green-200 p-2 rounded-lg font-bold",
+                            "id": "kGrPnEQ0aAGS515BmUx3zDZtUyNsb3kOsVvF3ukV",
+                            "block": "text",
+                            "name": "fXy9"
+                          },
+                          {
+                            "text": "shopping",
+                            "class": "text-xl underline",
+                            "id": "HMXdzYZU8M8C",
+                            "block": "text",
+                            "name": "MgM5"
+                          },
+                          {
+                            "text": " online?",
+                            "class": "text-xl ",
+                            "id": "mzVKD4ZG0q6d",
+                            "block": "text",
+                            "name": "zcqF"
+                          },
+                          {
+                            "marker": "",
+                            "class": "mt-5",
+                            "content": [
+                              {
+                                "text": "Yes, he's.  / No, he's not.",
+                                "class": "text-xl bg-green-200 p-2 rounded-lg font-bold",
+                                "id": "kGrPnEQ0aAGS515BmUx3zDZtUyNsOsp1RVDm5kLaVryZ",
+                                "block": "text",
+                                "name": "Gwpb"
+                              }
+                            ],
+                            "background": "",
+                            "id": "FFtGpLNeGrnp40Wn",
+                            "block": "group",
+                            "name": "KAMN"
+                          }
+                        ],
+                        "background": "",
+                        "id": "RKRFJmCEvt9TzcuEacAMvRbijHtnX7bw92IRxcYE",
+                        "block": "group",
+                        "name": "0rLr"
+                      }
+                    ],
+                    "background": "",
+                    "id": "TSeh1Y591uUx89c8",
+                    "block": "group",
+                    "name": "e2sS"
+                  },
+                  {
+                    "marker": "",
+                    "class": "  p-2 rounded-lg  items-center my-1 gap-5",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "col-span-1 bg-sky-200 rounded-lg p-10 !min-h-[50px]",
+                        "content": [
+                          {
+                            "text": "Are you and your friends used to ",
+                            "class": "text-xl bg-green-200 p-2 rounded-lg font-bold",
+                            "id": "kGrPnEQ0aAGS515BmUx3zDZtUyNsb3kOG4oIkESgFiFA",
+                            "block": "text",
+                            "name": "2dfz"
+                          },
+                          {
+                            "text": "taking",
+                            "class": "text-xl underline",
+                            "id": "KZcNAPLl2o7C",
+                            "block": "text",
+                            "name": "586e"
+                          },
+                          {
+                            "text": " online classes?",
+                            "class": "text-xl ",
+                            "id": "lqysPQfQhKqW",
+                            "block": "text",
+                            "name": "Hr7K"
+                          },
+                          {
+                            "marker": "",
+                            "class": "mt-5",
+                            "content": [
+                              {
+                                "text": " Yes, we are.  / No, we aren’t. ",
+                                "class": "text-xl bg-green-200 p-2 rounded-lg font-bold",
+                                "id": "kGrPnEQ0aAGS515BmUx3zDZtUyNsOsp1RVDmWb9Hmf4gJer6",
+                                "block": "text",
+                                "name": "JfHG"
+                              }
+                            ],
+                            "background": "",
+                            "id": "FFtGpLNeN3S3oG6lFAdl",
+                            "block": "group",
+                            "name": "oMvs"
+                          }
+                        ],
+                        "background": "",
+                        "id": "RKRFJmCEvt9TzcuEacAMvRbijHtnX7bwk0AXUOnIaGrq",
+                        "block": "group",
+                        "name": "1FUt"
+                      }
+                    ],
+                    "background": "",
+                    "id": "pdGLWPu77GXr5axe",
+                    "block": "group",
+                    "name": "RGli"
+                  }
+                ],
+                "background": "",
+                "id": "GubcoUR5DTrx94EN",
+                "block": "group",
+                "name": "k0OX",
+                "hidden": false
+              }
+            ],
+            "background": "",
+            "id": "vCSGeDShVsfq",
+            "block": "group",
+            "name": "XEJ1",
+            "hidden": false
+          },
+          {
+            "class": "text-center my-10",
+            "content": [
+              {
+                "to": "/activity/1",
+                "class": "",
+                "text": "Next",
+                "id": "btn1",
+                "block": "button",
+                "name": "btn1"
+              }
+            ],
+            "background": "",
+            "id": "nxt1",
+            "block": "group",
+            "name": "➡️",
+            "marker": "➡️"
+          }
+        ],
+        "hidden": false,
+        "id": "5xs769Zy"
+      },
+      {
+        "block": "scene",
+        "name": "SC2",
+        "countdown": 0,
+        "instructions": {
+          "open": true,
+          "content": [
+            {
+              "block": "group",
+              "class": "flex gap-2 items-center",
+              "content": [
+                {
+                  "block": "audio",
+                  "class": "",
+                  "file": "files/INS-2.mp3",
+                  "wave": false,
+                  "autoplay": false,
+                  "id": "",
+                  "name": "lukI"
+                },
+                {
+                  "block": "text",
+                  "class": "",
+                  "text": "Discuss the following questions in class:"
+                }
+              ]
+            }
+          ]
+        },
+        "content": [
+          {
+            "marker": "📒",
+            "class": "bg-slate-100 rounded p-5 max-w-5xl mx-auto",
+            "content": [
+              {
+                "marker": "",
+                "class": " max-w-3xl mx-auto ",
+                "content": [
+                  {
+                    "text": "<b>1)</b> What are the similarities and differences among these structures?<br><br> <b>2)</b> What verb form do we use for used to / get used to / and be used to?<br><br> <b>3)</b> What auxiliary verb do we use for used to / get used to / and be used to?<br><br> <b>4)</b> Provide examples for each structure about <b>YOUR</b> habits. ",
+                    "class": "text-3xl",
+                    "id": "txt2",
+                    "block": "text",
+                    "name": "txt2"
+                  }
+                ],
+                "background": "",
+                "id": "pzIs",
+                "block": "group",
+                "name": "cmV7"
+              }
+            ],
+            "background": "",
+            "id": "gpo2",
+            "block": "group",
+            "name": "gpo2"
+          },
+          {
+            "symbol": "FinalizeGroup"
+          }
+        ],
+        "id": ""
+      }
+    ]
+  },
+  "end": {
+    "buttons": {
+      "restart": false
+    },
+    "content": [
+      {
+        "symbol": "finishedAll"
+      }
+    ]
+  },
+  "symbols": {
+    "finishedAll": {
+      "class": "w-full",
+      "content": [
+        {
+          "block": "group",
+          "class": "bg-slate-100 rounded p-5 text-center w-full",
+          "content": [
+            {
+              "block": "text",
+              "text": "Congratulations, you finished the activity.",
+              "class": "",
+              "name": "Congra"
+            }
+          ],
+          "background": "",
+          "name": "CongraGroup"
+        },
+        {
+          "block": "group",
+          "class": "text-center p-5",
+          "content": [
+            {
+              "block": "finished",
+              "name": "finishedBlock"
+            }
+          ],
+          "background": "",
+          "name": "finishedGroup"
+        }
+      ],
+      "background": "",
+      "block": "group"
+    },
+    "FinalizeGroup": {
+      "block": "group",
+      "class": "text-center mt-10",
+      "content": [
+        {
+          "block": "button",
+          "class": "mx-auto",
+          "to": "/end",
+          "text": "Finalize",
+          "name": "FinalizeBTN"
+        }
+      ],
+      "background": ""
+    }
+  },
+  "metadata": {
+    "sync": 0.06650297695420426
+  }
+}
