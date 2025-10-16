@@ -1,1 +1,256 @@
-{"title":"Be careful!","clock":false,"countdown":0,"intro":{"buttons":{"start":"Start"},"content":[]},"activity":{"scenes":[{"block":"scene","name":"SC1","countdown":0,"instructions":{"open":true,"content":[{"block":"group","class":"flex gap-2 items-center","content":[{"block":"audio","class":"","file":"files/INS.mp3","wave":false,"autoplay":false,"id":"","name":"lq0a"},{"block":"text","class":"","text":"Read carefully the diary entry below, pay attention to the details."}]}]},"content":[{"marker":"📒","class":"bg-slate-100 rounded p-2 max-w-5xl mx-auto","content":[{"marker":"","class":" m-10 bg-orange-500 pr-2 rounded-lg","content":[{"marker":"","class":"bg-yellow-50 pr-2 rounded-lg","content":[{"marker":"","class":"text-2xl  bg-orange-500 pr-2 rounded-lg","content":[{"marker":"","class":"bg-yellow-50 p-20 rounded-lg","content":[{"marker":"","class":"grid grid-cols-2 text-justify gap-5 items-center","content":[{"block":"text","class":"","text":"The day before yesterday, I went to the aquapark and played with my family. We ran, swam and had fun together. Today, I am reading for my book report. I am sitting at my desk and taking notes. I love reading about science. ","name":"khH6","hidden":false,"id":"cuzP"},{"file":"files/B1-1U4L4EA-IMG-01.jpg","class":"mask mask-circle","id":"QCjC","block":"image","name":"e3Do"}],"background":"","id":"S9jL","block":"group","name":"Oepu"},{"marker":"","class":"text-justify my-10","content":[{"block":"text","class":"","text":"In the future, I will become a scientist and help people all over the world. I am going to study hard in school and go to science school. My mom believes that I will make my dreams come true.","name":"RFLV","hidden":false,"id":"cuzPVdPT"}],"background":"","id":"m33oWtGL","block":"group","name":"mm7Y"},{"marker":"","class":"flex justify-center","content":[{"file":"files/B1-1U4L4EA-IMG-02.jpg","class":"mask mask-circle w-3/4","id":"PbmY","block":"image","name":"7N7u"}],"background":"","id":"tjz3","block":"group","name":"qTmm"},{"marker":"","class":"text-justify my-10","content":[{"block":"text","class":"","text":"Next weekend, my cousins and I will go on a trip to the beach. We are excited about the sunny weather the weather man said we will have tomorrow. We have packed our beach ball, swimsuits, towels, food and sunscreen. We will build sandcastles and surf the waves.When the sun goes down, we will have a firepit and enjoy roasted marshmallows. It will be a great day. I am going to take lots of pictures with my phone to make sure I always remember it. I can't wait for our beach trip.","name":"L4jO","hidden":false,"id":"LDNIslx3"}],"background":"","id":"ht3e","block":"group","name":"oxk7"},{"marker":"","class":"flex justify-center","content":[{"file":"files/B1-1U4L4EA-IMG-03.jpg","class":"mask mask-circle w-3/4","id":"lMiE","block":"image","name":"lNaj"}],"background":"","id":"1mFG6415","block":"group","name":"hu1R"}],"background":"","id":"eQYipp47","block":"group","name":"aNqa"}],"background":"","id":"38y0","block":"group","name":"0czd"}],"background":"","id":"GRdQVHJl","block":"group","name":"GkXU"}],"background":"","id":"Emva","block":"group","name":"JE2b"}],"background":"","id":"gpo1","block":"group","name":"gpo1"},{"symbol":"FinalizeGroup"}],"id":""}]},"end":{"buttons":{"restart":false},"content":[{"symbol":"finishedAll"}]},"symbols":{"finishedAll":{"class":"w-full","content":[{"block":"group","class":"bg-slate-100 rounded p-5 text-center w-full","content":[{"block":"text","text":"Congratulations, you finished the activity.","class":"","name":"Congra"}],"background":"","name":"CongraGroup"},{"block":"group","class":"text-center p-5","content":[{"block":"finished","name":"finishedBlock"}],"background":"","name":"finishedGroup"}],"background":"","block":"group"},"FinalizeGroup":{"block":"group","class":"text-center mt-10","content":[{"block":"button","class":"mx-auto","to":"/end","text":"Finalize","name":"FinalizeBTN"}],"background":""}}}
+{
+  "title": "Be careful!",
+  "clock": false,
+  "countdown": 0,
+  "intro": {
+    "buttons": {
+      "start": "Start"
+    },
+    "content": []
+  },
+  "activity": {
+    "scenes": [
+      {
+        "block": "scene",
+        "name": "SC1",
+        "countdown": 0,
+        "instructions": {
+          "open": true,
+          "content": [
+            {
+              "block": "group",
+              "class": "flex gap-2 items-center",
+              "content": [
+                {
+                  "block": "audio",
+                  "class": "",
+                  "file": "files/INS.mp3",
+                  "wave": false,
+                  "autoplay": false,
+                  "id": "",
+                  "name": "lq0a"
+                },
+                {
+                  "block": "text",
+                  "class": "",
+                  "text": "Read carefully the diary entry below, pay attention to the details."
+                }
+              ]
+            }
+          ]
+        },
+        "content": [
+          {
+            "marker": "📒",
+            "class": "bg-slate-100 rounded p-2 max-w-5xl mx-auto",
+            "content": [
+              {
+                "marker": "",
+                "class": " m-10 bg-orange-500 pr-2 rounded-lg",
+                "content": [
+                  {
+                    "marker": "",
+                    "class": "bg-yellow-50 pr-2 rounded-lg",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "text-2xl  bg-orange-500 pr-2 rounded-lg",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": "bg-yellow-50 p-20 rounded-lg",
+                            "content": [
+                              {
+                                "marker": "",
+                                "class": "grid grid-cols-2 text-justify gap-5 items-center",
+                                "content": [
+                                  {
+                                    "block": "text",
+                                    "class": "",
+                                    "text": "The day before yesterday, I went to the aquapark and played with my family. We ran, swam and had fun together. Today, I am reading my book report. I am sitting at my desk and taking notes. I love reading about science. ",
+                                    "name": "khH6",
+                                    "hidden": false,
+                                    "id": "cuzP"
+                                  },
+                                  {
+                                    "file": "files/B1-1U4L4EA-IMG-01.jpg",
+                                    "class": "mask mask-circle",
+                                    "id": "QCjC",
+                                    "block": "image",
+                                    "name": "e3Do"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "S9jL",
+                                "block": "group",
+                                "name": "Oepu"
+                              },
+                              {
+                                "marker": "",
+                                "class": "text-justify my-10",
+                                "content": [
+                                  {
+                                    "block": "text",
+                                    "class": "",
+                                    "text": "In the future, I will become a scientist and help people all over the world. I am going to study hard in school and go to science school. My mom believes that I will make my dreams come true.",
+                                    "name": "RFLV",
+                                    "hidden": false,
+                                    "id": "cuzPVdPT"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "m33oWtGL",
+                                "block": "group",
+                                "name": "mm7Y"
+                              },
+                              {
+                                "marker": "",
+                                "class": "flex justify-center",
+                                "content": [
+                                  {
+                                    "file": "files/B1-1U4L4EA-IMG-02.jpg",
+                                    "class": "mask mask-circle w-3/4",
+                                    "id": "PbmY",
+                                    "block": "image",
+                                    "name": "7N7u"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "tjz3",
+                                "block": "group",
+                                "name": "qTmm"
+                              },
+                              {
+                                "marker": "",
+                                "class": "text-justify my-10",
+                                "content": [
+                                  {
+                                    "block": "text",
+                                    "class": "",
+                                    "text": "Next weekend, my cousins and I will go on a trip to the beach. We are excited about the sunny weather the weather man said we will have tomorrow. We have packed our beach ball, swimsuits, towels, food and sunscreen. We will build sandcastles and surf the waves.When the sun goes down, we will have a firepit and enjoy roasted marshmallows. It will be a great day. I am going to take lots of pictures with my phone to make sure I always remember it. I can't wait for our beach trip.",
+                                    "name": "L4jO",
+                                    "hidden": false,
+                                    "id": "LDNIslx3"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "ht3e",
+                                "block": "group",
+                                "name": "oxk7"
+                              },
+                              {
+                                "marker": "",
+                                "class": "flex justify-center",
+                                "content": [
+                                  {
+                                    "file": "files/B1-1U4L4EA-IMG-03.jpg",
+                                    "class": "mask mask-circle w-3/4",
+                                    "id": "lMiE",
+                                    "block": "image",
+                                    "name": "lNaj"
+                                  }
+                                ],
+                                "background": "",
+                                "id": "1mFG6415",
+                                "block": "group",
+                                "name": "hu1R"
+                              }
+                            ],
+                            "background": "",
+                            "id": "eQYipp47",
+                            "block": "group",
+                            "name": "aNqa"
+                          }
+                        ],
+                        "background": "",
+                        "id": "38y0",
+                        "block": "group",
+                        "name": "0czd"
+                      }
+                    ],
+                    "background": "",
+                    "id": "GRdQVHJl",
+                    "block": "group",
+                    "name": "GkXU"
+                  }
+                ],
+                "background": "",
+                "id": "Emva",
+                "block": "group",
+                "name": "JE2b"
+              }
+            ],
+            "background": "",
+            "id": "gpo1",
+            "block": "group",
+            "name": "gpo1"
+          },
+          {
+            "symbol": "FinalizeGroup"
+          }
+        ],
+        "id": ""
+      }
+    ]
+  },
+  "end": {
+    "buttons": {
+      "restart": false
+    },
+    "content": [
+      {
+        "symbol": "finishedAll"
+      }
+    ]
+  },
+  "symbols": {
+    "finishedAll": {
+      "class": "w-full",
+      "content": [
+        {
+          "block": "group",
+          "class": "bg-slate-100 rounded p-5 text-center w-full",
+          "content": [
+            {
+              "block": "text",
+              "text": "Congratulations, you finished the activity.",
+              "class": "",
+              "name": "Congra"
+            }
+          ],
+          "background": "",
+          "name": "CongraGroup"
+        },
+        {
+          "block": "group",
+          "class": "text-center p-5",
+          "content": [
+            {
+              "block": "finished",
+              "name": "finishedBlock"
+            }
+          ],
+          "background": "",
+          "name": "finishedGroup"
+        }
+      ],
+      "background": "",
+      "block": "group"
+    },
+    "FinalizeGroup": {
+      "block": "group",
+      "class": "text-center mt-10",
+      "content": [
+        {
+          "block": "button",
+          "class": "mx-auto",
+          "to": "/end",
+          "text": "Finalize",
+          "name": "FinalizeBTN"
+        }
+      ],
+      "background": ""
+    }
+  },
+  "attempts": 0
+}
