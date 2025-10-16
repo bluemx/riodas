@@ -1,1 +1,1046 @@
-{"title":"Exercise B. Listening Comprehension Exercise.","clock":true,"countdown":0,"attempts":0,"intro":{"buttons":{"start":"Start"},"content":[]},"activity":{"scenes":[{"block":"scene","name":"SC1","countdown":0,"instructions":{"open":true,"content":[{"block":"group","class":"flex gap-2 items-center","content":[{"block":"audio","class":"","file":"files/INS.mp3"},{"block":"text","class":"","text":"Listen to the audio, then fill in the blanks with the words below. "}]}]},"content":[{"marker":"📒","class":"bg-slate-100 rounded p-2 max-w-5xl mx-auto","content":[{"marker":"📒","class":"bg-sky-200 rounded p-2 max-w-5xl mx-auto rounded-lg","content":[{"marker":"","class":"flex gap-10 mx-20","content":[{"marker":"","class":"flex justify-center bg-cyan-900 p-2 mask mask-squircle","content":[{"file":"files/B1-2U6L3EA-IMG-01.jpg","class":"mask mask-squircle ","id":"6PsY","block":"image","name":"sWi1"}],"background":"","id":"Kc07","block":"group","name":"dOYR"},{"marker":"","class":"flex justify-center bg-cyan-900 p-2 mask mask-squircle","content":[{"file":"files/B1-2U6L3EA-IMG-02.jpg","class":"mask mask-squircle ","id":"6PsYGIei","block":"image","name":"S8Nm"}],"background":"","id":"k9fWnkXi","block":"group","name":"Fhfk"}],"background":"","id":"qyqa","block":"group","name":"3xks"},{"class":"bg-sky-900 rounded-lg  p-2 m-5","content":[{"class":" bg-white rounded-lg p-10","content":[{"file":"files/Listening.mp3","wave":true,"class":"","autoplay":false,"block":"audio","name":"Xi0C","id":""}],"background":"","block":"group","name":"02Tc","marker":"","id":""}],"background":"","block":"group","name":"ujxm","hidden":false,"marker":"","id":""},{"marker":"","class":"","content":[{"marker":"","class":" bg-slate-50 p-5 rounded-lg border-sky-900 border-4 p-1 my-5  max-w-4xl mx-auto grid grid-cols-4 gap-5","content":[{"marker":"","class":"text-center","content":[{"text":"Kahlo","class":"text-2xl","id":"Cg4YqNYf","block":"text","name":"9iuO"}],"background":"","id":"1ZS643og","block":"group","name":"C0tv"},{"marker":"","class":"text-center","content":[{"text":"museum","class":"text-2xl","id":"Cg4YqNYfpOMo","block":"text","name":"JgqM"}],"background":"","id":"v7cGcbhg","block":"group","name":"ozEi"},{"marker":"","class":"text-center","content":[{"text":"restaurant","class":"text-2xl","id":"Cg4YqNYfBiHO","block":"text","name":"V2CF"}],"background":"","id":"QcgNAEFe","block":"group","name":"1Ae3"},{"marker":"","class":"text-center","content":[{"text":"reschedule","class":"text-2xl","id":"Cg4YqNYfSWvD","block":"text","name":"DQ0H"}],"background":"","id":"RaNpzhuk","block":"group","name":"yam6"},{"marker":"","class":"text-center","content":[{"text":"buildings","class":"text-2xl","id":"Cg4YqNYfn20c","block":"text","name":"jsHr"}],"background":"","id":"t8aTak4G","block":"group","name":"YYdQ"},{"marker":"","class":"text-center","content":[{"text":"expired","class":"text-2xl","id":"Cg4YqNYfUt5e","block":"text","name":"GDea"}],"background":"","id":"kt4cUTsF","block":"group","name":"7FTF"},{"marker":"","class":"text-center","content":[{"text":"markets","class":"text-2xl","id":"Cg4YqNYfqbih","block":"text","name":"NHw7"}],"background":"","id":"wa03nCY3","block":"group","name":"W5Mh"},{"marker":"","class":"text-center","content":[{"text":"Mexico","class":"text-2xl","id":"Cg4YqNYf36ZA","block":"text","name":"vSov"}],"background":"","id":"qMJ031ve","block":"group","name":"xpHo"},{"marker":"","class":"text-center","content":[{"text":"tickets","class":"text-2xl","id":"Cg4YqNYf34lv","block":"text","name":"AAp3"}],"background":"","id":"UlJA8QOb","block":"group","name":"omN9"},{"marker":"","class":"text-center","content":[{"text":"Barcelona","class":"text-2xl","id":"Cg4YqNYfZhsF","block":"text","name":"SpU5"}],"background":"","id":"gJQJGLfl","block":"group","name":"gg1p"},{"marker":"","class":"text-center","content":[{"text":"wallet","class":"text-2xl","id":"Cg4YqNYfmlLx","block":"text","name":"QV4G"}],"background":"","id":"EVWvgiQF","block":"group","name":"eS8Q"}],"background":"","id":"av4JmVHw","block":"group","name":"cB1J"},{"marker":"","class":" bg-slate-50 p-5 rounded-lg border-sky-900 border-4 p-1 my-5  max-w-xl mx-auto","content":[{"marker":"","class":"text-center","content":[{"text":"SPEAKER ONE","class":"font-bold text-3xl","id":"Cg4YqNYf4Epv","block":"text","name":"bBvZ"}],"background":"","id":"1ZS643ogKtC5","block":"group","name":"ELaC"}],"background":"","id":"GmIUlrem","block":"group","name":"atOw"},{"marker":"","class":" bg-slate-50 p-5 rounded-lg border-sky-900 border-4 text-2xl p-1 my-1","content":[{"marker":"","class":"","content":[{"text":"1. They had planned to visit","class":"","id":"Cg4YHxCX","block":"text","name":"amKe"},{"marker":"","class":"inline-block mx-2 align-middle","content":[{"case":false,"evaluation":"auto","class":"text-center","positive":"Mexico","multiline":false,"placeholder":"-","showResult":false,"id":"R8ZAfSMw","block":"textarea","name":"MIqn","maxlength":15,"attempts":0}],"background":"","id":"69GiO25V","block":"group","name":"o57i"},{"text":"city. ","class":"","id":"SS09F4reQs3z","block":"text","name":"yUFL"}],"background":"","id":"1ZS63ODG","block":"group","name":"Z7FV"}],"background":"","id":"HTUhoqBy","block":"group","name":"Uo6a"},{"marker":"","class":" bg-slate-50 p-5 rounded-lg border-sky-900 border-4 text-2xl p-1 my-1","content":[{"marker":"","class":"","content":[{"text":"2. They had bought","class":"","id":"Cg4Yu8Uf","block":"text","name":"fhvW"},{"marker":"","class":"inline-block mx-2 align-middle","content":[{"case":false,"evaluation":"auto","class":"text-center","positive":"tickets","multiline":false,"placeholder":"-","showResult":false,"id":"SmDT","block":"textarea","name":"kako","maxlength":15,"attempts":0}],"background":"","id":"69GiKcUR","block":"group","name":"dGUG"},{"text":"to the","class":"","id":"SS09F4reihqp","block":"text","name":"BsuP"},{"marker":"","class":"inline-block mx-2 align-middle","content":[{"case":false,"evaluation":"auto","class":"text-center","positive":"museum","multiline":false,"placeholder":"-","showResult":false,"id":"SmDTuOLl","block":"textarea","name":"1MLb","maxlength":15,"attempts":0}],"background":"","id":"czRjBDT9","block":"group","name":"EENU"},{"text":".","class":"","id":"aPK9CyJO","block":"text","name":"d8pp"}],"background":"","id":"1ZS6wIvg","block":"group","name":"yIkE"}],"background":"","id":"aXuw7rIO","block":"group","name":"cCEM"},{"marker":"","class":" bg-slate-50 p-5 rounded-lg border-sky-900 border-4 text-2xl p-1 my-1","content":[{"marker":"","class":"","content":[{"text":"3. He was really looking forward to visit the","class":"","id":"Cg4YGbel","block":"text","name":"NGKy"},{"marker":"","class":"inline-block mx-2 align-middle","content":[{"case":false,"evaluation":"auto","class":"text-center","positive":"Kahlo","multiline":false,"placeholder":"-","showResult":false,"id":"OKyX","block":"textarea","name":"SDk6","maxlength":15,"attempts":0}],"background":"","id":"69GicQRd","block":"group","name":"pNqA"},{"text":"museum. ","class":"","id":"SS09F4re4SFt","block":"text","name":"Xadw"}],"background":"","id":"1ZS697Se","block":"group","name":"lq8J"}],"background":"","id":"aXuwCcGV","block":"group","name":"V3MZ"},{"marker":"","class":" bg-slate-50 p-5 rounded-lg border-sky-900 border-4 text-2xl p-1 my-1","content":[{"marker":"","class":"","content":[{"text":"4. They couldn't go on the planned trip because his passport had","class":"","id":"Cg4Yg4Q4","block":"text","name":"oQmH"},{"marker":"","class":"inline-block mx-2 align-middle","content":[{"case":false,"evaluation":"auto","class":"text-center","positive":"expired","multiline":false,"placeholder":"-","showResult":false,"id":"Xed2","block":"textarea","name":"TN9h","maxlength":15,"attempts":0}],"background":"","id":"69GicnoD","block":"group","name":"fOi3"},{"text":".","class":"","id":"SS09F4reT66D","block":"text","name":"hDJT"}],"background":"","id":"1ZS6lrFv","block":"group","name":"hx9h"}],"background":"","id":"aXuwqDpp","block":"group","name":"0gXv"},{"marker":"","class":" bg-slate-50 p-5 rounded-lg border-sky-900 border-4 text-2xl p-1 my-1","content":[{"marker":"","class":"","content":[{"text":"5. They were able to","class":"","id":"Cg4Y8jO9","block":"text","name":"stiu"},{"marker":"","class":"inline-block mx-2 align-middle","content":[{"case":false,"evaluation":"auto","class":"text-center","positive":"reschedule","multiline":false,"placeholder":"-","showResult":false,"id":"hOQD","block":"textarea","name":"DAmU","maxlength":15,"attempts":0}],"background":"","id":"69GicPsD","block":"group","name":"LRNl"},{"text":"some of their entries. ","class":"","id":"SS09F4re0gNu","block":"text","name":"F4at"}],"background":"","id":"1ZS62xrm","block":"group","name":"sbkR"}],"background":"","id":"aXuwGx1b","block":"group","name":"hDjw"},{"marker":"","class":" bg-slate-50 p-5 rounded-lg border-sky-900 border-4 p-1 my-5  max-w-xl mx-auto","content":[{"marker":"","class":"text-center","content":[{"text":"SPEAKER TWO","class":"font-bold text-3xl","id":"Cg4Y","block":"text","name":"YZLm"}],"background":"","id":"1ZS6","block":"group","name":"2CIC"}],"background":"","id":"aXuw","block":"group","name":"xGYA"},{"marker":"","class":" bg-slate-50 p-5 rounded-lg border-sky-900 border-4 text-2xl p-1 my-1","content":[{"marker":"","class":"","content":[{"text":"1. They took a trip to","class":"","id":"Cg4Y8jO9gYg820gu","block":"text","name":"DQDZ"},{"marker":"","class":"inline-block mx-2 align-middle","content":[{"case":false,"evaluation":"auto","class":"text-center","positive":"Barcelona","multiline":false,"placeholder":"-","showResult":false,"id":"hOQDb0u2SLRe","block":"textarea","name":"hev7","maxlength":15,"attempts":0}],"background":"","id":"69GicPsDBMwp3dWM","block":"group","name":"MSLn"},{"text":"city.","class":"","id":"SS09F4re0gNun08pyktn","block":"text","name":"Ebsp"}],"background":"","id":"1ZS62xrmUQ3dHbOu","block":"group","name":"jgUk"}],"background":"","id":"aXuwGx1biwhxoOjg","block":"group","name":"KlQ1"},{"marker":"","class":" bg-slate-50 p-5 rounded-lg border-sky-900 border-4 text-2xl p-1 my-1","content":[{"marker":"","class":"","content":[{"text":"2. They visited Gaudi's","class":"","id":"Cg4Y8jO9gYg820gunKNg","block":"text","name":"6UGN"},{"marker":"","class":"inline-block mx-2 align-middle","content":[{"case":false,"evaluation":"auto","class":"text-center","positive":"buildings","multiline":false,"placeholder":"-","showResult":false,"id":"hOQDb0u2SLReVOaC","block":"textarea","name":"xIH6","maxlength":15,"attempts":0}],"background":"","id":"69GicPsDBMwp3dWMLiBM","block":"group","name":"iOjE"},{"text":"and the food","class":"","id":"SS09F4re0gNun08pyktn6q6m","block":"text","name":"C9Zs"},{"marker":"","class":"inline-block mx-2 align-middle","content":[{"case":false,"evaluation":"auto","class":"text-center","positive":"markets","multiline":false,"placeholder":"-","showResult":false,"id":"hOQDb0u2SLReVOaC48NB","block":"textarea","name":"Khjs","maxlength":15,"attempts":0}],"background":"","id":"UwTGdq00","block":"group","name":"SonY"},{"text":".","class":"","id":"52O3XboO","block":"text","name":"CYBl"}],"background":"","id":"1ZS62xrmUQ3dHbOub29H","block":"group","name":"4Qdq"}],"background":"","id":"j9a6BAmh","block":"group","name":"CGll"},{"marker":"","class":" bg-slate-50 p-5 rounded-lg border-sky-900 border-4 text-2xl p-1 my-1","content":[{"marker":"","class":"","content":[{"text":"3. On the last they they went to a","class":"","id":"Cg4Y8jO9gYg820gu6FNx","block":"text","name":"YeZq"},{"marker":"","class":"inline-block mx-2 align-middle","content":[{"case":false,"evaluation":"auto","class":"text-center","positive":"restaurant","multiline":false,"placeholder":"-","showResult":false,"id":"hOQDb0u2SLReYsFm","block":"textarea","name":"kpIy","maxlength":15,"attempts":0}],"background":"","id":"69GicPsDBMwp3dWMBFcm","block":"group","name":"4twc"},{"text":".","class":"","id":"SS09F4re0gNun08pyktn1wF8","block":"text","name":"WvT0"}],"background":"","id":"1ZS62xrmUQ3dHbOueJkt","block":"group","name":"l4yI"}],"background":"","id":"KQ7kPScF","block":"group","name":"dl7J"},{"marker":"","class":" bg-slate-50 p-5 rounded-lg border-sky-900 border-4 text-2xl p-1 my-1","content":[{"marker":"","class":"","content":[{"text":"4. Her husband had forgotten his","class":"","id":"Cg4Y8jO9gYg820gu6FNxihlM","block":"text","name":"AOxc"},{"marker":"","class":"inline-block mx-2 align-middle","content":[{"case":false,"evaluation":"auto","class":"text-center","positive":"wallet","multiline":false,"placeholder":"-","showResult":false,"id":"hOQDb0u2SLReYsFmsTZ5","block":"textarea","name":"oP6P","maxlength":15,"attempts":0}],"background":"","id":"69GicPsDBMwp3dWMBFcmsS1g","block":"group","name":"B2h8"},{"text":".","class":"","id":"SS09F4re0gNun08pyktn1wF8pBVt","block":"text","name":"3Eof"}],"background":"","id":"1ZS62xrmUQ3dHbOueJktMSAQ","block":"group","name":"nFqv"}],"background":"","id":"0L55EW6V","block":"group","name":"XruA"}],"background":"","id":"zRU7","block":"group","name":"HimP","hidden":false}],"background":"","id":"gpo1","block":"group","name":"4Err"}],"background":"","id":"gpo1","block":"group","name":"gpo1"},{"symbol":"FinalizeGroup"}]}]},"end":{"buttons":{"restart":false},"content":[{"symbol":"finishedAll"}]},"symbols":{"finishedAll":{"class":"w-full","content":[{"block":"group","class":"bg-slate-100 rounded p-5 text-center w-full","content":[{"block":"text","text":"Congratulations, you finished the activity.","class":"","name":"Congra"}],"background":"","name":"CongraGroup"},{"block":"group","class":"text-center p-5","content":[{"block":"finished","name":"finishedBlock"}],"background":"","name":"finishedGroup"}],"background":"","block":"group"},"FinalizeGroup":{"block":"group","class":"text-center mt-10","content":[{"block":"button","class":"mx-auto","to":"/end","text":"Finalize","name":"FinalizeBTN"}],"background":""}}}
+{
+  "title": "Exercise B. Listening Comprehension Exercise.",
+  "clock": true,
+  "countdown": 0,
+  "attempts": 0,
+  "intro": {
+    "buttons": {
+      "start": "Start"
+    },
+    "content": []
+  },
+  "activity": {
+    "scenes": [
+      {
+        "block": "scene",
+        "name": "SC1",
+        "countdown": 0,
+        "instructions": {
+          "open": true,
+          "content": [
+            {
+              "block": "group",
+              "class": "flex gap-2 items-center",
+              "content": [
+                {
+                  "block": "audio",
+                  "class": "",
+                  "file": "files/INS.mp3"
+                },
+                {
+                  "block": "text",
+                  "class": "",
+                  "text": "Listen to the audio, then fill in the blanks with the words below. "
+                }
+              ]
+            }
+          ]
+        },
+        "content": [
+          {
+            "marker": "📒",
+            "class": "bg-slate-100 rounded p-2 max-w-5xl mx-auto",
+            "content": [
+              {
+                "marker": "📒",
+                "class": "bg-sky-200 rounded p-2 max-w-5xl mx-auto rounded-lg",
+                "content": [
+                  {
+                    "marker": "",
+                    "class": "flex gap-10 mx-20",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "flex justify-center bg-cyan-900 p-2 mask mask-squircle",
+                        "content": [
+                          {
+                            "file": "files/B1-2U6L3EA-IMG-01.jpg",
+                            "class": "mask mask-squircle ",
+                            "id": "6PsY",
+                            "block": "image",
+                            "name": "sWi1"
+                          }
+                        ],
+                        "background": "",
+                        "id": "Kc07",
+                        "block": "group",
+                        "name": "dOYR"
+                      },
+                      {
+                        "marker": "",
+                        "class": "flex justify-center bg-cyan-900 p-2 mask mask-squircle",
+                        "content": [
+                          {
+                            "file": "files/B1-2U6L3EA-IMG-02.jpg",
+                            "class": "mask mask-squircle ",
+                            "id": "6PsYGIei",
+                            "block": "image",
+                            "name": "S8Nm"
+                          }
+                        ],
+                        "background": "",
+                        "id": "k9fWnkXi",
+                        "block": "group",
+                        "name": "Fhfk"
+                      }
+                    ],
+                    "background": "",
+                    "id": "qyqa",
+                    "block": "group",
+                    "name": "3xks"
+                  },
+                  {
+                    "class": "bg-sky-900 rounded-lg  p-2 m-5",
+                    "content": [
+                      {
+                        "class": " bg-white rounded-lg p-10",
+                        "content": [
+                          {
+                            "file": "files/Listening.mp3",
+                            "wave": true,
+                            "class": "",
+                            "autoplay": false,
+                            "block": "audio",
+                            "name": "Xi0C",
+                            "id": ""
+                          }
+                        ],
+                        "background": "",
+                        "block": "group",
+                        "name": "02Tc",
+                        "marker": "",
+                        "id": ""
+                      }
+                    ],
+                    "background": "",
+                    "block": "group",
+                    "name": "ujxm",
+                    "hidden": false,
+                    "marker": "",
+                    "id": ""
+                  },
+                  {
+                    "marker": "",
+                    "class": "",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": " bg-slate-50 p-5 rounded-lg border-sky-900 border-4 p-1 my-5  max-w-4xl mx-auto grid grid-cols-4 gap-5",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": "text-center",
+                            "content": [
+                              {
+                                "text": "Kahlo",
+                                "class": "text-2xl",
+                                "id": "Cg4YqNYf",
+                                "block": "text",
+                                "name": "9iuO"
+                              }
+                            ],
+                            "background": "",
+                            "id": "1ZS643og",
+                            "block": "group",
+                            "name": "C0tv"
+                          },
+                          {
+                            "marker": "",
+                            "class": "text-center",
+                            "content": [
+                              {
+                                "text": "museum",
+                                "class": "text-2xl",
+                                "id": "Cg4YqNYfpOMo",
+                                "block": "text",
+                                "name": "JgqM"
+                              }
+                            ],
+                            "background": "",
+                            "id": "v7cGcbhg",
+                            "block": "group",
+                            "name": "ozEi"
+                          },
+                          {
+                            "marker": "",
+                            "class": "text-center",
+                            "content": [
+                              {
+                                "text": "restaurant",
+                                "class": "text-2xl",
+                                "id": "Cg4YqNYfBiHO",
+                                "block": "text",
+                                "name": "V2CF"
+                              }
+                            ],
+                            "background": "",
+                            "id": "QcgNAEFe",
+                            "block": "group",
+                            "name": "1Ae3"
+                          },
+                          {
+                            "marker": "",
+                            "class": "text-center",
+                            "content": [
+                              {
+                                "text": "reschedule",
+                                "class": "text-2xl",
+                                "id": "Cg4YqNYfSWvD",
+                                "block": "text",
+                                "name": "DQ0H"
+                              }
+                            ],
+                            "background": "",
+                            "id": "RaNpzhuk",
+                            "block": "group",
+                            "name": "yam6"
+                          },
+                          {
+                            "marker": "",
+                            "class": "text-center",
+                            "content": [
+                              {
+                                "text": "buildings",
+                                "class": "text-2xl",
+                                "id": "Cg4YqNYfn20c",
+                                "block": "text",
+                                "name": "jsHr"
+                              }
+                            ],
+                            "background": "",
+                            "id": "t8aTak4G",
+                            "block": "group",
+                            "name": "YYdQ"
+                          },
+                          {
+                            "marker": "",
+                            "class": "text-center",
+                            "content": [
+                              {
+                                "text": "expired",
+                                "class": "text-2xl",
+                                "id": "Cg4YqNYfUt5e",
+                                "block": "text",
+                                "name": "GDea"
+                              }
+                            ],
+                            "background": "",
+                            "id": "kt4cUTsF",
+                            "block": "group",
+                            "name": "7FTF"
+                          },
+                          {
+                            "marker": "",
+                            "class": "text-center",
+                            "content": [
+                              {
+                                "text": "markets",
+                                "class": "text-2xl",
+                                "id": "Cg4YqNYfqbih",
+                                "block": "text",
+                                "name": "NHw7"
+                              }
+                            ],
+                            "background": "",
+                            "id": "wa03nCY3",
+                            "block": "group",
+                            "name": "W5Mh"
+                          },
+                          {
+                            "marker": "",
+                            "class": "text-center",
+                            "content": [
+                              {
+                                "text": "Mexico",
+                                "class": "text-2xl",
+                                "id": "Cg4YqNYf36ZA",
+                                "block": "text",
+                                "name": "vSov"
+                              }
+                            ],
+                            "background": "",
+                            "id": "qMJ031ve",
+                            "block": "group",
+                            "name": "xpHo"
+                          },
+                          {
+                            "marker": "",
+                            "class": "text-center",
+                            "content": [
+                              {
+                                "text": "tickets",
+                                "class": "text-2xl",
+                                "id": "Cg4YqNYf34lv",
+                                "block": "text",
+                                "name": "AAp3"
+                              }
+                            ],
+                            "background": "",
+                            "id": "UlJA8QOb",
+                            "block": "group",
+                            "name": "omN9"
+                          },
+                          {
+                            "marker": "",
+                            "class": "text-center",
+                            "content": [
+                              {
+                                "text": "Barcelona",
+                                "class": "text-2xl",
+                                "id": "Cg4YqNYfZhsF",
+                                "block": "text",
+                                "name": "SpU5"
+                              }
+                            ],
+                            "background": "",
+                            "id": "gJQJGLfl",
+                            "block": "group",
+                            "name": "gg1p"
+                          },
+                          {
+                            "marker": "",
+                            "class": "text-center",
+                            "content": [
+                              {
+                                "text": "wallet",
+                                "class": "text-2xl",
+                                "id": "Cg4YqNYfmlLx",
+                                "block": "text",
+                                "name": "QV4G"
+                              }
+                            ],
+                            "background": "",
+                            "id": "EVWvgiQF",
+                            "block": "group",
+                            "name": "eS8Q"
+                          }
+                        ],
+                        "background": "",
+                        "id": "av4JmVHw",
+                        "block": "group",
+                        "name": "cB1J"
+                      },
+                      {
+                        "marker": "",
+                        "class": " bg-slate-50 p-5 rounded-lg border-sky-900 border-4 p-1 my-5  max-w-xl mx-auto",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": "text-center",
+                            "content": [
+                              {
+                                "text": "SPEAKER ONE",
+                                "class": "font-bold text-3xl",
+                                "id": "Cg4YqNYf4Epv",
+                                "block": "text",
+                                "name": "bBvZ"
+                              }
+                            ],
+                            "background": "",
+                            "id": "1ZS643ogKtC5",
+                            "block": "group",
+                            "name": "ELaC"
+                          }
+                        ],
+                        "background": "",
+                        "id": "GmIUlrem",
+                        "block": "group",
+                        "name": "atOw"
+                      },
+                      {
+                        "marker": "",
+                        "class": " bg-slate-50 p-5 rounded-lg border-sky-900 border-4 text-2xl p-1 my-1",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": "",
+                            "content": [
+                              {
+                                "text": "1. They had planned to visit",
+                                "class": "",
+                                "id": "Cg4YHxCX",
+                                "block": "text",
+                                "name": "amKe"
+                              },
+                              {
+                                "marker": "",
+                                "class": "inline-block mx-2 align-middle",
+                                "content": [
+                                  {
+                                    "case": false,
+                                    "evaluation": "auto",
+                                    "class": "text-center",
+                                    "positive": "Mexico",
+                                    "multiline": false,
+                                    "placeholder": "-",
+                                    "showResult": false,
+                                    "id": "R8ZAfSMw",
+                                    "block": "textarea",
+                                    "name": "MIqn",
+                                    "maxlength": 15,
+                                    "attempts": 0
+                                  }
+                                ],
+                                "background": "",
+                                "id": "69GiO25V",
+                                "block": "group",
+                                "name": "o57i"
+                              },
+                              {
+                                "text": "city. ",
+                                "class": "",
+                                "id": "SS09F4reQs3z",
+                                "block": "text",
+                                "name": "yUFL"
+                              }
+                            ],
+                            "background": "",
+                            "id": "1ZS63ODG",
+                            "block": "group",
+                            "name": "Z7FV"
+                          }
+                        ],
+                        "background": "",
+                        "id": "HTUhoqBy",
+                        "block": "group",
+                        "name": "Uo6a"
+                      },
+                      {
+                        "marker": "",
+                        "class": " bg-slate-50 p-5 rounded-lg border-sky-900 border-4 text-2xl p-1 my-1",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": "",
+                            "content": [
+                              {
+                                "text": "2. They had bought",
+                                "class": "",
+                                "id": "Cg4Yu8Uf",
+                                "block": "text",
+                                "name": "fhvW"
+                              },
+                              {
+                                "marker": "",
+                                "class": "inline-block mx-2 align-middle",
+                                "content": [
+                                  {
+                                    "case": false,
+                                    "evaluation": "auto",
+                                    "class": "text-center",
+                                    "positive": "tickets",
+                                    "multiline": false,
+                                    "placeholder": "-",
+                                    "showResult": false,
+                                    "id": "SmDT",
+                                    "block": "textarea",
+                                    "name": "kako",
+                                    "maxlength": 15,
+                                    "attempts": 0
+                                  }
+                                ],
+                                "background": "",
+                                "id": "69GiKcUR",
+                                "block": "group",
+                                "name": "dGUG"
+                              },
+                              {
+                                "text": "to the",
+                                "class": "",
+                                "id": "SS09F4reihqp",
+                                "block": "text",
+                                "name": "BsuP"
+                              },
+                              {
+                                "marker": "",
+                                "class": "inline-block mx-2 align-middle",
+                                "content": [
+                                  {
+                                    "case": false,
+                                    "evaluation": "auto",
+                                    "class": "text-center",
+                                    "positive": "museum",
+                                    "multiline": false,
+                                    "placeholder": "-",
+                                    "showResult": false,
+                                    "id": "SmDTuOLl",
+                                    "block": "textarea",
+                                    "name": "1MLb",
+                                    "maxlength": 15,
+                                    "attempts": 0
+                                  }
+                                ],
+                                "background": "",
+                                "id": "czRjBDT9",
+                                "block": "group",
+                                "name": "EENU"
+                              },
+                              {
+                                "text": ".",
+                                "class": "",
+                                "id": "aPK9CyJO",
+                                "block": "text",
+                                "name": "d8pp"
+                              }
+                            ],
+                            "background": "",
+                            "id": "1ZS6wIvg",
+                            "block": "group",
+                            "name": "yIkE"
+                          }
+                        ],
+                        "background": "",
+                        "id": "aXuw7rIO",
+                        "block": "group",
+                        "name": "cCEM"
+                      },
+                      {
+                        "marker": "",
+                        "class": " bg-slate-50 p-5 rounded-lg border-sky-900 border-4 text-2xl p-1 my-1",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": "",
+                            "content": [
+                              {
+                                "text": "3. He was really looking forward to visit the",
+                                "class": "",
+                                "id": "Cg4YGbel",
+                                "block": "text",
+                                "name": "NGKy"
+                              },
+                              {
+                                "marker": "",
+                                "class": "inline-block mx-2 align-middle",
+                                "content": [
+                                  {
+                                    "case": false,
+                                    "evaluation": "auto",
+                                    "class": "text-center",
+                                    "positive": "Kahlo",
+                                    "multiline": false,
+                                    "placeholder": "-",
+                                    "showResult": false,
+                                    "id": "OKyX",
+                                    "block": "textarea",
+                                    "name": "SDk6",
+                                    "maxlength": 15,
+                                    "attempts": 0
+                                  }
+                                ],
+                                "background": "",
+                                "id": "69GicQRd",
+                                "block": "group",
+                                "name": "pNqA"
+                              },
+                              {
+                                "text": "museum. ",
+                                "class": "",
+                                "id": "SS09F4re4SFt",
+                                "block": "text",
+                                "name": "Xadw"
+                              }
+                            ],
+                            "background": "",
+                            "id": "1ZS697Se",
+                            "block": "group",
+                            "name": "lq8J"
+                          }
+                        ],
+                        "background": "",
+                        "id": "aXuwCcGV",
+                        "block": "group",
+                        "name": "V3MZ"
+                      },
+                      {
+                        "marker": "",
+                        "class": " bg-slate-50 p-5 rounded-lg border-sky-900 border-4 text-2xl p-1 my-1",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": "",
+                            "content": [
+                              {
+                                "text": "4. They couldn't go on the planned trip because his passport had",
+                                "class": "",
+                                "id": "Cg4Yg4Q4",
+                                "block": "text",
+                                "name": "oQmH"
+                              },
+                              {
+                                "marker": "",
+                                "class": "inline-block mx-2 align-middle",
+                                "content": [
+                                  {
+                                    "case": false,
+                                    "evaluation": "auto",
+                                    "class": "text-center",
+                                    "positive": "expired",
+                                    "multiline": false,
+                                    "placeholder": "-",
+                                    "showResult": false,
+                                    "id": "Xed2",
+                                    "block": "textarea",
+                                    "name": "TN9h",
+                                    "maxlength": 15,
+                                    "attempts": 0
+                                  }
+                                ],
+                                "background": "",
+                                "id": "69GicnoD",
+                                "block": "group",
+                                "name": "fOi3"
+                              },
+                              {
+                                "text": ".",
+                                "class": "",
+                                "id": "SS09F4reT66D",
+                                "block": "text",
+                                "name": "hDJT"
+                              }
+                            ],
+                            "background": "",
+                            "id": "1ZS6lrFv",
+                            "block": "group",
+                            "name": "hx9h"
+                          }
+                        ],
+                        "background": "",
+                        "id": "aXuwqDpp",
+                        "block": "group",
+                        "name": "0gXv"
+                      },
+                      {
+                        "marker": "",
+                        "class": " bg-slate-50 p-5 rounded-lg border-sky-900 border-4 text-2xl p-1 my-1",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": "",
+                            "content": [
+                              {
+                                "text": "5. They were able to",
+                                "class": "",
+                                "id": "Cg4Y8jO9",
+                                "block": "text",
+                                "name": "stiu"
+                              },
+                              {
+                                "marker": "",
+                                "class": "inline-block mx-2 align-middle",
+                                "content": [
+                                  {
+                                    "case": false,
+                                    "evaluation": "auto",
+                                    "class": "text-center",
+                                    "positive": "reschedule",
+                                    "multiline": false,
+                                    "placeholder": "-",
+                                    "showResult": false,
+                                    "id": "hOQD",
+                                    "block": "textarea",
+                                    "name": "DAmU",
+                                    "maxlength": 15,
+                                    "attempts": 0
+                                  }
+                                ],
+                                "background": "",
+                                "id": "69GicPsD",
+                                "block": "group",
+                                "name": "LRNl"
+                              },
+                              {
+                                "text": "some of their entries. ",
+                                "class": "",
+                                "id": "SS09F4re0gNu",
+                                "block": "text",
+                                "name": "F4at"
+                              }
+                            ],
+                            "background": "",
+                            "id": "1ZS62xrm",
+                            "block": "group",
+                            "name": "sbkR"
+                          }
+                        ],
+                        "background": "",
+                        "id": "aXuwGx1b",
+                        "block": "group",
+                        "name": "hDjw"
+                      },
+                      {
+                        "marker": "",
+                        "class": " bg-slate-50 p-5 rounded-lg border-sky-900 border-4 p-1 my-5  max-w-xl mx-auto",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": "text-center",
+                            "content": [
+                              {
+                                "text": "SPEAKER TWO",
+                                "class": "font-bold text-3xl",
+                                "id": "Cg4Y",
+                                "block": "text",
+                                "name": "YZLm"
+                              }
+                            ],
+                            "background": "",
+                            "id": "1ZS6",
+                            "block": "group",
+                            "name": "2CIC"
+                          }
+                        ],
+                        "background": "",
+                        "id": "aXuw",
+                        "block": "group",
+                        "name": "xGYA"
+                      },
+                      {
+                        "marker": "",
+                        "class": " bg-slate-50 p-5 rounded-lg border-sky-900 border-4 text-2xl p-1 my-1",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": "",
+                            "content": [
+                              {
+                                "text": "1. They took a trip to",
+                                "class": "",
+                                "id": "Cg4Y8jO9gYg820gu",
+                                "block": "text",
+                                "name": "DQDZ"
+                              },
+                              {
+                                "marker": "",
+                                "class": "inline-block mx-2 align-middle",
+                                "content": [
+                                  {
+                                    "case": false,
+                                    "evaluation": "auto",
+                                    "class": "text-center",
+                                    "positive": "Barcelona",
+                                    "multiline": false,
+                                    "placeholder": "-",
+                                    "showResult": false,
+                                    "id": "hOQDb0u2SLRe",
+                                    "block": "textarea",
+                                    "name": "hev7",
+                                    "maxlength": 15,
+                                    "attempts": 0
+                                  }
+                                ],
+                                "background": "",
+                                "id": "69GicPsDBMwp3dWM",
+                                "block": "group",
+                                "name": "MSLn"
+                              },
+                              {
+                                "text": "city.",
+                                "class": "",
+                                "id": "SS09F4re0gNun08pyktn",
+                                "block": "text",
+                                "name": "Ebsp"
+                              }
+                            ],
+                            "background": "",
+                            "id": "1ZS62xrmUQ3dHbOu",
+                            "block": "group",
+                            "name": "jgUk"
+                          }
+                        ],
+                        "background": "",
+                        "id": "aXuwGx1biwhxoOjg",
+                        "block": "group",
+                        "name": "KlQ1"
+                      },
+                      {
+                        "marker": "",
+                        "class": " bg-slate-50 p-5 rounded-lg border-sky-900 border-4 text-2xl p-1 my-1",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": "",
+                            "content": [
+                              {
+                                "text": "2. They visited Gaudi's",
+                                "class": "",
+                                "id": "Cg4Y8jO9gYg820gunKNg",
+                                "block": "text",
+                                "name": "6UGN"
+                              },
+                              {
+                                "marker": "",
+                                "class": "inline-block mx-2 align-middle",
+                                "content": [
+                                  {
+                                    "case": false,
+                                    "evaluation": "auto",
+                                    "class": "text-center",
+                                    "positive": "buildings",
+                                    "multiline": false,
+                                    "placeholder": "-",
+                                    "showResult": false,
+                                    "id": "hOQDb0u2SLReVOaC",
+                                    "block": "textarea",
+                                    "name": "xIH6",
+                                    "maxlength": 15,
+                                    "attempts": 0
+                                  }
+                                ],
+                                "background": "",
+                                "id": "69GicPsDBMwp3dWMLiBM",
+                                "block": "group",
+                                "name": "iOjE"
+                              },
+                              {
+                                "text": "and the food",
+                                "class": "",
+                                "id": "SS09F4re0gNun08pyktn6q6m",
+                                "block": "text",
+                                "name": "C9Zs"
+                              },
+                              {
+                                "marker": "",
+                                "class": "inline-block mx-2 align-middle",
+                                "content": [
+                                  {
+                                    "case": false,
+                                    "evaluation": "auto",
+                                    "class": "text-center",
+                                    "positive": "markets",
+                                    "multiline": false,
+                                    "placeholder": "-",
+                                    "showResult": false,
+                                    "id": "hOQDb0u2SLReVOaC48NB",
+                                    "block": "textarea",
+                                    "name": "Khjs",
+                                    "maxlength": 15,
+                                    "attempts": 0
+                                  }
+                                ],
+                                "background": "",
+                                "id": "UwTGdq00",
+                                "block": "group",
+                                "name": "SonY"
+                              },
+                              {
+                                "text": ".",
+                                "class": "",
+                                "id": "52O3XboO",
+                                "block": "text",
+                                "name": "CYBl"
+                              }
+                            ],
+                            "background": "",
+                            "id": "1ZS62xrmUQ3dHbOub29H",
+                            "block": "group",
+                            "name": "4Qdq"
+                          }
+                        ],
+                        "background": "",
+                        "id": "j9a6BAmh",
+                        "block": "group",
+                        "name": "CGll"
+                      },
+                      {
+                        "marker": "",
+                        "class": " bg-slate-50 p-5 rounded-lg border-sky-900 border-4 text-2xl p-1 my-1",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": "",
+                            "content": [
+                              {
+                                "text": "3. On the last day they went to a",
+                                "class": "",
+                                "id": "Cg4Y8jO9gYg820gu6FNx",
+                                "block": "text",
+                                "name": "YeZq"
+                              },
+                              {
+                                "marker": "",
+                                "class": "inline-block mx-2 align-middle",
+                                "content": [
+                                  {
+                                    "case": false,
+                                    "evaluation": "auto",
+                                    "class": "text-center",
+                                    "positive": "restaurant",
+                                    "multiline": false,
+                                    "placeholder": "-",
+                                    "showResult": false,
+                                    "id": "hOQDb0u2SLReYsFm",
+                                    "block": "textarea",
+                                    "name": "kpIy",
+                                    "maxlength": 15,
+                                    "attempts": 0
+                                  }
+                                ],
+                                "background": "",
+                                "id": "69GicPsDBMwp3dWMBFcm",
+                                "block": "group",
+                                "name": "4twc"
+                              },
+                              {
+                                "text": ".",
+                                "class": "",
+                                "id": "SS09F4re0gNun08pyktn1wF8",
+                                "block": "text",
+                                "name": "WvT0"
+                              }
+                            ],
+                            "background": "",
+                            "id": "1ZS62xrmUQ3dHbOueJkt",
+                            "block": "group",
+                            "name": "l4yI"
+                          }
+                        ],
+                        "background": "",
+                        "id": "KQ7kPScF",
+                        "block": "group",
+                        "name": "dl7J"
+                      },
+                      {
+                        "marker": "",
+                        "class": " bg-slate-50 p-5 rounded-lg border-sky-900 border-4 text-2xl p-1 my-1",
+                        "content": [
+                          {
+                            "marker": "",
+                            "class": "",
+                            "content": [
+                              {
+                                "text": "4. Her husband had forgotten his",
+                                "class": "",
+                                "id": "Cg4Y8jO9gYg820gu6FNxihlM",
+                                "block": "text",
+                                "name": "AOxc"
+                              },
+                              {
+                                "marker": "",
+                                "class": "inline-block mx-2 align-middle",
+                                "content": [
+                                  {
+                                    "case": false,
+                                    "evaluation": "auto",
+                                    "class": "text-center",
+                                    "positive": "wallet",
+                                    "multiline": false,
+                                    "placeholder": "-",
+                                    "showResult": false,
+                                    "id": "hOQDb0u2SLReYsFmsTZ5",
+                                    "block": "textarea",
+                                    "name": "oP6P",
+                                    "maxlength": 15,
+                                    "attempts": 0
+                                  }
+                                ],
+                                "background": "",
+                                "id": "69GicPsDBMwp3dWMBFcmsS1g",
+                                "block": "group",
+                                "name": "B2h8"
+                              },
+                              {
+                                "text": ".",
+                                "class": "",
+                                "id": "SS09F4re0gNun08pyktn1wF8pBVt",
+                                "block": "text",
+                                "name": "3Eof"
+                              }
+                            ],
+                            "background": "",
+                            "id": "1ZS62xrmUQ3dHbOueJktMSAQ",
+                            "block": "group",
+                            "name": "nFqv"
+                          }
+                        ],
+                        "background": "",
+                        "id": "0L55EW6V",
+                        "block": "group",
+                        "name": "XruA"
+                      }
+                    ],
+                    "background": "",
+                    "id": "zRU7",
+                    "block": "group",
+                    "name": "HimP",
+                    "hidden": false
+                  }
+                ],
+                "background": "",
+                "id": "gpo1",
+                "block": "group",
+                "name": "4Err"
+              }
+            ],
+            "background": "",
+            "id": "gpo1",
+            "block": "group",
+            "name": "gpo1"
+          },
+          {
+            "symbol": "FinalizeGroup"
+          }
+        ]
+      }
+    ]
+  },
+  "end": {
+    "buttons": {
+      "restart": false
+    },
+    "content": [
+      {
+        "symbol": "finishedAll"
+      }
+    ]
+  },
+  "symbols": {
+    "finishedAll": {
+      "class": "w-full",
+      "content": [
+        {
+          "block": "group",
+          "class": "bg-slate-100 rounded p-5 text-center w-full",
+          "content": [
+            {
+              "block": "text",
+              "text": "Congratulations, you finished the activity.",
+              "class": "",
+              "name": "Congra"
+            }
+          ],
+          "background": "",
+          "name": "CongraGroup"
+        },
+        {
+          "block": "group",
+          "class": "text-center p-5",
+          "content": [
+            {
+              "block": "finished",
+              "name": "finishedBlock"
+            }
+          ],
+          "background": "",
+          "name": "finishedGroup"
+        }
+      ],
+      "background": "",
+      "block": "group"
+    },
+    "FinalizeGroup": {
+      "block": "group",
+      "class": "text-center mt-10",
+      "content": [
+        {
+          "block": "button",
+          "class": "mx-auto",
+          "to": "/end",
+          "text": "Finalize",
+          "name": "FinalizeBTN"
+        }
+      ],
+      "background": ""
+    }
+  }
+}
