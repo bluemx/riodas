@@ -1,1 +1,565 @@
-{"title":"Recconecting with the Past.","clock":true,"countdown":0,"attempts":0,"intro":{"buttons":{"start":"Start"},"content":[]},"activity":{"scenes":[{"block":"scene","name":"SC1","countdown":0,"instructions":{"open":true,"content":[{"block":"group","class":"flex gap-2 items-center","content":[{"block":"audio","class":"","file":"files/INS.mp3"},{"block":"text","class":"","text":"Select the correct answer for each question according to the conversation between Liam and Charlotte."}]}]},"content":[{"marker":"📒","class":"bg-slate-100 rounded p-2 max-w-5xl  mx-auto","content":[{"marker":"","class":"mask mask-squircle p-2 bg-sky-900 flex justify-center my-10","content":[{"file":"files/B2-1U5L3EA-IMG-01.jpg","class":"w-3/4 mask mask-squircle","id":"HpU3","block":"image","name":"8GAH"}],"background":"","id":"GLiU","block":"group","name":"iSVy"},{"marker":"","class":"","content":[{"marker":"","class":" bg-slate-50 p-5 rounded-lg border-sky-900 border-4 text-2xl p-1 my-1","content":[{"marker":"","class":"","content":[{"text":"1. Why has Liam returned to the neighborhood? ","class":"","id":"Cg4Y","block":"text","name":"erZW"},{"marker":"","class":"my-5","content":[{"class":"","options":[{"text":"To reconnect with his old friend Charlotte.","class":"","id":"4Dt2","block":"text","name":"iaTH"},{"text":"To see the changes in the streets.","class":"","id":"DcJE0lrV","block":"text","name":"ngCu"},{"text":"To visit a new community center.","class":"","id":"RBvmJLUu","block":"text","name":"cgwh"}],"evaluation":"auto","showResult":false,"dropdown":false,"dropdownpos":"top","id":"ma7u","block":"option","name":"nEcN"}],"background":"","id":"69Gi","block":"group","name":"EoVt"}],"background":"","id":"1ZS6","block":"group","name":"Ezaz"}],"background":"","id":"aXuw","block":"group","name":"nnMB"},{"marker":"","class":" bg-slate-50 p-5 rounded-lg border-sky-900 border-4 text-2xl p-1 my-1","content":[{"marker":"","class":"","content":[{"text":"2. What does Charlotte mean by saying “it’s my comfort zone”?","class":"","id":"Cg4Yu8Uf","block":"text","name":"HZRS"},{"marker":"","class":"my-5","content":[{"class":"","options":[{"text":"She’s used to the way things are now.","class":"","id":"z18C","block":"text","name":"E25v"},{"text":"She’s excited about the changes.","class":"","id":"GenhVvyC","block":"text","name":"rqDV"},{"text":"She’s open to exploring different areas.","class":"","id":"VgellDjK","block":"text","name":"Xgkn"}],"evaluation":"auto","showResult":false,"dropdown":false,"dropdownpos":"top","id":"GKre","block":"option","name":"H7Jv"}],"background":"","id":"69GiKcUR","block":"group","name":"LPuj"}],"background":"","id":"1ZS6wIvg","block":"group","name":"gPNp"}],"background":"","id":"aXuw7rIO","block":"group","name":"W8NS"},{"marker":"","class":" bg-slate-50 p-5 rounded-lg border-sky-900 border-4 text-2xl p-1 my-1","content":[{"marker":"","class":"","content":[{"text":"3. What was Liam surprised to see still standing in the neighborhood?","class":"","id":"Cg4YGbel","block":"text","name":"k6zR"},{"marker":"","class":"my-5","content":[{"class":"","options":[{"text":"The park where they used to play.","class":"","id":"Ek3i","block":"text","name":"BXAp"},{"text":"The old cafes and restaurants.","class":"","id":"uL1eZwUv","block":"text","name":"lYfc"},{"text":"The art gallery.","class":"","id":"rgFxHKMB","block":"text","name":"X9Pg"}],"evaluation":"auto","showResult":false,"dropdown":false,"dropdownpos":"top","id":"zGUU","block":"option","name":"bocZ"}],"background":"","id":"69GicQRd","block":"group","name":"rj3J"}],"background":"","id":"1ZS697Se","block":"group","name":"rNfw"}],"background":"","id":"aXuwCcGV","block":"group","name":"NDKB"},{"marker":"","class":" bg-slate-50 p-5 rounded-lg border-sky-900 border-4 text-2xl p-1 my-1","content":[{"marker":"","class":"","content":[{"text":"4. What is Liam excited to do in the neighborhood? ","class":"","id":"Cg4Yg4Q4","block":"text","name":"Z5gZ"},{"marker":"","class":"my-5","content":[{"class":"","options":[{"text":"Visit the new art gallery.","class":"","id":"IvX2","block":"text","name":"pqEn"},{"text":"Explore the downtown area.","class":"","id":"PqiVLKgX","block":"text","name":"I3q6"},{"text":"Attend events at the community center.","class":"","id":"5dDfvAVX","block":"text","name":"8J0c"}],"evaluation":"auto","showResult":false,"dropdown":false,"dropdownpos":"top","id":"WUGZ","block":"option","name":"x4e8"}],"background":"","id":"69GicnoD","block":"group","name":"pp2I"}],"background":"","id":"1ZS6lrFv","block":"group","name":"sJ0D"}],"background":"","id":"aXuwqDpp","block":"group","name":"lBwm"},{"marker":"","class":" bg-slate-50 p-5 rounded-lg border-sky-900 border-4 text-2xl p-1 my-1","content":[{"marker":"","class":"","content":[{"text":"5. How does Charlotte offer to spend time with Liam the next day? ","class":"","id":"Cg4Y8jO9","block":"text","name":"qasa"},{"marker":"","class":"inline-block mx-2 align-middle","content":[{"class":"","options":[{"text":"Going to the newly opened art gallery.","class":"","id":"G4IT","block":"text","name":"bUb8"},{"text":"Attending an event at the community center.","class":"","id":"KmQQPItW","block":"text","name":"YuN2"},{"text":"Going to the newly opened art gallery.","class":"","id":"IVMG8NQv","block":"text","name":"doAX"}],"evaluation":"auto","showResult":false,"dropdown":false,"dropdownpos":"top","id":"yxwr","block":"option","name":"ezTL"}],"background":"","id":"69GicPsD","block":"group","name":"Mrnu"}],"background":"","id":"1ZS62xrm","block":"group","name":"6Fsg"}],"background":"","id":"aXuwGx1b","block":"group","name":"ywKN"},{"marker":"","class":" bg-slate-50 p-5 rounded-lg border-sky-900 border-4 text-2xl p-1 my-1","content":[{"marker":"","class":"my-5","content":[{"text":"6. What can be inferred about Charlotte from the conversation? ","class":"","id":"Cg4Y8jO9gYg8","block":"text","name":"uwNd"},{"marker":"","class":"inline-block mx-2 align-middle","content":[{"class":"","options":[{"text":"She has been living in the neighborhood for a long time.","class":"","id":"4G4O","block":"text","name":"lUBd"},{"text":"She dislikes changes in the neighborhood.","class":"","id":"mDyds0bY","block":"text","name":"sUcp"},{"text":"She is uncomfortable with the idea f exploring new places.","class":"","id":"E8QHOOwa","block":"text","name":"9q8u"}],"evaluation":"auto","showResult":false,"dropdown":false,"dropdownpos":"top","id":"51Bx","block":"option","name":"ETZN"}],"background":"","id":"69GicPsDBMwp","block":"group","name":"f9Zm"}],"background":"","id":"1ZS62xrmUQ3d","block":"group","name":"Phas"}],"background":"","id":"aXuwGx1biwhx","block":"group","name":"Z0SC"}],"background":"","id":"zRU7","block":"group","name":"56Ie","hidden":false}],"background":"","id":"gpo1","block":"group","name":"gpo1"},{"symbol":"FinalizeGroup"}]}]},"end":{"buttons":{"restart":false},"content":[{"symbol":"finishedAll"}]},"symbols":{"finishedAll":{"class":"w-full","content":[{"block":"group","class":"bg-slate-100 rounded p-5 text-center w-full","content":[{"block":"text","text":"Congratulations, you finished the activity.","class":"","name":"Congra"}],"background":"","name":"CongraGroup"},{"block":"group","class":"text-center p-5","content":[{"block":"finished","name":"finishedBlock"}],"background":"","name":"finishedGroup"}],"background":"","block":"group"},"FinalizeGroup":{"block":"group","class":"text-center mt-10","content":[{"block":"button","class":"mx-auto","to":"/end","text":"Finalize","name":"FinalizeBTN"}],"background":""}}}
+{
+  "title": "Recconecting with the Past.",
+  "clock": true,
+  "countdown": 0,
+  "attempts": 0,
+  "intro": {
+    "buttons": {
+      "start": "Start"
+    },
+    "content": []
+  },
+  "activity": {
+    "scenes": [
+      {
+        "block": "scene",
+        "name": "SC1",
+        "countdown": 0,
+        "instructions": {
+          "open": true,
+          "content": [
+            {
+              "block": "group",
+              "class": "flex gap-2 items-center",
+              "content": [
+                {
+                  "block": "audio",
+                  "class": "",
+                  "file": "files/INS.mp3"
+                },
+                {
+                  "block": "text",
+                  "class": "",
+                  "text": "Select the correct answer for each question according to the conversation between Liam and Charlotte."
+                }
+              ]
+            }
+          ]
+        },
+        "content": [
+          {
+            "marker": "📒",
+            "class": "bg-slate-100 rounded p-2 max-w-5xl  mx-auto",
+            "content": [
+              {
+                "marker": "",
+                "class": "mask mask-squircle p-2 bg-sky-900 flex justify-center my-10",
+                "content": [
+                  {
+                    "file": "files/B2-1U5L3EA-IMG-01.jpg",
+                    "class": "w-3/4 mask mask-squircle",
+                    "id": "HpU3",
+                    "block": "image",
+                    "name": "8GAH"
+                  }
+                ],
+                "background": "",
+                "id": "GLiU",
+                "block": "group",
+                "name": "iSVy"
+              },
+              {
+                "marker": "",
+                "class": "",
+                "content": [
+                  {
+                    "marker": "",
+                    "class": " bg-slate-50 p-5 rounded-lg border-sky-900 border-4 text-2xl p-1 my-1",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "",
+                        "content": [
+                          {
+                            "text": "1. Why has Liam returned to the neighborhood? ",
+                            "class": "",
+                            "id": "Cg4Y",
+                            "block": "text",
+                            "name": "erZW"
+                          },
+                          {
+                            "marker": "",
+                            "class": "my-5",
+                            "content": [
+                              {
+                                "class": "",
+                                "options": [
+                                  {
+                                    "text": "To reconnect with his old friend Charlotte.",
+                                    "class": "",
+                                    "id": "4Dt2",
+                                    "block": "text",
+                                    "name": "iaTH"
+                                  },
+                                  {
+                                    "text": "To see the changes in the streets.",
+                                    "class": "",
+                                    "id": "DcJE0lrV",
+                                    "block": "text",
+                                    "name": "ngCu"
+                                  },
+                                  {
+                                    "text": "To visit a new community center.",
+                                    "class": "",
+                                    "id": "RBvmJLUu",
+                                    "block": "text",
+                                    "name": "cgwh"
+                                  }
+                                ],
+                                "evaluation": "auto",
+                                "showResult": false,
+                                "dropdown": false,
+                                "dropdownpos": "top",
+                                "id": "ma7u",
+                                "block": "option",
+                                "name": "nEcN"
+                              }
+                            ],
+                            "background": "",
+                            "id": "69Gi",
+                            "block": "group",
+                            "name": "EoVt"
+                          }
+                        ],
+                        "background": "",
+                        "id": "1ZS6",
+                        "block": "group",
+                        "name": "Ezaz"
+                      }
+                    ],
+                    "background": "",
+                    "id": "aXuw",
+                    "block": "group",
+                    "name": "nnMB"
+                  },
+                  {
+                    "marker": "",
+                    "class": " bg-slate-50 p-5 rounded-lg border-sky-900 border-4 text-2xl p-1 my-1",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "",
+                        "content": [
+                          {
+                            "text": "2. What does Charlotte mean by saying “it’s my comfort zone”?",
+                            "class": "",
+                            "id": "Cg4Yu8Uf",
+                            "block": "text",
+                            "name": "HZRS"
+                          },
+                          {
+                            "marker": "",
+                            "class": "my-5",
+                            "content": [
+                              {
+                                "class": "",
+                                "options": [
+                                  {
+                                    "text": "She’s used to the way things are now.",
+                                    "class": "",
+                                    "id": "z18C",
+                                    "block": "text",
+                                    "name": "E25v"
+                                  },
+                                  {
+                                    "text": "She’s excited about the changes.",
+                                    "class": "",
+                                    "id": "GenhVvyC",
+                                    "block": "text",
+                                    "name": "rqDV"
+                                  },
+                                  {
+                                    "text": "She’s open to exploring different areas.",
+                                    "class": "",
+                                    "id": "VgellDjK",
+                                    "block": "text",
+                                    "name": "Xgkn"
+                                  }
+                                ],
+                                "evaluation": "auto",
+                                "showResult": false,
+                                "dropdown": false,
+                                "dropdownpos": "top",
+                                "id": "GKre",
+                                "block": "option",
+                                "name": "H7Jv"
+                              }
+                            ],
+                            "background": "",
+                            "id": "69GiKcUR",
+                            "block": "group",
+                            "name": "LPuj"
+                          }
+                        ],
+                        "background": "",
+                        "id": "1ZS6wIvg",
+                        "block": "group",
+                        "name": "gPNp"
+                      }
+                    ],
+                    "background": "",
+                    "id": "aXuw7rIO",
+                    "block": "group",
+                    "name": "W8NS"
+                  },
+                  {
+                    "marker": "",
+                    "class": " bg-slate-50 p-5 rounded-lg border-sky-900 border-4 text-2xl p-1 my-1",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "",
+                        "content": [
+                          {
+                            "text": "3. What was Liam surprised to see still standing in the neighborhood?",
+                            "class": "",
+                            "id": "Cg4YGbel",
+                            "block": "text",
+                            "name": "k6zR"
+                          },
+                          {
+                            "marker": "",
+                            "class": "my-5",
+                            "content": [
+                              {
+                                "class": "",
+                                "options": [
+                                  {
+                                    "text": "The park where they used to play.",
+                                    "class": "",
+                                    "id": "Ek3i",
+                                    "block": "text",
+                                    "name": "BXAp"
+                                  },
+                                  {
+                                    "text": "The old cafes and restaurants.",
+                                    "class": "",
+                                    "id": "uL1eZwUv",
+                                    "block": "text",
+                                    "name": "lYfc"
+                                  },
+                                  {
+                                    "text": "The art gallery.",
+                                    "class": "",
+                                    "id": "rgFxHKMB",
+                                    "block": "text",
+                                    "name": "X9Pg"
+                                  }
+                                ],
+                                "evaluation": "auto",
+                                "showResult": false,
+                                "dropdown": false,
+                                "dropdownpos": "top",
+                                "id": "zGUU",
+                                "block": "option",
+                                "name": "bocZ"
+                              }
+                            ],
+                            "background": "",
+                            "id": "69GicQRd",
+                            "block": "group",
+                            "name": "rj3J"
+                          }
+                        ],
+                        "background": "",
+                        "id": "1ZS697Se",
+                        "block": "group",
+                        "name": "rNfw"
+                      }
+                    ],
+                    "background": "",
+                    "id": "aXuwCcGV",
+                    "block": "group",
+                    "name": "NDKB"
+                  },
+                  {
+                    "marker": "",
+                    "class": " bg-slate-50 p-5 rounded-lg border-sky-900 border-4 text-2xl p-1 my-1",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "",
+                        "content": [
+                          {
+                            "text": "4. What is Liam excited to do in the neighborhood? ",
+                            "class": "",
+                            "id": "Cg4Yg4Q4",
+                            "block": "text",
+                            "name": "Z5gZ"
+                          },
+                          {
+                            "marker": "",
+                            "class": "my-5",
+                            "content": [
+                              {
+                                "class": "",
+                                "options": [
+                                  {
+                                    "text": "Visit the new art gallery.",
+                                    "class": "",
+                                    "id": "IvX2",
+                                    "block": "text",
+                                    "name": "pqEn"
+                                  },
+                                  {
+                                    "text": "Explore the downtown area.",
+                                    "class": "",
+                                    "id": "PqiVLKgX",
+                                    "block": "text",
+                                    "name": "I3q6"
+                                  },
+                                  {
+                                    "text": "Attend events at the community center.",
+                                    "class": "",
+                                    "id": "5dDfvAVX",
+                                    "block": "text",
+                                    "name": "8J0c"
+                                  }
+                                ],
+                                "evaluation": "auto",
+                                "showResult": false,
+                                "dropdown": false,
+                                "dropdownpos": "top",
+                                "id": "WUGZ",
+                                "block": "option",
+                                "name": "x4e8"
+                              }
+                            ],
+                            "background": "",
+                            "id": "69GicnoD",
+                            "block": "group",
+                            "name": "pp2I"
+                          }
+                        ],
+                        "background": "",
+                        "id": "1ZS6lrFv",
+                        "block": "group",
+                        "name": "sJ0D"
+                      }
+                    ],
+                    "background": "",
+                    "id": "aXuwqDpp",
+                    "block": "group",
+                    "name": "lBwm"
+                  },
+                  {
+                    "marker": "",
+                    "class": " bg-slate-50 p-5 rounded-lg border-sky-900 border-4 text-2xl p-1 my-1",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "",
+                        "content": [
+                          {
+                            "text": "5. How does Charlotte offer to spend time with Liam the next day? ",
+                            "class": "",
+                            "id": "Cg4Y8jO9",
+                            "block": "text",
+                            "name": "qasa"
+                          },
+                          {
+                            "marker": "",
+                            "class": "inline-block mx-2 align-middle",
+                            "content": [
+                              {
+                                "class": "",
+                                "options": [
+                                  {
+                                    "text": "Going to the newly opened art gallery.",
+                                    "class": "",
+                                    "id": "G4IT",
+                                    "block": "text",
+                                    "name": "bUb8"
+                                  },
+                                  {
+                                    "text": "Attending an event at the community center.",
+                                    "class": "",
+                                    "id": "KmQQPItW",
+                                    "block": "text",
+                                    "name": "YuN2"
+                                  },
+                                  {
+                                    "text": "Going to the newly opened school.",
+                                    "class": "",
+                                    "id": "IVMG8NQv",
+                                    "block": "text",
+                                    "name": "doAX"
+                                  }
+                                ],
+                                "evaluation": "auto",
+                                "showResult": false,
+                                "dropdown": false,
+                                "dropdownpos": "top",
+                                "id": "yxwr",
+                                "block": "option",
+                                "name": "ezTL",
+                                "attempts": 0
+                              }
+                            ],
+                            "background": "",
+                            "id": "69GicPsD",
+                            "block": "group",
+                            "name": "Mrnu"
+                          }
+                        ],
+                        "background": "",
+                        "id": "1ZS62xrm",
+                        "block": "group",
+                        "name": "6Fsg"
+                      }
+                    ],
+                    "background": "",
+                    "id": "aXuwGx1b",
+                    "block": "group",
+                    "name": "ywKN"
+                  },
+                  {
+                    "marker": "",
+                    "class": " bg-slate-50 p-5 rounded-lg border-sky-900 border-4 text-2xl p-1 my-1",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "my-5",
+                        "content": [
+                          {
+                            "text": "6. What can be inferred about Charlotte from the conversation? ",
+                            "class": "",
+                            "id": "Cg4Y8jO9gYg8",
+                            "block": "text",
+                            "name": "uwNd"
+                          },
+                          {
+                            "marker": "",
+                            "class": "inline-block mx-2 align-middle",
+                            "content": [
+                              {
+                                "class": "",
+                                "options": [
+                                  {
+                                    "text": "She has been living in the neighborhood for a long time.",
+                                    "class": "",
+                                    "id": "4G4O",
+                                    "block": "text",
+                                    "name": "lUBd"
+                                  },
+                                  {
+                                    "text": "She dislikes changes in the neighborhood.",
+                                    "class": "",
+                                    "id": "mDyds0bY",
+                                    "block": "text",
+                                    "name": "sUcp"
+                                  },
+                                  {
+                                    "text": "She is uncomfortable with the idea f exploring new places.",
+                                    "class": "",
+                                    "id": "E8QHOOwa",
+                                    "block": "text",
+                                    "name": "9q8u"
+                                  }
+                                ],
+                                "evaluation": "auto",
+                                "showResult": false,
+                                "dropdown": false,
+                                "dropdownpos": "top",
+                                "id": "51Bx",
+                                "block": "option",
+                                "name": "ETZN"
+                              }
+                            ],
+                            "background": "",
+                            "id": "69GicPsDBMwp",
+                            "block": "group",
+                            "name": "f9Zm"
+                          }
+                        ],
+                        "background": "",
+                        "id": "1ZS62xrmUQ3d",
+                        "block": "group",
+                        "name": "Phas"
+                      }
+                    ],
+                    "background": "",
+                    "id": "aXuwGx1biwhx",
+                    "block": "group",
+                    "name": "Z0SC"
+                  }
+                ],
+                "background": "",
+                "id": "zRU7",
+                "block": "group",
+                "name": "56Ie",
+                "hidden": false
+              }
+            ],
+            "background": "",
+            "id": "gpo1",
+            "block": "group",
+            "name": "gpo1"
+          },
+          {
+            "symbol": "FinalizeGroup"
+          }
+        ]
+      }
+    ]
+  },
+  "end": {
+    "buttons": {
+      "restart": false
+    },
+    "content": [
+      {
+        "symbol": "finishedAll"
+      }
+    ]
+  },
+  "symbols": {
+    "finishedAll": {
+      "class": "w-full",
+      "content": [
+        {
+          "block": "group",
+          "class": "bg-slate-100 rounded p-5 text-center w-full",
+          "content": [
+            {
+              "block": "text",
+              "text": "Congratulations, you finished the activity.",
+              "class": "",
+              "name": "Congra"
+            }
+          ],
+          "background": "",
+          "name": "CongraGroup"
+        },
+        {
+          "block": "group",
+          "class": "text-center p-5",
+          "content": [
+            {
+              "block": "finished",
+              "name": "finishedBlock"
+            }
+          ],
+          "background": "",
+          "name": "finishedGroup"
+        }
+      ],
+      "background": "",
+      "block": "group"
+    },
+    "FinalizeGroup": {
+      "block": "group",
+      "class": "text-center mt-10",
+      "content": [
+        {
+          "block": "button",
+          "class": "mx-auto",
+          "to": "/end",
+          "text": "Finalize",
+          "name": "FinalizeBTN"
+        }
+      ],
+      "background": ""
+    }
+  }
+}
