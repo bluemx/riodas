@@ -1,1 +1,303 @@
-{"title":"Be careful!","clock":false,"countdown":0,"intro":{"buttons":{"start":"Start"},"content":[]},"activity":{"scenes":[{"block":"scene","name":"SC1","countdown":0,"instructions":{"open":true,"content":[{"block":"group","class":"flex gap-2 items-center","content":[{"block":"audio","class":"","file":"files/B1-1U4L2EA-INS.mp3","wave":false,"autoplay":false,"id":"","name":"iJ2q"},{"block":"text","class":"","text":"Read the text carefully and pay attention to the words in bold letters. Take notes in your notebook and discuss the general idea with your classmates.","id":"","name":"r6Wp"}],"marker":"","background":"","id":"","name":"Dnzk"}]},"content":[{"marker":"📒","class":"bg-slate-100 rounded p-2 max-w-5xl text-center mx-auto text-2xl","content":[{"marker":"","class":"bg-blue-100 border-4 border-blue-500 my-10","content":[{"marker":"","class":"m-10 grid grid-cols-2 gap-5 items-center","content":[{"text":"Hi! I am Johny and I am going to tell you about my friends.","class":"","id":"MVTv","block":"text","name":"niTl"},{"marker":"","class":"flex justify-center my-10","content":[{"file":"files/B1-1U4L2EA-IMG-01.jpg","class":" border-4 border-blue-500 rounded-lg","id":"qEhQ","block":"image","name":"Ph9o"}],"background":"","id":"1bcpz80j","block":"group","name":"ytFC"}],"background":"","id":"EIsx","block":"group","name":"idbQ"}],"background":"","id":"A7Zy","block":"group","name":"tOJd"},{"marker":"","class":"my-10 rounded-lg bg-yellow-50 border-4 border-yellow-500","content":[{"marker":"","class":"m-10 text-justify grid grid-cols-2 gap-5 items-center","content":[{"marker":"","class":"flex justify-center my-10","content":[{"file":"files/B1-1U4L2EA-IMG-02.jpg","class":"border-4 border-yellow-500 rounded-lg","id":"qEhQII2J","block":"image","name":"tVZT"}],"background":"","id":"1bcpz80jE7Kb","block":"group","name":"ze0F"},{"text":"This is Janie, she lives in the house next to the <b>library</b>. She is <b>thirteen</b> years old and has <b>curly blond</b>, <b>long hair</b>. She is in the same <b>classroom</b> as me. She is very <b>athletic</b> and is always <b>swimming</b>, <b>climbing</b> or <b>riding horses</b>. <b>Last summer</b> I went with her and <b>I sprained my ankle</b>. I couldn't <b>shower</b> or <b>exercise</b> for  a month. She is great!","class":"","id":"MVTvaCMp","block":"text","name":"lB3n"}],"background":"","id":"EIsxIvY2","block":"group","name":"gyqH"}],"background":"","id":"H3T9FG0n","block":"group","name":"mjX8"},{"marker":"","class":"bg-cyan-50 border-4 border-cyan-500 rounded-lg","content":[{"marker":"","class":"m-10 text-justify grid grid-cols-2 items-center gap-5","content":[{"text":"This is Jack. He is very <b>kind</b> and <b>responsible</b>. He is <b>twelve</b> and he has <b>blue round eyes</b>. He is my best friend. I love going to his house because he has this big great <b>kitchen</b> and his mom always makes snacks for us like <b>bananas</b> and <b>apples</b> with peanut butter.He is younger than me and we are not in school <b>together</b> but <b>next July</b> we are going on a <b>holiday</b> together to see the 4th of July <b>fireworks</b>.","class":"","id":"MVTvaCMpA2fx","block":"text","name":"bcGq"},{"marker":"","class":"flex justify-center my-10","content":[{"file":"files/B1-1U4L2EA-IMG-03.jpg","class":" border-4 border-cyan-500 rounded-lg","id":"qEhQII2JptYo","block":"image","name":"J6me"}],"background":"","id":"1bcpz80jE7KbrN3o","block":"group","name":"IrHh"}],"background":"","id":"EIsxIvY2Qywl","block":"group","name":"uDLR"}],"background":"","id":"Ut891bbT","block":"group","name":"Joi9"},{"marker":"","class":"border border-orange-500 border-4 rounded-lg p-5 my-10 bg-orange-50","content":[{"marker":"","class":"m-10 text-justify grid grid-cols-2 gap-5 items-center","content":[{"marker":"","class":"flex justify-center my-10","content":[{"file":"files/B1-1U4L2EA-IMG-04.jpg","class":" rounded-lg border-4 border-orange-500 ","id":"qEhQII2JptYoJnOh","block":"image","name":"kfIm"}],"background":"","id":"7plM","block":"group","name":"AzTz"},{"text":"This is Angela, she is <b>seventeen</b> years old and she is <b>Brazilian</b>. She practices evey <b>sport</b> you can think of: <b>fencing, surfing, volley ball, hockey</b> and even <b>karate</b>. She is extremely <b>athletic</b>. Last year she had to take a break because on her way to the <b>stadium</b>, she fell down and got a very bad <b>bleeding</b>. She got better fast and <b>encouraged</b> all of us, not to give up when things get difficult.","class":"","id":"MVTvaCMpA2fx871P","block":"text","name":"5ueV"}],"background":"","id":"EIsxIvY2QywlXJTd","block":"group","name":"Zr9B"}],"background":"","id":"W1ohlwWc","block":"group","name":"MGvN"}],"background":"","id":"gpo1","block":"group","name":"gpo1"},{"symbol":"FinalizeGroup"}],"id":""}]},"end":{"buttons":{"restart":false},"content":[{"symbol":"finishedAll"}]},"symbols":{"finishedAll":{"class":"w-full","content":[{"block":"group","class":"bg-slate-100 rounded p-5 text-center w-full","content":[{"block":"text","text":"Congratulations, you finished the activity.","class":"","name":"Congra"}],"background":"","name":"CongraGroup"},{"block":"group","class":"text-center p-5","content":[{"block":"finished","name":"finishedBlock"}],"background":"","name":"finishedGroup"}],"background":"","block":"group"},"FinalizeGroup":{"block":"group","class":"text-center mt-10","content":[{"block":"button","class":"mx-auto","to":"/end","text":"Finalize","name":"FinalizeBTN"}],"background":""}}}
+{
+  "title": "Be careful!",
+  "clock": false,
+  "countdown": 0,
+  "intro": {
+    "buttons": {
+      "start": "Start"
+    },
+    "content": []
+  },
+  "activity": {
+    "scenes": [
+      {
+        "block": "scene",
+        "name": "SC1",
+        "countdown": 0,
+        "instructions": {
+          "open": true,
+          "content": [
+            {
+              "block": "group",
+              "class": "flex gap-2 items-center",
+              "content": [
+                {
+                  "block": "audio",
+                  "class": "",
+                  "file": "files/B1-1U4L2EA-INS.mp3",
+                  "wave": false,
+                  "autoplay": false,
+                  "id": "",
+                  "name": "iJ2q"
+                },
+                {
+                  "block": "text",
+                  "class": "",
+                  "text": "Read the text carefully and pay attention to the words in bold letters. Take notes in your notebook and discuss the general idea with your classmates.",
+                  "id": "",
+                  "name": "r6Wp"
+                }
+              ],
+              "marker": "",
+              "background": "",
+              "id": "",
+              "name": "Dnzk"
+            }
+          ]
+        },
+        "content": [
+          {
+            "marker": "📒",
+            "class": "bg-slate-100 rounded p-2 max-w-5xl text-center mx-auto text-2xl",
+            "content": [
+              {
+                "marker": "",
+                "class": "bg-blue-100 border-4 border-blue-500 my-10",
+                "content": [
+                  {
+                    "marker": "",
+                    "class": "m-10 grid grid-cols-2 gap-5 items-center",
+                    "content": [
+                      {
+                        "text": "Hi! I am Johny and I am going to tell you about my friends.",
+                        "class": "",
+                        "id": "MVTv",
+                        "block": "text",
+                        "name": "niTl"
+                      },
+                      {
+                        "marker": "",
+                        "class": "flex justify-center my-10",
+                        "content": [
+                          {
+                            "file": "files/B1-1U4L2EA-IMG-01.jpg",
+                            "class": " border-4 border-blue-500 rounded-lg",
+                            "id": "qEhQ",
+                            "block": "image",
+                            "name": "Ph9o"
+                          }
+                        ],
+                        "background": "",
+                        "id": "1bcpz80j",
+                        "block": "group",
+                        "name": "ytFC"
+                      }
+                    ],
+                    "background": "",
+                    "id": "EIsx",
+                    "block": "group",
+                    "name": "idbQ"
+                  }
+                ],
+                "background": "",
+                "id": "A7Zy",
+                "block": "group",
+                "name": "tOJd"
+              },
+              {
+                "marker": "",
+                "class": "my-10 rounded-lg bg-yellow-50 border-4 border-yellow-500",
+                "content": [
+                  {
+                    "marker": "",
+                    "class": "m-10 text-justify grid grid-cols-2 gap-5 items-center",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "flex justify-center my-10",
+                        "content": [
+                          {
+                            "file": "files/B1-1U4L2EA-IMG-02.jpg",
+                            "class": "border-4 border-yellow-500 rounded-lg",
+                            "id": "qEhQII2J",
+                            "block": "image",
+                            "name": "tVZT"
+                          }
+                        ],
+                        "background": "",
+                        "id": "1bcpz80jE7Kb",
+                        "block": "group",
+                        "name": "ze0F"
+                      },
+                      {
+                        "text": "This is Janie, she lives in the house next to the <b>library</b>. She is <b>thirteen</b> years old and has <b>curly blond</b>, <b>long hair</b>. She is in the same <b>classroom</b> as me. She is very <b>athletic</b> and is always <b>swimming</b>, <b>climbing</b> or <b>riding horses</b>. <b>Last summer</b> I went with her and <b>I sprained my ankle</b>. I couldn't <b>shower</b> or <b>exercise</b> for  a month. She is great!",
+                        "class": "",
+                        "id": "MVTvaCMp",
+                        "block": "text",
+                        "name": "lB3n"
+                      }
+                    ],
+                    "background": "",
+                    "id": "EIsxIvY2",
+                    "block": "group",
+                    "name": "gyqH"
+                  }
+                ],
+                "background": "",
+                "id": "H3T9FG0n",
+                "block": "group",
+                "name": "mjX8"
+              },
+              {
+                "marker": "",
+                "class": "bg-cyan-50 border-4 border-cyan-500 rounded-lg",
+                "content": [
+                  {
+                    "marker": "",
+                    "class": "m-10 text-justify grid grid-cols-2 items-center gap-5",
+                    "content": [
+                      {
+                        "text": "This is Jack. He is very <b>kind</b> and <b>responsible</b>. He is <b>twelve</b> and he has <b>blue round eyes</b>. He is my best friend. I love going to his house because he has this big great <b>kitchen</b> and his mom always makes snacks for us like <b>bananas</b> and <b>apples</b> with peanut butter.He is younger than me and we are not in school <b>together</b> but <b>next July</b> we are going on a <b>holiday</b> together to see the 4th of July <b>fireworks</b>.",
+                        "class": "",
+                        "id": "MVTvaCMpA2fx",
+                        "block": "text",
+                        "name": "bcGq"
+                      },
+                      {
+                        "marker": "",
+                        "class": "flex justify-center my-10",
+                        "content": [
+                          {
+                            "file": "files/B1-1U4L2EA-IMG-03.jpg",
+                            "class": " border-4 border-cyan-500 rounded-lg",
+                            "id": "qEhQII2JptYo",
+                            "block": "image",
+                            "name": "J6me"
+                          }
+                        ],
+                        "background": "",
+                        "id": "1bcpz80jE7KbrN3o",
+                        "block": "group",
+                        "name": "IrHh"
+                      }
+                    ],
+                    "background": "",
+                    "id": "EIsxIvY2Qywl",
+                    "block": "group",
+                    "name": "uDLR"
+                  }
+                ],
+                "background": "",
+                "id": "Ut891bbT",
+                "block": "group",
+                "name": "Joi9"
+              },
+              {
+                "marker": "",
+                "class": "border border-orange-500 border-4 rounded-lg p-5 my-10 bg-orange-50",
+                "content": [
+                  {
+                    "marker": "",
+                    "class": "m-10 text-justify grid grid-cols-2 gap-5 items-center",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "flex justify-center my-10",
+                        "content": [
+                          {
+                            "file": "files/B1-1U4L2EA-IMG-04.jpg",
+                            "class": " rounded-lg border-4 border-orange-500 ",
+                            "id": "qEhQII2JptYoJnOh",
+                            "block": "image",
+                            "name": "kfIm"
+                          }
+                        ],
+                        "background": "",
+                        "id": "7plM",
+                        "block": "group",
+                        "name": "AzTz"
+                      },
+                      {
+                        "text": "This is Angela, she is <b>seventeen</b> years old and she is <b>Brazilian</b>. She practices every <b>sport</b> you can think of: <b>fencing, surfing, volleyball, hockey</b> and even <b>karate</b>. She is extremely <b>athletic</b>. Last year she had to take a break because on her way to the <b>stadium</b>, she fell down and had very bad <b>bleeding</b>. She got better fast and <b>encouraged</b> all of us, not to give up when things get difficult.",
+                        "class": "",
+                        "id": "MVTvaCMpA2fx871P",
+                        "block": "text",
+                        "name": "5ueV"
+                      }
+                    ],
+                    "background": "",
+                    "id": "EIsxIvY2QywlXJTd",
+                    "block": "group",
+                    "name": "Zr9B"
+                  }
+                ],
+                "background": "",
+                "id": "W1ohlwWc",
+                "block": "group",
+                "name": "MGvN"
+              }
+            ],
+            "background": "",
+            "id": "gpo1",
+            "block": "group",
+            "name": "gpo1"
+          },
+          {
+            "symbol": "FinalizeGroup"
+          }
+        ],
+        "id": ""
+      }
+    ]
+  },
+  "end": {
+    "buttons": {
+      "restart": false
+    },
+    "content": [
+      {
+        "symbol": "finishedAll"
+      }
+    ]
+  },
+  "symbols": {
+    "finishedAll": {
+      "class": "w-full",
+      "content": [
+        {
+          "block": "group",
+          "class": "bg-slate-100 rounded p-5 text-center w-full",
+          "content": [
+            {
+              "block": "text",
+              "text": "Congratulations, you finished the activity.",
+              "class": "",
+              "name": "Congra"
+            }
+          ],
+          "background": "",
+          "name": "CongraGroup"
+        },
+        {
+          "block": "group",
+          "class": "text-center p-5",
+          "content": [
+            {
+              "block": "finished",
+              "name": "finishedBlock"
+            }
+          ],
+          "background": "",
+          "name": "finishedGroup"
+        }
+      ],
+      "background": "",
+      "block": "group"
+    },
+    "FinalizeGroup": {
+      "block": "group",
+      "class": "text-center mt-10",
+      "content": [
+        {
+          "block": "button",
+          "class": "mx-auto",
+          "to": "/end",
+          "text": "Finalize",
+          "name": "FinalizeBTN"
+        }
+      ],
+      "background": ""
+    }
+  },
+  "attempts": 0
+}
