@@ -1,1 +1,907 @@
-{"title":"Exercise B. Guided Discovery.","clock":true,"countdown":0,"attempts":0,"intro":{"buttons":{"start":"Start"},"content":[]},"activity":{"scenes":[{"block":"scene","name":"SC1","countdown":0,"instructions":{"open":true,"content":[{"block":"group","class":"flex gap-2 items-center","content":[{"block":"audio","class":"","file":"files/inst.mp3","wave":false,"autoplay":false,"id":"","name":"Qny8"},{"block":"text","class":"","text":"Read the text infographic attentively. Take notes in your English notebook.","id":"","name":"6cry"}]}]},"content":[{"class":"text-center","content":[{"text":"Present Perfect","class":"text-4xl font-bold mb-4","id":"","block":"text","name":"abcd"}],"background":"","id":"","block":"group","name":"ijkl"},{"class":"text-center my-5","content":[{"text":"When to use it?","class":"text-2xl mb-4","id":"ii5k","block":"text","name":"lBuT"}],"background":"","id":"JDTKuhkh","block":"group","name":"gztI","marker":""},{"class":"bg-slate-100 p-1 rounded grid grid-cols-1 md:grid-cols-3 gap-1","content":[{"class":"text-center flex flex-col gap-2 border-2 rounded border-sky-200 p-2","content":[{"text":"Talk about your life experiences","class":"font-bold mb-4","id":"","block":"text","name":"abcd"},{"text":"I <b>have studied</b> in 4 schools.","class":"bg-white rounded","id":"","block":"text","name":"abcd"},{"text":"She <b>has never been</b> to California.","class":"bg-white rounded","id":"","block":"text","name":"abcd"},{"text":"We <b>have already seen</b> the new movie.","class":"bg-white rounded","id":"","block":"text","name":"abcd"}],"background":"","id":"","block":"group","name":"h4ip","marker":"🪼"},{"class":"text-center flex flex-col gap-2 border-2 rounded border-sky-200 p-2","content":[{"text":"Talk about an action from the past that continues in the present","class":" font-bold mb-4","id":"","block":"text","name":"efgh"},{"text":"I <b>have lived</b> in Zapopan <b>since</b> 2008.","class":"bg-white rounded","id":"","block":"text","name":"ijkl"},{"text":"He <b>has worked</b> as a mechanic <b>for</b> 10 years.","class":"bg-white rounded","id":"","block":"text","name":"ijkl"},{"text":"<b>How long have</b> you <b>worked</b> in this office?","class":"bg-white rounded","id":"","block":"text","name":"ijkl"}],"background":"","id":"KfpYsmqt","block":"group","name":"vifs","marker":"🪼"},{"class":"text-center flex flex-col gap-2 border-2 rounded border-sky-200 p-2","content":[{"text":"Talk about an activity that has happened many times or just happened.","class":" font-bold mb-4","id":"","block":"text","name":"mnop"},{"text":"I <b>have already finished</b> the activity!","class":"bg-white rounded","id":"","block":"text","name":"mnop"},{"text":"We <b>have called</b> the bank 5 times today!","class":"bg-white rounded","id":"","block":"text","name":"mnop"},{"text":"She <b>hasn't answered yet</b>.","class":"bg-white rounded","id":"","block":"text","name":"mnop"}],"background":"","id":"RQUvgLe0","block":"group","name":"dDxg","marker":"🪼"}],"background":"","id":"","block":"group","name":"PT:WXYZ","marker":"","hidden":false},{"class":"text-center my-5","content":[{"text":"Time expressions","class":"text-2xl mb-4","id":"ii5kFaYO","block":"text","name":"6LlN"}],"background":"","id":"BbOJFN1w","block":"group","name":"Y5VQ","marker":""},{"class":"bg-slate-100 p-1 rounded grid grid-cols-1 md:grid-cols-3 gap-1","content":[{"class":"text-center flex flex-col gap-2 border-2 rounded border-sky-200 p-2","content":[{"text":"never","class":"font-bold text-sky-500","id":"qq16","block":"text","name":"F1Qp"},{"text":"I have <b>never</b> been to Russia","class":"bg-white rounded","id":"ReOzOskc","block":"text","name":"X757"},{"text":"ever","class":"font-bold text-sky-500","id":"E5HUF8Cx","block":"text","name":"AB5F"},{"text":"Have you <b>ever</b> been to Russia?","class":"bg-white rounded","id":"GiiC","block":"text","name":"I7rE"}],"background":"","id":"bIoD","block":"group","name":"tFeu","marker":"🪼"},{"class":"text-center flex flex-col gap-2 border-2 rounded border-sky-200 p-2","content":[{"text":"for","class":"font-bold text-sky-500","id":"UMICS0Eh","block":"text","name":"OJuX"},{"text":"Use in a period of time","class":"bg-white rounded","id":"vVG7","block":"text","name":"1qED"},{"text":"since","class":"font-bold text-sky-500","id":"iSSSJbFy","block":"text","name":"946w"},{"text":"Use to specify a time","class":"bg-white rounded","id":"bIPL","block":"text","name":"0XUX"},{"text":"how long","class":"font-bold text-sky-500","id":"bNGPp1ls","block":"text","name":"sqUV"},{"text":"Use in questions","class":"bg-white rounded","id":"fTOIZh3i","block":"text","name":"3OJD"}],"background":"","id":"KfpYsmqtsWbI","block":"group","name":"nfbN","marker":"🪼"},{"class":"text-center flex flex-col gap-2 border-2 rounded border-sky-200 p-2","content":[{"text":"already","class":"font-bold text-sky-500","id":"FF6cBuy7","block":"text","name":"EgbK"},{"text":"Use in affirmative sentences","class":"bg-white rounded","id":"VGXw","block":"text","name":"oEJT"},{"text":"yet","class":"font-bold text-sky-500","id":"HK8VsOmg","block":"text","name":"uFY5"},{"text":"Use in negative sentences","class":"bg-white rounded","id":"ziXH","block":"text","name":"N0r8"}],"background":"","id":"RQUvgLe0E1pH","block":"group","name":"de1H","marker":"🪼"}],"background":"","id":"5PzWVevI","block":"group","name":"EP3U","marker":"","hidden":false},{"class":"text-center my-5 flex flex-col","content":[{"text":"Structure","class":"text-2xl mb-1","id":"ii5kFaYObqQx","block":"text","name":"yQ0U"},{"text":"have/has + verb in past participle\t\t","class":"text-lg opacity-80","id":"sbDYH4uz","block":"text","name":"asf7"}],"background":"","id":"7Jyf6wHg","block":"group","name":"g5wh","marker":""},{"class":"bg-slate-100 p-1 rounded grid grid-cols-1 md:grid-cols-3 gap-1","content":[{"class":"text-center flex flex-col gap-2 border-2 rounded border-sky-200 p-2","content":[{"text":"affirmative","class":"font-bold text-teal-400","id":"qq16QRiu","block":"text","name":"r80h"},{"text":"I <b>have seen</b> the new movie.","class":"bg-white rounded","id":"ReOzOskckqhF","block":"text","name":"0Eiz"},{"text":"He/She <b>has gone</b> to Europe.","class":"bg-white rounded","id":"Df69DlJT","block":"text","name":"UMIn"},{"text":"We <b>have visited</b> the US 3 times.","class":"bg-white rounded","id":"pDd1G3eP","block":"text","name":"8YIO"},{"text":"They <b>have flown</b> by airplane.","class":"bg-white rounded","id":"jT21oLRk","block":"text","name":"89Co"}],"background":"","id":"bIoDXyrr","block":"group","name":"sIlJ","marker":"🪼"},{"class":"text-center flex flex-col gap-2 border-2 rounded border-sky-200 p-2","content":[{"text":"negative","class":"font-bold text-red-400","id":"Ht1kSQ0C","block":"text","name":"ojdQ"},{"text":"I <b>have not seen</b> the new movie.","class":"bg-white rounded","id":"P3b964IJ","block":"text","name":"44sr"},{"text":"He/She <b>has not</b> gone to Europe.","class":"bg-white rounded","id":"En0vQgYg","block":"text","name":"aUQu"},{"text":"We <b>have not visited</b> the US.","class":"bg-white rounded","id":"afcquS4M","block":"text","name":"s3S2"},{"text":"They <b>have not flown</b> by airplane. ","class":"bg-white rounded","id":"gqkDDVRv","block":"text","name":"0p5a"}],"background":"","id":"KfpYsmqtsWbIziXo","block":"group","name":"dsrG","marker":"🪼"},{"class":"text-center flex flex-col gap-2 border-2 rounded border-sky-200 p-2","content":[{"text":"interrogative","class":"font-bold text-amber-600","id":"7kEiu8QX","block":"text","name":"B5Hh"},{"text":"<b>Have</b> you <b>seen</b> the new movie? <br> <small>Yes, I have; No, I haven't</small>","class":"bg-white rounded","id":"Fc4nvMy6","block":"text","name":"CLZ0"},{"text":"<b>Has</b> she <b>gone</b> to Europe?<br> <small>Yes, she has; No, she hasn't</small>","class":"bg-white rounded","id":"j2YdY9CF","block":"text","name":"VCfG"},{"text":"<b>Have</b> we <b>visited</b> the US?<br> <small>Yes, we have; No, we haven't</small>","class":"bg-white rounded","id":"zm36IV47","block":"text","name":"zR5X"},{"text":"<b>Have</b> they <b>flown</b> by airplane?<br> <small>Yes, they have; No, they haven't</small>","class":"bg-white rounded","id":"iz33mRdc","block":"text","name":"0TPc"}],"background":"","id":"RQUvgLe0E1pHuHMI","block":"group","name":"odZz","marker":"🪼"}],"background":"","id":"9tGf3Mlp","block":"group","name":"mgxh","marker":"","hidden":false},{"class":"text-center my-5 flex flex-col","content":[{"text":"Regular and irregular verbs","class":"text-2xl mb-2","id":"ii5kFaYObqQxcO5E","block":"text","name":"OadP"},{"text":"Regular verbs end with \"ed\"","class":"text-lg opacity-80","id":"cNW9xhLU","block":"text","name":"uTeD"}],"background":"","id":"qHxbAkmk","block":"group","name":"wRvY","marker":""},{"marker":"","class":"grid grid-cols-1 md:grid-cols-3 gap-1 bg-slate-100 p-1 rounded text-center","content":[{"marker":"","class":"flex flex-col gap-1","content":[{"text":"Base form","class":"text-sm","id":"5Yw2Uh3t","block":"text","name":"8ulb"},{"text":"look","class":"bg-white","id":"J8rj","block":"text","name":"EKWj"},{"text":"study","class":"bg-white","id":"i2DXzKoh","block":"text","name":"faWK"},{"text":"watch","class":"bg-white","id":"LFcMY21u","block":"text","name":"Tz1W"}],"background":"","id":"n0ND","block":"group","name":"mZq9"},{"marker":"","class":"flex flex-col gap-1","content":[{"text":"Past form","class":"text-sm","id":"5Yw2Uh3tyOiV","block":"text","name":"yaEj"},{"text":"looked","class":"bg-white","id":"J8rjzAaC","block":"text","name":"pQHZ"},{"text":"studied","class":"bg-white","id":"i2DXzKohoLZV","block":"text","name":"6mdN"},{"text":"watched","class":"bg-white","id":"LFcMY21u1J4U","block":"text","name":"pfqX"}],"background":"","id":"V3rythww","block":"group","name":"bBXC"},{"marker":"","class":"flex flex-col gap-1","content":[{"text":"Past participle form","class":"text-sm","id":"5Yw2Uh3tyOiVgpgu","block":"text","name":"7bpd"},{"text":"looked","class":"bg-white","id":"J8rjzAaCTpVh","block":"text","name":"w4xQ"},{"text":"studied","class":"bg-white","id":"i2DXzKohoLZVUP5s","block":"text","name":"iNFD"},{"text":"watched","class":"bg-white","id":"LFcMY21u1J4Uibpx","block":"text","name":"TqZU"}],"background":"","id":"Qd3iuC4q","block":"group","name":"YXNp"}],"background":"","id":"7lgO","block":"group","name":"yO09"},{"class":"text-center my-5 flex flex-col","content":[{"text":"Irregular verbs dont have a fixed ending","class":"text-lg opacity-80","id":"cNW9xhLUeoGV","block":"text","name":"JWM4"}],"background":"","id":"EkMZTx9Q","block":"group","name":"pMUY","marker":""},{"marker":"","class":"grid grid-cols-1 md:grid-cols-3 gap-1 bg-slate-100 p-1 rounded text-center","content":[{"marker":"","class":"flex flex-col gap-1","content":[{"text":"go","class":"bg-white","id":"J8rjuwfy","block":"text","name":"Ay7D"},{"text":"sleep","class":"bg-white","id":"i2DXzKohJRDT","block":"text","name":"yn3W"},{"text":"be","class":"bg-white","id":"LFcMY21uJSQ7","block":"text","name":"5zeX"},{"text":"see","class":"bg-white","id":"iaeesoka","block":"text","name":"baAu"},{"text":"write","class":"bg-white","id":"ApDsecfs","block":"text","name":"MuPn"}],"background":"","id":"n0NDqX34","block":"group","name":"qFzU"},{"marker":"","class":"flex flex-col gap-1","content":[{"text":"went","class":"bg-white","id":"J8rjuwfyIfU3","block":"text","name":"rN73"},{"text":"slept","class":"bg-white","id":"i2DXzKohJRDT1Z9r","block":"text","name":"f2fe"},{"text":"was/were","class":"bg-white","id":"LFcMY21uJSQ7WbBg","block":"text","name":"ONsO"},{"text":"saw","class":"bg-white","id":"iaeesokabfup","block":"text","name":"rNXZ"},{"text":"wrote","class":"bg-white","id":"ApDsecfsRj8H","block":"text","name":"rmdE"}],"background":"","id":"xXEMJgYM","block":"group","name":"1AOB"},{"marker":"","class":"flex flex-col gap-1","content":[{"text":"gone","class":"bg-white","id":"J8rjuwfyIfU3tcVV","block":"text","name":"x93I"},{"text":"slept","class":"bg-white","id":"i2DXzKohJRDT1Z9r0nhF","block":"text","name":"m4s5"},{"text":"been","class":"bg-white","id":"LFcMY21uJSQ7WbBgBRlG","block":"text","name":"IahB"},{"text":"seen","class":"bg-white","id":"iaeesokabfupjPdL","block":"text","name":"2WzI"},{"text":"written","class":"bg-white","id":"ApDsecfsRj8Hj2Or","block":"text","name":"XBjW"}],"background":"","id":"H5uj2Z0f","block":"group","name":"kZbT"}],"background":"","id":"Ezr9woaP","block":"group","name":"rrxM"},{"symbol":"FinalizeGroup"}],"id":""}]},"end":{"buttons":{"restart":false},"content":[{"symbol":"finishedAll"}]},"symbols":{"finishedAll":{"class":"w-full","content":[{"block":"group","class":"bg-slate-100 rounded p-5 text-center w-full","content":[{"block":"text","text":"Congratulations, you finished the activity.","class":"","name":"Congra"}],"background":"","name":"CongraGroup"},{"block":"group","class":"text-center p-5","content":[{"block":"finished","name":"finishedBlock"}],"background":"","name":"finishedGroup"}],"background":"","block":"group"},"FinalizeGroup":{"block":"group","class":"text-center mt-10","content":[{"block":"button","class":"mx-auto","to":"/end","text":"Finalize","name":"FinalizeBTN"}],"background":""}}}
+{
+  "title": "Exercise B. Guided Discovery.",
+  "clock": true,
+  "countdown": 0,
+  "attempts": 0,
+  "intro": {
+    "buttons": {
+      "start": "Start"
+    },
+    "content": []
+  },
+  "activity": {
+    "scenes": [
+      {
+        "block": "scene",
+        "name": "SC1",
+        "countdown": 0,
+        "instructions": {
+          "open": true,
+          "content": [
+            {
+              "block": "group",
+              "class": "flex gap-2 items-center",
+              "content": [
+                {
+                  "block": "audio",
+                  "class": "",
+                  "file": "files/inst.mp3",
+                  "wave": false,
+                  "autoplay": false,
+                  "id": "",
+                  "name": "Qny8"
+                },
+                {
+                  "block": "text",
+                  "class": "",
+                  "text": "Read the text infographic attentively. Take notes in your English notebook.",
+                  "id": "",
+                  "name": "6cry"
+                }
+              ]
+            }
+          ]
+        },
+        "content": [
+          {
+            "class": "text-center",
+            "content": [
+              {
+                "text": "Present Perfect",
+                "class": "text-4xl font-bold mb-4",
+                "id": "",
+                "block": "text",
+                "name": "abcd"
+              }
+            ],
+            "background": "",
+            "id": "",
+            "block": "group",
+            "name": "ijkl"
+          },
+          {
+            "class": "text-center my-5",
+            "content": [
+              {
+                "text": "When to use it?",
+                "class": "text-2xl mb-4",
+                "id": "ii5k",
+                "block": "text",
+                "name": "lBuT"
+              }
+            ],
+            "background": "",
+            "id": "JDTKuhkh",
+            "block": "group",
+            "name": "gztI",
+            "marker": ""
+          },
+          {
+            "class": "bg-slate-100 p-1 rounded grid grid-cols-1 md:grid-cols-3 gap-1",
+            "content": [
+              {
+                "class": "text-center flex flex-col gap-2 border-2 rounded border-sky-200 p-2",
+                "content": [
+                  {
+                    "text": "Talk about your life experiences",
+                    "class": "font-bold mb-4",
+                    "id": "",
+                    "block": "text",
+                    "name": "abcd"
+                  },
+                  {
+                    "text": "I <b>have studied</b> in 4 schools.",
+                    "class": "bg-white rounded",
+                    "id": "",
+                    "block": "text",
+                    "name": "abcd"
+                  },
+                  {
+                    "text": "She <b>has never been</b> to California.",
+                    "class": "bg-white rounded",
+                    "id": "",
+                    "block": "text",
+                    "name": "abcd"
+                  },
+                  {
+                    "text": "We <b>have already seen</b> the new movie.",
+                    "class": "bg-white rounded",
+                    "id": "",
+                    "block": "text",
+                    "name": "abcd"
+                  }
+                ],
+                "background": "",
+                "id": "",
+                "block": "group",
+                "name": "h4ip",
+                "marker": "🪼"
+              },
+              {
+                "class": "text-center flex flex-col gap-2 border-2 rounded border-sky-200 p-2",
+                "content": [
+                  {
+                    "text": "Talk about an action from the past that continues in the present",
+                    "class": " font-bold mb-4",
+                    "id": "",
+                    "block": "text",
+                    "name": "efgh"
+                  },
+                  {
+                    "text": "I <b>have lived</b> in Zapopan <b>since</b> 2008.",
+                    "class": "bg-white rounded",
+                    "id": "",
+                    "block": "text",
+                    "name": "ijkl"
+                  },
+                  {
+                    "text": "He <b>has worked</b> as a mechanic <b>for</b> 10 years.",
+                    "class": "bg-white rounded",
+                    "id": "",
+                    "block": "text",
+                    "name": "ijkl"
+                  },
+                  {
+                    "text": "<b>How long have</b> you <b>worked</b> in this office?",
+                    "class": "bg-white rounded",
+                    "id": "",
+                    "block": "text",
+                    "name": "ijkl"
+                  }
+                ],
+                "background": "",
+                "id": "KfpYsmqt",
+                "block": "group",
+                "name": "vifs",
+                "marker": "🪼"
+              },
+              {
+                "class": "text-center flex flex-col gap-2 border-2 rounded border-sky-200 p-2",
+                "content": [
+                  {
+                    "text": "Talk about an activity that has happened many times or just happened.",
+                    "class": " font-bold mb-4",
+                    "id": "",
+                    "block": "text",
+                    "name": "mnop"
+                  },
+                  {
+                    "text": "I <b>have already finished</b> the activity!",
+                    "class": "bg-white rounded",
+                    "id": "",
+                    "block": "text",
+                    "name": "mnop"
+                  },
+                  {
+                    "text": "We <b>have called</b> the bank 5 times today!",
+                    "class": "bg-white rounded",
+                    "id": "",
+                    "block": "text",
+                    "name": "mnop"
+                  },
+                  {
+                    "text": "She <b>hasn't answered yet</b>.",
+                    "class": "bg-white rounded",
+                    "id": "",
+                    "block": "text",
+                    "name": "mnop"
+                  }
+                ],
+                "background": "",
+                "id": "RQUvgLe0",
+                "block": "group",
+                "name": "dDxg",
+                "marker": "🪼"
+              }
+            ],
+            "background": "",
+            "id": "",
+            "block": "group",
+            "name": "PT:WXYZ",
+            "marker": "",
+            "hidden": false
+          },
+          {
+            "class": "text-center my-5",
+            "content": [
+              {
+                "text": "Time expressions",
+                "class": "text-2xl mb-4",
+                "id": "ii5kFaYO",
+                "block": "text",
+                "name": "6LlN"
+              }
+            ],
+            "background": "",
+            "id": "BbOJFN1w",
+            "block": "group",
+            "name": "Y5VQ",
+            "marker": ""
+          },
+          {
+            "class": "bg-slate-100 p-1 rounded grid grid-cols-1 md:grid-cols-3 gap-1",
+            "content": [
+              {
+                "class": "text-center flex flex-col gap-2 border-2 rounded border-sky-200 p-2",
+                "content": [
+                  {
+                    "text": "never",
+                    "class": "font-bold text-sky-500",
+                    "id": "qq16",
+                    "block": "text",
+                    "name": "F1Qp"
+                  },
+                  {
+                    "text": "I have <b>never</b> been to Russia",
+                    "class": "bg-white rounded",
+                    "id": "ReOzOskc",
+                    "block": "text",
+                    "name": "X757"
+                  },
+                  {
+                    "text": "ever",
+                    "class": "font-bold text-sky-500",
+                    "id": "E5HUF8Cx",
+                    "block": "text",
+                    "name": "AB5F"
+                  },
+                  {
+                    "text": "Have you <b>ever</b> been to Russia?",
+                    "class": "bg-white rounded",
+                    "id": "GiiC",
+                    "block": "text",
+                    "name": "I7rE"
+                  }
+                ],
+                "background": "",
+                "id": "bIoD",
+                "block": "group",
+                "name": "tFeu",
+                "marker": "🪼"
+              },
+              {
+                "class": "text-center flex flex-col gap-2 border-2 rounded border-sky-200 p-2",
+                "content": [
+                  {
+                    "text": "for",
+                    "class": "font-bold text-sky-500",
+                    "id": "UMICS0Eh",
+                    "block": "text",
+                    "name": "OJuX"
+                  },
+                  {
+                    "text": "Use to indicate a period of time",
+                    "class": "bg-white rounded",
+                    "id": "vVG7",
+                    "block": "text",
+                    "name": "1qED"
+                  },
+                  {
+                    "text": "since",
+                    "class": "font-bold text-sky-500",
+                    "id": "iSSSJbFy",
+                    "block": "text",
+                    "name": "946w"
+                  },
+                  {
+                    "text": "Use to indicate a specific point in time",
+                    "class": "bg-white rounded",
+                    "id": "bIPL",
+                    "block": "text",
+                    "name": "0XUX"
+                  },
+                  {
+                    "text": "how long",
+                    "class": "font-bold text-sky-500",
+                    "id": "bNGPp1ls",
+                    "block": "text",
+                    "name": "sqUV"
+                  },
+                  {
+                    "text": "Use in questions",
+                    "class": "bg-white rounded",
+                    "id": "fTOIZh3i",
+                    "block": "text",
+                    "name": "3OJD"
+                  }
+                ],
+                "background": "",
+                "id": "KfpYsmqtsWbI",
+                "block": "group",
+                "name": "nfbN",
+                "marker": "🪼"
+              },
+              {
+                "class": "text-center flex flex-col gap-2 border-2 rounded border-sky-200 p-2",
+                "content": [
+                  {
+                    "text": "already",
+                    "class": "font-bold text-sky-500",
+                    "id": "FF6cBuy7",
+                    "block": "text",
+                    "name": "EgbK"
+                  },
+                  {
+                    "text": "Use in affirmative sentences",
+                    "class": "bg-white rounded",
+                    "id": "VGXw",
+                    "block": "text",
+                    "name": "oEJT"
+                  },
+                  {
+                    "text": "yet",
+                    "class": "font-bold text-sky-500",
+                    "id": "HK8VsOmg",
+                    "block": "text",
+                    "name": "uFY5"
+                  },
+                  {
+                    "text": "Use in negative sentences",
+                    "class": "bg-white rounded",
+                    "id": "ziXH",
+                    "block": "text",
+                    "name": "N0r8"
+                  }
+                ],
+                "background": "",
+                "id": "RQUvgLe0E1pH",
+                "block": "group",
+                "name": "de1H",
+                "marker": "🪼"
+              }
+            ],
+            "background": "",
+            "id": "5PzWVevI",
+            "block": "group",
+            "name": "EP3U",
+            "marker": "",
+            "hidden": false
+          },
+          {
+            "class": "text-center my-5 flex flex-col",
+            "content": [
+              {
+                "text": "Structure",
+                "class": "text-2xl mb-1",
+                "id": "ii5kFaYObqQx",
+                "block": "text",
+                "name": "yQ0U"
+              },
+              {
+                "text": "have/has + verb in past participle\t\t",
+                "class": "text-lg opacity-80",
+                "id": "sbDYH4uz",
+                "block": "text",
+                "name": "asf7"
+              }
+            ],
+            "background": "",
+            "id": "7Jyf6wHg",
+            "block": "group",
+            "name": "g5wh",
+            "marker": ""
+          },
+          {
+            "class": "bg-slate-100 p-1 rounded grid grid-cols-1 md:grid-cols-3 gap-1",
+            "content": [
+              {
+                "class": "text-center flex flex-col gap-2 border-2 rounded border-sky-200 p-2",
+                "content": [
+                  {
+                    "text": "affirmative",
+                    "class": "font-bold text-teal-400",
+                    "id": "qq16QRiu",
+                    "block": "text",
+                    "name": "r80h"
+                  },
+                  {
+                    "text": "I <b>have seen</b> the new movie.",
+                    "class": "bg-white rounded",
+                    "id": "ReOzOskckqhF",
+                    "block": "text",
+                    "name": "0Eiz"
+                  },
+                  {
+                    "text": "He/She <b>has gone</b> to Europe.",
+                    "class": "bg-white rounded",
+                    "id": "Df69DlJT",
+                    "block": "text",
+                    "name": "UMIn"
+                  },
+                  {
+                    "text": "We <b>have visited</b> the US 3 times.",
+                    "class": "bg-white rounded",
+                    "id": "pDd1G3eP",
+                    "block": "text",
+                    "name": "8YIO"
+                  },
+                  {
+                    "text": "They <b>have flown</b> by airplane.",
+                    "class": "bg-white rounded",
+                    "id": "jT21oLRk",
+                    "block": "text",
+                    "name": "89Co"
+                  }
+                ],
+                "background": "",
+                "id": "bIoDXyrr",
+                "block": "group",
+                "name": "sIlJ",
+                "marker": "🪼"
+              },
+              {
+                "class": "text-center flex flex-col gap-2 border-2 rounded border-sky-200 p-2",
+                "content": [
+                  {
+                    "text": "negative",
+                    "class": "font-bold text-red-400",
+                    "id": "Ht1kSQ0C",
+                    "block": "text",
+                    "name": "ojdQ"
+                  },
+                  {
+                    "text": "I <b>have not seen</b> the new movie.",
+                    "class": "bg-white rounded",
+                    "id": "P3b964IJ",
+                    "block": "text",
+                    "name": "44sr"
+                  },
+                  {
+                    "text": "He/She <b>has not</b> gone to Europe.",
+                    "class": "bg-white rounded",
+                    "id": "En0vQgYg",
+                    "block": "text",
+                    "name": "aUQu"
+                  },
+                  {
+                    "text": "We <b>have not visited</b> the US.",
+                    "class": "bg-white rounded",
+                    "id": "afcquS4M",
+                    "block": "text",
+                    "name": "s3S2"
+                  },
+                  {
+                    "text": "They <b>have not flown</b> by airplane. ",
+                    "class": "bg-white rounded",
+                    "id": "gqkDDVRv",
+                    "block": "text",
+                    "name": "0p5a"
+                  }
+                ],
+                "background": "",
+                "id": "KfpYsmqtsWbIziXo",
+                "block": "group",
+                "name": "dsrG",
+                "marker": "🪼"
+              },
+              {
+                "class": "text-center flex flex-col gap-2 border-2 rounded border-sky-200 p-2",
+                "content": [
+                  {
+                    "text": "interrogative",
+                    "class": "font-bold text-amber-600",
+                    "id": "7kEiu8QX",
+                    "block": "text",
+                    "name": "B5Hh"
+                  },
+                  {
+                    "text": "<b>Have</b> you <b>seen</b> the new movie? <br> <small>Yes, I have; No, I haven't</small>",
+                    "class": "bg-white rounded",
+                    "id": "Fc4nvMy6",
+                    "block": "text",
+                    "name": "CLZ0"
+                  },
+                  {
+                    "text": "<b>Has</b> she <b>gone</b> to Europe?<br> <small>Yes, she has; No, she hasn't</small>",
+                    "class": "bg-white rounded",
+                    "id": "j2YdY9CF",
+                    "block": "text",
+                    "name": "VCfG"
+                  },
+                  {
+                    "text": "<b>Have</b> we <b>visited</b> the US?<br> <small>Yes, we have; No, we haven't</small>",
+                    "class": "bg-white rounded",
+                    "id": "zm36IV47",
+                    "block": "text",
+                    "name": "zR5X"
+                  },
+                  {
+                    "text": "<b>Have</b> they <b>flown</b> by airplane?<br> <small>Yes, they have; No, they haven't</small>",
+                    "class": "bg-white rounded",
+                    "id": "iz33mRdc",
+                    "block": "text",
+                    "name": "0TPc"
+                  }
+                ],
+                "background": "",
+                "id": "RQUvgLe0E1pHuHMI",
+                "block": "group",
+                "name": "odZz",
+                "marker": "🪼"
+              }
+            ],
+            "background": "",
+            "id": "9tGf3Mlp",
+            "block": "group",
+            "name": "mgxh",
+            "marker": "",
+            "hidden": false
+          },
+          {
+            "class": "text-center my-5 flex flex-col",
+            "content": [
+              {
+                "text": "Regular and irregular verbs",
+                "class": "text-2xl mb-2",
+                "id": "ii5kFaYObqQxcO5E",
+                "block": "text",
+                "name": "OadP"
+              },
+              {
+                "text": "Regular verbs end with \"ed\"",
+                "class": "text-lg opacity-80",
+                "id": "cNW9xhLU",
+                "block": "text",
+                "name": "uTeD"
+              }
+            ],
+            "background": "",
+            "id": "qHxbAkmk",
+            "block": "group",
+            "name": "wRvY",
+            "marker": ""
+          },
+          {
+            "marker": "",
+            "class": "grid grid-cols-1 md:grid-cols-3 gap-1 bg-slate-100 p-1 rounded text-center",
+            "content": [
+              {
+                "marker": "",
+                "class": "flex flex-col gap-1",
+                "content": [
+                  {
+                    "text": "Base form",
+                    "class": "text-sm",
+                    "id": "5Yw2Uh3t",
+                    "block": "text",
+                    "name": "8ulb"
+                  },
+                  {
+                    "text": "look",
+                    "class": "bg-white",
+                    "id": "J8rj",
+                    "block": "text",
+                    "name": "EKWj"
+                  },
+                  {
+                    "text": "study",
+                    "class": "bg-white",
+                    "id": "i2DXzKoh",
+                    "block": "text",
+                    "name": "faWK"
+                  },
+                  {
+                    "text": "watch",
+                    "class": "bg-white",
+                    "id": "LFcMY21u",
+                    "block": "text",
+                    "name": "Tz1W"
+                  }
+                ],
+                "background": "",
+                "id": "n0ND",
+                "block": "group",
+                "name": "mZq9"
+              },
+              {
+                "marker": "",
+                "class": "flex flex-col gap-1",
+                "content": [
+                  {
+                    "text": "Past form",
+                    "class": "text-sm",
+                    "id": "5Yw2Uh3tyOiV",
+                    "block": "text",
+                    "name": "yaEj"
+                  },
+                  {
+                    "text": "looked",
+                    "class": "bg-white",
+                    "id": "J8rjzAaC",
+                    "block": "text",
+                    "name": "pQHZ"
+                  },
+                  {
+                    "text": "studied",
+                    "class": "bg-white",
+                    "id": "i2DXzKohoLZV",
+                    "block": "text",
+                    "name": "6mdN"
+                  },
+                  {
+                    "text": "watched",
+                    "class": "bg-white",
+                    "id": "LFcMY21u1J4U",
+                    "block": "text",
+                    "name": "pfqX"
+                  }
+                ],
+                "background": "",
+                "id": "V3rythww",
+                "block": "group",
+                "name": "bBXC"
+              },
+              {
+                "marker": "",
+                "class": "flex flex-col gap-1",
+                "content": [
+                  {
+                    "text": "Past participle form",
+                    "class": "text-sm",
+                    "id": "5Yw2Uh3tyOiVgpgu",
+                    "block": "text",
+                    "name": "7bpd"
+                  },
+                  {
+                    "text": "looked",
+                    "class": "bg-white",
+                    "id": "J8rjzAaCTpVh",
+                    "block": "text",
+                    "name": "w4xQ"
+                  },
+                  {
+                    "text": "studied",
+                    "class": "bg-white",
+                    "id": "i2DXzKohoLZVUP5s",
+                    "block": "text",
+                    "name": "iNFD"
+                  },
+                  {
+                    "text": "watched",
+                    "class": "bg-white",
+                    "id": "LFcMY21u1J4Uibpx",
+                    "block": "text",
+                    "name": "TqZU"
+                  }
+                ],
+                "background": "",
+                "id": "Qd3iuC4q",
+                "block": "group",
+                "name": "YXNp"
+              }
+            ],
+            "background": "",
+            "id": "7lgO",
+            "block": "group",
+            "name": "yO09"
+          },
+          {
+            "class": "text-center my-5 flex flex-col",
+            "content": [
+              {
+                "text": "Irregular verbs don't have a fixed ending",
+                "class": "text-lg opacity-80",
+                "id": "cNW9xhLUeoGV",
+                "block": "text",
+                "name": "JWM4"
+              }
+            ],
+            "background": "",
+            "id": "EkMZTx9Q",
+            "block": "group",
+            "name": "pMUY",
+            "marker": ""
+          },
+          {
+            "marker": "",
+            "class": "grid grid-cols-1 md:grid-cols-3 gap-1 bg-slate-100 p-1 rounded text-center",
+            "content": [
+              {
+                "marker": "",
+                "class": "flex flex-col gap-1",
+                "content": [
+                  {
+                    "text": "go",
+                    "class": "bg-white",
+                    "id": "J8rjuwfy",
+                    "block": "text",
+                    "name": "Ay7D"
+                  },
+                  {
+                    "text": "sleep",
+                    "class": "bg-white",
+                    "id": "i2DXzKohJRDT",
+                    "block": "text",
+                    "name": "yn3W"
+                  },
+                  {
+                    "text": "be",
+                    "class": "bg-white",
+                    "id": "LFcMY21uJSQ7",
+                    "block": "text",
+                    "name": "5zeX"
+                  },
+                  {
+                    "text": "see",
+                    "class": "bg-white",
+                    "id": "iaeesoka",
+                    "block": "text",
+                    "name": "baAu"
+                  },
+                  {
+                    "text": "write",
+                    "class": "bg-white",
+                    "id": "ApDsecfs",
+                    "block": "text",
+                    "name": "MuPn"
+                  }
+                ],
+                "background": "",
+                "id": "n0NDqX34",
+                "block": "group",
+                "name": "qFzU"
+              },
+              {
+                "marker": "",
+                "class": "flex flex-col gap-1",
+                "content": [
+                  {
+                    "text": "went",
+                    "class": "bg-white",
+                    "id": "J8rjuwfyIfU3",
+                    "block": "text",
+                    "name": "rN73"
+                  },
+                  {
+                    "text": "slept",
+                    "class": "bg-white",
+                    "id": "i2DXzKohJRDT1Z9r",
+                    "block": "text",
+                    "name": "f2fe"
+                  },
+                  {
+                    "text": "was/were",
+                    "class": "bg-white",
+                    "id": "LFcMY21uJSQ7WbBg",
+                    "block": "text",
+                    "name": "ONsO"
+                  },
+                  {
+                    "text": "saw",
+                    "class": "bg-white",
+                    "id": "iaeesokabfup",
+                    "block": "text",
+                    "name": "rNXZ"
+                  },
+                  {
+                    "text": "wrote",
+                    "class": "bg-white",
+                    "id": "ApDsecfsRj8H",
+                    "block": "text",
+                    "name": "rmdE"
+                  }
+                ],
+                "background": "",
+                "id": "xXEMJgYM",
+                "block": "group",
+                "name": "1AOB"
+              },
+              {
+                "marker": "",
+                "class": "flex flex-col gap-1",
+                "content": [
+                  {
+                    "text": "gone",
+                    "class": "bg-white",
+                    "id": "J8rjuwfyIfU3tcVV",
+                    "block": "text",
+                    "name": "x93I"
+                  },
+                  {
+                    "text": "slept",
+                    "class": "bg-white",
+                    "id": "i2DXzKohJRDT1Z9r0nhF",
+                    "block": "text",
+                    "name": "m4s5"
+                  },
+                  {
+                    "text": "been",
+                    "class": "bg-white",
+                    "id": "LFcMY21uJSQ7WbBgBRlG",
+                    "block": "text",
+                    "name": "IahB"
+                  },
+                  {
+                    "text": "seen",
+                    "class": "bg-white",
+                    "id": "iaeesokabfupjPdL",
+                    "block": "text",
+                    "name": "2WzI"
+                  },
+                  {
+                    "text": "written",
+                    "class": "bg-white",
+                    "id": "ApDsecfsRj8Hj2Or",
+                    "block": "text",
+                    "name": "XBjW"
+                  }
+                ],
+                "background": "",
+                "id": "H5uj2Z0f",
+                "block": "group",
+                "name": "kZbT"
+              }
+            ],
+            "background": "",
+            "id": "Ezr9woaP",
+            "block": "group",
+            "name": "rrxM"
+          },
+          {
+            "symbol": "FinalizeGroup"
+          }
+        ],
+        "id": ""
+      }
+    ]
+  },
+  "end": {
+    "buttons": {
+      "restart": false
+    },
+    "content": [
+      {
+        "symbol": "finishedAll"
+      }
+    ]
+  },
+  "symbols": {
+    "finishedAll": {
+      "class": "w-full",
+      "content": [
+        {
+          "block": "group",
+          "class": "bg-slate-100 rounded p-5 text-center w-full",
+          "content": [
+            {
+              "block": "text",
+              "text": "Congratulations, you finished the activity.",
+              "class": "",
+              "name": "Congra"
+            }
+          ],
+          "background": "",
+          "name": "CongraGroup"
+        },
+        {
+          "block": "group",
+          "class": "text-center p-5",
+          "content": [
+            {
+              "block": "finished",
+              "name": "finishedBlock"
+            }
+          ],
+          "background": "",
+          "name": "finishedGroup"
+        }
+      ],
+      "background": "",
+      "block": "group"
+    },
+    "FinalizeGroup": {
+      "block": "group",
+      "class": "text-center mt-10",
+      "content": [
+        {
+          "block": "button",
+          "class": "mx-auto",
+          "to": "/end",
+          "text": "Finalize",
+          "name": "FinalizeBTN"
+        }
+      ],
+      "background": ""
+    }
+  }
+}
