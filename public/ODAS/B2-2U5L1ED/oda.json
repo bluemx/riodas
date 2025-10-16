@@ -1,1 +1,552 @@
-{"title":" Assessment vocabulary.","clock":true,"countdown":0,"attempts":0,"intro":{"buttons":{"start":"Start"},"content":[]},"activity":{"scenes":[{"block":"scene","name":"SC1","countdown":0,"instructions":{"open":true,"content":[{"block":"group","class":"flex gap-2 items-center","content":[{"block":"audio","class":"","file":"files/INS.mp3"},{"block":"text","class":"","text":"Complete the sentences to make them true about you. You can write them in affirmative or negative form."}]}]},"content":[{"marker":"📒","class":"bg-slate-100 rounded p-2 max-w-5xl mx-auto","content":[{"marker":"","class":"mask mask-squircle p-2 bg-sky-900 flex justify-center","content":[{"file":"files/B2-2U5L1ED-IMG-01-2.jpg","class":"w-3/4 mask mask-squircle","id":"HpU3","block":"image","name":"6wcM"}],"background":"","id":"GLiU","block":"group","name":"xkUW"},{"marker":"","class":"","content":[{"marker":"","class":" bg-slate-50 p-5 rounded-lg border-sky-500 border-4 text-2xl p-1 my-1","content":[{"marker":"","class":"","content":[{"text":"1. If I had had more siblings…","class":"","id":"Cg4Y","block":"text","name":"g0Xc"},{"marker":"","class":"","content":[{"case":false,"evaluation":"manual","class":" !min-h-[100px] p-5","positive":"}","multiline":true,"placeholder":"-","showResult":false,"id":"R8ZA","block":"textarea","name":"rkJL","maxlength":100,"attempts":0}],"background":"","id":"69Gi","block":"group","name":"fhy8"}],"background":"","id":"1ZS6","block":"group","name":"vWSC"}],"background":"","id":"aXuw","block":"group","name":"Eoqd"},{"marker":"","class":" bg-slate-50 p-5 rounded-lg border-sky-500 border-4 text-2xl p-1 my-1","content":[{"marker":"","class":"","content":[{"text":"2. If I had decided to play a different sport…","class":"","id":"Cg4Yu8Uf","block":"text","name":"I5nX"},{"marker":"","class":"","content":[{"case":false,"evaluation":"manual","class":" !min-h-[100px] p-5","positive":"","multiline":false,"placeholder":"-","showResult":false,"id":"SmDT","block":"textarea","name":"rE7K","maxlength":100,"attempts":0}],"background":"","id":"69GiKcUR","block":"group","name":"qn6i"}],"background":"","id":"1ZS6wIvg","block":"group","name":"OKTU"}],"background":"","id":"aXuw7rIO","block":"group","name":"55g0"},{"marker":"","class":" bg-slate-50 p-5 rounded-lg border-sky-500 border-4 text-2xl p-1 my-1","content":[{"marker":"","class":"","content":[{"text":"3. If I had studied harder for the previous test…","class":"","id":"Cg4YGbel","block":"text","name":"to6I"},{"marker":"","class":"","content":[{"case":false,"evaluation":"manual","class":" !min-h-[100px] p-5","positive":"light bulb","multiline":false,"placeholder":"-","showResult":false,"id":"OKyX","block":"textarea","name":"2FUt","maxlength":20,"attempts":0}],"background":"","id":"69GicQRd","block":"group","name":"5Yjk"}],"background":"","id":"1ZS697Se","block":"group","name":"u17U"}],"background":"","id":"aXuwCcGV","block":"group","name":"Cs8J"},{"marker":"","class":" bg-slate-50 p-5 rounded-lg border-sky-500 border-4 text-2xl p-1 my-1","content":[{"marker":"","class":"","content":[{"text":"4. If I had gone to a different primary school….","class":"","id":"Cg4Yg4Q4","block":"text","name":"5d5M"},{"marker":"","class":"","content":[{"case":false,"evaluation":"manual","class":" !min-h-[100px] p-5","positive":"","multiline":false,"placeholder":"-","showResult":false,"id":"Xed2","block":"textarea","name":"sCZw","maxlength":100,"attempts":0}],"background":"","id":"69GicnoD","block":"group","name":"fxgr"}],"background":"","id":"1ZS6lrFv","block":"group","name":"2UUf"}],"background":"","id":"aXuwqDpp","block":"group","name":"oCey"},{"marker":"","class":" bg-slate-50 p-5 rounded-lg border-sky-500 border-4 text-2xl p-1 my-1","content":[{"marker":"","class":"","content":[{"text":"5. If I had escaped from home….","class":"","id":"Cg4Y8jO9gYg8","block":"text","name":"fXjH"},{"marker":"","class":"","content":[{"case":false,"evaluation":"manual","class":" !min-h-[100px] p-5","positive":"","multiline":false,"placeholder":"-","showResult":false,"id":"hOQDb0u2","block":"textarea","name":"wphg","maxlength":100,"attempts":0}],"background":"","id":"69GicPsDBMwp","block":"group","name":"kKcU"}],"background":"","id":"1ZS62xrmUQ3d","block":"group","name":"NCTv"}],"background":"","id":"aXuwGx1biwhx","block":"group","name":"KTSf"},{"marker":"","class":" bg-slate-50 p-5 rounded-lg border-sky-500 border-4 text-2xl p-1 my-1","content":[{"marker":"","class":"","content":[{"text":"6. If my parents had let me do anything I wanted to do…","class":"","id":"Cg4Y8jO9gYg8kiGs","block":"text","name":"yQbF"},{"marker":"","class":"","content":[{"case":false,"evaluation":"manual","class":" !min-h-[100px] p-5","positive":"","multiline":false,"placeholder":"-","showResult":false,"id":"hOQDb0u2Wedq","block":"textarea","name":"jxZv","maxlength":100,"attempts":0}],"background":"","id":"69GicPsDBMwpyst7","block":"group","name":"MLsQ"}],"background":"","id":"1ZS62xrmUQ3dy1YL","block":"group","name":"5wvA"}],"background":"","id":"vVuHaryw","block":"group","name":"PoT1"},{"marker":"","class":" bg-slate-50 p-5 rounded-lg border-sky-500 border-4 text-2xl p-1 my-1","content":[{"marker":"","class":"","content":[{"text":"7. If my friends had been mean to me…","class":"","id":"Cg4Y8jO9gYg8kiGs2DQ1","block":"text","name":"3clj"},{"marker":"","class":"","content":[{"case":false,"evaluation":"manual","class":" !min-h-[100px] p-5","positive":"","multiline":false,"placeholder":"-","showResult":false,"id":"hOQDb0u2WedqaHfQ","block":"textarea","name":"m4Ij","maxlength":100,"attempts":0}],"background":"","id":"69GicPsDBMwpyst7fbBU","block":"group","name":"ZLcn"}],"background":"","id":"1ZS62xrmUQ3dy1YLReGy","block":"group","name":"neaK"}],"background":"","id":"uwSktrTL","block":"group","name":"JeD5"},{"marker":"","class":" bg-slate-50 p-5 rounded-lg border-sky-500 border-4 text-2xl p-1 my-1","content":[{"marker":"","class":"","content":[{"text":"8. If I had gone to therapy…","class":"","id":"Cg4Y8jO9gYg8kiGs2DQ1D3uK","block":"text","name":"yHp5"},{"marker":"","class":"","content":[{"case":false,"evaluation":"manual","class":" !min-h-[100px] p-5","positive":"","multiline":false,"placeholder":"-","showResult":false,"id":"hOQDb0u2WedqaHfQ1Pur","block":"textarea","name":"4tjO","maxlength":100,"attempts":0}],"background":"","id":"69GicPsDBMwpyst7fbBUzVsQ","block":"group","name":"BwAz"}],"background":"","id":"1ZS62xrmUQ3dy1YLReGyiUqm","block":"group","name":"rxwa"}],"background":"","id":"77siMy9t","block":"group","name":"j4hw"}],"background":"","id":"zRU7","block":"group","name":"dWJ3","hidden":false}],"background":"","id":"gpo1","block":"group","name":"gpo1"},{"symbol":"FinalizeGroup"}]}]},"end":{"buttons":{"restart":false},"content":[{"symbol":"finishedAll"}]},"symbols":{"finishedAll":{"class":"w-full","content":[{"block":"group","class":"bg-slate-100 rounded p-5 text-center w-full","content":[{"block":"text","text":"Congratulations, you finished the activity.","class":"","name":"Congra"}],"background":"","name":"CongraGroup"},{"block":"group","class":"text-center p-5","content":[{"block":"finished","name":"finishedBlock"}],"background":"","name":"finishedGroup"}],"background":"","block":"group"},"FinalizeGroup":{"block":"group","class":"text-center mt-10","content":[{"block":"button","class":"mx-auto","to":"/end","text":"Finalize","name":"FinalizeBTN"}],"background":""}}}
+{
+  "title": " Assessment vocabulary.",
+  "clock": true,
+  "countdown": 0,
+  "attempts": 0,
+  "intro": {
+    "buttons": {
+      "start": "Start"
+    },
+    "content": []
+  },
+  "activity": {
+    "scenes": [
+      {
+        "block": "scene",
+        "name": "SC1",
+        "countdown": 0,
+        "instructions": {
+          "open": true,
+          "content": [
+            {
+              "block": "group",
+              "class": "flex gap-2 items-center",
+              "content": [
+                {
+                  "block": "audio",
+                  "class": "",
+                  "file": "files/INS.mp3"
+                },
+                {
+                  "block": "text",
+                  "class": "",
+                  "text": "Complete the sentences to make them true about you. You can write them in affirmative or negative form."
+                }
+              ]
+            }
+          ]
+        },
+        "content": [
+          {
+            "marker": "📒",
+            "class": "bg-slate-100 rounded p-2 max-w-5xl mx-auto",
+            "content": [
+              {
+                "marker": "",
+                "class": "mask mask-squircle p-2 bg-sky-900 flex justify-center",
+                "content": [
+                  {
+                    "file": "files/B2-2U5L1ED-IMG-01-2.jpg",
+                    "class": "w-3/4 mask mask-squircle",
+                    "id": "HpU3",
+                    "block": "image",
+                    "name": "6wcM"
+                  }
+                ],
+                "background": "",
+                "id": "GLiU",
+                "block": "group",
+                "name": "xkUW"
+              },
+              {
+                "marker": "",
+                "class": "",
+                "content": [
+                  {
+                    "marker": "",
+                    "class": " bg-slate-50 p-5 rounded-lg border-sky-500 border-4 text-2xl p-1 my-1",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "",
+                        "content": [
+                          {
+                            "text": "1. If I had had more siblings…",
+                            "class": "",
+                            "id": "Cg4Y",
+                            "block": "text",
+                            "name": "g0Xc"
+                          },
+                          {
+                            "marker": "",
+                            "class": "",
+                            "content": [
+                              {
+                                "case": false,
+                                "evaluation": "manual",
+                                "class": " !min-h-[100px] p-5",
+                                "positive": "}",
+                                "multiline": true,
+                                "placeholder": "-",
+                                "showResult": false,
+                                "id": "R8ZA",
+                                "block": "textarea",
+                                "name": "rkJL",
+                                "maxlength": 100,
+                                "attempts": 0
+                              }
+                            ],
+                            "background": "",
+                            "id": "69Gi",
+                            "block": "group",
+                            "name": "fhy8"
+                          }
+                        ],
+                        "background": "",
+                        "id": "1ZS6",
+                        "block": "group",
+                        "name": "vWSC"
+                      }
+                    ],
+                    "background": "",
+                    "id": "aXuw",
+                    "block": "group",
+                    "name": "Eoqd"
+                  },
+                  {
+                    "marker": "",
+                    "class": " bg-slate-50 p-5 rounded-lg border-sky-500 border-4 text-2xl p-1 my-1",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "",
+                        "content": [
+                          {
+                            "text": "2. If I had decided to play a different sport…",
+                            "class": "",
+                            "id": "Cg4Yu8Uf",
+                            "block": "text",
+                            "name": "I5nX"
+                          },
+                          {
+                            "marker": "",
+                            "class": "",
+                            "content": [
+                              {
+                                "case": false,
+                                "evaluation": "manual",
+                                "class": " !min-h-[100px] p-5",
+                                "positive": "",
+                                "multiline": false,
+                                "placeholder": "-",
+                                "showResult": false,
+                                "id": "SmDT",
+                                "block": "textarea",
+                                "name": "rE7K",
+                                "maxlength": 100,
+                                "attempts": 0
+                              }
+                            ],
+                            "background": "",
+                            "id": "69GiKcUR",
+                            "block": "group",
+                            "name": "qn6i"
+                          }
+                        ],
+                        "background": "",
+                        "id": "1ZS6wIvg",
+                        "block": "group",
+                        "name": "OKTU"
+                      }
+                    ],
+                    "background": "",
+                    "id": "aXuw7rIO",
+                    "block": "group",
+                    "name": "55g0"
+                  },
+                  {
+                    "marker": "",
+                    "class": " bg-slate-50 p-5 rounded-lg border-sky-500 border-4 text-2xl p-1 my-1",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "",
+                        "content": [
+                          {
+                            "text": "3. If I had studied harder for the previous test…",
+                            "class": "",
+                            "id": "Cg4YGbel",
+                            "block": "text",
+                            "name": "to6I"
+                          },
+                          {
+                            "marker": "",
+                            "class": "",
+                            "content": [
+                              {
+                                "case": false,
+                                "evaluation": "manual",
+                                "class": " !min-h-[100px] p-5",
+                                "positive": "light bulb",
+                                "multiline": false,
+                                "placeholder": "-",
+                                "showResult": false,
+                                "id": "OKyX",
+                                "block": "textarea",
+                                "name": "2FUt",
+                                "maxlength": 100,
+                                "attempts": 0
+                              }
+                            ],
+                            "background": "",
+                            "id": "69GicQRd",
+                            "block": "group",
+                            "name": "5Yjk"
+                          }
+                        ],
+                        "background": "",
+                        "id": "1ZS697Se",
+                        "block": "group",
+                        "name": "u17U"
+                      }
+                    ],
+                    "background": "",
+                    "id": "aXuwCcGV",
+                    "block": "group",
+                    "name": "Cs8J"
+                  },
+                  {
+                    "marker": "",
+                    "class": " bg-slate-50 p-5 rounded-lg border-sky-500 border-4 text-2xl p-1 my-1",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "",
+                        "content": [
+                          {
+                            "text": "4. If I had gone to a different primary school….",
+                            "class": "",
+                            "id": "Cg4Yg4Q4",
+                            "block": "text",
+                            "name": "5d5M"
+                          },
+                          {
+                            "marker": "",
+                            "class": "",
+                            "content": [
+                              {
+                                "case": false,
+                                "evaluation": "manual",
+                                "class": " !min-h-[100px] p-5",
+                                "positive": "",
+                                "multiline": false,
+                                "placeholder": "-",
+                                "showResult": false,
+                                "id": "Xed2",
+                                "block": "textarea",
+                                "name": "sCZw",
+                                "maxlength": 100,
+                                "attempts": 0
+                              }
+                            ],
+                            "background": "",
+                            "id": "69GicnoD",
+                            "block": "group",
+                            "name": "fxgr"
+                          }
+                        ],
+                        "background": "",
+                        "id": "1ZS6lrFv",
+                        "block": "group",
+                        "name": "2UUf"
+                      }
+                    ],
+                    "background": "",
+                    "id": "aXuwqDpp",
+                    "block": "group",
+                    "name": "oCey"
+                  },
+                  {
+                    "marker": "",
+                    "class": " bg-slate-50 p-5 rounded-lg border-sky-500 border-4 text-2xl p-1 my-1",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "",
+                        "content": [
+                          {
+                            "text": "5. If I had escaped from home….",
+                            "class": "",
+                            "id": "Cg4Y8jO9gYg8",
+                            "block": "text",
+                            "name": "fXjH"
+                          },
+                          {
+                            "marker": "",
+                            "class": "",
+                            "content": [
+                              {
+                                "case": false,
+                                "evaluation": "manual",
+                                "class": " !min-h-[100px] p-5",
+                                "positive": "",
+                                "multiline": false,
+                                "placeholder": "-",
+                                "showResult": false,
+                                "id": "hOQDb0u2",
+                                "block": "textarea",
+                                "name": "wphg",
+                                "maxlength": 100,
+                                "attempts": 0
+                              }
+                            ],
+                            "background": "",
+                            "id": "69GicPsDBMwp",
+                            "block": "group",
+                            "name": "kKcU"
+                          }
+                        ],
+                        "background": "",
+                        "id": "1ZS62xrmUQ3d",
+                        "block": "group",
+                        "name": "NCTv"
+                      }
+                    ],
+                    "background": "",
+                    "id": "aXuwGx1biwhx",
+                    "block": "group",
+                    "name": "KTSf"
+                  },
+                  {
+                    "marker": "",
+                    "class": " bg-slate-50 p-5 rounded-lg border-sky-500 border-4 text-2xl p-1 my-1",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "",
+                        "content": [
+                          {
+                            "text": "6. If my parents had let me do anything I wanted to do…",
+                            "class": "",
+                            "id": "Cg4Y8jO9gYg8kiGs",
+                            "block": "text",
+                            "name": "yQbF"
+                          },
+                          {
+                            "marker": "",
+                            "class": "",
+                            "content": [
+                              {
+                                "case": false,
+                                "evaluation": "manual",
+                                "class": " !min-h-[100px] p-5",
+                                "positive": "",
+                                "multiline": false,
+                                "placeholder": "-",
+                                "showResult": false,
+                                "id": "hOQDb0u2Wedq",
+                                "block": "textarea",
+                                "name": "jxZv",
+                                "maxlength": 100,
+                                "attempts": 0
+                              }
+                            ],
+                            "background": "",
+                            "id": "69GicPsDBMwpyst7",
+                            "block": "group",
+                            "name": "MLsQ"
+                          }
+                        ],
+                        "background": "",
+                        "id": "1ZS62xrmUQ3dy1YL",
+                        "block": "group",
+                        "name": "5wvA"
+                      }
+                    ],
+                    "background": "",
+                    "id": "vVuHaryw",
+                    "block": "group",
+                    "name": "PoT1"
+                  },
+                  {
+                    "marker": "",
+                    "class": " bg-slate-50 p-5 rounded-lg border-sky-500 border-4 text-2xl p-1 my-1",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "",
+                        "content": [
+                          {
+                            "text": "7. If my friends had been mean to me…",
+                            "class": "",
+                            "id": "Cg4Y8jO9gYg8kiGs2DQ1",
+                            "block": "text",
+                            "name": "3clj"
+                          },
+                          {
+                            "marker": "",
+                            "class": "",
+                            "content": [
+                              {
+                                "case": false,
+                                "evaluation": "manual",
+                                "class": " !min-h-[100px] p-5",
+                                "positive": "",
+                                "multiline": false,
+                                "placeholder": "-",
+                                "showResult": false,
+                                "id": "hOQDb0u2WedqaHfQ",
+                                "block": "textarea",
+                                "name": "m4Ij",
+                                "maxlength": 100,
+                                "attempts": 0
+                              }
+                            ],
+                            "background": "",
+                            "id": "69GicPsDBMwpyst7fbBU",
+                            "block": "group",
+                            "name": "ZLcn"
+                          }
+                        ],
+                        "background": "",
+                        "id": "1ZS62xrmUQ3dy1YLReGy",
+                        "block": "group",
+                        "name": "neaK"
+                      }
+                    ],
+                    "background": "",
+                    "id": "uwSktrTL",
+                    "block": "group",
+                    "name": "JeD5"
+                  },
+                  {
+                    "marker": "",
+                    "class": " bg-slate-50 p-5 rounded-lg border-sky-500 border-4 text-2xl p-1 my-1",
+                    "content": [
+                      {
+                        "marker": "",
+                        "class": "",
+                        "content": [
+                          {
+                            "text": "8. If I had gone to therapy…",
+                            "class": "",
+                            "id": "Cg4Y8jO9gYg8kiGs2DQ1D3uK",
+                            "block": "text",
+                            "name": "yHp5"
+                          },
+                          {
+                            "marker": "",
+                            "class": "",
+                            "content": [
+                              {
+                                "case": false,
+                                "evaluation": "manual",
+                                "class": " !min-h-[100px] p-5",
+                                "positive": "",
+                                "multiline": false,
+                                "placeholder": "-",
+                                "showResult": false,
+                                "id": "hOQDb0u2WedqaHfQ1Pur",
+                                "block": "textarea",
+                                "name": "4tjO",
+                                "maxlength": 100,
+                                "attempts": 0
+                              }
+                            ],
+                            "background": "",
+                            "id": "69GicPsDBMwpyst7fbBUzVsQ",
+                            "block": "group",
+                            "name": "BwAz"
+                          }
+                        ],
+                        "background": "",
+                        "id": "1ZS62xrmUQ3dy1YLReGyiUqm",
+                        "block": "group",
+                        "name": "rxwa"
+                      }
+                    ],
+                    "background": "",
+                    "id": "77siMy9t",
+                    "block": "group",
+                    "name": "j4hw"
+                  }
+                ],
+                "background": "",
+                "id": "zRU7",
+                "block": "group",
+                "name": "dWJ3",
+                "hidden": false
+              }
+            ],
+            "background": "",
+            "id": "gpo1",
+            "block": "group",
+            "name": "gpo1"
+          },
+          {
+            "symbol": "FinalizeGroup"
+          }
+        ]
+      }
+    ]
+  },
+  "end": {
+    "buttons": {
+      "restart": false
+    },
+    "content": [
+      {
+        "symbol": "finishedAll"
+      }
+    ]
+  },
+  "symbols": {
+    "finishedAll": {
+      "class": "w-full",
+      "content": [
+        {
+          "block": "group",
+          "class": "bg-slate-100 rounded p-5 text-center w-full",
+          "content": [
+            {
+              "block": "text",
+              "text": "Congratulations, you finished the activity.",
+              "class": "",
+              "name": "Congra"
+            }
+          ],
+          "background": "",
+          "name": "CongraGroup"
+        },
+        {
+          "block": "group",
+          "class": "text-center p-5",
+          "content": [
+            {
+              "block": "finished",
+              "name": "finishedBlock"
+            }
+          ],
+          "background": "",
+          "name": "finishedGroup"
+        }
+      ],
+      "background": "",
+      "block": "group"
+    },
+    "FinalizeGroup": {
+      "block": "group",
+      "class": "text-center mt-10",
+      "content": [
+        {
+          "block": "button",
+          "class": "mx-auto",
+          "to": "/end",
+          "text": "Finalize",
+          "name": "FinalizeBTN"
+        }
+      ],
+      "background": ""
+    }
+  }
+}
