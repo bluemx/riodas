@@ -1,1 +1,228 @@
-{"title":"Reading (text)","clock":true,"countdown":0,"intro":{"buttons":{"start":"Start"},"content":[]},"activity":{"scenes":[{"block":"scene","name":"SC1","countdown":0,"instructions":{"open":true,"content":[{"block":"group","class":"flex gap-2 items-center","content":[{"block":"audio","class":"","file":"files/inst.mp3","wave":false,"autoplay":false,"id":"","name":"JPS0"},{"block":"text","class":"","text":"Read the following text","id":"","name":"38jb"}]}]},"content":[{"block":"group","class":"bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto","content":[{"marker":"","class":"text-lg grid grid-cols-2 gap-4 flex justify-center items-center","content":[{"text":"June 24, 2022<br>We have explored Australia for 2 weeks now. We left early in the morning and took a 140 km drive from Melbourne. After 1 hour and 45 minutes we arrived at the majestic Phillip Island, home to a hundred different species of animals and of around 7000 people. Although it is a small island it has scientific, historic and archaeological importance","class":"","id":"MCuLqcHR","block":"text","name":"B33f"},{"marker":"","class":"flex justify-center ","content":[{"file":"files/img01.jpg","class":"mask mask-squircle w-3/4","id":"k77B","block":"image","name":"cmQV"}],"background":"","id":"fb44","block":"group","name":"XFDN"},{"marker":"","class":"flex justify-center ","content":[{"file":"files/img02.jpg","class":"mask mask-squircle w-3/4","id":"e90mHcyi","block":"image","name":"0l8F"}],"background":"","id":"wMOA","block":"group","name":"9vR2"},{"text":"Phillip Island was the favorite spot for fishing, hunting and foraging for the Bunurong people. The firsts Australian would cross over in the Summer months when wildlife was the most abundant. Phillip Island Nature Parks work hard to preserve these areas because of the cultural importance.","class":"","id":"GMQk","block":"text","name":"iJ6B"},{"text":"As we walked through the island, I noticed the absence of housing. This was because that area is part of the National Park. Penguins who have not gone fishing, hide in some man made burrows. We were able to spot a few Little Penguins sleeping in the burrows.  As we kept walking we arrived at the “Blowhole” where huge waves crash into the volcanic rock.","class":"","id":"AciKpHy4","block":"text","name":"LlLF"},{"marker":"","class":"flex justify-center ","content":[{"file":"files/img03.jpg","class":"mask mask-squircle w-3/4","id":"GEWGXRmu","block":"image","name":"DBpH"}],"background":"","id":"bzzY","block":"group","name":"2j4x"},{"marker":"","class":"flex justify-center ","content":[{"file":"files/img04.jpg","class":"mask mask-squircle w-3/4","id":"KDOE797b","block":"image","name":"tS6A"}],"background":"","id":"PhiS","block":"group","name":"DtvW"},{"text":"As the sun began to set,  we made our way to the Penguin Parade. The Little Penguins only come out after the sun has gone down to stay away from predators in the air above them. We were not allowed to take any photographs as camera flashes could hurt the penguins sensitive eyes and scare them away. This was such an amazing day.","class":"","id":"SCbBkLei","block":"text","name":"JfNX"}],"background":"","id":"aI2I","block":"group","name":"T0NI"}],"background":"","name":"4Cs6","hidden":false},{"symbol":"FinalizeGroup"}],"id":""}]},"end":{"buttons":{"restart":false},"content":[{"symbol":"finishedAll"}]},"symbols":{"finishedAll":{"class":"w-full","content":[{"block":"group","class":"bg-slate-100 rounded p-5 text-center w-full","content":[{"block":"text","text":"Congratulations, you finished the activity.","class":"","name":"Congra"}],"background":"","name":"CongraGroup"},{"block":"group","class":"text-center p-5","content":[{"block":"finished","name":"finishedBlock"}],"background":"","name":"finishedGroup"}],"background":"","block":"group"},"FinalizeGroup":{"block":"group","class":"text-center mt-10","content":[{"block":"button","class":"mx-auto","to":"/end","text":"Finalize","name":"FinalizeBTN"}],"background":""}}}
+{
+  "title": "Reading (text)",
+  "clock": true,
+  "countdown": 0,
+  "intro": {
+    "buttons": {
+      "start": "Start"
+    },
+    "content": []
+  },
+  "activity": {
+    "scenes": [
+      {
+        "block": "scene",
+        "name": "SC1",
+        "countdown": 0,
+        "instructions": {
+          "open": true,
+          "content": [
+            {
+              "block": "group",
+              "class": "flex gap-2 items-center",
+              "content": [
+                {
+                  "block": "audio",
+                  "class": "",
+                  "file": "files/inst.mp3",
+                  "wave": false,
+                  "autoplay": false,
+                  "id": "",
+                  "name": "JPS0"
+                },
+                {
+                  "block": "text",
+                  "class": "",
+                  "text": "Read the following text",
+                  "id": "",
+                  "name": "38jb"
+                }
+              ]
+            }
+          ]
+        },
+        "content": [
+          {
+            "block": "group",
+            "class": "bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto",
+            "content": [
+              {
+                "marker": "",
+                "class": "text-lg grid grid-cols-2 gap-4 flex justify-center items-center",
+                "content": [
+                  {
+                    "text": "June 24, 2022<br>We have explored Australia for 2 weeks now. We left early in the morning and took a 140 km drive from Melbourne. After 1 hour and 45 minutes we arrived at the majestic Phillip Island, home to a hundred different species of animals and around 7000 people. Although it is a small island it has scientific, historic and archaeological importance",
+                    "class": "",
+                    "id": "MCuLqcHR",
+                    "block": "text",
+                    "name": "B33f"
+                  },
+                  {
+                    "marker": "",
+                    "class": "flex justify-center ",
+                    "content": [
+                      {
+                        "file": "files/img01.jpg",
+                        "class": "mask mask-squircle w-3/4",
+                        "id": "k77B",
+                        "block": "image",
+                        "name": "cmQV"
+                      }
+                    ],
+                    "background": "",
+                    "id": "fb44",
+                    "block": "group",
+                    "name": "XFDN"
+                  },
+                  {
+                    "marker": "",
+                    "class": "flex justify-center ",
+                    "content": [
+                      {
+                        "file": "files/img02.jpg",
+                        "class": "mask mask-squircle w-3/4",
+                        "id": "e90mHcyi",
+                        "block": "image",
+                        "name": "0l8F"
+                      }
+                    ],
+                    "background": "",
+                    "id": "wMOA",
+                    "block": "group",
+                    "name": "9vR2"
+                  },
+                  {
+                    "text": "Phillip Island was the favorite spot for fishing, hunting and foraging for the Bunurong people. The first Australians would cross over in the Summer months when wildlife was the most abundant. Phillip Island Nature Parks work hard to preserve these areas because of the cultural importance.",
+                    "class": "",
+                    "id": "GMQk",
+                    "block": "text",
+                    "name": "iJ6B"
+                  },
+                  {
+                    "text": "As we walked through the island, I noticed the absence of housing. This was because that area is part of the National Park. Penguins who have not gone fishing, hide in some man made burrows. We were able to spot a few Little Penguins sleeping in the burrows.  As we kept walking we arrived at the “Blowhole” where huge waves crash into the volcanic rock.",
+                    "class": "",
+                    "id": "AciKpHy4",
+                    "block": "text",
+                    "name": "LlLF"
+                  },
+                  {
+                    "marker": "",
+                    "class": "flex justify-center ",
+                    "content": [
+                      {
+                        "file": "files/img03.jpg",
+                        "class": "mask mask-squircle w-3/4",
+                        "id": "GEWGXRmu",
+                        "block": "image",
+                        "name": "DBpH"
+                      }
+                    ],
+                    "background": "",
+                    "id": "bzzY",
+                    "block": "group",
+                    "name": "2j4x"
+                  },
+                  {
+                    "marker": "",
+                    "class": "flex justify-center ",
+                    "content": [
+                      {
+                        "file": "files/img04.jpg",
+                        "class": "mask mask-squircle w-3/4",
+                        "id": "KDOE797b",
+                        "block": "image",
+                        "name": "tS6A"
+                      }
+                    ],
+                    "background": "",
+                    "id": "PhiS",
+                    "block": "group",
+                    "name": "DtvW"
+                  },
+                  {
+                    "text": "As the sun began to set,  we made our way to the Penguin Parade. The Little Penguins only come out after the sun has gone down to stay away from predators in the air above them. We were not allowed to take any photographs as camera flashes could hurt the penguins sensitive eyes and scare them away. This was such an amazing day.",
+                    "class": "",
+                    "id": "SCbBkLei",
+                    "block": "text",
+                    "name": "JfNX"
+                  }
+                ],
+                "background": "",
+                "id": "aI2I",
+                "block": "group",
+                "name": "T0NI"
+              }
+            ],
+            "background": "",
+            "name": "4Cs6",
+            "hidden": false
+          },
+          {
+            "symbol": "FinalizeGroup"
+          }
+        ],
+        "id": ""
+      }
+    ]
+  },
+  "end": {
+    "buttons": {
+      "restart": false
+    },
+    "content": [
+      {
+        "symbol": "finishedAll"
+      }
+    ]
+  },
+  "symbols": {
+    "finishedAll": {
+      "class": "w-full",
+      "content": [
+        {
+          "block": "group",
+          "class": "bg-slate-100 rounded p-5 text-center w-full",
+          "content": [
+            {
+              "block": "text",
+              "text": "Congratulations, you finished the activity.",
+              "class": "",
+              "name": "Congra"
+            }
+          ],
+          "background": "",
+          "name": "CongraGroup"
+        },
+        {
+          "block": "group",
+          "class": "text-center p-5",
+          "content": [
+            {
+              "block": "finished",
+              "name": "finishedBlock"
+            }
+          ],
+          "background": "",
+          "name": "finishedGroup"
+        }
+      ],
+      "background": "",
+      "block": "group"
+    },
+    "FinalizeGroup": {
+      "block": "group",
+      "class": "text-center mt-10",
+      "content": [
+        {
+          "block": "button",
+          "class": "mx-auto",
+          "to": "/end",
+          "text": "Finalize",
+          "name": "FinalizeBTN"
+        }
+      ],
+      "background": ""
+    }
+  },
+  "attempts": 0
+}
