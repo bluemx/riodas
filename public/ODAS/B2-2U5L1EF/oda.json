@@ -1,1 +1,176 @@
-{"title":"Family issues.","clock":true,"countdown":0,"attempts":0,"intro":{"buttons":{"start":"Start"},"content":[]},"activity":{"scenes":[{"block":"scene","name":"SC1","countdown":0,"instructions":{"open":true,"content":[{"block":"group","class":"flex gap-2 items-center","content":[{"block":"audio","class":"","file":"files/INS.mp3"},{"block":"text","class":"","text":" Follow the model from the previous text. Write about family issues you have observed and use the third conditional to express things that could have gone differently. Use between 230 and 250 words."}]}]},"content":[{"marker":"📒","class":"bg-slate-100 rounded p-2 max-w-4xl text-center mx-auto","content":[{"marker":"","class":"mask mask-squircle p-2 bg-sky-900 flex justify-center","content":[{"file":"files/B2-2U5L1EE-IMG-01.jpg","class":"w-3/4 mask mask-squircle","id":"HpU3","block":"image","name":"zhX7"}],"background":"","id":"GLiU","block":"group","name":"4Gpo"},{"marker":"","class":"bg-center h-screen bg-contain","content":[{"marker":"","class":"ml-20 pl-5","content":[{"case":false,"evaluation":"manual","class":"!min-h-[900px] !bg-transparent text-2xl text-justify p-5","positive":"","multiline":true,"placeholder":"-","showResult":false,"id":"d3OM","block":"textarea","name":"2q4P","maxlength":1500,"attempts":0}],"background":"","id":"9CL0","block":"group","name":"9IQe"},{"marker":"","class":"ml-20 pl-5","content":[],"background":"","id":"ITEyU994","block":"group","name":"zWuM"}],"background":"https://mtvmbpemhwbrljhzdrci.supabase.co/storage/v1/object/public/riodas/B2-1U3L6EB/B2-1U3L1EF-IMG-02.jpg","id":"HlpF","block":"group","name":"To9k"}],"background":"","id":"gpo1","block":"group","name":"gpo1"},{"symbol":"FinalizeGroup"}]}]},"end":{"buttons":{"restart":false},"content":[{"symbol":"finishedAll"}]},"symbols":{"finishedAll":{"class":"w-full","content":[{"block":"group","class":"bg-slate-100 rounded p-5 text-center w-full","content":[{"block":"text","text":"Congratulations, you finished the activity.","class":"","name":"Congra"}],"background":"","name":"CongraGroup"},{"block":"group","class":"text-center p-5","content":[{"block":"finished","name":"finishedBlock"}],"background":"","name":"finishedGroup"}],"background":"","block":"group"},"FinalizeGroup":{"block":"group","class":"text-center mt-10","content":[{"block":"button","class":"mx-auto","to":"/end","text":"Finalize","name":"FinalizeBTN"}],"background":""}}}
+{
+  "title": "Family issues.",
+  "clock": true,
+  "countdown": 0,
+  "attempts": 0,
+  "intro": {
+    "buttons": {
+      "start": "Start"
+    },
+    "content": []
+  },
+  "activity": {
+    "scenes": [
+      {
+        "block": "scene",
+        "name": "SC1",
+        "countdown": 0,
+        "instructions": {
+          "open": true,
+          "content": [
+            {
+              "block": "group",
+              "class": "flex gap-2 items-center",
+              "content": [
+                {
+                  "block": "audio",
+                  "class": "",
+                  "file": "files/INS.mp3"
+                },
+                {
+                  "block": "text",
+                  "class": "",
+                  "text": " Follow the model from the previous text. Write about family issues you have observed and use the third conditional to express things that could have gone differently. Use between 230 and 250 words."
+                }
+              ]
+            }
+          ]
+        },
+        "content": [
+          {
+            "marker": "📒",
+            "class": "bg-slate-100 rounded p-2 max-w-4xl text-center mx-auto",
+            "content": [
+              {
+                "marker": "",
+                "class": "mask mask-squircle p-2 bg-sky-900 flex justify-center",
+                "content": [
+                  {
+                    "file": "files/B2-2U5L1EE-IMG-01.jpg",
+                    "class": "w-3/4 mask mask-squircle",
+                    "id": "HpU3",
+                    "block": "image",
+                    "name": "zhX7"
+                  }
+                ],
+                "background": "",
+                "id": "GLiU",
+                "block": "group",
+                "name": "4Gpo"
+              },
+              {
+                "marker": "",
+                "class": "bg-center h-screen bg-contain",
+                "content": [
+                  {
+                    "marker": "",
+                    "class": "ml-20 pl-5",
+                    "content": [
+                      {
+                        "case": false,
+                        "evaluation": "manual",
+                        "class": "!min-h-[800px] !bg-transparent text-2xl text-justify p-5",
+                        "positive": "",
+                        "multiline": true,
+                        "placeholder": "-",
+                        "showResult": false,
+                        "id": "d3OM",
+                        "block": "textarea",
+                        "name": "2q4P",
+                        "maxlength": 1500,
+                        "attempts": 0
+                      }
+                    ],
+                    "background": "",
+                    "id": "9CL0",
+                    "block": "group",
+                    "name": "9IQe"
+                  },
+                  {
+                    "marker": "",
+                    "class": "ml-20 pl-5",
+                    "content": [],
+                    "background": "",
+                    "id": "ITEyU994",
+                    "block": "group",
+                    "name": "zWuM"
+                  }
+                ],
+                "background": "https://mtvmbpemhwbrljhzdrci.supabase.co/storage/v1/object/public/riodas/B2-1U3L6EB/B2-1U3L1EF-IMG-02.jpg",
+                "id": "HlpF",
+                "block": "group",
+                "name": "To9k"
+              }
+            ],
+            "background": "",
+            "id": "gpo1",
+            "block": "group",
+            "name": "gpo1"
+          },
+          {
+            "symbol": "FinalizeGroup"
+          }
+        ]
+      }
+    ]
+  },
+  "end": {
+    "buttons": {
+      "restart": false
+    },
+    "content": [
+      {
+        "symbol": "finishedAll"
+      }
+    ]
+  },
+  "symbols": {
+    "finishedAll": {
+      "class": "w-full",
+      "content": [
+        {
+          "block": "group",
+          "class": "bg-slate-100 rounded p-5 text-center w-full",
+          "content": [
+            {
+              "block": "text",
+              "text": "Congratulations, you finished the activity.",
+              "class": "",
+              "name": "Congra"
+            }
+          ],
+          "background": "",
+          "name": "CongraGroup"
+        },
+        {
+          "block": "group",
+          "class": "text-center p-5",
+          "content": [
+            {
+              "block": "finished",
+              "name": "finishedBlock"
+            }
+          ],
+          "background": "",
+          "name": "finishedGroup"
+        }
+      ],
+      "background": "",
+      "block": "group"
+    },
+    "FinalizeGroup": {
+      "block": "group",
+      "class": "text-center mt-10",
+      "content": [
+        {
+          "block": "button",
+          "class": "mx-auto",
+          "to": "/end",
+          "text": "Finalize",
+          "name": "FinalizeBTN"
+        }
+      ],
+      "background": ""
+    }
+  }
+}
