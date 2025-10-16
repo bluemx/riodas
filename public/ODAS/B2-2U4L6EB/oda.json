@@ -1,1 +1,202 @@
-{"title":"Reading comprehension exercise","clock":true,"countdown":0,"attempts":0,"intro":{"buttons":{"start":"Start"},"content":[]},"activity":{"scenes":[{"block":"scene","name":"SC1","countdown":0,"instructions":{"open":true,"content":[{"block":"group","class":"flex gap-2 items-center","content":[{"block":"audio","class":"","file":"files/inst.mp3","wave":false,"autoplay":false,"id":"","name":"16Xe"},{"block":"text","class":"","text":"Use the model from the last exercise to write a 120-word long text to respond to the question below.  Don't forget the use of a second conditional to enhance your arguments.","id":"","name":"bnQd"}]}]},"content":[{"block":"group","class":"bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto","content":[{"marker":"","class":"flex justify-center m-5 p-5","content":[{"file":"files/img.jpg","class":"mask mask-squircle w-3/4","id":"ljO6","block":"image","name":"wqRy"}],"background":"","id":"WxLT","block":"group","name":"W7Jb"},{"marker":"","class":"bg-center h-screen bg-contain","content":[{"marker":"","class":"ml-20 pl-5 mt-5","content":[{"block":"text","class":"font-bold text-xl","text":"What would you do with your labor life if you won the lottery?","name":"3Ovd","hidden":false,"id":""}],"background":"","id":"9OBQ","block":"group","name":"UWzh"},{"marker":"","class":"ml-20 pl-5","content":[{"case":false,"evaluation":"manual","class":"!min-h-[750px] !bg-transparent text-2xl text-justify p-5","positive":"","multiline":true,"placeholder":"-","showResult":false,"id":"d3OM","block":"textarea","name":"hjuc","maxlength":1000,"attempts":0}],"background":"","id":"9CL0","block":"group","name":"65bb"}],"background":"https://mtvmbpemhwbrljhzdrci.supabase.co/storage/v1/object/public/riodas/B2-1U3L6EB/B2-1U3L1EF-IMG-02.jpg","id":"HlpF","block":"group","name":"sILl"}],"background":"","name":"4Cs6","hidden":false,"marker":"","id":""},{"symbol":"FinalizeGroup"}],"id":""}]},"end":{"buttons":{"restart":false},"content":[{"symbol":"finishedAll"}]},"symbols":{"finishedAll":{"class":"w-full","content":[{"block":"group","class":"bg-slate-100 rounded p-5 text-center w-full","content":[{"block":"text","text":"Congratulations, you finished the activity.","class":"","name":"Congra"}],"background":"","name":"CongraGroup"},{"block":"group","class":"text-center p-5","content":[{"block":"finished","name":"finishedBlock"}],"background":"","name":"finishedGroup"}],"background":"","block":"group"},"FinalizeGroup":{"block":"group","class":"text-center mt-10","content":[{"block":"button","class":"mx-auto","to":"/end","text":"Finalize","name":"FinalizeBTN"}],"background":""}}}
+{
+  "title": "Reading comprehension exercise",
+  "clock": true,
+  "countdown": 0,
+  "attempts": 0,
+  "intro": {
+    "buttons": {
+      "start": "Start"
+    },
+    "content": []
+  },
+  "activity": {
+    "scenes": [
+      {
+        "block": "scene",
+        "name": "SC1",
+        "countdown": 0,
+        "instructions": {
+          "open": true,
+          "content": [
+            {
+              "block": "group",
+              "class": "flex gap-2 items-center",
+              "content": [
+                {
+                  "block": "audio",
+                  "class": "",
+                  "file": "files/inst.mp3",
+                  "wave": false,
+                  "autoplay": false,
+                  "id": "",
+                  "name": "16Xe"
+                },
+                {
+                  "block": "text",
+                  "class": "",
+                  "text": "Use the model from the last exercise to write a 120-word long text to respond to the question below.  Don't forget the use of a second conditional to enhance your arguments.",
+                  "id": "",
+                  "name": "bnQd"
+                }
+              ]
+            }
+          ]
+        },
+        "content": [
+          {
+            "block": "group",
+            "class": "bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto",
+            "content": [
+              {
+                "marker": "",
+                "class": "flex justify-center m-5 p-5",
+                "content": [
+                  {
+                    "file": "files/img.jpg",
+                    "class": "mask mask-squircle w-3/4",
+                    "id": "ljO6",
+                    "block": "image",
+                    "name": "wqRy"
+                  }
+                ],
+                "background": "",
+                "id": "WxLT",
+                "block": "group",
+                "name": "W7Jb"
+              },
+              {
+                "marker": "",
+                "class": "bg-center h-screen bg-contain",
+                "content": [
+                  {
+                    "marker": "",
+                    "class": "ml-20 pl-5 mt-5",
+                    "content": [
+                      {
+                        "block": "text",
+                        "class": "font-bold text-xl",
+                        "text": "What would you do with your labor life if you won the lottery?",
+                        "name": "3Ovd",
+                        "hidden": false,
+                        "id": ""
+                      }
+                    ],
+                    "background": "",
+                    "id": "9OBQ",
+                    "block": "group",
+                    "name": "UWzh"
+                  },
+                  {
+                    "marker": "",
+                    "class": "ml-20 pl-5",
+                    "content": [
+                      {
+                        "case": false,
+                        "evaluation": "manual",
+                        "class": "!min-h-[800px] !bg-transparent text-2xl text-justify p-5",
+                        "positive": "",
+                        "multiline": true,
+                        "placeholder": "-",
+                        "showResult": false,
+                        "id": "d3OM",
+                        "block": "textarea",
+                        "name": "hjuc",
+                        "maxlength": 1000,
+                        "attempts": 0
+                      }
+                    ],
+                    "background": "",
+                    "id": "9CL0",
+                    "block": "group",
+                    "name": "65bb"
+                  }
+                ],
+                "background": "https://mtvmbpemhwbrljhzdrci.supabase.co/storage/v1/object/public/riodas/B2-1U3L6EB/B2-1U3L1EF-IMG-02.jpg",
+                "id": "HlpF",
+                "block": "group",
+                "name": "sILl"
+              },
+              {
+                "marker": "",
+                "class": "bg-center bg-contain my-20",
+                "content": [],
+                "background": "https://mtvmbpemhwbrljhzdrci.supabase.co/storage/v1/object/public/riodas/B2-1U3L6EB/B2-1U3L1EF-IMG-02.jpg",
+                "id": "QgSe0wa2",
+                "block": "group",
+                "name": "c1tA"
+              }
+            ],
+            "background": "",
+            "name": "4Cs6",
+            "hidden": false,
+            "marker": "",
+            "id": ""
+          },
+          {
+            "symbol": "FinalizeGroup"
+          }
+        ],
+        "id": ""
+      }
+    ]
+  },
+  "end": {
+    "buttons": {
+      "restart": false
+    },
+    "content": [
+      {
+        "symbol": "finishedAll"
+      }
+    ]
+  },
+  "symbols": {
+    "finishedAll": {
+      "class": "w-full",
+      "content": [
+        {
+          "block": "group",
+          "class": "bg-slate-100 rounded p-5 text-center w-full",
+          "content": [
+            {
+              "block": "text",
+              "text": "Congratulations, you finished the activity.",
+              "class": "",
+              "name": "Congra"
+            }
+          ],
+          "background": "",
+          "name": "CongraGroup"
+        },
+        {
+          "block": "group",
+          "class": "text-center p-5",
+          "content": [
+            {
+              "block": "finished",
+              "name": "finishedBlock"
+            }
+          ],
+          "background": "",
+          "name": "finishedGroup"
+        }
+      ],
+      "background": "",
+      "block": "group"
+    },
+    "FinalizeGroup": {
+      "block": "group",
+      "class": "text-center mt-10",
+      "content": [
+        {
+          "block": "button",
+          "class": "mx-auto",
+          "to": "/end",
+          "text": "Finalize",
+          "name": "FinalizeBTN"
+        }
+      ],
+      "background": ""
+    }
+  }
+}
