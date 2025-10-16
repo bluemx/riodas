@@ -1,1 +1,507 @@
-{"title":"Exercise D. Vocabulary practice","clock":true,"countdown":0,"intro":{"buttons":{"start":"Start"},"content":[]},"activity":{"scenes":[{"block":"scene","name":"SC1","countdown":0,"instructions":{"open":true,"content":[{"block":"group","class":"flex gap-2 items-center","content":[{"block":"audio","class":"","file":"files/instruccion.mp3","wave":false,"autoplay":false,"id":"","name":"9BR5"},{"block":"text","class":"","text":"Read the sentences and drag the correct answer to complete the sentence.","id":"","name":"jkWb"}]}]},"content":[{"block":"group","class":"bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto","content":[{"order":false,"class":"grid grid-cols-4","group":"uno","content":[{"text":"Responsible","class":"","id":"5cpu","block":"text","name":"5LNr"},{"text":"bananas","class":"","id":"g1zgOMXY","block":"text","name":"u4BB"},{"text":"Next July","class":"","id":"KaykV0r8","block":"text","name":"J4NT"},{"text":"last summer","class":"","id":"LgTi5YxV","block":"text","name":"7vJS"},{"text":"kind","class":"","id":"bBn1YGZs","block":"text","name":"iAkA"},{"text":"Hockey","class":"","id":"zICnauGJ","block":"text","name":"1NEO"},{"text":"Karate","class":"","id":"bd64MkVU","block":"text","name":"2qv5"}],"positive":"","evaluation":"","showResult":false,"id":"us2H","block":"dragdrop","name":"26mf","attempts":0,"shuffle":false},{"marker":"","class":"my-10 ","content":[{"text":"1.- He is always sharing, he is very ","class":"text-xl  ","id":"uCiT","block":"text","name":"lr1R"},{"marker":"","class":"inline-block ml-1","content":[{"order":false,"class":"","group":"uno","content":[],"positive":"iAkA","evaluation":"auto","showResult":false,"id":"ijY3","block":"dragdrop","name":"8a7l","attempts":0}],"background":"","id":"7sOM","block":"group","name":"tWao"}],"background":"","id":"s0zq","block":"group","name":"Gpx8"},{"marker":"","class":"my-10 ","content":[{"text":"2.- Monkeys love","class":"text-xl  ","id":"uCiT3ziP","block":"text","name":"oaXn"},{"marker":"","class":"inline-block ml-1","content":[{"order":false,"class":"","group":"uno","content":[],"positive":"u4BB","evaluation":"auto","showResult":false,"id":"ijY304u3","block":"dragdrop","name":"xGbE","attempts":0}],"background":"","id":"7sOMXYzj","block":"group","name":"4VoB"}],"background":"","id":"9v7dj7eX","block":"group","name":"IPJx"},{"marker":"","class":"my-10 ","content":[{"text":"3.- During the summer we are going fishing. We are thinking","class":"text-xl  ","id":"uCiT3ziPXyZF","block":"text","name":"YnLH"},{"marker":"","class":"inline-block ml-1","content":[{"order":false,"class":"","group":"uno","content":[],"positive":"J4NT","evaluation":"auto","showResult":false,"id":"ijY304u3Vau8","block":"dragdrop","name":"VPtM","attempts":0}],"background":"","id":"7sOMXYzjcSna","block":"group","name":"5vWO"}],"background":"","id":"hOHrRhH6","block":"group","name":"1jt9"},{"marker":"","class":"my-10 ","content":[{"text":"4.-","class":"text-xl  ","id":"uCiT3ziPXyZFQuyn","block":"text","name":"Ns7d"},{"marker":"","class":"inline-block mx-1","content":[{"order":false,"class":"","group":"uno","content":[],"positive":"7vJS","evaluation":"auto","showResult":false,"id":"ijY304u3Vau8ti3h","block":"dragdrop","name":"YyKj","attempts":0}],"background":"","id":"7sOMXYzjcSnaKD2Y","block":"group","name":"Mjh6"},{"text":"I went camping and had a great time.","class":"text-xl  ","id":"CNgcYoPV","block":"text","name":"BAm4"}],"background":"","id":"nq8DpnQX","block":"group","name":"YhUx"},{"marker":"","class":"my-10 ","content":[{"text":"5.-","class":"text-xl  ","id":"uCiT3ziPXyZFQuynpuhR","block":"text","name":"hWb5"},{"marker":"","class":"inline-block mx-1","content":[{"order":false,"class":"","group":"uno","content":[],"positive":"1NEO","evaluation":"auto","showResult":false,"id":"ijY304u3Vau8ti3hHcp9","block":"dragdrop","name":"hFi0","attempts":0}],"background":"","id":"7sOMXYzjcSnaKD2YwqfZ","block":"group","name":"APsa"},{"text":"is a great sport, specially the one on ice.","class":"text-xl  ","id":"CNgcYoPVbQmH","block":"text","name":"M9E3"}],"background":"","id":"SZdyIrkE","block":"group","name":"xbrY"},{"marker":"","class":"my-10","content":[{"text":"6.-","class":"text-xl  ","id":"uCiT3ziPXyZFQuynpuhRux7F","block":"text","name":"aTZP"},{"marker":"","class":"inline-block mx-1","content":[{"order":false,"class":"","group":"uno","content":[],"positive":"2qv5","evaluation":"auto","showResult":false,"id":"ijY304u3Vau8ti3hHcp9KzED","block":"dragdrop","name":"8D3C","attempts":0}],"background":"","id":"7sOMXYzjcSnaKD2YwqfZZ91K","block":"group","name":"W8iO"},{"text":"like all martial arts, requires dicipline and for you to be","class":"text-xl  ","id":"CNgcYoPVbQmHAY1R","block":"text","name":"mlKD"},{"marker":"","class":"inline-block ml-1","content":[{"order":false,"class":"","group":"uno","content":[],"positive":"5LNr","evaluation":"auto","showResult":false,"id":"ijY304u3Vau8ti3hHcp9KzED40qK","block":"dragdrop","name":"zzPh","attempts":0}],"background":"","id":"fQPP8YpB","block":"group","name":"KzNG"}],"background":"","id":"p5vc5560","block":"group","name":"jqRs"}],"background":"","name":"4Cs6","hidden":false},{"symbol":"FinalizeGroup"}],"id":""}]},"end":{"buttons":{"restart":false},"content":[{"symbol":"finishedAll"}]},"symbols":{"finishedAll":{"class":"w-full","content":[{"block":"group","class":"bg-slate-100 rounded p-5 text-center w-full","content":[{"block":"text","text":"Congratulations, you finished the activity.","class":"","name":"Congra"}],"background":"","name":"CongraGroup"},{"block":"group","class":"text-center p-5","content":[{"block":"finished","name":"finishedBlock"}],"background":"","name":"finishedGroup"}],"background":"","block":"group"},"FinalizeGroup":{"block":"group","class":"text-center mt-10","content":[{"block":"button","class":"mx-auto","to":"/end","text":"Finalize","name":"FinalizeBTN"}],"background":""}},"attempts":0}
+{
+  "title": "Exercise D. Vocabulary practice",
+  "clock": true,
+  "countdown": 0,
+  "intro": {
+    "buttons": {
+      "start": "Start"
+    },
+    "content": []
+  },
+  "activity": {
+    "scenes": [
+      {
+        "block": "scene",
+        "name": "SC1",
+        "countdown": 0,
+        "instructions": {
+          "open": true,
+          "content": [
+            {
+              "block": "group",
+              "class": "flex gap-2 items-center",
+              "content": [
+                {
+                  "block": "audio",
+                  "class": "",
+                  "file": "files/instruccion.mp3",
+                  "wave": false,
+                  "autoplay": false,
+                  "id": "",
+                  "name": "9BR5"
+                },
+                {
+                  "block": "text",
+                  "class": "",
+                  "text": "Read the sentences and drag the correct answer to complete the sentence.",
+                  "id": "",
+                  "name": "jkWb"
+                }
+              ]
+            }
+          ]
+        },
+        "content": [
+          {
+            "block": "group",
+            "class": "bg-blue-100 rounded p-3 my-2 max-w-5xl mx-auto",
+            "content": [
+              {
+                "order": false,
+                "class": "grid grid-cols-4",
+                "group": "uno",
+                "content": [
+                  {
+                    "text": "Responsible",
+                    "class": "",
+                    "id": "5cpu",
+                    "block": "text",
+                    "name": "5LNr"
+                  },
+                  {
+                    "text": "bananas",
+                    "class": "",
+                    "id": "g1zgOMXY",
+                    "block": "text",
+                    "name": "u4BB"
+                  },
+                  {
+                    "text": "Next July",
+                    "class": "",
+                    "id": "KaykV0r8",
+                    "block": "text",
+                    "name": "J4NT"
+                  },
+                  {
+                    "text": "last summer",
+                    "class": "",
+                    "id": "LgTi5YxV",
+                    "block": "text",
+                    "name": "7vJS"
+                  },
+                  {
+                    "text": "kind",
+                    "class": "",
+                    "id": "bBn1YGZs",
+                    "block": "text",
+                    "name": "iAkA"
+                  },
+                  {
+                    "text": "Hockey",
+                    "class": "",
+                    "id": "zICnauGJ",
+                    "block": "text",
+                    "name": "1NEO"
+                  },
+                  {
+                    "text": "Karate",
+                    "class": "",
+                    "id": "bd64MkVU",
+                    "block": "text",
+                    "name": "2qv5"
+                  }
+                ],
+                "positive": "",
+                "evaluation": "",
+                "showResult": false,
+                "id": "us2H",
+                "block": "dragdrop",
+                "name": "26mf",
+                "attempts": 0,
+                "shuffle": false
+              },
+              {
+                "marker": "",
+                "class": "my-10 ",
+                "content": [
+                  {
+                    "text": "1.- He is always sharing, he is very ",
+                    "class": "text-xl  ",
+                    "id": "uCiT",
+                    "block": "text",
+                    "name": "lr1R"
+                  },
+                  {
+                    "marker": "",
+                    "class": "inline-block ml-1",
+                    "content": [
+                      {
+                        "order": false,
+                        "class": "bg-white",
+                        "group": "uno",
+                        "content": [],
+                        "positive": "iAkA",
+                        "evaluation": "auto",
+                        "showResult": false,
+                        "id": "ijY3",
+                        "block": "dragdrop",
+                        "name": "8a7l",
+                        "attempts": 0,
+                        "shuffle": false
+                      }
+                    ],
+                    "background": "",
+                    "id": "7sOM",
+                    "block": "group",
+                    "name": "tWao"
+                  },
+                  {
+                    "text": ".",
+                    "class": "text-xl  ",
+                    "id": "RpbFt4LJ",
+                    "block": "text",
+                    "name": "6XUC"
+                  }
+                ],
+                "background": "",
+                "id": "s0zq",
+                "block": "group",
+                "name": "Gpx8"
+              },
+              {
+                "marker": "",
+                "class": "my-10 ",
+                "content": [
+                  {
+                    "text": "2.- Monkeys love",
+                    "class": "text-xl  ",
+                    "id": "uCiT3ziP",
+                    "block": "text",
+                    "name": "oaXn"
+                  },
+                  {
+                    "marker": "",
+                    "class": "inline-block ml-1",
+                    "content": [
+                      {
+                        "order": false,
+                        "class": "bg-white",
+                        "group": "uno",
+                        "content": [],
+                        "positive": "u4BB",
+                        "evaluation": "auto",
+                        "showResult": false,
+                        "id": "ijY304u3",
+                        "block": "dragdrop",
+                        "name": "xGbE",
+                        "attempts": 0,
+                        "shuffle": false
+                      }
+                    ],
+                    "background": "",
+                    "id": "7sOMXYzj",
+                    "block": "group",
+                    "name": "4VoB"
+                  },
+                  {
+                    "text": ".",
+                    "class": "text-xl  ",
+                    "id": "RHMJyvCc",
+                    "block": "text",
+                    "name": "ZvXi"
+                  }
+                ],
+                "background": "",
+                "id": "9v7dj7eX",
+                "block": "group",
+                "name": "IPJx"
+              },
+              {
+                "marker": "",
+                "class": "my-10 ",
+                "content": [
+                  {
+                    "text": "3.- During the summer we are going fishing. We are thinking of",
+                    "class": "text-xl  ",
+                    "id": "uCiT3ziPXyZF",
+                    "block": "text",
+                    "name": "YnLH"
+                  },
+                  {
+                    "marker": "",
+                    "class": "inline-block ml-1",
+                    "content": [
+                      {
+                        "order": false,
+                        "class": "bg-white",
+                        "group": "uno",
+                        "content": [],
+                        "positive": "J4NT",
+                        "evaluation": "auto",
+                        "showResult": false,
+                        "id": "ijY304u3Vau8",
+                        "block": "dragdrop",
+                        "name": "VPtM",
+                        "attempts": 0,
+                        "shuffle": false
+                      }
+                    ],
+                    "background": "",
+                    "id": "7sOMXYzjcSna",
+                    "block": "group",
+                    "name": "5vWO"
+                  },
+                  {
+                    "text": ".",
+                    "class": "text-xl  ",
+                    "id": "OQ3KaWQy",
+                    "block": "text",
+                    "name": "M3Uf"
+                  }
+                ],
+                "background": "",
+                "id": "hOHrRhH6",
+                "block": "group",
+                "name": "1jt9"
+              },
+              {
+                "marker": "",
+                "class": "my-10 ",
+                "content": [
+                  {
+                    "text": "4.-",
+                    "class": "text-xl  ",
+                    "id": "uCiT3ziPXyZFQuyn",
+                    "block": "text",
+                    "name": "Ns7d"
+                  },
+                  {
+                    "marker": "",
+                    "class": "inline-block mx-1",
+                    "content": [
+                      {
+                        "order": false,
+                        "class": "bg-white",
+                        "group": "uno",
+                        "content": [],
+                        "positive": "7vJS",
+                        "evaluation": "auto",
+                        "showResult": false,
+                        "id": "ijY304u3Vau8ti3h",
+                        "block": "dragdrop",
+                        "name": "YyKj",
+                        "attempts": 0,
+                        "shuffle": false
+                      }
+                    ],
+                    "background": "",
+                    "id": "7sOMXYzjcSnaKD2Y",
+                    "block": "group",
+                    "name": "Mjh6"
+                  },
+                  {
+                    "text": "I went camping and had a great time.",
+                    "class": "text-xl  ",
+                    "id": "CNgcYoPV",
+                    "block": "text",
+                    "name": "BAm4"
+                  }
+                ],
+                "background": "",
+                "id": "nq8DpnQX",
+                "block": "group",
+                "name": "YhUx"
+              },
+              {
+                "marker": "",
+                "class": "my-10 ",
+                "content": [
+                  {
+                    "text": "5.-",
+                    "class": "text-xl  ",
+                    "id": "uCiT3ziPXyZFQuynpuhR",
+                    "block": "text",
+                    "name": "hWb5"
+                  },
+                  {
+                    "marker": "",
+                    "class": "inline-block mx-1",
+                    "content": [
+                      {
+                        "order": false,
+                        "class": "bg-white",
+                        "group": "uno",
+                        "content": [],
+                        "positive": "1NEO",
+                        "evaluation": "auto",
+                        "showResult": false,
+                        "id": "ijY304u3Vau8ti3hHcp9",
+                        "block": "dragdrop",
+                        "name": "hFi0",
+                        "attempts": 0,
+                        "shuffle": false
+                      }
+                    ],
+                    "background": "",
+                    "id": "7sOMXYzjcSnaKD2YwqfZ",
+                    "block": "group",
+                    "name": "APsa"
+                  },
+                  {
+                    "text": "is a great sport, specially the one on ice.",
+                    "class": "text-xl  ",
+                    "id": "CNgcYoPVbQmH",
+                    "block": "text",
+                    "name": "M9E3"
+                  }
+                ],
+                "background": "",
+                "id": "SZdyIrkE",
+                "block": "group",
+                "name": "xbrY"
+              },
+              {
+                "marker": "",
+                "class": "my-10",
+                "content": [
+                  {
+                    "text": "6.-",
+                    "class": "text-xl  ",
+                    "id": "uCiT3ziPXyZFQuynpuhRux7F",
+                    "block": "text",
+                    "name": "aTZP"
+                  },
+                  {
+                    "marker": "",
+                    "class": "inline-block mx-1",
+                    "content": [
+                      {
+                        "order": false,
+                        "class": "bg-white",
+                        "group": "uno",
+                        "content": [],
+                        "positive": "2qv5",
+                        "evaluation": "auto",
+                        "showResult": false,
+                        "id": "ijY304u3Vau8ti3hHcp9KzED",
+                        "block": "dragdrop",
+                        "name": "8D3C",
+                        "attempts": 0,
+                        "shuffle": false
+                      }
+                    ],
+                    "background": "",
+                    "id": "7sOMXYzjcSnaKD2YwqfZZ91K",
+                    "block": "group",
+                    "name": "W8iO"
+                  },
+                  {
+                    "text": "like all martial arts, requires dicipline and for you to be",
+                    "class": "text-xl  ",
+                    "id": "CNgcYoPVbQmHAY1R",
+                    "block": "text",
+                    "name": "mlKD"
+                  },
+                  {
+                    "marker": "",
+                    "class": "inline-block ml-1",
+                    "content": [
+                      {
+                        "order": false,
+                        "class": "bg-white",
+                        "group": "uno",
+                        "content": [],
+                        "positive": "5LNr",
+                        "evaluation": "auto",
+                        "showResult": false,
+                        "id": "ijY304u3Vau8ti3hHcp9KzED40qK",
+                        "block": "dragdrop",
+                        "name": "zzPh",
+                        "attempts": 0,
+                        "shuffle": false
+                      }
+                    ],
+                    "background": "",
+                    "id": "fQPP8YpB",
+                    "block": "group",
+                    "name": "KzNG"
+                  },
+                  {
+                    "text": ".",
+                    "class": "text-xl  ",
+                    "id": "12iSQirU",
+                    "block": "text",
+                    "name": "gBJS"
+                  }
+                ],
+                "background": "",
+                "id": "p5vc5560",
+                "block": "group",
+                "name": "jqRs"
+              }
+            ],
+            "background": "",
+            "name": "4Cs6",
+            "hidden": false,
+            "marker": "",
+            "id": ""
+          },
+          {
+            "symbol": "FinalizeGroup"
+          }
+        ],
+        "id": ""
+      }
+    ]
+  },
+  "end": {
+    "buttons": {
+      "restart": false
+    },
+    "content": [
+      {
+        "symbol": "finishedAll"
+      }
+    ]
+  },
+  "symbols": {
+    "finishedAll": {
+      "class": "w-full",
+      "content": [
+        {
+          "block": "group",
+          "class": "bg-slate-100 rounded p-5 text-center w-full",
+          "content": [
+            {
+              "block": "text",
+              "text": "Congratulations, you finished the activity.",
+              "class": "",
+              "name": "Congra"
+            }
+          ],
+          "background": "",
+          "name": "CongraGroup"
+        },
+        {
+          "block": "group",
+          "class": "text-center p-5",
+          "content": [
+            {
+              "block": "finished",
+              "name": "finishedBlock"
+            }
+          ],
+          "background": "",
+          "name": "finishedGroup"
+        }
+      ],
+      "background": "",
+      "block": "group"
+    },
+    "FinalizeGroup": {
+      "block": "group",
+      "class": "text-center mt-10",
+      "content": [
+        {
+          "block": "button",
+          "class": "mx-auto",
+          "to": "/end",
+          "text": "Finalize",
+          "name": "FinalizeBTN"
+        }
+      ],
+      "background": ""
+    }
+  },
+  "attempts": 0
+}
