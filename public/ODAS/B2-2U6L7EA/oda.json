@@ -1,1 +1,871 @@
-{"title":"Preferences in Streaming Platforms vs Movie Theaters","clock":true,"countdown":0,"attempts":0,"intro":{"buttons":{"start":"Start"},"content":[]},"activity":{"scenes":[{"block":"scene","name":"SC1","countdown":0,"instructions":{"open":true,"content":[{"block":"group","class":"flex gap-2 items-center","content":[{"block":"audio","class":"","file":"files/inst.mp3","wave":false,"autoplay":false,"id":"","name":"3QxF"},{"block":"text","class":"","text":"Streaming platforms have recently become popular. According to specialists, these platforms provide customers with a more comfortable entertainment experience compared to movie theaters. Scroll and select the correct answers to complete the conversation between Stephanie and Jacob. ","id":"","name":"rNL7"}]}]},"content":[{"block":"group","class":"bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto","content":[{"marker":"","class":"m-5 flex justify-center ","content":[{"file":"files/img_.jpg","class":"mask mask-squircle w-3/4 ","id":"3udf","block":"image","name":"AQPN"}],"background":"","id":"j5Jk","block":"group","name":"gk6D"},{"marker":"","class":"grid gap-4 m-5 p-5","content":[{"marker":"","class":"","content":[{"text":"Stephanie:","class":"bg-sky-300 p-1 mr-2","id":"qzBU","block":"text","name":"7oMP"},{"text":"Hey! Have you been to the movies lately? ","class":"","id":"BCNlWb1z","block":"text","name":"xbhV"}],"background":"","id":"paxT","block":"group","name":"eJ50"},{"marker":"","class":"","content":[{"text":"Jacob:","class":"bg-red-300 p-1 mr-2","id":"qzBUE21V","block":"text","name":"8XsU"},{"text":"No, not really. <b>1)</b>","class":"","id":"BCNlWb1zCYFW","block":"text","name":"2EE5"},{"class":"inline-block mx-1","options":[{"text":"I would rather watch","class":"","id":"t9Bb","block":"text","name":"qZRw"},{"text":"I would rather watched","class":"","id":"TuKuB4IC","block":"text","name":"kBsr"},{"text":"I would rather not watch","class":"","id":"agDWyjSv","block":"text","name":"Bmi2"}],"evaluation":"auto","showResult":false,"dropdown":true,"dropdownpos":"top","id":"S0sM","block":"option","name":"sVC4","attempts":0},{"text":"movies at home on streaming platforms.","class":"","id":"YBGU6uRw","block":"text","name":"xvMA"}],"background":"","id":"ZuI2MWFV","block":"group","name":"U9gL"},{"marker":"","class":"","content":[{"text":"Stephanie:","class":"bg-sky-300 p-1 mr-2","id":"qzBUE21VkWa0","block":"text","name":"osg1"},{"text":"I’m a fan of the big screen experience. <b>2)</b>","class":"","id":"BCNlWb1zCYFWI5rd","block":"text","name":"TUis"},{"class":"inline-block mx-1","options":[{"text":"I would rather enjoy","class":"","id":"t9BbMCJS","block":"text","name":"bBJg"},{"text":"I would rather enjoyed","class":"","id":"TuKuB4ICXg4z","block":"text","name":"xvvN"},{"text":"I wouldn’t rather enjoy","class":"","id":"agDWyjSv4oAV","block":"text","name":"PNRk"}],"evaluation":"auto","showResult":false,"dropdown":true,"dropdownpos":"top","id":"S0sMgMtX","block":"option","name":"988X","attempts":0},{"text":"the feeling of a movie theater.","class":"","id":"Dp5qf3jM","block":"text","name":"7RjC"}],"background":"","id":"2D4FMXZx","block":"group","name":"68wp"},{"marker":"","class":"","content":[{"text":"Jacob:","class":"bg-red-300 p-1 mr-2","id":"qzBUE21VkWa0L66F","block":"text","name":"zTdg"},{"text":"I get that, but <b>3)</b>","class":"","id":"BCNlWb1zCYFWI5rd9a4J","block":"text","name":"ECkE"},{"class":"inline-block mx-1","options":[{"text":"I’d rather not deal","class":"","id":"t9BbMCJSEGaB","block":"text","name":"IVy2"},{"text":"I wouldn’t rather","class":"","id":"TuKuB4ICXg4znBOV","block":"text","name":"1KsS"},{"text":"I would not rather dealt","class":"","id":"agDWyjSv4oAVEAa0","block":"text","name":"jIbt"}],"evaluation":"auto","showResult":false,"dropdown":true,"dropdownpos":"top","id":"S0sMgMtXgpzk","block":"option","name":"5xLw","attempts":0},{"text":"with crowded theaters and expensive tickets. Plus, streaming platforms allow me to pause and rewind if I miss something. ","class":"","id":"YlhR7dff","block":"text","name":"jXfl"}],"background":"","id":"3V2Aw6Gb","block":"group","name":"s2RK"},{"marker":"","class":"","content":[{"text":"Stephanie:","class":"bg-sky-300 p-1 mr-2","id":"qzBUE21VkWa0L66F2979","block":"text","name":"R7dS"},{"text":"Well, <b>4)</b>","class":"","id":"BCNlWb1zCYFWI5rd9a4JrTdA","block":"text","name":"c6ZC"},{"class":"inline-block mx-1","options":[{"text":"I would rather sacrifice","class":"","id":"t9BbMCJSEGaBTEAx","block":"text","name":"deVv"},{"text":"I’d rather not sacrifice","class":"","id":"TuKuB4ICXg4znBOVBS9H","block":"text","name":"IlcE"},{"text":"I would rather to sacrifice","class":"","id":"agDWyjSv4oAVEAa0Pi6e","block":"text","name":"XMIZ"}],"evaluation":"auto","showResult":false,"dropdown":true,"dropdownpos":"top","id":"S0sMgMtXgpzkFUM9","block":"option","name":"Fm2B","attempts":0},{"text":"a bit for the quality of sound and visuals in a theater. ","class":"","id":"05z70ZKU","block":"text","name":"noQw"}],"background":"","id":"ru9NGA22","block":"group","name":"uzzK"},{"marker":"","class":"","content":[{"text":"Jacob:","class":"bg-red-300 p-1 mr-2","id":"qzBUE21VkWa0L66FCDCt","block":"text","name":"f9D5"},{"text":"Personally, <b>5)</b>","class":"","id":"BCNlWb1zCYFWI5rd9a4JpOzh","block":"text","name":"AuvD"},{"class":"inline-block mx-1","options":[{"text":"I would rather have","class":"","id":"t9BbMCJSEGaB9c7k","block":"text","name":"20ob"},{"text":"I would rather not have","class":"","id":"TuKuB4ICXg4znBOVrl1Q","block":"text","name":"IetB"},{"text":"I’d rather not have","class":"","id":"agDWyjSv4oAVEAa0jWq6","block":"text","name":"Kqw8"}],"evaluation":"auto","showResult":false,"dropdown":true,"dropdownpos":"top","id":"S0sMgMtXgpzktBDX","block":"option","name":"1AAh","attempts":0},{"text":"the flexibility of watching movies whenever I want on streaming platforms.","class":"","id":"GKUqDwJP","block":"text","name":"p5Ni"}],"background":"","id":"xmLmd1KC","block":"group","name":"0coQ"},{"marker":"","class":"","content":[{"text":"Stephanie:","class":"bg-sky-300 p-1 mr-2","id":"qzBUE21VkWa0L66FCDCtCTbf","block":"text","name":"BK9l"},{"text":"That’s true but <b>6)</b>","class":"","id":"BCNlWb1zCYFWI5rd9a4JpOzhJ4hf","block":"text","name":"K92P"},{"class":"inline-block mx-1","options":[{"text":"I would rather get","class":"","id":"t9BbMCJSEGaB9c7k8Euq","block":"text","name":"SeGC"},{"text":"I'd rather you get","class":"","id":"TuKuB4ICXg4znBOVrl1QnjZg","block":"text","name":"aouA"},{"text":"I would rather to get","class":"","id":"agDWyjSv4oAVEAa0jWq6zEXi","block":"text","name":"ktwn"}],"evaluation":"auto","showResult":false,"dropdown":true,"dropdownpos":"top","id":"S0sMgMtXgpzktBDXSNd3","block":"option","name":"VLok","attempts":0},{"text":"excited about the cinematic experience that movie theaters offer.","class":"","id":"CnChUo4P","block":"text","name":"LJsW"}],"background":"","id":"AHCfmfBH","block":"group","name":"i5IB"},{"marker":"","class":"","content":[{"text":"Jacob:","class":"bg-red-300 p-1 mr-2","id":"qzBUE21VkWa0L66FCDCtv8fY","block":"text","name":"7pjE"},{"text":"I understand, but <b>7)</b>","class":"","id":"BCNlWb1zCYFWI5rd9a4JpOzhj8v3","block":"text","name":"dcn3"},{"class":"inline-block mx-1","options":[{"text":"I would rather not miss","class":"","id":"t9BbMCJSEGaB9c7kvRBi","block":"text","name":"Dh0e"},{"text":"I’d rather not missed","class":"","id":"TuKuB4ICXg4znBOVrl1QDR6w","block":"text","name":"gCGz"},{"text":"I’d rather not to miss","class":"","id":"agDWyjSv4oAVEAa0jWq67R4c","block":"text","name":"B5zi"}],"evaluation":"auto","showResult":false,"dropdown":true,"dropdownpos":"top","id":"S0sMgMtXgpzktBDXVoGg","block":"option","name":"2diH","attempts":0},{"text":"the comfort of my own couch and snack at home.","class":"","id":"31jx8f5K","block":"text","name":"rVCr"}],"background":"","id":"2kpVIkcD","block":"group","name":"chsg"},{"marker":"","class":"","content":[{"text":"Stephanie:","class":"bg-sky-300 p-1 mr-2","id":"qzBUE21VkWa0L66FCDCtv8fYvNV9","block":"text","name":"psQ1"},{"text":"Well, everyone has their own preferences. <b>8)</b>","class":"","id":"BCNlWb1zCYFWI5rd9a4JpOzhj8v38JvM","block":"text","name":"kISo"},{"class":"inline-block mx-1","options":[{"text":"I’d rather you liked","class":"","id":"t9BbMCJSEGaB9c7kvRBiHWzt","block":"text","name":"rqGo"},{"text":"I’d rather you like","class":"","id":"TuKuB4ICXg4znBOVrl1QDR6wqpKa","block":"text","name":"ly1D"},{"text":"I’d rather you like","class":"","id":"agDWyjSv4oAVEAa0jWq67R4cuZ76","block":"text","name":"idTj"}],"evaluation":"auto","showResult":false,"dropdown":true,"dropdownpos":"top","id":"S0sMgMtXgpzktBDXVoGgzSWE","block":"option","name":"ishm","attempts":0},{"text":"movie theaters.","class":"","id":"l0pCvMU8","block":"text","name":"buuz"}],"background":"","id":"bhRlHMIy","block":"group","name":"TeIE"},{"marker":"","class":"","content":[{"text":"Jacob:","class":"bg-red-300 p-1 mr-2","id":"qzBUE21VkWa0L66FCDCtv8fYGZgP","block":"text","name":"ouQX"},{"text":"Yeah, <b>9)</b>","class":"","id":"BCNlWb1zCYFWI5rd9a4JpOzhj8v3q7g9","block":"text","name":"1aSP"},{"class":"inline-block mx-1","options":[{"text":"I’d rather you enjoyed ","class":"","id":"t9BbMCJSEGaB9c7kvRBix2Cv","block":"text","name":"Eyd3"},{"text":"I’d rather you to enjoy","class":"","id":"TuKuB4ICXg4znBOVrl1QDR6wo2rO","block":"text","name":"MY9X"},{"text":"I’d rather you enjoy","class":"","id":"agDWyjSv4oAVEAa0jWq67R4cdOwF","block":"text","name":"uDYc"}],"evaluation":"auto","showResult":false,"dropdown":true,"dropdownpos":"top","id":"S0sMgMtXgpzktBDXVoGgE2tB","block":"option","name":"PcZa","attempts":0},{"text":"streaming platforms. By the way, <b>10)</b>","class":"","id":"8pyBk5m7","block":"text","name":"xGKi"},{"class":"inline-block mx-1","options":[{"text":"would you rather have","class":"","id":"t9BbMCJSEGaB9c7kvRBix2CvwDqV","block":"text","name":"CYXJ"},{"text":"you would rather have","class":"","id":"TuKuB4ICXg4znBOVrl1QDR6wo2rO2K7G","block":"text","name":"4vDS"},{"text":"you’d rather had","class":"","id":"agDWyjSv4oAVEAa0jWq67R4cdOwF3fjV","block":"text","name":"TMZy"}],"evaluation":"auto","showResult":false,"dropdown":true,"dropdownpos":"top","id":"DapLAWLe","block":"option","name":"8tOJ","attempts":0},{"text":"a movie night with my friends and I this Friday?","class":"","id":"5wVvBKaL","block":"text","name":"JR8A"}],"background":"","id":"BtCbg54I","block":"group","name":"fIC8"},{"marker":"","class":"","content":[{"text":"Stephanie:","class":"bg-sky-300 p-1 mr-2","id":"qzBUE21VkWa0L66FCDCtv8fYGZgPP956","block":"text","name":"BiZB"},{"text":"Sorry, I would like to, but I have plans already.","class":"","id":"BCNlWb1zCYFWI5rd9a4JpOzhj8v3q7g9ELJJ","block":"text","name":"C5Pv"}],"background":"","id":"0FzcmlKF","block":"group","name":"neVS"},{"marker":"","class":"","content":[{"text":"Jacob:","class":"bg-red-300 p-1 mr-2","id":"qzBUE21VkWa0L66FCDCtv8fYGZgPu4z7","block":"text","name":"EJVd"},{"text":"Ok maybe next weekend. See you.","class":"","id":"BCNlWb1zCYFWI5rd9a4JpOzhj8v3q7g9h9hp","block":"text","name":"Ju4R"}],"background":"","id":"zs7eVVer","block":"group","name":"Em3E"},{"marker":"","class":"","content":[{"text":"Stephanie:","class":"bg-sky-300 p-1 mr-2","id":"qzBUE21VkWa0L66FCDCtv8fYGZgPu4z71BXi","block":"text","name":"Riq8"},{"text":"Bye.","class":"","id":"BCNlWb1zCYFWI5rd9a4JpOzhj8v3q7g9h9hpQhQr","block":"text","name":"GTO1"}],"background":"","id":"cnC2ffsG","block":"group","name":"gxhk"}],"background":"","id":"JC5t","block":"group","name":"W7iC"}],"background":"","name":"4Cs6","hidden":false},{"symbol":"FinalizeGroup"}],"id":""}]},"end":{"buttons":{"restart":false},"content":[{"symbol":"finishedAll"}]},"symbols":{"finishedAll":{"class":"w-full","content":[{"block":"group","class":"bg-slate-100 rounded p-5 text-center w-full","content":[{"block":"text","text":"Congratulations, you finished the activity.","class":"","name":"Congra"}],"background":"","name":"CongraGroup"},{"block":"group","class":"text-center p-5","content":[{"block":"finished","name":"finishedBlock"}],"background":"","name":"finishedGroup"}],"background":"","block":"group"},"FinalizeGroup":{"block":"group","class":"text-center mt-10","content":[{"block":"button","class":"mx-auto","to":"/end","text":"Finalize","name":"FinalizeBTN"}],"background":""}}}
+{
+  "title": "Preferences in Streaming Platforms vs Movie Theaters",
+  "clock": true,
+  "countdown": 0,
+  "attempts": 0,
+  "intro": {
+    "buttons": {
+      "start": "Start"
+    },
+    "content": []
+  },
+  "activity": {
+    "scenes": [
+      {
+        "block": "scene",
+        "name": "SC1",
+        "countdown": 0,
+        "instructions": {
+          "open": true,
+          "content": [
+            {
+              "block": "group",
+              "class": "flex gap-2 items-center",
+              "content": [
+                {
+                  "block": "audio",
+                  "class": "",
+                  "file": "files/inst.mp3",
+                  "wave": false,
+                  "autoplay": false,
+                  "id": "",
+                  "name": "3QxF"
+                },
+                {
+                  "block": "text",
+                  "class": "",
+                  "text": "Streaming platforms have recently become popular. According to specialists, these platforms provide customers with a more comfortable entertainment experience compared to movie theaters. Scroll and select the correct answers to complete the conversation between Stephanie and Jacob. ",
+                  "id": "",
+                  "name": "rNL7"
+                }
+              ]
+            }
+          ]
+        },
+        "content": [
+          {
+            "block": "group",
+            "class": "bg-slate-100 rounded p-3 my-2 max-w-3xl mx-auto",
+            "content": [
+              {
+                "marker": "",
+                "class": "m-5 flex justify-center ",
+                "content": [
+                  {
+                    "file": "files/img_.jpg",
+                    "class": "mask mask-squircle w-3/4 ",
+                    "id": "3udf",
+                    "block": "image",
+                    "name": "AQPN"
+                  }
+                ],
+                "background": "",
+                "id": "j5Jk",
+                "block": "group",
+                "name": "gk6D"
+              },
+              {
+                "marker": "",
+                "class": "grid gap-4 m-5 p-5",
+                "content": [
+                  {
+                    "marker": "",
+                    "class": "",
+                    "content": [
+                      {
+                        "text": "Stephanie:",
+                        "class": "bg-sky-300 p-1 mr-2",
+                        "id": "qzBU",
+                        "block": "text",
+                        "name": "7oMP"
+                      },
+                      {
+                        "text": "Hey! Have you been to the movies lately? ",
+                        "class": "",
+                        "id": "BCNlWb1z",
+                        "block": "text",
+                        "name": "xbhV"
+                      }
+                    ],
+                    "background": "",
+                    "id": "paxT",
+                    "block": "group",
+                    "name": "eJ50"
+                  },
+                  {
+                    "marker": "",
+                    "class": "",
+                    "content": [
+                      {
+                        "text": "Jacob:",
+                        "class": "bg-red-300 p-1 mr-2",
+                        "id": "qzBUE21V",
+                        "block": "text",
+                        "name": "8XsU"
+                      },
+                      {
+                        "text": "No, not really. <b>1)</b>",
+                        "class": "",
+                        "id": "BCNlWb1zCYFW",
+                        "block": "text",
+                        "name": "2EE5"
+                      },
+                      {
+                        "class": "inline-block mx-1",
+                        "options": [
+                          {
+                            "text": "I would rather watch",
+                            "class": "",
+                            "id": "t9Bb",
+                            "block": "text",
+                            "name": "qZRw"
+                          },
+                          {
+                            "text": "I would rather watched",
+                            "class": "",
+                            "id": "TuKuB4IC",
+                            "block": "text",
+                            "name": "kBsr"
+                          },
+                          {
+                            "text": "I would rather not watch",
+                            "class": "",
+                            "id": "agDWyjSv",
+                            "block": "text",
+                            "name": "Bmi2"
+                          }
+                        ],
+                        "evaluation": "auto",
+                        "showResult": false,
+                        "dropdown": true,
+                        "dropdownpos": "top",
+                        "id": "S0sM",
+                        "block": "option",
+                        "name": "sVC4",
+                        "attempts": 0
+                      },
+                      {
+                        "text": "movies at home on streaming platforms.",
+                        "class": "",
+                        "id": "YBGU6uRw",
+                        "block": "text",
+                        "name": "xvMA"
+                      }
+                    ],
+                    "background": "",
+                    "id": "ZuI2MWFV",
+                    "block": "group",
+                    "name": "U9gL"
+                  },
+                  {
+                    "marker": "",
+                    "class": "",
+                    "content": [
+                      {
+                        "text": "Stephanie:",
+                        "class": "bg-sky-300 p-1 mr-2",
+                        "id": "qzBUE21VkWa0",
+                        "block": "text",
+                        "name": "osg1"
+                      },
+                      {
+                        "text": "I’m a fan of the big screen experience. <b>2)</b>",
+                        "class": "",
+                        "id": "BCNlWb1zCYFWI5rd",
+                        "block": "text",
+                        "name": "TUis"
+                      },
+                      {
+                        "class": "inline-block mx-1",
+                        "options": [
+                          {
+                            "text": "I would rather enjoy",
+                            "class": "",
+                            "id": "t9BbMCJS",
+                            "block": "text",
+                            "name": "bBJg"
+                          },
+                          {
+                            "text": "I would rather enjoyed",
+                            "class": "",
+                            "id": "TuKuB4ICXg4z",
+                            "block": "text",
+                            "name": "xvvN"
+                          },
+                          {
+                            "text": "I wouldn’t rather enjoy",
+                            "class": "",
+                            "id": "agDWyjSv4oAV",
+                            "block": "text",
+                            "name": "PNRk"
+                          }
+                        ],
+                        "evaluation": "auto",
+                        "showResult": false,
+                        "dropdown": true,
+                        "dropdownpos": "top",
+                        "id": "S0sMgMtX",
+                        "block": "option",
+                        "name": "988X",
+                        "attempts": 0
+                      },
+                      {
+                        "text": "the feeling of a movie theater.",
+                        "class": "",
+                        "id": "Dp5qf3jM",
+                        "block": "text",
+                        "name": "7RjC"
+                      }
+                    ],
+                    "background": "",
+                    "id": "2D4FMXZx",
+                    "block": "group",
+                    "name": "68wp"
+                  },
+                  {
+                    "marker": "",
+                    "class": "",
+                    "content": [
+                      {
+                        "text": "Jacob:",
+                        "class": "bg-red-300 p-1 mr-2",
+                        "id": "qzBUE21VkWa0L66F",
+                        "block": "text",
+                        "name": "zTdg"
+                      },
+                      {
+                        "text": "I get that, but <b>3)</b>",
+                        "class": "",
+                        "id": "BCNlWb1zCYFWI5rd9a4J",
+                        "block": "text",
+                        "name": "ECkE"
+                      },
+                      {
+                        "class": "inline-block mx-1",
+                        "options": [
+                          {
+                            "text": "I’d rather not deal",
+                            "class": "",
+                            "id": "t9BbMCJSEGaB",
+                            "block": "text",
+                            "name": "IVy2"
+                          },
+                          {
+                            "text": "I wouldn’t rather",
+                            "class": "",
+                            "id": "TuKuB4ICXg4znBOV",
+                            "block": "text",
+                            "name": "1KsS"
+                          },
+                          {
+                            "text": "I would not rather dealt",
+                            "class": "",
+                            "id": "agDWyjSv4oAVEAa0",
+                            "block": "text",
+                            "name": "jIbt"
+                          }
+                        ],
+                        "evaluation": "auto",
+                        "showResult": false,
+                        "dropdown": true,
+                        "dropdownpos": "top",
+                        "id": "S0sMgMtXgpzk",
+                        "block": "option",
+                        "name": "5xLw",
+                        "attempts": 0
+                      },
+                      {
+                        "text": "with crowded theaters and expensive tickets. Plus, streaming platforms allow me to pause and rewind if I miss something. ",
+                        "class": "",
+                        "id": "YlhR7dff",
+                        "block": "text",
+                        "name": "jXfl"
+                      }
+                    ],
+                    "background": "",
+                    "id": "3V2Aw6Gb",
+                    "block": "group",
+                    "name": "s2RK"
+                  },
+                  {
+                    "marker": "",
+                    "class": "",
+                    "content": [
+                      {
+                        "text": "Stephanie:",
+                        "class": "bg-sky-300 p-1 mr-2",
+                        "id": "qzBUE21VkWa0L66F2979",
+                        "block": "text",
+                        "name": "R7dS"
+                      },
+                      {
+                        "text": "Well, <b>4)</b>",
+                        "class": "",
+                        "id": "BCNlWb1zCYFWI5rd9a4JrTdA",
+                        "block": "text",
+                        "name": "c6ZC"
+                      },
+                      {
+                        "class": "inline-block mx-1",
+                        "options": [
+                          {
+                            "text": "I would rather sacrifice",
+                            "class": "",
+                            "id": "t9BbMCJSEGaBTEAx",
+                            "block": "text",
+                            "name": "deVv"
+                          },
+                          {
+                            "text": "I’d rather not sacrifice",
+                            "class": "",
+                            "id": "TuKuB4ICXg4znBOVBS9H",
+                            "block": "text",
+                            "name": "IlcE"
+                          },
+                          {
+                            "text": "I would rather to sacrifice",
+                            "class": "",
+                            "id": "agDWyjSv4oAVEAa0Pi6e",
+                            "block": "text",
+                            "name": "XMIZ"
+                          }
+                        ],
+                        "evaluation": "auto",
+                        "showResult": false,
+                        "dropdown": true,
+                        "dropdownpos": "top",
+                        "id": "S0sMgMtXgpzkFUM9",
+                        "block": "option",
+                        "name": "Fm2B",
+                        "attempts": 0
+                      },
+                      {
+                        "text": "a bit for the quality of sound and visuals in a theater. ",
+                        "class": "",
+                        "id": "05z70ZKU",
+                        "block": "text",
+                        "name": "noQw"
+                      }
+                    ],
+                    "background": "",
+                    "id": "ru9NGA22",
+                    "block": "group",
+                    "name": "uzzK"
+                  },
+                  {
+                    "marker": "",
+                    "class": "",
+                    "content": [
+                      {
+                        "text": "Jacob:",
+                        "class": "bg-red-300 p-1 mr-2",
+                        "id": "qzBUE21VkWa0L66FCDCt",
+                        "block": "text",
+                        "name": "f9D5"
+                      },
+                      {
+                        "text": "Personally, <b>5)</b>",
+                        "class": "",
+                        "id": "BCNlWb1zCYFWI5rd9a4JpOzh",
+                        "block": "text",
+                        "name": "AuvD"
+                      },
+                      {
+                        "class": "inline-block mx-1",
+                        "options": [
+                          {
+                            "text": "I would rather have",
+                            "class": "",
+                            "id": "t9BbMCJSEGaB9c7k",
+                            "block": "text",
+                            "name": "20ob"
+                          },
+                          {
+                            "text": "I would rather not have",
+                            "class": "",
+                            "id": "TuKuB4ICXg4znBOVrl1Q",
+                            "block": "text",
+                            "name": "IetB"
+                          },
+                          {
+                            "text": "I’d rather not have",
+                            "class": "",
+                            "id": "agDWyjSv4oAVEAa0jWq6",
+                            "block": "text",
+                            "name": "Kqw8"
+                          }
+                        ],
+                        "evaluation": "auto",
+                        "showResult": false,
+                        "dropdown": true,
+                        "dropdownpos": "top",
+                        "id": "S0sMgMtXgpzktBDX",
+                        "block": "option",
+                        "name": "1AAh",
+                        "attempts": 0
+                      },
+                      {
+                        "text": "the flexibility of watching movies whenever I want on streaming platforms.",
+                        "class": "",
+                        "id": "GKUqDwJP",
+                        "block": "text",
+                        "name": "p5Ni"
+                      }
+                    ],
+                    "background": "",
+                    "id": "xmLmd1KC",
+                    "block": "group",
+                    "name": "0coQ"
+                  },
+                  {
+                    "marker": "",
+                    "class": "",
+                    "content": [
+                      {
+                        "text": "Stephanie:",
+                        "class": "bg-sky-300 p-1 mr-2",
+                        "id": "qzBUE21VkWa0L66FCDCtCTbf",
+                        "block": "text",
+                        "name": "BK9l"
+                      },
+                      {
+                        "text": "That’s true but <b>6)</b>",
+                        "class": "",
+                        "id": "BCNlWb1zCYFWI5rd9a4JpOzhJ4hf",
+                        "block": "text",
+                        "name": "K92P"
+                      },
+                      {
+                        "class": "inline-block mx-1",
+                        "options": [
+                          {
+                            "text": "I would rather get",
+                            "class": "",
+                            "id": "t9BbMCJSEGaB9c7k8Euq",
+                            "block": "text",
+                            "name": "SeGC"
+                          },
+                          {
+                            "text": "I'd rather you get",
+                            "class": "",
+                            "id": "TuKuB4ICXg4znBOVrl1QnjZg",
+                            "block": "text",
+                            "name": "aouA"
+                          },
+                          {
+                            "text": "I would rather to get",
+                            "class": "",
+                            "id": "agDWyjSv4oAVEAa0jWq6zEXi",
+                            "block": "text",
+                            "name": "ktwn"
+                          }
+                        ],
+                        "evaluation": "auto",
+                        "showResult": false,
+                        "dropdown": true,
+                        "dropdownpos": "top",
+                        "id": "S0sMgMtXgpzktBDXSNd3",
+                        "block": "option",
+                        "name": "VLok",
+                        "attempts": 0
+                      },
+                      {
+                        "text": "excited about the cinematic experience that movie theaters offer.",
+                        "class": "",
+                        "id": "CnChUo4P",
+                        "block": "text",
+                        "name": "LJsW"
+                      }
+                    ],
+                    "background": "",
+                    "id": "AHCfmfBH",
+                    "block": "group",
+                    "name": "i5IB"
+                  },
+                  {
+                    "marker": "",
+                    "class": "",
+                    "content": [
+                      {
+                        "text": "Jacob:",
+                        "class": "bg-red-300 p-1 mr-2",
+                        "id": "qzBUE21VkWa0L66FCDCtv8fY",
+                        "block": "text",
+                        "name": "7pjE"
+                      },
+                      {
+                        "text": "I understand, but <b>7)</b>",
+                        "class": "",
+                        "id": "BCNlWb1zCYFWI5rd9a4JpOzhj8v3",
+                        "block": "text",
+                        "name": "dcn3"
+                      },
+                      {
+                        "class": "inline-block mx-1",
+                        "options": [
+                          {
+                            "text": "I would rather not miss",
+                            "class": "",
+                            "id": "t9BbMCJSEGaB9c7kvRBi",
+                            "block": "text",
+                            "name": "Dh0e"
+                          },
+                          {
+                            "text": "I’d rather not missed",
+                            "class": "",
+                            "id": "TuKuB4ICXg4znBOVrl1QDR6w",
+                            "block": "text",
+                            "name": "gCGz"
+                          },
+                          {
+                            "text": "I’d rather not to miss",
+                            "class": "",
+                            "id": "agDWyjSv4oAVEAa0jWq67R4c",
+                            "block": "text",
+                            "name": "B5zi"
+                          }
+                        ],
+                        "evaluation": "auto",
+                        "showResult": false,
+                        "dropdown": true,
+                        "dropdownpos": "top",
+                        "id": "S0sMgMtXgpzktBDXVoGg",
+                        "block": "option",
+                        "name": "2diH",
+                        "attempts": 0
+                      },
+                      {
+                        "text": "the comfort of my own couch and snack at home.",
+                        "class": "",
+                        "id": "31jx8f5K",
+                        "block": "text",
+                        "name": "rVCr"
+                      }
+                    ],
+                    "background": "",
+                    "id": "2kpVIkcD",
+                    "block": "group",
+                    "name": "chsg"
+                  },
+                  {
+                    "marker": "",
+                    "class": "",
+                    "content": [
+                      {
+                        "text": "Stephanie:",
+                        "class": "bg-sky-300 p-1 mr-2",
+                        "id": "qzBUE21VkWa0L66FCDCtv8fYvNV9",
+                        "block": "text",
+                        "name": "psQ1"
+                      },
+                      {
+                        "text": "Well, everyone has their own preferences. <b>8)</b>",
+                        "class": "",
+                        "id": "BCNlWb1zCYFWI5rd9a4JpOzhj8v38JvM",
+                        "block": "text",
+                        "name": "kISo"
+                      },
+                      {
+                        "class": "inline-block mx-1",
+                        "options": [
+                          {
+                            "text": "I’d rather you liked",
+                            "class": "",
+                            "id": "t9BbMCJSEGaB9c7kvRBiHWzt",
+                            "block": "text",
+                            "name": "rqGo"
+                          },
+                          {
+                            "text": "I’d rather you not like",
+                            "class": "",
+                            "id": "TuKuB4ICXg4znBOVrl1QDR6wqpKa",
+                            "block": "text",
+                            "name": "ly1D"
+                          },
+                          {
+                            "text": "I’d rather you like",
+                            "class": "",
+                            "id": "agDWyjSv4oAVEAa0jWq67R4cuZ76",
+                            "block": "text",
+                            "name": "idTj"
+                          }
+                        ],
+                        "evaluation": "auto",
+                        "showResult": false,
+                        "dropdown": true,
+                        "dropdownpos": "top",
+                        "id": "S0sMgMtXgpzktBDXVoGgzSWE",
+                        "block": "option",
+                        "name": "ishm",
+                        "attempts": 0
+                      },
+                      {
+                        "text": "movie theaters.",
+                        "class": "",
+                        "id": "l0pCvMU8",
+                        "block": "text",
+                        "name": "buuz"
+                      }
+                    ],
+                    "background": "",
+                    "id": "bhRlHMIy",
+                    "block": "group",
+                    "name": "TeIE"
+                  },
+                  {
+                    "marker": "",
+                    "class": "",
+                    "content": [
+                      {
+                        "text": "Jacob:",
+                        "class": "bg-red-300 p-1 mr-2",
+                        "id": "qzBUE21VkWa0L66FCDCtv8fYGZgP",
+                        "block": "text",
+                        "name": "ouQX"
+                      },
+                      {
+                        "text": "Yeah, <b>9)</b>",
+                        "class": "",
+                        "id": "BCNlWb1zCYFWI5rd9a4JpOzhj8v3q7g9",
+                        "block": "text",
+                        "name": "1aSP"
+                      },
+                      {
+                        "class": "inline-block mx-1",
+                        "options": [
+                          {
+                            "text": "I’d rather you enjoyed ",
+                            "class": "",
+                            "id": "t9BbMCJSEGaB9c7kvRBix2Cv",
+                            "block": "text",
+                            "name": "Eyd3"
+                          },
+                          {
+                            "text": "I’d rather you to enjoy",
+                            "class": "",
+                            "id": "TuKuB4ICXg4znBOVrl1QDR6wo2rO",
+                            "block": "text",
+                            "name": "MY9X"
+                          },
+                          {
+                            "text": "I’d rather you enjoy",
+                            "class": "",
+                            "id": "agDWyjSv4oAVEAa0jWq67R4cdOwF",
+                            "block": "text",
+                            "name": "uDYc"
+                          }
+                        ],
+                        "evaluation": "auto",
+                        "showResult": false,
+                        "dropdown": true,
+                        "dropdownpos": "top",
+                        "id": "S0sMgMtXgpzktBDXVoGgE2tB",
+                        "block": "option",
+                        "name": "PcZa",
+                        "attempts": 0
+                      },
+                      {
+                        "text": "streaming platforms. By the way, <b>10)</b>",
+                        "class": "",
+                        "id": "8pyBk5m7",
+                        "block": "text",
+                        "name": "xGKi"
+                      },
+                      {
+                        "class": "inline-block mx-1",
+                        "options": [
+                          {
+                            "text": "would you rather have",
+                            "class": "",
+                            "id": "t9BbMCJSEGaB9c7kvRBix2CvwDqV",
+                            "block": "text",
+                            "name": "CYXJ"
+                          },
+                          {
+                            "text": "you would rather have",
+                            "class": "",
+                            "id": "TuKuB4ICXg4znBOVrl1QDR6wo2rO2K7G",
+                            "block": "text",
+                            "name": "4vDS"
+                          },
+                          {
+                            "text": "you’d rather had",
+                            "class": "",
+                            "id": "agDWyjSv4oAVEAa0jWq67R4cdOwF3fjV",
+                            "block": "text",
+                            "name": "TMZy"
+                          }
+                        ],
+                        "evaluation": "auto",
+                        "showResult": false,
+                        "dropdown": true,
+                        "dropdownpos": "top",
+                        "id": "DapLAWLe",
+                        "block": "option",
+                        "name": "8tOJ",
+                        "attempts": 0
+                      },
+                      {
+                        "text": "a movie night with my friends and I this Friday?",
+                        "class": "",
+                        "id": "5wVvBKaL",
+                        "block": "text",
+                        "name": "JR8A"
+                      }
+                    ],
+                    "background": "",
+                    "id": "BtCbg54I",
+                    "block": "group",
+                    "name": "fIC8"
+                  },
+                  {
+                    "marker": "",
+                    "class": "",
+                    "content": [
+                      {
+                        "text": "Stephanie:",
+                        "class": "bg-sky-300 p-1 mr-2",
+                        "id": "qzBUE21VkWa0L66FCDCtv8fYGZgPP956",
+                        "block": "text",
+                        "name": "BiZB"
+                      },
+                      {
+                        "text": "Sorry, I would like to, but I have plans already.",
+                        "class": "",
+                        "id": "BCNlWb1zCYFWI5rd9a4JpOzhj8v3q7g9ELJJ",
+                        "block": "text",
+                        "name": "C5Pv"
+                      }
+                    ],
+                    "background": "",
+                    "id": "0FzcmlKF",
+                    "block": "group",
+                    "name": "neVS"
+                  },
+                  {
+                    "marker": "",
+                    "class": "",
+                    "content": [
+                      {
+                        "text": "Jacob:",
+                        "class": "bg-red-300 p-1 mr-2",
+                        "id": "qzBUE21VkWa0L66FCDCtv8fYGZgPu4z7",
+                        "block": "text",
+                        "name": "EJVd"
+                      },
+                      {
+                        "text": "Ok maybe next weekend. See you.",
+                        "class": "",
+                        "id": "BCNlWb1zCYFWI5rd9a4JpOzhj8v3q7g9h9hp",
+                        "block": "text",
+                        "name": "Ju4R"
+                      }
+                    ],
+                    "background": "",
+                    "id": "zs7eVVer",
+                    "block": "group",
+                    "name": "Em3E"
+                  },
+                  {
+                    "marker": "",
+                    "class": "",
+                    "content": [
+                      {
+                        "text": "Stephanie:",
+                        "class": "bg-sky-300 p-1 mr-2",
+                        "id": "qzBUE21VkWa0L66FCDCtv8fYGZgPu4z71BXi",
+                        "block": "text",
+                        "name": "Riq8"
+                      },
+                      {
+                        "text": "Bye.",
+                        "class": "",
+                        "id": "BCNlWb1zCYFWI5rd9a4JpOzhj8v3q7g9h9hpQhQr",
+                        "block": "text",
+                        "name": "GTO1"
+                      }
+                    ],
+                    "background": "",
+                    "id": "cnC2ffsG",
+                    "block": "group",
+                    "name": "gxhk"
+                  }
+                ],
+                "background": "",
+                "id": "JC5t",
+                "block": "group",
+                "name": "W7iC"
+              }
+            ],
+            "background": "",
+            "name": "4Cs6",
+            "hidden": false
+          },
+          {
+            "symbol": "FinalizeGroup"
+          }
+        ],
+        "id": ""
+      }
+    ]
+  },
+  "end": {
+    "buttons": {
+      "restart": false
+    },
+    "content": [
+      {
+        "symbol": "finishedAll"
+      }
+    ]
+  },
+  "symbols": {
+    "finishedAll": {
+      "class": "w-full",
+      "content": [
+        {
+          "block": "group",
+          "class": "bg-slate-100 rounded p-5 text-center w-full",
+          "content": [
+            {
+              "block": "text",
+              "text": "Congratulations, you finished the activity.",
+              "class": "",
+              "name": "Congra"
+            }
+          ],
+          "background": "",
+          "name": "CongraGroup"
+        },
+        {
+          "block": "group",
+          "class": "text-center p-5",
+          "content": [
+            {
+              "block": "finished",
+              "name": "finishedBlock"
+            }
+          ],
+          "background": "",
+          "name": "finishedGroup"
+        }
+      ],
+      "background": "",
+      "block": "group"
+    },
+    "FinalizeGroup": {
+      "block": "group",
+      "class": "text-center mt-10",
+      "content": [
+        {
+          "block": "button",
+          "class": "mx-auto",
+          "to": "/end",
+          "text": "Finalize",
+          "name": "FinalizeBTN"
+        }
+      ],
+      "background": ""
+    }
+  }
+}
