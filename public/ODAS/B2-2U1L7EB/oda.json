@@ -168,37 +168,17 @@
                                 "class": "flex justify-center items-center ",
                                 "content": [
                                   {
-                                    "evaluation": "auto",
-                                    "positiveid": "4",
-                                    "id": "QjQPF9vMjZ3SlR4p",
-                                    "class": "!w-16 h-16 flex justify-center items-center \n",
-                                    "classitem": "w-6 h-6 rounded-full shadow-md bg-sky-900",
-                                    "content": [
-                                      {
-                                        "class": "",
-                                        "to": "",
-                                        "from": "",
-                                        "posTo": "m",
-                                        "posFrom": "m",
-                                        "posPercentage": false,
-                                        "color": "#075985",
-                                        "id": "c6EQPiKYnKbOIglh",
-                                        "block": "line",
-                                        "name": "B8RG",
-                                        "postToPLeft": 0,
-                                        "postToPTop": 0,
-                                        "postFromPLeft": 0,
-                                        "postFromPTop": 0
-                                      }
-                                    ],
-                                    "block": "dragitem",
-                                    "name": "wgtu"
+                                    "id": "1",
+                                    "class": "!min-h-[40px] bg-white !min-w-[40px] ",
+                                    "block": "dragzone",
+                                    "name": "04bP"
                                   }
                                 ],
                                 "background": " ",
                                 "id": "eEp62NZO1Cx6egSq",
                                 "block": "group",
-                                "name": "uTX0"
+                                "name": "uTX0",
+                                "hidden": false
                               }
                             ],
                             "background": "",
@@ -228,10 +208,31 @@
                                     "class": "inline-block mx-2 align-middle ",
                                     "content": [
                                       {
-                                        "id": "1",
-                                        "class": "!min-h-[40px] !min-w-[40px] ",
-                                        "block": "dragzone",
-                                        "name": "04bP"
+                                        "evaluation": "auto",
+                                        "positiveid": "4",
+                                        "id": "QjQPF9vMjZ3SlR4p",
+                                        "class": "!w-16 h-16 flex justify-center items-center \n",
+                                        "classitem": "w-6 h-6 rounded-full shadow-md bg-sky-900",
+                                        "content": [
+                                          {
+                                            "class": "",
+                                            "to": "",
+                                            "from": "",
+                                            "posTo": "m",
+                                            "posFrom": "m",
+                                            "posPercentage": false,
+                                            "color": "#075985",
+                                            "id": "c6EQPiKYnKbOIglh",
+                                            "block": "line",
+                                            "name": "B8RG",
+                                            "postToPLeft": 0,
+                                            "postToPTop": 0,
+                                            "postFromPLeft": 0,
+                                            "postFromPTop": 0
+                                          }
+                                        ],
+                                        "block": "dragitem",
+                                        "name": "wgtu"
                                       }
                                     ],
                                     "background": "",
@@ -305,31 +306,10 @@
                                 "class": " flex justify-center items-center ",
                                 "content": [
                                   {
-                                    "evaluation": "auto",
-                                    "positiveid": "5",
-                                    "id": "QjQPF9vMjZ3SpwMX",
-                                    "class": "!w-16 h-16 flex justify-center items-center \n",
-                                    "classitem": "w-6 h-6 rounded-full shadow-md bg-sky-900",
-                                    "content": [
-                                      {
-                                        "class": "",
-                                        "to": "",
-                                        "from": "",
-                                        "posTo": "m",
-                                        "posFrom": "m",
-                                        "posPercentage": false,
-                                        "color": "#075985",
-                                        "id": "c6EQPiKYnKbORTyf",
-                                        "block": "line",
-                                        "name": "64Lv",
-                                        "postToPLeft": 0,
-                                        "postToPTop": 0,
-                                        "postFromPLeft": 0,
-                                        "postFromPTop": 0
-                                      }
-                                    ],
-                                    "block": "dragitem",
-                                    "name": "mNUx"
+                                    "id": "2",
+                                    "class": "!min-h-[40px] bg-white !min-w-[40px] ",
+                                    "block": "dragzone",
+                                    "name": "amGn"
                                   }
                                 ],
                                 "background": " ",
@@ -365,10 +345,31 @@
                                     "class": "inline-block mx-2 align-middle\n",
                                     "content": [
                                       {
-                                        "id": "2",
-                                        "class": "!min-h-[40px] !min-w-[40px] ",
-                                        "block": "dragzone",
-                                        "name": "amGn"
+                                        "evaluation": "auto",
+                                        "positiveid": "3",
+                                        "id": "QjQPF9vMjZ3SpwMX",
+                                        "class": "!w-16 h-16 flex justify-center items-center \n",
+                                        "classitem": "w-6 h-6 rounded-full shadow-md bg-sky-900",
+                                        "content": [
+                                          {
+                                            "class": "",
+                                            "to": "",
+                                            "from": "",
+                                            "posTo": "m",
+                                            "posFrom": "m",
+                                            "posPercentage": false,
+                                            "color": "#075985",
+                                            "id": "c6EQPiKYnKbORTyf",
+                                            "block": "line",
+                                            "name": "64Lv",
+                                            "postToPLeft": 0,
+                                            "postToPTop": 0,
+                                            "postFromPLeft": 0,
+                                            "postFromPTop": 0
+                                          }
+                                        ],
+                                        "block": "dragitem",
+                                        "name": "mNUx"
                                       }
                                     ],
                                     "background": "",
@@ -442,32 +443,10 @@
                                 "class": "flex justify-center items-center ",
                                 "content": [
                                   {
-                                    "evaluation": "auto",
-                                    "positiveid": "2",
-                                    "id": "QjQPF9vMjZ3S4rhJ",
-                                    "class": "!w-16 h-16 flex justify-center items-center \n",
-                                    "classitem": "w-6 h-6 rounded-full shadow-md bg-sky-900",
-                                    "content": [
-                                      {
-                                        "class": "",
-                                        "to": "",
-                                        "from": "",
-                                        "posTo": "m",
-                                        "posFrom": "m",
-                                        "posPercentage": false,
-                                        "color": "#075985",
-                                        "id": "c6EQPiKYnKbOuTxE",
-                                        "block": "line",
-                                        "name": "3Bds",
-                                        "postToPLeft": 0,
-                                        "postToPTop": 0,
-                                        "postFromPLeft": 0,
-                                        "postFromPTop": 0
-                                      }
-                                    ],
-                                    "block": "dragitem",
-                                    "name": "AUoY",
-                                    "hidden": false
+                                    "id": "3",
+                                    "class": "!min-h-[40px] bg-white !min-w-[40px] ",
+                                    "block": "dragzone",
+                                    "name": "1xqk"
                                   }
                                 ],
                                 "background": " ",
@@ -492,7 +471,8 @@
                                 "background": "",
                                 "id": "uAiD",
                                 "block": "group",
-                                "name": "Ssz3"
+                                "name": "Ssz3",
+                                "hidden": false
                               },
                               {
                                 "marker": "",
@@ -503,10 +483,32 @@
                                     "class": "inline-block mx-2 align-middle\n",
                                     "content": [
                                       {
-                                        "id": "3",
-                                        "class": "!min-h-[40px] !min-w-[40px] ",
-                                        "block": "dragzone",
-                                        "name": "1xqk"
+                                        "evaluation": "auto",
+                                        "positiveid": "5",
+                                        "id": "QjQPF9vMjZ3S4rhJ",
+                                        "class": "!w-16 h-16 flex justify-center items-center \n",
+                                        "classitem": "w-6 h-6 rounded-full shadow-md bg-sky-900",
+                                        "content": [
+                                          {
+                                            "class": "",
+                                            "to": "",
+                                            "from": "",
+                                            "posTo": "m",
+                                            "posFrom": "m",
+                                            "posPercentage": false,
+                                            "color": "#075985",
+                                            "id": "c6EQPiKYnKbOuTxE",
+                                            "block": "line",
+                                            "name": "3Bds",
+                                            "postToPLeft": 0,
+                                            "postToPTop": 0,
+                                            "postFromPLeft": 0,
+                                            "postFromPTop": 0
+                                          }
+                                        ],
+                                        "block": "dragitem",
+                                        "name": "AUoY",
+                                        "hidden": false
                                       }
                                     ],
                                     "background": "",
@@ -580,31 +582,10 @@
                                 "class": "flex justify-center items-center ",
                                 "content": [
                                   {
-                                    "evaluation": "auto",
-                                    "positiveid": "1",
-                                    "id": "QjQPF9vMjZ3SFsKT",
-                                    "class": "!w-16 h-16 flex justify-center items-center \n",
-                                    "classitem": "w-6 h-6 rounded-full shadow-md bg-sky-900",
-                                    "content": [
-                                      {
-                                        "class": "",
-                                        "to": "",
-                                        "from": "",
-                                        "posTo": "m",
-                                        "posFrom": "m",
-                                        "posPercentage": false,
-                                        "color": "#075985",
-                                        "id": "c6EQPiKYnKbOXbuS",
-                                        "block": "line",
-                                        "name": "wPCm",
-                                        "postToPLeft": 0,
-                                        "postToPTop": 0,
-                                        "postFromPLeft": 0,
-                                        "postFromPTop": 0
-                                      }
-                                    ],
-                                    "block": "dragitem",
-                                    "name": "fkFW"
+                                    "id": "4",
+                                    "class": "!min-h-[40px] bg-white !min-w-[40px]  ",
+                                    "block": "dragzone",
+                                    "name": "5MDw"
                                   }
                                 ],
                                 "background": " ",
@@ -640,10 +621,31 @@
                                     "class": "inline-block mx-2 align-middle\n",
                                     "content": [
                                       {
-                                        "id": "4",
-                                        "class": "!min-h-[40px] !min-w-[40px]  ",
-                                        "block": "dragzone",
-                                        "name": "5MDw"
+                                        "evaluation": "auto",
+                                        "positiveid": "1",
+                                        "id": "QjQPF9vMjZ3SFsKT",
+                                        "class": "!w-16 h-16 flex justify-center items-center \n",
+                                        "classitem": "w-6 h-6 rounded-full shadow-md bg-sky-900",
+                                        "content": [
+                                          {
+                                            "class": "",
+                                            "to": "",
+                                            "from": "",
+                                            "posTo": "m",
+                                            "posFrom": "m",
+                                            "posPercentage": false,
+                                            "color": "#075985",
+                                            "id": "c6EQPiKYnKbOXbuS",
+                                            "block": "line",
+                                            "name": "wPCm",
+                                            "postToPLeft": 0,
+                                            "postToPTop": 0,
+                                            "postFromPLeft": 0,
+                                            "postFromPTop": 0
+                                          }
+                                        ],
+                                        "block": "dragitem",
+                                        "name": "fkFW"
                                       }
                                     ],
                                     "background": "",
@@ -717,31 +719,10 @@
                                 "class": "flex justify-center items-center ",
                                 "content": [
                                   {
-                                    "evaluation": "auto",
-                                    "positiveid": "3",
-                                    "id": "QjQPF9vMjZ3SD2po",
-                                    "class": "!w-16 h-16 flex justify-center items-center \n",
-                                    "classitem": "w-6 h-6 rounded-full shadow-md bg-sky-900",
-                                    "content": [
-                                      {
-                                        "class": "",
-                                        "to": "",
-                                        "from": "",
-                                        "posTo": "m",
-                                        "posFrom": "m",
-                                        "posPercentage": false,
-                                        "color": "#075985",
-                                        "id": "c6EQPiKYnKbODFwh",
-                                        "block": "line",
-                                        "name": "0Y0q",
-                                        "postToPLeft": 0,
-                                        "postToPTop": 0,
-                                        "postFromPLeft": 0,
-                                        "postFromPTop": 0
-                                      }
-                                    ],
-                                    "block": "dragitem",
-                                    "name": "vY2Y"
+                                    "id": "5",
+                                    "class": "!min-h-[40px] bg-white !min-w-[40px] ",
+                                    "block": "dragzone",
+                                    "name": "DGWO"
                                   }
                                 ],
                                 "background": " ",
@@ -777,10 +758,31 @@
                                     "class": "inline-block mx-2 align-middle",
                                     "content": [
                                       {
-                                        "id": "5",
-                                        "class": "!min-h-[40px] !min-w-[40px] ",
-                                        "block": "dragzone",
-                                        "name": "DGWO"
+                                        "evaluation": "auto",
+                                        "positiveid": "2",
+                                        "id": "QjQPF9vMjZ3SD2po",
+                                        "class": "!w-16 h-16 flex justify-center items-center \n",
+                                        "classitem": "w-6 h-6 rounded-full shadow-md bg-sky-900",
+                                        "content": [
+                                          {
+                                            "class": "",
+                                            "to": "",
+                                            "from": "",
+                                            "posTo": "m",
+                                            "posFrom": "m",
+                                            "posPercentage": false,
+                                            "color": "#075985",
+                                            "id": "c6EQPiKYnKbODFwh",
+                                            "block": "line",
+                                            "name": "0Y0q",
+                                            "postToPLeft": 0,
+                                            "postToPTop": 0,
+                                            "postFromPLeft": 0,
+                                            "postFromPTop": 0
+                                          }
+                                        ],
+                                        "block": "dragitem",
+                                        "name": "vY2Y"
                                       }
                                     ],
                                     "background": "",
@@ -968,7 +970,7 @@
                                 "case": false,
                                 "evaluation": "auto",
                                 "class": "text-center",
-                                "positive": "stethoscope",
+                                "positive": "sthethoscope",
                                 "multiline": false,
                                 "placeholder": "-",
                                 "showResult": false,
@@ -1254,7 +1256,7 @@
                         "class": "",
                         "content": [
                           {
-                            "text": "stethoscope",
+                            "text": "sthethoscope",
                             "class": "",
                             "id": "Cg4Y8jO9gYg8X8qD8vgd",
                             "block": "text",
