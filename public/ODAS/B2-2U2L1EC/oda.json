@@ -493,7 +493,7 @@
                             "case": false,
                             "evaluation": "auto",
                             "class": "text-center ",
-                            "positive": "was invented",
+                            "positive": "were invented",
                             "multiline": false,
                             "placeholder": "-",
                             "showResult": false,
