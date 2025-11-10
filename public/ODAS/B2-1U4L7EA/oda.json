@@ -52,7 +52,7 @@
                 "class": "flex justify-center items-center grid grid-cols-3 gap-4 m-5 p-5 bg-sky-300 rounded-lg ",
                 "content": [
                   {
-                    "evaluation": "auto",
+                    "evaluation": "",
                     "positiveid": "2",
                     "id": "kIeBdTuU",
                     "class": "!h-auto w-40",
@@ -70,7 +70,7 @@
                     "name": "Ihtr"
                   },
                   {
-                    "evaluation": "auto",
+                    "evaluation": "",
                     "positiveid": "5",
                     "id": "g46wp9UN",
                     "class": "!h-auto w-40",
@@ -88,7 +88,7 @@
                     "name": "YWQ8"
                   },
                   {
-                    "evaluation": "auto",
+                    "evaluation": "",
                     "positiveid": "1",
                     "id": "X3vI",
                     "class": "!h-auto w-40",
@@ -106,7 +106,7 @@
                     "name": "4Suf"
                   },
                   {
-                    "evaluation": "auto",
+                    "evaluation": "",
                     "positiveid": "4",
                     "id": "6dIlrTnQ",
                     "class": "!h-auto w-40",
@@ -125,7 +125,7 @@
                     "hidden": false
                   },
                   {
-                    "evaluation": "auto",
+                    "evaluation": "",
                     "positiveid": "3",
                     "id": "GVNfN9Sd",
                     "class": "!h-auto w-40",
