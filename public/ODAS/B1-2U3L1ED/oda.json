@@ -102,6 +102,20 @@
                         "id": "y4fB",
                         "block": "group",
                         "name": "BeCj"
+                      },
+                      {
+                        "text": ".",
+                        "class": "",
+                        "id": "7N2JJsKU",
+                        "block": "text",
+                        "name": "1TuU"
+                      },
+                      {
+                        "text": "(go)",
+                        "class": "bg-red-200 p-1 rounded",
+                        "id": "7aGETM03",
+                        "block": "text",
+                        "name": "CGst"
                       }
                     ],
                     "background": "",
@@ -145,11 +159,18 @@
                         "name": "Ubp2"
                       },
                       {
-                        "text": "exams by the end of the day. (have)",
+                        "text": "exams by the end of the day. ",
                         "class": "",
                         "id": "Nv3YNcIk",
                         "block": "text",
                         "name": "Q8mb"
+                      },
+                      {
+                        "text": "(have)",
+                        "class": "bg-red-200 p-1 rounded",
+                        "id": "uUi4KL4P",
+                        "block": "text",
+                        "name": "plEQ"
                       }
                     ],
                     "background": "",
@@ -193,11 +214,18 @@
                         "name": "cZUx"
                       },
                       {
-                        "text": "to a field trip during this school year (take) ",
+                        "text": "to a field trip during this school year.",
                         "class": "",
                         "id": "Nv3YNcIkBh8a",
                         "block": "text",
                         "name": "Q06t"
+                      },
+                      {
+                        "text": "(take) ",
+                        "class": "bg-red-200 p-1 rounded",
+                        "id": "TLOtxLIO",
+                        "block": "text",
+                        "name": "i50I"
                       }
                     ],
                     "background": "",
@@ -241,11 +269,18 @@
                         "name": "hVoT"
                       },
                       {
-                        "text": "during the current school term. (graduate)",
+                        "text": "during the current school term. ",
                         "class": "",
                         "id": "Nv3YNcIkBh8a4ZKT",
                         "block": "text",
                         "name": "Qh3V"
+                      },
+                      {
+                        "text": "(graduate)",
+                        "class": "bg-red-200 p-1 rounded",
+                        "id": "MLGcelHk",
+                        "block": "text",
+                        "name": "9LHu"
                       }
                     ],
                     "background": "",
@@ -289,11 +324,18 @@
                         "name": "LifO"
                       },
                       {
-                        "text": "to do all my pending assignments on time (commit) ",
+                        "text": "to do all my pending assignments on time. ",
                         "class": "",
                         "id": "Nv3YNcIkBh8a4ZKTfLt1",
                         "block": "text",
                         "name": "N3Un"
+                      },
+                      {
+                        "text": "(commit) ",
+                        "class": "bg-red-200 p-1 rounded",
+                        "id": "PsG1Hp7u",
+                        "block": "text",
+                        "name": "YfPm"
                       }
                     ],
                     "background": "",
@@ -337,11 +379,18 @@
                         "name": "Kslt"
                       },
                       {
-                        "text": "a computer for me to work better (buy)",
+                        "text": "a computer for me to work better. ",
                         "class": "",
                         "id": "Nv3YNcIkBh8a4ZKTfLt13yOy",
                         "block": "text",
                         "name": "xVOE"
+                      },
+                      {
+                        "text": "(buy)",
+                        "class": "bg-red-200 p-1 rounded",
+                        "id": "GvNeEkOl",
+                        "block": "text",
+                        "name": "YzLu"
                       }
                     ],
                     "background": "",
@@ -385,11 +434,18 @@
                         "name": "Z1V9"
                       },
                       {
-                        "text": "forward the vacations. (look)",
+                        "text": "forward the vacations. ",
                         "class": "",
                         "id": "Nv3YNcIkBh8a4ZKTfLt13yOyCoYo",
                         "block": "text",
                         "name": "JPQO"
+                      },
+                      {
+                        "text": "(look)",
+                        "class": "bg-red-200 p-1 rounded",
+                        "id": "Fj9al0wS",
+                        "block": "text",
+                        "name": "3mBm"
                       }
                     ],
                     "background": "",
